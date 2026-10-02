@@ -4,6 +4,6 @@ Wikipedia-texter 335
 Commons-bilder 327
 Sidor lästa 0
 Geokodade 6 av 8
-FEL streetview: nyckel saknas (MAPS_KEY)
+Street View 244 platser, 149 med bilder från andra än Google
 Sökningar 168 med träffar 2
-Klart 2026-10-02T12:08:00.641Z
+Klart 2026-10-02T12:22:17.075Z
