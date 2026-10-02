@@ -1,7 +1,9 @@
-SPARQL slott 1132 rader
-Wikidata-sökningar 252
-Wikidata-poster 496
-Wikipedia-texter 290
-Commons-bilder 294
-Sidor lästa 0
-Klart 2026-10-02T11:56:08.994Z
+Wikidata-sökningar 54
+Wikidata-poster 550
+Wikipedia-texter 335
+Commons-bilder 327
+Sidor lästa 76
+Hämtad src/fonts/fraunces-latin.woff2
+Hämtad src/fonts/fraunces-latin-italic.woff2
+Hämtad src/fonts/instrument-sans-latin.woff2
+Klart 2026-10-02T11:58:06.956Z
