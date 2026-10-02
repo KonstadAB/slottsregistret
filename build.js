@@ -23,12 +23,14 @@ S.nearby = (c, n) => {
   return near.sort((a, b) => (b[1].tours.length > 0) - (a[1].tours.length > 0) || a[0] - b[0]).slice(0, n).map(x => x[1]);
 };
 // Startsidans urval: slott med rundtur, helst inbäddningsbar, med bild och hög prioritet; högst två per län.
-S.featured = [];
+// Först de som visar slottet inifrån bäst (granskade för hand), sedan övriga.
+const FEATURE_FIRST = ['granso-slott', 'drottningholms-slott', 'mauritzbergs-slott', 'bjarsjolagards-slott', 'trollenas-slott', 'osterbybruk-herrgard', 'kronovalls-slott', 'malmohus'];
+S.featured = FEATURE_FIRST.map(id => data.castles.find(c => c.id === id)).filter(c => c && c.tours.length);
 {
   const per = {};
   const cand = data.castles.filter(c => c.tours.length && c.image)
     .sort((a, b) => (!!b.tours[0].embed - !!a.tours[0].embed) || (b.tours[0].kind === 'walk') - (a.tours[0].kind === 'walk') || a.prio - b.prio);
-  for (const c of cand) { if (S.featured.length >= 8) break; if ((per[c.lan] = (per[c.lan] || 0) + 1) > 2) continue; S.featured.push(c); }
+  for (const c of cand) { if (S.featured.length >= 8) break; if (S.featured.includes(c)) continue; if ((per[c.lan] = (per[c.lan] || 0) + 1) > 2) continue; S.featured.push(c); }
 }
 
 // ---- Tillgångar (allt under /assets/ får en innehållshash i adressen och cachas ett år) ----
