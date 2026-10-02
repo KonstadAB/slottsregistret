@@ -13,6 +13,10 @@
 //   commonsFiles: [...]             -> storlek, fotograf och licens (bilder från entities tas med)
 //   textPages:  [...]               -> sidans titel, text, inbäddade ramar och länkar
 //   jsonUrls:   [{ url, body? }]    -> svaret som JSON eller text
+//   geocode:    [{ id, queries }]   -> koordinater från OpenStreetMap (Nominatim), första frågan som ger svar
+//   streetview: [{ id, lat, lon }]  -> 360-bilder från andra än Google nära platsen (Street View-metadata, nyckel i
+//                                      miljövariabeln MAPS_KEY): punkter i ett rutnät runt platsen, grupperade per fotograf
+//   search:     [{ id, q }]         -> de tio första träffarna i en webbsökning (DuckDuckGo, html-versionen)
 //   downloads:  [{ url, path }]     -> filen sparas i arkivet på path (t.ex. typsnitt), om den inte redan finns
 import fs from 'node:fs';
 
@@ -174,6 +178,61 @@ await step('jsonUrls', async () => {
     } catch (e) { out.json[key] = { status: 0, error: String(e).slice(0, 160) }; }
     await sleep(300);
   }
+});
+
+await step('geocode', async () => {
+  out.geocode = out.geocode || {};
+  for (const g of req.geocode || []) {
+    out.geocode[g.id] = null;
+    for (const q of g.queries) {
+      try {
+        const j = await get('https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=se&limit=1&q=' + encodeURIComponent(q));
+        await sleep(1100);
+        if (j[0]) { out.geocode[g.id] = { lat: +j[0].lat, lon: +j[0].lon, display: j[0].display_name, type: j[0].type, query: q }; break; }
+      } catch (e) { note('FEL geokod', g.id, String(e).slice(0, 120)); }
+    }
+  }
+  if ((req.geocode || []).length) note('Geokodade', (req.geocode || []).filter(g => out.geocode[g.id]).length, 'av', req.geocode.length);
+});
+
+await step('streetview', async () => {
+  const key = process.env.MAPS_KEY;
+  if (!(req.streetview || []).length) return;
+  if (!key) { note('FEL streetview: nyckel saknas (MAPS_KEY)'); return; }
+  out.streetview = out.streetview || {};
+  // Rutnät: mitten, 8 punkter på 45 m och 8 på 100 m. Varje fråga tar närmaste bild inom 40 m.
+  const pts = [[0, 0]];
+  for (const r of [45, 100]) for (let a = 0; a < 360; a += 45) pts.push([r * Math.cos(a * Math.PI / 180), r * Math.sin(a * Math.PI / 180)]);
+  for (const s of req.streetview) {
+    const found = {};
+    for (const [dx, dy] of pts) {
+      const lat = s.lat + dy / 111320, lon = s.lon + dx / (111320 * Math.cos(s.lat * Math.PI / 180));
+      try {
+        const j = await get(`https://maps.googleapis.com/maps/api/streetview/metadata?location=${lat.toFixed(6)},${lon.toFixed(6)}&radius=40&source=default&key=${key}`);
+        if (j.status === 'OK' && j.pano_id && !/^©\s*Google$/i.test(j.copyright || '') && !found[j.pano_id])
+          found[j.pano_id] = { pano: j.pano_id, by: (j.copyright || '').replace(/^©\s*/, ''), lat: j.location.lat, lon: j.location.lng, date: j.date || null };
+      } catch (e) { note('FEL streetview', s.id, String(e).replace(key, '…').slice(0, 120)); }
+    }
+    out.streetview[s.id] = Object.values(found);
+  }
+  note('Street View', req.streetview.length, 'platser,', Object.values(out.streetview).filter(v => v.length).length, 'med bilder från andra än Google');
+});
+
+await step('search', async () => {
+  out.search = out.search || {};
+  for (const q of req.search || []) {
+    try {
+      const r = await fetch('https://html.duckduckgo.com/html/?kl=se-sv&q=' + encodeURIComponent(q.q), { headers: { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36', Accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
+      const html = await r.text();
+      const res = [...html.matchAll(/<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map(m => {
+        let u = m[1].replace(/&amp;/g, '&'); const mm = u.match(/[?&]uddg=([^&]+)/); if (mm) u = decodeURIComponent(mm[1]);
+        return [u, m[2].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#x27;/g, "'").trim()];
+      }).slice(0, 10);
+      out.search[q.id] = { status: r.status, q: q.q, results: res };
+    } catch (e) { out.search[q.id] = { status: 0, error: String(e).slice(0, 120) }; }
+    await sleep(1500 + Math.random() * 1000);
+  }
+  if ((req.search || []).length) note('Sökningar', req.search.length, 'med träffar', (req.search || []).filter(q => (out.search[q.id].results || []).length).length);
 });
 
 await step('downloads', async () => {

@@ -5,6 +5,10 @@ on:
     branches: ['claude/**']
     paths: ['data/source/bestallning.json', 'tools/hamta.mjs']
   workflow_dispatch:
+    inputs:
+      nyckel:
+        description: 'Google Maps-nyckel (används bara för Street View, syns inte i loggen)'
+        required: false
 permissions:
   contents: write
 concurrency:
@@ -18,7 +22,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node tools/hamta.mjs
+      - name: Hämta
+        run: |
+          KEY=$(jq -r '.inputs.nyckel // empty' "$GITHUB_EVENT_PATH")
+          if [ -n "$KEY" ]; then echo "::add-mask::$KEY"; fi
+          MAPS_KEY="${KEY:-${{ secrets.MAPS_KEY }}}" node tools/hamta.mjs
       - name: Spara svaret på grenen
         if: always()
         run: |

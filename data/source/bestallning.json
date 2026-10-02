@@ -1,327 +1,1956 @@
 {
- "entities": [
-  "Q913070",
-  "Q10678044",
-  "Q1148295",
-  "Q10571259",
-  "Q5489505",
-  "Q2241779",
-  "Q5125026",
-  "Q2533331",
-  "Q5350394",
-  "Q4919689",
-  "Q2970816",
-  "Q1723008",
-  "Q10727840"
- ],
- "wdSearch": [
+ "streetview": [
   {
-   "id": "rossjoholms-slott#0",
-   "q": "Rössjöholms slott"
+   "id": "malmohus",
+   "lat": 55.605,
+   "lon": 12.9875
   },
   {
-   "id": "rossjoholms-slott#1",
-   "q": "Rössjöholms"
+   "id": "karnan",
+   "lat": 56.048185,
+   "lon": 12.697148
   },
   {
-   "id": "rossjoholms-slott#2",
-   "q": "Rössjöholms gods"
+   "id": "sofiero-slott",
+   "lat": 56.083888888889,
+   "lon": 12.659722222222
   },
   {
-   "id": "hogestads-slott#0",
-   "q": "Högestads gods"
+   "id": "glimmingehus",
+   "lat": 55.500833333333,
+   "lon": 14.230833333333
   },
   {
-   "id": "hogestads-slott#1",
-   "q": "Högestads"
+   "id": "bosjokloster",
+   "lat": 55.877222222222,
+   "lon": 13.518611111111
   },
   {
-   "id": "hogestads-slott#2",
-   "q": "Högestads slott"
+   "id": "hovdala-slott",
+   "lat": 56.104444444444,
+   "lon": 13.7125
   },
   {
-   "id": "kastellet-karlshamn#0",
-   "q": "Kastellet Karlshamns slott"
+   "id": "backaskog-slott",
+   "lat": 56.085833333333,
+   "lon": 14.348611111111
   },
   {
-   "id": "kastellet-karlshamn#1",
-   "q": "Kastellet Karlshamn slott"
+   "id": "christinehofs-slott",
+   "lat": 55.7179,
+   "lon": 13.9607
   },
   {
-   "id": "kastellet-karlshamn#2",
-   "q": "Kastellet Karlshamn"
+   "id": "svaneholms-slott",
+   "lat": 55.50015,
+   "lon": 13.4783833333
   },
   {
-   "id": "kastellet-karlshamn#3",
-   "q": "Kastellet Karlshamn gods"
+   "id": "torups-slott",
+   "lat": 55.565277777778,
+   "lon": 13.208611111111
   },
   {
-   "id": "wapno-slott#0",
-   "q": "Wapnös slott"
+   "id": "trollenas-slott",
+   "lat": 55.86556,
+   "lon": 13.24506
   },
   {
-   "id": "wapno-slott#1",
-   "q": "Wapnö"
+   "id": "krapperups-slott",
+   "lat": 56.262,
+   "lon": 12.53
   },
   {
-   "id": "wapno-slott#2",
-   "q": "Wapnö slott"
+   "id": "landskrona-citadell",
+   "lat": 55.873055555556,
+   "lon": 12.8225
   },
   {
-   "id": "wapno-slott#3",
-   "q": "Wapnö gods"
+   "id": "borgeby-slott",
+   "lat": 55.751388888889,
+   "lon": 13.036666666667
   },
   {
-   "id": "sperlingsholms-slott#0",
-   "q": "Sperlingsholms slott"
+   "id": "wanas-slott",
+   "lat": 56.18676,
+   "lon": 14.04639
   },
   {
-   "id": "sperlingsholms-slott#1",
-   "q": "Sperlingsholms"
+   "id": "kronovalls-slott",
+   "lat": 55.6415,
+   "lon": 14.0486
   },
   {
-   "id": "sperlingsholms-slott#2",
-   "q": "Sperlingsholms gods"
+   "id": "snogeholms-slott",
+   "lat": 55.5606,
+   "lon": 13.7128
   },
   {
-   "id": "sollidens-slott#0",
-   "q": "Sollidens gods"
+   "id": "hackeberga-slott",
+   "lat": 55.58027778,
+   "lon": 13.42833333
   },
   {
-   "id": "sollidens-slott#1",
-   "q": "Sollidens slott"
+   "id": "vittskovle-slott",
+   "lat": 55.854722222222,
+   "lon": 14.133333333333
   },
   {
-   "id": "sollidens-slott#2",
-   "q": "Sollidens"
+   "id": "trolleholms-slott",
+   "lat": 55.908333333333,
+   "lon": 13.261944444444
   },
   {
-   "id": "bergkvara-slottsruin#0",
-   "q": "Bergkvarasruins slott"
+   "id": "tosterups-slott",
+   "lat": 55.48,
+   "lon": 13.986388888889
   },
   {
-   "id": "bergkvara-slottsruin#1",
-   "q": "Bergkvara slottsruin"
+   "id": "trolle-ljungby-slott",
+   "lat": 56.0218,
+   "lon": 14.3699
   },
   {
-   "id": "bergkvara-slottsruin#2",
-   "q": "Bergkvarasruin slott"
+   "id": "bjarsjoholms-slott",
+   "lat": 55.453722222222,
+   "lon": 13.777388888889
   },
   {
-   "id": "bergkvara-slottsruin#3",
-   "q": "Bergkvarasruin gods"
+   "id": "marsvinsholms-slott",
+   "lat": 55.463333333333,
+   "lon": 13.708055555556
   },
   {
-   "id": "bergkvara-slottsruin#4",
-   "q": "Bergkvarasruin"
+   "id": "krageholms-slott",
+   "lat": 55.493,
+   "lon": 13.7656
   },
   {
-   "id": "stjarnorps-slottsruin#0",
-   "q": "Stjärnorpssruin gods"
+   "id": "kulla-gunnarstorps-slott",
+   "lat": 56.1092,
+   "lon": 12.6295
   },
   {
-   "id": "stjarnorps-slottsruin#1",
-   "q": "Stjärnorpssruin"
+   "id": "vrams-gunnarstorps-slott",
+   "lat": 56.1036,
+   "lon": 12.9692
   },
   {
-   "id": "stjarnorps-slottsruin#2",
-   "q": "Stjärnorpssruins slott"
+   "id": "barsebacks-slott",
+   "lat": 55.775833333333,
+   "lon": 12.951388888889
   },
   {
-   "id": "stjarnorps-slottsruin#3",
-   "q": "Stjärnorpssruin slott"
+   "id": "skabersjo-slott",
+   "lat": 55.540555555556,
+   "lon": 13.146666666667
   },
   {
-   "id": "stjarnorps-slottsruin#4",
-   "q": "Stjärnorps slottsruin"
+   "id": "nasbyholms-slott",
+   "lat": 55.468333333333,
+   "lon": 13.460555555556
   },
   {
-   "id": "yxtaholms-slott#0",
-   "q": "Yxtaholms"
+   "id": "maltesholms-slott",
+   "lat": 55.902222222222,
+   "lon": 13.980833333333
   },
   {
-   "id": "yxtaholms-slott#1",
-   "q": "Yxtaholms slott"
+   "id": "knutstorps-borg",
+   "lat": 55.97944444,
+   "lon": 13.13472222
   },
   {
-   "id": "yxtaholms-slott#2",
-   "q": "Yxtaholms gods"
+   "id": "skarhults-slott",
+   "lat": 55.804166666667,
+   "lon": 13.371111111111
   },
   {
-   "id": "sodertuna-slott#0",
-   "q": "Södertunas slott"
+   "id": "ellinge-slott",
+   "lat": 55.8117,
+   "lon": 13.2875
   },
   {
-   "id": "sodertuna-slott#1",
-   "q": "Södertuna gods"
+   "id": "alnarps-slott",
+   "lat": 55.65723,
+   "lon": 13.08357
   },
   {
-   "id": "sodertuna-slott#2",
-   "q": "Södertuna"
+   "id": "rabelovs-slott",
+   "lat": 56.079166666667,
+   "lon": 14.190555555556
   },
   {
-   "id": "sodertuna-slott#3",
-   "q": "Södertuna slott"
+   "id": "ovedsklosters-slott",
+   "lat": 55.686388888889,
+   "lon": 13.635833333333
   },
   {
-   "id": "stora-wasby-slott#0",
-   "q": "Stora Wäsbys slott"
+   "id": "bollerups-borg",
+   "lat": 55.491388888889,
+   "lon": 14.045833333333
   },
   {
-   "id": "stora-wasby-slott#1",
-   "q": "Stora Wäsby gods"
+   "id": "lindholmens-borgruin",
+   "lat": 55.496944444444,
+   "lon": 13.298333333333
   },
   {
-   "id": "stora-wasby-slott#2",
-   "q": "Stora Wäsby"
+   "id": "stjarneholms-borgruin",
+   "lat": 55.48861111,
+   "lon": 13.4575
   },
   {
-   "id": "stora-wasby-slott#3",
-   "q": "Stora Wäsby slott"
+   "id": "manstorps-gavlar",
+   "lat": 55.478333333333,
+   "lon": 13.136944444444
   },
   {
-   "id": "gronsoo-slott#0",
-   "q": "Grönsöö slott"
+   "id": "falsterbohus",
+   "lat": 55.38623333333334,
+   "lon": 12.829233333333333
   },
   {
-   "id": "gronsoo-slott#1",
-   "q": "Grönsöö gods"
+   "id": "gladsaxehus",
+   "lat": 55.56166667,
+   "lon": 14.28833333
   },
   {
-   "id": "gronsoo-slott#2",
-   "q": "Grönsöö"
+   "id": "lillo-borgruin",
+   "lat": 56.0383,
+   "lon": 14.1222
   },
   {
-   "id": "gronsoo-slott#3",
-   "q": "Grönsöös slott"
+   "id": "rosendals-slott-skane",
+   "lat": 59.32888889,
+   "lon": 18.11833333
   },
   {
-   "id": "sjoo-slott#0",
-   "q": "Sjöö gods"
+   "id": "rossjoholms-slott",
+   "lat": 56.313611111111,
+   "lon": 13.094722222222
   },
   {
-   "id": "sjoo-slott#1",
-   "q": "Sjöö"
+   "id": "bjornstorps-slott",
+   "lat": 55.628,
+   "lon": 13.4066
   },
   {
-   "id": "sjoo-slott#2",
-   "q": "Sjöös slott"
+   "id": "karsholms-slott",
+   "lat": 56.115833333333,
+   "lon": 14.3075
   },
   {
-   "id": "sjoo-slott#3",
-   "q": "Sjöö slott"
+   "id": "charlottenlunds-slott",
+   "lat": 55.430833333333,
+   "lon": 13.690833333333
   },
   {
-   "id": "gysinge-herrgard#0",
-   "q": "Gysinge"
+   "id": "jordberga-slott",
+   "lat": 55.415,
+   "lon": 13.415555555556
   },
   {
-   "id": "gysinge-herrgard#1",
-   "q": "Gysinge slott"
+   "id": "borringekloster",
+   "lat": 55.5069,
+   "lon": 13.3256
   },
   {
-   "id": "gysinge-herrgard#2",
-   "q": "Gysinge gods"
+   "id": "dybacks-slott",
+   "lat": 55.4012,
+   "lon": 13.525
   },
   {
-   "id": "gysinge-herrgard#3",
-   "q": "Gysinge herrgård"
+   "id": "gyllebo-slott",
+   "lat": 55.598888888889,
+   "lon": 14.196388888889
   },
   {
-   "id": "gysinge-herrgard#4",
-   "q": "Gysinges slott"
+   "id": "tullesbo",
+   "lat": 55.70916667,
+   "lon": 13.66083333
+  },
+  {
+   "id": "bjarsjolagards-slott",
+   "lat": 55.726111111111,
+   "lon": 13.698888888889
+  },
+  {
+   "id": "loberods-slott",
+   "lat": 55.7728,
+   "lon": 13.4825
+  },
+  {
+   "id": "ovesholms-slott",
+   "lat": 56.000486111111,
+   "lon": 14.001741666667
+  },
+  {
+   "id": "palsjo-slott",
+   "lat": 56.068888888889,
+   "lon": 12.68
+  },
+  {
+   "id": "hjularods-slott",
+   "lat": 55.735,
+   "lon": 13.558888888889
+  },
+  {
+   "id": "hogestads-slott",
+   "lat": 55.507222222222,
+   "lon": 13.878055555556
+  },
+  {
+   "id": "osbyholms-slott",
+   "lat": 55.851,
+   "lon": 13.601
+  },
+  {
+   "id": "smedstorps-slott",
+   "lat": 55.563052777778,
+   "lon": 14.107752777778
+  },
+  {
+   "id": "sovdeborgs-slott",
+   "lat": 55.581944444444,
+   "lon": 13.696944444444
+  },
+  {
+   "id": "svenstorps-slott",
+   "lat": 55.7657,
+   "lon": 13.2553
+  },
+  {
+   "id": "viderups-slott",
+   "lat": 55.7775,
+   "lon": 13.2875
+  },
+  {
+   "id": "vegeholms-slott",
+   "lat": 56.2058,
+   "lon": 12.8068
+  },
+  {
+   "id": "tunbyholms-slott",
+   "lat": 55.597777777778,
+   "lon": 14.123333333333
+  },
+  {
+   "id": "toppeladugards-slott",
+   "lat": 55.595555555556,
+   "lon": 13.362777777778
+  },
+  {
+   "id": "ronneholms-slott",
+   "lat": 55.934444444444,
+   "lon": 13.389722222222
+  },
+  {
+   "id": "hanaskogs-slott",
+   "lat": 56.151388888889,
+   "lon": 14.113611111111
+  },
+  {
+   "id": "garsnas-slott",
+   "lat": 55.5328,
+   "lon": 14.1767
+  },
+  {
+   "id": "bellinga-slott",
+   "lat": 55.528055555556,
+   "lon": 13.716944444444
+  },
+  {
+   "id": "beritsholm",
+   "lat": 55.732314,
+   "lon": 13.687663
+  },
+  {
+   "id": "klagerups-slott",
+   "lat": 55.5997,
+   "lon": 13.2676
+  },
+  {
+   "id": "johannishus-slott",
+   "lat": 56.24527778,
+   "lon": 15.41388889
+  },
+  {
+   "id": "kungsholms-fort",
+   "lat": 56.10797,
+   "lon": 15.58877
+  },
+  {
+   "id": "drottningskars-kastell",
+   "lat": 56.110167,
+   "lon": 15.564336
+  },
+  {
+   "id": "tjoloholms-slott",
+   "lat": 57.398611111111,
+   "lon": 12.103055555556
+  },
+  {
+   "id": "varbergs-fastning",
+   "lat": 57.1043,
+   "lon": 12.2415666667
+  },
+  {
+   "id": "halmstads-slott",
+   "lat": 56.67166667,
+   "lon": 12.85777778
+  },
+  {
+   "id": "skottorps-slott",
+   "lat": 56.43583333,
+   "lon": 12.97861111
+  },
+  {
+   "id": "gasevadholms-slott",
+   "lat": 57.49333333,
+   "lon": 12.12277778
+  },
+  {
+   "id": "vallens-slott",
+   "lat": 56.4294,
+   "lon": 13.1269
+  },
+  {
+   "id": "lacko-slott",
+   "lat": 58.675,
+   "lon": 13.22
+  },
+  {
+   "id": "naas-slott",
+   "lat": 57.81638889,
+   "lon": 12.40125
+  },
+  {
+   "id": "gunnebo-slott",
+   "lat": 57.658055555556,
+   "lon": 12.058333333333
+  },
+  {
+   "id": "bohus-fastning",
+   "lat": 57.861944444444,
+   "lon": 11.999444444444
+  },
+  {
+   "id": "carlstens-fastning",
+   "lat": 57.886111111111,
+   "lon": 11.578333333333
+  },
+  {
+   "id": "nya-alvsborgs-fastning",
+   "lat": 57.686083333333,
+   "lon": 11.838361111111
+  },
+  {
+   "id": "skansen-kronan",
+   "lat": 57.696024,
+   "lon": 11.955319
+  },
+  {
+   "id": "karlsborgs-fastning",
+   "lat": 58.53194444,
+   "lon": 14.53055556
+  },
+  {
+   "id": "torpa-stenhus",
+   "lat": 57.65,
+   "lon": 13.27944444
+  },
+  {
+   "id": "thorskogs-slott",
+   "lat": 58.0333,
+   "lon": 12.1364
+  },
+  {
+   "id": "bjertorps-slott",
+   "lat": 58.26458333,
+   "lon": 13.11319444
+  },
+  {
+   "id": "stola-herrgard",
+   "lat": 58.59471111,
+   "lon": 13.08423889
+  },
+  {
+   "id": "sundsby-sateri",
+   "lat": 58.0703,
+   "lon": 11.6889
+  },
+  {
+   "id": "dalaborg",
+   "lat": 58.60333333,
+   "lon": 12.60555556
+  },
+  {
+   "id": "tureborg",
+   "lat": 58.3405,
+   "lon": 11.9527
+  },
+  {
+   "id": "kobergs-slott",
+   "lat": 58.16388889,
+   "lon": 12.41111111
+  },
+  {
+   "id": "mariedals-slott",
+   "lat": 58.4725,
+   "lon": 13.40675
+  },
+  {
+   "id": "kavlas-slott",
+   "lat": 58.226111111111,
+   "lon": 13.876111111111
+  },
+  {
+   "id": "dagsnas-slott",
+   "lat": 58.28430556,
+   "lon": 13.49486111
+  },
+  {
+   "id": "almnas-slott",
+   "lat": 58.24777778,
+   "lon": 14.26472222
+  },
+  {
+   "id": "hellidens-slott",
+   "lat": 58.17388889,
+   "lon": 13.97888889
+  },
+  {
+   "id": "hojentorps-slott",
+   "lat": 58.413566,
+   "lon": 13.64196
+  },
+  {
+   "id": "kalmar-slott",
+   "lat": 56.65805556,
+   "lon": 16.35527778
+  },
+  {
+   "id": "borgholms-slottsruin",
+   "lat": 56.870555555556,
+   "lon": 16.643333333333
+  },
+  {
+   "id": "sollidens-slott",
+   "lat": 56.865277777778,
+   "lon": 16.634444444444
+  },
+  {
+   "id": "eketorps-borg",
+   "lat": 56.295555555556,
+   "lon": 16.486111111111
+  },
+  {
+   "id": "ismantorps-borg",
+   "lat": 56.745438,
+   "lon": 16.642681
+  },
+  {
+   "id": "graborg",
+   "lat": 56.666422,
+   "lon": 16.603991
+  },
+  {
+   "id": "granso-slott",
+   "lat": 57.76111111,
+   "lon": 16.68416667
+  },
+  {
+   "id": "stegeholms-slottsruin",
+   "lat": 57.7625,
+   "lon": 16.64277778
+  },
+  {
+   "id": "blekhem",
+   "lat": 57.82275,
+   "lon": 16.42788889
+  },
+  {
+   "id": "kronobergs-slottsruin",
+   "lat": 56.9417293,
+   "lon": 14.7947217
+  },
+  {
+   "id": "teleborgs-slott",
+   "lat": 56.856944444444,
+   "lon": 14.834444444444
+  },
+  {
+   "id": "huseby-bruk",
+   "lat": 56.77965,
+   "lon": 14.5842833333
+  },
+  {
+   "id": "brahehus",
+   "lat": 58.05281,
+   "lon": 14.505153
+  },
+  {
+   "id": "visingsborgs-slottsruin",
+   "lat": 58.035075,
+   "lon": 14.352069
+  },
+  {
+   "id": "nas-slottsruin",
+   "lat": 57.998055555556,
+   "lon": 14.291111111111
+  },
+  {
+   "id": "gripenbergs-slott",
+   "lat": 57.99847222,
+   "lon": 14.89513889
+  },
+  {
+   "id": "vastana-slott",
+   "lat": 57.99,
+   "lon": 14.42111111
+  },
+  {
+   "id": "lyckas-slott",
+   "lat": 57.88,
+   "lon": 14.349
+  },
+  {
+   "id": "visby-ringmur",
+   "lat": 57.640277777778,
+   "lon": 18.294444444444
+  },
+  {
+   "id": "roma-kungsgard",
+   "lat": 57.516001,
+   "lon": 18.458989
+  },
+  {
+   "id": "katthammarsvik-katthamra",
+   "lat": 57.433141876402,
+   "lon": 18.850833393044
+  },
+  {
+   "id": "stora-hastnas",
+   "lat": 57.6599,
+   "lon": 18.3637
+  },
+  {
+   "id": "vadstena-slott",
+   "lat": 58.44597222,
+   "lon": 14.88361111
+  },
+  {
+   "id": "linkopings-slott",
+   "lat": 58.41055556,
+   "lon": 15.61583333
+  },
+  {
+   "id": "lofstad-slott",
+   "lat": 58.55047222,
+   "lon": 16.04069444
+  },
+  {
+   "id": "ekenas-slott",
+   "lat": 58.38208333,
+   "lon": 15.94597222
+  },
+  {
+   "id": "bjarka-saby-slott",
+   "lat": 58.270555555556,
+   "lon": 15.738888888889
+  },
+  {
+   "id": "stegeborgs-slottsruin",
+   "lat": 58.441388888889,
+   "lon": 16.598888888889
+  },
+  {
+   "id": "sturefors-slott",
+   "lat": 58.324722222222,
+   "lon": 15.776111111111
+  },
+  {
+   "id": "brokinds-slott",
+   "lat": 58.21083333,
+   "lon": 15.66222222
+  },
+  {
+   "id": "charlottenborgs-slott",
+   "lat": 58.54138889,
+   "lon": 15.06388889
+  },
+  {
+   "id": "ljungs-slott",
+   "lat": 58.52833333,
+   "lon": 15.44361111
+  },
+  {
+   "id": "finspangs-slott",
+   "lat": 58.70972222,
+   "lon": 15.77083333
+  },
+  {
+   "id": "mauritzbergs-slott",
+   "lat": 58.60583333,
+   "lon": 16.67833333
+  },
+  {
+   "id": "johannisborgs-slottsruin",
+   "lat": 58.60083333,
+   "lon": 16.19888889
+  },
+  {
+   "id": "braborgs-slottsruin",
+   "lat": 58.615523,
+   "lon": 16.343694
+  },
+  {
+   "id": "mems-slott",
+   "lat": 58.481565,
+   "lon": 16.41119
+  },
+  {
+   "id": "ulvasa",
+   "lat": 58.5536,
+   "lon": 15.15
+  },
+  {
+   "id": "gripsholms-slott",
+   "lat": 59.256111,
+   "lon": 17.219167
+  },
+  {
+   "id": "nykopingshus",
+   "lat": 58.74847222,
+   "lon": 17.01166667
+  },
+  {
+   "id": "nynas-slott",
+   "lat": 58.80833333,
+   "lon": 17.36611111
+  },
+  {
+   "id": "julita-gard",
+   "lat": 59.15111111,
+   "lon": 16.03916667
+  },
+  {
+   "id": "sundbyholms-slott",
+   "lat": 59.44777778,
+   "lon": 16.62388889
+  },
+  {
+   "id": "malsakers-slott",
+   "lat": 59.38416667,
+   "lon": 17.30666667
+  },
+  {
+   "id": "tureholms-slott",
+   "lat": 58.8961,
+   "lon": 17.5133
+  },
+  {
+   "id": "ericsbergs-slott",
+   "lat": 58.93263889,
+   "lon": 16.37875
+  },
+  {
+   "id": "stora-sundby-slott",
+   "lat": 59.2703,
+   "lon": 16.1264
+  },
+  {
+   "id": "sparreholms-slott",
+   "lat": 59.08361111,
+   "lon": 16.82694444
+  },
+  {
+   "id": "stenhammars-slott",
+   "lat": 59.05041667,
+   "lon": 16.55194444
+  },
+  {
+   "id": "harpsund",
+   "lat": 59.099166666667,
+   "lon": 16.485277777778
+  },
+  {
+   "id": "claestorps-slott",
+   "lat": 58.96222222,
+   "lon": 16.12055556
+  },
+  {
+   "id": "rockelstads-slott",
+   "lat": 59.039313,
+   "lon": 16.856943
+  },
+  {
+   "id": "sodertuna-slott",
+   "lat": 59.0683,
+   "lon": 17.305
+  },
+  {
+   "id": "safstaholms-slott",
+   "lat": 59.04611111,
+   "lon": 15.88222222
+  },
+  {
+   "id": "vibyholms-slott",
+   "lat": 58.9917,
+   "lon": 16.8642
+  },
+  {
+   "id": "fiholms-slott",
+   "lat": 59.43388889,
+   "lon": 16.7425
+  },
+  {
+   "id": "elghammar",
+   "lat": 59.05611111,
+   "lon": 17.08083333
+  },
+  {
+   "id": "ekensholms-slott",
+   "lat": 59.16222222,
+   "lon": 16.87611111
+  },
+  {
+   "id": "bjorksunds-slott",
+   "lat": 58.78666667,
+   "lon": 17.28083333
+  },
+  {
+   "id": "rinkesta",
+   "lat": 59.35833333,
+   "lon": 16.52166667
+  },
+  {
+   "id": "oster-malma",
+   "lat": 58.95083333,
+   "lon": 17.15805556
+  },
+  {
+   "id": "tistads-slott",
+   "lat": 58.8255,
+   "lon": 16.8911
+  },
+  {
+   "id": "tynnelso-slott",
+   "lat": 59.41222222,
+   "lon": 17.10027778
+  },
+  {
+   "id": "akero",
+   "lat": 58.89305556,
+   "lon": 16.57111111
+  },
+  {
+   "id": "stockholms-slott",
+   "lat": 59.326666666667,
+   "lon": 18.071666666667
+  },
+  {
+   "id": "drottningholms-slott",
+   "lat": 59.321694,
+   "lon": 17.886383
+  },
+  {
+   "id": "kina-slott",
+   "lat": 59.31694444,
+   "lon": 17.87861111
+  },
+  {
+   "id": "ulriksdals-slott",
+   "lat": 59.390277777778,
+   "lon": 18.016944444444
+  },
+  {
+   "id": "hagaslottet",
+   "lat": 59.36361111,
+   "lon": 18.03944444
+  },
+  {
+   "id": "gustav-iii-s-paviljong",
+   "lat": 59.36277778,
+   "lon": 18.03916667
+  },
+  {
+   "id": "rosendals-slott",
+   "lat": 59.32888889,
+   "lon": 18.11833333
+  },
+  {
+   "id": "rosersbergs-slott",
+   "lat": 59.57416667,
+   "lon": 17.84444444
+  },
+  {
+   "id": "tullgarns-slott",
+   "lat": 58.950277777778,
+   "lon": 17.584444444444
+  },
+  {
+   "id": "tyreso-slott",
+   "lat": 59.23527778,
+   "lon": 18.30472222
+  },
+  {
+   "id": "svartsjo-slott",
+   "lat": 59.36277778,
+   "lon": 17.72777778
+  },
+  {
+   "id": "karlbergs-slott",
+   "lat": 59.34083333,
+   "lon": 18.0225
+  },
+  {
+   "id": "steninge-slott",
+   "lat": 59.60208333,
+   "lon": 17.80444444
+  },
+  {
+   "id": "venngarns-slott",
+   "lat": 59.64861111,
+   "lon": 17.71972222
+  },
+  {
+   "id": "haringe-slott",
+   "lat": 59.03976,
+   "lon": 18.014315
+  },
+  {
+   "id": "arsta-slott",
+   "lat": 59.1075,
+   "lon": 18.19388889
+  },
+  {
+   "id": "sandemar",
+   "lat": 59.12572834402764,
+   "lon": 18.35322361529498
+  },
+  {
+   "id": "taxinge-slott",
+   "lat": 59.24694444,
+   "lon": 17.30916667
+  },
+  {
+   "id": "sturehovs-slott",
+   "lat": 59.25788889,
+   "lon": 17.75866667
+  },
+  {
+   "id": "horningsholms-slott",
+   "lat": 59.05083333,
+   "lon": 17.66583333
+  },
+  {
+   "id": "erstavik",
+   "lat": 59.26777778,
+   "lon": 18.24583333
+  },
+  {
+   "id": "hasselby-slott",
+   "lat": 59.36555556,
+   "lon": 17.85444444
+  },
+  {
+   "id": "akeshovs-slott",
+   "lat": 59.34083333,
+   "lon": 17.92472222
+  },
+  {
+   "id": "ulvsunda-slott",
+   "lat": 59.34083333,
+   "lon": 17.96388889
+  },
+  {
+   "id": "kristinebergs-slott",
+   "lat": 59.33388889,
+   "lon": 18.00555556
+  },
+  {
+   "id": "nasby-slott",
+   "lat": 59.42416667,
+   "lon": 18.08666667
+  },
+  {
+   "id": "djursholms-slott",
+   "lat": 59.40138889,
+   "lon": 18.08916667
+  },
+  {
+   "id": "bogesunds-slott",
+   "lat": 59.39333333,
+   "lon": 18.28444444
+  },
+  {
+   "id": "vaxholms-kastell",
+   "lat": 59.40305556,
+   "lon": 18.35972222
+  },
+  {
+   "id": "edsbergs-slott",
+   "lat": 59.44111111,
+   "lon": 17.95555556
+  },
+  {
+   "id": "ekebyhovs-slott",
+   "lat": 59.28277778,
+   "lon": 17.81472222
+  },
+  {
+   "id": "alsno-hus",
+   "lat": 59.36055556,
+   "lon": 17.535
+  },
+  {
+   "id": "gorvalns-slott",
+   "lat": 59.43472222,
+   "lon": 17.7875
+  },
+  {
+   "id": "granhammars-slott",
+   "lat": 59.51777778,
+   "lon": 17.78
+  },
+  {
+   "id": "lejondals-slott",
+   "lat": 59.52444444,
+   "lon": 17.67416667
+  },
+  {
+   "id": "runsa-slott",
+   "lat": 59.55861111,
+   "lon": 17.82388889
+  },
+  {
+   "id": "stora-wasby-slott",
+   "lat": 59.5325,
+   "lon": 17.9056
+  },
+  {
+   "id": "rydboholms-slott",
+   "lat": 59.440277777778,
+   "lon": 18.185555555556
+  },
+  {
+   "id": "ostana-slott",
+   "lat": 59.55722222222222,
+   "lon": 18.578333333333333
+  },
+  {
+   "id": "skanelaholms-slott",
+   "lat": 59.57833333,
+   "lon": 17.93583333
+  },
+  {
+   "id": "penningby-slott",
+   "lat": 59.68138889,
+   "lon": 18.6725
+  },
+  {
+   "id": "ekebyholms-slott",
+   "lat": 59.76805556,
+   "lon": 18.35222222
+  },
+  {
+   "id": "johannesbergs-slott",
+   "lat": 59.7361,
+   "lon": 18.1903
+  },
+  {
+   "id": "skoklosters-slott",
+   "lat": 59.70305555555556,
+   "lon": 17.621388888888887
+  },
+  {
+   "id": "uppsala-slott",
+   "lat": 59.85359,
+   "lon": 17.63543
+  },
+  {
+   "id": "wiks-slott",
+   "lat": 59.73611111,
+   "lon": 17.46166667
+  },
+  {
+   "id": "ekolsunds-slott",
+   "lat": 59.65083333,
+   "lon": 17.36666667
+  },
+  {
+   "id": "haga-slott",
+   "lat": 59.36361111,
+   "lon": 18.03944444
+  },
+  {
+   "id": "salsta-slott",
+   "lat": 60.04527778,
+   "lon": 17.73972222
+  },
+  {
+   "id": "orbyhus-slott",
+   "lat": 60.2,
+   "lon": 17.7092
+  },
+  {
+   "id": "noors-slott",
+   "lat": 59.71611111,
+   "lon": 17.81972222
+  },
+  {
+   "id": "ekholmens-slott",
+   "lat": 59.51305556,
+   "lon": 17.37416667
+  },
+  {
+   "id": "salnecke-slott",
+   "lat": 59.73888889,
+   "lon": 17.33805556
+  },
+  {
+   "id": "lovstabruk",
+   "lat": 60.4106166667,
+   "lon": 17.8778
+  },
+  {
+   "id": "osterbybruk-herrgard",
+   "lat": 60.1936,
+   "lon": 17.8995
+  },
+  {
+   "id": "stromsholms-slott",
+   "lat": 59.525,
+   "lon": 16.27
+  },
+  {
+   "id": "angso-slott",
+   "lat": 59.5325,
+   "lon": 16.8575
+  },
+  {
+   "id": "tido-slott",
+   "lat": 59.5056,
+   "lon": 16.4783
+  },
+  {
+   "id": "engso-slott",
+   "lat": 59.5325,
+   "lon": 16.8575
+  },
+  {
+   "id": "vasteras-slott",
+   "lat": 59.60638889,
+   "lon": 16.54444444
+  },
+  {
+   "id": "fullero",
+   "lat": 59.5475,
+   "lon": 16.54583333
+  },
+  {
+   "id": "orebro-slott",
+   "lat": 59.273888888889,
+   "lon": 15.215277777778
+  },
+  {
+   "id": "stjernsunds-slott",
+   "lat": 58.85166667,
+   "lon": 14.93777778
+  },
+  {
+   "id": "karlslunds-herrgard",
+   "lat": 59.26916666666666,
+   "lon": 15.148888888888889
+  },
+  {
+   "id": "goksholms-slott",
+   "lat": 59.266944444444,
+   "lon": 15.553888888889
+  },
+  {
+   "id": "boo-slott",
+   "lat": 58.925555555555555,
+   "lon": 15.519722222222223
+  },
+  {
+   "id": "haddebo",
+   "lat": 58.91388889,
+   "lon": 15.37
+  },
+  {
+   "id": "rottneros-herrgard",
+   "lat": 59.79846388888889,
+   "lon": 13.127461111111112
+  },
+  {
+   "id": "marbacka",
+   "lat": 59.781266666667,
+   "lon": 13.233208333333
+  },
+  {
+   "id": "alsters-herrgard",
+   "lat": 59.39833333,
+   "lon": 13.60222222
+  },
+  {
+   "id": "gavle-slott",
+   "lat": 60.67222222,
+   "lon": 17.14416667
+  },
+  {
+   "id": "gysinge-herrgard",
+   "lat": 60.289283333333,
+   "lon": 16.884883333333
+  },
+  {
+   "id": "hemso-fastning",
+   "lat": 62.692316666667,
+   "lon": 18.102466666667
+  },
+  {
+   "id": "fjallnas",
+   "lat": 67.12563888888889,
+   "lon": 20.65963888888889
+  },
+  {
+   "id": "bodens-fastning-rodbergsfortet",
+   "lat": 65.7911,
+   "lon": 21.6572
   }
  ],
- "textPages": [
-  "http://engso.se/",
-  "http://fastningsguiden.com/the-red-mountain-fort/",
-  "http://malsaker.nu/english/",
-  "http://noorsslott.se/",
-  "http://ostergotlandsmuseum.se/lofstad",
-  "http://slottsguiden.info/",
-  "http://www.akeshofsslott.se/",
-  "http://www.bogesundsslott.se",
-  "http://www.borringekloster.se/",
-  "http://www.burgenwelt.org/schweden/malmo/object.php",
-  "http://www.charlottenlund.se/",
-  "http://www.eketorpsborg.se/english.html",
-  "http://www.erstavik.se",
-  "http://www.fiholm.se/",
-  "http://www.gunneboslott.se/",
-  "http://www.hjularod.se",
-  "http://www.hovdala.se/hovdalaslott/hovdalaslott/spraksidor/english.4.1b15c51c14a4c971bbe2e90.html",
-  "http://www.johannishus.com",
-  "http://www.kalmarslott.se/",
-  "http://www.knutstorp.se/",
-  "http://www.kulturparkensmaland.se/1.0.1.0/42/1/",
-  "http://www.marbacka.com/",
-  "http://www.orbyhusslott.se/eng/",
-  "http://www.romakungsgard.se",
-  "http://www.royalcourt.se/dekungligaslotten/kungligaslottet.4.7c4768101a4e8883780002658.html",
-  "http://www.skansenkronan.se/",
-  "http://www.skoklostersslott.se/",
-  "http://www.stegeborg.se/slottsruin.php",
-  "http://www.svaneholm-slott.se",
-  "http://www.svartsjoslott.se/",
-  "http://www.svensktkulturarv.se/uppland/penningby-slott",
-  "http://www.tidoslott.se/",
-  "http://www.tosterup.se/",
-  "http://www.uppsalaslott.com/",
-  "http://www.vasteras-slott.se/",
-  "http://www.vaxholmsfastning.se/",
-  "http://www.vitterhetsakad.se/kulturfastigheter/skanelaholms_slott/visningar",
-  "https://bjarsjolagardsslott.se",
-  "https://bohusfastning.com",
-  "https://borgholmsslott.se",
-  "https://carlsten.se/",
-  "https://hemso.butikhogakusten.se/",
-  "https://orebroslott.se",
-  "https://salsta-slott.se",
-  "https://sormlandsmuseum.se/besoksinfo/nykopingshus/",
-  "https://storasundby.com/",
-  "https://teleborgsslott.com",
-  "https://vadstenaslott.com",
-  "https://www.ekenasslott.se/",
-  "https://www.ekero.se/uppleva-gora/ekebyhovs-slott",
-  "https://www.harpsund.se",
-  "https://www.jordberga.se/",
-  "https://www.koberg.se",
-  "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html",
-  "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion.html",
-  "https://www.lackoslott.se",
-  "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/sandemar.html",
-  "https://www.nordiskamuseet.se/en/palace-manors/julita-manor",
-  "https://www.nordiskamuseet.se/slott-gardar/tyreso-slott",
-  "https://www.nynasslott.se/nyn%C3%A4s-manor-nature-reserve",
-  "https://www.raa.se/in-english/events-seminars-and-cultural-experiences/experience-the-cultural-heritage/glimmingehus_eng/",
-  "https://www.rosersbergsslott.se/en/",
-  "https://www.royalpalaces.se/english/royal-palaces-and-sites/gripsholm-castle.html",
-  "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html",
-  "https://www.royalpalaces.se/english/royal-palaces-and-sites/ulriksdal-palace.html",
-  "https://www.sfv.se/vara-fastigheter/sok/sverige/blekinge-lan/drottningskars-kastell/stigheter/sverige/blekinge-lan-k/drottningskär-citadel/",
-  "https://www.skottorpsslott.se",
-  "https://www.sofiero.se",
-  "https://www.sturehov.se",
-  "https://www.thorskogsslott.se/",
-  "https://www.tjoloholm.se",
-  "https://www.tjorn.se/sundsby",
-  "https://www.trolleholmsslott.se",
-  "https://www.vastsverige.com/en/karlsborg/karlsborgs-fastning---eng/",
-  "https://www.vingaker.se/kultur-fritid/kultur/safstaholms-slott/",
-  "https://www.wanas.se/"
+ "geocode": [
+  {
+   "id": "kastellet-karlshamn",
+   "queries": [
+    "Kastellet Karlshamn, Karlshamn",
+    "Kastellet Karlshamn"
+   ]
+  },
+  {
+   "id": "wapno-slott",
+   "queries": [
+    "Wapnö slott, Halmstad",
+    "Wapnö slott"
+   ]
+  },
+  {
+   "id": "sperlingsholms-slott",
+   "queries": [
+    "Sperlingsholms slott, Halmstad",
+    "Sperlingsholms slott"
+   ]
+  },
+  {
+   "id": "bergkvara-slottsruin",
+   "queries": [
+    "Bergkvara slottsruin, Växjö",
+    "Bergkvara slottsruin"
+   ]
+  },
+  {
+   "id": "stjarnorps-slottsruin",
+   "queries": [
+    "Stjärnorps slottsruin, Linköping",
+    "Stjärnorps slottsruin"
+   ]
+  },
+  {
+   "id": "yxtaholms-slott",
+   "queries": [
+    "Yxtaholms slott, Flen",
+    "Yxtaholms slott"
+   ]
+  },
+  {
+   "id": "gronsoo-slott",
+   "queries": [
+    "Grönsöö slott, Enköping",
+    "Grönsöö slott"
+   ]
+  },
+  {
+   "id": "sjoo-slott",
+   "queries": [
+    "Sjöö slott, Enköping",
+    "Sjöö slott"
+   ]
+  }
  ],
- "downloads": [
+ "search": [
   {
-   "url": "https://cdn.jsdelivr.net/fontsource/fonts/fraunces:vf@latest/latin-wght-normal.woff2",
-   "path": "src/fonts/fraunces-latin.woff2"
+   "id": "karnan",
+   "q": "Kärnan Helsingborg"
   },
   {
-   "url": "https://cdn.jsdelivr.net/fontsource/fonts/fraunces:vf@latest/latin-wght-italic.woff2",
-   "path": "src/fonts/fraunces-latin-italic.woff2"
+   "id": "bosjokloster",
+   "q": "Bosjökloster Höör"
   },
   {
-   "url": "https://cdn.jsdelivr.net/fontsource/fonts/instrument-sans:vf@latest/latin-wght-normal.woff2",
-   "path": "src/fonts/instrument-sans-latin.woff2"
+   "id": "christinehofs-slott",
+   "q": "Christinehofs slott Tomelilla"
+  },
+  {
+   "id": "torups-slott",
+   "q": "Torups slott Svedala"
+  },
+  {
+   "id": "trollenas-slott",
+   "q": "Trollenäs slott Eslöv"
+  },
+  {
+   "id": "krapperups-slott",
+   "q": "Krapperups slott Höganäs"
+  },
+  {
+   "id": "landskrona-citadell",
+   "q": "Landskrona citadell Landskrona"
+  },
+  {
+   "id": "borgeby-slott",
+   "q": "Borgeby slott Lomma"
+  },
+  {
+   "id": "kronovalls-slott",
+   "q": "Kronovalls slott Tomelilla"
+  },
+  {
+   "id": "snogeholms-slott",
+   "q": "Snogeholms slott Sjöbo"
+  },
+  {
+   "id": "hackeberga-slott",
+   "q": "Häckeberga slott Lund"
+  },
+  {
+   "id": "vittskovle-slott",
+   "q": "Vittskövle slott Kristianstad"
+  },
+  {
+   "id": "trolle-ljungby-slott",
+   "q": "Trolle-Ljungby slott Kristianstad"
+  },
+  {
+   "id": "bjarsjoholms-slott",
+   "q": "Bjärsjöholms slott Ystad"
+  },
+  {
+   "id": "marsvinsholms-slott",
+   "q": "Marsvinsholms slott Ystad"
+  },
+  {
+   "id": "krageholms-slott",
+   "q": "Krageholms slott Ystad"
+  },
+  {
+   "id": "kulla-gunnarstorps-slott",
+   "q": "Kulla Gunnarstorps slott Helsingborg"
+  },
+  {
+   "id": "vrams-gunnarstorps-slott",
+   "q": "Vrams Gunnarstorps slott Bjuv"
+  },
+  {
+   "id": "barsebacks-slott",
+   "q": "Barsebäcks slott Kävlinge"
+  },
+  {
+   "id": "skabersjo-slott",
+   "q": "Skabersjö slott Svedala"
+  },
+  {
+   "id": "nasbyholms-slott",
+   "q": "Näsbyholms slott Skurup"
+  },
+  {
+   "id": "maltesholms-slott",
+   "q": "Maltesholms slott Kristianstad"
+  },
+  {
+   "id": "skarhults-slott",
+   "q": "Skarhults slott Eslöv"
+  },
+  {
+   "id": "ellinge-slott",
+   "q": "Ellinge slott Eslöv"
+  },
+  {
+   "id": "alnarps-slott",
+   "q": "Alnarps slott Lomma"
+  },
+  {
+   "id": "rabelovs-slott",
+   "q": "Råbelövs slott Kristianstad"
+  },
+  {
+   "id": "ovedsklosters-slott",
+   "q": "Övedsklosters slott Sjöbo"
+  },
+  {
+   "id": "bollerups-borg",
+   "q": "Bollerups borg Tomelilla"
+  },
+  {
+   "id": "lindholmens-borgruin",
+   "q": "Lindholmens borgruin Svedala"
+  },
+  {
+   "id": "stjarneholms-borgruin",
+   "q": "Stjärneholms borgruin Skurup"
+  },
+  {
+   "id": "manstorps-gavlar",
+   "q": "Månstorps gavlar Vellinge"
+  },
+  {
+   "id": "falsterbohus",
+   "q": "Falsterbohus Vellinge"
+  },
+  {
+   "id": "gladsaxehus",
+   "q": "Gladsaxehus Simrishamn"
+  },
+  {
+   "id": "lillo-borgruin",
+   "q": "Lillö borgruin Kristianstad"
+  },
+  {
+   "id": "rossjoholms-slott",
+   "q": "Rössjöholms slott Ängelholm"
+  },
+  {
+   "id": "bjornstorps-slott",
+   "q": "Björnstorps slott Lund"
+  },
+  {
+   "id": "karsholms-slott",
+   "q": "Karsholms slott Kristianstad"
+  },
+  {
+   "id": "dybacks-slott",
+   "q": "Dybäcks slott Ystad"
+  },
+  {
+   "id": "gyllebo-slott",
+   "q": "Gyllebo slott Simrishamn"
+  },
+  {
+   "id": "tullesbo",
+   "q": "Tullesbo Sjöbo"
+  },
+  {
+   "id": "loberods-slott",
+   "q": "Löberöds slott Eslöv"
+  },
+  {
+   "id": "ovesholms-slott",
+   "q": "Ovesholms slott Kristianstad"
+  },
+  {
+   "id": "palsjo-slott",
+   "q": "Pålsjö slott Helsingborg"
+  },
+  {
+   "id": "osbyholms-slott",
+   "q": "Osbyholms slott Hörby"
+  },
+  {
+   "id": "smedstorps-slott",
+   "q": "Smedstorps slott Tomelilla"
+  },
+  {
+   "id": "sovdeborgs-slott",
+   "q": "Sövdeborgs slott Sjöbo"
+  },
+  {
+   "id": "svenstorps-slott",
+   "q": "Svenstorps slott Trelleborg"
+  },
+  {
+   "id": "viderups-slott",
+   "q": "Viderups slott Eslöv"
+  },
+  {
+   "id": "vegeholms-slott",
+   "q": "Vegeholms slott Ängelholm"
+  },
+  {
+   "id": "tunbyholms-slott",
+   "q": "Tunbyholms slott Tomelilla"
+  },
+  {
+   "id": "toppeladugards-slott",
+   "q": "Toppeladugårds slott Lund"
+  },
+  {
+   "id": "ronneholms-slott",
+   "q": "Rönneholms slott Eslöv"
+  },
+  {
+   "id": "hanaskogs-slott",
+   "q": "Hanaskogs slott Östra Göinge"
+  },
+  {
+   "id": "garsnas-slott",
+   "q": "Gärsnäs slott Simrishamn"
+  },
+  {
+   "id": "bellinga-slott",
+   "q": "Bellinga slott Ystad"
+  },
+  {
+   "id": "beritsholm",
+   "q": "Beritsholm Trelleborg"
+  },
+  {
+   "id": "klagerups-slott",
+   "q": "Klågerups slott Svedala"
+  },
+  {
+   "id": "kungsholms-fort",
+   "q": "Kungsholms fort Karlskrona"
+  },
+  {
+   "id": "kastellet-karlshamn",
+   "q": "Kastellet Karlshamn Karlshamn"
+  },
+  {
+   "id": "varbergs-fastning",
+   "q": "Varbergs fästning Varberg"
+  },
+  {
+   "id": "halmstads-slott",
+   "q": "Halmstads slott Halmstad"
+  },
+  {
+   "id": "wapno-slott",
+   "q": "Wapnö slott Halmstad"
+  },
+  {
+   "id": "gasevadholms-slott",
+   "q": "Gåsevadholms slott Kungsbacka"
+  },
+  {
+   "id": "vallens-slott",
+   "q": "Vallens slott Laholm"
+  },
+  {
+   "id": "sperlingsholms-slott",
+   "q": "Sperlingsholms slott Halmstad"
+  },
+  {
+   "id": "naas-slott",
+   "q": "Nääs slott Lerum"
+  },
+  {
+   "id": "nya-alvsborgs-fastning",
+   "q": "Nya Älvsborgs fästning Göteborg"
+  },
+  {
+   "id": "torpa-stenhus",
+   "q": "Torpa stenhus Tranemo"
+  },
+  {
+   "id": "bjertorps-slott",
+   "q": "Bjertorps slott Vara"
+  },
+  {
+   "id": "stola-herrgard",
+   "q": "Stola herrgård Lidköping"
+  },
+  {
+   "id": "dalaborg",
+   "q": "Dalaborg Mellerud"
+  },
+  {
+   "id": "tureborg",
+   "q": "Tureborg Vänersborg"
+  },
+  {
+   "id": "mariedals-slott",
+   "q": "Mariedals slott Götene"
+  },
+  {
+   "id": "kavlas-slott",
+   "q": "Kavlås slott Tidaholm"
+  },
+  {
+   "id": "dagsnas-slott",
+   "q": "Dagsnäs slott Falköping"
+  },
+  {
+   "id": "almnas-slott",
+   "q": "Almnäs slott Hjo"
+  },
+  {
+   "id": "hellidens-slott",
+   "q": "Hellidens slott Tidaholm"
+  },
+  {
+   "id": "hojentorps-slott",
+   "q": "Höjentorps slott Skara"
+  },
+  {
+   "id": "ismantorps-borg",
+   "q": "Ismantorps borg Borgholm"
+  },
+  {
+   "id": "graborg",
+   "q": "Gråborg Mörbylånga"
+  },
+  {
+   "id": "granso-slott",
+   "q": "Gränsö slott Västervik"
+  },
+  {
+   "id": "stegeholms-slottsruin",
+   "q": "Stegeholms slottsruin Västervik"
+  },
+  {
+   "id": "blekhem",
+   "q": "Blekhem Västervik"
+  },
+  {
+   "id": "bergkvara-slottsruin",
+   "q": "Bergkvara slottsruin Växjö"
+  },
+  {
+   "id": "huseby-bruk",
+   "q": "Huseby bruk Ljungby"
+  },
+  {
+   "id": "brahehus",
+   "q": "Brahehus Jönköping"
+  },
+  {
+   "id": "visingsborgs-slottsruin",
+   "q": "Visingsborgs slottsruin Jönköping"
+  },
+  {
+   "id": "nas-slottsruin",
+   "q": "Näs slottsruin Jönköping"
+  },
+  {
+   "id": "gripenbergs-slott",
+   "q": "Gripenbergs slott Tranås"
+  },
+  {
+   "id": "vastana-slott",
+   "q": "Västanå slott Jönköping"
+  },
+  {
+   "id": "lyckas-slott",
+   "q": "Lyckås slott Jönköping"
+  },
+  {
+   "id": "visby-ringmur",
+   "q": "Visby ringmur Gotland"
+  },
+  {
+   "id": "katthammarsvik-katthamra",
+   "q": "Katthammarsvik (Katthamra) Gotland"
+  },
+  {
+   "id": "stora-hastnas",
+   "q": "Stora Hästnäs Gotland"
+  },
+  {
+   "id": "linkopings-slott",
+   "q": "Linköpings slott Linköping"
+  },
+  {
+   "id": "bjarka-saby-slott",
+   "q": "Bjärka-Säby slott Linköping"
+  },
+  {
+   "id": "sturefors-slott",
+   "q": "Sturefors slott Linköping"
+  },
+  {
+   "id": "brokinds-slott",
+   "q": "Brokinds slott Linköping"
+  },
+  {
+   "id": "charlottenborgs-slott",
+   "q": "Charlottenborgs slott Motala"
+  },
+  {
+   "id": "ljungs-slott",
+   "q": "Ljungs slott Linköping"
+  },
+  {
+   "id": "finspangs-slott",
+   "q": "Finspångs slott Finspång"
+  },
+  {
+   "id": "mauritzbergs-slott",
+   "q": "Mauritzbergs slott Norrköping"
+  },
+  {
+   "id": "stjarnorps-slottsruin",
+   "q": "Stjärnorps slottsruin Linköping"
+  },
+  {
+   "id": "johannisborgs-slottsruin",
+   "q": "Johannisborgs slottsruin Norrköping"
+  },
+  {
+   "id": "braborgs-slottsruin",
+   "q": "Bråborgs slottsruin Norrköping"
+  },
+  {
+   "id": "mems-slott",
+   "q": "Mems slott Söderköping"
+  },
+  {
+   "id": "ulvasa",
+   "q": "Ulvåsa Motala"
+  },
+  {
+   "id": "sundbyholms-slott",
+   "q": "Sundbyholms slott Eskilstuna"
+  },
+  {
+   "id": "tureholms-slott",
+   "q": "Tureholms slott Trosa"
+  },
+  {
+   "id": "ericsbergs-slott",
+   "q": "Ericsbergs slott Katrineholm"
+  },
+  {
+   "id": "sparreholms-slott",
+   "q": "Sparreholms slott Flen"
+  },
+  {
+   "id": "stenhammars-slott",
+   "q": "Stenhammars slott Flen"
+  },
+  {
+   "id": "claestorps-slott",
+   "q": "Claestorps slott Katrineholm"
+  },
+  {
+   "id": "yxtaholms-slott",
+   "q": "Yxtaholms slott Flen"
+  },
+  {
+   "id": "sodertuna-slott",
+   "q": "Södertuna slott Gnesta"
+  },
+  {
+   "id": "vibyholms-slott",
+   "q": "Vibyholms slott Flen"
+  },
+  {
+   "id": "elghammar",
+   "q": "Elghammar Nyköping"
+  },
+  {
+   "id": "bjorksunds-slott",
+   "q": "Björksunds slott Nyköping"
+  },
+  {
+   "id": "rinkesta",
+   "q": "Rinkesta Eskilstuna"
+  },
+  {
+   "id": "oster-malma",
+   "q": "Öster-Malma Nyköping"
+  },
+  {
+   "id": "tynnelso-slott",
+   "q": "Tynnelsö slott Strängnäs"
+  },
+  {
+   "id": "akero",
+   "q": "Åkerö Flen"
+  },
+  {
+   "id": "hagaslottet",
+   "q": "Hagaslottet Solna"
+  },
+  {
+   "id": "gustav-iii-s-paviljong",
+   "q": "Gustav III:s paviljong Solna"
+  },
+  {
+   "id": "tullgarns-slott",
+   "q": "Tullgarns slott Södertälje"
+  },
+  {
+   "id": "karlbergs-slott",
+   "q": "Karlbergs slott Solna"
+  },
+  {
+   "id": "steninge-slott",
+   "q": "Steninge slott Sigtuna"
+  },
+  {
+   "id": "venngarns-slott",
+   "q": "Venngarns slott Sigtuna"
+  },
+  {
+   "id": "haringe-slott",
+   "q": "Häringe slott Haninge"
+  },
+  {
+   "id": "arsta-slott",
+   "q": "Årsta slott Haninge"
+  },
+  {
+   "id": "taxinge-slott",
+   "q": "Taxinge slott Nykvarn"
+  },
+  {
+   "id": "horningsholms-slott",
+   "q": "Hörningsholms slott Södertälje"
+  },
+  {
+   "id": "hasselby-slott",
+   "q": "Hässelby slott Stockholm"
+  },
+  {
+   "id": "ulvsunda-slott",
+   "q": "Ulvsunda slott Stockholm"
+  },
+  {
+   "id": "kristinebergs-slott",
+   "q": "Kristinebergs slott Stockholm"
+  },
+  {
+   "id": "nasby-slott",
+   "q": "Näsby slott Täby"
+  },
+  {
+   "id": "djursholms-slott",
+   "q": "Djursholms slott Danderyd"
+  },
+  {
+   "id": "edsbergs-slott",
+   "q": "Edsbergs slott Sollentuna"
+  },
+  {
+   "id": "alsno-hus",
+   "q": "Alsnö hus Ekerö"
+  },
+  {
+   "id": "gorvalns-slott",
+   "q": "Görvälns slott Järfälla"
+  },
+  {
+   "id": "granhammars-slott",
+   "q": "Granhammars slott Upplands-Bro"
+  },
+  {
+   "id": "lejondals-slott",
+   "q": "Lejondals slott Upplands-Bro"
+  },
+  {
+   "id": "runsa-slott",
+   "q": "Runsa slott Upplands Väsby"
+  },
+  {
+   "id": "stora-wasby-slott",
+   "q": "Stora Wäsby slott Upplands Väsby"
+  },
+  {
+   "id": "ostana-slott",
+   "q": "Östanå slott Österåker"
+  },
+  {
+   "id": "ekebyholms-slott",
+   "q": "Ekebyholms slott Norrtälje"
+  },
+  {
+   "id": "johannesbergs-slott",
+   "q": "Johannesbergs slott Norrtälje"
+  },
+  {
+   "id": "wiks-slott",
+   "q": "Wiks slott Uppsala"
+  },
+  {
+   "id": "ekolsunds-slott",
+   "q": "Ekolsunds slott Enköping"
+  },
+  {
+   "id": "gronsoo-slott",
+   "q": "Grönsöö slott Enköping"
+  },
+  {
+   "id": "haga-slott",
+   "q": "Haga slott Enköping"
+  },
+  {
+   "id": "ekholmens-slott",
+   "q": "Ekholmens slott Uppsala"
+  },
+  {
+   "id": "sjoo-slott",
+   "q": "Sjöö slott Enköping"
+  },
+  {
+   "id": "salnecke-slott",
+   "q": "Salnecke slott Enköping"
+  },
+  {
+   "id": "lovstabruk",
+   "q": "Lövstabruk Tierp"
+  },
+  {
+   "id": "osterbybruk-herrgard",
+   "q": "Österbybruk herrgård Östhammar"
+  },
+  {
+   "id": "stromsholms-slott",
+   "q": "Strömsholms slott Hallstahammar"
+  },
+  {
+   "id": "fullero",
+   "q": "Fullerö Västerås"
+  },
+  {
+   "id": "stjernsunds-slott",
+   "q": "Stjernsunds slott Askersund"
+  },
+  {
+   "id": "karlslunds-herrgard",
+   "q": "Karlslunds herrgård Örebro"
+  },
+  {
+   "id": "goksholms-slott",
+   "q": "Göksholms slott Örebro"
+  },
+  {
+   "id": "boo-slott",
+   "q": "Boo slott Örebro"
+  },
+  {
+   "id": "haddebo",
+   "q": "Haddebo Örebro"
+  },
+  {
+   "id": "rottneros-herrgard",
+   "q": "Rottneros herrgård Sunne"
+  },
+  {
+   "id": "alsters-herrgard",
+   "q": "Alsters herrgård Karlstad"
+  },
+  {
+   "id": "gavle-slott",
+   "q": "Gävle slott Gävle"
+  },
+  {
+   "id": "gysinge-herrgard",
+   "q": "Gysinge herrgård Sandviken"
+  },
+  {
+   "id": "fjallnas",
+   "q": "Fjällnäs Härjedalen"
   }
  ]
 }
