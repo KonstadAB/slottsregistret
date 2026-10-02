@@ -1,0 +1,13 @@
+/
+/kungliga-slott/
+/lan/skane/
+/slott/granso-slott/
+/slott/gripsholms-slott/
+/slott/akeshovs-slott/
+/karta/
+/virtuella-rundturer/
+/bo-pa-slott/
+/lan/
+/for-slott/
+/om/
+/kontakt/
