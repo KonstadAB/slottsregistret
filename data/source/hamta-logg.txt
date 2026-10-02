@@ -1,38 +1,27 @@
-SPARQL videos 0 rader
 Wikidata-sökningar 0
 Wikidata-poster 550
 Wikipedia-texter 335
 Commons-bilder 327
 Sidor lästa 0
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Drottningholm_Palace_(by_Pudelek)_3.jpg/640px-Drottningholm_Palace_(by_Pudelek)_3.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Gripsholms_slott_view2.jpg/640px-Gripsholms_slott_view2.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/0283Läckö_slott.jpg/640px-0283Läckö_slott.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kalmar_slott_frontal.jpg/640px-Kalmar_slott_frontal.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vadstena.slottet.jpg/640px-Vadstena.slottet.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tjolöholms_Slott.png/640px-Tjolöholms_Slott.png Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Skokloster_fasad_2013b.jpg/640px-Skokloster_fasad_2013b.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vittskövle_slott.jpg/640px-Vittskövle_slott.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Trolleholms_slott.JPG/640px-Trolleholms_slott.JPG Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Sofiero_Fassade.JPG/640px-Sofiero_Fassade.JPG Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Torups_slott_från_väster.jpg/640px-Torups_slott_från_väster.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Christinehof2.jpg/640px-Christinehof2.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tureholms_slott_norr_2012.jpg/640px-Tureholms_slott_norr_2012.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Strömsholms_slott0.jpg/640px-Strömsholms_slott0.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Katrineholm_Schloss_Eriksberg.jpg/640px-Katrineholm_Schloss_Eriksberg.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/GransoSlottVastervik20130720.JPG/640px-GransoSlottVastervik20130720.JPG Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bosjo_monastery_in_Skane_Sweden4.jpg/640px-Bosjo_monastery_in_Skane_Sweden4.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Krageholms_slott.jpg/640px-Krageholms_slott.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wanås_2011-2.jpg/640px-Wanås_2011-2.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Orebro_slott_2010.JPG/640px-Orebro_slott_2010.JPG Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nynäs_slott,_May_2010.jpg/640px-Nynäs_slott,_May_2010.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tidö_slott-4.jpg/640px-Tidö_slott-4.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sturefors_slott.jpg/640px-Sturefors_slott.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Stora_Sundby_slott,_juli_2018a.jpg/640px-Stora_Sundby_slott,_juli_2018a.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Swedish_castle_Vrams_Gunnarstorp.jpg/640px-Swedish_castle_Vrams_Gunnarstorp.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Trolle_Ljungby_slott.jpg/640px-Trolle_Ljungby_slott.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Swedish_castle_Skabersjö.jpg/640px-Swedish_castle_Skabersjö.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Swedish_castle_Marsvinsholm.jpg/640px-Swedish_castle_Marsvinsholm.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tyreso_slott_view1.jpg/640px-Tyreso_slott_view1.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steninge_Palace_nov_2011_nr2_Publish.jpg/640px-Steninge_Palace_nov_2011_nr2_Publish.jpg Error: HTTP 400
-Nedladdade 0 av 30
-Klart 2026-10-02T14:38:43.891Z
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Torups_slott_fr%C3%A5n_v%C3%A4ster.jpg/500px-Torups_slott_fr%C3%A5n_v%C3%A4ster.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Christinehof2.jpg/500px-Christinehof2.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tureholms_slott_norr_2012.jpg/500px-Tureholms_slott_norr_2012.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Str%C3%B6msholms_slott0.jpg/500px-Str%C3%B6msholms_slott0.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Katrineholm_Schloss_Eriksberg.jpg/500px-Katrineholm_Schloss_Eriksberg.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/GransoSlottVastervik20130720.JPG/500px-GransoSlottVastervik20130720.JPG Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bosjo_monastery_in_Skane_Sweden4.jpg/500px-Bosjo_monastery_in_Skane_Sweden4.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Krageholms_slott.jpg/500px-Krageholms_slott.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wan%C3%A5s_2011-2.jpg/500px-Wan%C3%A5s_2011-2.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Orebro_slott_2010.JPG/500px-Orebro_slott_2010.JPG Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nyn%C3%A4s_slott%2C_May_2010.jpg/500px-Nyn%C3%A4s_slott%2C_May_2010.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tid%C3%B6_slott-4.jpg/500px-Tid%C3%B6_slott-4.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sturefors_slott.jpg/500px-Sturefors_slott.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Stora_Sundby_slott%2C_juli_2018a.jpg/500px-Stora_Sundby_slott%2C_juli_2018a.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Swedish_castle_Vrams_Gunnarstorp.jpg/500px-Swedish_castle_Vrams_Gunnarstorp.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Trolle_Ljungby_slott.jpg/500px-Trolle_Ljungby_slott.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Swedish_castle_Skabersj%C3%B6.jpg/500px-Swedish_castle_Skabersj%C3%B6.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Swedish_castle_Marsvinsholm.jpg/500px-Swedish_castle_Marsvinsholm.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tyreso_slott_view1.jpg/500px-Tyreso_slott_view1.jpg Error: HTTP 429
+FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steninge_Palace_nov_2011_nr2_Publish.jpg/500px-Steninge_Palace_nov_2011_nr2_Publish.jpg Error: HTTP 429
+Nedladdade 10 av 30
+Klart 2026-10-02T14:40:01.120Z
