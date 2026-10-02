@@ -38,6 +38,9 @@ const A = path.join(ROOT, 'src/assets'), LV = path.join(ROOT, 'src/vendor/leafle
 const assets = new Map(), hashes = new Map();
 const addAsset = (url, from) => assets.set(url, fs.readFileSync(from));
 for (const f of fs.readdirSync(A)) if (/\.(js|svg|jpg|png|avif)$/.test(f)) addAsset(`/assets/${/\.(svg|jpg|png|avif)$/.test(f) ? 'img/' : ''}${f}`, path.join(A, f));
+// Startsidans film: bilderna i src/assets/hero (skapas av tools/hero.py), med namn och fotograf i src/hero.json.
+S.hero = fs.existsSync(path.join(ROOT, 'src/hero.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'src/hero.json'), 'utf8')) : [];
+if (fs.existsSync(path.join(A, 'hero'))) for (const f of fs.readdirSync(path.join(A, 'hero'))) addAsset(`/assets/hero/${f}`, path.join(A, 'hero', f));
 for (const f of fs.readdirSync(path.join(ROOT, 'src/fonts'))) addAsset(`/assets/fonts/${f}`, path.join(ROOT, 'src/fonts', f));
 addAsset('/assets/vendor/leaflet.js', path.join(LV, 'leaflet.js'));
 addAsset('/assets/vendor/leaflet.css', path.join(LV, 'leaflet.css'));

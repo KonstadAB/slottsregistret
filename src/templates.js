@@ -12,7 +12,7 @@ const countyURL = co => `/lan/${co.slug}/`;
 const catURL = (cat, co) => `/${cat.slug}/${co ? co.slug + '/' : ''}`;
 
 // ---------- Delar ----------
-function layout(S, { title, description, path, body, image, jsonld, scripts = [], noindex = false, bodyClass = '' }) {
+function layout(S, { title, description, path, body, image, jsonld, scripts = [], noindex = false, bodyClass = '', preload = '' }) {
   const c = S.config;
   const full = title ? `${title} | ${c.name}` : `${c.name} – ${c.tagline}`;
   const canonical = c.domain + path;
@@ -38,6 +38,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="${S.asset('/assets/fonts/fraunces-latin.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${S.asset('/assets/fonts/instrument-sans-latin.woff2')}" as="font" type="font/woff2" crossorigin>
+${preload}
 <link rel="stylesheet" href="${S.asset('/assets/style.css')}">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>` : ''}
 </head>
@@ -158,19 +159,22 @@ function home(S) {
     'park-och-tradgard': '<path d="M12 21v-7M12 14c-4 0-6-3-6-6 3 0 6 2 6 6Zm0 0c4 0 6-3 6-6-3 0-6 2-6 6Z"/>',
   };
   return layout(S, {
-    path: '/', bodyClass: 'home',
+    path: '/', bodyClass: 'home', scripts: S.hero.length ? ['/assets/hero.js'] : [],
+    preload: S.hero.length ? `<link rel="preload" as="image" type="image/avif" imagesrcset="${S.asset(`/assets/hero/${S.hero[0].id}-1100.avif`)} 1100w, ${S.asset(`/assets/hero/${S.hero[0].id}-1920.avif`)} 1920w" imagesizes="100vw" fetchpriority="high">` : '',
     jsonld: { '@context': 'https://schema.org', '@type': 'WebSite', name: S.config.name, url: S.config.domain + '/',
       potentialAction: { '@type': 'SearchAction', target: S.config.domain + '/sok/?q={q}', 'query-input': 'required name=q' } },
     body: `
-<section class="hero">
-  <div class="hero-bg" aria-hidden="true"></div>
+<section class="hero hero-film">
+  ${S.hero.length ? `<div class="film" aria-hidden="true">${S.hero.map((h, i) => `<div class="slide${i === 0 ? ' on' : ''}" style="--dx:${['-2%', '2%', '-1.5%', '1.5%'][i % 4]};--dy:${['-1%', '1%', '1.5%', '-1.5%'][i % 4]}" data-name="${esc(h.name)}" data-href="/slott/${esc(h.id)}/" data-credit="${esc(h.credit)}"><picture><source type="image/avif" ${i === 0 ? 'srcset' : 'data-srcset'}="${S.asset(`/assets/hero/${h.id}-1100.avif`)} 1100w, ${S.asset(`/assets/hero/${h.id}-1920.avif`)} 1920w" sizes="100vw"><img ${i === 0 ? 'src' : 'data-src'}="${S.asset(`/assets/hero/${h.id}-1600.jpg`)}" alt="" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></picture></div>`).join('')}</div>` : ''}
+  <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap hero-in">
-    <p class="kicker">${nf(st.total)} slott, borgar och fästningar</p>
-    <h1>Sveriges slott – <em>och vägen in</em></h1>
+    <p class="kicker kicker-gold"><span>${nf(st.total)} slott, borgar och fästningar</span></p>
+    <h1>Sveriges slott – <em class="gold-text">och vägen in</em></h1>
     <p class="lead">Hitta slott att besöka, bo på, gifta dig eller ha konferens på. Och kliv in i dem redan nu: ${nf(st.withTour)} slott kan du gå runt i digitalt.</p>
     ${searchBox(S, true)}
     <ul class="quick">${offers.filter(o => o.total).map(o => `<li><a href="${catURL(o)}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICON[o.slug] || ''}</svg>${esc(o.short)}</a></li>`).join('')}</ul>
   </div>
+  ${S.hero.length ? `<p class="film-caption"><a href="/slott/${esc(S.hero[0].id)}/">${esc(S.hero[0].name)}</a><small>${esc(S.hero[0].credit)}</small></p>` : ''}
 </section>
 
 ${S.featured.length ? `<section class="band band-dark">
