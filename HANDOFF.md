@@ -78,6 +78,18 @@
 - Brödsmulor som strukturerad data (BreadcrumbList) på slott och listsidor.
 - Bilder: Wikimedia begränsar nya miniatyrer ibland (429) – Workern försöker tre gånger, webbläsaren en gång till efter 2,5 s.
 - `tools/hamta.mjs` sparar nu slutadressen (`url`) för jsonUrls, t.ex. för korta Google Maps-länkar.
+- Datakontroll (natten till 3 okt): jämförde läge mot län och Wikidata-kommun, och dubbletter av Wikidata-poster.
+  - Engsö slott var samma som Ängsö slott → `skip`. Rosendals slott (Skåne) gick inte att bekräfta (matchades mot
+    Rosendal på Djurgården) → `skip` tills vi vet var det ligger.
+  - Fjällnäs (låg i Gällivare) och Haga slott i Enköping (var Hagaslottet i Solna) → `qid: null` + rätt läge.
+    `qid: null` i manuellt.json betyder nu "ingen Wikidata-post stämmer".
+  - ~20 döda webbplatslänkar bytta (hovdala.se, svaneholmsslott.se, tyresoslott.se, julitagard.se, glimmingehus.se m.fl.).
+    Kvar utan webbplats: Charlottenlund, Fiholm, Rödbergsfortet. Hjularöd och Sturehov blockerar bara robotar.
+  - Bilder från Commons till 10 slott som saknade bild (Grönsöö, Sjöö, Yxtaholm, Wapnö m.fl.); bara 4 saknar nu bild.
+  - Kvar att granska: kommunnamn som skiljer sig från Wikidata (Näsbyholm, Dybäck, Svenstorp, Beritsholm, Tureborg,
+    Koberg, Dagsnäs, Huseby, Mem, Elghammar, Ekholmen, Boo, Haddebo) – grundlistan kan ha fel, inte rättat utan källa.
+- Sökningen i hamta.mjs (DuckDuckGo) försöker igen vid 202 och har en tidsgräns på 12 min, så körningen aldrig går över tid.
+  Gissa hellre adresser direkt med `textPages` – snabbare och säkrare.
 
 ## Att göra
 1. Daniel: Cloudflare-nyckel som GitHub-hemlighet → skapa zonen slottsregistret.se, byt namnservrar hos registraren, publicera.
