@@ -16,6 +16,26 @@
  ],
  "drottningholms-slott": [
   {
+   "id": "ks-ehrenstrahl",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Ehrenstrahlsalongen",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
+   "id": "ks-hedvig",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Hedvig Eleonoras paradsängkammare",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
    "id": "gm-drottningholms-slott",
    "kind": "walk",
    "provider": "Google Maps",
@@ -181,18 +201,34 @@
  ],
  "stockholms-slott": [
   {
-   "id": "gm-stockholms-slott",
+   "id": "ks-rikssalen",
    "kind": "look",
-   "provider": "Google Maps",
-   "credit": [
-    "Michael Raphael"
-   ],
-   "year": 2017,
-   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREVfZWEzcGdF!2m2!1d59.32704832001435!2d18.07106453270819!3f0!4f0!5f0.7820865974627469",
-   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREVfZWEzcGdF",
-   "source": "streetview",
-   "checked": "2026-10-02",
-   "title": "Rikssalen"
+   "provider": "Kungliga slotten",
+   "title": "Rikssalen",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/rikssalen/",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
+   "id": "ks-antik",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Gustav III:s antikmuseum",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
+   "id": "ks-vasa",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Utställningen Vasa till Bernadotte",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/vasa-to-bernadotte",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
   }
  ],
  "teleborgs-slott": [
@@ -511,6 +547,50 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.!2m2!1d55.50077478432323!2d13.47796489161368!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.",
    "source": "streetview",
+   "checked": "2026-10-02"
+  }
+ ],
+ "gripsholms-slott": [
+  {
+   "id": "ks-teatern",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Gustav III:s teater",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/teatern_gripsholmsslott/",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
+   "id": "ks-hertigkarl",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Hertig Karls kammare",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/hertigkarlskammare_gripsholmsslott/",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  },
+  {
+   "id": "ks-konselj",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Konseljrummet",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/konseljrummet_gripsholmsslott/",
+   "source": "kungligaslotten.se",
+   "checked": "2026-10-02"
+  }
+ ],
+ "ulriksdals-slott": [
+  {
+   "id": "ks-ulriksdal",
+   "kind": "look",
+   "provider": "Kungliga slotten",
+   "title": "Vardagsrummet",
+   "embed": null,
+   "url": "https://vr.kungligaslotten.se/ulriksdal",
+   "source": "kungligaslotten.se",
    "checked": "2026-10-02"
   }
  ]

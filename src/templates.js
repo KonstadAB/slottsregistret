@@ -233,7 +233,7 @@ function castle(S, c) {
 <section class="tour" id="rundtur" aria-labelledby="rundtur-h">
   <div class="wrap">
     <h2 id="rundtur-h">Kliv in i ${esc(c.name)}</h2>
-    ${c.tours.map((tour, i) => `<div class="tour-frame" data-embed="${esc(tour.embed || '')}" data-url="${esc(tour.url || '')}" data-title="${esc(c.name)}">
+    ${c.tours.slice(0, 1).map((tour, i) => `<div class="tour-frame" data-embed="${esc(tour.embed || '')}" data-url="${esc(tour.url || '')}" data-title="${esc(c.name)}">
       ${imgSm ? `<img src="${esc(imgSm)}" alt="" class="poster">` : ''}
       <div class="tour-cta">
         <p class="kind">${esc((KIND[tour.kind] || KIND.view).label)}${tour.title ? ` · ${esc(tour.title)}` : ''}</p>
@@ -242,6 +242,7 @@ function castle(S, c) {
       </div>
     </div>
     <p class="credit">Rundtur: ${esc(tour.provider)}${tour.credit && tour.credit.length ? ` · Foto: ${esc(tour.credit.join(', '))}` : ''}${tour.year ? ` · ${esc(tour.year)}` : ''}${tour.url ? ` · <a href="${esc(tour.url)}" target="_blank" rel="noopener">Öppna i nytt fönster</a>` : ''}</p>`).join('')}
+    ${c.tours.length > 1 ? `<h3 class="more-tours">Fler rum att kliva in i</h3><ul class="tour-list">${c.tours.slice(1).map(tour => `<li><a href="${esc(tour.url)}" target="_blank" rel="noopener"><strong>${esc(tour.title || (KIND[tour.kind] || KIND.view).label)}</strong><small>${esc(tour.provider)}${tour.credit && tour.credit.length ? ` · Foto: ${esc(tour.credit.join(', '))}` : ''}</small></a></li>`).join('')}</ul>` : ''}
   </div>
 </section>` : `
 <section class="tour tour-none" id="rundtur" aria-labelledby="rundtur-h">

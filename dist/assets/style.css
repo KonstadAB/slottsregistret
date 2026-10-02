@@ -169,6 +169,12 @@ a.tag:hover { background: var(--forest); color: #fff; }
 .crumbs a { color: var(--ink-2); }
 
 /* Slottets sida */
+.more-tours { color: #FBF6EC; margin-top: 28px; font-size: 1.2rem; }
+.tour-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.tour-list a { display: block; padding: 14px 16px; border-radius: 12px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.18); color: #fff; text-decoration: none; }
+.tour-list a:hover { background: rgba(201,162,78,.25); border-color: var(--gold); }
+.tour-list strong { display: block; font-family: var(--serif); font-weight: 560; }
+.tour-list small { color: #C8D3CC; }
 .c-head-in { display: grid; grid-template-columns: 1fr 1.25fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding: 18px 0 40px; }
 .c-title h1 { margin-bottom: .3em; }
 .c-title .tags { margin-bottom: 22px; }

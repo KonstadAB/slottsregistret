@@ -118,7 +118,7 @@ for c in S:
         'image': image, 'wiki': wiki_intro(m.get('article', e.get('article'))),
         'text': m.get('text'),
         'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
-        'tours': TOURS.get(c['id'], []),
+        'tours': sorted(TOURS.get(c['id'], []), key=lambda t: not t.get('embed')),
     }
     if lat is None:
         problems.append(f"saknar läge: {c['name']}")
