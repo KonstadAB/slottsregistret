@@ -12,13 +12,15 @@
   "qid": "Q10571259"
  },
  "mauritzbergs-slott": {
-  "qid": "Q5489505"
+  "qid": "Q5489505",
+  "website": "https://mauritzberg.com/"
  },
  "johannisborgs-slottsruin": {
   "qid": "Q2241779"
  },
  "claestorps-slott": {
-  "qid": "Q5125026"
+  "qid": "Q5125026",
+  "website": "https://www.claestorp.se/"
  },
  "rockelstads-slott": {
   "qid": "Q2533331"
@@ -36,7 +38,8 @@
   "qid": "Q5574523"
  },
  "taxinge-slott": {
-  "qid": "Q1723008"
+  "qid": "Q1723008",
+  "website": "https://taxinge.com/"
  },
  "osterbybruk-herrgard": {
   "qid": "Q10727840"
@@ -45,7 +48,8 @@
   "qid": "Q7105831"
  },
  "bjertorps-slott": {
-  "qid": "Q10430387"
+  "qid": "Q10430387",
+  "website": "https://www.bjertorp.se/"
  },
  "vibyholms-slott": {
   "qid": "Q10714986",
@@ -58,10 +62,12 @@
   "qid": "Q4357065"
  },
  "johannesbergs-slott": {
-  "qid": "Q31890033"
+  "qid": "Q31890033",
+  "website": "https://www.johannesbergsslott.se/"
  },
  "rossjoholms-slott": {
-  "qid": "Q6467965"
+  "qid": "Q6467965",
+  "website": "https://www.rossjoholm.se/"
  },
  "hogestads-slott": {
   "qid": "Q3289844"
@@ -70,12 +76,159 @@
   "qid": "Q1640555"
  },
  "sodertuna-slott": {
-  "qid": "Q7666348"
+  "qid": "Q7666348",
+  "website": "https://www.sodertuna.se/"
  },
  "stora-wasby-slott": {
-  "qid": "Q7619894"
+  "qid": "Q7619894",
+  "website": "https://www.storawasby.se/"
  },
  "gysinge-herrgard": {
-  "qid": "Q129324485"
+  "qid": "Q129324485",
+  "website": "https://www.gysinge.se/"
+ },
+ "karnan": {
+  "website": "https://www.karnan.se/"
+ },
+ "bosjokloster": {
+  "website": "https://bosjokloster.com/"
+ },
+ "christinehofs-slott": {
+  "website": "https://www.christinehofslott.se/"
+ },
+ "trollenas-slott": {
+  "website": "https://www.trollenasslott.se/"
+ },
+ "krapperups-slott": {
+  "website": "https://www.krapperup.se/"
+ },
+ "borgeby-slott": {
+  "website": "https://borgebyslott.com/"
+ },
+ "snogeholms-slott": {
+  "website": "https://www.snogeholmsslott.se/"
+ },
+ "hackeberga-slott": {
+  "website": "https://hackebergaslott.com/"
+ },
+ "trolle-ljungby-slott": {
+  "website": "https://trolleljungby.com/"
+ },
+ "marsvinsholms-slott": {
+  "website": "https://marsvinsholm.com/"
+ },
+ "krageholms-slott": {
+  "website": "https://www.krageholm.se/"
+ },
+ "kulla-gunnarstorps-slott": {
+  "website": "https://www.kullagunnarstorp.se/"
+ },
+ "skarhults-slott": {
+  "website": "https://skarhult.com/"
+ },
+ "ellinge-slott": {
+  "website": "https://ellinge.com/"
+ },
+ "ovedsklosters-slott": {
+  "website": "https://ovedskloster.com/"
+ },
+ "bollerups-borg": {
+  "website": "https://bollerup.com/"
+ },
+ "karsholms-slott": {
+  "website": "https://www.karsholmsslott.se/"
+ },
+ "tullesbo": {
+  "website": "https://tullesbo.com/"
+ },
+ "ovesholms-slott": {
+  "website": "https://ovesholm.com/"
+ },
+ "sovdeborgs-slott": {
+  "website": "https://www.sovdeborg.se/"
+ },
+ "wapno-slott": {
+  "website": "https://www.wapnoslott.se/"
+ },
+ "sperlingsholms-slott": {
+  "website": "https://www.sperlingsholm.se/"
+ },
+ "naas-slott": {
+  "website": "https://www.naas.se/"
+ },
+ "torpa-stenhus": {
+  "website": "https://www.torpastenhus.se/"
+ },
+ "stola-herrgard": {
+  "website": "https://www.stola.se/"
+ },
+ "dagsnas-slott": {
+  "website": "https://www.dagsnasslott.se/"
+ },
+ "granso-slott": {
+  "website": "https://granso.com/"
+ },
+ "blekhem": {
+  "website": "https://blekhem.com/"
+ },
+ "huseby-bruk": {
+  "website": "https://husebybruk.com/"
+ },
+ "vastana-slott": {
+  "website": "https://www.vastanaslott.se/"
+ },
+ "sundbyholms-slott": {
+  "website": "https://www.sundbyholm.se/"
+ },
+ "ericsbergs-slott": {
+  "website": "https://ericsberg.com/"
+ },
+ "sparreholms-slott": {
+  "website": "https://sparreholmsslott.com/"
+ },
+ "yxtaholms-slott": {
+  "website": "https://www.yxtaholmsslott.se/"
+ },
+ "oster-malma": {
+  "website": "https://www.ostermalma.se/"
+ },
+ "haringe-slott": {
+  "website": "https://www.haringeslott.se/"
+ },
+ "nasby-slott": {
+  "website": "https://www.nasbyslott.se/"
+ },
+ "gorvalns-slott": {
+  "website": "https://www.gorvaln.se/"
+ },
+ "lejondals-slott": {
+  "website": "https://www.lejondalsslott.se/"
+ },
+ "ostana-slott": {
+  "website": "https://www.ostanaslott.se/"
+ },
+ "wiks-slott": {
+  "website": "https://www.wikslott.se/"
+ },
+ "gronsoo-slott": {
+  "website": "https://www.gronsoo.se/"
+ },
+ "haga-slott": {
+  "website": "https://www.hagaslott.se/"
+ },
+ "salnecke-slott": {
+  "website": "https://www.salneckeslott.se/"
+ },
+ "lovstabruk": {
+  "website": "https://lovstabruk.com/"
+ },
+ "karlslunds-herrgard": {
+  "website": "https://karlslund.com/"
+ },
+ "fjallnas": {
+  "website": "https://www.fjallnas.se/"
+ },
+ "venngarns-slott": {
+  "website": "https://www.venngarn.se/"
  }
 }

@@ -52,7 +52,7 @@
    "lat": 56.048185,
    "lon": 12.697148,
    "inception": null,
-   "website": null,
+   "website": "https://www.karnan.se/",
    "image": {
     "file": "Bridge over the stairs of Kärnan.jpg",
     "path": "7/72/Bridge_over_the_stairs_of_Kärnan.jpg",
@@ -141,8 +141,7 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner",
-    "konferens"
+    "borgar-och-ruiner"
    ],
    "tours": []
   },
@@ -161,7 +160,7 @@
    "lat": 55.877222222222,
    "lon": 13.518611111111,
    "inception": "1080",
-   "website": null,
+   "website": "https://bosjokloster.com/",
    "image": {
     "file": "Bosjo monastery in Skane Sweden4.jpg",
     "path": "3/3b/Bosjo_monastery_in_Skane_Sweden4.jpg",
@@ -270,7 +269,7 @@
    "lat": 55.7179,
    "lon": 13.9607,
    "inception": null,
-   "website": null,
+   "website": "https://www.christinehofslott.se/",
    "image": {
     "file": "Christinehof2.jpg",
     "path": "0/05/Christinehof2.jpg",
@@ -376,7 +375,7 @@
    "lat": 55.86556,
    "lon": 13.24506,
    "inception": "1559",
-   "website": null,
+   "website": "https://www.trollenasslott.se/",
    "image": {
     "file": "Trollenäs slott.jpg",
     "path": "c/cf/Trollenäs_slott.jpg",
@@ -393,6 +392,8 @@
    "text": null,
    "offers": [
     "besok",
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -412,7 +413,7 @@
    "lat": 56.262,
    "lon": 12.53,
    "inception": "1570",
-   "website": null,
+   "website": "https://www.krapperup.se/",
    "image": {
     "file": "Krapperup slott Bån.JPG",
     "path": "9/92/Krapperup_slott_Bån.JPG",
@@ -428,7 +429,9 @@
    },
    "text": null,
    "offers": [
-    "park-och-tradgard"
+    "konferens",
+    "park-och-tradgard",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -483,7 +486,7 @@
    "lat": 55.751388888889,
    "lon": 13.036666666667,
    "inception": null,
-   "website": null,
+   "website": "https://borgebyslott.com/",
    "image": {
     "file": "Borgeby02.JPG",
     "path": "4/4e/Borgeby02.JPG",
@@ -500,7 +503,11 @@
    "text": null,
    "offers": [
     "besok",
-    "park-och-tradgard"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "park-och-tradgard",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -590,7 +597,7 @@
    "lat": 55.5606,
    "lon": 13.7128,
    "inception": null,
-   "website": null,
+   "website": "https://www.snogeholmsslott.se/",
    "image": {
     "file": "Snogeholms slott.jpg",
     "path": "c/c5/Snogeholms_slott.jpg",
@@ -626,7 +633,7 @@
    "lat": 55.58027778,
    "lon": 13.42833333,
    "inception": "1875",
-   "website": null,
+   "website": "https://hackebergaslott.com/",
    "image": {
     "file": "Häckeberga slott.JPG",
     "path": "4/48/Häckeberga_slott.JPG",
@@ -643,6 +650,8 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -763,7 +772,7 @@
    "lat": 56.0218,
    "lon": 14.3699,
    "inception": "1621",
-   "website": null,
+   "website": "https://trolleljungby.com/",
    "image": {
     "file": "Trolle Ljungby slott.jpg",
     "path": "3/3e/Trolle_Ljungby_slott.jpg",
@@ -829,7 +838,7 @@
    "lat": 55.463333333333,
    "lon": 13.708055555556,
    "inception": "1648",
-   "website": null,
+   "website": "https://marsvinsholm.com/",
    "image": {
     "file": "Swedish castle Marsvinsholm.jpg",
     "path": "9/96/Swedish_castle_Marsvinsholm.jpg",
@@ -864,7 +873,7 @@
    "lat": 55.493,
    "lon": 13.7656,
    "inception": null,
-   "website": null,
+   "website": "https://www.krageholm.se/",
    "image": {
     "file": "Krageholms slott.jpg",
     "path": "9/9c/Krageholms_slott.jpg",
@@ -897,7 +906,7 @@
    "lat": 56.1092,
    "lon": 12.6295,
    "inception": "1500",
-   "website": null,
+   "website": "https://www.kullagunnarstorp.se/",
    "image": {
     "file": "Swedish castle Kulla Gunnarstorp.JPG",
     "path": "8/83/Swedish_castle_Kulla_Gunnarstorp.JPG",
@@ -1128,7 +1137,7 @@
    "lat": 55.804166666667,
    "lon": 13.371111111111,
    "inception": null,
-   "website": null,
+   "website": "https://skarhult.com/",
    "image": {
     "file": "Skarhults slott.jpg",
     "path": "0/03/Skarhults_slott.jpg",
@@ -1161,7 +1170,7 @@
    "lat": 55.8117,
    "lon": 13.2875,
    "inception": null,
-   "website": null,
+   "website": "https://ellinge.com/",
    "image": {
     "file": "Swedish castle Ellinge.JPG",
     "path": "8/82/Swedish_castle_Ellinge.JPG",
@@ -1264,7 +1273,7 @@
    "lat": 55.686388888889,
    "lon": 13.635833333333,
    "inception": "1776",
-   "website": null,
+   "website": "https://ovedskloster.com/",
    "image": {
     "file": "Övedsklosters slott.jpg",
     "path": "1/18/Övedsklosters_slott.jpg",
@@ -1279,7 +1288,11 @@
     "text": "Övedskloster är ett slott i Öveds socken i Sjöbo kommun.\nHuvudbyggnaden är ett ståtligt slott i fransk rokokostil av röd sandsten. Slottet är uppfört 1765–1776 av Hans Ramel efter ritningar av Carl Hårleman. Det ligger 5 kilometer nordväst om Sjöbo och är omgivet av vackra alléer. Parken är öppen för allmänheten alla dagar mellan klockan 9 och 16.\n\n"
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -1297,7 +1310,7 @@
    "lat": 55.491388888889,
    "lon": 14.045833333333,
    "inception": null,
-   "website": null,
+   "website": "https://bollerup.com/",
    "image": {
     "file": "Bollerups borg.jpg",
     "path": "f/f6/Bollerups_borg.jpg",
@@ -1581,7 +1594,7 @@
    "lat": 56.313611111111,
    "lon": 13.094722222222,
    "inception": null,
-   "website": null,
+   "website": "https://www.rossjoholm.se/",
    "image": {
     "file": "Rössjöholms slott.JPG",
     "path": "e/ec/Rössjöholms_slott.JPG",
@@ -1647,7 +1660,7 @@
    "lat": 56.115833333333,
    "lon": 14.3075,
    "inception": null,
-   "website": null,
+   "website": "https://www.karsholmsslott.se/",
    "image": {
     "file": "Karsholm.jpg",
     "path": "c/cc/Karsholm.jpg",
@@ -1851,7 +1864,7 @@
    "lat": 55.70916667,
    "lon": 13.66083333,
    "inception": null,
-   "website": null,
+   "website": "https://tullesbo.com/",
    "image": {
     "file": "Tullesbo.jpg",
     "path": "3/31/Tullesbo.jpg",
@@ -1957,7 +1970,7 @@
    "lat": 56.000486111111,
    "lon": 14.001741666667,
    "inception": null,
-   "website": null,
+   "website": "https://ovesholm.com/",
    "image": {
     "file": "Ovesholms slott.jpg",
     "path": "d/db/Ovesholms_slott.jpg",
@@ -1972,7 +1985,9 @@
     "text": "Ovesholms slott är ett slott i Träne socken i Kristianstads kommun.\nSlottet ligger vid Ovesholmssjön på Nävlingeåsens sluttning mot Kristianstadsslätten, två kilometer väster om Ovesholms tätort. Det ägs av släkten Hamilton. Parken i engelsk stil är inte öppen för allmänheten."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "brollop-och-fest"
+   ],
    "tours": []
   },
   {
@@ -2155,7 +2170,7 @@
    "lat": 55.581944444444,
    "lon": 13.696944444444,
    "inception": "1597",
-   "website": null,
+   "website": "https://www.sovdeborg.se/",
    "image": {
     "file": "Sövdeborgs slott.jpg",
     "path": "f/f4/Sövdeborgs_slott.jpg",
@@ -2652,8 +2667,8 @@
    "open": "Delvis",
    "prio": 3,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 56.1597047,
+   "lon": 14.8657451,
    "inception": null,
    "website": null,
    "image": null,
@@ -2822,11 +2837,15 @@
    "lat": null,
    "lon": null,
    "inception": null,
-   "website": null,
+   "website": "https://www.wapnoslott.se/",
    "image": null,
    "wiki": null,
    "text": null,
-   "offers": [],
+   "offers": [
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -2907,10 +2926,10 @@
    "open": "Nej",
    "prio": 3,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 56.7004155,
+   "lon": 12.9076956,
    "inception": null,
-   "website": null,
+   "website": "https://www.sperlingsholm.se/",
    "image": null,
    "wiki": null,
    "text": null,
@@ -2970,7 +2989,7 @@
    "lat": 57.81638889,
    "lon": 12.40125,
    "inception": "1600",
-   "website": null,
+   "website": "https://www.naas.se/",
    "image": {
     "file": "Nääs slott 11 maj 2024 Bild 1.jpg",
     "path": "d/d2/Nääs_slott_11_maj_2024_Bild_1.jpg",
@@ -2987,6 +3006,9 @@
    "text": null,
    "offers": [
     "besok",
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
     "park-och-tradgard"
    ],
    "tours": []
@@ -3233,7 +3255,7 @@
    "lat": 57.65,
    "lon": 13.27944444,
    "inception": "1470",
-   "website": null,
+   "website": "https://www.torpastenhus.se/",
    "image": {
     "file": "Torpa stenhus vallgrav.JPG",
     "path": "0/0c/Torpa_stenhus_vallgrav.JPG",
@@ -3250,7 +3272,10 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "bo-pa-slott",
+    "borgar-och-ruiner",
+    "brollop-och-fest",
+    "konferens"
    ],
    "tours": []
   },
@@ -3307,7 +3332,7 @@
    "lat": 58.26458333,
    "lon": 13.11319444,
    "inception": "1914",
-   "website": null,
+   "website": "https://www.bjertorp.se/",
    "image": {
     "file": "Bjertorp slott.jpeg",
     "path": "c/ca/Bjertorp_slott.jpeg",
@@ -3324,7 +3349,9 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -3343,7 +3370,7 @@
    "lat": 58.59471111,
    "lon": 13.08423889,
    "inception": "1719",
-   "website": null,
+   "website": "https://www.stola.se/",
    "image": {
     "file": "Stola herrgård.jpg",
     "path": "c/c6/Stola_herrgård.jpg",
@@ -3395,8 +3422,7 @@
    },
    "text": null,
    "offers": [
-    "besok",
-    "restaurang-och-kafe"
+    "besok"
    ],
    "tours": []
   },
@@ -3586,7 +3612,7 @@
    "lat": 58.28430556,
    "lon": 13.49486111,
    "inception": null,
-   "website": null,
+   "website": "https://www.dagsnasslott.se/",
    "image": {
     "file": "Dagsnäs slott.jpg",
     "path": "3/3e/Dagsnäs_slott.jpg",
@@ -3934,7 +3960,7 @@
    "lat": 57.76111111,
    "lon": 16.68416667,
    "inception": null,
-   "website": null,
+   "website": "https://granso.com/",
    "image": {
     "file": "GransoSlottVastervik20130720.JPG",
     "path": "9/99/GransoSlottVastervik20130720.JPG",
@@ -4006,7 +4032,7 @@
    "lat": 57.82275,
    "lon": 16.42788889,
    "inception": null,
-   "website": null,
+   "website": "https://blekhem.com/",
    "image": {
     "file": "Blekhem.jpg",
     "path": "0/06/Blekhem.jpg",
@@ -4073,8 +4099,8 @@
    "open": "Ja",
    "prio": 2,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 56.8676854,
+   "lon": 14.7242854,
    "inception": null,
    "website": null,
    "image": null,
@@ -4139,7 +4165,7 @@
    "lat": 56.77965,
    "lon": 14.5842833333,
    "inception": "1844",
-   "website": null,
+   "website": "https://husebybruk.com/",
    "image": {
     "file": "Huseby Bruk - Masugnen - Hochofen und Gießerei 05092014 AP.JPG",
     "path": "d/d4/Huseby_Bruk_-_Masugnen_-_Hochofen_und_Gießerei_05092014_AP.JPG",
@@ -4156,6 +4182,7 @@
    "text": null,
    "offers": [
     "besok",
+    "konferens",
     "park-och-tradgard"
    ],
    "tours": []
@@ -4316,7 +4343,7 @@
    "lat": 57.99,
    "lon": 14.42111111,
    "inception": null,
-   "website": null,
+   "website": "https://www.vastanaslott.se/",
    "image": {
     "file": "Gränna Västanå Manor.JPG",
     "path": "d/d3/Gränna_Västanå_Manor.JPG",
@@ -4331,7 +4358,11 @@
     "text": "Västanå säteri är ett slott söder om Gränna i Gränna socken i Jönköpings kommun i norra Småland.\nCorps-de-logiet är en stor tvåvåningsbyggnad med högt tak. Det har ett vackert läge på ett högt bergsutsprång fyra kilometer söder om Gränna. Slottet genomgick en grundlig restaurering 1767 av ägaren friherre Rutger Bennet (1720–1791). De gamla gavelröstena krönta med snirklar och spiror togs bort, liksom ett stort altanprytt torn på mittfasaden. Där finns släkten Gyllensvaans familjegrav. Från en dal strax väster om herrgården går en djup och trång ravin i vilken Röttleån flyter ned mot Vättern. Sedan 1948 är Västanå hotell och restaurang. Hotellet drivs av familjen von Otter."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens"
+   ],
    "tours": []
   },
   {
@@ -4906,7 +4937,7 @@
    "lat": 58.60583333,
    "lon": 16.67833333,
    "inception": null,
-   "website": null,
+   "website": "https://mauritzberg.com/",
    "image": {
     "file": "Mauritzbergs herrgård från luften.jpg",
     "path": "4/4a/Mauritzbergs_herrgård_från_luften.jpg",
@@ -4938,8 +4969,8 @@
    "open": "Ja",
    "prio": 2,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 58.5323873,
+   "lon": 15.5783788,
    "inception": null,
    "website": null,
    "image": null,
@@ -5235,7 +5266,7 @@
    "lat": 59.44777778,
    "lon": 16.62388889,
    "inception": "1648",
-   "website": null,
+   "website": "https://www.sundbyholm.se/",
    "image": {
     "file": "Sundbyholms slott.jpg",
     "path": "7/72/Sundbyholms_slott.jpg",
@@ -5251,7 +5282,10 @@
    },
    "text": null,
    "offers": [
-    "bo-pa-slott"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -5338,7 +5372,7 @@
    "lat": 58.93263889,
    "lon": 16.37875,
    "inception": "1664",
-   "website": null,
+   "website": "https://ericsberg.com/",
    "image": {
     "file": "Katrineholm Schloss Eriksberg.jpg",
     "path": "b/bd/Katrineholm_Schloss_Eriksberg.jpg",
@@ -5353,7 +5387,12 @@
     "text": "Ericsberg är ett slott i Stora Malms socken i Katrineholms kommun, Södermanland. Godset var ett fideikommissbolag inom friherrliga ätten Bonde."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -5406,7 +5445,7 @@
    "lat": 59.08361111,
    "lon": 16.82694444,
    "inception": null,
-   "website": null,
+   "website": "https://sparreholmsslott.com/",
    "image": {
     "file": "Sparreholmsslott.jpg",
     "path": "1/1e/Sparreholmsslott.jpg",
@@ -5507,7 +5546,7 @@
    "lat": 58.96222222,
    "lon": 16.12055556,
    "inception": "1754",
-   "website": null,
+   "website": "https://www.claestorp.se/",
    "image": {
     "file": "Claestorp-Cropped.jpg",
     "path": "0/0f/Claestorp-Cropped.jpg",
@@ -5579,12 +5618,14 @@
    "lat": null,
    "lon": null,
    "inception": null,
-   "website": null,
+   "website": "https://www.yxtaholmsslott.se/",
    "image": null,
    "wiki": null,
    "text": null,
    "offers": [
-    "bo-pa-slott"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "spa"
    ],
    "tours": []
   },
@@ -5603,7 +5644,7 @@
    "lat": 59.0683,
    "lon": 17.305,
    "inception": "1986",
-   "website": null,
+   "website": "https://www.sodertuna.se/",
    "image": {
     "file": "SodertunaCastle.jpeg",
     "path": "4/46/SodertunaCastle.jpeg",
@@ -5620,6 +5661,7 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
+    "brollop-och-fest",
     "konferens"
    ],
    "tours": []
@@ -5872,7 +5914,7 @@
    "lat": 58.95083333,
    "lon": 17.15805556,
    "inception": null,
-   "website": null,
+   "website": "https://www.ostermalma.se/",
    "image": {
     "file": "Öster-Malma (bra).JPG",
     "path": "5/56/Öster-Malma_(bra).JPG",
@@ -5888,7 +5930,10 @@
    },
    "text": null,
    "offers": [
-    "konferens"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -6473,7 +6518,7 @@
    "lat": 59.64861111,
    "lon": 17.71972222,
    "inception": "1670",
-   "website": null,
+   "website": "https://www.venngarn.se/",
    "image": {
     "file": "Venngarns slott 2006.jpg",
     "path": "3/36/Venngarns_slott_2006.jpg",
@@ -6488,7 +6533,9 @@
     "text": "Venngarns slott är ett slott som ligger nära Garnsviken ett par kilometer norr om Sigtuna, huvudsakligen uppfört 1670 för Magnus Gabriel De la Gardie i samarbete med arkitekten Jean de la Vallée. Från 1160-talet hade där funnits ett tidigare stenhus, som tillbyggts och byggts om till ett renässansslott under andra halvan av 1500-talet. Huvudbyggnaden är cirka 2 200 kvadratmeter stor och området omfattar totalt cirka 37 hektar mark. \nVenngarn blev kronogods under Gustav Vasas tid. År 1653 såldes egendomen till Magnus Gabriel de la Gardie, som byggde om Venngarn till ett barockslott. År 1681 reducerade kronan och drog in De la Gardies samtliga slott, utom Höjentorp och Venngarn. Den ruinerade De la Gardie bodde kvar på slottet fram till sin död 1686.\nSedan dess har Venngarn antingen varit bostad åt landshövdingar i Uppsala eller varit utarrenderat. 1916 blev det alkoholistanstalt och förvaltningen låg i slottet med dess magnifika trapphall och målade barocktak. Senare ägare blev Lewi Pethrus-stiftelsen. Slottet är byggnadsminne.\nEnligt en sägen från medeltiden var Venngarn säte för den fiktiva drottning Disa – i mycket baserad på den äldre sägnen om Aslög."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -6506,13 +6553,15 @@
    "lat": 59.03976,
    "lon": 18.014315,
    "inception": null,
-   "website": null,
+   "website": "https://www.haringeslott.se/",
    "image": null,
    "wiki": null,
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -6599,7 +6648,7 @@
    "lat": 59.24694444,
    "lon": 17.30916667,
    "inception": "1780",
-   "website": null,
+   "website": "https://taxinge.com/",
    "image": {
     "file": "Taxinge slott, juli 2019.jpg",
     "path": "f/f2/Taxinge_slott,_juli_2019.jpg",
@@ -6615,6 +6664,8 @@
    },
    "text": null,
    "offers": [
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -6875,7 +6926,7 @@
    "lat": 59.42416667,
    "lon": 18.08666667,
    "inception": "1665",
-   "website": null,
+   "website": "https://www.nasbyslott.se/",
    "image": {
     "file": "Näsby slott central.jpg",
     "path": "3/33/Näsby_slott_central.jpg",
@@ -6892,7 +6943,10 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
    ],
    "tours": []
   },
@@ -7065,9 +7119,7 @@
     "text": "Ekebyhovs slott är en slottsliknande herrgård och tidigare säteri vid Björkuddsvägen 107 i Ekerö kommun i Stockholms län. Ofta stavas namnet fortfarande på äldre vis, nämligen Ekebyhof. Dagens huvudbyggnad i karolinsk stil uppfördes i slutet av 1600-talet för Carl Gustav Wrangel och fullbordades vid början av 1700-talet av dåvarande ägaren, friherre Erik Lovisin. Egendomen, som omfattar en areal om 375 hektar, har sedan gått genom olika släkter. Herrgården bevarar i dag flera värdefulla interiörer med inredningsdetaljer från fyra århundraden och sägs möjligen vara Sveriges och Europas största bevarade träslott. Vad gäller Europa är detta påstående dock mycket diskutabelt, eftersom till exempel kungabostaden Stiftsgården i Trondheim är betydligt större.\nAnläggningen ägs sedan 1980 av Ekerö kommun och används under vardagarna för kurser och konferenser och på helger för bröllop, middagar och fester. Huvudbyggnaden, parken och det så kallade Citadellet är sedan 1970 ett lagskyddat byggnadsminne. Vid Ekebyhovs slott finns sedan 1998 Ekebyhovs Äppelgenbank.\nEkebyhovs slott användes som inspelningsplats för SVT:s julkalender Mirakel (2020).\n\n"
    },
    "text": null,
-   "offers": [
-    "konferens"
-   ],
+   "offers": [],
    "tours": []
   },
   {
@@ -7121,7 +7173,7 @@
    "lat": 59.43472222,
    "lon": 17.7875,
    "inception": "1679",
-   "website": null,
+   "website": "https://www.gorvaln.se/",
    "image": {
     "file": "Görvälns slott fasad sydväst 2013.jpg",
     "path": "9/9f/Görvälns_slott_fasad_sydväst_2013.jpg",
@@ -7138,6 +7190,7 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
+    "brollop-och-fest",
     "konferens"
    ],
    "tours": []
@@ -7190,7 +7243,7 @@
    "lat": 59.52444444,
    "lon": 17.67416667,
    "inception": null,
-   "website": null,
+   "website": "https://www.lejondalsslott.se/",
    "image": {
     "file": "Lejondals slott.jpg",
     "path": "0/0e/Lejondals_slott.jpg",
@@ -7206,7 +7259,10 @@
    },
    "text": null,
    "offers": [
-    "brollop-och-fest"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "spa"
    ],
    "tours": []
   },
@@ -7258,7 +7314,7 @@
    "lat": 59.5325,
    "lon": 17.9056,
    "inception": null,
-   "website": null,
+   "website": "https://www.storawasby.se/",
    "image": {
     "file": "Stora Väsby slott.jpg",
     "path": "4/4c/Stora_Väsby_slott.jpg",
@@ -7273,7 +7329,9 @@
     "text": "Stora Wäsby är en slottsliknande herrgård och ett tidigare fideikommiss belägen vid slutet av Stora Wäsby allée i Hammarby socken, Upplands Väsby kommun, Stockholms län. Direkt söder om anläggningen ligger tätorten Upplands Väsby. Avståndet till centrala Stockholm är 25 kilometer och till Uppsala 45 kilometer. Huvudbebyggelsen skapades under 1750- och 1760-talen av arkitekterna Carl Hårleman och Jean Eric Rehn. Stora Wäsby ägs sedan 1600-talet av den friherrliga familjen De Geer och räknas idag till en av den svenska rokokotidens bäst bevarade byggnader i Uppland. Sedan 1977 är huvudbebyggelsen med bland annat slottet, flyglar och orangeriet skyddade som byggnadsminnen.\n\n"
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "bo-pa-slott"
+   ],
    "tours": []
   },
   {
@@ -7324,7 +7382,7 @@
    "lat": 59.55722222222222,
    "lon": 18.578333333333333,
    "inception": "1794",
-   "website": null,
+   "website": "https://www.ostanaslott.se/",
    "image": {
     "file": "Östanå slott 15 augusti 2009.jpg",
     "path": "5/58/Östanå_slott_15_augusti_2009.jpg",
@@ -7460,7 +7518,7 @@
    "lat": 59.7361,
    "lon": 18.1903,
    "inception": null,
-   "website": null,
+   "website": "https://www.johannesbergsslott.se/",
    "image": null,
    "wiki": {
     "title": "Johannesbergs slott",
@@ -7469,7 +7527,10 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
    ],
    "tours": []
   },
@@ -7561,7 +7622,7 @@
    "lat": 59.73611111,
    "lon": 17.46166667,
    "inception": "1450",
-   "website": null,
+   "website": "https://www.wikslott.se/",
    "image": {
     "file": "Viks slott May 2024 01.jpg",
     "path": "6/65/Viks_slott_May_2024_01.jpg",
@@ -7627,15 +7688,16 @@
    "open": "Delvis",
    "prio": 2,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 59.4727581,
+   "lon": 17.2466878,
    "inception": null,
-   "website": null,
+   "website": "https://www.gronsoo.se/",
    "image": null,
    "wiki": null,
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7654,7 +7716,7 @@
    "lat": 59.36361111,
    "lon": 18.03944444,
    "inception": "1805",
-   "website": null,
+   "website": "https://www.hagaslott.se/",
    "image": {
     "file": "Haga slott Solna juni 2006.jpg",
     "path": "9/9d/Haga_slott_Solna_juni_2006.jpg",
@@ -7671,7 +7733,9 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "spa"
    ],
    "tours": []
   },
@@ -7833,8 +7897,8 @@
    "open": "Nej",
    "prio": 3,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 59.7176205,
+   "lon": 17.5081988,
    "inception": null,
    "website": null,
    "image": null,
@@ -7858,7 +7922,7 @@
    "lat": 59.73888889,
    "lon": 17.33805556,
    "inception": null,
-   "website": null,
+   "website": "https://www.salneckeslott.se/",
    "image": {
     "file": "Salnecke slott.png",
     "path": "1/1e/Salnecke_slott.png",
@@ -7893,7 +7957,7 @@
    "lat": 60.4106166667,
    "lon": 17.8778,
    "inception": null,
-   "website": null,
+   "website": "https://lovstabruk.com/",
    "image": {
     "file": "Lövstabruk 4.jpg",
     "path": "f/f5/Lövstabruk_4.jpg",
@@ -7906,7 +7970,10 @@
    "wiki": null,
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8243,7 +8310,7 @@
    "lat": 59.26916666666666,
    "lon": 15.148888888888889,
    "inception": "1801",
-   "website": null,
+   "website": "https://karlslund.com/",
    "image": {
     "file": "Karlslunds herrgård.jpg",
     "path": "e/e6/Karlslunds_herrgård.jpg",
@@ -8259,6 +8326,8 @@
    },
    "text": null,
    "offers": [
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -8518,12 +8587,13 @@
    "lat": 60.289283333333,
    "lon": 16.884883333333,
    "inception": null,
-   "website": null,
+   "website": "https://www.gysinge.se/",
    "image": null,
    "wiki": null,
    "text": null,
    "offers": [
-    "bo-pa-slott"
+    "bo-pa-slott",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8578,7 +8648,7 @@
    "lat": 67.12563888888889,
    "lon": 20.65963888888889,
    "inception": null,
-   "website": null,
+   "website": "https://www.fjallnas.se/",
    "image": {
     "file": "Fjällnäs.JPG",
     "path": "9/98/Fjällnäs.JPG",
@@ -8594,7 +8664,11 @@
    },
    "text": null,
    "offers": [
-    "bo-pa-slott"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
    ],
    "tours": []
   },
@@ -8777,7 +8851,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 34
+   "total": 42
   },
   {
    "slug": "spa",
@@ -8785,7 +8859,7 @@
    "short": "Spa",
    "kind": "offer",
    "intro": "Slott och slottshotell med spa, bad eller behandlingar.",
-   "total": 1
+   "total": 7
   },
   {
    "slug": "konferens",
@@ -8793,7 +8867,7 @@
    "short": "Konferens",
    "kind": "offer",
    "intro": "Slott för möten, konferenser och kickoffer.",
-   "total": 42
+   "total": 57
   },
   {
    "slug": "brollop-och-fest",
@@ -8801,7 +8875,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 21
+   "total": 45
   },
   {
    "slug": "restaurang-och-kafe",
@@ -8809,7 +8883,7 @@
    "short": "Mat",
    "kind": "offer",
    "intro": "Slott med restaurang, kafé eller servering.",
-   "total": 33
+   "total": 48
   },
   {
    "slug": "besok",
@@ -8855,6 +8929,6 @@
  "stats": {
   "total": 252,
   "withTour": 0,
-  "located": 244
+  "located": 250
  }
 }
