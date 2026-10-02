@@ -34,6 +34,24 @@
 - Workern heter `slottsregistret`, konto 36f39bea33a1d0e03815a8b01039efea.
 - Formulären behöver en KV-namnrymd (FORMS) och e-post (Email Routing, MAIL/MAIL_TO) – läggs till i wrangler.jsonc när zonen finns.
 
+## Läge 2 okt kl. 17 (flytt från chatten till Claude Code)
+- Sajten ligger på provadressen https://slottsregistret.konstadab.workers.dev (Workern `slottsregistret`). Push till `main` publicerar automatiskt.
+- GitHub-hemligheter finns: `CLOUDFLARE_API_TOKEN` (konto 36f39bea…, Workers + Zone Edit + DNS Edit för alla zoner) och `MAPS_KEY` (Google, Street View).
+  Hemligheter kan inte läggas in härifrån (proxyn spärrar GitHubs secrets-API); be Daniel om det behövs fler.
+- Cloudflare-zonen slottsregistret.se är skapad (id ea79ee838c7bee0ef2100f012784f653, status pending, namnservrar ian.ns.cloudflare.com och
+  kimora.ns.cloudflare.com). Inga DNS-poster importerades (hos One.com fanns bara deras parkeringssida och MX "0 .").
+- Domänen är registrerad hos One.com. Daniel stängde av DNSSEC där 2 okt kl. 16.16. DS-posten (1094 13 2 9CDD…) fanns kvar hos .se kl. 16.20.
+  NÄSTA STEG: kontrollera DS (jsonUrls `https://dns.google/resolve?name=slottsregistret.se&type=DS`). När den är borta: guida Daniel att byta
+  namnservrar hos One.com (https://www.one.com/admin/dns.do, välj slottsregistret.se, fliken Namnserver) till ian/kimora. När zonen är aktiv:
+  lägg till slottsregistret.se och www som egna domäner på Workern (API: PUT /accounts/{account}/workers/domains), slå på DNSSEC i Cloudflare och
+  be Daniel lägga in DS-posten hos One.com, skapa KV för formulären, Email Routing (kontakt@ → konstadab@gmail.com; nyckeln saknar Email Routing-behörighet,
+  be om utökad nyckel eller ett klick), Search Console.
+- Startsidan har en filmisk hero (2 okt): sju Commons-bilder (Läckö, Drottningholm, Gripsholm, Kalmar, Skokloster, Stora Sundby, Tjolöholm),
+  `tools/hero.py` → `src/assets/hero/` + `src/hero.json`, `src/assets/hero.js` (övertoning var 7:e s, Ken Burns, laddar efter första bilden).
+  Daniel vill ha en exklusiv känsla med guld; silver och brons finns som färger (`--silver*`, `--bronze*`) för t.ex. betalnivåer.
+- Daniel tycker att designen i övrigt "hänger efter lite" – en designgenomgång av hela sajten är nästa större uppgift.
+- Daniel vill inte ha mejl från misslyckade arbetsflöden: arbetsflödena ska inte misslyckas i onödan (saknad nyckel = hoppa över).
+
 ## Att göra
 1. Daniel: Cloudflare-nyckel som GitHub-hemlighet → skapa zonen slottsregistret.se, byt namnservrar hos registraren, publicera.
 2. KV för formulären, Email Routing (kontakt@ → konstadab@gmail.com), Search Console.
