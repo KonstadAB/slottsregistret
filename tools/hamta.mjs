@@ -13,6 +13,7 @@
 //   commonsFiles: [...]             -> storlek, fotograf och licens (bilder från entities tas med)
 //   textPages:  [...]               -> sidans titel, text, inbäddade ramar och länkar
 //   jsonUrls:   [{ url, body? }]    -> svaret som JSON eller text
+//   downloads:  [{ url, path }]     -> filen sparas i arkivet på path (t.ex. typsnitt), om den inte redan finns
 import fs from 'node:fs';
 
 const REQ = 'data/source/bestallning.json', OUT = 'data/source/svar.json', LOG = 'data/source/hamta-logg.txt';
@@ -172,6 +173,19 @@ await step('jsonUrls', async () => {
       out.json[key] = { status: r.status, data };
     } catch (e) { out.json[key] = { status: 0, error: String(e).slice(0, 160) }; }
     await sleep(300);
+  }
+});
+
+await step('downloads', async () => {
+  for (const d of req.downloads || []) {
+    if (!/^(src|data)\//.test(d.path) || d.path.includes('..')) { note('FEL nedladdning, otillåten sökväg', d.path); continue; }
+    try {
+      const r = await fetch(d.url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      fs.mkdirSync(d.path.replace(/\/[^/]+$/, ''), { recursive: true });
+      fs.writeFileSync(d.path, Buffer.from(await r.arrayBuffer()));
+      note('Hämtad', d.path);
+    } catch (e) { note('FEL nedladdning', d.url, String(e).slice(0, 160)); }
   }
 });
 
