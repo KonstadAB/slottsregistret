@@ -396,15 +396,19 @@ function county(S, co) {
 
 function countiesIndex(S) {
   const d = S.data;
+  // En bild per län: länets bästa slott med bild (rundtur först, sedan prioritet).
+  const pick = co => d.castles.filter(c => c.lanSlug === co.slug && c.image)
+    .sort((a, b) => (b.tours.length > 0) - (a.tours.length > 0) || a.prio - b.prio || (b.image.w || 0) - (a.image.w || 0))[0];
+  const list = [...d.counties].sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, 'sv'));
   return layout(S, {
-    title: 'Slott län för län', path: '/lan/', description: 'Sveriges slott, borgar och fästningar län för län – och hur många som går att besöka digitalt.',
+    title: 'Slott län för län', path: '/lan/', description: 'Sveriges slott, borgar och fästningar län för län – från Skånes borgar till Norrbottens herrgårdar.',
+    jsonld: crumbLd(S, [['/', 'Start'], ['/lan/', 'Län']]),
     body: `
 <div class="wrap">${crumbs([['/', 'Start'], ['/lan/', 'Län']])}</div>
-<header class="page-head"><div class="wrap"><h1>Slott län för län</h1>
-<p class="lead">Hur många av länets slott går att besöka digitalt? Andelen räknas på slotten i registret.</p>
-${coverage(d.stats.withTour, d.stats.total, 'slott i Sverige går att besöka digitalt')}</div></header>
+<header class="page-head"><div class="wrap"><p class="kicker kicker-gold"><span>${nf(d.counties.length)} län</span></p><h1>Slott län för län</h1>
+<p class="lead">Välj ett län och se dess slott, borgar och fästningar. ${nf(d.stats.withTour)} av Sveriges ${nf(d.stats.total)} slott i registret kan du redan kliva in i digitalt.</p></div></header>
 <section class="band band-tight"><div class="wrap">
-<ol class="county-list county-list-big">${[...d.counties].sort((a, b) => pct(b.withTour, b.total) - pct(a.withTour, a.total) || b.total - a.total).map((co, i) => `<li><a href="${countyURL(co)}"><span class="rank">${i + 1}</span><strong>${esc(co.name)}</strong><span class="mini"><span style="width:${pct(co.withTour, co.total)}%"></span></span><small>${nf(co.withTour)} av ${nf(co.total)} · ${pct(co.withTour, co.total)} %</small></a></li>`).join('')}</ol>
+<ul class="photo-tiles county-tiles">${list.map(co => { const c = pick(co); return `<li><a href="${countyURL(co)}">${c ? `<img src="${esc(commonsImage(c.image, 500))}" alt="" loading="lazy" decoding="async">` : ''}<span class="pt-in"><strong>${esc(co.name)}</strong><small>${nf(co.total)} slott${co.withTour ? ` · ${nf(co.withTour)} med rundtur` : ''}</small></span></a></li>`; }).join('')}</ul>
 </div></section>`,
   });
 }

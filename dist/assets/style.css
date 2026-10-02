@@ -207,6 +207,9 @@ a.tag:hover { background: var(--forest); color: #fff; }
 .pt-in strong { font: 500 1.25rem/1.15 var(--serif); }
 .photo-tiles li:first-child .pt-in strong { font-size: clamp(1.5rem, 2.6vw, 2.1rem); }
 .pt-in small { color: #D3DBD5; font-size: .88rem; }
+.county-tiles { grid-template-columns: repeat(3, 1fr); }
+.county-tiles li:first-child { grid-column: auto; }
+.county-tiles a { min-height: 200px; }
 @media (max-width: 900px) { .photo-tiles { grid-template-columns: 1fr 1fr; } .photo-tiles a { min-height: 170px; } }
 @media (max-width: 520px) { .photo-tiles { gap: 10px; } .photo-tiles a { min-height: 150px; } .pt-in { padding: 14px; } .pt-in strong { font-size: 1.05rem; } }
 .pills, .chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
