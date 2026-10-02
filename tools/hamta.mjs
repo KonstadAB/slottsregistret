@@ -236,16 +236,19 @@ await step('search', async () => {
 });
 
 await step('downloads', async () => {
+  let n = 0;
   for (const d of req.downloads || []) {
     if (!/^(src|data)\//.test(d.path) || d.path.includes('..')) { note('FEL nedladdning, otillåten sökväg', d.path); continue; }
     try {
-      const r = await fetch(d.url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
+      const url = d.url.replace('{MAPS_KEY}', process.env.MAPS_KEY || '');
+      if (fs.existsSync(d.path) && !d.force) continue;
+      const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       fs.mkdirSync(d.path.replace(/\/[^/]+$/, ''), { recursive: true });
-      fs.writeFileSync(d.path, Buffer.from(await r.arrayBuffer()));
-      note('Hämtad', d.path);
-    } catch (e) { note('FEL nedladdning', d.url, String(e).slice(0, 160)); }
+      fs.writeFileSync(d.path, Buffer.from(await r.arrayBuffer())); n++;
+    } catch (e) { note('FEL nedladdning', d.url.replace(/key=[^&]+/, 'key=…'), String(e).slice(0, 160)); }
   }
+  if ((req.downloads || []).length) note('Nedladdade', n, 'av', req.downloads.length);
 });
 
 note('Klart', new Date().toISOString());
