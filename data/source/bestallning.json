@@ -1,31 +1,28 @@
 {
  "jsonUrls": [
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/drottningholms-slott/2020-06-23-hedvig-eleonoras-paradsangkammare-i-360.html"
+   "url": "https://rdap.iis.se/domain/slottsregistret.se"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/drottningholms-slott/2025-12-01-ehrenstrahlsalongen-i-360.html"
+   "url": "https://dns.google/resolve?name=slottsregistret.se&type=NS"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/gripsholms-slott/2025-09-20-hertig-karls-kammare.html"
+   "url": "https://dns.google/resolve?name=slottsregistret.se&type=DS"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/gripsholms-slott/2025-11-30-360-pa-gripsholms-slott.html"
+   "url": "https://dns.google/resolve?name=slottsregistret.se&type=A"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/gripsholms-slott/2026-01-05-gustav-iiis-teater.html"
+   "url": "https://dns.google/resolve?name=slottsregistret.se&type=MX"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/kungliga-slottet/2020-06-26-virtuell-visning-i-gustav-iiis-antikmuseum.html"
+   "url": "https://slottsregistret.konstadab.workers.dev/"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/kungliga-slottet/2023-01-18-rikssalen-i-360.html"
+   "url": "https://slottsregistret.konstadab.workers.dev/slott/granso-slott/"
   },
   {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/kungliga-slottet/2023-09-07-vasa-till-bernadotte-i-360.html"
-  },
-  {
-   "url": "https://www.kungligaslotten.se/artiklar-film-360/ulriksdals-slott/2026-01-13-vardagsrummet-pa-ulriksdals-slott.html"
+   "url": "https://slottsregistret.konstadab.workers.dev/img/thumb/1/1d/Gr%C3%A4ns%C3%B6_slott.jpg/250px-Gr%C3%A4ns%C3%B6_slott.jpg"
   }
  ]
 }
