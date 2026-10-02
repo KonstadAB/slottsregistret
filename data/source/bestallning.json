@@ -1,28 +1,16 @@
 {
  "jsonUrls": [
   {
-   "url": "https://rdap.iis.se/domain/slottsregistret.se"
+   "url": "https://slottsregistret.konstadab.workers.dev/img/thumb/9/99/GransoSlottVastervik20130720.JPG/250px-GransoSlottVastervik20130720.JPG"
   },
   {
-   "url": "https://dns.google/resolve?name=slottsregistret.se&type=NS"
+   "url": "https://slottsregistret.konstadab.workers.dev/tiles/5/17/9.png"
   },
   {
-   "url": "https://dns.google/resolve?name=slottsregistret.se&type=DS"
+   "url": "https://slottsregistret.konstadab.workers.dev/data/slott.json"
   },
   {
-   "url": "https://dns.google/resolve?name=slottsregistret.se&type=A"
-  },
-  {
-   "url": "https://dns.google/resolve?name=slottsregistret.se&type=MX"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/slott/granso-slott/"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/img/thumb/1/1d/Gr%C3%A4ns%C3%B6_slott.jpg/250px-Gr%C3%A4ns%C3%B6_slott.jpg"
+   "url": "https://slottsregistret.konstadab.workers.dev/finns-inte/"
   }
  ]
 }
