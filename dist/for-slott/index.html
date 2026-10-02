@@ -20,10 +20,10 @@
 <link rel="preload" href="/assets/fonts/fraunces-latin.woff2?v=7f9d191d99" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin.woff2?v=2ee17598a9" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="/assets/style.css?v=63ae2471b0">
+<link rel="stylesheet" href="/assets/style.css?v=7cd2960497">
 
 </head>
-<body class="">
+<body class="overlay">
 <a class="skip" href="#innehall">Till innehållet</a>
 <header class="site-header">
   <div class="wrap hdr">
@@ -35,17 +35,41 @@
   </div>
 </header>
 <main id="innehall">
-<div class="wrap"><nav class="crumbs" aria-label="Brödsmulor"><ol><li><a href="/">Start</a></li><li aria-current="page">För slott och slottsägare</li></ol></nav></div><article class="prose wrap">
-<h1>För slott och slottsägare</h1>
-<p class="lead">Visa ert slott inifrån – för alla som letar slott att besöka, bo på, gifta sig eller ha konferens på.</p>
-<p>36 av 252 slott i registret går redan att besöka digitalt. De lyfts fram först i sökningar, i varje kategori och på kartan. En virtuell rundtur låter blivande gäster gå runt i salarna innan de bokar, och gör slottet tillgängligt för den som inte kan komma dit.</p>
-<h2>Det här kan ni göra</h2>
-<ul>
-  <li><b>Visa slottet inifrån.</b> Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en kan vi hjälpa er att ta fram en, som ni också kan använda på er egen webbplats.</li>
-  <li><b>Hålla uppgifterna aktuella.</b> Text, bilder, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning.</li>
-</ul>
-<p>Snart kan ni logga in och uppdatera ert slotts sida själva. Fram till dess: skicka uppgifterna här, så lägger vi in dem.</p>
-<form class="form" method="post" action="/api/skicka" data-form>
+
+<header class="page-hero sales-hero">
+  <img class="c-hero-img" src="/assets/hero/drottningholms-slott-1600.jpg?v=142b42a546" alt="" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap c-hero-top"><nav class="crumbs" aria-label="Brödsmulor"><ol><li><a href="/">Start</a></li><li aria-current="page">För slott och slottsägare</li></ol></nav></div>
+  <div class="wrap page-hero-in">
+    <p class="kicker kicker-gold"><span>För slott och slottsägare</span></p>
+    <h1>Låt gästerna kliva in <em class="gold-text">innan de bokar</em></h1>
+    <p class="lead">Brudpar, konferensbokare och resenärer vill se salarna innan de bestämmer sig. Med en virtuell rundtur kan de gå runt i ert slott redan i dag, var de än är.</p>
+    <p class="actions"><a class="btn btn-gold" href="#formular"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V11a6 6 0 0 1 12 0v10M3 21h18M12 15v2"/></svg>Visa ert slott inifrån</a><a class="btn btn-light" href="/virtuella-rundturer/">Se slott med rundtur</a></p>
+  </div>
+</header>
+<section class="band">
+  <div class="wrap">
+    <ul class="stats">
+      <li><b>252</b><span>slott, borgar och fästningar i registret</span></li>
+      <li><b class="gold-text">36</b><span>går redan att besöka digitalt</span></li>
+      <li><b>1:a</b><span>Slott med rundtur visas först i sök, listor och på kartan</span></li>
+    </ul>
+    <ul class="benefits">
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21V11a6 6 0 0 1 12 0v10M3 21h18M12 15v2"/></svg><h2>Visa slottet inifrån</h2><p>Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en hjälper vi er att ta fram en, som ni också kan använda på er egen webbplats.</p></li>
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="13" r="5"/><circle cx="15" cy="13" r="5"/></svg><h2>Fler förfrågningar</h2><p>Den som redan har gått runt i festsalen eller konferensrummet hemifrån vet vad de bokar. Rundturen visar slottet innan visningen.</p></li>
+      <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V9l7-5 7 5v12M10 21v-6h4v6"/></svg><h2>Rätt uppgifter</h2><p>Text, bilder, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. Snart kan ni sköta sidan själva.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="band band-paper2" id="formular">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker">Kontakt</p>
+      <h2>Berätta om ert slott</h2>
+      <p>Skicka uppgifterna här så hör vi av oss.</p>
+      <p class="small">Hellre e-post? <a href="mailto:kontakt@slottsregistret.se">kontakt@slottsregistret.se</a></p>
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
 <input type="hidden" name="formular" value="slott"><input type="hidden" name="tack" value="/tack/">
 <div class="trap" aria-hidden="true"><label>Lämna tomt <input name="webbplats" tabindex="-1" autocomplete="off"></label></div>
 <label for="slott">Slott</label>
@@ -64,7 +88,9 @@
 <label for="meddelande">Meddelande</label><textarea id="meddelande" name="meddelande" rows="5"></textarea>
 <button class="btn btn-gold" type="submit">Skicka</button>
 <p class="small">Vi sparar uppgifterna i högst två år och använder dem bara för att svara er. Se <a href="/integritet/">integritet</a>.</p>
-</form></article>
+</form>
+  </div>
+</section>
 </main>
 <footer class="site-footer">
   <div class="wrap ftr">

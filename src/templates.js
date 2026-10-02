@@ -159,10 +159,12 @@ function home(S) {
   const d = S.data, st = d.stats;
   const offers = d.categories.filter(c => c.kind === 'offer');
   const types = d.categories.filter(c => c.kind === 'type');
-  // En bild per erbjudande: ett slott med bild (helst med rundtur och hög prioritet), aldrig samma slott två gånger.
-  const used = new Set(S.featured.slice(0, 4).map(c => c.id));
+  // En bild per erbjudande: utvalda slott som visar just det (TILE), annars ett slott med bild och hög prioritet.
+  const TILE = { 'bo-pa-slott': 'hackeberga-slott', spa: 'nasby-slott', konferens: 'teleborgs-slott', 'brollop-och-fest': 'gunnebo-slott',
+    'restaurang-och-kafe': 'kronovalls-slott', besok: 'gripsholms-slott', 'park-och-tradgard': 'sofiero-slott' };
+  const used = new Set();
   const offerTiles = offers.filter(o => o.total).map(o => {
-    const c = d.castles.filter(c => c.image && c.offers.includes(o.slug) && !used.has(c.id))
+    const c = d.castles.find(c => c.id === TILE[o.slug] && c.image) || d.castles.filter(c => c.image && c.offers.includes(o.slug) && !used.has(c.id))
       .sort((a, b) => a.prio - b.prio || (b.tours.length > 0) - (a.tours.length > 0) || a.name.localeCompare(b.name, 'sv'))[0];
     if (c) used.add(c.id);
     return [o, c];
@@ -211,7 +213,7 @@ ${S.featured.length ? `<section class="band band-dark">
       <div><p class="kicker">Hela Sverige</p><h2>Län för län</h2></div>
       <p>Från Skånes borgar till Uppsalas kungsgårdar. Den gyllene linjen visar hur stor del av länets slott du kan kliva in i digitalt.</p>
     </div>
-    <ol class="county-list">${[...d.counties].sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, 'sv')).map(co => `<li><a href="${countyURL(co)}"><strong>${esc(co.name)}</strong><span class="mini"><span style="width:${pct(co.withTour, co.total)}%"></span></span><small>${nf(co.total)} slott${co.withTour ? ` · <span class="lit-text">${nf(co.withTour)} med rundtur</span>` : ''}</small></a></li>`).join('')}</ol>
+    <ol class="county-list">${[...d.counties].sort((a, b) => b.total - a.total || a.name.localeCompare(b.name, 'sv')).map(co => `<li><a href="${countyURL(co)}"><strong>${esc(co.name)}</strong><span class="mini"><span style="width:${pct(co.withTour, co.total)}%"></span></span><small>${nf(co.total)} slott${co.withTour ? `<span class="visually-hidden">, ${nf(co.withTour)} med rundtur</span>` : ''}</small></a></li>`).join('')}</ol>
   </div>
 </section>
 
@@ -243,10 +245,12 @@ function castle(S, c) {
   ].filter(f => f[1]);
   const directions = c.lat != null ? `https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lon}` : null;
   const offerCats = offers.filter(o => o.kind === 'offer');
-  const titleBlock = `<p class="kicker${img ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}</span></p>
+  // Stor bild överst bara när bilden är skarp nog; annars bilden bredvid rubriken.
+  const big = !!(img && c.image.w >= 1000);
+  const titleBlock = `<p class="kicker${big ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}</span></p>
     <h1>${esc(c.name)}</h1>
     ${offerCats.length ? `<p class="c-offers">${offerCats.map(o => `<a href="${catURL(o)}">${icon(o.slug)}${esc(o.short)}</a>`).join('')}</p>` : ''}
-    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.website ? `<a class="btn ${img ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${img ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
+    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
   const desc = `${c.name} – ${c.type.toLowerCase()} i ${kommunLabel(c.kommun)}, ${co ? co.full : c.lan}.${c.tours.length ? ' Kliv in med en virtuell rundtur.' : ''} ${offers.filter(o => o.kind === 'offer').map(o => o.short).join(', ')}`.trim();
   const tk = t ? (KIND[t.kind] || KIND.view) : null;
   const tourBlock = t ? `
@@ -281,9 +285,9 @@ function castle(S, c) {
   </div>
 </section>`;
   return layout(S, {
-    title: `${c.name}${S.dupNames.has(c.name) ? ` (${c.kommun})` : ''}`, description: desc.slice(0, 300), path: castleURL(c), bodyClass: img ? 'overlay' : '',
+    title: `${c.name}${S.dupNames.has(c.name) ? ` (${c.kommun})` : ''}`, description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
     image: commonsImage(c.image, 1280) || undefined,
-    scripts: ['/assets/castle.js', ...(c.lat != null ? ['/assets/vendor/leaflet.js'] : [])],
+    scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js'],
     jsonld: {
       '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', 'TouristAttraction'], name: c.name,
       url: S.config.domain + castleURL(c), ...(img ? { image: S.config.domain + img } : {}),
@@ -292,8 +296,8 @@ function castle(S, c) {
       ...(c.website ? { sameAs: [c.website] } : {}),
     },
     body: `
-${img ? `<header class="c-hero">
-  <img class="c-hero-img" src="${esc(img)}" srcset="${esc(imgSm)} 960w, ${esc(img)} 1280w${imgXl ? `, ${esc(imgXl)} 1920w` : ''}" sizes="100vw" alt="${esc(c.name)}" fetchpriority="high">
+${big ? `<header class="c-hero">
+  <img class="c-hero-img" src="${esc(img)}" srcset="${esc(imgSm)} 960w, ${esc(img)} 1280w${imgXl ? `, ${esc(imgXl)} 1920w` : ''}" sizes="(max-width: 700px) 250vw, 100vw" alt="${esc(c.name)}" fetchpriority="high">
   <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap c-hero-top">${crumbs([['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]])}</div>
   <div class="wrap c-hero-in">
@@ -301,7 +305,7 @@ ${img ? `<header class="c-hero">
   </div>
   <p class="film-caption"><small>${c.image.artist ? `Foto: ${esc(c.image.artist)}` : 'Foto'}${c.image.license ? `, ${esc(c.image.license)}` : ''} · <a href="${esc(c.image.page || 'https://commons.wikimedia.org/wiki/File:' + c.image.file)}" target="_blank" rel="noopener">Wikimedia Commons</a></small></p>
 </header>` : `<div class="wrap">${crumbs([['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]])}</div>
-<header class="c-head"><div class="wrap c-head-in">${titleBlock}</div></header>`}
+<header class="c-head"><div class="wrap c-head-in"><div>${titleBlock}</div>${img ? `<figure class="c-img"><img src="${esc(img)}" alt="${esc(c.name)}" fetchpriority="high"><figcaption>${c.image.artist ? `Foto: ${esc(c.image.artist)}` : 'Foto'}${c.image.license ? `, ${esc(c.image.license)}` : ''} · <a href="${esc(c.image.page || 'https://commons.wikimedia.org/wiki/File:' + c.image.file)}" target="_blank" rel="noopener">Wikimedia Commons</a></figcaption></figure>` : ''}</div></header>`}
 ${tourBlock}
 <section class="c-body">
   <div class="wrap c-grid">
@@ -309,7 +313,7 @@ ${tourBlock}
       <h2>Om ${esc(c.name)}</h2>
       ${wiki.length ? wiki.map(p => `<p>${esc(p)}</p>`).join('') : `<p>${esc(c.name)} är ${esc(c.type.toLowerCase())} i ${esc(kommunLabel(c.kommun))}.</p>`}
       ${c.wiki && !c.text ? `<p class="source">Text från <a href="https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</p>` : ''}
-      ${offerCats.length ? `<h3>Här kan du</h3><ul class="offer-list">${offerCats.map(o => `<li><a href="${catURL(o)}">${icon(o.slug)}<span>${esc(o.name)}</span></a></li>`).join('')}</ul>
+      ${offerCats.length ? `<h3>Här kan du</h3><ul class="offer-list">${offerCats.map(o => `<li><a href="${catURL(o)}">${icon(o.slug)}<span>${esc(o.short)}</span></a></li>`).join('')}</ul>
       <p class="small">Kontrollera alltid öppettider, priser och bokning på slottets egen webbplats.</p>` : ''}
     </div>
     <aside class="c-side">
@@ -489,18 +493,44 @@ function castleSelect(S, required) {
 }
 
 function forCastles(S) {
-  const st = S.data.stats;
-  return textPage(S, { title: 'För slott och slottsägare', path: '/for-slott/', scripts: ['/assets/form.js'], description: 'Visa ert slott inifrån för besökare, bröllopspar och konferensgäster – och håll uppgifterna om slottet aktuella.', body: `
-<h1>För slott och slottsägare</h1>
-<p class="lead">Visa ert slott inifrån – för alla som letar slott att besöka, bo på, gifta sig eller ha konferens på.</p>
-<p>${nf(st.withTour)} av ${nf(st.total)} slott i registret går redan att besöka digitalt. De lyfts fram först i sökningar, i varje kategori och på kartan. En virtuell rundtur låter blivande gäster gå runt i salarna innan de bokar, och gör slottet tillgängligt för den som inte kan komma dit.</p>
-<h2>Det här kan ni göra</h2>
-<ul>
-  <li><b>Visa slottet inifrån.</b> Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en kan vi hjälpa er att ta fram en, som ni också kan använda på er egen webbplats.</li>
-  <li><b>Hålla uppgifterna aktuella.</b> Text, bilder, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning.</li>
-</ul>
-<p>Snart kan ni logga in och uppdatera ert slotts sida själva. Fram till dess: skicka uppgifterna här, så lägger vi in dem.</p>
-<form class="form" method="post" action="/api/skicka" data-form>
+  const st = S.data.stats, path = '/for-slott/';
+  const hero = S.hero.find(h => h.id === 'drottningholms-slott') || S.hero[0];
+  return layout(S, { title: 'För slott och slottsägare', path, scripts: ['/assets/form.js'], bodyClass: hero ? 'overlay' : '',
+    description: 'Visa ert slott inifrån för besökare, bröllopspar och konferensgäster – och håll uppgifterna om slottet aktuella.', body: `
+<header class="page-hero sales-hero">
+  ${hero ? `<img class="c-hero-img" src="${S.asset(`/assets/hero/${hero.id}-1600.jpg`)}" alt="" fetchpriority="high">` : ''}
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap c-hero-top">${crumbs([['/', 'Start'], [path, 'För slott och slottsägare']])}</div>
+  <div class="wrap page-hero-in">
+    <p class="kicker kicker-gold"><span>För slott och slottsägare</span></p>
+    <h1>Låt gästerna kliva in <em class="gold-text">innan de bokar</em></h1>
+    <p class="lead">Brudpar, konferensbokare och resenärer vill se salarna innan de bestämmer sig. Med en virtuell rundtur kan de gå runt i ert slott redan i dag, var de än är.</p>
+    <p class="actions"><a class="btn btn-gold" href="#formular">${TOUR_ICON}Visa ert slott inifrån</a><a class="btn btn-light" href="/virtuella-rundturer/">Se slott med rundtur</a></p>
+  </div>
+</header>
+<section class="band">
+  <div class="wrap">
+    <ul class="stats">
+      <li><b>${nf(st.total)}</b><span>slott, borgar och fästningar i registret</span></li>
+      <li><b class="gold-text">${nf(st.withTour)}</b><span>går redan att besöka digitalt</span></li>
+      <li><b>1:a</b><span>Slott med rundtur visas först i sök, listor och på kartan</span></li>
+    </ul>
+    <ul class="benefits">
+      <li>${TOUR_ICON}<h2>Visa slottet inifrån</h2><p>Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en hjälper vi er att ta fram en, som ni också kan använda på er egen webbplats.</p></li>
+      <li>${icon('brollop-och-fest')}<h2>Fler förfrågningar</h2><p>Den som redan har gått runt i festsalen eller konferensrummet hemifrån vet vad de bokar. Rundturen visar slottet innan visningen.</p></li>
+      <li>${icon('besok')}<h2>Rätt uppgifter</h2><p>Text, bilder, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. Snart kan ni sköta sidan själva.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="band band-paper2" id="formular">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker">Kontakt</p>
+      <h2>Berätta om ert slott</h2>
+      <p>Skicka uppgifterna här så hör vi av oss.</p>
+      <p class="small">Hellre e-post? <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a></p>
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'slott')}
 ${castleSelect(S, true)}
 <fieldset><legend>Det gäller</legend>
@@ -517,7 +547,9 @@ ${castleSelect(S, true)}
 <label for="meddelande">Meddelande</label><textarea id="meddelande" name="meddelande" rows="5"></textarea>
 <button class="btn btn-gold" type="submit">Skicka</button>
 <p class="small">Vi sparar uppgifterna i högst två år och använder dem bara för att svara er. Se <a href="/integritet/">integritet</a>.</p>
-</form>` });
+</form>
+  </div>
+</section>` });
 }
 
 function tip(S) {
