@@ -1,2 +1,28 @@
-# 2026-10-02T14:05:22Z status
-CLOUDFLARE_API_TOKEN saknas
+# 2026-10-02T14:06:34Z api POST /zones {"name":"slottsregistret.se","account":{"id":"{account}"},"type":"full","jump_start":true} ;; status
+>> api POST /zones {"name":"slottsregistret.se","account":{"id":"{account}"},"type":"full","jump_start":true}
+!! POST /zones -> 400 [{"code":1067,"message":"Invalid account identifier passed in your organization variable"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 1067,
+   "message": "Invalid account identifier passed in your organization variable"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> status
+== Nyckel: active
+!! GET /zones/undefined/dns_records?per_page=100 -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/dns_records, perhaps your object identifier is invalid?"}]
+== DNS
+!! GET /zones/undefined/dnssec -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/dnssec, perhaps your object identifier is invalid?"}]
+== DNSSEC: undefined
+!! GET /zones/undefined/email/routing -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/email/routing, perhaps your object identifier is invalid?"}]
+== Email Routing: ?
+== Workers: slottsregistret, svenskakyrkor
+== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production)
+== Senaste publicering av Workern: 2026-10-02T14:03:41.515162Z wrangler versioner 75238ec5 Skapa zonen slottsregistret.se; publicering med...
+  version 75238ec5 2026-10-02T14:03:41.515162Z wrangler Skapa zonen slottsregistret.se; publicering med nyckel som indata upload
+== Pages-projekt: inga
+== Workers Builds (0)
