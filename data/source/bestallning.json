@@ -1,1956 +1,1261 @@
 {
- "streetview": [
-  {
-   "id": "malmohus",
-   "lat": 55.605,
-   "lon": 12.9875
-  },
-  {
-   "id": "karnan",
-   "lat": 56.048185,
-   "lon": 12.697148
-  },
-  {
-   "id": "sofiero-slott",
-   "lat": 56.083888888889,
-   "lon": 12.659722222222
-  },
-  {
-   "id": "glimmingehus",
-   "lat": 55.500833333333,
-   "lon": 14.230833333333
-  },
-  {
-   "id": "bosjokloster",
-   "lat": 55.877222222222,
-   "lon": 13.518611111111
-  },
-  {
-   "id": "hovdala-slott",
-   "lat": 56.104444444444,
-   "lon": 13.7125
-  },
-  {
-   "id": "backaskog-slott",
-   "lat": 56.085833333333,
-   "lon": 14.348611111111
-  },
-  {
-   "id": "christinehofs-slott",
-   "lat": 55.7179,
-   "lon": 13.9607
-  },
-  {
-   "id": "svaneholms-slott",
-   "lat": 55.50015,
-   "lon": 13.4783833333
-  },
-  {
-   "id": "torups-slott",
-   "lat": 55.565277777778,
-   "lon": 13.208611111111
-  },
-  {
-   "id": "trollenas-slott",
-   "lat": 55.86556,
-   "lon": 13.24506
-  },
-  {
-   "id": "krapperups-slott",
-   "lat": 56.262,
-   "lon": 12.53
-  },
-  {
-   "id": "landskrona-citadell",
-   "lat": 55.873055555556,
-   "lon": 12.8225
-  },
-  {
-   "id": "borgeby-slott",
-   "lat": 55.751388888889,
-   "lon": 13.036666666667
-  },
-  {
-   "id": "wanas-slott",
-   "lat": 56.18676,
-   "lon": 14.04639
-  },
-  {
-   "id": "kronovalls-slott",
-   "lat": 55.6415,
-   "lon": 14.0486
-  },
-  {
-   "id": "snogeholms-slott",
-   "lat": 55.5606,
-   "lon": 13.7128
-  },
-  {
-   "id": "hackeberga-slott",
-   "lat": 55.58027778,
-   "lon": 13.42833333
-  },
-  {
-   "id": "vittskovle-slott",
-   "lat": 55.854722222222,
-   "lon": 14.133333333333
-  },
-  {
-   "id": "trolleholms-slott",
-   "lat": 55.908333333333,
-   "lon": 13.261944444444
-  },
-  {
-   "id": "tosterups-slott",
-   "lat": 55.48,
-   "lon": 13.986388888889
-  },
-  {
-   "id": "trolle-ljungby-slott",
-   "lat": 56.0218,
-   "lon": 14.3699
-  },
-  {
-   "id": "bjarsjoholms-slott",
-   "lat": 55.453722222222,
-   "lon": 13.777388888889
-  },
-  {
-   "id": "marsvinsholms-slott",
-   "lat": 55.463333333333,
-   "lon": 13.708055555556
-  },
-  {
-   "id": "krageholms-slott",
-   "lat": 55.493,
-   "lon": 13.7656
-  },
-  {
-   "id": "kulla-gunnarstorps-slott",
-   "lat": 56.1092,
-   "lon": 12.6295
-  },
-  {
-   "id": "vrams-gunnarstorps-slott",
-   "lat": 56.1036,
-   "lon": 12.9692
-  },
-  {
-   "id": "barsebacks-slott",
-   "lat": 55.775833333333,
-   "lon": 12.951388888889
-  },
-  {
-   "id": "skabersjo-slott",
-   "lat": 55.540555555556,
-   "lon": 13.146666666667
-  },
-  {
-   "id": "nasbyholms-slott",
-   "lat": 55.468333333333,
-   "lon": 13.460555555556
-  },
-  {
-   "id": "maltesholms-slott",
-   "lat": 55.902222222222,
-   "lon": 13.980833333333
-  },
-  {
-   "id": "knutstorps-borg",
-   "lat": 55.97944444,
-   "lon": 13.13472222
-  },
-  {
-   "id": "skarhults-slott",
-   "lat": 55.804166666667,
-   "lon": 13.371111111111
-  },
-  {
-   "id": "ellinge-slott",
-   "lat": 55.8117,
-   "lon": 13.2875
-  },
-  {
-   "id": "alnarps-slott",
-   "lat": 55.65723,
-   "lon": 13.08357
-  },
-  {
-   "id": "rabelovs-slott",
-   "lat": 56.079166666667,
-   "lon": 14.190555555556
-  },
-  {
-   "id": "ovedsklosters-slott",
-   "lat": 55.686388888889,
-   "lon": 13.635833333333
-  },
-  {
-   "id": "bollerups-borg",
-   "lat": 55.491388888889,
-   "lon": 14.045833333333
-  },
-  {
-   "id": "lindholmens-borgruin",
-   "lat": 55.496944444444,
-   "lon": 13.298333333333
-  },
-  {
-   "id": "stjarneholms-borgruin",
-   "lat": 55.48861111,
-   "lon": 13.4575
-  },
-  {
-   "id": "manstorps-gavlar",
-   "lat": 55.478333333333,
-   "lon": 13.136944444444
-  },
-  {
-   "id": "falsterbohus",
-   "lat": 55.38623333333334,
-   "lon": 12.829233333333333
-  },
-  {
-   "id": "gladsaxehus",
-   "lat": 55.56166667,
-   "lon": 14.28833333
-  },
-  {
-   "id": "lillo-borgruin",
-   "lat": 56.0383,
-   "lon": 14.1222
-  },
-  {
-   "id": "rosendals-slott-skane",
-   "lat": 59.32888889,
-   "lon": 18.11833333
-  },
-  {
-   "id": "rossjoholms-slott",
-   "lat": 56.313611111111,
-   "lon": 13.094722222222
-  },
-  {
-   "id": "bjornstorps-slott",
-   "lat": 55.628,
-   "lon": 13.4066
-  },
-  {
-   "id": "karsholms-slott",
-   "lat": 56.115833333333,
-   "lon": 14.3075
-  },
-  {
-   "id": "charlottenlunds-slott",
-   "lat": 55.430833333333,
-   "lon": 13.690833333333
-  },
-  {
-   "id": "jordberga-slott",
-   "lat": 55.415,
-   "lon": 13.415555555556
-  },
-  {
-   "id": "borringekloster",
-   "lat": 55.5069,
-   "lon": 13.3256
-  },
-  {
-   "id": "dybacks-slott",
-   "lat": 55.4012,
-   "lon": 13.525
-  },
-  {
-   "id": "gyllebo-slott",
-   "lat": 55.598888888889,
-   "lon": 14.196388888889
-  },
-  {
-   "id": "tullesbo",
-   "lat": 55.70916667,
-   "lon": 13.66083333
-  },
-  {
-   "id": "bjarsjolagards-slott",
-   "lat": 55.726111111111,
-   "lon": 13.698888888889
-  },
-  {
-   "id": "loberods-slott",
-   "lat": 55.7728,
-   "lon": 13.4825
-  },
-  {
-   "id": "ovesholms-slott",
-   "lat": 56.000486111111,
-   "lon": 14.001741666667
-  },
-  {
-   "id": "palsjo-slott",
-   "lat": 56.068888888889,
-   "lon": 12.68
-  },
-  {
-   "id": "hjularods-slott",
-   "lat": 55.735,
-   "lon": 13.558888888889
-  },
-  {
-   "id": "hogestads-slott",
-   "lat": 55.507222222222,
-   "lon": 13.878055555556
-  },
-  {
-   "id": "osbyholms-slott",
-   "lat": 55.851,
-   "lon": 13.601
-  },
-  {
-   "id": "smedstorps-slott",
-   "lat": 55.563052777778,
-   "lon": 14.107752777778
-  },
-  {
-   "id": "sovdeborgs-slott",
-   "lat": 55.581944444444,
-   "lon": 13.696944444444
-  },
-  {
-   "id": "svenstorps-slott",
-   "lat": 55.7657,
-   "lon": 13.2553
-  },
-  {
-   "id": "viderups-slott",
-   "lat": 55.7775,
-   "lon": 13.2875
-  },
-  {
-   "id": "vegeholms-slott",
-   "lat": 56.2058,
-   "lon": 12.8068
-  },
-  {
-   "id": "tunbyholms-slott",
-   "lat": 55.597777777778,
-   "lon": 14.123333333333
-  },
-  {
-   "id": "toppeladugards-slott",
-   "lat": 55.595555555556,
-   "lon": 13.362777777778
-  },
-  {
-   "id": "ronneholms-slott",
-   "lat": 55.934444444444,
-   "lon": 13.389722222222
-  },
-  {
-   "id": "hanaskogs-slott",
-   "lat": 56.151388888889,
-   "lon": 14.113611111111
-  },
-  {
-   "id": "garsnas-slott",
-   "lat": 55.5328,
-   "lon": 14.1767
-  },
-  {
-   "id": "bellinga-slott",
-   "lat": 55.528055555556,
-   "lon": 13.716944444444
-  },
-  {
-   "id": "beritsholm",
-   "lat": 55.732314,
-   "lon": 13.687663
-  },
-  {
-   "id": "klagerups-slott",
-   "lat": 55.5997,
-   "lon": 13.2676
-  },
-  {
-   "id": "johannishus-slott",
-   "lat": 56.24527778,
-   "lon": 15.41388889
-  },
-  {
-   "id": "kungsholms-fort",
-   "lat": 56.10797,
-   "lon": 15.58877
-  },
-  {
-   "id": "drottningskars-kastell",
-   "lat": 56.110167,
-   "lon": 15.564336
-  },
-  {
-   "id": "tjoloholms-slott",
-   "lat": 57.398611111111,
-   "lon": 12.103055555556
-  },
-  {
-   "id": "varbergs-fastning",
-   "lat": 57.1043,
-   "lon": 12.2415666667
-  },
-  {
-   "id": "halmstads-slott",
-   "lat": 56.67166667,
-   "lon": 12.85777778
-  },
-  {
-   "id": "skottorps-slott",
-   "lat": 56.43583333,
-   "lon": 12.97861111
-  },
-  {
-   "id": "gasevadholms-slott",
-   "lat": 57.49333333,
-   "lon": 12.12277778
-  },
-  {
-   "id": "vallens-slott",
-   "lat": 56.4294,
-   "lon": 13.1269
-  },
-  {
-   "id": "lacko-slott",
-   "lat": 58.675,
-   "lon": 13.22
-  },
-  {
-   "id": "naas-slott",
-   "lat": 57.81638889,
-   "lon": 12.40125
-  },
-  {
-   "id": "gunnebo-slott",
-   "lat": 57.658055555556,
-   "lon": 12.058333333333
-  },
-  {
-   "id": "bohus-fastning",
-   "lat": 57.861944444444,
-   "lon": 11.999444444444
-  },
-  {
-   "id": "carlstens-fastning",
-   "lat": 57.886111111111,
-   "lon": 11.578333333333
-  },
-  {
-   "id": "nya-alvsborgs-fastning",
-   "lat": 57.686083333333,
-   "lon": 11.838361111111
-  },
-  {
-   "id": "skansen-kronan",
-   "lat": 57.696024,
-   "lon": 11.955319
-  },
-  {
-   "id": "karlsborgs-fastning",
-   "lat": 58.53194444,
-   "lon": 14.53055556
-  },
-  {
-   "id": "torpa-stenhus",
-   "lat": 57.65,
-   "lon": 13.27944444
-  },
-  {
-   "id": "thorskogs-slott",
-   "lat": 58.0333,
-   "lon": 12.1364
-  },
-  {
-   "id": "bjertorps-slott",
-   "lat": 58.26458333,
-   "lon": 13.11319444
-  },
-  {
-   "id": "stola-herrgard",
-   "lat": 58.59471111,
-   "lon": 13.08423889
-  },
-  {
-   "id": "sundsby-sateri",
-   "lat": 58.0703,
-   "lon": 11.6889
-  },
-  {
-   "id": "dalaborg",
-   "lat": 58.60333333,
-   "lon": 12.60555556
-  },
-  {
-   "id": "tureborg",
-   "lat": 58.3405,
-   "lon": 11.9527
-  },
-  {
-   "id": "kobergs-slott",
-   "lat": 58.16388889,
-   "lon": 12.41111111
-  },
-  {
-   "id": "mariedals-slott",
-   "lat": 58.4725,
-   "lon": 13.40675
-  },
-  {
-   "id": "kavlas-slott",
-   "lat": 58.226111111111,
-   "lon": 13.876111111111
-  },
-  {
-   "id": "dagsnas-slott",
-   "lat": 58.28430556,
-   "lon": 13.49486111
-  },
-  {
-   "id": "almnas-slott",
-   "lat": 58.24777778,
-   "lon": 14.26472222
-  },
-  {
-   "id": "hellidens-slott",
-   "lat": 58.17388889,
-   "lon": 13.97888889
-  },
-  {
-   "id": "hojentorps-slott",
-   "lat": 58.413566,
-   "lon": 13.64196
-  },
-  {
-   "id": "kalmar-slott",
-   "lat": 56.65805556,
-   "lon": 16.35527778
-  },
-  {
-   "id": "borgholms-slottsruin",
-   "lat": 56.870555555556,
-   "lon": 16.643333333333
-  },
-  {
-   "id": "sollidens-slott",
-   "lat": 56.865277777778,
-   "lon": 16.634444444444
-  },
-  {
-   "id": "eketorps-borg",
-   "lat": 56.295555555556,
-   "lon": 16.486111111111
-  },
-  {
-   "id": "ismantorps-borg",
-   "lat": 56.745438,
-   "lon": 16.642681
-  },
-  {
-   "id": "graborg",
-   "lat": 56.666422,
-   "lon": 16.603991
-  },
-  {
-   "id": "granso-slott",
-   "lat": 57.76111111,
-   "lon": 16.68416667
-  },
-  {
-   "id": "stegeholms-slottsruin",
-   "lat": 57.7625,
-   "lon": 16.64277778
-  },
-  {
-   "id": "blekhem",
-   "lat": 57.82275,
-   "lon": 16.42788889
-  },
-  {
-   "id": "kronobergs-slottsruin",
-   "lat": 56.9417293,
-   "lon": 14.7947217
-  },
-  {
-   "id": "teleborgs-slott",
-   "lat": 56.856944444444,
-   "lon": 14.834444444444
-  },
-  {
-   "id": "huseby-bruk",
-   "lat": 56.77965,
-   "lon": 14.5842833333
-  },
-  {
-   "id": "brahehus",
-   "lat": 58.05281,
-   "lon": 14.505153
-  },
-  {
-   "id": "visingsborgs-slottsruin",
-   "lat": 58.035075,
-   "lon": 14.352069
-  },
-  {
-   "id": "nas-slottsruin",
-   "lat": 57.998055555556,
-   "lon": 14.291111111111
-  },
-  {
-   "id": "gripenbergs-slott",
-   "lat": 57.99847222,
-   "lon": 14.89513889
-  },
-  {
-   "id": "vastana-slott",
-   "lat": 57.99,
-   "lon": 14.42111111
-  },
-  {
-   "id": "lyckas-slott",
-   "lat": 57.88,
-   "lon": 14.349
-  },
-  {
-   "id": "visby-ringmur",
-   "lat": 57.640277777778,
-   "lon": 18.294444444444
-  },
-  {
-   "id": "roma-kungsgard",
-   "lat": 57.516001,
-   "lon": 18.458989
-  },
-  {
-   "id": "katthammarsvik-katthamra",
-   "lat": 57.433141876402,
-   "lon": 18.850833393044
-  },
-  {
-   "id": "stora-hastnas",
-   "lat": 57.6599,
-   "lon": 18.3637
-  },
-  {
-   "id": "vadstena-slott",
-   "lat": 58.44597222,
-   "lon": 14.88361111
-  },
-  {
-   "id": "linkopings-slott",
-   "lat": 58.41055556,
-   "lon": 15.61583333
-  },
-  {
-   "id": "lofstad-slott",
-   "lat": 58.55047222,
-   "lon": 16.04069444
-  },
-  {
-   "id": "ekenas-slott",
-   "lat": 58.38208333,
-   "lon": 15.94597222
-  },
-  {
-   "id": "bjarka-saby-slott",
-   "lat": 58.270555555556,
-   "lon": 15.738888888889
-  },
-  {
-   "id": "stegeborgs-slottsruin",
-   "lat": 58.441388888889,
-   "lon": 16.598888888889
-  },
-  {
-   "id": "sturefors-slott",
-   "lat": 58.324722222222,
-   "lon": 15.776111111111
-  },
-  {
-   "id": "brokinds-slott",
-   "lat": 58.21083333,
-   "lon": 15.66222222
-  },
-  {
-   "id": "charlottenborgs-slott",
-   "lat": 58.54138889,
-   "lon": 15.06388889
-  },
-  {
-   "id": "ljungs-slott",
-   "lat": 58.52833333,
-   "lon": 15.44361111
-  },
-  {
-   "id": "finspangs-slott",
-   "lat": 58.70972222,
-   "lon": 15.77083333
-  },
-  {
-   "id": "mauritzbergs-slott",
-   "lat": 58.60583333,
-   "lon": 16.67833333
-  },
-  {
-   "id": "johannisborgs-slottsruin",
-   "lat": 58.60083333,
-   "lon": 16.19888889
-  },
-  {
-   "id": "braborgs-slottsruin",
-   "lat": 58.615523,
-   "lon": 16.343694
-  },
-  {
-   "id": "mems-slott",
-   "lat": 58.481565,
-   "lon": 16.41119
-  },
-  {
-   "id": "ulvasa",
-   "lat": 58.5536,
-   "lon": 15.15
-  },
-  {
-   "id": "gripsholms-slott",
-   "lat": 59.256111,
-   "lon": 17.219167
-  },
-  {
-   "id": "nykopingshus",
-   "lat": 58.74847222,
-   "lon": 17.01166667
-  },
-  {
-   "id": "nynas-slott",
-   "lat": 58.80833333,
-   "lon": 17.36611111
-  },
-  {
-   "id": "julita-gard",
-   "lat": 59.15111111,
-   "lon": 16.03916667
-  },
-  {
-   "id": "sundbyholms-slott",
-   "lat": 59.44777778,
-   "lon": 16.62388889
-  },
-  {
-   "id": "malsakers-slott",
-   "lat": 59.38416667,
-   "lon": 17.30666667
-  },
-  {
-   "id": "tureholms-slott",
-   "lat": 58.8961,
-   "lon": 17.5133
-  },
-  {
-   "id": "ericsbergs-slott",
-   "lat": 58.93263889,
-   "lon": 16.37875
-  },
-  {
-   "id": "stora-sundby-slott",
-   "lat": 59.2703,
-   "lon": 16.1264
-  },
-  {
-   "id": "sparreholms-slott",
-   "lat": 59.08361111,
-   "lon": 16.82694444
-  },
-  {
-   "id": "stenhammars-slott",
-   "lat": 59.05041667,
-   "lon": 16.55194444
-  },
-  {
-   "id": "harpsund",
-   "lat": 59.099166666667,
-   "lon": 16.485277777778
-  },
-  {
-   "id": "claestorps-slott",
-   "lat": 58.96222222,
-   "lon": 16.12055556
-  },
-  {
-   "id": "rockelstads-slott",
-   "lat": 59.039313,
-   "lon": 16.856943
-  },
-  {
-   "id": "sodertuna-slott",
-   "lat": 59.0683,
-   "lon": 17.305
-  },
-  {
-   "id": "safstaholms-slott",
-   "lat": 59.04611111,
-   "lon": 15.88222222
-  },
-  {
-   "id": "vibyholms-slott",
-   "lat": 58.9917,
-   "lon": 16.8642
-  },
-  {
-   "id": "fiholms-slott",
-   "lat": 59.43388889,
-   "lon": 16.7425
-  },
-  {
-   "id": "elghammar",
-   "lat": 59.05611111,
-   "lon": 17.08083333
-  },
-  {
-   "id": "ekensholms-slott",
-   "lat": 59.16222222,
-   "lon": 16.87611111
-  },
-  {
-   "id": "bjorksunds-slott",
-   "lat": 58.78666667,
-   "lon": 17.28083333
-  },
-  {
-   "id": "rinkesta",
-   "lat": 59.35833333,
-   "lon": 16.52166667
-  },
-  {
-   "id": "oster-malma",
-   "lat": 58.95083333,
-   "lon": 17.15805556
-  },
-  {
-   "id": "tistads-slott",
-   "lat": 58.8255,
-   "lon": 16.8911
-  },
-  {
-   "id": "tynnelso-slott",
-   "lat": 59.41222222,
-   "lon": 17.10027778
-  },
-  {
-   "id": "akero",
-   "lat": 58.89305556,
-   "lon": 16.57111111
-  },
-  {
-   "id": "stockholms-slott",
-   "lat": 59.326666666667,
-   "lon": 18.071666666667
-  },
-  {
-   "id": "drottningholms-slott",
-   "lat": 59.321694,
-   "lon": 17.886383
-  },
-  {
-   "id": "kina-slott",
-   "lat": 59.31694444,
-   "lon": 17.87861111
-  },
-  {
-   "id": "ulriksdals-slott",
-   "lat": 59.390277777778,
-   "lon": 18.016944444444
-  },
-  {
-   "id": "hagaslottet",
-   "lat": 59.36361111,
-   "lon": 18.03944444
-  },
-  {
-   "id": "gustav-iii-s-paviljong",
-   "lat": 59.36277778,
-   "lon": 18.03916667
-  },
-  {
-   "id": "rosendals-slott",
-   "lat": 59.32888889,
-   "lon": 18.11833333
-  },
-  {
-   "id": "rosersbergs-slott",
-   "lat": 59.57416667,
-   "lon": 17.84444444
-  },
-  {
-   "id": "tullgarns-slott",
-   "lat": 58.950277777778,
-   "lon": 17.584444444444
-  },
-  {
-   "id": "tyreso-slott",
-   "lat": 59.23527778,
-   "lon": 18.30472222
-  },
-  {
-   "id": "svartsjo-slott",
-   "lat": 59.36277778,
-   "lon": 17.72777778
-  },
-  {
-   "id": "karlbergs-slott",
-   "lat": 59.34083333,
-   "lon": 18.0225
-  },
-  {
-   "id": "steninge-slott",
-   "lat": 59.60208333,
-   "lon": 17.80444444
-  },
-  {
-   "id": "venngarns-slott",
-   "lat": 59.64861111,
-   "lon": 17.71972222
-  },
-  {
-   "id": "haringe-slott",
-   "lat": 59.03976,
-   "lon": 18.014315
-  },
-  {
-   "id": "arsta-slott",
-   "lat": 59.1075,
-   "lon": 18.19388889
-  },
-  {
-   "id": "sandemar",
-   "lat": 59.12572834402764,
-   "lon": 18.35322361529498
-  },
-  {
-   "id": "taxinge-slott",
-   "lat": 59.24694444,
-   "lon": 17.30916667
-  },
-  {
-   "id": "sturehovs-slott",
-   "lat": 59.25788889,
-   "lon": 17.75866667
-  },
-  {
-   "id": "horningsholms-slott",
-   "lat": 59.05083333,
-   "lon": 17.66583333
-  },
-  {
-   "id": "erstavik",
-   "lat": 59.26777778,
-   "lon": 18.24583333
-  },
-  {
-   "id": "hasselby-slott",
-   "lat": 59.36555556,
-   "lon": 17.85444444
-  },
-  {
-   "id": "akeshovs-slott",
-   "lat": 59.34083333,
-   "lon": 17.92472222
-  },
-  {
-   "id": "ulvsunda-slott",
-   "lat": 59.34083333,
-   "lon": 17.96388889
-  },
-  {
-   "id": "kristinebergs-slott",
-   "lat": 59.33388889,
-   "lon": 18.00555556
-  },
-  {
-   "id": "nasby-slott",
-   "lat": 59.42416667,
-   "lon": 18.08666667
-  },
-  {
-   "id": "djursholms-slott",
-   "lat": 59.40138889,
-   "lon": 18.08916667
-  },
-  {
-   "id": "bogesunds-slott",
-   "lat": 59.39333333,
-   "lon": 18.28444444
-  },
-  {
-   "id": "vaxholms-kastell",
-   "lat": 59.40305556,
-   "lon": 18.35972222
-  },
-  {
-   "id": "edsbergs-slott",
-   "lat": 59.44111111,
-   "lon": 17.95555556
-  },
-  {
-   "id": "ekebyhovs-slott",
-   "lat": 59.28277778,
-   "lon": 17.81472222
-  },
-  {
-   "id": "alsno-hus",
-   "lat": 59.36055556,
-   "lon": 17.535
-  },
-  {
-   "id": "gorvalns-slott",
-   "lat": 59.43472222,
-   "lon": 17.7875
-  },
-  {
-   "id": "granhammars-slott",
-   "lat": 59.51777778,
-   "lon": 17.78
-  },
-  {
-   "id": "lejondals-slott",
-   "lat": 59.52444444,
-   "lon": 17.67416667
-  },
-  {
-   "id": "runsa-slott",
-   "lat": 59.55861111,
-   "lon": 17.82388889
-  },
-  {
-   "id": "stora-wasby-slott",
-   "lat": 59.5325,
-   "lon": 17.9056
-  },
-  {
-   "id": "rydboholms-slott",
-   "lat": 59.440277777778,
-   "lon": 18.185555555556
-  },
-  {
-   "id": "ostana-slott",
-   "lat": 59.55722222222222,
-   "lon": 18.578333333333333
-  },
-  {
-   "id": "skanelaholms-slott",
-   "lat": 59.57833333,
-   "lon": 17.93583333
-  },
-  {
-   "id": "penningby-slott",
-   "lat": 59.68138889,
-   "lon": 18.6725
-  },
-  {
-   "id": "ekebyholms-slott",
-   "lat": 59.76805556,
-   "lon": 18.35222222
-  },
-  {
-   "id": "johannesbergs-slott",
-   "lat": 59.7361,
-   "lon": 18.1903
-  },
-  {
-   "id": "skoklosters-slott",
-   "lat": 59.70305555555556,
-   "lon": 17.621388888888887
-  },
-  {
-   "id": "uppsala-slott",
-   "lat": 59.85359,
-   "lon": 17.63543
-  },
-  {
-   "id": "wiks-slott",
-   "lat": 59.73611111,
-   "lon": 17.46166667
-  },
-  {
-   "id": "ekolsunds-slott",
-   "lat": 59.65083333,
-   "lon": 17.36666667
-  },
-  {
-   "id": "haga-slott",
-   "lat": 59.36361111,
-   "lon": 18.03944444
-  },
-  {
-   "id": "salsta-slott",
-   "lat": 60.04527778,
-   "lon": 17.73972222
-  },
-  {
-   "id": "orbyhus-slott",
-   "lat": 60.2,
-   "lon": 17.7092
-  },
-  {
-   "id": "noors-slott",
-   "lat": 59.71611111,
-   "lon": 17.81972222
-  },
-  {
-   "id": "ekholmens-slott",
-   "lat": 59.51305556,
-   "lon": 17.37416667
-  },
-  {
-   "id": "salnecke-slott",
-   "lat": 59.73888889,
-   "lon": 17.33805556
-  },
-  {
-   "id": "lovstabruk",
-   "lat": 60.4106166667,
-   "lon": 17.8778
-  },
-  {
-   "id": "osterbybruk-herrgard",
-   "lat": 60.1936,
-   "lon": 17.8995
-  },
-  {
-   "id": "stromsholms-slott",
-   "lat": 59.525,
-   "lon": 16.27
-  },
-  {
-   "id": "angso-slott",
-   "lat": 59.5325,
-   "lon": 16.8575
-  },
-  {
-   "id": "tido-slott",
-   "lat": 59.5056,
-   "lon": 16.4783
-  },
-  {
-   "id": "engso-slott",
-   "lat": 59.5325,
-   "lon": 16.8575
-  },
-  {
-   "id": "vasteras-slott",
-   "lat": 59.60638889,
-   "lon": 16.54444444
-  },
-  {
-   "id": "fullero",
-   "lat": 59.5475,
-   "lon": 16.54583333
-  },
-  {
-   "id": "orebro-slott",
-   "lat": 59.273888888889,
-   "lon": 15.215277777778
-  },
-  {
-   "id": "stjernsunds-slott",
-   "lat": 58.85166667,
-   "lon": 14.93777778
-  },
-  {
-   "id": "karlslunds-herrgard",
-   "lat": 59.26916666666666,
-   "lon": 15.148888888888889
-  },
-  {
-   "id": "goksholms-slott",
-   "lat": 59.266944444444,
-   "lon": 15.553888888889
-  },
-  {
-   "id": "boo-slott",
-   "lat": 58.925555555555555,
-   "lon": 15.519722222222223
-  },
-  {
-   "id": "haddebo",
-   "lat": 58.91388889,
-   "lon": 15.37
-  },
-  {
-   "id": "rottneros-herrgard",
-   "lat": 59.79846388888889,
-   "lon": 13.127461111111112
-  },
-  {
-   "id": "marbacka",
-   "lat": 59.781266666667,
-   "lon": 13.233208333333
-  },
-  {
-   "id": "alsters-herrgard",
-   "lat": 59.39833333,
-   "lon": 13.60222222
-  },
-  {
-   "id": "gavle-slott",
-   "lat": 60.67222222,
-   "lon": 17.14416667
-  },
-  {
-   "id": "gysinge-herrgard",
-   "lat": 60.289283333333,
-   "lon": 16.884883333333
-  },
-  {
-   "id": "hemso-fastning",
-   "lat": 62.692316666667,
-   "lon": 18.102466666667
-  },
-  {
-   "id": "fjallnas",
-   "lat": 67.12563888888889,
-   "lon": 20.65963888888889
-  },
-  {
-   "id": "bodens-fastning-rodbergsfortet",
-   "lat": 65.7911,
-   "lon": 21.6572
-  }
- ],
- "geocode": [
-  {
-   "id": "kastellet-karlshamn",
-   "queries": [
-    "Kastellet Karlshamn, Karlshamn",
-    "Kastellet Karlshamn"
-   ]
-  },
-  {
-   "id": "wapno-slott",
-   "queries": [
-    "Wapnö slott, Halmstad",
-    "Wapnö slott"
-   ]
-  },
-  {
-   "id": "sperlingsholms-slott",
-   "queries": [
-    "Sperlingsholms slott, Halmstad",
-    "Sperlingsholms slott"
-   ]
-  },
-  {
-   "id": "bergkvara-slottsruin",
-   "queries": [
-    "Bergkvara slottsruin, Växjö",
-    "Bergkvara slottsruin"
-   ]
-  },
-  {
-   "id": "stjarnorps-slottsruin",
-   "queries": [
-    "Stjärnorps slottsruin, Linköping",
-    "Stjärnorps slottsruin"
-   ]
-  },
-  {
-   "id": "yxtaholms-slott",
-   "queries": [
-    "Yxtaholms slott, Flen",
-    "Yxtaholms slott"
-   ]
-  },
-  {
-   "id": "gronsoo-slott",
-   "queries": [
-    "Grönsöö slott, Enköping",
-    "Grönsöö slott"
-   ]
-  },
-  {
-   "id": "sjoo-slott",
-   "queries": [
-    "Sjöö slott, Enköping",
-    "Sjöö slott"
-   ]
-  }
- ],
- "search": [
-  {
-   "id": "karnan",
-   "q": "Kärnan Helsingborg"
-  },
-  {
-   "id": "bosjokloster",
-   "q": "Bosjökloster Höör"
-  },
-  {
-   "id": "christinehofs-slott",
-   "q": "Christinehofs slott Tomelilla"
-  },
-  {
-   "id": "torups-slott",
-   "q": "Torups slott Svedala"
-  },
-  {
-   "id": "trollenas-slott",
-   "q": "Trollenäs slott Eslöv"
-  },
-  {
-   "id": "krapperups-slott",
-   "q": "Krapperups slott Höganäs"
-  },
-  {
-   "id": "landskrona-citadell",
-   "q": "Landskrona citadell Landskrona"
-  },
-  {
-   "id": "borgeby-slott",
-   "q": "Borgeby slott Lomma"
-  },
-  {
-   "id": "kronovalls-slott",
-   "q": "Kronovalls slott Tomelilla"
-  },
-  {
-   "id": "snogeholms-slott",
-   "q": "Snogeholms slott Sjöbo"
-  },
-  {
-   "id": "hackeberga-slott",
-   "q": "Häckeberga slott Lund"
-  },
-  {
-   "id": "vittskovle-slott",
-   "q": "Vittskövle slott Kristianstad"
-  },
-  {
-   "id": "trolle-ljungby-slott",
-   "q": "Trolle-Ljungby slott Kristianstad"
-  },
-  {
-   "id": "bjarsjoholms-slott",
-   "q": "Bjärsjöholms slott Ystad"
-  },
-  {
-   "id": "marsvinsholms-slott",
-   "q": "Marsvinsholms slott Ystad"
-  },
-  {
-   "id": "krageholms-slott",
-   "q": "Krageholms slott Ystad"
-  },
-  {
-   "id": "kulla-gunnarstorps-slott",
-   "q": "Kulla Gunnarstorps slott Helsingborg"
-  },
-  {
-   "id": "vrams-gunnarstorps-slott",
-   "q": "Vrams Gunnarstorps slott Bjuv"
-  },
-  {
-   "id": "barsebacks-slott",
-   "q": "Barsebäcks slott Kävlinge"
-  },
-  {
-   "id": "skabersjo-slott",
-   "q": "Skabersjö slott Svedala"
-  },
-  {
-   "id": "nasbyholms-slott",
-   "q": "Näsbyholms slott Skurup"
-  },
-  {
-   "id": "maltesholms-slott",
-   "q": "Maltesholms slott Kristianstad"
-  },
-  {
-   "id": "skarhults-slott",
-   "q": "Skarhults slott Eslöv"
-  },
-  {
-   "id": "ellinge-slott",
-   "q": "Ellinge slott Eslöv"
-  },
-  {
-   "id": "alnarps-slott",
-   "q": "Alnarps slott Lomma"
-  },
-  {
-   "id": "rabelovs-slott",
-   "q": "Råbelövs slott Kristianstad"
-  },
-  {
-   "id": "ovedsklosters-slott",
-   "q": "Övedsklosters slott Sjöbo"
-  },
-  {
-   "id": "bollerups-borg",
-   "q": "Bollerups borg Tomelilla"
-  },
-  {
-   "id": "lindholmens-borgruin",
-   "q": "Lindholmens borgruin Svedala"
-  },
-  {
-   "id": "stjarneholms-borgruin",
-   "q": "Stjärneholms borgruin Skurup"
-  },
-  {
-   "id": "manstorps-gavlar",
-   "q": "Månstorps gavlar Vellinge"
-  },
-  {
-   "id": "falsterbohus",
-   "q": "Falsterbohus Vellinge"
-  },
-  {
-   "id": "gladsaxehus",
-   "q": "Gladsaxehus Simrishamn"
-  },
-  {
-   "id": "lillo-borgruin",
-   "q": "Lillö borgruin Kristianstad"
-  },
-  {
-   "id": "rossjoholms-slott",
-   "q": "Rössjöholms slott Ängelholm"
-  },
-  {
-   "id": "bjornstorps-slott",
-   "q": "Björnstorps slott Lund"
-  },
-  {
-   "id": "karsholms-slott",
-   "q": "Karsholms slott Kristianstad"
-  },
-  {
-   "id": "dybacks-slott",
-   "q": "Dybäcks slott Ystad"
-  },
-  {
-   "id": "gyllebo-slott",
-   "q": "Gyllebo slott Simrishamn"
-  },
-  {
-   "id": "tullesbo",
-   "q": "Tullesbo Sjöbo"
-  },
-  {
-   "id": "loberods-slott",
-   "q": "Löberöds slott Eslöv"
-  },
-  {
-   "id": "ovesholms-slott",
-   "q": "Ovesholms slott Kristianstad"
-  },
-  {
-   "id": "palsjo-slott",
-   "q": "Pålsjö slott Helsingborg"
-  },
-  {
-   "id": "osbyholms-slott",
-   "q": "Osbyholms slott Hörby"
-  },
-  {
-   "id": "smedstorps-slott",
-   "q": "Smedstorps slott Tomelilla"
-  },
-  {
-   "id": "sovdeborgs-slott",
-   "q": "Sövdeborgs slott Sjöbo"
-  },
-  {
-   "id": "svenstorps-slott",
-   "q": "Svenstorps slott Trelleborg"
-  },
-  {
-   "id": "viderups-slott",
-   "q": "Viderups slott Eslöv"
-  },
-  {
-   "id": "vegeholms-slott",
-   "q": "Vegeholms slott Ängelholm"
-  },
-  {
-   "id": "tunbyholms-slott",
-   "q": "Tunbyholms slott Tomelilla"
-  },
-  {
-   "id": "toppeladugards-slott",
-   "q": "Toppeladugårds slott Lund"
-  },
-  {
-   "id": "ronneholms-slott",
-   "q": "Rönneholms slott Eslöv"
-  },
-  {
-   "id": "hanaskogs-slott",
-   "q": "Hanaskogs slott Östra Göinge"
-  },
-  {
-   "id": "garsnas-slott",
-   "q": "Gärsnäs slott Simrishamn"
-  },
-  {
-   "id": "bellinga-slott",
-   "q": "Bellinga slott Ystad"
-  },
-  {
-   "id": "beritsholm",
-   "q": "Beritsholm Trelleborg"
-  },
-  {
-   "id": "klagerups-slott",
-   "q": "Klågerups slott Svedala"
-  },
-  {
-   "id": "kungsholms-fort",
-   "q": "Kungsholms fort Karlskrona"
-  },
-  {
-   "id": "kastellet-karlshamn",
-   "q": "Kastellet Karlshamn Karlshamn"
-  },
-  {
-   "id": "varbergs-fastning",
-   "q": "Varbergs fästning Varberg"
-  },
-  {
-   "id": "halmstads-slott",
-   "q": "Halmstads slott Halmstad"
-  },
-  {
-   "id": "wapno-slott",
-   "q": "Wapnö slott Halmstad"
-  },
-  {
-   "id": "gasevadholms-slott",
-   "q": "Gåsevadholms slott Kungsbacka"
-  },
-  {
-   "id": "vallens-slott",
-   "q": "Vallens slott Laholm"
-  },
-  {
-   "id": "sperlingsholms-slott",
-   "q": "Sperlingsholms slott Halmstad"
-  },
-  {
-   "id": "naas-slott",
-   "q": "Nääs slott Lerum"
-  },
-  {
-   "id": "nya-alvsborgs-fastning",
-   "q": "Nya Älvsborgs fästning Göteborg"
-  },
-  {
-   "id": "torpa-stenhus",
-   "q": "Torpa stenhus Tranemo"
-  },
-  {
-   "id": "bjertorps-slott",
-   "q": "Bjertorps slott Vara"
-  },
-  {
-   "id": "stola-herrgard",
-   "q": "Stola herrgård Lidköping"
-  },
-  {
-   "id": "dalaborg",
-   "q": "Dalaborg Mellerud"
-  },
-  {
-   "id": "tureborg",
-   "q": "Tureborg Vänersborg"
-  },
-  {
-   "id": "mariedals-slott",
-   "q": "Mariedals slott Götene"
-  },
-  {
-   "id": "kavlas-slott",
-   "q": "Kavlås slott Tidaholm"
-  },
-  {
-   "id": "dagsnas-slott",
-   "q": "Dagsnäs slott Falköping"
-  },
-  {
-   "id": "almnas-slott",
-   "q": "Almnäs slott Hjo"
-  },
-  {
-   "id": "hellidens-slott",
-   "q": "Hellidens slott Tidaholm"
-  },
-  {
-   "id": "hojentorps-slott",
-   "q": "Höjentorps slott Skara"
-  },
-  {
-   "id": "ismantorps-borg",
-   "q": "Ismantorps borg Borgholm"
-  },
-  {
-   "id": "graborg",
-   "q": "Gråborg Mörbylånga"
-  },
-  {
-   "id": "granso-slott",
-   "q": "Gränsö slott Västervik"
-  },
-  {
-   "id": "stegeholms-slottsruin",
-   "q": "Stegeholms slottsruin Västervik"
-  },
-  {
-   "id": "blekhem",
-   "q": "Blekhem Västervik"
-  },
-  {
-   "id": "bergkvara-slottsruin",
-   "q": "Bergkvara slottsruin Växjö"
-  },
-  {
-   "id": "huseby-bruk",
-   "q": "Huseby bruk Ljungby"
-  },
-  {
-   "id": "brahehus",
-   "q": "Brahehus Jönköping"
-  },
-  {
-   "id": "visingsborgs-slottsruin",
-   "q": "Visingsborgs slottsruin Jönköping"
-  },
-  {
-   "id": "nas-slottsruin",
-   "q": "Näs slottsruin Jönköping"
-  },
-  {
-   "id": "gripenbergs-slott",
-   "q": "Gripenbergs slott Tranås"
-  },
-  {
-   "id": "vastana-slott",
-   "q": "Västanå slott Jönköping"
-  },
-  {
-   "id": "lyckas-slott",
-   "q": "Lyckås slott Jönköping"
-  },
-  {
-   "id": "visby-ringmur",
-   "q": "Visby ringmur Gotland"
-  },
-  {
-   "id": "katthammarsvik-katthamra",
-   "q": "Katthammarsvik (Katthamra) Gotland"
-  },
-  {
-   "id": "stora-hastnas",
-   "q": "Stora Hästnäs Gotland"
-  },
-  {
-   "id": "linkopings-slott",
-   "q": "Linköpings slott Linköping"
-  },
-  {
-   "id": "bjarka-saby-slott",
-   "q": "Bjärka-Säby slott Linköping"
-  },
-  {
-   "id": "sturefors-slott",
-   "q": "Sturefors slott Linköping"
-  },
-  {
-   "id": "brokinds-slott",
-   "q": "Brokinds slott Linköping"
-  },
-  {
-   "id": "charlottenborgs-slott",
-   "q": "Charlottenborgs slott Motala"
-  },
-  {
-   "id": "ljungs-slott",
-   "q": "Ljungs slott Linköping"
-  },
-  {
-   "id": "finspangs-slott",
-   "q": "Finspångs slott Finspång"
-  },
-  {
-   "id": "mauritzbergs-slott",
-   "q": "Mauritzbergs slott Norrköping"
-  },
-  {
-   "id": "stjarnorps-slottsruin",
-   "q": "Stjärnorps slottsruin Linköping"
-  },
-  {
-   "id": "johannisborgs-slottsruin",
-   "q": "Johannisborgs slottsruin Norrköping"
-  },
-  {
-   "id": "braborgs-slottsruin",
-   "q": "Bråborgs slottsruin Norrköping"
-  },
-  {
-   "id": "mems-slott",
-   "q": "Mems slott Söderköping"
-  },
-  {
-   "id": "ulvasa",
-   "q": "Ulvåsa Motala"
-  },
-  {
-   "id": "sundbyholms-slott",
-   "q": "Sundbyholms slott Eskilstuna"
-  },
-  {
-   "id": "tureholms-slott",
-   "q": "Tureholms slott Trosa"
-  },
-  {
-   "id": "ericsbergs-slott",
-   "q": "Ericsbergs slott Katrineholm"
-  },
-  {
-   "id": "sparreholms-slott",
-   "q": "Sparreholms slott Flen"
-  },
-  {
-   "id": "stenhammars-slott",
-   "q": "Stenhammars slott Flen"
-  },
-  {
-   "id": "claestorps-slott",
-   "q": "Claestorps slott Katrineholm"
-  },
-  {
-   "id": "yxtaholms-slott",
-   "q": "Yxtaholms slott Flen"
-  },
-  {
-   "id": "sodertuna-slott",
-   "q": "Södertuna slott Gnesta"
-  },
-  {
-   "id": "vibyholms-slott",
-   "q": "Vibyholms slott Flen"
-  },
-  {
-   "id": "elghammar",
-   "q": "Elghammar Nyköping"
-  },
-  {
-   "id": "bjorksunds-slott",
-   "q": "Björksunds slott Nyköping"
-  },
-  {
-   "id": "rinkesta",
-   "q": "Rinkesta Eskilstuna"
-  },
-  {
-   "id": "oster-malma",
-   "q": "Öster-Malma Nyköping"
-  },
-  {
-   "id": "tynnelso-slott",
-   "q": "Tynnelsö slott Strängnäs"
-  },
-  {
-   "id": "akero",
-   "q": "Åkerö Flen"
-  },
-  {
-   "id": "hagaslottet",
-   "q": "Hagaslottet Solna"
-  },
-  {
-   "id": "gustav-iii-s-paviljong",
-   "q": "Gustav III:s paviljong Solna"
-  },
-  {
-   "id": "tullgarns-slott",
-   "q": "Tullgarns slott Södertälje"
-  },
-  {
-   "id": "karlbergs-slott",
-   "q": "Karlbergs slott Solna"
-  },
-  {
-   "id": "steninge-slott",
-   "q": "Steninge slott Sigtuna"
-  },
-  {
-   "id": "venngarns-slott",
-   "q": "Venngarns slott Sigtuna"
-  },
-  {
-   "id": "haringe-slott",
-   "q": "Häringe slott Haninge"
-  },
-  {
-   "id": "arsta-slott",
-   "q": "Årsta slott Haninge"
-  },
-  {
-   "id": "taxinge-slott",
-   "q": "Taxinge slott Nykvarn"
-  },
-  {
-   "id": "horningsholms-slott",
-   "q": "Hörningsholms slott Södertälje"
-  },
-  {
-   "id": "hasselby-slott",
-   "q": "Hässelby slott Stockholm"
-  },
-  {
-   "id": "ulvsunda-slott",
-   "q": "Ulvsunda slott Stockholm"
-  },
-  {
-   "id": "kristinebergs-slott",
-   "q": "Kristinebergs slott Stockholm"
-  },
-  {
-   "id": "nasby-slott",
-   "q": "Näsby slott Täby"
-  },
-  {
-   "id": "djursholms-slott",
-   "q": "Djursholms slott Danderyd"
-  },
-  {
-   "id": "edsbergs-slott",
-   "q": "Edsbergs slott Sollentuna"
-  },
-  {
-   "id": "alsno-hus",
-   "q": "Alsnö hus Ekerö"
-  },
-  {
-   "id": "gorvalns-slott",
-   "q": "Görvälns slott Järfälla"
-  },
-  {
-   "id": "granhammars-slott",
-   "q": "Granhammars slott Upplands-Bro"
-  },
-  {
-   "id": "lejondals-slott",
-   "q": "Lejondals slott Upplands-Bro"
-  },
-  {
-   "id": "runsa-slott",
-   "q": "Runsa slott Upplands Väsby"
-  },
-  {
-   "id": "stora-wasby-slott",
-   "q": "Stora Wäsby slott Upplands Väsby"
-  },
-  {
-   "id": "ostana-slott",
-   "q": "Östanå slott Österåker"
-  },
-  {
-   "id": "ekebyholms-slott",
-   "q": "Ekebyholms slott Norrtälje"
-  },
-  {
-   "id": "johannesbergs-slott",
-   "q": "Johannesbergs slott Norrtälje"
-  },
-  {
-   "id": "wiks-slott",
-   "q": "Wiks slott Uppsala"
-  },
-  {
-   "id": "ekolsunds-slott",
-   "q": "Ekolsunds slott Enköping"
-  },
-  {
-   "id": "gronsoo-slott",
-   "q": "Grönsöö slott Enköping"
-  },
-  {
-   "id": "haga-slott",
-   "q": "Haga slott Enköping"
-  },
-  {
-   "id": "ekholmens-slott",
-   "q": "Ekholmens slott Uppsala"
-  },
-  {
-   "id": "sjoo-slott",
-   "q": "Sjöö slott Enköping"
-  },
-  {
-   "id": "salnecke-slott",
-   "q": "Salnecke slott Enköping"
-  },
-  {
-   "id": "lovstabruk",
-   "q": "Lövstabruk Tierp"
-  },
-  {
-   "id": "osterbybruk-herrgard",
-   "q": "Österbybruk herrgård Östhammar"
-  },
-  {
-   "id": "stromsholms-slott",
-   "q": "Strömsholms slott Hallstahammar"
-  },
-  {
-   "id": "fullero",
-   "q": "Fullerö Västerås"
-  },
-  {
-   "id": "stjernsunds-slott",
-   "q": "Stjernsunds slott Askersund"
-  },
-  {
-   "id": "karlslunds-herrgard",
-   "q": "Karlslunds herrgård Örebro"
-  },
-  {
-   "id": "goksholms-slott",
-   "q": "Göksholms slott Örebro"
-  },
-  {
-   "id": "boo-slott",
-   "q": "Boo slott Örebro"
-  },
-  {
-   "id": "haddebo",
-   "q": "Haddebo Örebro"
-  },
-  {
-   "id": "rottneros-herrgard",
-   "q": "Rottneros herrgård Sunne"
-  },
-  {
-   "id": "alsters-herrgard",
-   "q": "Alsters herrgård Karlstad"
-  },
-  {
-   "id": "gavle-slott",
-   "q": "Gävle slott Gävle"
-  },
-  {
-   "id": "gysinge-herrgard",
-   "q": "Gysinge herrgård Sandviken"
-  },
-  {
-   "id": "fjallnas",
-   "q": "Fjällnäs Härjedalen"
-  }
+ "textPages": [
+  "https://akero.com/",
+  "https://akeroslott.com/",
+  "https://akerosslott.com/",
+  "https://almna.com/",
+  "https://almnas.com/",
+  "https://almnaslott.com/",
+  "https://almnasslott.com/",
+  "https://alnarp.com/",
+  "https://alnarps.com/",
+  "https://alnarpslott.com/",
+  "https://alnarpsslott.com/",
+  "https://alsnohu.com/",
+  "https://alsnohus.com/",
+  "https://alsnohuslott.com/",
+  "https://alsnohusslott.com/",
+  "https://alster.com/",
+  "https://alsters.com/",
+  "https://alstersherrgard.com/",
+  "https://alsterslott.com/",
+  "https://alstersslott.com/",
+  "https://arsta.com/",
+  "https://arstaslott.com/",
+  "https://arstasslott.com/",
+  "https://barseback.com/",
+  "https://barsebacks.com/",
+  "https://barsebackslott.com/",
+  "https://barsebacksslott.com/",
+  "https://bellinga.com/",
+  "https://bellingaslott.com/",
+  "https://bellingasslott.com/",
+  "https://bergkvara.com/",
+  "https://bergkvaraslott.com/",
+  "https://bergkvaraslottsruin.com/",
+  "https://bergkvarasslott.com/",
+  "https://beritsholm.com/",
+  "https://beritsholmslott.com/",
+  "https://beritsholmsslott.com/",
+  "https://bjarkasaby.com/",
+  "https://bjarkasabyslott.com/",
+  "https://bjarkasabysslott.com/",
+  "https://bjarsjoholm.com/",
+  "https://bjarsjoholms.com/",
+  "https://bjarsjoholmslott.com/",
+  "https://bjarsjoholmsslott.com/",
+  "https://bjertorp.com/",
+  "https://bjertorps.com/",
+  "https://bjertorpslott.com/",
+  "https://bjertorpsslott.com/",
+  "https://bjorksund.com/",
+  "https://bjorksunds.com/",
+  "https://bjorksundslott.com/",
+  "https://bjorksundsslott.com/",
+  "https://bjornstorp.com/",
+  "https://bjornstorps.com/",
+  "https://bjornstorpslott.com/",
+  "https://bjornstorpsslott.com/",
+  "https://blekhem.com/",
+  "https://blekhemslott.com/",
+  "https://blekhemsslott.com/",
+  "https://bollerup.com/",
+  "https://bollerups.com/",
+  "https://bollerupsborg.com/",
+  "https://bollerupslott.com/",
+  "https://bollerupsslott.com/",
+  "https://booslott.com/",
+  "https://boosslott.com/",
+  "https://borgeby.com/",
+  "https://borgebyslott.com/",
+  "https://borgebysslott.com/",
+  "https://bosjokloster.com/",
+  "https://bosjoklosterslott.com/",
+  "https://bosjoklostersslott.com/",
+  "https://braborg.com/",
+  "https://braborgs.com/",
+  "https://braborgslott.com/",
+  "https://braborgsslott.com/",
+  "https://braborgsslottsruin.com/",
+  "https://brahehu.com/",
+  "https://brahehus.com/",
+  "https://brahehuslott.com/",
+  "https://brahehusslott.com/",
+  "https://brokind.com/",
+  "https://brokinds.com/",
+  "https://brokindslott.com/",
+  "https://brokindsslott.com/",
+  "https://charlottenborg.com/",
+  "https://charlottenborgs.com/",
+  "https://charlottenborgslott.com/",
+  "https://charlottenborgsslott.com/",
+  "https://christinehof.com/",
+  "https://christinehofs.com/",
+  "https://christinehofslott.com/",
+  "https://christinehofsslott.com/",
+  "https://claestorp.com/",
+  "https://claestorps.com/",
+  "https://claestorpslott.com/",
+  "https://claestorpsslott.com/",
+  "https://dagsna.com/",
+  "https://dagsnas.com/",
+  "https://dagsnaslott.com/",
+  "https://dagsnasslott.com/",
+  "https://dalaborg.com/",
+  "https://dalaborgslott.com/",
+  "https://dalaborgsslott.com/",
+  "https://djursholm.com/",
+  "https://djursholms.com/",
+  "https://djursholmslott.com/",
+  "https://djursholmsslott.com/",
+  "https://dyback.com/",
+  "https://dybacks.com/",
+  "https://dybackslott.com/",
+  "https://dybacksslott.com/",
+  "https://edsberg.com/",
+  "https://edsbergs.com/",
+  "https://edsbergslott.com/",
+  "https://edsbergsslott.com/",
+  "https://ekebyholm.com/",
+  "https://ekebyholms.com/",
+  "https://ekebyholmslott.com/",
+  "https://ekebyholmsslott.com/",
+  "https://ekholmen.com/",
+  "https://ekholmens.com/",
+  "https://ekholmenslott.com/",
+  "https://ekholmensslott.com/",
+  "https://ekolsund.com/",
+  "https://ekolsunds.com/",
+  "https://ekolsundslott.com/",
+  "https://ekolsundsslott.com/",
+  "https://elghammar.com/",
+  "https://elghammarslott.com/",
+  "https://elghammarsslott.com/",
+  "https://ellinge.com/",
+  "https://ellingeslott.com/",
+  "https://ellingesslott.com/",
+  "https://ericsberg.com/",
+  "https://ericsbergs.com/",
+  "https://ericsbergslott.com/",
+  "https://ericsbergsslott.com/",
+  "https://falsterbohu.com/",
+  "https://falsterbohus.com/",
+  "https://falsterbohuslott.com/",
+  "https://falsterbohusslott.com/",
+  "https://finspang.com/",
+  "https://finspangs.com/",
+  "https://finspangslott.com/",
+  "https://finspangsslott.com/",
+  "https://fjallna.com/",
+  "https://fjallnas.com/",
+  "https://fjallnaslott.com/",
+  "https://fjallnasslott.com/",
+  "https://fullero.com/",
+  "https://fulleroslott.com/",
+  "https://fullerosslott.com/",
+  "https://garsna.com/",
+  "https://garsnas.com/",
+  "https://garsnaslott.com/",
+  "https://garsnasslott.com/",
+  "https://gasevadholm.com/",
+  "https://gasevadholms.com/",
+  "https://gasevadholmslott.com/",
+  "https://gasevadholmsslott.com/",
+  "https://gavle.com/",
+  "https://gavleslott.com/",
+  "https://gavlesslott.com/",
+  "https://gladsaxehu.com/",
+  "https://gladsaxehus.com/",
+  "https://gladsaxehuslott.com/",
+  "https://gladsaxehusslott.com/",
+  "https://goksholm.com/",
+  "https://goksholms.com/",
+  "https://goksholmslott.com/",
+  "https://goksholmsslott.com/",
+  "https://gorvaln.com/",
+  "https://gorvalns.com/",
+  "https://gorvalnslott.com/",
+  "https://gorvalnsslott.com/",
+  "https://graborg.com/",
+  "https://graborgslott.com/",
+  "https://graborgsslott.com/",
+  "https://granhammar.com/",
+  "https://granhammars.com/",
+  "https://granhammarslott.com/",
+  "https://granhammarsslott.com/",
+  "https://granso.com/",
+  "https://gransoslott.com/",
+  "https://gransosslott.com/",
+  "https://gripenberg.com/",
+  "https://gripenbergs.com/",
+  "https://gripenbergslott.com/",
+  "https://gripenbergsslott.com/",
+  "https://gronsoo.com/",
+  "https://gronsooslott.com/",
+  "https://gronsoosslott.com/",
+  "https://gustaviiispaviljong.com/",
+  "https://gustaviiispaviljongslott.com/",
+  "https://gustaviiispaviljongsslott.com/",
+  "https://gyllebo.com/",
+  "https://gylleboslott.com/",
+  "https://gyllebosslott.com/",
+  "https://gysinge.com/",
+  "https://gysingeherrgard.com/",
+  "https://gysingeslott.com/",
+  "https://gysingesslott.com/",
+  "https://hackeberga.com/",
+  "https://hackebergaslott.com/",
+  "https://hackebergasslott.com/",
+  "https://haddebo.com/",
+  "https://haddeboslott.com/",
+  "https://haddebosslott.com/",
+  "https://haga.com/",
+  "https://hagaslott.com/",
+  "https://hagaslottet.com/",
+  "https://hagaslottetslott.com/",
+  "https://hagaslottetsslott.com/",
+  "https://hagasslott.com/",
+  "https://halmstad.com/",
+  "https://halmstads.com/",
+  "https://halmstadslott.com/",
+  "https://halmstadsslott.com/",
+  "https://hanaskog.com/",
+  "https://hanaskogs.com/",
+  "https://hanaskogslott.com/",
+  "https://hanaskogsslott.com/",
+  "https://haringe.com/",
+  "https://haringeslott.com/",
+  "https://haringesslott.com/",
+  "https://hasselby.com/",
+  "https://hasselbyslott.com/",
+  "https://hasselbysslott.com/",
+  "https://helliden.com/",
+  "https://hellidens.com/",
+  "https://hellidenslott.com/",
+  "https://hellidensslott.com/",
+  "https://hojentorp.com/",
+  "https://hojentorps.com/",
+  "https://hojentorpslott.com/",
+  "https://hojentorpsslott.com/",
+  "https://horningsholm.com/",
+  "https://horningsholms.com/",
+  "https://horningsholmslott.com/",
+  "https://horningsholmsslott.com/",
+  "https://husebybruk.com/",
+  "https://husebybrukslott.com/",
+  "https://husebybruksslott.com/",
+  "https://ismantorp.com/",
+  "https://ismantorps.com/",
+  "https://ismantorpsborg.com/",
+  "https://ismantorpslott.com/",
+  "https://ismantorpsslott.com/",
+  "https://johannesberg.com/",
+  "https://johannesbergs.com/",
+  "https://johannesbergslott.com/",
+  "https://johannesbergsslott.com/",
+  "https://johannisborg.com/",
+  "https://johannisborgs.com/",
+  "https://johannisborgslott.com/",
+  "https://johannisborgsslott.com/",
+  "https://johannisborgsslottsruin.com/",
+  "https://karlberg.com/",
+  "https://karlbergs.com/",
+  "https://karlbergslott.com/",
+  "https://karlbergsslott.com/",
+  "https://karlslund.com/",
+  "https://karlslunds.com/",
+  "https://karlslundsherrgard.com/",
+  "https://karlslundslott.com/",
+  "https://karlslundsslott.com/",
+  "https://karnan.com/",
+  "https://karnanslott.com/",
+  "https://karnansslott.com/",
+  "https://karsholm.com/",
+  "https://karsholms.com/",
+  "https://karsholmslott.com/",
+  "https://karsholmsslott.com/",
+  "https://kastelletkarlshamn.com/",
+  "https://kastelletkarlshamnslott.com/",
+  "https://kastelletkarlshamnsslott.com/",
+  "https://katthammarsvik.com/",
+  "https://katthammarsvikslott.com/",
+  "https://katthammarsviksslott.com/",
+  "https://kavla.com/",
+  "https://kavlas.com/",
+  "https://kavlaslott.com/",
+  "https://kavlasslott.com/",
+  "https://klagerup.com/",
+  "https://klagerups.com/",
+  "https://klagerupslott.com/",
+  "https://klagerupsslott.com/",
+  "https://krageholm.com/",
+  "https://krageholms.com/",
+  "https://krageholmslott.com/",
+  "https://krageholmsslott.com/",
+  "https://krapperup.com/",
+  "https://krapperups.com/",
+  "https://krapperupslott.com/",
+  "https://krapperupsslott.com/",
+  "https://kristineberg.com/",
+  "https://kristinebergs.com/",
+  "https://kristinebergslott.com/",
+  "https://kristinebergsslott.com/",
+  "https://kronovall.com/",
+  "https://kronovalls.com/",
+  "https://kronovallslott.com/",
+  "https://kronovallsslott.com/",
+  "https://kullagunnarstorp.com/",
+  "https://kullagunnarstorps.com/",
+  "https://kullagunnarstorpslott.com/",
+  "https://kullagunnarstorpsslott.com/",
+  "https://kungsholm.com/",
+  "https://kungsholms.com/",
+  "https://kungsholmsfort.com/",
+  "https://kungsholmslott.com/",
+  "https://kungsholmsslott.com/",
+  "https://landskronacitadell.com/",
+  "https://landskronacitadellslott.com/",
+  "https://landskronacitadellsslott.com/",
+  "https://lejondal.com/",
+  "https://lejondals.com/",
+  "https://lejondalslott.com/",
+  "https://lejondalsslott.com/",
+  "https://lillo.com/",
+  "https://lilloborgruin.com/",
+  "https://lilloslott.com/",
+  "https://lillosslott.com/",
+  "https://lindholmen.com/",
+  "https://lindholmens.com/",
+  "https://lindholmensborgruin.com/",
+  "https://lindholmenslott.com/",
+  "https://lindholmensslott.com/",
+  "https://linkoping.com/",
+  "https://linkopings.com/",
+  "https://linkopingslott.com/",
+  "https://linkopingsslott.com/",
+  "https://ljung.com/",
+  "https://ljungs.com/",
+  "https://ljungslott.com/",
+  "https://ljungsslott.com/",
+  "https://loberod.com/",
+  "https://loberods.com/",
+  "https://loberodslott.com/",
+  "https://loberodsslott.com/",
+  "https://lovstabruk.com/",
+  "https://lovstabrukslott.com/",
+  "https://lovstabruksslott.com/",
+  "https://lycka.com/",
+  "https://lyckas.com/",
+  "https://lyckaslott.com/",
+  "https://lyckasslott.com/",
+  "https://maltesholm.com/",
+  "https://maltesholms.com/",
+  "https://maltesholmslott.com/",
+  "https://maltesholmsslott.com/",
+  "https://manstorpsgavlar.com/",
+  "https://manstorpsgavlarslott.com/",
+  "https://manstorpsgavlarsslott.com/",
+  "https://mariedal.com/",
+  "https://mariedals.com/",
+  "https://mariedalslott.com/",
+  "https://mariedalsslott.com/",
+  "https://marsvinsholm.com/",
+  "https://marsvinsholms.com/",
+  "https://marsvinsholmslott.com/",
+  "https://marsvinsholmsslott.com/",
+  "https://mauritzberg.com/",
+  "https://mauritzbergs.com/",
+  "https://mauritzbergslott.com/",
+  "https://mauritzbergsslott.com/",
+  "https://mems.com/",
+  "https://memslott.com/",
+  "https://memsslott.com/",
+  "https://naas.com/",
+  "https://naaslott.com/",
+  "https://naasslott.com/",
+  "https://nasby.com/",
+  "https://nasbyholm.com/",
+  "https://nasbyholms.com/",
+  "https://nasbyholmslott.com/",
+  "https://nasbyholmsslott.com/",
+  "https://nasbyslott.com/",
+  "https://nasbysslott.com/",
+  "https://naslott.com/",
+  "https://nasslott.com/",
+  "https://nasslottsruin.com/",
+  "https://nyaalvsborg.com/",
+  "https://nyaalvsborgs.com/",
+  "https://nyaalvsborgsfastning.com/",
+  "https://nyaalvsborgslott.com/",
+  "https://nyaalvsborgsslott.com/",
+  "https://osbyholm.com/",
+  "https://osbyholms.com/",
+  "https://osbyholmslott.com/",
+  "https://osbyholmsslott.com/",
+  "https://ostana.com/",
+  "https://ostanaslott.com/",
+  "https://ostanasslott.com/",
+  "https://osterbybruk.com/",
+  "https://osterbybrukherrgard.com/",
+  "https://osterbybrukslott.com/",
+  "https://osterbybruksslott.com/",
+  "https://ostermalma.com/",
+  "https://ostermalmaslott.com/",
+  "https://ostermalmasslott.com/",
+  "https://ovedskloster.com/",
+  "https://ovedsklosters.com/",
+  "https://ovedsklosterslott.com/",
+  "https://ovedsklostersslott.com/",
+  "https://ovesholm.com/",
+  "https://ovesholms.com/",
+  "https://ovesholmslott.com/",
+  "https://ovesholmsslott.com/",
+  "https://palsjo.com/",
+  "https://palsjoslott.com/",
+  "https://palsjosslott.com/",
+  "https://rabelov.com/",
+  "https://rabelovs.com/",
+  "https://rabelovslott.com/",
+  "https://rabelovsslott.com/",
+  "https://rinkesta.com/",
+  "https://rinkestaslott.com/",
+  "https://rinkestasslott.com/",
+  "https://ronneholm.com/",
+  "https://ronneholms.com/",
+  "https://ronneholmslott.com/",
+  "https://ronneholmsslott.com/",
+  "https://rossjoholm.com/",
+  "https://rossjoholms.com/",
+  "https://rossjoholmslott.com/",
+  "https://rossjoholmsslott.com/",
+  "https://rottnero.com/",
+  "https://rottneros.com/",
+  "https://rottnerosherrgard.com/",
+  "https://rottneroslott.com/",
+  "https://rottnerosslott.com/",
+  "https://runsa.com/",
+  "https://runsaslott.com/",
+  "https://runsasslott.com/",
+  "https://salnecke.com/",
+  "https://salneckeslott.com/",
+  "https://salneckesslott.com/",
+  "https://sjoo.com/",
+  "https://sjooslott.com/",
+  "https://sjoosslott.com/",
+  "https://skabersjo.com/",
+  "https://skabersjoslott.com/",
+  "https://skabersjosslott.com/",
+  "https://skarhult.com/",
+  "https://skarhults.com/",
+  "https://skarhultslott.com/",
+  "https://skarhultsslott.com/",
+  "https://smedstorp.com/",
+  "https://smedstorps.com/",
+  "https://smedstorpslott.com/",
+  "https://smedstorpsslott.com/",
+  "https://snogeholm.com/",
+  "https://snogeholms.com/",
+  "https://snogeholmslott.com/",
+  "https://snogeholmsslott.com/",
+  "https://sodertuna.com/",
+  "https://sodertunaslott.com/",
+  "https://sodertunasslott.com/",
+  "https://sovdeborg.com/",
+  "https://sovdeborgs.com/",
+  "https://sovdeborgslott.com/",
+  "https://sovdeborgsslott.com/",
+  "https://sparreholm.com/",
+  "https://sparreholms.com/",
+  "https://sparreholmslott.com/",
+  "https://sparreholmsslott.com/",
+  "https://sperlingsholm.com/",
+  "https://sperlingsholms.com/",
+  "https://sperlingsholmslott.com/",
+  "https://sperlingsholmsslott.com/",
+  "https://stegeholm.com/",
+  "https://stegeholms.com/",
+  "https://stegeholmslott.com/",
+  "https://stegeholmsslott.com/",
+  "https://stegeholmsslottsruin.com/",
+  "https://stenhammar.com/",
+  "https://stenhammars.com/",
+  "https://stenhammarslott.com/",
+  "https://stenhammarsslott.com/",
+  "https://steninge.com/",
+  "https://steningeslott.com/",
+  "https://steningesslott.com/",
+  "https://stjarneholm.com/",
+  "https://stjarneholms.com/",
+  "https://stjarneholmsborgruin.com/",
+  "https://stjarneholmslott.com/",
+  "https://stjarneholmsslott.com/",
+  "https://stjarnorp.com/",
+  "https://stjarnorps.com/",
+  "https://stjarnorpslott.com/",
+  "https://stjarnorpsslott.com/",
+  "https://stjarnorpsslottsruin.com/",
+  "https://stjernsund.com/",
+  "https://stjernsunds.com/",
+  "https://stjernsundslott.com/",
+  "https://stjernsundsslott.com/",
+  "https://stola.com/",
+  "https://stolaherrgard.com/",
+  "https://stolaslott.com/",
+  "https://stolasslott.com/",
+  "https://storahastna.com/",
+  "https://storahastnas.com/",
+  "https://storahastnaslott.com/",
+  "https://storahastnasslott.com/",
+  "https://storawasby.com/",
+  "https://storawasbyslott.com/",
+  "https://storawasbysslott.com/",
+  "https://stromsholm.com/",
+  "https://stromsholms.com/",
+  "https://stromsholmslott.com/",
+  "https://stromsholmsslott.com/",
+  "https://sturefor.com/",
+  "https://sturefors.com/",
+  "https://stureforslott.com/",
+  "https://stureforsslott.com/",
+  "https://sundbyholm.com/",
+  "https://sundbyholms.com/",
+  "https://sundbyholmslott.com/",
+  "https://sundbyholmsslott.com/",
+  "https://svenstorp.com/",
+  "https://svenstorps.com/",
+  "https://svenstorpslott.com/",
+  "https://svenstorpsslott.com/",
+  "https://taxinge.com/",
+  "https://taxingeslott.com/",
+  "https://taxingesslott.com/",
+  "https://toppeladugard.com/",
+  "https://toppeladugards.com/",
+  "https://toppeladugardslott.com/",
+  "https://toppeladugardsslott.com/",
+  "https://torpastenhu.com/",
+  "https://torpastenhus.com/",
+  "https://torpastenhuslott.com/",
+  "https://torpastenhusslott.com/",
+  "https://torup.com/",
+  "https://torups.com/",
+  "https://torupslott.com/",
+  "https://torupsslott.com/",
+  "https://trolleljungby.com/",
+  "https://trolleljungbyslott.com/",
+  "https://trolleljungbysslott.com/",
+  "https://trollena.com/",
+  "https://trollenas.com/",
+  "https://trollenaslott.com/",
+  "https://trollenasslott.com/",
+  "https://tullesbo.com/",
+  "https://tullesboslott.com/",
+  "https://tullesbosslott.com/",
+  "https://tullgarn.com/",
+  "https://tullgarns.com/",
+  "https://tullgarnslott.com/",
+  "https://tullgarnsslott.com/",
+  "https://tunbyholm.com/",
+  "https://tunbyholms.com/",
+  "https://tunbyholmslott.com/",
+  "https://tunbyholmsslott.com/",
+  "https://tureborg.com/",
+  "https://tureborgslott.com/",
+  "https://tureborgsslott.com/",
+  "https://tureholm.com/",
+  "https://tureholms.com/",
+  "https://tureholmslott.com/",
+  "https://tureholmsslott.com/",
+  "https://tynnelso.com/",
+  "https://tynnelsoslott.com/",
+  "https://tynnelsosslott.com/",
+  "https://ulvasa.com/",
+  "https://ulvasaslott.com/",
+  "https://ulvasasslott.com/",
+  "https://ulvsunda.com/",
+  "https://ulvsundaslott.com/",
+  "https://ulvsundasslott.com/",
+  "https://vallen.com/",
+  "https://vallens.com/",
+  "https://vallenslott.com/",
+  "https://vallensslott.com/",
+  "https://varberg.com/",
+  "https://varbergs.com/",
+  "https://varbergsfastning.com/",
+  "https://varbergslott.com/",
+  "https://varbergsslott.com/",
+  "https://vastana.com/",
+  "https://vastanaslott.com/",
+  "https://vastanasslott.com/",
+  "https://vegeholm.com/",
+  "https://vegeholms.com/",
+  "https://vegeholmslott.com/",
+  "https://vegeholmsslott.com/",
+  "https://venngarn.com/",
+  "https://venngarns.com/",
+  "https://venngarnslott.com/",
+  "https://venngarnsslott.com/",
+  "https://vibyholm.com/",
+  "https://vibyholms.com/",
+  "https://vibyholmslott.com/",
+  "https://vibyholmsslott.com/",
+  "https://viderup.com/",
+  "https://viderups.com/",
+  "https://viderupslott.com/",
+  "https://viderupsslott.com/",
+  "https://visbyringmur.com/",
+  "https://visbyringmurslott.com/",
+  "https://visbyringmursslott.com/",
+  "https://visingsborg.com/",
+  "https://visingsborgs.com/",
+  "https://visingsborgslott.com/",
+  "https://visingsborgsslott.com/",
+  "https://visingsborgsslottsruin.com/",
+  "https://vittskovle.com/",
+  "https://vittskovleslott.com/",
+  "https://vittskovlesslott.com/",
+  "https://vramsgunnarstorp.com/",
+  "https://vramsgunnarstorps.com/",
+  "https://vramsgunnarstorpslott.com/",
+  "https://vramsgunnarstorpsslott.com/",
+  "https://wapno.com/",
+  "https://wapnoslott.com/",
+  "https://wapnosslott.com/",
+  "https://wiks.com/",
+  "https://wikslott.com/",
+  "https://wiksslott.com/",
+  "https://www.akero.se/",
+  "https://www.akeroslott.se/",
+  "https://www.akerosslott.se/",
+  "https://www.almna.se/",
+  "https://www.almnas.se/",
+  "https://www.almnaslott.se/",
+  "https://www.almnasslott.se/",
+  "https://www.alnarp.se/",
+  "https://www.alnarps.se/",
+  "https://www.alnarpslott.se/",
+  "https://www.alnarpsslott.se/",
+  "https://www.alsnohu.se/",
+  "https://www.alsnohus.se/",
+  "https://www.alsnohuslott.se/",
+  "https://www.alsnohusslott.se/",
+  "https://www.alster.se/",
+  "https://www.alsters.se/",
+  "https://www.alstersherrgard.se/",
+  "https://www.alsterslott.se/",
+  "https://www.alstersslott.se/",
+  "https://www.arsta.se/",
+  "https://www.arstaslott.se/",
+  "https://www.arstasslott.se/",
+  "https://www.barseback.se/",
+  "https://www.barsebacks.se/",
+  "https://www.barsebackslott.se/",
+  "https://www.barsebacksslott.se/",
+  "https://www.bellinga.se/",
+  "https://www.bellingaslott.se/",
+  "https://www.bellingasslott.se/",
+  "https://www.bergkvara.se/",
+  "https://www.bergkvaraslott.se/",
+  "https://www.bergkvaraslottsruin.se/",
+  "https://www.bergkvarasslott.se/",
+  "https://www.beritsholm.se/",
+  "https://www.beritsholmslott.se/",
+  "https://www.beritsholmsslott.se/",
+  "https://www.bjarkasaby.se/",
+  "https://www.bjarkasabyslott.se/",
+  "https://www.bjarkasabysslott.se/",
+  "https://www.bjarsjoholm.se/",
+  "https://www.bjarsjoholms.se/",
+  "https://www.bjarsjoholmslott.se/",
+  "https://www.bjarsjoholmsslott.se/",
+  "https://www.bjertorp.se/",
+  "https://www.bjertorps.se/",
+  "https://www.bjertorpslott.se/",
+  "https://www.bjertorpsslott.se/",
+  "https://www.bjorksund.se/",
+  "https://www.bjorksunds.se/",
+  "https://www.bjorksundslott.se/",
+  "https://www.bjorksundsslott.se/",
+  "https://www.bjornstorp.se/",
+  "https://www.bjornstorps.se/",
+  "https://www.bjornstorpslott.se/",
+  "https://www.bjornstorpsslott.se/",
+  "https://www.blekhem.se/",
+  "https://www.blekhemslott.se/",
+  "https://www.blekhemsslott.se/",
+  "https://www.bollerup.se/",
+  "https://www.bollerups.se/",
+  "https://www.bollerupsborg.se/",
+  "https://www.bollerupslott.se/",
+  "https://www.bollerupsslott.se/",
+  "https://www.booslott.se/",
+  "https://www.boosslott.se/",
+  "https://www.borgeby.se/",
+  "https://www.borgebyslott.se/",
+  "https://www.borgebysslott.se/",
+  "https://www.bosjokloster.se/",
+  "https://www.bosjoklosterslott.se/",
+  "https://www.bosjoklostersslott.se/",
+  "https://www.braborg.se/",
+  "https://www.braborgs.se/",
+  "https://www.braborgslott.se/",
+  "https://www.braborgsslott.se/",
+  "https://www.braborgsslottsruin.se/",
+  "https://www.brahehu.se/",
+  "https://www.brahehus.se/",
+  "https://www.brahehuslott.se/",
+  "https://www.brahehusslott.se/",
+  "https://www.brokind.se/",
+  "https://www.brokinds.se/",
+  "https://www.brokindslott.se/",
+  "https://www.brokindsslott.se/",
+  "https://www.charlottenborg.se/",
+  "https://www.charlottenborgs.se/",
+  "https://www.charlottenborgslott.se/",
+  "https://www.charlottenborgsslott.se/",
+  "https://www.christinehof.se/",
+  "https://www.christinehofs.se/",
+  "https://www.christinehofslott.se/",
+  "https://www.christinehofsslott.se/",
+  "https://www.claestorp.se/",
+  "https://www.claestorps.se/",
+  "https://www.claestorpslott.se/",
+  "https://www.claestorpsslott.se/",
+  "https://www.dagsna.se/",
+  "https://www.dagsnas.se/",
+  "https://www.dagsnaslott.se/",
+  "https://www.dagsnasslott.se/",
+  "https://www.dalaborg.se/",
+  "https://www.dalaborgslott.se/",
+  "https://www.dalaborgsslott.se/",
+  "https://www.djursholm.se/",
+  "https://www.djursholms.se/",
+  "https://www.djursholmslott.se/",
+  "https://www.djursholmsslott.se/",
+  "https://www.dyback.se/",
+  "https://www.dybacks.se/",
+  "https://www.dybackslott.se/",
+  "https://www.dybacksslott.se/",
+  "https://www.edsberg.se/",
+  "https://www.edsbergs.se/",
+  "https://www.edsbergslott.se/",
+  "https://www.edsbergsslott.se/",
+  "https://www.ekebyholm.se/",
+  "https://www.ekebyholms.se/",
+  "https://www.ekebyholmslott.se/",
+  "https://www.ekebyholmsslott.se/",
+  "https://www.ekholmen.se/",
+  "https://www.ekholmens.se/",
+  "https://www.ekholmenslott.se/",
+  "https://www.ekholmensslott.se/",
+  "https://www.ekolsund.se/",
+  "https://www.ekolsunds.se/",
+  "https://www.ekolsundslott.se/",
+  "https://www.ekolsundsslott.se/",
+  "https://www.elghammar.se/",
+  "https://www.elghammarslott.se/",
+  "https://www.elghammarsslott.se/",
+  "https://www.ellinge.se/",
+  "https://www.ellingeslott.se/",
+  "https://www.ellingesslott.se/",
+  "https://www.ericsberg.se/",
+  "https://www.ericsbergs.se/",
+  "https://www.ericsbergslott.se/",
+  "https://www.ericsbergsslott.se/",
+  "https://www.falsterbohu.se/",
+  "https://www.falsterbohus.se/",
+  "https://www.falsterbohuslott.se/",
+  "https://www.falsterbohusslott.se/",
+  "https://www.finspang.se/",
+  "https://www.finspangs.se/",
+  "https://www.finspangslott.se/",
+  "https://www.finspangsslott.se/",
+  "https://www.fjallna.se/",
+  "https://www.fjallnas.se/",
+  "https://www.fjallnaslott.se/",
+  "https://www.fjallnasslott.se/",
+  "https://www.fullero.se/",
+  "https://www.fulleroslott.se/",
+  "https://www.fullerosslott.se/",
+  "https://www.garsna.se/",
+  "https://www.garsnas.se/",
+  "https://www.garsnaslott.se/",
+  "https://www.garsnasslott.se/",
+  "https://www.gasevadholm.se/",
+  "https://www.gasevadholms.se/",
+  "https://www.gasevadholmslott.se/",
+  "https://www.gasevadholmsslott.se/",
+  "https://www.gavle.se/",
+  "https://www.gavleslott.se/",
+  "https://www.gavlesslott.se/",
+  "https://www.gladsaxehu.se/",
+  "https://www.gladsaxehus.se/",
+  "https://www.gladsaxehuslott.se/",
+  "https://www.gladsaxehusslott.se/",
+  "https://www.goksholm.se/",
+  "https://www.goksholms.se/",
+  "https://www.goksholmslott.se/",
+  "https://www.goksholmsslott.se/",
+  "https://www.gorvaln.se/",
+  "https://www.gorvalns.se/",
+  "https://www.gorvalnslott.se/",
+  "https://www.gorvalnsslott.se/",
+  "https://www.graborg.se/",
+  "https://www.graborgslott.se/",
+  "https://www.graborgsslott.se/",
+  "https://www.granhammar.se/",
+  "https://www.granhammars.se/",
+  "https://www.granhammarslott.se/",
+  "https://www.granhammarsslott.se/",
+  "https://www.granso.se/",
+  "https://www.gransoslott.se/",
+  "https://www.gransosslott.se/",
+  "https://www.gripenberg.se/",
+  "https://www.gripenbergs.se/",
+  "https://www.gripenbergslott.se/",
+  "https://www.gripenbergsslott.se/",
+  "https://www.gronsoo.se/",
+  "https://www.gronsooslott.se/",
+  "https://www.gronsoosslott.se/",
+  "https://www.gustaviiispaviljong.se/",
+  "https://www.gustaviiispaviljongslott.se/",
+  "https://www.gustaviiispaviljongsslott.se/",
+  "https://www.gyllebo.se/",
+  "https://www.gylleboslott.se/",
+  "https://www.gyllebosslott.se/",
+  "https://www.gysinge.se/",
+  "https://www.gysingeherrgard.se/",
+  "https://www.gysingeslott.se/",
+  "https://www.gysingesslott.se/",
+  "https://www.hackeberga.se/",
+  "https://www.hackebergaslott.se/",
+  "https://www.hackebergasslott.se/",
+  "https://www.haddebo.se/",
+  "https://www.haddeboslott.se/",
+  "https://www.haddebosslott.se/",
+  "https://www.haga.se/",
+  "https://www.hagaslott.se/",
+  "https://www.hagaslottet.se/",
+  "https://www.hagaslottetslott.se/",
+  "https://www.hagaslottetsslott.se/",
+  "https://www.hagasslott.se/",
+  "https://www.halmstad.se/",
+  "https://www.halmstads.se/",
+  "https://www.halmstadslott.se/",
+  "https://www.halmstadsslott.se/",
+  "https://www.hanaskog.se/",
+  "https://www.hanaskogs.se/",
+  "https://www.hanaskogslott.se/",
+  "https://www.hanaskogsslott.se/",
+  "https://www.haringe.se/",
+  "https://www.haringeslott.se/",
+  "https://www.haringesslott.se/",
+  "https://www.hasselby.se/",
+  "https://www.hasselbyslott.se/",
+  "https://www.hasselbysslott.se/",
+  "https://www.helliden.se/",
+  "https://www.hellidens.se/",
+  "https://www.hellidenslott.se/",
+  "https://www.hellidensslott.se/",
+  "https://www.hojentorp.se/",
+  "https://www.hojentorps.se/",
+  "https://www.hojentorpslott.se/",
+  "https://www.hojentorpsslott.se/",
+  "https://www.horningsholm.se/",
+  "https://www.horningsholms.se/",
+  "https://www.horningsholmslott.se/",
+  "https://www.horningsholmsslott.se/",
+  "https://www.husebybruk.se/",
+  "https://www.husebybrukslott.se/",
+  "https://www.husebybruksslott.se/",
+  "https://www.ismantorp.se/",
+  "https://www.ismantorps.se/",
+  "https://www.ismantorpsborg.se/",
+  "https://www.ismantorpslott.se/",
+  "https://www.ismantorpsslott.se/",
+  "https://www.johannesberg.se/",
+  "https://www.johannesbergs.se/",
+  "https://www.johannesbergslott.se/",
+  "https://www.johannesbergsslott.se/",
+  "https://www.johannisborg.se/",
+  "https://www.johannisborgs.se/",
+  "https://www.johannisborgslott.se/",
+  "https://www.johannisborgsslott.se/",
+  "https://www.johannisborgsslottsruin.se/",
+  "https://www.karlberg.se/",
+  "https://www.karlbergs.se/",
+  "https://www.karlbergslott.se/",
+  "https://www.karlbergsslott.se/",
+  "https://www.karlslund.se/",
+  "https://www.karlslunds.se/",
+  "https://www.karlslundsherrgard.se/",
+  "https://www.karlslundslott.se/",
+  "https://www.karlslundsslott.se/",
+  "https://www.karnan.se/",
+  "https://www.karnanslott.se/",
+  "https://www.karnansslott.se/",
+  "https://www.karsholm.se/",
+  "https://www.karsholms.se/",
+  "https://www.karsholmslott.se/",
+  "https://www.karsholmsslott.se/",
+  "https://www.kastelletkarlshamn.se/",
+  "https://www.kastelletkarlshamnslott.se/",
+  "https://www.kastelletkarlshamnsslott.se/",
+  "https://www.katthammarsvik.se/",
+  "https://www.katthammarsvikslott.se/",
+  "https://www.katthammarsviksslott.se/",
+  "https://www.kavla.se/",
+  "https://www.kavlas.se/",
+  "https://www.kavlaslott.se/",
+  "https://www.kavlasslott.se/",
+  "https://www.klagerup.se/",
+  "https://www.klagerups.se/",
+  "https://www.klagerupslott.se/",
+  "https://www.klagerupsslott.se/",
+  "https://www.krageholm.se/",
+  "https://www.krageholms.se/",
+  "https://www.krageholmslott.se/",
+  "https://www.krageholmsslott.se/",
+  "https://www.krapperup.se/",
+  "https://www.krapperups.se/",
+  "https://www.krapperupslott.se/",
+  "https://www.krapperupsslott.se/",
+  "https://www.kristineberg.se/",
+  "https://www.kristinebergs.se/",
+  "https://www.kristinebergslott.se/",
+  "https://www.kristinebergsslott.se/",
+  "https://www.kronovall.se/",
+  "https://www.kronovalls.se/",
+  "https://www.kronovallslott.se/",
+  "https://www.kronovallsslott.se/",
+  "https://www.kullagunnarstorp.se/",
+  "https://www.kullagunnarstorps.se/",
+  "https://www.kullagunnarstorpslott.se/",
+  "https://www.kullagunnarstorpsslott.se/",
+  "https://www.kungsholm.se/",
+  "https://www.kungsholms.se/",
+  "https://www.kungsholmsfort.se/",
+  "https://www.kungsholmslott.se/",
+  "https://www.kungsholmsslott.se/",
+  "https://www.landskronacitadell.se/",
+  "https://www.landskronacitadellslott.se/",
+  "https://www.landskronacitadellsslott.se/",
+  "https://www.lejondal.se/",
+  "https://www.lejondals.se/",
+  "https://www.lejondalslott.se/",
+  "https://www.lejondalsslott.se/",
+  "https://www.lillo.se/",
+  "https://www.lilloborgruin.se/",
+  "https://www.lilloslott.se/",
+  "https://www.lillosslott.se/",
+  "https://www.lindholmen.se/",
+  "https://www.lindholmens.se/",
+  "https://www.lindholmensborgruin.se/",
+  "https://www.lindholmenslott.se/",
+  "https://www.lindholmensslott.se/",
+  "https://www.linkoping.se/",
+  "https://www.linkopings.se/",
+  "https://www.linkopingslott.se/",
+  "https://www.linkopingsslott.se/",
+  "https://www.ljung.se/",
+  "https://www.ljungs.se/",
+  "https://www.ljungslott.se/",
+  "https://www.ljungsslott.se/",
+  "https://www.loberod.se/",
+  "https://www.loberods.se/",
+  "https://www.loberodslott.se/",
+  "https://www.loberodsslott.se/",
+  "https://www.lovstabruk.se/",
+  "https://www.lovstabrukslott.se/",
+  "https://www.lovstabruksslott.se/",
+  "https://www.lycka.se/",
+  "https://www.lyckas.se/",
+  "https://www.lyckaslott.se/",
+  "https://www.lyckasslott.se/",
+  "https://www.maltesholm.se/",
+  "https://www.maltesholms.se/",
+  "https://www.maltesholmslott.se/",
+  "https://www.maltesholmsslott.se/",
+  "https://www.manstorpsgavlar.se/",
+  "https://www.manstorpsgavlarslott.se/",
+  "https://www.manstorpsgavlarsslott.se/",
+  "https://www.mariedal.se/",
+  "https://www.mariedals.se/",
+  "https://www.mariedalslott.se/",
+  "https://www.mariedalsslott.se/",
+  "https://www.marsvinsholm.se/",
+  "https://www.marsvinsholms.se/",
+  "https://www.marsvinsholmslott.se/",
+  "https://www.marsvinsholmsslott.se/",
+  "https://www.mauritzberg.se/",
+  "https://www.mauritzbergs.se/",
+  "https://www.mauritzbergslott.se/",
+  "https://www.mauritzbergsslott.se/",
+  "https://www.mems.se/",
+  "https://www.memslott.se/",
+  "https://www.memsslott.se/",
+  "https://www.naas.se/",
+  "https://www.naaslott.se/",
+  "https://www.naasslott.se/",
+  "https://www.nasby.se/",
+  "https://www.nasbyholm.se/",
+  "https://www.nasbyholms.se/",
+  "https://www.nasbyholmslott.se/",
+  "https://www.nasbyholmsslott.se/",
+  "https://www.nasbyslott.se/",
+  "https://www.nasbysslott.se/",
+  "https://www.naslott.se/",
+  "https://www.nasslott.se/",
+  "https://www.nasslottsruin.se/",
+  "https://www.nyaalvsborg.se/",
+  "https://www.nyaalvsborgs.se/",
+  "https://www.nyaalvsborgsfastning.se/",
+  "https://www.nyaalvsborgslott.se/",
+  "https://www.nyaalvsborgsslott.se/",
+  "https://www.osbyholm.se/",
+  "https://www.osbyholms.se/",
+  "https://www.osbyholmslott.se/",
+  "https://www.osbyholmsslott.se/",
+  "https://www.ostana.se/",
+  "https://www.ostanaslott.se/",
+  "https://www.ostanasslott.se/",
+  "https://www.osterbybruk.se/",
+  "https://www.osterbybrukherrgard.se/",
+  "https://www.osterbybrukslott.se/",
+  "https://www.osterbybruksslott.se/",
+  "https://www.ostermalma.se/",
+  "https://www.ostermalmaslott.se/",
+  "https://www.ostermalmasslott.se/",
+  "https://www.ovedskloster.se/",
+  "https://www.ovedsklosters.se/",
+  "https://www.ovedsklosterslott.se/",
+  "https://www.ovedsklostersslott.se/",
+  "https://www.ovesholm.se/",
+  "https://www.ovesholms.se/",
+  "https://www.ovesholmslott.se/",
+  "https://www.ovesholmsslott.se/",
+  "https://www.palsjo.se/",
+  "https://www.palsjoslott.se/",
+  "https://www.palsjosslott.se/",
+  "https://www.rabelov.se/",
+  "https://www.rabelovs.se/",
+  "https://www.rabelovslott.se/",
+  "https://www.rabelovsslott.se/",
+  "https://www.rinkesta.se/",
+  "https://www.rinkestaslott.se/",
+  "https://www.rinkestasslott.se/",
+  "https://www.ronneholm.se/",
+  "https://www.ronneholms.se/",
+  "https://www.ronneholmslott.se/",
+  "https://www.ronneholmsslott.se/",
+  "https://www.rossjoholm.se/",
+  "https://www.rossjoholms.se/",
+  "https://www.rossjoholmslott.se/",
+  "https://www.rossjoholmsslott.se/",
+  "https://www.rottnero.se/",
+  "https://www.rottneros.se/",
+  "https://www.rottnerosherrgard.se/",
+  "https://www.rottneroslott.se/",
+  "https://www.rottnerosslott.se/",
+  "https://www.runsa.se/",
+  "https://www.runsaslott.se/",
+  "https://www.runsasslott.se/",
+  "https://www.salnecke.se/",
+  "https://www.salneckeslott.se/",
+  "https://www.salneckesslott.se/",
+  "https://www.sjoo.se/",
+  "https://www.sjooslott.se/",
+  "https://www.sjoosslott.se/",
+  "https://www.skabersjo.se/",
+  "https://www.skabersjoslott.se/",
+  "https://www.skabersjosslott.se/",
+  "https://www.skarhult.se/",
+  "https://www.skarhults.se/",
+  "https://www.skarhultslott.se/",
+  "https://www.skarhultsslott.se/",
+  "https://www.smedstorp.se/",
+  "https://www.smedstorps.se/",
+  "https://www.smedstorpslott.se/",
+  "https://www.smedstorpsslott.se/",
+  "https://www.snogeholm.se/",
+  "https://www.snogeholms.se/",
+  "https://www.snogeholmslott.se/",
+  "https://www.snogeholmsslott.se/",
+  "https://www.sodertuna.se/",
+  "https://www.sodertunaslott.se/",
+  "https://www.sodertunasslott.se/",
+  "https://www.sovdeborg.se/",
+  "https://www.sovdeborgs.se/",
+  "https://www.sovdeborgslott.se/",
+  "https://www.sovdeborgsslott.se/",
+  "https://www.sparreholm.se/",
+  "https://www.sparreholms.se/",
+  "https://www.sparreholmslott.se/",
+  "https://www.sparreholmsslott.se/",
+  "https://www.sperlingsholm.se/",
+  "https://www.sperlingsholms.se/",
+  "https://www.sperlingsholmslott.se/",
+  "https://www.sperlingsholmsslott.se/",
+  "https://www.stegeholm.se/",
+  "https://www.stegeholms.se/",
+  "https://www.stegeholmslott.se/",
+  "https://www.stegeholmsslott.se/",
+  "https://www.stegeholmsslottsruin.se/",
+  "https://www.stenhammar.se/",
+  "https://www.stenhammars.se/",
+  "https://www.stenhammarslott.se/",
+  "https://www.stenhammarsslott.se/",
+  "https://www.steninge.se/",
+  "https://www.steningeslott.se/",
+  "https://www.steningesslott.se/",
+  "https://www.stjarneholm.se/",
+  "https://www.stjarneholms.se/",
+  "https://www.stjarneholmsborgruin.se/",
+  "https://www.stjarneholmslott.se/",
+  "https://www.stjarneholmsslott.se/",
+  "https://www.stjarnorp.se/",
+  "https://www.stjarnorps.se/",
+  "https://www.stjarnorpslott.se/",
+  "https://www.stjarnorpsslott.se/",
+  "https://www.stjarnorpsslottsruin.se/",
+  "https://www.stjernsund.se/",
+  "https://www.stjernsunds.se/",
+  "https://www.stjernsundslott.se/",
+  "https://www.stjernsundsslott.se/",
+  "https://www.stola.se/",
+  "https://www.stolaherrgard.se/",
+  "https://www.stolaslott.se/",
+  "https://www.stolasslott.se/",
+  "https://www.storahastna.se/",
+  "https://www.storahastnas.se/",
+  "https://www.storahastnaslott.se/",
+  "https://www.storahastnasslott.se/",
+  "https://www.storawasby.se/",
+  "https://www.storawasbyslott.se/",
+  "https://www.storawasbysslott.se/",
+  "https://www.stromsholm.se/",
+  "https://www.stromsholms.se/",
+  "https://www.stromsholmslott.se/",
+  "https://www.stromsholmsslott.se/",
+  "https://www.sturefor.se/",
+  "https://www.sturefors.se/",
+  "https://www.stureforslott.se/",
+  "https://www.stureforsslott.se/",
+  "https://www.sundbyholm.se/",
+  "https://www.sundbyholms.se/",
+  "https://www.sundbyholmslott.se/",
+  "https://www.sundbyholmsslott.se/",
+  "https://www.svenstorp.se/",
+  "https://www.svenstorps.se/",
+  "https://www.svenstorpslott.se/",
+  "https://www.svenstorpsslott.se/",
+  "https://www.taxinge.se/",
+  "https://www.taxingeslott.se/",
+  "https://www.taxingesslott.se/",
+  "https://www.toppeladugard.se/",
+  "https://www.toppeladugards.se/",
+  "https://www.toppeladugardslott.se/",
+  "https://www.toppeladugardsslott.se/",
+  "https://www.torpastenhu.se/",
+  "https://www.torpastenhus.se/",
+  "https://www.torpastenhuslott.se/",
+  "https://www.torpastenhusslott.se/",
+  "https://www.torup.se/",
+  "https://www.torups.se/",
+  "https://www.torupslott.se/",
+  "https://www.torupsslott.se/",
+  "https://www.trolleljungby.se/",
+  "https://www.trolleljungbyslott.se/",
+  "https://www.trolleljungbysslott.se/",
+  "https://www.trollena.se/",
+  "https://www.trollenas.se/",
+  "https://www.trollenaslott.se/",
+  "https://www.trollenasslott.se/",
+  "https://www.tullesbo.se/",
+  "https://www.tullesboslott.se/",
+  "https://www.tullesbosslott.se/",
+  "https://www.tullgarn.se/",
+  "https://www.tullgarns.se/",
+  "https://www.tullgarnslott.se/",
+  "https://www.tullgarnsslott.se/",
+  "https://www.tunbyholm.se/",
+  "https://www.tunbyholms.se/",
+  "https://www.tunbyholmslott.se/",
+  "https://www.tunbyholmsslott.se/",
+  "https://www.tureborg.se/",
+  "https://www.tureborgslott.se/",
+  "https://www.tureborgsslott.se/",
+  "https://www.tureholm.se/",
+  "https://www.tureholms.se/",
+  "https://www.tureholmslott.se/",
+  "https://www.tureholmsslott.se/",
+  "https://www.tynnelso.se/",
+  "https://www.tynnelsoslott.se/",
+  "https://www.tynnelsosslott.se/",
+  "https://www.ulvasa.se/",
+  "https://www.ulvasaslott.se/",
+  "https://www.ulvasasslott.se/",
+  "https://www.ulvsunda.se/",
+  "https://www.ulvsundaslott.se/",
+  "https://www.ulvsundasslott.se/",
+  "https://www.vallen.se/",
+  "https://www.vallens.se/",
+  "https://www.vallenslott.se/",
+  "https://www.vallensslott.se/",
+  "https://www.varberg.se/",
+  "https://www.varbergs.se/",
+  "https://www.varbergsfastning.se/",
+  "https://www.varbergslott.se/",
+  "https://www.varbergsslott.se/",
+  "https://www.vastana.se/",
+  "https://www.vastanaslott.se/",
+  "https://www.vastanasslott.se/",
+  "https://www.vegeholm.se/",
+  "https://www.vegeholms.se/",
+  "https://www.vegeholmslott.se/",
+  "https://www.vegeholmsslott.se/",
+  "https://www.venngarn.se/",
+  "https://www.venngarns.se/",
+  "https://www.venngarnslott.se/",
+  "https://www.venngarnsslott.se/",
+  "https://www.vibyholm.se/",
+  "https://www.vibyholms.se/",
+  "https://www.vibyholmslott.se/",
+  "https://www.vibyholmsslott.se/",
+  "https://www.viderup.se/",
+  "https://www.viderups.se/",
+  "https://www.viderupslott.se/",
+  "https://www.viderupsslott.se/",
+  "https://www.visbyringmur.se/",
+  "https://www.visbyringmurslott.se/",
+  "https://www.visbyringmursslott.se/",
+  "https://www.visingsborg.se/",
+  "https://www.visingsborgs.se/",
+  "https://www.visingsborgslott.se/",
+  "https://www.visingsborgsslott.se/",
+  "https://www.visingsborgsslottsruin.se/",
+  "https://www.vittskovle.se/",
+  "https://www.vittskovleslott.se/",
+  "https://www.vittskovlesslott.se/",
+  "https://www.vramsgunnarstorp.se/",
+  "https://www.vramsgunnarstorps.se/",
+  "https://www.vramsgunnarstorpslott.se/",
+  "https://www.vramsgunnarstorpsslott.se/",
+  "https://www.wapno.se/",
+  "https://www.wapnoslott.se/",
+  "https://www.wapnosslott.se/",
+  "https://www.wiks.se/",
+  "https://www.wikslott.se/",
+  "https://www.wiksslott.se/",
+  "https://www.yxtaholm.se/",
+  "https://www.yxtaholms.se/",
+  "https://www.yxtaholmslott.se/",
+  "https://www.yxtaholmsslott.se/",
+  "https://yxtaholm.com/",
+  "https://yxtaholms.com/",
+  "https://yxtaholmslott.com/",
+  "https://yxtaholmsslott.com/",
+  "https://www.kungligaslotten.se/english/articles-movies-360.html",
+  "https://www.kungligaslotten.se/upptack/artiklar-filmer-360.html",
+  "https://www.kungligaslotten.se/english/articles-movies-360/drottningholm-palace/2025-12-12-ehrenstrahl-drawing-room-in-360.html"
  ]
 }
