@@ -1,0 +1,15 @@
+# 2026-10-02T14:01:34Z status
+>> status
+== Nyckel: active
+!! GET /zones/undefined/dns_records?per_page=100 -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/dns_records, perhaps your object identifier is invalid?"}]
+== DNS
+!! GET /zones/undefined/dnssec -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/dnssec, perhaps your object identifier is invalid?"}]
+== DNSSEC: undefined
+!! GET /zones/undefined/email/routing -> 404 [{"code":7003,"message":"Could not route to /client/v4/zones/undefined/email/routing, perhaps your object identifier is invalid?"}]
+== Email Routing: ?
+== Workers: svenskakyrkor
+== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production)
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/workers/scripts/slottsregistret/deployments -> 404 [{"code":10007,"message":"This Worker does not exist on your account."}]
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/workers/scripts/slottsregistret/versions?page=1&per_page=5 -> 404 [{"code":10007,"message":"This Worker does not exist on your account."}]
+== Pages-projekt: inga
+== Workers Builds (0)
