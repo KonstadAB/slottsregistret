@@ -1,9 +1,9 @@
-Wikidata-sökningar 54
+Wikidata-sökningar 0
 Wikidata-poster 550
 Wikipedia-texter 335
 Commons-bilder 327
-Sidor lästa 76
-Hämtad src/fonts/fraunces-latin.woff2
-Hämtad src/fonts/fraunces-latin-italic.woff2
-Hämtad src/fonts/instrument-sans-latin.woff2
-Klart 2026-10-02T11:58:06.956Z
+Sidor lästa 0
+Geokodade 6 av 8
+FEL streetview: nyckel saknas (MAPS_KEY)
+Sökningar 168 med träffar 2
+Klart 2026-10-02T12:08:00.641Z
