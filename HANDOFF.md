@@ -69,6 +69,16 @@
 - För slott-sidan omgjord till säljsida (bild, siffror, tre fördelar, formulär).
 - Kategorin "Bo" är bullrig (Bohus fästning, Läckö m.fl. räknas) – rättas när spa/boende kontrolleras.
 
+## Natten 2–3 okt (samma gren, inte publicerad)
+- Kategorier rensade för hand mot slottens webbplatser (`notOffers` i manuellt.json): Bo 42→35, Spa 7→5, Bohus inte Bröllop.
+- Kartan: nedtonade kartplattor (CSS-filter), startvy södra/mellersta Sverige, rubrik i panelen. Kartbilden på startsidan har
+  Sveriges och grannländernas konturer (`data/geo/norden.json`, Natural Earth, public domain).
+- Sök (mörk rubrikdel), textsidorna (guldlinje), formulären (guldfokus) och 404 ("Här tog vägen slut", med bild och sök).
+- Menyn: sökikon; i mobilmenyn även Spa och För slottsägare. Länssidan: bildrutor per län.
+- Brödsmulor som strukturerad data (BreadcrumbList) på slott och listsidor.
+- Bilder: Wikimedia begränsar nya miniatyrer ibland (429) – Workern försöker tre gånger, webbläsaren en gång till efter 2,5 s.
+- `tools/hamta.mjs` sparar nu slutadressen (`url`) för jsonUrls, t.ex. för korta Google Maps-länkar.
+
 ## Att göra
 1. Daniel: Cloudflare-nyckel som GitHub-hemlighet → skapa zonen slottsregistret.se, byt namnservrar hos registraren, publicera.
 2. KV för formulären, Email Routing (kontakt@ → konstadab@gmail.com), Search Console.
