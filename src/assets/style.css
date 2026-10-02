@@ -80,7 +80,7 @@ p { margin: 0 0 1em; }
 .film .slide.on img, .film .slide.off img { animation: kenburns 11s ease-out forwards; }
 @keyframes kenburns { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.16) translate(var(--dx), var(--dy)); } }
 .hero-shade { z-index: 2; background:
-  linear-gradient(90deg, rgba(8,16,13,.86) 0%, rgba(8,16,13,.62) 38%, rgba(8,16,13,.18) 72%, rgba(8,16,13,.05) 100%),
+  linear-gradient(90deg, rgba(8,16,13,.9) 0%, rgba(8,16,13,.7) 40%, rgba(8,16,13,.25) 72%, rgba(8,16,13,.08) 100%),
   linear-gradient(0deg, rgba(8,16,13,.7) 0%, rgba(8,16,13,0) 35%),
   linear-gradient(180deg, rgba(8,16,13,.55) 0%, rgba(8,16,13,0) 22%); }
 .hero-in { position: relative; z-index: 3; padding: clamp(110px, 14vw, 170px) 0 clamp(70px, 9vw, 120px); }
@@ -111,6 +111,9 @@ p { margin: 0 0 1em; }
   .hero-film { min-height: 100svh; align-items: flex-end; }
   .hero-shade { background: linear-gradient(0deg, rgba(8,16,13,.9) 0%, rgba(8,16,13,.6) 50%, rgba(8,16,13,.35) 100%); }
   .film-caption { left: 16px; right: auto; text-align: left; top: 80px; bottom: auto; }
+  .kicker-gold { font-size: .7rem; gap: 10px; }
+  .kicker-gold::before { width: 24px; }
+  .kicker-gold::after { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .film .slide.on img { animation: none; } }
 

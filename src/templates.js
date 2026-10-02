@@ -169,7 +169,7 @@ function home(S) {
   <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap hero-in">
     <p class="kicker kicker-gold"><span>${nf(st.total)} slott, borgar och fästningar</span></p>
-    <h1>Sveriges slott – <em class="gold-text">och vägen in</em></h1>
+    <h1>Sveriges slott –<br><em class="gold-text">och vägen in</em></h1>
     <p class="lead">Hitta slott att besöka, bo på, gifta dig eller ha konferens på. Och kliv in i dem redan nu: ${nf(st.withTour)} slott kan du gå runt i digitalt.</p>
     ${searchBox(S, true)}
     <ul class="quick">${offers.filter(o => o.total).map(o => `<li><a href="${catURL(o)}"><svg viewBox="0 0 24 24" aria-hidden="true">${ICON[o.slug] || ''}</svg>${esc(o.short)}</a></li>`).join('')}</ul>
