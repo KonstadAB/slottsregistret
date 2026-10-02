@@ -1,2 +1,2 @@
-# 2026-10-02T14:03:10Z api POST /zones {"name":"slottsregistret.se","account":{"id":"{account}"},"type":"full","jump_start":true} ;; status
+# 2026-10-02T14:05:22Z status
 CLOUDFLARE_API_TOKEN saknas
