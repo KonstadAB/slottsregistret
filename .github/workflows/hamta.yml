@@ -1,0 +1,29 @@
+# Hämtar öppna data enligt data/source/bestallning.json och sparar svaret (svar.json och hamta-logg.txt) på samma gren.
+name: Hämta data
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['data/source/bestallning.json', 'tools/hamta.mjs']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hamta-${{ github.ref }}
+jobs:
+  hamta:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/hamta.mjs
+      - name: Spara svaret på grenen
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source/svar.json data/source/hamta-logg.txt 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Hämtade data"
+          for i in 1 2 3; do git pull --rebase -X theirs -q && git push && break; git rebase --abort 2>/dev/null; sleep 5; done
