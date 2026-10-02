@@ -160,8 +160,8 @@ function home(S) {
   const offers = d.categories.filter(c => c.kind === 'offer');
   const types = d.categories.filter(c => c.kind === 'type');
   // En bild per erbjudande: utvalda slott som visar just det (TILE), annars ett slott med bild och hög prioritet.
-  const TILE = { 'bo-pa-slott': 'hackeberga-slott', spa: 'nasby-slott', konferens: 'teleborgs-slott', 'brollop-och-fest': 'gunnebo-slott',
-    'restaurang-och-kafe': 'kronovalls-slott', besok: 'gripsholms-slott', 'park-och-tradgard': 'sofiero-slott' };
+  const TILE = { 'bo-pa-slott': 'hackeberga-slott', spa: 'nasby-slott', konferens: 'snogeholms-slott', 'brollop-och-fest': 'gunnebo-slott',
+    'restaurang-och-kafe': 'svaneholms-slott', besok: 'gripsholms-slott', 'park-och-tradgard': 'sofiero-slott' };
   const used = new Set();
   const offerTiles = offers.filter(o => o.total).map(o => {
     const c = d.castles.find(c => c.id === TILE[o.slug] && c.image) || d.castles.filter(c => c.image && c.offers.includes(o.slug) && !used.has(c.id))

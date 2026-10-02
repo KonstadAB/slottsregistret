@@ -409,3 +409,8 @@ a.tag:hover { background: var(--forest); color: #fff; }
 @media (max-width: 900px) { .ftr { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .ftr { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+@media (max-width: 560px) {
+  .county-list:not(.county-list-big) { grid-template-columns: 1fr 1fr; gap: 0 18px; }
+  .county-list:not(.county-list-big) a { padding: 10px 0; font-size: .92rem; }
+  .county-list:not(.county-list-big) small { font-size: .8rem; }
+}
