@@ -220,15 +220,17 @@ await step('streetview', async () => {
 
 await step('search', async () => {
   out.search = out.search || {};
+  const stopAt = Date.now() + 12 * 60000; // sökningen får ta högst 12 minuter, så att körningen aldrig når tidsgränsen
   for (const q of req.search || []) {
+    if (Date.now() > stopAt) { out.search[q.id] = { status: 0, q: q.q, results: [], error: 'hann inte' }; continue; }
     try {
       // DuckDuckGo svarar 202 utan träffar när det går för fort; vänta då längre och försök igen.
       let r, html;
-      for (let t = 1; t <= 4; t++) {
+      for (let t = 1; t <= 3; t++) {
         r = await fetch('https://html.duckduckgo.com/html/?kl=se-sv&q=' + encodeURIComponent(q.q), { headers: { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36', Accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
         html = await r.text();
         if (r.status === 200 && html.includes('result__a')) break;
-        if (t < 4) await sleep(15000 * t);
+        if (t < 3) await sleep(20000 * t);
       }
       const res = [...html.matchAll(/<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map(m => {
         let u = m[1].replace(/&amp;/g, '&'); const mm = u.match(/[?&]uddg=([^&]+)/); if (mm) u = decodeURIComponent(mm[1]);
