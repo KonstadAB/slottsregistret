@@ -12,6 +12,9 @@ on:
       cmd:
         description: 'Kommando till tools/cloudflare.mjs'
         default: ''
+      token:
+        description: 'API-nyckel (bara tills hemligheten CLOUDFLARE_API_TOKEN finns)'
+        default: ''
 permissions:
   contents: write
 concurrency:
@@ -27,8 +30,10 @@ jobs:
           node-version: 22
       - name: Kör kommandot
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          SECRET_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
+          T=$(jq -r '.inputs.token // ""' "$GITHUB_EVENT_PATH")
+          if [ -n "$T" ]; then echo "::add-mask::$T"; export CLOUDFLARE_API_TOKEN="$T"; else export CLOUDFLARE_API_TOKEN="$SECRET_TOKEN"; fi
           CMD=$(jq -r '.inputs.cmd // ""' "$GITHUB_EVENT_PATH")
           [ -z "$CMD" ] && CMD=$(cat data/source/cloudflare-kommando.txt 2>/dev/null || echo status)
           { echo "# $(date -u +%FT%TZ) $CMD"; node tools/cloudflare.mjs "$CMD" 2>&1; } | tee data/source/cloudflare-logg.txt
