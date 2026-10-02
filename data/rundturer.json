@@ -8,10 +8,11 @@
     "View360 Sweden AB"
    ],
    "year": 2022,
-   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjdBSnc.!2m2!1d55.7261927174487!2d13.69913175182928!3f0!4f0!5f0.7820865974627469",
-   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjdBSnc.",
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF!2m2!1d55.7261801!2d13.6988284!3f252.46!4f13.4!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF&heading=252&pitch=13",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-10-02",
+   "note": "Startbild vald av Daniel 2 okt"
   }
  ],
  "drottningholms-slott": [

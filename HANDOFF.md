@@ -21,6 +21,12 @@
 - `worker/index.js` (www-omdirigering, /img/ Commons-proxy, /tiles/ OSM-proxy, /api/skicka), `worker/forms.js` (formulären slott och tips).
 - Kategorier (erbjudanden) räknas fram i `sammanstall.py` ur "användning" och slottets egen webbplats (nyckelord), kan rättas i manuellt.json.
 
+## Rundturer – regel (Daniel 2 okt kväll)
+- **Bara rundturer där man kan röra sig mellan platser räknas** (kind `walk`). Enstaka 360-bilder (`look`, även Kungliga slottens
+  rumsvisningar) räknas inte och visas inte; de ligger kvar i rundturer.json och filtreras bort i `tools/sammanstall.py`.
+  Därmed 23 slott med rundtur (var 36).
+- Bjärsjölagård: startbilden vald av Daniel (pano CIHM0ogKEICAgICe6J7i-QE, riktning 252°).
+
 ## Rundturer (läge 2 okt)
 - 36 slott med rundtur. Källor: Google Maps-bilder från andra än Google nära slottet (Street View-metadata i ett rutnät runt
   slottet, `streetview` i bestallning), granskade för hand via miniatyrer (Street View Static API). Bara bilder som visar slottet

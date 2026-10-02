@@ -4,6 +4,7 @@
 /slott/granso-slott/
 /slott/gripsholms-slott/
 /slott/akeshovs-slott/
+/slott/bjarsjolagards-slott/
 /karta/
 /virtuella-rundturer/
 /bo-pa-slott/
@@ -14,3 +15,4 @@
 # 15:52:58
 # 15:57:45
 # 16:01:03
+# 20:31:31
