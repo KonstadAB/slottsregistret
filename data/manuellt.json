@@ -88,7 +88,8 @@
  },
  "gysinge-herrgard": {
   "qid": "Q129324485",
-  "website": "https://www.gysinge.se/"
+  "website": "https://www.gysinge.se/",
+  "image": "Gysinge herrgård.jpg"
  },
  "karnan": {
   "website": "https://www.karnan.se/"
@@ -151,10 +152,12 @@
   "website": "https://www.sovdeborg.se/"
  },
  "wapno-slott": {
-  "website": "https://www.wapnoslott.se/"
+  "website": "https://www.wapnoslott.se/",
+  "image": "Vapnö slott.jpg"
  },
  "sperlingsholms-slott": {
-  "website": "https://www.sperlingsholm.se/"
+  "website": "https://www.sperlingsholm.se/",
+  "image": "Sperlingsholm maj 2015-1.jpg"
  },
  "naas-slott": {
   "website": "https://www.naas.se/",
@@ -196,13 +199,15 @@
   "website": "https://sparreholmsslott.com/"
  },
  "yxtaholms-slott": {
-  "website": "https://www.yxtaholmsslott.se/"
+  "website": "https://www.yxtaholmsslott.se/",
+  "image": "Yxtaholm huvudbyggnad, nov 2021c.jpg"
  },
  "oster-malma": {
   "website": "https://www.ostermalma.se/"
  },
  "haringe-slott": {
-  "website": "https://www.haringeslott.se/"
+  "website": "https://www.haringeslott.se/",
+  "image": "Häringe slott 2014.jpg"
  },
  "nasby-slott": {
   "website": "https://www.nasbyslott.se/",
@@ -223,7 +228,8 @@
   "website": "https://www.wikslott.se/"
  },
  "gronsoo-slott": {
-  "website": "https://www.gronsoo.se/"
+  "website": "https://www.gronsoo.se/",
+  "image": "Grönsöö slott.jpg"
  },
  "haga-slott": {
   "website": "https://www.hagaslott.se/",
@@ -280,5 +286,87 @@
  "engso-slott": {
   "skip": true,
   "why": "Samma slott som Ängsö slott (äldre stavning)."
+ },
+ "hovdala-slott": {
+  "website": "https://hovdala.se/"
+ },
+ "svaneholms-slott": {
+  "website": "https://svaneholmsslott.se/"
+ },
+ "knutstorps-borg": {
+  "website": "https://knutstorp.se/"
+ },
+ "charlottenlunds-slott": {
+  "website": null
+ },
+ "drottningskars-kastell": {
+  "website": "https://www.visitkarlskrona.se/sv/drottningskars-kastell-aspo"
+ },
+ "eketorps-borg": {
+  "website": "https://eketorpsborg.se/"
+ },
+ "kronobergs-slottsruin": {
+  "website": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/"
+ },
+ "lofstad-slott": {
+  "website": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/"
+ },
+ "nynas-slott": {
+  "website": "https://nynasslott.se/"
+ },
+ "malsakers-slott": {
+  "website": "https://malsaker.nu/"
+ },
+ "safstaholms-slott": {
+  "website": "https://safstaholm.se/"
+ },
+ "fiholms-slott": {
+  "website": null
+ },
+ "stockholms-slott": {
+  "website": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html"
+ },
+ "tyreso-slott": {
+  "website": "https://www.tyresoslott.se/"
+ },
+ "julita-gard": {
+  "website": "https://www.julitagard.se/"
+ },
+ "skanelaholms-slott": {
+  "website": "https://www.vitterhetsakademien.se/kulturfastigheter/skanelaholms-slott.html"
+ },
+ "orbyhus-slott": {
+  "website": "https://www.orbyhusslott.se/"
+ },
+ "angso-slott": {
+  "website": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html"
+ },
+ "hemso-fastning": {
+  "website": "http://www.hemsofastning.se/"
+ },
+ "bodens-fastning-rodbergsfortet": {
+  "website": null
+ },
+ "malmohus": {
+  "website": "https://malmo.se/museer"
+ },
+ "glimmingehus": {
+  "website": "https://glimmingehus.se/"
+ },
+ "sjoo-slott": {
+  "image": "Sjöö Castle.jpg"
+ },
+ "bergkvara-slottsruin": {
+  "image": "Bergkvara - Slottsruin-1 05092014 AP.JPG"
+ },
+ "stjarnorps-slottsruin": {
+  "image": "Stjärnorps slottsruin Ög.jpg"
+ },
+ "kastellet-karlshamn": {
+  "image": "Karlshamns kastell.JPG"
+ },
+ "rosendals-slott-skane": {
+  "skip": true,
+  "why": "Gick inte att bekräfta; Wikidata-matchningen var Rosendal på Djurgården. Visas inte förrän vi vet var det ligger."
  }
 }
