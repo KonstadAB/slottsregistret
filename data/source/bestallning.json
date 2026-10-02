@@ -1,124 +1,32 @@
 {
  "downloads": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Drottningholm_Palace_%28by_Pudelek%29_3.jpg/500px-Drottningholm_Palace_%28by_Pudelek%29_3.jpg",
-   "path": "data/source/hero/drottningholms-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/0283L%C3%A4ck%C3%B6_slott.jpg/1920px-0283L%C3%A4ck%C3%B6_slott.jpg",
+   "path": "data/source/hero/full-lacko-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Gripsholms_slott_view2.jpg/500px-Gripsholms_slott_view2.jpg",
-   "path": "data/source/hero/gripsholms-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Drottningholm_Palace_%28by_Pudelek%29_3.jpg/1920px-Drottningholm_Palace_%28by_Pudelek%29_3.jpg",
+   "path": "data/source/hero/full-drottningholms-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/0283L%C3%A4ck%C3%B6_slott.jpg/500px-0283L%C3%A4ck%C3%B6_slott.jpg",
-   "path": "data/source/hero/lacko-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Gripsholms_slott_view2.jpg/1920px-Gripsholms_slott_view2.jpg",
+   "path": "data/source/hero/full-gripsholms-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kalmar_slott_frontal.jpg/500px-Kalmar_slott_frontal.jpg",
-   "path": "data/source/hero/kalmar-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kalmar_slott_frontal.jpg/1920px-Kalmar_slott_frontal.jpg",
+   "path": "data/source/hero/full-kalmar-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vadstena.slottet.jpg/500px-Vadstena.slottet.jpg",
-   "path": "data/source/hero/vadstena-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Skokloster_fasad_2013b.jpg/1920px-Skokloster_fasad_2013b.jpg",
+   "path": "data/source/hero/full-skoklosters-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tjol%C3%B6holms_Slott.png/500px-Tjol%C3%B6holms_Slott.png",
-   "path": "data/source/hero/tjoloholms-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Stora_Sundby_slott%2C_juli_2018a.jpg/1920px-Stora_Sundby_slott%2C_juli_2018a.jpg",
+   "path": "data/source/hero/full-stora-sundby-slott.jpg"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Skokloster_fasad_2013b.jpg/500px-Skokloster_fasad_2013b.jpg",
-   "path": "data/source/hero/skoklosters-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Vittsk%C3%B6vle_slott.jpg/500px-Vittsk%C3%B6vle_slott.jpg",
-   "path": "data/source/hero/vittskovle-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Trolleholms_slott.JPG/500px-Trolleholms_slott.JPG",
-   "path": "data/source/hero/trolleholms-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Sofiero_Fassade.JPG/500px-Sofiero_Fassade.JPG",
-   "path": "data/source/hero/sofiero-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Torups_slott_fr%C3%A5n_v%C3%A4ster.jpg/500px-Torups_slott_fr%C3%A5n_v%C3%A4ster.jpg",
-   "path": "data/source/hero/torups-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Christinehof2.jpg/500px-Christinehof2.jpg",
-   "path": "data/source/hero/christinehofs-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tureholms_slott_norr_2012.jpg/500px-Tureholms_slott_norr_2012.jpg",
-   "path": "data/source/hero/tureholms-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Str%C3%B6msholms_slott0.jpg/500px-Str%C3%B6msholms_slott0.jpg",
-   "path": "data/source/hero/stromsholms-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Katrineholm_Schloss_Eriksberg.jpg/500px-Katrineholm_Schloss_Eriksberg.jpg",
-   "path": "data/source/hero/ericsbergs-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/GransoSlottVastervik20130720.JPG/500px-GransoSlottVastervik20130720.JPG",
-   "path": "data/source/hero/granso-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bosjo_monastery_in_Skane_Sweden4.jpg/500px-Bosjo_monastery_in_Skane_Sweden4.jpg",
-   "path": "data/source/hero/bosjokloster.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Krageholms_slott.jpg/500px-Krageholms_slott.jpg",
-   "path": "data/source/hero/krageholms-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wan%C3%A5s_2011-2.jpg/500px-Wan%C3%A5s_2011-2.jpg",
-   "path": "data/source/hero/wanas-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Orebro_slott_2010.JPG/500px-Orebro_slott_2010.JPG",
-   "path": "data/source/hero/orebro-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nyn%C3%A4s_slott%2C_May_2010.jpg/500px-Nyn%C3%A4s_slott%2C_May_2010.jpg",
-   "path": "data/source/hero/nynas-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tid%C3%B6_slott-4.jpg/500px-Tid%C3%B6_slott-4.jpg",
-   "path": "data/source/hero/tido-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sturefors_slott.jpg/500px-Sturefors_slott.jpg",
-   "path": "data/source/hero/sturefors-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Stora_Sundby_slott%2C_juli_2018a.jpg/500px-Stora_Sundby_slott%2C_juli_2018a.jpg",
-   "path": "data/source/hero/stora-sundby-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Swedish_castle_Vrams_Gunnarstorp.jpg/500px-Swedish_castle_Vrams_Gunnarstorp.jpg",
-   "path": "data/source/hero/vrams-gunnarstorps-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Trolle_Ljungby_slott.jpg/500px-Trolle_Ljungby_slott.jpg",
-   "path": "data/source/hero/trolle-ljungby-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Swedish_castle_Skabersj%C3%B6.jpg/500px-Swedish_castle_Skabersj%C3%B6.jpg",
-   "path": "data/source/hero/skabersjo-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Swedish_castle_Marsvinsholm.jpg/500px-Swedish_castle_Marsvinsholm.jpg",
-   "path": "data/source/hero/marsvinsholms-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tyreso_slott_view1.jpg/500px-Tyreso_slott_view1.jpg",
-   "path": "data/source/hero/tyreso-slott.jpg"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steninge_Palace_nov_2011_nr2_Publish.jpg/500px-Steninge_Palace_nov_2011_nr2_Publish.jpg",
-   "path": "data/source/hero/steninge-slott.jpg"
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tjol%C3%B6holms_Slott.png/1920px-Tjol%C3%B6holms_Slott.png",
+   "path": "data/source/hero/full-tjoloholms-slott.jpg"
   }
  ]
 }
