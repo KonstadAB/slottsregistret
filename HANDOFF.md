@@ -52,6 +52,17 @@
 - Daniel tycker att designen i övrigt "hänger efter lite" – en designgenomgång av hela sajten är nästa större uppgift.
 - Daniel vill inte ha mejl från misslyckade arbetsflöden: arbetsflödena ska inte misslyckas i onödan (saknad nyckel = hoppa över).
 
+## Designgenomgång 2 okt kväll (grenen claude/project-thread-a4pzrq, inte publicerad)
+- Förhandsvisning: skriv sidor i `data/source/granska.txt` och pusha på en claude/-gren → `.github/workflows/granska.yml` laddar upp
+  en förhandsversion av Workern på https://granska-slottsregistret.konstadab.workers.dev (rör inte den publicerade sajten) och tar
+  skärmbilder (dator + mobil, `tools/granska.mjs`) som sparas på grenen `claude/granska-bilder` (skrivs över varje gång).
+- Slottens sidor: stor bild överst (bara om bilden är minst 1000 px bred, annars bild bredvid rubriken), rundturen som en välvd
+  "port", "Dörren är ännu stängd"-ruta för slott utan rundtur. Den lilla kartan var tom (skripten laddades i fel ordning) – lagat.
+- Kort: bilden bär kortet, ort i guld, "Kliv in"-märke med dörrikon. Två kort i bredd på mobil. Listsidor och län får bild överst.
+- Startsidan: bildrutor för erbjudandena (handplockade slott i `TILE` i templates.js), länslistan sorterad på antal slott.
+- För slott-sidan omgjord till säljsida (bild, siffror, tre fördelar, formulär).
+- Kategorin "Bo" är bullrig (Bohus fästning, Läckö m.fl. räknas) – rättas när spa/boende kontrolleras.
+
 ## Att göra
 1. Daniel: Cloudflare-nyckel som GitHub-hemlighet → skapa zonen slottsregistret.se, byt namnservrar hos registraren, publicera.
 2. KV för formulären, Email Routing (kontakt@ → konstadab@gmail.com), Search Console.
