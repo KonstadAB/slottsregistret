@@ -62,7 +62,9 @@ CATS = [
     ('fastningar', 'Fästningar', 'Fästningar', 'type', 'Fästningar, kastell och skansar.'),
 ]
 
-def offers_for(c, site_text):
+GUIDES = re.compile(r'raa\.se|kungligaslotten|royalpalaces|nordiskamuseet|vastsverige|svensktkulturarv|burgenwelt|slottsguiden|fastningsguiden|ekero\.se|tjorn\.se|lansstyrelsen|harpsund|sfv\.se|vingaker|sormlandsmuseum|vitterhet|kulturparken|ostergotlandsmuseum|visit|wikipedia')
+
+def offers_for(c, site_text, own_site=True):
     use = (c['use'] or '').lower()
     t = (c['type'] or '').lower()
     st = (site_text or '').lower()
@@ -73,6 +75,13 @@ def offers_for(c, site_text):
     if re.search(r'restaurang|kafé|café|servering', use): o.add('restaurang-och-kafe')
     if c['open'] == 'Ja' or re.search(r'museum|visning', use): o.add('besok')
     if re.search(r'park|trädgård|skulpturpark', use): o.add('park-och-tradgard')
+    # Slottets egen webbplats (inte myndigheter, museer eller guider som skriver om många platser).
+    if st and own_site:
+        if re.search(r'\bbröllop', st): o.add('brollop-och-fest')
+        if re.search(r'\bkonferens', st): o.add('konferens')
+        if re.search(r'\brestaurang|\bcafé|\bkafé', st): o.add('restaurang-och-kafe')
+        if re.search(r'\bhotell|\bövernatt|\bhotellrum|\bgästrum|\bboende\b', st) and re.search(r'\bboka\b|\brum\b|\bnatt', st): o.add('bo-pa-slott')
+        if re.search(r'\bspa\b|\bspabehandling|\bspaavdelning|\bspa-', st): o.add('spa')
     if 'kungligt' in t or 'kungligt' in use: o.add('kungliga-slott')
     if re.search(r'ruin|fornborg|borg\b|borgtorn', t): o.add('borgar-och-ruiner')
     if re.search(r'fästning|fort|kastell|skans', t + ' ' + c['name'].lower()): o.add('fastningar')
@@ -108,7 +117,7 @@ for c in S:
         'qid': qid, 'lat': lat, 'lon': lon, 'inception': e.get('inception'), 'website': website,
         'image': image, 'wiki': wiki_intro(m.get('article', e.get('article'))),
         'text': m.get('text'),
-        'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text')) - set(m.get('notOffers', [])))),
+        'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
         'tours': TOURS.get(c['id'], []),
     }
     if lat is None:

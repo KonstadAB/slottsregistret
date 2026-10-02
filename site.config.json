@@ -1,0 +1,13 @@
+{
+  "name": "Slottsregistret.se",
+  "shortName": "Slottsregistret",
+  "domain": "https://slottsregistret.se",
+  "tagline": "Sveriges slott – och vägen in",
+  "description": "Hitta Sveriges slott, borgar och fästningar. Se dem inifrån med virtuella rundturer, och hitta slott att besöka, bo på, gifta dig eller ha konferens på.",
+  "contactEmail": "kontakt@slottsregistret.se",
+  "owner": "Daniel Andersson",
+  "company": "Konstad i Malmö AB",
+  "language": "sv",
+  "forms": "worker",
+  "cloudflareAnalyticsToken": ""
+}

@@ -102,6 +102,8 @@
    "text": null,
    "offers": [
     "besok",
+    "brollop-och-fest",
+    "konferens",
     "kungliga-slott",
     "park-och-tradgard"
    ],
@@ -139,7 +141,8 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "borgar-och-ruiner",
+    "konferens"
    ],
    "tours": []
   },
@@ -707,7 +710,9 @@
     "text": "Trolleholm är även namnet på en ort vid Trolleholms slott, se Trolleholm (småort). För fartyget, se M/S Trolleholm.\n\nTrolleholm är ett slott i Torrlösa socken i Svalövs kommun, någon mil öster om Svalöv. Det har funnits ett slott på platsen sedan medeltiden men det nuvarande slottet byggdes huvudsakligen på 1760-talet efter ritningar av Carl Hårleman. Sitt sagoliknande utseende fick Trolleholm under slutet av 1800-talet då slottet restaurerades i tidig renässansstil. Här finns också ett lusthus från 1700-talet. \nSlottet består av tre trevåningsbyggnader i röd oputsad tegel. De omges av fyra hörntorn med skyttegluggar och koniska huvar. I nordöstra hörnet av borggården finns ett trapptorn, även det med konisk huv. Slottet är inte öppet för allmänheten, men delar av det används som hotell/restaurang."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "konferens"
+   ],
    "tours": []
   },
   {
@@ -1723,7 +1728,11 @@
     "text": "Jordberga slott är ett slott nära Källstorp i Källstorps socken i Trelleborgs kommun i Skåne.\nJordberga har en slottspark i engelsk stil från mitten av 1800-talet. Huvudbyggnaden är i barockstil. På godsets område ligger resterna av det nedlagda Jordberga sockerbruk. Stora delar av sockerfabrikens byggnader revs 2009–2010."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens"
+   ],
    "tours": []
   },
   {
@@ -1756,7 +1765,9 @@
     "text": "Börringekloster är ett slott i Börringe socken i Svedala kommun, Skåne.\nBörringekloster ligger vid Klosterviken, nära väg E65 och mittemot avfarten till Malmö Airport. Det är ett slott, som på 1200-talet uppfördes som benediktinerkloster. Den nuvarande huvudbyggnaden uppfördes 1763, men den tredje våningen tillkom först 1863. Slottet är inte öppet för allmänheten. Däremot finns en gårdsbutik med närproducerade produkter och en förskola, Börringebarnen, vilken bedrivs som föräldrakooperativ. Förskolan startades 1989 av Eva Ramel, som tillsammans med sin man Fredrik Ramel äger slottet."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -1891,7 +1902,10 @@
    },
    "text": null,
    "offers": [
-    "brollop-och-fest"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -2681,7 +2695,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott",
+    "konferens"
    ],
    "tours": []
   },
@@ -2786,6 +2802,7 @@
    },
    "text": null,
    "offers": [
+    "brollop-och-fest",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -2931,7 +2948,10 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -3003,6 +3023,8 @@
    "text": null,
    "offers": [
     "besok",
+    "brollop-och-fest",
+    "konferens",
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
@@ -3040,7 +3062,9 @@
    "text": null,
    "offers": [
     "besok",
+    "bo-pa-slott",
     "borgar-och-ruiner",
+    "brollop-och-fest",
     "fastningar"
    ],
    "tours": []
@@ -3077,7 +3101,11 @@
    "text": null,
    "offers": [
     "besok",
-    "fastningar"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "fastningar",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -3149,7 +3177,8 @@
    "text": null,
    "offers": [
     "brollop-och-fest",
-    "fastningar"
+    "fastningar",
+    "konferens"
    ],
    "tours": []
   },
@@ -3257,6 +3286,8 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -3364,7 +3395,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -3699,7 +3731,10 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -3735,7 +3770,8 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "borgar-och-ruiner",
+    "brollop-och-fest"
    ],
    "tours": []
   },
@@ -4082,7 +4118,9 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -4395,7 +4433,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -4496,7 +4535,10 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens"
    ],
    "tours": []
   },
@@ -4601,7 +4643,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "brollop-och-fest"
    ],
    "tours": []
   },
@@ -4672,7 +4715,8 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "borgar-och-ruiner",
+    "konferens"
    ],
    "tours": []
   },
@@ -6231,7 +6275,11 @@
    "offers": [
     "besok",
     "bo-pa-slott",
-    "kungliga-slott"
+    "brollop-och-fest",
+    "konferens",
+    "kungliga-slott",
+    "restaurang-och-kafe",
+    "spa"
    ],
    "tours": []
   },
@@ -6337,7 +6385,8 @@
    },
    "text": null,
    "offers": [
-    "brollop-och-fest"
+    "brollop-och-fest",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -6735,7 +6784,10 @@
    },
    "text": null,
    "offers": [
-    "brollop-och-fest"
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -6945,7 +6997,8 @@
    "offers": [
     "besok",
     "bo-pa-slott",
-    "fastningar"
+    "fastningar",
+    "konferens"
    ],
    "tours": []
   },
@@ -7012,7 +7065,9 @@
     "text": "Ekebyhovs slott är en slottsliknande herrgård och tidigare säteri vid Björkuddsvägen 107 i Ekerö kommun i Stockholms län. Ofta stavas namnet fortfarande på äldre vis, nämligen Ekebyhof. Dagens huvudbyggnad i karolinsk stil uppfördes i slutet av 1600-talet för Carl Gustav Wrangel och fullbordades vid början av 1700-talet av dåvarande ägaren, friherre Erik Lovisin. Egendomen, som omfattar en areal om 375 hektar, har sedan gått genom olika släkter. Herrgården bevarar i dag flera värdefulla interiörer med inredningsdetaljer från fyra århundraden och sägs möjligen vara Sveriges och Europas största bevarade träslott. Vad gäller Europa är detta påstående dock mycket diskutabelt, eftersom till exempel kungabostaden Stiftsgården i Trondheim är betydligt större.\nAnläggningen ägs sedan 1980 av Ekerö kommun och används under vardagarna för kurser och konferenser och på helger för bröllop, middagar och fester. Huvudbyggnaden, parken och det så kallade Citadellet är sedan 1970 ett lagskyddat byggnadsminne. Vid Ekebyhovs slott finns sedan 1998 Ekebyhovs Äppelgenbank.\nEkebyhovs slott användes som inspelningsplats för SVT:s julkalender Mirakel (2020).\n\n"
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "konferens"
+   ],
    "tours": []
   },
   {
@@ -7449,7 +7504,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7484,7 +7540,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7648,7 +7706,10 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7719,7 +7780,9 @@
    "text": null,
    "offers": [
     "bo-pa-slott",
-    "konferens"
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7984,7 +8047,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8053,7 +8118,11 @@
     "text": "Västerås slott är en slottsbyggnad belägen i Västerås intill Svartåns mynning och var ett kungligt residens under Vasatiden. Slottet uppfördes under 1100-talet och blev ombyggt under Gustav Vasas regering 1540–1544. Slottet är residens för landshövdingen i Västmanlands län, som därmed även är ståthållare på Västerås slott och då ingår i de Icke tjänstgörande hovstaterna vid Kungliga hovet."
    },
    "text": null,
-   "offers": [],
+   "offers": [
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
    "tours": []
   },
   {
@@ -8360,7 +8429,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8706,7 +8777,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 24
+   "total": 34
   },
   {
    "slug": "spa",
@@ -8714,7 +8785,7 @@
    "short": "Spa",
    "kind": "offer",
    "intro": "Slott och slottshotell med spa, bad eller behandlingar.",
-   "total": 0
+   "total": 1
   },
   {
    "slug": "konferens",
@@ -8722,7 +8793,7 @@
    "short": "Konferens",
    "kind": "offer",
    "intro": "Slott för möten, konferenser och kickoffer.",
-   "total": 21
+   "total": 42
   },
   {
    "slug": "brollop-och-fest",
@@ -8730,7 +8801,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 5
+   "total": 21
   },
   {
    "slug": "restaurang-och-kafe",
@@ -8738,7 +8809,7 @@
    "short": "Mat",
    "kind": "offer",
    "intro": "Slott med restaurang, kafé eller servering.",
-   "total": 15
+   "total": 33
   },
   {
    "slug": "besok",

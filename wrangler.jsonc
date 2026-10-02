@@ -1,0 +1,17 @@
+// Sajten publiceras hos Cloudflare som en Worker med statiska filer (dist/). Bygg: node build.js. Publicera: npx wrangler deploy
+// (görs av .github/workflows/publicera.yml vid varje push till main).
+// worker/index.js körs först: www -> utan www, /img/ (bilder från Commons), /tiles/ (kartplattor), /api/skicka (formulär).
+{
+  "name": "slottsregistret",
+  "compatibility_date": "2026-09-01",
+  "main": "worker/index.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "ratelimits": [{ "name": "FORM_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }],
+  "observability": { "enabled": true }
+}

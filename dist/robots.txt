@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /sok/
+
+Sitemap: https://slottsregistret.se/sitemap.xml
