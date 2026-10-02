@@ -354,11 +354,22 @@ a.tag:hover { background: var(--forest); color: #fff; }
 @media (max-width: 820px) { .stats, .benefits, .form-split { grid-template-columns: 1fr; } .stats { gap: 0; } .stats li { padding: 18px 0; border-bottom: 1px solid var(--line); } .stats li:last-child { border: 0; } }
 
 /* Text- och formulärsidor */
-.prose { max-width: 760px; padding: 24px 0 72px; }
+.prose { max-width: 760px; padding: 32px 0 88px; }
+.prose h1 { font-weight: 450; }
+.prose > .lead { padding-bottom: 28px; margin-bottom: 28px; border-bottom: 1px solid var(--line); position: relative; }
+.prose > .lead::after { content: ''; position: absolute; left: 0; bottom: -1px; width: 72px; height: 2px; background: var(--gold); }
+.prose ul { padding-left: 1.2em; }
+.prose li { margin-bottom: .4em; }
+.page-dark { background: radial-gradient(120% 120% at 80% 0%, #23463A 0%, var(--forest) 45%, #142820 100%); color: #EEF1EC; padding: 130px 0 56px; }
+.page-dark .kicker-gold { color: var(--gold-2); }
+.page-dark h1 { color: #FBF6EC; font-weight: 400; }
+.nf-hero { min-height: 100vh; min-height: 100svh; }
+.nf-hero .lead a { color: var(--gold-2); }
 .prose h2 { margin-top: 1.4em; }
-.form { display: grid; gap: 8px; margin-top: 24px; background: var(--card); padding: 24px; border-radius: var(--radius); box-shadow: var(--shadow); }
+.form { display: grid; gap: 8px; margin-top: 24px; background: var(--card); padding: clamp(20px, 3vw, 32px); border-radius: var(--radius); box-shadow: var(--shadow); border-top: 2px solid var(--gold); }
 .form label { font-weight: 500; margin-top: 8px; }
-.form input:not([type=checkbox]):not([type=radio]), .form select, .form textarea { width: 100%; padding: .7em .9em; border: 1.5px solid var(--line); border-radius: 10px; font: inherit; background: #fff; }
+.form input:not([type=checkbox]):not([type=radio]), .form select, .form textarea { width: 100%; padding: .75em .95em; border: 1.5px solid var(--line); border-radius: 10px; font: inherit; background: #fff; transition: border-color .2s, box-shadow .2s; }
+.form input:focus, .form select:focus, .form textarea:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 4px rgba(201,162,78,.18); }
 .form fieldset { border: 0; padding: 0; margin: 10px 0 0; display: grid; gap: 4px; }
 .form legend { font-weight: 600; margin-bottom: 4px; }
 .form fieldset label { font-weight: 400; margin: 0; display: flex; gap: 10px; align-items: center; }

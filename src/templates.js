@@ -438,15 +438,15 @@ function mapPage(S) {
 
 function searchPage(S) {
   return layout(S, {
-    title: 'Sök', path: '/sok/', noindex: true, scripts: ['/assets/search.js'],
+    title: 'Sök', path: '/sok/', noindex: true, scripts: ['/assets/search.js'], bodyClass: 'overlay',
     body: `
-<header class="page-head"><div class="wrap"><h1>Sök bland Sveriges slott</h1>${searchBox(S, true)}</div></header>
+<header class="page-dark"><div class="wrap"><p class="kicker kicker-gold"><span>${nf(S.data.stats.total)} slott, borgar och fästningar</span></p><h1>Sök bland Sveriges slott</h1>${searchBox(S, true)}</div></header>
 <section class="band band-tight"><div class="wrap"><p class="count" id="sok-antal" aria-live="polite"></p><ul class="cards" id="sok-traffar"></ul></div></section>`,
   });
 }
 
 function textPage(S, { title, path, body, description, scripts }) {
-  return layout(S, { title, path, description, scripts, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, title]])}</div><article class="prose wrap">${body}</article>` });
+  return layout(S, { title, path, description, scripts, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, title]])}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>${body}</article>` });
 }
 
 function about(S) {
@@ -579,7 +579,8 @@ function thanks(S) {
 }
 
 function notFound(S) {
-  return layout(S, { title: 'Sidan finns inte', path: '/404.html', noindex: true, body: `<article class="prose wrap"><h1>Sidan finns inte</h1><p>Sidan kan ha flyttats. Sök efter slottet i stället:</p>${searchBox(S, true)}<p><a href="/">Till startsidan</a></p></article>` });
+  return layout(S, { title: 'Sidan finns inte', path: '/404.html', noindex: true, bodyClass: 'overlay', body: `<header class="page-hero nf-hero">${S.hero.length ? `<img class="c-hero-img" src="${S.asset(`/assets/hero/${S.hero[S.hero.length - 1].id}-1600.jpg`)}" alt="">` : ''}<div class="hero-shade" aria-hidden="true"></div>
+<div class="wrap page-hero-in"><p class="kicker kicker-gold"><span>Sidan finns inte</span></p><h1>Här tog vägen slut</h1><p class="lead">Sidan kan ha flyttats. Sök efter slottet i stället, eller gå till <a href="/">startsidan</a>.</p>${searchBox(S, true)}</div></header>` });
 }
 
 module.exports = { home, castle, category, county, countiesIndex, tours, mapPage, searchPage, about, contact, privacy, forCastles, tip, thanks, notFound, castleURL, countyURL, catURL };

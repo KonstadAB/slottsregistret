@@ -12,7 +12,11 @@
 /for-slott/
 /om/
 /kontakt/
+/sok/?q=bröllop skåne
+/tipsa/
+/finns-inte/
 # 15:52:58
 # 15:57:45
 # 16:01:03
 # 20:31:31
+# 23:15:17
