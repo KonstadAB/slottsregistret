@@ -226,7 +226,11 @@
   "website": "https://www.gronsoo.se/"
  },
  "haga-slott": {
-  "website": "https://www.hagaslott.se/"
+  "website": "https://www.hagaslott.se/",
+  "qid": null,
+  "lat": 59.6042,
+  "lon": 17.0498,
+  "why": "Wikidata-matchningen var Haga slott i Solna (= Hagaslottet)."
  },
  "salnecke-slott": {
   "website": "https://www.salneckeslott.se/"
@@ -238,7 +242,11 @@
   "website": "https://karlslund.com/"
  },
  "fjallnas": {
-  "website": "https://www.fjallnas.se/"
+  "website": "https://www.fjallnas.se/",
+  "qid": null,
+  "lat": 62.5987,
+  "lon": 12.1781,
+  "why": "Wikidata-matchningen var Fjällnäs slott i Gällivare; hotellet ligger i Fjällnäs, Härjedalen."
  },
  "venngarns-slott": {
   "website": "https://www.venngarn.se/"
@@ -268,5 +276,9 @@
   "notOffers": [
    "spa"
   ]
+ },
+ "engso-slott": {
+  "skip": true,
+  "why": "Samma slott som Ängsö slott (äldre stavning)."
  }
 }

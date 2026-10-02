@@ -100,7 +100,8 @@ for c in S:
     m = MAN.get(c['id'], {})
     if m.get('skip'):
         continue
-    qid = m.get('qid') or MATCH.get(c['id'])
+    # qid: null i manuellt.json betyder att ingen Wikidata-post stämmer (matchningen var fel).
+    qid = m['qid'] if 'qid' in m else MATCH.get(c['id'])
     e = E.get(qid, {}) if qid else {}
     lat, lon = m.get('lat', e.get('lat')), m.get('lon', e.get('lon'))
     if lat is None and GEO.get(c['id']):

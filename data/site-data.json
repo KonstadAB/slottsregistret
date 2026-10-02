@@ -8000,24 +8000,13 @@
    "use": "Hotell, konferens",
    "open": "Delvis",
    "prio": 2,
-   "qid": "Q5574523",
-   "lat": 59.36361111,
-   "lon": 18.03944444,
-   "inception": "1805",
+   "qid": null,
+   "lat": 59.6042,
+   "lon": 17.0498,
+   "inception": null,
    "website": "https://www.hagaslott.se/",
-   "image": {
-    "file": "Haga slott Solna juni 2006.jpg",
-    "path": "9/9d/Haga_slott_Solna_juni_2006.jpg",
-    "w": 2256,
-    "h": 1496,
-    "artist": "FriskoKry",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Haga_slott_Solna_juni_2006.jpg"
-   },
-   "wiki": {
-    "title": "Haga slott",
-    "text": "Haga slott – tidigare kallat Drottningens paviljong – är ett slott uppfört 1802–1805 i Hagaparken, Solna socken, Stockholms län, för Gustav IV Adolf av arkitekt Carl Christoffer Gjörwell d.y. Byggnaden är statligt byggnadsminne. Sedan 2010 är slottet bostad för kronprinsessparet. Haga slotts huvudbyggnad har en bostadsyta på 1 550 kvadratmeter. Tillhörande Haga ekonomibyggnad omfattar 904 kvadratmeter. Slottet förvaltas av Statens fastighetsverk. Haga slott ligger i Kungliga Nationalstadsparken.\n\n"
-   },
+   "image": null,
+   "wiki": null,
    "text": null,
    "offers": [
     "bo-pa-slott",
@@ -8419,41 +8408,6 @@
     "besok",
     "konferens",
     "restaurang-och-kafe"
-   ],
-   "tours": []
-  },
-  {
-   "id": "engso-slott",
-   "slug": "engso-slott",
-   "name": "Engsö slott",
-   "type": "Slott",
-   "kommun": "Västerås",
-   "lan": "Västmanland",
-   "lanSlug": "vastmanland",
-   "use": "Visningar",
-   "open": "Delvis",
-   "prio": 2,
-   "qid": "Q4992715",
-   "lat": 59.5325,
-   "lon": 16.8575,
-   "inception": null,
-   "website": "http://engso.se/",
-   "image": {
-    "file": "Ängsö slott.jpg",
-    "path": "4/4f/Ängsö_slott.jpg",
-    "w": 2182,
-    "h": 3000,
-    "artist": "User Tor Svensson",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%C3%84ngs%C3%B6_slott.jpg"
-   },
-   "wiki": {
-    "title": "Ängsö slott",
-    "text": "Ängsö (äldre stavning Engsö) är ett slott i Ängsö socken i nuvarande Kungsåra församling. Slottet ligger i Västerås kommun och i Västmanlands län."
-   },
-   "text": null,
-   "offers": [
-    "besok"
    ],
    "tours": []
   },
@@ -8959,24 +8913,13 @@
    "use": "Hotell",
    "open": "Delvis",
    "prio": 3,
-   "qid": "Q10496056",
-   "lat": 67.12563888888889,
-   "lon": 20.65963888888889,
+   "qid": null,
+   "lat": 62.5987,
+   "lon": 12.1781,
    "inception": null,
    "website": "https://www.fjallnas.se/",
-   "image": {
-    "file": "Fjällnäs.JPG",
-    "path": "9/98/Fjällnäs.JPG",
-    "w": 2790,
-    "h": 2082,
-    "artist": "Vinterfrid",
-    "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Fj%C3%A4lln%C3%A4s.JPG"
-   },
-   "wiki": {
-    "title": "Fjällnäs slott",
-    "text": "Ej att förväxla med byn Fjällnäs, också i Gällivare kommun.\n\nFjällnäs slott är en stor trävilla belägen vid foten av berget Dundret, i Gällivare kommun. \nDen uppfördes 1888 av överste Carl Otto Bergman, som använde byggnaden som sommarbostad. Genom en ombyggnad enligt Carl Östermans ritningar 1892 fick det sitt nuvarande utseende. Huset är byggt med vitmålad träpanel i schweizerstil, en ornamentrik träbyggnadsstil full av snickarglädje, med inslag målade i sandstensfärg. Huvudbyggnaden flankeras av två kraftiga utskjutande gavlar som innesluter loftgångar i två våningar däremellan. Taket kröns av två spetsiga tornhuvar. Byggnaden uppfördes för att imponera på de riksdagsledamöter och höga tjänstemän som vid denna tid besökte gruvområdena vid Malmbergets gruva. Som chef för gruvbolaget hade C. O. Bergman sitt kontor i huset. År 1894 fick Fjällnäs ett celebert besök, då kung Oscar II gästade huset.\nEfter C. O. Bergmans tid har villan haft flera ägare och köptes 1987 av Riksbyggen som påbörjade en upprustning och bebyggde närområdet med bostadsrätter i mindre husgrupper. År 2004 köptes Fjällnäs av italienska investerare som renoverade det för 20 miljoner kronor för att omvandla byggnaden till lägenhetshotell och restaurang. Fjällnäs slott bytte ägare 2011 och hotellet och restaurangen lades ned. Det bytte ägare 2019 igen."
-   },
+   "image": null,
+   "wiki": null,
    "text": null,
    "offers": [
     "bo-pa-slott",
@@ -9113,7 +9056,7 @@
    "name": "Västmanland",
    "full": "Västmanlands län",
    "slug": "vastmanland",
-   "total": 6,
+   "total": 5,
    "withTour": 0
   },
   {
@@ -9206,7 +9149,7 @@
    "short": "Besöka",
    "kind": "offer",
    "intro": "Slott, borgar och fästningar som är öppna för besökare – museer, visningar och utställningar.",
-   "total": 97
+   "total": 96
   },
   {
    "slug": "park-och-tradgard",
@@ -9242,8 +9185,8 @@
   }
  ],
  "stats": {
-  "total": 252,
+  "total": 251,
   "withTour": 23,
-  "located": 250
+  "located": 249
  }
 }
