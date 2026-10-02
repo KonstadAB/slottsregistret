@@ -38,12 +38,15 @@ async function commons(request, url, ctx) {
   return res;
 }
 
-// Ett nytt försök efter en kort paus om servern svarar att den har för mycket att göra.
+// Nya försök efter en paus om servern svarar att den har för mycket att göra (Wikimedia begränsar nya miniatyrer).
 async function fetchRetry(url, init) {
-  const r = await fetch(url, init);
-  if (r.status !== 429 && r.status < 500) return r;
-  await new Promise(ok => setTimeout(ok, 400));
-  return fetch(url, init);
+  let r;
+  for (const wait of [0, 500, 1500]) {
+    if (wait) await new Promise(ok => setTimeout(ok, wait));
+    r = await fetch(url, init);
+    if (r.status !== 429 && r.status < 500) return r;
+  }
+  return r;
 }
 
 // Kartplattor från OpenStreetMap. Deras regler för plattor följs: tydlig User-Agent, plattorna sparas i Cloudflares

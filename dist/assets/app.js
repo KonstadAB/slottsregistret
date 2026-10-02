@@ -1,5 +1,12 @@
 'use strict';
 // Gemensamt för alla sidor: menyn och snabbsökningen med förslag.
+// Bilder från Commons kan ibland inte hämtas direkt (Wikimedia begränsar nya miniatyrer): ett nytt försök efter en stund.
+document.addEventListener('error', function (e) {
+  var img = e.target;
+  if (img.tagName !== 'IMG' || img.dataset.retry || !/\/img\//.test(img.currentSrc || img.src)) return;
+  img.dataset.retry = '1';
+  setTimeout(function () { var s = img.src; if (img.srcset) img.srcset = img.srcset; img.src = ''; img.src = s; }, 2500);
+}, true);
 (function () {
   var btn = document.querySelector('.menu-btn'), nav = document.getElementById('huvudmeny');
   if (btn && nav) {
