@@ -342,7 +342,10 @@
   "website": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html"
  },
  "hemso-fastning": {
-  "website": "http://www.hemsofastning.se/"
+  "website": "http://www.hemsofastning.se/",
+  "notOffers": [
+   "bo-pa-slott"
+  ]
  },
  "bodens-fastning-rodbergsfortet": {
   "website": null

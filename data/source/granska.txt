@@ -1,24 +1,9 @@
+# 2026-10-02T23:58:09Z nya bilder, platser och länkar
+/slott/gronsoo-slott/
+/slott/yxtaholms-slott/
+/slott/haga-slott/
+/slott/fjallnas/
+/slott/svaneholms-slott/
+/lan/jamtland/
+/lan/uppsala/
 /
-/kungliga-slott/
-/lan/skane/
-/slott/granso-slott/
-/slott/gripsholms-slott/
-/slott/akeshovs-slott/
-/slott/bjarsjolagards-slott/
-/karta/
-/virtuella-rundturer/
-/bo-pa-slott/
-/lan/
-/for-slott/
-/om/
-/kontakt/
-/sok/?q=bröllop skåne
-/tipsa/
-/finns-inte/
-# 15:52:58
-# 15:57:45
-# 16:01:03
-# 20:31:31
-# 23:15:17
-# 23:20:33
-# 23:24:48

@@ -16,7 +16,7 @@
    "lat": 55.605,
    "lon": 12.9875,
    "inception": "1434",
-   "website": "http://www.burgenwelt.org/schweden/malmo/object.php",
+   "website": "https://malmo.se/museer",
    "image": {
     "file": "Malmöhus slott 2022.jpg",
     "path": "6/6a/Malmöhus_slott_2022.jpg",
@@ -33,7 +33,8 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "borgar-och-ruiner",
+    "restaurang-och-kafe"
    ],
    "tours": [
     {
@@ -138,7 +139,7 @@
    "lat": 55.500833333333,
    "lon": 14.230833333333,
    "inception": "1505",
-   "website": "https://www.raa.se/in-english/events-seminars-and-cultural-experiences/experience-the-cultural-heritage/glimmingehus_eng/",
+   "website": "https://glimmingehus.se/",
    "image": {
     "file": "Glimmingehus c-m 2.jpg",
     "path": "d/d6/Glimmingehus_c-m_2.jpg",
@@ -155,7 +156,8 @@
    "text": null,
    "offers": [
     "besok",
-    "borgar-och-ruiner"
+    "borgar-och-ruiner",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -226,7 +228,7 @@
    "lat": 56.104444444444,
    "lon": 13.7125,
    "inception": null,
-   "website": "http://www.hovdala.se/hovdalaslott/hovdalaslott/spraksidor/english.4.1b15c51c14a4c971bbe2e90.html",
+   "website": "https://hovdala.se/",
    "image": {
     "file": "Hovdala Slott, Gate.jpg",
     "path": "7/7f/Hovdala_Slott,_Gate.jpg",
@@ -243,7 +245,8 @@
    "text": null,
    "offers": [
     "besok",
-    "park-och-tradgard"
+    "park-och-tradgard",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -333,7 +336,7 @@
    "lat": 55.50015,
    "lon": 13.4783833333,
    "inception": "1530",
-   "website": "http://www.svaneholm-slott.se",
+   "website": "https://svaneholmsslott.se/",
    "image": {
     "file": "Svaneholms slott 1.jpg",
     "path": "7/7c/Svaneholms_slott_1.jpg",
@@ -350,6 +353,8 @@
    "text": null,
    "offers": [
     "besok",
+    "brollop-och-fest",
+    "konferens",
     "restaurang-och-kafe"
    ],
    "tours": [
@@ -1175,7 +1180,7 @@
    "lat": 55.97944444,
    "lon": 13.13472222,
    "inception": "1551",
-   "website": "http://www.knutstorp.se/",
+   "website": "https://knutstorp.se/",
    "image": {
     "file": "Knutstorps slott.JPG",
     "path": "1/1a/Knutstorps_slott.JPG",
@@ -1632,39 +1637,6 @@
    ]
   },
   {
-   "id": "rosendals-slott-skane",
-   "slug": "rosendals-slott-skane",
-   "name": "Rosendals slott (Skåne)",
-   "type": "Slott",
-   "kommun": "Svalöv",
-   "lan": "Skåne",
-   "lanSlug": "skane",
-   "use": "Privat bostad",
-   "open": "Nej",
-   "prio": 3,
-   "qid": "Q59482",
-   "lat": 59.32888889,
-   "lon": 18.11833333,
-   "inception": "1827",
-   "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html",
-   "image": {
-    "file": "Rosendals palace May 2012.jpg",
-    "path": "6/69/Rosendals_palace_May_2012.jpg",
-    "w": 4216,
-    "h": 2372,
-    "artist": "Arild Vågen",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Rosendals_palace_May_2012.jpg"
-   },
-   "wiki": {
-    "title": "Rosendals slott",
-    "text": "För slottet i Helsingborg, se Rosendals slott, Helsingborg.\n\nRosendals slott är en slottsbyggnad på Djurgården i Stockholm som ursprungligen fungerade som kung Karl XIV Johans lustslott. Huset uppfördes 1823–1826 efter ritningar av arkitekt Fredrik Blom. Rosendal är det enda slott som Karl XIV Johan lät bygga för egen räkning och utgör ett vackert exempel på den strama svenska empiren som även kallas Karl Johanstilen. Rosendal var på Karl XIV Johans tid inte avsett som bostad för den kungliga familjen utan nyttjades uteslutande för representation ofta i samband med militära tillställningar vid Kungliga borgen på Ladugårdsgärdet.\nSlottsbyggnaden ställdes 1911 under Kungliga Djurgårdsförvaltningens inseende. Rosendals slott är ett museum sedan 1913 och statligt byggnadsminne sedan 1935. Utöver slottet är flera byggnader på slottsområdet blåmärkta av Stadsmuseet i Stockholm, bland dem Drottningens paviljong, Vaktstugan, Rosendals iskällare och Rosendals stall. Blåmärkning är den högsta klassen och innebär \"att bebyggelsen bedöms ha synnerligen höga kulturhistoriska värden\"."
-   },
-   "text": null,
-   "offers": [],
-   "tours": []
-  },
-  {
    "id": "rossjoholms-slott",
    "slug": "rossjoholms-slott",
    "name": "Rössjöholms slott",
@@ -1778,7 +1750,7 @@
    "lat": 55.430833333333,
    "lon": 13.690833333333,
    "inception": "1849",
-   "website": "http://www.charlottenlund.se/",
+   "website": null,
    "image": {
     "file": "Charlottenlund 2.JPG",
     "path": "8/8f/Charlottenlund_2.JPG",
@@ -2734,7 +2706,7 @@
    "lat": 56.110167,
    "lon": 15.564336,
    "inception": "1680",
-   "website": "https://www.sfv.se/vara-fastigheter/sok/sverige/blekinge-lan/drottningskars-kastell/stigheter/sverige/blekinge-lan-k/drottningskär-citadel/",
+   "website": "https://www.visitkarlskrona.se/sv/drottningskars-kastell-aspo",
    "image": {
     "file": "Drottningskärs kastell daytime shore view.jpg",
     "path": "f/f8/Drottningskärs_kastell_daytime_shore_view.jpg",
@@ -2771,7 +2743,15 @@
    "lon": 14.8657451,
    "inception": null,
    "website": null,
-   "image": null,
+   "image": {
+    "file": "Karlshamns kastell.JPG",
+    "path": "7/76/Karlshamns_kastell.JPG",
+    "w": 4286,
+    "h": 2846,
+    "artist": "Boatbuilder",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karlshamns_kastell.JPG"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -2934,11 +2914,19 @@
    "open": "Delvis",
    "prio": 2,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 56.7116882,
+   "lon": 12.8362091,
    "inception": null,
    "website": "https://www.wapnoslott.se/",
-   "image": null,
+   "image": {
+    "file": "Vapnö slott.jpg",
+    "path": "5/5b/Vapnö_slott.jpg",
+    "w": 1280,
+    "h": 960,
+    "artist": "Maukie",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vapn%C3%B6_slott.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -3030,7 +3018,15 @@
    "lon": 12.9076956,
    "inception": null,
    "website": "https://www.sperlingsholm.se/",
-   "image": null,
+   "image": {
+    "file": "Sperlingsholm maj 2015-1.jpg",
+    "path": "d/d8/Sperlingsholm_maj_2015-1.jpg",
+    "w": 5025,
+    "h": 3221,
+    "artist": "Jorchr",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sperlingsholm_maj_2015-1.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [],
@@ -3992,7 +3988,7 @@
    "lat": 56.295555555556,
    "lon": 16.486111111111,
    "inception": null,
-   "website": "http://www.eketorpsborg.se/english.html",
+   "website": "https://eketorpsborg.se/",
    "image": {
     "file": "Eketorp main view.jpg",
     "path": "b/b0/Eketorp_main_view.jpg",
@@ -4219,7 +4215,7 @@
    "lat": 56.9417293,
    "lon": 14.7947217,
    "inception": null,
-   "website": "http://www.kulturparkensmaland.se/1.0.1.0/42/1/",
+   "website": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/",
    "image": {
     "file": "Kronoberg LC0227.jpg",
     "path": "e/eb/Kronoberg_LC0227.jpg",
@@ -4257,7 +4253,15 @@
    "lon": 14.7242854,
    "inception": null,
    "website": null,
-   "image": null,
+   "image": {
+    "file": "Bergkvara - Slottsruin-1 05092014 AP.JPG",
+    "path": "6/61/Bergkvara_-_Slottsruin-1_05092014_AP.JPG",
+    "w": 3008,
+    "h": 2000,
+    "artist": "Ütze (talk) http://www.oder-havel-kanal.de/",
+    "license": "GFDL 1.2",
+    "page": "https://commons.wikimedia.org/wiki/File:Bergkvara_-_Slottsruin-1_05092014_AP.JPG"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -4832,7 +4836,7 @@
    "lat": 58.55047222,
    "lon": 16.04069444,
    "inception": "1660",
-   "website": "http://ostergotlandsmuseum.se/lofstad",
+   "website": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/",
    "image": {
     "file": "Löfstads slott, den 10 december 2008, bild 16.JPG",
     "path": "4/4e/Löfstads_slott,_den_10_december_2008,_bild_16.JPG",
@@ -5196,7 +5200,15 @@
    "lon": 15.5783788,
    "inception": null,
    "website": null,
-   "image": null,
+   "image": {
+    "file": "Stjärnorps slottsruin Ög.jpg",
+    "path": "6/64/Stjärnorps_slottsruin_Ög.jpg",
+    "w": 6016,
+    "h": 4016,
+    "artist": "Arkland",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stj%C3%A4rnorps_slottsruin_%C3%96g.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -5419,7 +5431,7 @@
    "lat": 58.80833333,
    "lon": 17.36611111,
    "inception": null,
-   "website": "https://www.nynasslott.se/nyn%C3%A4s-manor-nature-reserve",
+   "website": "https://nynasslott.se/",
    "image": {
     "file": "Nynäs slott, May 2010.jpg",
     "path": "1/1f/Nynäs_slott,_May_2010.jpg",
@@ -5435,7 +5447,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -5454,7 +5467,7 @@
    "lat": 59.15111111,
    "lon": 16.03916667,
    "inception": null,
-   "website": "https://www.nordiskamuseet.se/en/palace-manors/julita-manor",
+   "website": "https://www.julitagard.se/",
    "image": {
     "file": "Julita herrgård.jpg",
     "path": "d/da/Julita_herrgård.jpg",
@@ -5470,7 +5483,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "bo-pa-slott"
    ],
    "tours": []
   },
@@ -5527,7 +5541,7 @@
    "lat": 59.38416667,
    "lon": 17.30666667,
    "inception": null,
-   "website": "http://malsaker.nu/english/",
+   "website": "https://malsaker.nu/",
    "image": {
     "file": "Mälsåker.jpg",
     "path": "e/e7/Mälsåker.jpg",
@@ -5851,11 +5865,19 @@
    "open": "Delvis",
    "prio": 2,
    "qid": null,
-   "lat": null,
-   "lon": null,
+   "lat": 59.0876843,
+   "lon": 16.621027,
    "inception": null,
    "website": "https://www.yxtaholmsslott.se/",
-   "image": null,
+   "image": {
+    "file": "Yxtaholm huvudbyggnad, nov 2021c.jpg",
+    "path": "f/fb/Yxtaholm_huvudbyggnad,_nov_2021c.jpg",
+    "w": 4800,
+    "h": 3350,
+    "artist": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yxtaholm_huvudbyggnad,_nov_2021c.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -5917,7 +5939,7 @@
    "lat": 59.04611111,
    "lon": 15.88222222,
    "inception": "1666",
-   "website": "https://www.vingaker.se/kultur-fritid/kultur/safstaholms-slott/",
+   "website": "https://safstaholm.se/",
    "image": {
     "file": "Safstaholmsslott.JPG",
     "path": "e/e0/Safstaholmsslott.JPG",
@@ -5933,7 +5955,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "brollop-och-fest",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -5985,7 +6009,7 @@
    "lat": 59.43388889,
    "lon": 16.7425,
    "inception": null,
-   "website": "http://www.fiholm.se/",
+   "website": null,
    "image": {
     "file": "Fiholm.jpg",
     "path": "0/0a/Fiholm.jpg",
@@ -6287,7 +6311,7 @@
    "lat": 59.326666666667,
    "lon": 18.071666666667,
    "inception": "1760",
-   "website": "http://www.royalcourt.se/dekungligaslotten/kungligaslottet.4.7c4768101a4e8883780002658.html",
+   "website": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html",
    "image": {
     "file": "Stockholms slott (Stockholm Palace) (24831039126).jpg",
     "path": "c/c3/Stockholms_slott_(Stockholm_Palace)_(24831039126).jpg",
@@ -6628,7 +6652,7 @@
    "lat": 59.23527778,
    "lon": 18.30472222,
    "inception": "1633",
-   "website": "https://www.nordiskamuseet.se/slott-gardar/tyreso-slott",
+   "website": "https://www.tyresoslott.se/",
    "image": {
     "file": "Tyreso slott view1.jpg",
     "path": "a/a8/Tyreso_slott_view1.jpg",
@@ -6818,7 +6842,15 @@
    "lon": 18.014315,
    "inception": null,
    "website": "https://www.haringeslott.se/",
-   "image": null,
+   "image": {
+    "file": "Häringe slott 2014.jpg",
+    "path": "6/6a/Häringe_slott_2014.jpg",
+    "w": 4316,
+    "h": 3128,
+    "artist": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%A4ringe_slott_2014.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -7689,7 +7721,7 @@
    "lat": 59.57833333,
    "lon": 17.93583333,
    "inception": "1643",
-   "website": "http://www.vitterhetsakad.se/kulturfastigheter/skanelaholms_slott/visningar",
+   "website": "https://www.vitterhetsakademien.se/kulturfastigheter/skanelaholms-slott.html",
    "image": {
     "file": "Skånelaholm huvudbyggnad 2015a.jpg",
     "path": "c/cf/Skånelaholm_huvudbyggnad_2015a.jpg",
@@ -7980,7 +8012,15 @@
    "lon": 17.2466878,
    "inception": null,
    "website": "https://www.gronsoo.se/",
-   "image": null,
+   "image": {
+    "file": "Grönsöö slott.jpg",
+    "path": "3/33/Grönsöö_slott.jpg",
+    "w": 3804,
+    "h": 2546,
+    "artist": "Annalovisa",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6ns%C3%B6%C3%B6_slott.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -8069,7 +8109,7 @@
    "lat": 60.2,
    "lon": 17.7092,
    "inception": null,
-   "website": "http://www.orbyhusslott.se/eng/",
+   "website": "https://www.orbyhusslott.se/",
    "image": {
     "file": "Örbyhus slott 2.jpg",
     "path": "3/3a/Örbyhus_slott_2.jpg",
@@ -8085,7 +8125,8 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8178,7 +8219,15 @@
    "lon": 17.5081988,
    "inception": null,
    "website": null,
-   "image": null,
+   "image": {
+    "file": "Sjöö Castle.jpg",
+    "path": "b/b9/Sjöö_Castle.jpg",
+    "w": 1440,
+    "h": 1080,
+    "artist": "Catanfox",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sj%C3%B6%C3%B6_Castle.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [],
@@ -8354,7 +8403,7 @@
    "lat": 59.5325,
    "lon": 16.8575,
    "inception": null,
-   "website": "http://engso.se/",
+   "website": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html",
    "image": {
     "file": "Ängsö slott.jpg",
     "path": "4/4f/Ängsö_slott.jpg",
@@ -8370,7 +8419,9 @@
    },
    "text": null,
    "offers": [
-    "besok"
+    "besok",
+    "brollop-och-fest",
+    "konferens"
    ],
    "tours": []
   },
@@ -8857,7 +8908,15 @@
    "lon": 16.884883333333,
    "inception": null,
    "website": "https://www.gysinge.se/",
-   "image": null,
+   "image": {
+    "file": "Gysinge herrgård.jpg",
+    "path": "0/05/Gysinge_herrgård.jpg",
+    "w": 4288,
+    "h": 2848,
+    "artist": "Lokal_Profil",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gysinge_herrg%C3%A5rd.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -8881,7 +8940,7 @@
    "lat": 62.692316666667,
    "lon": 18.102466666667,
    "inception": "1953",
-   "website": "https://hemso.butikhogakusten.se/",
+   "website": "http://www.hemsofastning.se/",
    "image": {
     "file": "Swedish KA 7557 1.jpg",
     "path": "d/d8/Swedish_KA_7557_1.jpg",
@@ -8898,7 +8957,9 @@
    "text": null,
    "offers": [
     "besok",
-    "fastningar"
+    "fastningar",
+    "konferens",
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -8945,7 +9006,7 @@
    "lat": 65.7911,
    "lon": 21.6572,
    "inception": "1908",
-   "website": "http://fastningsguiden.com/the-red-mountain-fort/",
+   "website": null,
    "image": {
     "file": "Rodbergsfortet - Top 1.jpg",
     "path": "f/fc/Rodbergsfortet_-_Top_1.jpg",
@@ -8972,7 +9033,7 @@
    "name": "Skåne",
    "full": "Skåne län",
    "slug": "skane",
-   "total": 74,
+   "total": 73,
    "withTour": 7
   },
   {
@@ -9109,7 +9170,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 35
+   "total": 36
   },
   {
    "slug": "spa",
@@ -9125,7 +9186,7 @@
    "short": "Konferens",
    "kind": "offer",
    "intro": "Slott för möten, konferenser och kickoffer.",
-   "total": 57
+   "total": 60
   },
   {
    "slug": "brollop-och-fest",
@@ -9133,7 +9194,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 44
+   "total": 47
   },
   {
    "slug": "restaurang-och-kafe",
@@ -9141,7 +9202,7 @@
    "short": "Mat",
    "kind": "offer",
    "intro": "Slott med restaurang, kafé eller servering.",
-   "total": 48
+   "total": 55
   },
   {
    "slug": "besok",
@@ -9185,8 +9246,8 @@
   }
  ],
  "stats": {
-  "total": 251,
+  "total": 250,
   "withTour": 23,
-  "located": 249
+  "located": 250
  }
 }
