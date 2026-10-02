@@ -370,14 +370,26 @@ a.tag:hover { background: var(--forest); color: #fff; }
 .map-body .site-footer { display: none; }
 .map-layout { display: grid; grid-template-columns: 380px 1fr; height: calc(100vh - 67px); height: calc(100dvh - 67px); }
 .map-panel { overflow: auto; padding: 16px; border-right: 1px solid var(--line); background: var(--paper); }
-.map { height: 100%; background: #DCE3DE; }
+.map { height: 100%; background: #DDE3DC; }
+.map-title { font-size: 1.6rem; font-weight: 450; margin-bottom: .2em; }
+.map-panel .kicker { margin-bottom: .3em; }
+/* Kartplattorna tonas ner till en lugn, gammaldags ton som passar sajten */
+.map .leaflet-tile-pane, .mini-map .leaflet-tile-pane { filter: grayscale(.55) sepia(.28) saturate(.85) contrast(.92) brightness(1.04); }
+body .leaflet-container { font-family: var(--sans); }
+.leaflet-bar { border: 0 !important; box-shadow: 0 6px 20px -8px rgba(28,35,32,.45) !important; border-radius: 12px !important; overflow: hidden; }
+.leaflet-bar a { width: 36px !important; height: 36px !important; line-height: 36px !important; color: var(--forest) !important; background: var(--card) !important; border-color: var(--line) !important; }
+.leaflet-bar a:hover { background: var(--paper-2) !important; }
+body .leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: 0 18px 40px -12px rgba(28,35,32,.45); }
+body .leaflet-popup-content { margin: 12px; }
+body .leaflet-tooltip { font: 600 .85rem var(--sans); color: var(--ink); border: 0; border-radius: 8px; box-shadow: 0 6px 18px -6px rgba(28,35,32,.4); }
 .map-filter { border: 0; padding: 0; margin: 14px 0 6px; display: grid; gap: 10px; }
 .map-filter select { padding: .6em; border-radius: 10px; border: 1.5px solid var(--line); font: inherit; background: #fff; }
 .map-filter label { display: flex; gap: 8px; align-items: center; }
 .legend { font-size: .88rem; color: var(--ink-2); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
 .dot-gold { background: var(--gold); box-shadow: 0 0 0 3px rgba(201,162,78,.3); }
-.dot-grey { border: 2px solid #7E8A82; background: #fff; margin-left: 10px; }
+.dot-grey { border: 2px solid var(--forest-2); background: #FFFDF8; }
+.legend > span { display: inline-flex; align-items: center; gap: 6px; margin-right: 12px; }
 .map-list { list-style: none; padding: 0; margin: 0; }
 .map-list a { display: flex; gap: 12px; padding: 10px 6px; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); align-items: center; }
 .map-list a:hover { background: var(--paper-2); }

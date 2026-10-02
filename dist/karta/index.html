@@ -20,7 +20,7 @@
 <link rel="preload" href="/assets/fonts/fraunces-latin.woff2?v=7f9d191d99" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin.woff2?v=2ee17598a9" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="/assets/style.css?v=0a972ffe0a">
+<link rel="stylesheet" href="/assets/style.css?v=40a76b159a">
 
 </head>
 <body class="map-body">
@@ -36,9 +36,10 @@
 </header>
 <main id="innehall">
 
-<h1 class="visually-hidden">Karta över Sveriges slott</h1>
 <div class="map-layout">
   <aside class="map-panel">
+    <p class="kicker">252 slott</p>
+    <h1 class="map-title">Karta över Sveriges slott</h1>
     <form class="search" action="/sok/" role="search">
   <label class="visually-hidden" for="q">Sök slott, ort, län eller vad du vill göra</label>
   <input id="q" name="q" type="search" autocomplete="off" placeholder="Sök slott, ort eller t.ex. ”bröllop Skåne”" data-search>
@@ -49,7 +50,7 @@
       <label><input type="checkbox" id="bara-rundtur"> Bara slott med virtuell rundtur</label>
       <select id="kategori" aria-label="Kategori"><option value="">Alla slott</option><option value="bo-pa-slott">Bo på slott</option><option value="spa">Spa på slott</option><option value="konferens">Konferens på slott</option><option value="brollop-och-fest">Bröllop och fest på slott</option><option value="restaurang-och-kafe">Restaurang och kafé på slott</option><option value="besok">Slott att besöka</option><option value="park-och-tradgard">Slottsparker och trädgårdar</option><option value="kungliga-slott">Kungliga slott</option><option value="borgar-och-ruiner">Borgar och slottsruiner</option><option value="fastningar">Fästningar</option></select>
     </fieldset>
-    <p class="legend"><span class="dot dot-gold"></span> Virtuell rundtur <span class="dot dot-grey"></span> Ingen rundtur ännu</p>
+    <p class="legend"><span><span class="dot dot-gold"></span> Virtuell rundtur</span> <span><span class="dot dot-grey"></span> Ingen rundtur ännu</span></p>
     <p class="count" data-count aria-live="polite"></p>
     <ul id="kartlista" class="map-list"></ul>
   </aside>
@@ -86,7 +87,7 @@
 </footer>
 <script src="/assets/app.js?v=45b98faa60" defer></script>
 <script src="/assets/vendor/leaflet.js?v=db49d009c8" defer></script>
-<script src="/assets/map.js?v=9e9daf637e" defer></script>
+<script src="/assets/map.js?v=e874236df9" defer></script>
 
 </body>
 </html>

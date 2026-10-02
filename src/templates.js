@@ -417,15 +417,16 @@ function mapPage(S) {
     description: 'Alla slott, borgar och fästningar i registret på en karta. Guldmarkerade slott har en virtuell rundtur.',
     scripts: ['/assets/vendor/leaflet.js', '/assets/map.js'],
     body: `
-<h1 class="visually-hidden">Karta över Sveriges slott</h1>
 <div class="map-layout">
   <aside class="map-panel">
+    <p class="kicker">${nf(S.data.stats.total)} slott</p>
+    <h1 class="map-title">Karta över Sveriges slott</h1>
     ${searchBox(S)}
     <fieldset class="map-filter"><legend class="visually-hidden">Visa</legend>
       <label><input type="checkbox" id="bara-rundtur"> Bara slott med virtuell rundtur</label>
       <select id="kategori" aria-label="Kategori"><option value="">Alla slott</option>${S.data.categories.map(c => `<option value="${c.slug}">${esc(c.name)}</option>`).join('')}</select>
     </fieldset>
-    <p class="legend"><span class="dot dot-gold"></span> Virtuell rundtur <span class="dot dot-grey"></span> Ingen rundtur ännu</p>
+    <p class="legend"><span><span class="dot dot-gold"></span> Virtuell rundtur</span> <span><span class="dot dot-grey"></span> Ingen rundtur ännu</span></p>
     <p class="count" data-count aria-live="polite"></p>
     <ul id="kartlista" class="map-list"></ul>
   </aside>
