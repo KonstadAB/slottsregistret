@@ -50,7 +50,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="preload" href="${S.asset('/assets/fonts/instrument-sans-latin.woff2')}" as="font" type="font/woff2" crossorigin>
 ${preload}
 <link rel="stylesheet" href="${S.asset('/assets/style.css')}">
-${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>` : ''}
+${[].concat(jsonld || []).map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 </head>
 <body class="${bodyClass}">
 <a class="skip" href="#innehall">Till innehållet</a>
@@ -76,6 +76,8 @@ function header(S, path) {
     <button class="menu-btn" aria-expanded="false" aria-controls="huvudmeny"><span class="visually-hidden">Meny</span><span class="bars" aria-hidden="true"></span></button>
     <nav id="huvudmeny" class="nav" aria-label="Huvudmeny">
       ${nav.map(([u, t]) => `<a href="${u}"${path.startsWith(u) ? ' aria-current="page"' : ''}>${t}</a>`).join('')}
+      <a class="nav-m nav-m-first" href="/spa/">Spa</a><a class="nav-m" href="/for-slott/">För slottsägare</a>
+      <a class="nav-search" href="/sok/" aria-label="Sök"${path.startsWith('/sok/') ? ' aria-current="page"' : ''}><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="nav-m-label">Sök</span></a>
     </nav>
   </div>
 </header>`;
@@ -110,6 +112,12 @@ function footer(S) {
   </div>
   <div class="wrap fine">Texter från Wikipedia (CC BY-SA) och bilder från Wikimedia Commons visas med upphov och licens på varje sida. Kartdata © OpenStreetMap.</div>
 </footer>`;
+}
+
+// Brödsmulorna som strukturerad data, så att sökmotorerna kan visa sökvägen i träfflistan.
+function crumbLd(S, items) {
+  return { '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: items.map(([u, t], i) => ({ '@type': 'ListItem', position: i + 1, name: t, item: S.config.domain + u })) };
 }
 
 function crumbs(items) {
@@ -288,13 +296,13 @@ function castle(S, c) {
     title: `${c.name}${S.dupNames.has(c.name) ? ` (${c.kommun})` : ''}`, description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
     image: commonsImage(c.image, 1280) || undefined,
     scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js'],
-    jsonld: {
+    jsonld: [crumbLd(S, [['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]]), {
       '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', 'TouristAttraction'], name: c.name,
       url: S.config.domain + castleURL(c), ...(img ? { image: S.config.domain + img } : {}),
       ...(c.lat != null ? { geo: { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lon } } : {}),
       address: { '@type': 'PostalAddress', addressLocality: c.kommun, addressRegion: co ? co.full : c.lan, addressCountry: 'SE' },
       ...(c.website ? { sameAs: [c.website] } : {}),
-    },
+    }],
     body: `
 ${big ? `<header class="c-hero">
   <img class="c-hero-img" src="${esc(img)}" srcset="${esc(imgSm)} 960w, ${esc(img)} 1280w${imgXl ? `, ${esc(imgXl)} 1920w` : ''}" sizes="(max-width: 700px) 250vw, 100vw" alt="${esc(c.name)}" fetchpriority="high">
@@ -339,7 +347,7 @@ function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', cou
   const hero = sorted.find(c => c.image && c.image.w >= 1280) || sorted.find(c => c.image);
   return layout(S, {
     title, path, description: `${intro} ${nf(list.length)} slott${tours ? `, varav ${nf(tours)} med virtuell rundtur` : ''}.`,
-    bodyClass: hero ? 'overlay' : '', image: hero ? commonsImage(hero.image, 1280) : undefined,
+    bodyClass: hero ? 'overlay' : '', image: hero ? commonsImage(hero.image, 1280) : undefined, jsonld: crumbLd(S, crumbsList),
     body: `
 ${hero ? `<header class="page-hero">
   <img class="c-hero-img" src="${esc(commonsImage(hero.image, 1280))}" srcset="${esc(commonsImage(hero.image, 960))} 960w, ${esc(commonsImage(hero.image, 1280))} 1280w${hero.image.w > 1920 ? `, ${esc(commonsImage(hero.image, 1920))} 1920w` : ''}" sizes="100vw" alt="" fetchpriority="high">
