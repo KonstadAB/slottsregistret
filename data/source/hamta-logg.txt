@@ -3,10 +3,5 @@ Wikidata-poster 550
 Wikipedia-texter 335
 Commons-bilder 327
 Sidor lästa 0
-FEL nedladdning https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEJnU0JMRzNYVFYwTEd5Yk16ZHg4UDY.&key=… Error: HTTP 403
-FEL nedladdning https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaENHNDdiM2ZYaUxEMEJHMU41dV9KZ1Q.&key=… Error: HTTP 403
-FEL nedladdning https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEQzbGNYX0M4Z0tPWnJoWEFQOFh5VDM.&key=… Error: HTTP 403
-FEL nedladdning https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEJ6cHVLcF80Qm5MSFNSQTVKb1lnZTQ.&key=… Error: HTTP 403
-FEL nedladdning https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.&key=… Error: HTTP 403
-Nedladdade 0 av 5
-Klart 2026-10-02T12:31:06.258Z
+Nedladdade 5 av 5
+Klart 2026-10-02T12:31:22.125Z
