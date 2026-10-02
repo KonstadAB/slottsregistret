@@ -725,21 +725,7 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": [
-    {
-     "id": "gm-hackeberga-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Gustav J"
-     ],
-     "year": 2015,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRqOXlPaWdF!2m2!1d55.58017729801128!2d13.42847444152529!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRqOXlPaWdF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "vittskovle-slott",
@@ -1521,21 +1507,7 @@
     "besok",
     "borgar-och-ruiner"
    ],
-   "tours": [
-    {
-     "id": "gm-manstorps-gavlar",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Eskil Ask"
-     ],
-     "year": 2022,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2U0UHZfbVFF!2m2!1d55.47829221898154!2d13.13688699874276!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U0UHZfbVFF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "falsterbohus",
@@ -3099,22 +3071,7 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": [
-    {
-     "id": "gm-lacko-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "View360 Sweden AB"
-     ],
-     "year": 2022,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVxcmJXcFFF!2m2!1d58.67503821047912!2d13.21949811148117!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmJXcFFF",
-     "source": "streetview",
-     "checked": "2026-10-02",
-     "title": "Utställning"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "naas-slott",
@@ -3231,21 +3188,7 @@
     "brollop-och-fest",
     "fastningar"
    ],
-   "tours": [
-    {
-     "id": "gm-bohus-fastning",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Claus Penner"
-     ],
-     "year": 2022,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2V5Y2lkdEFF!2m2!1d57.86190421487732!2d11.99945986381991!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2V5Y2lkdEFF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "carlstens-fastning",
@@ -4448,21 +4391,7 @@
     "besok",
     "borgar-och-ruiner"
    ],
-   "tours": [
-    {
-     "id": "gm-brahehus",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Kristoffer Norrfjäll"
-     ],
-     "year": 2017,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREVzZURjNEFF!2m2!1d58.05277626353143!2d14.50444414948524!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREVzZURjNEFF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "visingsborgs-slottsruin",
@@ -5032,21 +4961,7 @@
     "borgar-och-ruiner",
     "konferens"
    ],
-   "tours": [
-    {
-     "id": "gm-stegeborgs-slottsruin",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Anne-Lie Björk"
-     ],
-     "year": 2020,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRHlfWm03YlE.!2m2!1d58.44140985999142!2d16.59804132032052!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRHlfWm03YlE.",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "sturefors-slott",
@@ -5454,38 +5369,7 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": [
-    {
-     "id": "ks-teatern",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Gustav III:s teater",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/teatern_gripsholmsslott/",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-hertigkarl",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Hertig Karls kammare",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/hertigkarlskammare_gripsholmsslott/",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-konselj",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Konseljrummet",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/konseljrummet_gripsholmsslott/",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "nykopingshus",
@@ -6426,38 +6310,7 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": [
-    {
-     "id": "ks-rikssalen",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Rikssalen",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/rikssalen/",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-antik",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Gustav III:s antikmuseum",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-vasa",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Utställningen Vasa till Bernadotte",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/vasa-to-bernadotte",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "drottningholms-slott",
@@ -6506,26 +6359,6 @@
      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsOW5HeFFF",
      "source": "streetview",
      "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-ehrenstrahl",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Ehrenstrahlsalongen",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-hedvig",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Hedvig Eleonoras paradsängkammare",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
     }
    ]
   },
@@ -6563,21 +6396,7 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": [
-    {
-     "id": "gm-kina-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Robert Ladham"
-     ],
-     "year": 2022,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRE9oclNkd0FF!2m2!1d59.31708350413843!2d17.87826952807387!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRE9oclNkd0FF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "ulriksdals-slott",
@@ -6613,18 +6432,7 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": [
-    {
-     "id": "ks-ulriksdal",
-     "kind": "look",
-     "provider": "Kungliga slotten",
-     "title": "Vardagsrummet",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/ulriksdal",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "hagaslottet",
@@ -6879,21 +6687,7 @@
     "brollop-och-fest",
     "restaurang-och-kafe"
    ],
-   "tours": [
-    {
-     "id": "gm-svartsjo-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "Wnętrza 3D"
-     ],
-     "year": 2019,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ1U1WXZGNGdF!2m2!1d59.36264673313118!2d17.72779124997918!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ1U1WXZGNGdF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "karlbergs-slott",
@@ -8351,21 +8145,7 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": [
-    {
-     "id": "gm-noors-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "René Nordstrand Heunen"
-     ],
-     "year": 2016,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ2tsT3lBTmc.!2m2!1d59.7161123679415!2d17.81967844450353!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2tsT3lBTmc.",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "ekholmens-slott",
@@ -8457,21 +8237,7 @@
    "offers": [
     "konferens"
    ],
-   "tours": [
-    {
-     "id": "gm-salnecke-slott",
-     "kind": "look",
-     "provider": "Google Maps",
-     "credit": [
-      "CG Johansson"
-     ],
-     "year": 2018,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ0VfZEhURVE.!2m2!1d59.73944883326041!2d17.33716739015217!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0VfZEhURVE.",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "lovstabruk",
@@ -9274,7 +9040,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 74,
-   "withTour": 9
+   "withTour": 7
   },
   {
    "name": "Blekinge",
@@ -9309,7 +9075,7 @@
    "full": "Jönköpings län",
    "slug": "jonkoping",
    "total": 6,
-   "withTour": 2
+   "withTour": 1
   },
   {
    "name": "Gotland",
@@ -9323,35 +9089,35 @@
    "full": "Västra Götalands län",
    "slug": "vastra-gotaland",
    "total": 22,
-   "withTour": 4
+   "withTour": 2
   },
   {
    "name": "Östergötland",
    "full": "Östergötlands län",
    "slug": "ostergotland",
    "total": 17,
-   "withTour": 4
+   "withTour": 3
   },
   {
    "name": "Södermanland",
    "full": "Södermanlands län",
    "slug": "sodermanland",
    "total": 27,
-   "withTour": 2
+   "withTour": 1
   },
   {
    "name": "Stockholm",
    "full": "Stockholms län",
    "slug": "stockholm",
    "total": 43,
-   "withTour": 7
+   "withTour": 3
   },
   {
    "name": "Uppsala",
    "full": "Uppsala län",
    "slug": "uppsala",
    "total": 14,
-   "withTour": 4
+   "withTour": 2
   },
   {
    "name": "Västmanland",
@@ -9487,7 +9253,7 @@
  ],
  "stats": {
   "total": 252,
-  "withTour": 36,
+  "withTour": 23,
   "located": 250
  }
 }

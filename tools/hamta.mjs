@@ -174,7 +174,7 @@ await step('jsonUrls', async () => {
         body: j.body ? JSON.stringify(j.body) : undefined, signal: AbortSignal.timeout(30000) });
       const t = await r.text();
       let data; try { data = JSON.parse(t.replace(/^﻿/, '')); } catch { data = t.slice(0, 150000); }
-      out.json[key] = { status: r.status, data };
+      out.json[key] = { status: r.status, url: r.url, data };
     } catch (e) { out.json[key] = { status: 0, error: String(e).slice(0, 160) }; }
     await sleep(300);
   }

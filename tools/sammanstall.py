@@ -21,7 +21,9 @@ S = load('data/slott.json', [])
 V = load('data/source/svar.json', {})
 MATCH = load('data/source/matchning.json', {})
 MAN = load('data/manuellt.json', {})
-TOURS = load('data/rundturer.json', {})
+# Bara rundturer där man kan röra sig mellan platser räknas (Daniels regel 2 okt): kind 'walk'.
+# Enstaka 360-bilder ('look', 'view') ligger kvar i rundturer.json men visas inte.
+TOURS = {k: [t for t in v if t.get('kind') == 'walk'] for k, v in load('data/rundturer.json', {}).items()}
 E, WIKI, COM, GEO, PAGES = V.get('entities', {}), V.get('wiki', {}), V.get('commons', {}), V.get('geocode', {}), V.get('pages', {})
 
 def slug(s):
