@@ -81,7 +81,10 @@
  },
  "stora-wasby-slott": {
   "qid": "Q7619894",
-  "website": "https://www.storawasby.se/"
+  "website": "https://www.storawasby.se/",
+  "notOffers": [
+   "bo-pa-slott"
+  ]
  },
  "gysinge-herrgard": {
   "qid": "Q129324485",
@@ -154,7 +157,10 @@
   "website": "https://www.sperlingsholm.se/"
  },
  "naas-slott": {
-  "website": "https://www.naas.se/"
+  "website": "https://www.naas.se/",
+  "notOffers": [
+   "bo-pa-slott"
+  ]
  },
  "torpa-stenhus": {
   "website": "https://www.torpastenhus.se/"
@@ -181,7 +187,10 @@
   "website": "https://www.sundbyholm.se/"
  },
  "ericsbergs-slott": {
-  "website": "https://ericsberg.com/"
+  "website": "https://ericsberg.com/",
+  "notOffers": [
+   "bo-pa-slott"
+  ]
  },
  "sparreholms-slott": {
   "website": "https://sparreholmsslott.com/"
@@ -196,7 +205,10 @@
   "website": "https://www.haringeslott.se/"
  },
  "nasby-slott": {
-  "website": "https://www.nasbyslott.se/"
+  "website": "https://www.nasbyslott.se/",
+  "notOffers": [
+   "spa"
+  ]
  },
  "gorvalns-slott": {
   "website": "https://www.gorvaln.se/"
@@ -230,5 +242,31 @@
  },
  "venngarns-slott": {
   "website": "https://www.venngarn.se/"
+ },
+ "bohus-fastning": {
+  "notOffers": [
+   "bo-pa-slott",
+   "brollop-och-fest"
+  ]
+ },
+ "vadstena-slott": {
+  "notOffers": [
+   "bo-pa-slott"
+  ]
+ },
+ "akeshovs-slott": {
+  "notOffers": [
+   "bo-pa-slott"
+  ]
+ },
+ "marbacka": {
+  "notOffers": [
+   "bo-pa-slott"
+  ]
+ },
+ "rosersbergs-slott": {
+  "notOffers": [
+   "spa"
+  ]
  }
 }

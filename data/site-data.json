@@ -3106,7 +3106,6 @@
    "text": null,
    "offers": [
     "besok",
-    "bo-pa-slott",
     "brollop-och-fest",
     "konferens",
     "park-och-tradgard"
@@ -3184,9 +3183,7 @@
    "text": null,
    "offers": [
     "besok",
-    "bo-pa-slott",
     "borgar-och-ruiner",
-    "brollop-och-fest",
     "fastningar"
    ],
    "tours": []
@@ -4752,7 +4749,6 @@
    "text": null,
    "offers": [
     "besok",
-    "bo-pa-slott",
     "brollop-och-fest",
     "konferens"
    ],
@@ -5629,7 +5625,6 @@
    },
    "text": null,
    "offers": [
-    "bo-pa-slott",
     "brollop-och-fest",
     "konferens",
     "restaurang-och-kafe"
@@ -6578,8 +6573,7 @@
     "brollop-och-fest",
     "konferens",
     "kungliga-slott",
-    "restaurang-och-kafe",
-    "spa"
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7105,7 +7099,6 @@
    },
    "text": null,
    "offers": [
-    "bo-pa-slott",
     "brollop-och-fest",
     "konferens",
     "restaurang-och-kafe"
@@ -7215,8 +7208,7 @@
     "bo-pa-slott",
     "brollop-och-fest",
     "konferens",
-    "restaurang-och-kafe",
-    "spa"
+    "restaurang-och-kafe"
    ],
    "tours": []
   },
@@ -7613,9 +7605,7 @@
     "text": "Stora Wäsby är en slottsliknande herrgård och ett tidigare fideikommiss belägen vid slutet av Stora Wäsby allée i Hammarby socken, Upplands Väsby kommun, Stockholms län. Direkt söder om anläggningen ligger tätorten Upplands Väsby. Avståndet till centrala Stockholm är 25 kilometer och till Uppsala 45 kilometer. Huvudbebyggelsen skapades under 1750- och 1760-talen av arkitekterna Carl Hårleman och Jean Eric Rehn. Stora Wäsby ägs sedan 1600-talet av den friherrliga familjen De Geer och räknas idag till en av den svenska rokokotidens bäst bevarade byggnader i Uppland. Sedan 1977 är huvudbebyggelsen med bland annat slottet, flyglar och orangeriet skyddade som byggnadsminnen.\n\n"
    },
    "text": null,
-   "offers": [
-    "bo-pa-slott"
-   ],
+   "offers": [],
    "tours": []
   },
   {
@@ -8811,7 +8801,6 @@
    "text": null,
    "offers": [
     "besok",
-    "bo-pa-slott",
     "restaurang-och-kafe"
    ],
    "tours": []
@@ -9177,7 +9166,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 42
+   "total": 35
   },
   {
    "slug": "spa",
@@ -9185,7 +9174,7 @@
    "short": "Spa",
    "kind": "offer",
    "intro": "Slott och slottshotell med spa, bad eller behandlingar.",
-   "total": 7
+   "total": 5
   },
   {
    "slug": "konferens",
@@ -9201,7 +9190,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 45
+   "total": 44
   },
   {
    "slug": "restaurang-och-kafe",
