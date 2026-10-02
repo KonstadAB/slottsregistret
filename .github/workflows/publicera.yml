@@ -32,4 +32,5 @@ jobs:
           T=$(jq -r '.inputs.token // ""' "$GITHUB_EVENT_PATH")
           if [ -n "$T" ]; then echo "::add-mask::$T"; export CLOUDFLARE_API_TOKEN="$T"; else export CLOUDFLARE_API_TOKEN="$SECRET_TOKEN"; fi
           set -o pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "::notice::Ingen Cloudflare-nyckel ännu – hoppar över publiceringen."; exit 0; fi
           npx -y wrangler@4 deploy --message "$(git log -1 --format=%s | head -c 100)" 2>&1 | tee publicera-logg.txt
