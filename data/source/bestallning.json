@@ -1,16 +1,1 @@
-{
- "jsonUrls": [
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/img/thumb/9/99/GransoSlottVastervik20130720.JPG/250px-GransoSlottVastervik20130720.JPG"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/tiles/5/17/9.png"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/data/slott.json"
-  },
-  {
-   "url": "https://slottsregistret.konstadab.workers.dev/finns-inte/"
-  }
- ]
-}
+{"jsonUrls":[{"url":"https://dns.google/resolve?name=slottsregistret.se&type=DS&cd=1"},{"url":"https://cloudflare-dns.com/dns-query?name=slottsregistret.se&type=DS","body":null}]}
