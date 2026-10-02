@@ -498,5 +498,20 @@
    "checked": "2026-10-02",
    "title": "Klosterkyrkan"
   }
+ ],
+ "svaneholms-slott": [
+  {
+   "id": "gm-svaneholms-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "VR Media International AB"
+   ],
+   "year": 2026,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.!2m2!1d55.50077478432323!2d13.47796489161368!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.",
+   "source": "streetview",
+   "checked": "2026-10-02"
+  }
  ]
 }

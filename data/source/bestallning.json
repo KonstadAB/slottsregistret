@@ -1,32 +1,22 @@
 {
- "downloads": [
-  {
-   "url": "https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEJnU0JMRzNYVFYwTEd5Yk16ZHg4UDY.&key={MAPS_KEY}",
-   "path": "data/source/sv/svaneholm-vr-0.jpg"
-  },
-  {
-   "url": "https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaENHNDdiM2ZYaUxEMEJHMU41dV9KZ1Q.&key={MAPS_KEY}",
-   "path": "data/source/sv/svaneholm-vr-1.jpg"
-  },
-  {
-   "url": "https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEQzbGNYX0M4Z0tPWnJoWEFQOFh5VDM.&key={MAPS_KEY}",
-   "path": "data/source/sv/svaneholm-vr-2.jpg"
-  },
-  {
-   "url": "https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaEJ6cHVLcF80Qm5MSFNSQTVKb1lnZTQ.&key={MAPS_KEY}",
-   "path": "data/source/sv/svaneholm-vr-3.jpg"
-  },
-  {
-   "url": "https://maps.googleapis.com/maps/api/streetview?size=320x200&fov=110&pano=CAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.&key={MAPS_KEY}",
-   "path": "data/source/sv/svaneholm-vr-4.jpg"
-  }
- ],
  "jsonUrls": [
   {
-   "url": "https://www.kungligaslotten.se/english/articles-movies-360/drottningholm-palace/2025-12-12-ehrenstrahl-drawing-room-in-360.html"
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0"
   },
   {
-   "url": "https://www.kungligaslotten.se/english/articles-movies-360/the-royal-palace/2023-01-20-the-hall-of-state-in-360.html"
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0&lp-page=1"
+  },
+  {
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0&lp-page=2"
+  },
+  {
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0&lp-page=3"
+  },
+  {
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0&lp-page=4"
+  },
+  {
+   "url": "https://www.kungligaslotten.se/artiklar-film-360.html?kategorier%5B%5D=360%C2%B0&lp-page=5"
   }
  ]
 }
