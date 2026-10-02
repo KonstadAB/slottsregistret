@@ -242,7 +242,13 @@ await step('downloads', async () => {
     try {
       const url = d.url.replace('{MAPS_KEY}', process.env.MAPS_KEY || '');
       if (fs.existsSync(d.path) && !d.force) continue;
-      const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
+      let r;
+      for (let t = 1; t <= 5; t++) {
+        r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60000) });
+        if (r.status !== 429 && r.status < 500) break;
+        await sleep(4000 * t);
+      }
+      await sleep(/upload\.wikimedia/.test(url) ? 1500 : 100);
       if (!r.ok) throw new Error('HTTP ' + r.status);
       fs.mkdirSync(d.path.replace(/\/[^/]+$/, ''), { recursive: true });
       fs.writeFileSync(d.path, Buffer.from(await r.arrayBuffer())); n++;
