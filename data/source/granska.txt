@@ -1,4 +1,6 @@
-# 2026-10-03T00:04:49Z länsingresser
-/lan/skane/
-/lan/norrbotten/
-/slott/boo-slott/
+# 2026-10-03T00:07:54Z mobilgenomgång
+/
+/bo-pa-slott/
+/brollop-och-fest/skane/
+/virtuella-rundturer/
+/slott/malmohus/
