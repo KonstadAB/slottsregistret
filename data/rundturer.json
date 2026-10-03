@@ -630,13 +630,13 @@
  "glimmingehus": [
   {
    "id": "glimmingehus-3d",
-   "kind": "walk",
+   "kind": "3d",
    "provider": "Glimmingehus (Riksantikvarieämbetet)",
    "credit": [],
    "url": "https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/",
    "source": "slottets webbplats",
    "checked": "2026-10-03",
-   "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster."
+   "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster. Daniel 3 okt: räknas inte som rundtur; kan visas i en egen 3D-del senare."
   }
  ]
 }

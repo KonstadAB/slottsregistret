@@ -123,7 +123,8 @@ for c in S:
         # Andra namn och stavningar (Wikidata, Wikipedia), så att sökningen hittar t.ex. Engsö och Leufsta.
         'alts': m['alts'] if 'alts' in m else sorted({a for a in (e.get('alts') or []) + [((wiki_intro(m.get('article', e.get('article'))) or {}).get('title') or '')] if a and a != c['name']})[:6],
         'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
-        'tours': sorted(TOURS.get(c['id'], []), key=lambda t: not t.get('embed')),
+        # Slottets egna källor först, Google Maps sist (Daniel 3 okt); inom varje grupp de som går att visa på sidan.
+        'tours': sorted(TOURS.get(c['id'], []), key=lambda t: (t.get('source') == 'streetview', not t.get('embed'))),
     }
     if lat is None:
         problems.append(f"saknar läge: {c['name']}")

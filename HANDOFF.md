@@ -113,3 +113,8 @@
 3. Fler rundturer: slottens egna sidor (fler undersidor), Matterport/Kuula/3DVista-sökning, VR Medias egna listor.
 4. Spa och boende behöver kontrolleras slott för slott (bara 7 spa hittades automatiskt).
 5. Etapp 2: konton för slott, förfrågningar bröllop/konferens, affiliate-länkar.
+
+## 3 okt förmiddag
+- Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
+- Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.
+- Allt från natten publicerat 3 okt på Daniels begäran.

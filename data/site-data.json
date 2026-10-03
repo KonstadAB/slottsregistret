@@ -171,18 +171,7 @@
     "borgar-och-ruiner",
     "restaurang-och-kafe"
    ],
-   "tours": [
-    {
-     "id": "glimmingehus-3d",
-     "kind": "walk",
-     "provider": "Glimmingehus (Riksantikvarieämbetet)",
-     "credit": [],
-     "url": "https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/",
-     "source": "slottets webbplats",
-     "checked": "2026-10-03",
-     "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster."
-    }
-   ]
+   "tours": []
   },
   {
    "id": "bosjokloster",
@@ -6870,6 +6859,17 @@
    ],
    "tours": [
     {
+     "id": "ks-ehrenstrahl",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Ehrenstrahlsalongen",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
+    },
+    {
      "id": "gm-drottningholms-slott",
      "kind": "walk",
      "provider": "Google Maps",
@@ -6881,17 +6881,6 @@
      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsOW5HeFFF",
      "source": "streetview",
      "checked": "2026-10-02"
-    },
-    {
-     "id": "ks-ehrenstrahl",
-     "kind": "walk",
-     "provider": "Kungliga slotten",
-     "title": "Ehrenstrahlsalongen",
-     "embed": null,
-     "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
-     "source": "kungligaslotten.se",
-     "checked": "2026-10-03",
-     "note": "Flera punkter att gå mellan (provat 3 okt)."
     }
    ]
   },
@@ -9768,7 +9757,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 8
+   "withTour": 7
   },
   {
    "name": "Blekinge",
@@ -9981,7 +9970,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 28,
+  "withTour": 27,
   "located": 250
  }
 }
