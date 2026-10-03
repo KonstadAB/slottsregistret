@@ -406,13 +406,12 @@ function category(S, cat, co) {
 function countyIntro(co, list) {
   const and = a => a.length > 1 ? a.slice(0, -1).join(', ') + ' och ' + a.at(-1) : a[0];
   const top = [...list].sort((a, b) => a.prio - b.prio || (b.tours.length > 0) - (a.tours.length > 0) || (b.image ? 1 : 0) - (a.image ? 1 : 0)).slice(0, 3).map(c => c.name);
-  let t = `Slott, borgar och fästningar i ${co.full}`;
-  if (list.length > 3) t += `, bland dem ${and(top)}`;
-  t += '.';
+  let t = list.length > 3 ? `Slott, borgar och fästningar i ${co.full}, bland dem ${and(top)}.` : `Från ${co.full} finns än så länge ${and(top)} i registret.`;
+  if (list.length === 1) return t;
   const n = slug => list.filter(c => c.offers.includes(slug)).length;
   const W = ['', 'ett', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio', 'elva', 'tolv'];
   const bits = [[n('bo-pa-slott'), 'går att bo på'], [n('brollop-och-fest'), 'tar emot bröllop'], [n('besok'), k => k === 1 ? 'är öppet för besök' : 'är öppna för besök']]
-    .filter(x => x[0]).map(([k, v], i) => `${W[k] || k}${i ? '' : ' av dem'} ${typeof v === 'function' ? v(k) : v}`);
+    .filter(x => x[0]).map(([k, v], i) => `${k === list.length ? (k === 2 ? 'båda' : `alla ${W[k] || k}`) : `${W[k] || k}${i ? '' : ' av dem'}`} ${typeof v === 'function' ? v(k) : v}`);
   if (bits.length) t += ' ' + and(bits).replace(/^./, x => x.toUpperCase()) + '.';
   return t;
 }
@@ -421,7 +420,7 @@ function county(S, co) {
   const list = S.data.castles.filter(c => c.lanSlug === co.slug);
   const cats = S.data.categories.map(cat => [cat, list.filter(c => c.offers.includes(cat.slug)).length]).filter(x => x[1]);
   return listPage(S, {
-    title: `Slott i ${co.full}`, h1: `Slott i ${co.name}`, path: countyURL(co), list, noCounty: true, kicker: `${nf(list.length)} slott, borgar och fästningar`,
+    title: `Slott i ${co.full}`, h1: `Slott i ${co.name}`, path: countyURL(co), list, noCounty: true, kicker: list.length === 1 ? '1 slott i registret' : `${nf(list.length)} slott, borgar och fästningar`,
     intro: countyIntro(co, list),
     crumbsList: [['/', 'Start'], ['/lan/', 'Län'], [countyURL(co), co.name]],
     extra: coverage(co.withTour, co.total, 'slott i länet går att besöka digitalt') +
