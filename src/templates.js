@@ -318,10 +318,11 @@ function castle(S, c) {
     scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js'],
     jsonld: [crumbLd(S, [['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]]), {
       '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', 'TouristAttraction'], name: c.name,
-      url: S.config.domain + castleURL(c), ...(img ? { image: S.config.domain + img } : {}),
+      description: desc, url: S.config.domain + castleURL(c), ...(img ? { image: encodeURI(S.config.domain + img) } : {}),
       ...(c.lat != null ? { geo: { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lon } } : {}),
       address: { '@type': 'PostalAddress', addressLocality: c.kommun, addressRegion: co ? co.full : c.lan, addressCountry: 'SE' },
-      ...(c.website ? { sameAs: [c.website] } : {}),
+      ...(c.website || c.qid || c.wiki ? { sameAs: [c.website, c.qid && `https://www.wikidata.org/wiki/${c.qid}`,
+        c.wiki && `https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}`].filter(Boolean) } : {}),
     }],
     body: `
 ${big ? `<header class="c-hero">
