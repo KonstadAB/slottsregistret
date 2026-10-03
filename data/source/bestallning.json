@@ -1,1 +1,2 @@
-{"jsonUrls": [{"url": "https://dns.google/resolve?name=slottsregistret.se&type=DS&t=5"}, {"url": "https://dns.google/resolve?name=slottsregistret.se&type=NS&t=5"}, {"url": "https://dns.google/resolve?name=slottsregistret.se&type=DNSKEY&t=5"}]}
+{"textPages": ["https://stepinside.se/", "https://www.stepinside.se/", "https://vrmedia.se/", "https://www.vrmediainternational.se/", "https://svaneholmsslott.se/", "https://www.lackoslott.se", "https://granso.com/"],
+ "search": [{"id": "si1", "q": "StepInside slott 360"}, {"id": "si2", "q": "\"StepInside\" VR Media International"}, {"id": "si3", "q": "StepInside Läckö slott"}, {"id": "si4", "q": "StepInside Svaneholm"}]}
