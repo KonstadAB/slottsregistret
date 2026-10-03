@@ -73,7 +73,7 @@ function header(S, path) {
   return `<header class="site-header">
   <div class="wrap hdr">
     <a class="logo" href="/" aria-label="${esc(S.config.name)}, till startsidan">${LOGO}<span>Slotts<b>registret</b></span></a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="huvudmeny"><span class="visually-hidden">Meny</span><span class="bars" aria-hidden="true"></span></button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="huvudmeny"><span class="visually-hidden">Meny</span><span class="bars" aria-hidden="true"></span></button>
     <nav id="huvudmeny" class="nav" aria-label="Huvudmeny">
       ${nav.map(([u, t]) => `<a href="${u}"${path.startsWith(u) ? ' aria-current="page"' : ''}>${t}</a>`).join('')}
       <a class="nav-m nav-m-first" href="/spa/">Spa</a><a class="nav-m" href="/for-slott/">För slottsägare</a>
