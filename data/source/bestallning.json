@@ -1,2 +1,3 @@
-{"textPages": ["https://stepinside.se/", "https://www.stepinside.se/", "https://vrmedia.se/", "https://www.vrmediainternational.se/", "https://svaneholmsslott.se/", "https://www.lackoslott.se", "https://granso.com/"],
- "search": [{"id": "si1", "q": "StepInside slott 360"}, {"id": "si2", "q": "\"StepInside\" VR Media International"}, {"id": "si3", "q": "StepInside Läckö slott"}, {"id": "si4", "q": "StepInside Svaneholm"}]}
+{"jsonUrls": [{"url": "https://www.vrmedia.se/sitemap.xml"}, {"url": "https://www.vrmedia.se/sitemap_index.xml"}, {"url": "https://www.vrmedia.se/robots.txt"}, {"url": "https://www.vrmedia.se/tjanster/virtuell-rundtur"}, {"url": "https://svaneholmsslott.se/sitemap_index.xml"}, {"url": "https://www.lackoslott.se/sitemap_index.xml"}],
+ "textPages": ["https://www.vrmedia.se/tjanster/virtuell-rundtur", "https://www.vrmedia.se/en/home/"],
+ "search": [{"id": "si5", "q": "site:vrmedia.se slott"}, {"id": "si6", "q": "vrmedia.se stepinside slott rundtur"}, {"id": "si7", "q": "\"stepinside\" slott virtuell rundtur"}]}
