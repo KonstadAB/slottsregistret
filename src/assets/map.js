@@ -2,9 +2,10 @@
 // Kartan: alla slott, guld = virtuell rundtur. Filter på rundtur och kategori, sökning och lista över slotten i utsnittet.
 (function () {
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
-  var GOLD = '#C9A24E', GREY = '#7E8A82';
+  var GOLD = '#C9A24E', GREY = '#2D5345';
   var map = L.map('karta', { preferCanvas: true, minZoom: 4, maxZoom: 18 });
-  map.fitBounds([[55.3, 11.0], [69.1, 24.2]], { padding: [10, 10] });
+  // Start över södra och mellersta Sverige, där nästan alla slott ligger.
+  map.fitBounds([[55.3, 11.2], [61.0, 19.2]], { padding: [10, 10] });
   L.tileLayer('/tiles/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
   var renderer = L.canvas({ padding: .3 }), layer = L.layerGroup().addTo(map);
   var params = new URLSearchParams(location.search);
@@ -33,7 +34,7 @@
     rows.forEach(function (c) {
       var m = c.r
         ? L.circleMarker([c.lat, c.lon], { renderer: renderer, radius: 8, color: '#fff', weight: 2, fillColor: GOLD, fillOpacity: 1 })
-        : L.circleMarker([c.lat, c.lon], { renderer: renderer, radius: 5.5, color: GREY, weight: 2, fillColor: '#fff', fillOpacity: 1 });
+        : L.circleMarker([c.lat, c.lon], { renderer: renderer, radius: 5, color: GREY, weight: 1.8, fillColor: '#FFFDF8', fillOpacity: .95 });
       m.bindTooltip(c.n, { direction: 'top', offset: [0, -6] }).bindPopup(popup(c));
       c.marker = m; layer.addLayer(m);
     });

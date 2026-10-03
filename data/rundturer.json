@@ -8,22 +8,24 @@
     "View360 Sweden AB"
    ],
    "year": 2022,
-   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjdBSnc.!2m2!1d55.7261927174487!2d13.69913175182928!3f0!4f0!5f0.7820865974627469",
-   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjdBSnc.",
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF!2m2!1d55.7261801!2d13.6988284!3f252.46!4f13.4!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF&heading=252&pitch=13",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-10-02",
+   "note": "Startbild vald av Daniel 2 okt"
   }
  ],
  "drottningholms-slott": [
   {
    "id": "ks-ehrenstrahl",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Ehrenstrahlsalongen",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-hedvig",
@@ -202,33 +204,36 @@
  "stockholms-slott": [
   {
    "id": "ks-rikssalen",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Rikssalen",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/rikssalen/",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-antik",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Gustav III:s antikmuseum",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-vasa",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Utställningen Vasa till Bernadotte",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/vasa-to-bernadotte",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   }
  ],
  "teleborgs-slott": [
@@ -585,13 +590,53 @@
  "ulriksdals-slott": [
   {
    "id": "ks-ulriksdal",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Vardagsrummet",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/ulriksdal",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
+  }
+ ],
+ "marbacka": [
+  {
+   "id": "kuula-marbacka",
+   "kind": "walk",
+   "provider": "Kuula",
+   "credit": [
+    "Open Virtual Worlds"
+   ],
+   "embed": "https://kuula.co/share/collection/7Fhb5?logo=-1&info=0&fs=1&vr=1&sd=1&thumbs=1",
+   "url": "https://openvirtualworlds.viewin360.co/share/collection/7Fhb5?info=0&fs=1&vr=1&sd=1&thumbs=1",
+   "source": "slottets webbplats",
+   "checked": "2026-10-03",
+   "note": "Fem 360-punkter ute och inne som man kan gå mellan (länkad från marbacka.com)."
+  }
+ ],
+ "almnas-slott": [
+  {
+   "id": "almnas-panotour",
+   "kind": "walk",
+   "provider": "Almnäs",
+   "credit": [],
+   "url": "https://www.almnas.com/360/Almnas.html",
+   "source": "slottets webbplats",
+   "checked": "2026-10-03",
+   "note": "Panotour med flygbild och flera punkter runt slottet (länkad från almnas.com). Öppnas i nytt fönster; inbäddning ej provad."
+  }
+ ],
+ "glimmingehus": [
+  {
+   "id": "glimmingehus-3d",
+   "kind": "3d",
+   "provider": "Glimmingehus (Riksantikvarieämbetet)",
+   "credit": [],
+   "url": "https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/",
+   "source": "slottets webbplats",
+   "checked": "2026-10-03",
+   "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster. Daniel 3 okt: räknas inte som rundtur; kan visas i en egen 3D-del senare."
   }
  ]
 }

@@ -50,14 +50,19 @@ S.asset = url => {
   if (!hashes.has(url)) hashes.set(url, crypto.createHash('sha256').update(assets.get(url)).digest('hex').slice(0, 10));
   return `${url}?v=${hashes.get(url)}`;
 };
-// Kartbilden på startsidan ritas av slottens lägen (södra Sverige), guld för slott med rundtur.
+// Kartbilden på startsidan: södra och mellersta Sverige med grannländerna (data/geo/norden.json, Natural Earth),
+// slottens lägen ovanpå, guld för slott med rundtur.
 {
   const [la0, la1, lo0, lo1] = [55.15, 61.3, 10.9, 19.6], W = 560, H = 420, k = Math.cos(58 * Math.PI / 180);
   const sx = W / ((lo1 - lo0) * k), sy = H / (la1 - la0), s = Math.min(sx, sy), ox = (W - (lo1 - lo0) * k * s) / 2;
+  const px = (lon, lat) => [(ox + (lon - lo0) * k * s).toFixed(1), ((la1 - lat) * s).toFixed(1)];
+  const geoFile = path.join(ROOT, 'data/geo/norden.json');
+  const geo = fs.existsSync(geoFile) ? JSON.parse(fs.readFileSync(geoFile, 'utf8')) : {};
+  const land = Object.entries(geo).map(([cc, rings]) => `<path d="${rings.map(r => 'M' + r.map(([x, y]) => px(x, y).join(',')).join('L') + 'Z').join('')}" fill="${cc === 'SWE' ? '#2A4A3E' : '#1C2F26'}" stroke="${cc === 'SWE' ? 'rgba(226,194,122,.45)' : 'rgba(226,194,122,.12)'}" stroke-width="${cc === 'SWE' ? 1 : .6}" stroke-linejoin="round"/>`).join('');
   const pts = located.filter(c => c.lat > la0 && c.lat < la1 && c.lon > lo0 && c.lon < lo1).sort((a, b) => a.tours.length - b.tours.length)
-    .map(c => { const x = (ox + (c.lon - lo0) * k * s).toFixed(1), y = ((la1 - c.lat) * s).toFixed(1);
-      return c.tours.length ? `<circle cx="${x}" cy="${y}" r="6" fill="#C9A24E" stroke="#1F3A31" stroke-width="1.5"/>` : `<circle cx="${x}" cy="${y}" r="3.6" fill="none" stroke="#9FB3A8" stroke-width="1.4"/>`; });
-  assets.set('/assets/img/karta.svg', Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="#1F3A31"/>${pts.join('')}</svg>`));
+    .map(c => { const [x, y] = px(c.lon, c.lat);
+      return c.tours.length ? `<circle cx="${x}" cy="${y}" r="9" fill="url(#glow)"/><circle cx="${x}" cy="${y}" r="4.6" fill="#E2C27A" stroke="#1A3128" stroke-width="1.2"/>` : `<circle cx="${x}" cy="${y}" r="2.6" fill="#9FB3A8" fill-opacity=".75"/>`; });
+  assets.set('/assets/img/karta.svg', Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}"><defs><radialGradient id="glow"><stop offset="0" stop-color="#E2C27A" stop-opacity=".55"/><stop offset="1" stop-color="#E2C27A" stop-opacity="0"/></radialGradient></defs><rect width="${W}" height="${H}" fill="#101D17"/>${land}${pts.join('')}</svg>`));
 }
 assets.set('/assets/style.css', Buffer.from(fs.readFileSync(path.join(A, 'style.css'), 'utf8').replace(/\/assets\/[\w./-]+\.(?:woff2|jpg|avif|png|svg)/g, S.asset)));
 
@@ -96,9 +101,9 @@ const thumb = c => c.image ? c.image.path : '';
 write('data/slott.json', JSON.stringify({
   cats: data.categories.map(c => [c.slug, c.name, c.short]),
   counties: data.counties.map(c => [c.slug, c.name]),
-  // [namn, slug, kommun, länsslug, typ, kategorier, rundtur (0/1), lat, lon, bild, bredd]
+  // [namn, slug, kommun, länsslug, typ, kategorier, rundtur (0/1), lat, lon, bild, bredd, andra namn]
   castles: data.castles.map(c => [c.name, c.slug, c.kommun, c.lanSlug, c.type, c.offers.join(' '), c.tours.length ? 1 : 0,
-    c.lat != null ? r5(c.lat) : null, c.lon != null ? r5(c.lon) : null, thumb(c), c.image && c.image.w || 0]),
+    c.lat != null ? r5(c.lat) : null, c.lon != null ? r5(c.lon) : null, thumb(c), c.image && c.image.w || 0, (c.alts || []).join(' ')]),
 }));
 for (const [url, buf] of assets) write(url.slice(1), buf);
 write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#1F3A31"/><path d="M8 33V18l3.5-2.5V12h2.5v3.5L17.5 13V9h5v4l3.5 2.5V12h2.5v3.5L32 18v15" fill="none" stroke="#F3EBDB" stroke-width="2" stroke-linejoin="round"/><path d="M17 33v-6a3 3 0 0 1 6 0v6" fill="#C9A24E"/></svg>');

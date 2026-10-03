@@ -1,3 +1,3 @@
 Contact: mailto:kontakt@slottsregistret.se
-Expires: 2027-10-01T14:47:21.063Z
+Expires: 2027-10-02T10:07:39.824Z
 Preferred-Languages: sv, en

@@ -174,7 +174,7 @@ await step('jsonUrls', async () => {
         body: j.body ? JSON.stringify(j.body) : undefined, signal: AbortSignal.timeout(30000) });
       const t = await r.text();
       let data; try { data = JSON.parse(t.replace(/^﻿/, '')); } catch { data = t.slice(0, 150000); }
-      out.json[key] = { status: r.status, data };
+      out.json[key] = { status: r.status, url: r.url, data };
     } catch (e) { out.json[key] = { status: 0, error: String(e).slice(0, 160) }; }
     await sleep(300);
   }
@@ -220,17 +220,25 @@ await step('streetview', async () => {
 
 await step('search', async () => {
   out.search = out.search || {};
+  const stopAt = Date.now() + 12 * 60000; // sökningen får ta högst 12 minuter, så att körningen aldrig når tidsgränsen
   for (const q of req.search || []) {
+    if (Date.now() > stopAt) { out.search[q.id] = { status: 0, q: q.q, results: [], error: 'hann inte' }; continue; }
     try {
-      const r = await fetch('https://html.duckduckgo.com/html/?kl=se-sv&q=' + encodeURIComponent(q.q), { headers: { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36', Accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
-      const html = await r.text();
+      // DuckDuckGo svarar 202 utan träffar när det går för fort; vänta då längre och försök igen.
+      let r, html;
+      for (let t = 1; t <= 3; t++) {
+        r = await fetch('https://html.duckduckgo.com/html/?kl=se-sv&q=' + encodeURIComponent(q.q), { headers: { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36', Accept: 'text/html' }, signal: AbortSignal.timeout(20000) });
+        html = await r.text();
+        if (r.status === 200 && html.includes('result__a')) break;
+        if (t < 3) await sleep(20000 * t);
+      }
       const res = [...html.matchAll(/<a[^>]+class="result__a"[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map(m => {
         let u = m[1].replace(/&amp;/g, '&'); const mm = u.match(/[?&]uddg=([^&]+)/); if (mm) u = decodeURIComponent(mm[1]);
         return [u, m[2].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#x27;/g, "'").trim()];
       }).slice(0, 10);
       out.search[q.id] = { status: r.status, q: q.q, results: res };
     } catch (e) { out.search[q.id] = { status: 0, error: String(e).slice(0, 120) }; }
-    await sleep(1500 + Math.random() * 1000);
+    await sleep(4000 + Math.random() * 3000);
   }
   if ((req.search || []).length) note('Sökningar', req.search.length, 'med träffar', (req.search || []).filter(q => (out.search[q.id].results || []).length).length);
 });

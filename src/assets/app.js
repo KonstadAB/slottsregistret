@@ -1,5 +1,16 @@
 'use strict';
 // Gemensamt för alla sidor: menyn och snabbsökningen med förslag.
+// Bilder från Commons kan ibland inte hämtas direkt (Wikimedia begränsar nya miniatyrer): ett nytt försök efter en stund.
+document.addEventListener('error', function (e) {
+  var img = e.target;
+  if (img.tagName !== 'IMG' || img.dataset.retry || !/\/img\//.test(img.currentSrc || img.src)) return;
+  img.dataset.retry = '1';
+  setTimeout(function () { var s = img.src; if (img.srcset) img.srcset = img.srcset; img.src = ''; img.src = s; }, 2500);
+}, true);
+// Kortare exempeltext i sökrutan på smala skärmar, så att den inte klipps av.
+if (window.matchMedia && matchMedia('(max-width: 560px)').matches) {
+  [].forEach.call(document.querySelectorAll('input[data-short]'), function (i) { i.placeholder = i.dataset.short; });
+}
 (function () {
   var btn = document.querySelector('.menu-btn'), nav = document.getElementById('huvudmeny');
   if (btn && nav) {
@@ -19,7 +30,7 @@ window.SR = (function () {
     fetch('/data/slott.json').then(function (r) { return r.json(); }).then(function (j) {
       D = j;
       D.list = j.castles.map(function (c) {
-        return { n: c[0], s: c[1], k: c[2], l: c[3], t: c[4], o: c[5].split(' '), r: c[6], lat: c[7], lon: c[8], img: c[9], w: c[10], key: norm(c[0] + ' ' + c[2]) };
+        return { n: c[0], s: c[1], k: c[2], l: c[3], t: c[4], o: c[5].split(' '), r: c[6], lat: c[7], lon: c[8], img: c[9], w: c[10], key: norm(c[0] + ' ' + c[2] + ' ' + (c[11] || '')) };
       });
       D.lanName = {}; j.counties.forEach(function (x) { D.lanName[x[0]] = x[1]; });
       D.catName = {}; j.cats.forEach(function (x) { D.catName[x[0]] = x[1]; });
@@ -40,12 +51,17 @@ window.SR = (function () {
     [/^(fastning\w*|fort|kastell|skans\w*)$/, 'fastningar'],
     [/^(rundtur\w*|360|virtuell\w*|digital\w*)$/, 'tour'],
   ];
+  var PLAIN = {};
+  'bo boende hotell slottshotell sova natt weekend spa bad konferens konferenser mote moten brollop vigsel gifta fest restaurang kafe cafe mat lunch middag fika besok museum museer visning visningar oppet park parker tradgard tradgardar kunglig kungliga ruin ruiner borg borgar slottsruin slottsruiner fornborg fornborgar fastning fastningar fort kastell skans skansar rundtur rundturer 360 virtuell virtuella digital digitalt'
+    .split(' ').forEach(function (w) { PLAIN[w] = 1; });
   var STOP = { i: 1, pa: 1, slott: 1, slottet: 1, med: 1, och: 1, nara: 1, lan: 1, kommun: 1, att: 1, ett: 1, en: 1 };
   function parse(q) {
     var words = norm(q).split(' ').filter(Boolean), cat = null, lan = null, rest = [];
     words.forEach(function (w) {
       var hit = null;
       CAT_WORDS.forEach(function (cw) { if (!hit && cw[0].test(w)) hit = cw[1]; });
+      // "Borgeby", "Borgholm", "Parkudden": ett längre ord som börjar som en kategori men är början på ett namn är ett namn.
+      if (hit && !PLAIN[w] && D.list.some(function (c) { return (' ' + c.key).indexOf(' ' + w) >= 0; })) hit = null;
       if (hit && !cat) { cat = hit; return; }
       var l = null;
       Object.keys(D.lanName).forEach(function (s) { if (!l && (norm(D.lanName[s]) === w || norm(D.lanName[s]).split(' ')[0] === w && w.length > 3)) l = s; });
@@ -96,7 +112,7 @@ window.SR = (function () {
         var r = SR.search(q), page = SR.pageFor(r.p), rows = [];
         if (page) rows.push('<li role="option"><a href="' + page.u + '"><span class="s-cat">' + esc(page.t) + '</span></a></li>');
         r.hits.slice(0, 7).forEach(function (c) {
-          rows.push('<li role="option"><a href="/slott/' + c.s + '/"><span class="' + (c.r ? 'gold' : 'grey') + '" aria-hidden="true"></span><span>' + esc(c.n) + '<small>' + esc(c.k + ' · ' + D.lanName[c.l]) + (c.r ? ' · virtuell rundtur' : '') + '</small></span></a></li>');
+          rows.push('<li role="option"><a href="/slott/' + c.s + '/"><span class="' + (c.r ? 'gold' : 'grey') + '" aria-hidden="true"></span><span>' + esc(c.n) + '<small>' + esc(c.k === D.lanName[c.l] ? c.k : c.k + ' · ' + D.lanName[c.l]) + (c.r ? ' · virtuell rundtur' : '') + '</small></span></a></li>');
         });
         if (!rows.length) rows.push('<li class="small" style="padding:8px 10px">Inga träffar. Tryck Sök för att söka bredare.</li>');
         box.innerHTML = rows.join(''); box.hidden = false; input.setAttribute('aria-expanded', 'true'); sel = -1;

@@ -1,0 +1,48 @@
+# Förhandsvisning för designarbete: bygger grenen, laddar upp den som en förhandsversion av Workern (utan att röra den
+# publicerade sajten) på https://granska-slottsregistret.konstadab.workers.dev och tar skärmbilder (dator och mobil) av
+# sidorna i data/source/granska.txt. Bilderna sparas på grenen claude/granska-bilder (skrivs över varje gång), så att de
+# går att titta på från arbetsmiljön.
+name: Granska
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['data/source/granska.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: granska
+  cancel-in-progress: true
+jobs:
+  granska:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.js
+      - name: Ladda upp förhandsversion
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 36f39bea33a1d0e03815a8b01039efea
+        run: |
+          mkdir -p ut
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "Ingen Cloudflare-nyckel" > ut/logg.txt; exit 0; fi
+          npx -y wrangler@4 versions upload --preview-alias granska --message "Granska $(git rev-parse --short HEAD)" > ut/logg.txt 2>&1 || true
+          tail -20 ut/logg.txt
+      - name: Skärmbilder
+        run: |
+          cd tools && npm init -y >/dev/null && npm i -s playwright@1 >/dev/null && npx playwright install --with-deps chromium >/dev/null 2>&1
+          node granska.mjs ../data/source/granska.txt ../ut >> ../ut/logg.txt 2>&1 || true
+      - name: Spara bilderna
+        if: always()
+        run: |
+          cd ut
+          git init -q -b claude/granska-bilder
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "$GITHUB_SHA" > kalla.txt
+          git add -A && git commit -qm "Skärmbilder för $GITHUB_SHA"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" claude/granska-bilder

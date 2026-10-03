@@ -21,7 +21,9 @@ S = load('data/slott.json', [])
 V = load('data/source/svar.json', {})
 MATCH = load('data/source/matchning.json', {})
 MAN = load('data/manuellt.json', {})
-TOURS = load('data/rundturer.json', {})
+# Bara rundturer där man kan röra sig mellan platser räknas (Daniels regel 2 okt): kind 'walk'.
+# Enstaka 360-bilder ('look', 'view') ligger kvar i rundturer.json men visas inte.
+TOURS = {k: [t for t in v if t.get('kind') == 'walk'] for k, v in load('data/rundturer.json', {}).items()}
 E, WIKI, COM, GEO, PAGES = V.get('entities', {}), V.get('wiki', {}), V.get('commons', {}), V.get('geocode', {}), V.get('pages', {})
 
 def slug(s):
@@ -98,7 +100,8 @@ for c in S:
     m = MAN.get(c['id'], {})
     if m.get('skip'):
         continue
-    qid = m.get('qid') or MATCH.get(c['id'])
+    # qid: null i manuellt.json betyder att ingen Wikidata-post stämmer (matchningen var fel).
+    qid = m['qid'] if 'qid' in m else MATCH.get(c['id'])
     e = E.get(qid, {}) if qid else {}
     lat, lon = m.get('lat', e.get('lat')), m.get('lon', e.get('lon'))
     if lat is None and GEO.get(c['id']):
@@ -117,8 +120,11 @@ for c in S:
         'qid': qid, 'lat': lat, 'lon': lon, 'inception': e.get('inception'), 'website': website,
         'image': image, 'wiki': wiki_intro(m.get('article', e.get('article'))),
         'text': m.get('text'),
+        # Andra namn och stavningar (Wikidata, Wikipedia), så att sökningen hittar t.ex. Engsö och Leufsta.
+        'alts': m['alts'] if 'alts' in m else sorted({a for a in (e.get('alts') or []) + [((wiki_intro(m.get('article', e.get('article'))) or {}).get('title') or '')] if a and a != c['name']})[:6],
         'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
-        'tours': sorted(TOURS.get(c['id'], []), key=lambda t: not t.get('embed')),
+        # Slottets egna källor först, Google Maps sist (Daniel 3 okt); inom varje grupp de som går att visa på sidan.
+        'tours': sorted(TOURS.get(c['id'], []), key=lambda t: (t.get('source') == 'streetview', not t.get('embed'))),
     }
     if lat is None:
         problems.append(f"saknar läge: {c['name']}")
