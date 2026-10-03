@@ -250,7 +250,8 @@
   "lat": 59.6042,
   "lon": 17.0498,
   "why": "Wikidata-matchningen var Haga slott i Solna (= Hagaslottet).",
-  "image": "Haga slott, Enköping, juli 2018.jpg"
+  "image": "Haga slott, Enköping, juli 2018.jpg",
+  "text": "Haga slott ligger vid Svinnegarnsviken i Mälaren, några kilometer söder om Enköping. Slottet är i dag hotell med konferens, spa, restaurang och bröllop."
  },
  "salnecke-slott": {
   "website": "https://www.salneckeslott.se/"
@@ -272,7 +273,8 @@
   "lat": 62.5987,
   "lon": 12.1781,
   "why": "Wikidata-matchningen var Fjällnäs slott i Gällivare; hotellet ligger i Fjällnäs, Härjedalen.",
-  "image": "Fjällnäs1.jpg"
+  "image": "Fjällnäs1.jpg",
+  "text": "Fjällnäs ligger i Härjedalsfjällen och kallar sig Sveriges äldsta fjällhotell – de första gästerna kom för omkring 140 år sedan. I dag finns här hotell, restaurang, spa och konferens."
  },
  "venngarns-slott": {
   "website": "https://www.venngarn.se/"
