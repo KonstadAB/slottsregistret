@@ -46,7 +46,7 @@
   Hemligheter kan inte läggas in härifrån (proxyn spärrar GitHubs secrets-API); be Daniel om det behövs fler.
 - Cloudflare-zonen slottsregistret.se är skapad (id ea79ee838c7bee0ef2100f012784f653, status pending, namnservrar ian.ns.cloudflare.com och
   kimora.ns.cloudflare.com). Inga DNS-poster importerades (hos One.com fanns bara deras parkeringssida och MX "0 .").
-- Domänen är registrerad hos One.com. Daniel stängde av DNSSEC där 2 okt kl. 16.16. DS-posten (1094 13 2 9CDD…) fanns kvar hos .se kl. 16.20.
+- Domänen är registrerad hos One.com. Daniel stängde av DNSSEC där 2 okt kl. 16.16. DS-posten (1094 13 2 9CDD…) fanns kvar hos .se kl. 16.20. DS-posten var BORTA 3 okt 06.30 UTC (NS fortfarande One.com) – nästa steg är namnserverbytet.
   NÄSTA STEG: kontrollera DS (jsonUrls `https://dns.google/resolve?name=slottsregistret.se&type=DS`). När den är borta: guida Daniel att byta
   namnservrar hos One.com (https://www.one.com/admin/dns.do, välj slottsregistret.se, fliken Namnserver) till ian/kimora. När zonen är aktiv:
   lägg till slottsregistret.se och www som egna domäner på Workern (API: PUT /accounts/{account}/workers/domains), slå på DNSSEC i Cloudflare och
