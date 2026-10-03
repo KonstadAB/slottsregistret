@@ -89,6 +89,12 @@
   - Kommun rättad för 12 slott där Wikidata och Wikipedia var överens mot grundlistan (Boo, Haddebo, Svenstorp, Dybäck,
     Näsbyholm, Beritsholm, Tureborg, Dagsnäs, Huseby, Mem, Elghammar, Ekholmen). Koberg kvar (källorna oense).
 - Sökmotorbeskrivning per slott: läge + "Här kan du bo, ha konferens …" + hela meningar ur texten upp till ~165 tecken.
+- Rundturer (3 okt natt): 23 → 28 slott. Nya: Mårbacka (Kuula, 5 punkter ute och inne, inbäddad), Almnäs (Panotour med
+  flygbild, länk), Glimmingehus (3D-modeller rum för rum på Sketchfab, länk). Kungliga slottens 360-visningar med flera
+  punkter att gå mellan räknas nu som `walk`: Rikssalen, Gustav III:s antikmuseum, Vasa till Bernadotte, Ehrenstrahlsalongen,
+  Ulriksdal. Enskilda rum utan förflyttning (Gripsholms rum, Hedvig Eleonoras sängkammare) är kvar som `look`.
+  Daniel bör bekräfta att Mårbacka (5 punkter) och Glimmingehus (3D) räknas enligt hans regel.
+- Granska kan nu fotografera andra sidor (hel adress på en rad) och trycka på rundturens startknapp (`/slott/x/ start`).
 - Länssidorna har en ingress byggd av registret (kända slott, hur många man kan bo på / gifta sig på / besöka).
 - Bilder: första gången en miniatyr begärs kan Wikimedia svara 429, och Cloudflares cache gäller bara per datacenter.
   Långsiktigt bättre: lägg miniatyrerna i R2 (en gång hämtad = sparad för alla). Kräver att Daniel slår på R2 i
