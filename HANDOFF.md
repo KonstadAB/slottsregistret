@@ -89,6 +89,10 @@
   - Kommun rättad för 12 slott där Wikidata och Wikipedia var överens mot grundlistan (Boo, Haddebo, Svenstorp, Dybäck,
     Näsbyholm, Beritsholm, Tureborg, Dagsnäs, Huseby, Mem, Elghammar, Ekholmen). Koberg kvar (källorna oense).
 - Sökmotorbeskrivning per slott: läge + "Här kan du bo, ha konferens …" + hela meningar ur texten upp till ~165 tecken.
+- Länssidorna har en ingress byggd av registret (kända slott, hur många man kan bo på / gifta sig på / besöka).
+- Bilder: första gången en miniatyr begärs kan Wikimedia svara 429, och Cloudflares cache gäller bara per datacenter.
+  Långsiktigt bättre: lägg miniatyrerna i R2 (en gång hämtad = sparad för alla). Kräver att Daniel slår på R2 i
+  Cloudflare (betalkort/villkor) – föreslå när domänen är klar.
 - Sökningen i hamta.mjs (DuckDuckGo) försöker igen vid 202 och har en tidsgräns på 12 min, så körningen aldrig går över tid.
   Gissa hellre adresser direkt med `textPages` – snabbare och säkrare.
 
