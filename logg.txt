@@ -1,0 +1,41 @@
+
+ ⛅️ wrangler 4.147.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 839 files from the assets directory /home/runner/work/slottsregistret/slottsregistret/dist
+🌀 Starting asset upload...
+🌀 Found 1 new or modified static asset to upload. Proceeding with upload...
++ /.well-known/security.txt
+Uploaded 1 of 1 asset
+✨ Success! Uploaded 1 file (436 already uploaded) (0.53 sec)
+
+Total Upload: 7.76 KiB / gzip: 3.07 KiB
+Worker Startup Time: 1 ms
+Your Worker has access to the following bindings:
+Binding                              Resource        
+env.FORM_LIMIT (5 requests/60s)      Rate Limit      
+env.ASSETS                           Assets          
+
+Uploaded slottsregistret (2.39 sec)
+Worker Version ID: d42b950e-f14a-4b52-ad6d-6f2c86e4306e
+Version Preview URL: https://d42b950e-slottsregistret.konstadab.workers.dev
+Version Preview Alias URL: https://granska-slottsregistret.konstadab.workers.dev
+
+To deploy this version to production traffic use the command wrangler versions deploy
+
+Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy
+
+Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy
+
+ok dator /
+ok dator /virtuella-rundturer/
+ok dator /slott/marbacka/
+ok dator /slott/glimmingehus/
+ok dator /lan/blekinge/
+ok dator /sok/?q=bröllop%20skåne
+ok mobil /
+ok mobil /virtuella-rundturer/
+ok mobil /slott/marbacka/
+ok mobil /slott/glimmingehus/
+ok mobil /lan/blekinge/
+ok mobil /sok/?q=bröllop%20skåne
