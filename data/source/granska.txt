@@ -1,9 +1,5 @@
-# 2026-10-02T23:58:09Z nya bilder, platser och länkar
-/slott/gronsoo-slott/
-/slott/yxtaholms-slott/
-/slott/haga-slott/
+# 2026-10-03T00:01:32Z texter och bilder
 /slott/fjallnas/
-/slott/svaneholms-slott/
-/lan/jamtland/
-/lan/uppsala/
-/
+/slott/haga-slott/
+/slott/braborgs-slottsruin/
+/slott/karnan/

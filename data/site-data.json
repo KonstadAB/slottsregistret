@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02",
+ "built": "2026-10-03",
  "castles": [
   {
    "id": "malmohus",
@@ -77,7 +77,10 @@
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Bridge_over_the_stairs_of_K%C3%A4rnan.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Kärnan",
+    "text": "Kärnan är ett torn som är den enda kvarstående byggnaden av det medeltida Helsingborgs slott.\nDendrokronologisk datering har visat att Kärnan byggdes på 1310-talet, då Erik Menved var kung i Danmark. Tornet är 35 meter högt (den sammanbyggda trappturellen – trapptornet – är 38,5 meter högt) och ligger i sin tur på landborgen. Vid klart väder så kan man tydligt se Turning Torso och Öresundsbron från kikarna på Kärnans topp.\nByggnaden var ursprungligen ett befäst bostadstorn med 8 våningar som förbands med varandra genom en spiraltrappa. I de nedtill 4,5 meter tjocka murarna finns i varje våning inbyggda tornkamrar som är försedda med smala skottgluggar. Tornet har varit omgivet av en ringmur."
+   },
    "text": null,
    "offers": [
     "besok",
@@ -2752,7 +2755,10 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Karlshamns_kastell.JPG"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Karlshamns kastell",
+    "text": "Karlshamns kastell är en befästning på Frisholmen i Karlshamns hamninlopp."
+   },
    "text": null,
    "offers": [
     "fastningar"
@@ -2927,7 +2933,10 @@
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Vapn%C3%B6_slott.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Vapnö slott",
+    "text": "Vapnö är ett slott i Vapnö socken i Halmstads kommun, Halland. \nDen äldsta huvudbyggnaden brann ned 1733. Det nuvarande corps-de-logiet uppfördes vid mitten av 1700-talet. Det är ett tvåvånings stenhus täckt med mansardtak. Mittpartiet är delat av pilastrar. Ena fasaden vetter mot en trång gård, begränsad av två envåningsflyglar med brutna plåttak. Framför gården finns en vallgrav med en stenbro över. Den andra fasaden är vänd åt norr mot en trädgård, som förr varit sjö."
+   },
    "text": null,
    "offers": [
     "brollop-och-fest",
@@ -3027,7 +3036,10 @@
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sperlingsholm_maj_2015-1.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Sperlingsholm",
+    "text": "Sperlingsholm (tidigare  Klackerup) är ett gods i Övraby socken i Halmstads kommun, som efter 1648 blivit namngivet efter ätten Sperling. Sperlingsholm ligger strax utanför Halmstad, vid Nissan."
+   },
    "text": null,
    "offers": [],
    "tours": []
@@ -3843,7 +3855,10 @@
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:H%C3%B6jentorp,_k%C3%A4llarruinen_av_det_ursprungliga_slottet,_i_Skara_kommun,_den_7_juni_2006.JPG"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Höjentorp",
+    "text": "Höjentorp är en kungsgård i Eggby socken i Skara kommun i Västergötland. Den är belägen på en halvö vid den mångbuktiga sjön Skärvalången. \nKungsgården uppfördes 1740–1759 och gården är ett statligt byggnadsminne sedan den 25 januari 1935. Vid kungsgården fanns under tidsperioden 1647–1722 Höjentorp slott. Området kring kungsgården utgörs av naturreservatet Höjentorp-Drottningkullen.\nDen nuvarande nyklassicistiska herrgården i två våningar med envåningsflyglar härrör troligen från 1730-talet. Huvudbyggnaden byggdes 1740–1759 och bottenvåning påbyggdes 1814–1817. \nÄven den södra flygeln byggdes 1814–1817. Den norra flygeln är antagligen äldre än den södra."
+   },
    "text": null,
    "offers": [],
    "tours": []
@@ -5209,7 +5224,10 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Stj%C3%A4rnorps_slottsruin_%C3%96g.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Stjärnorps slott",
+    "text": "Stjärnorp (äldre stavning även Stiernorp eller Stiernarp) är ett slott i Stjärnorps socken i nuvarande Linköpings kommun i Östergötland. Den gamla huvudbyggnaden förstördes i en brand 1789 och står kvar som en ruin. Numera fungerar en av flygelbyggnaderna som huvudbyggnad."
+   },
    "text": null,
    "offers": [
     "besok",
@@ -5269,7 +5287,15 @@
    "lon": 16.343694,
    "inception": null,
    "website": null,
-   "image": null,
+   "image": {
+    "file": "Bråborgs slottsruin, den 23 april 2009.JPG",
+    "path": "9/97/Bråborgs_slottsruin,_den_23_april_2009.JPG",
+    "w": 1280,
+    "h": 960,
+    "artist": "Västgöten",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Br%C3%A5borgs_slottsruin,_den_23_april_2009.JPG"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -5878,7 +5904,10 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Yxtaholm_huvudbyggnad,_nov_2021c.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Yxtaholm",
+    "text": "Yxtaholm är en slottsliknande herrgård i Mellösa socken i Flens kommun, Södermanland. Byggnaden har ett dominerande läge på en udde i Yxtasjön. Anläggningen är sedan 2010 hotell med restaurang och konferensverksamhet."
+   },
    "text": null,
    "offers": [
     "bo-pa-slott",
@@ -6851,7 +6880,10 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:H%C3%A4ringe_slott_2014.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Häringe slott",
+    "text": "Häringe är ett tidigare säteri i Västerhaninge socken i Haninge kommun på Södertörn i Södermanland. Nuvarande huvudbyggnaden uppfördes på initiativ av Gustaf Horn och stod färdig 1657. Häringe slott har under åren haft flera kända ägare, bland dem Gustav II Adolf, Fabian Löwen, Torsten Kreuger, Axel Wenner-Gren och Olle Hartwig. Sedan 2017 ägs anläggningen av Vesko Mijac, som driver hotell- och konferensverksamhet. Slottet ligger vid Landfjärden och inom Häringe-Hammersta naturreservat."
+   },
    "text": null,
    "offers": [
     "bo-pa-slott",
@@ -8021,7 +8053,10 @@
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Gr%C3%B6ns%C3%B6%C3%B6_slott.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Grönsö slott",
+    "text": "Grönsö slott (äldre stavning Grönsöö) ligger vid Grönsösundet på ön Grönsö i Mälaren. Egendomen ligger i Kungs-Husby socken i gamla Trögds härad i Enköpings kommun i Uppland. Huvudbyggnaden härrör från början av 1600-talet men fick sin nuvarande enkla utformning på 1730-talet. Huvudbyggnaden, paviljongen och tomten är sedan 1964 ett lagskyddat byggnadsminne."
+   },
    "text": null,
    "offers": [
     "besok",
@@ -8045,7 +8080,15 @@
    "lon": 17.0498,
    "inception": null,
    "website": "https://www.hagaslott.se/",
-   "image": null,
+   "image": {
+    "file": "Haga slott, Enköping, juli 2018.jpg",
+    "path": "f/f6/Haga_slott,_Enköping,_juli_2018.jpg",
+    "w": 4755,
+    "h": 3375,
+    "artist": "Holger.Ellgaard",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Haga_slott,_Enk%C3%B6ping,_juli_2018.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
@@ -8228,7 +8271,10 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sj%C3%B6%C3%B6_Castle.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Sjö slott",
+    "text": "Sjö (ofta används den äldre stavningen Sjöö) är ett slott i Holms socken i Enköpings kommun i Uppland."
+   },
    "text": null,
    "offers": [],
    "tours": []
@@ -8293,7 +8339,10 @@
     "license": "CC BY 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:L%C3%B6vstabruk_4.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Lövstabruk",
+    "text": "Lövstabruk (äldre stavning Leufsta bruk) är en småort i Österlövsta socken i Tierps kommun med cirka 100 invånare. \nLövstabruk är ett internationellt känt vallonbruk. Här finns bland annat Leufsta herrgård. I Lövstabruks kyrka finns en berömd orgel, den så kallade Cahmanorgeln. Lövstabruk är i dag ett byggnadsminne. Herrgården och herrgårdsparken med flera byggnader förvaltas numera av Statens fastighetsverk."
+   },
    "text": null,
    "offers": [
     "besok",
@@ -8917,7 +8966,10 @@
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Gysinge_herrg%C3%A5rd.jpg"
    },
-   "wiki": null,
+   "wiki": {
+    "title": "Gysinge",
+    "text": "Gysinge är ett samhälle i Sandvikens kommun, i Österfärnebo socken vid Dalälven intill gränsen mellan Gästrikland och Uppland. SCB har för bebyggelsen i orten avgränsat en småort, före 1995 en tätort som delades 1995 där dess södra del bildade småorten Mattön (Gysinge (södra delen)).\nGysinge var Gästriklands största järnbruk i slutet av 1800-talet, och än i dag kan man beskåda det välbevarade minnet av ortens vallonbruk vid Dalälvens strand. Bruket ingår i turistsatsningen Järnriket Gästrikland."
+   },
    "text": null,
    "offers": [
     "bo-pa-slott",
@@ -8979,7 +9031,15 @@
    "lon": 12.1781,
    "inception": null,
    "website": "https://www.fjallnas.se/",
-   "image": null,
+   "image": {
+    "file": "Fjällnäs1.jpg",
+    "path": "8/8c/Fjällnäs1.jpg",
+    "w": 4032,
+    "h": 3024,
+    "artist": "Gotogo",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fj%C3%A4lln%C3%A4s1.jpg"
+   },
    "wiki": null,
    "text": null,
    "offers": [
