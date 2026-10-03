@@ -101,9 +101,9 @@ const thumb = c => c.image ? c.image.path : '';
 write('data/slott.json', JSON.stringify({
   cats: data.categories.map(c => [c.slug, c.name, c.short]),
   counties: data.counties.map(c => [c.slug, c.name]),
-  // [namn, slug, kommun, länsslug, typ, kategorier, rundtur (0/1), lat, lon, bild, bredd]
+  // [namn, slug, kommun, länsslug, typ, kategorier, rundtur (0/1), lat, lon, bild, bredd, andra namn]
   castles: data.castles.map(c => [c.name, c.slug, c.kommun, c.lanSlug, c.type, c.offers.join(' '), c.tours.length ? 1 : 0,
-    c.lat != null ? r5(c.lat) : null, c.lon != null ? r5(c.lon) : null, thumb(c), c.image && c.image.w || 0]),
+    c.lat != null ? r5(c.lat) : null, c.lon != null ? r5(c.lon) : null, thumb(c), c.image && c.image.w || 0, (c.alts || []).join(' ')]),
 }));
 for (const [url, buf] of assets) write(url.slice(1), buf);
 write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#1F3A31"/><path d="M8 33V18l3.5-2.5V12h2.5v3.5L17.5 13V9h5v4l3.5 2.5V12h2.5v3.5L32 18v15" fill="none" stroke="#F3EBDB" stroke-width="2" stroke-linejoin="round"/><path d="M17 33v-6a3 3 0 0 1 6 0v6" fill="#C9A24E"/></svg>');

@@ -254,7 +254,11 @@
  },
  "lovstabruk": {
   "website": "https://lovstabruk.com/",
-  "article": "Lövstabruk"
+  "article": "Lövstabruk",
+  "alts": [
+   "Leufsta bruk",
+   "Leufsta herrgård"
+  ]
  },
  "karlslunds-herrgard": {
   "website": "https://karlslund.com/"

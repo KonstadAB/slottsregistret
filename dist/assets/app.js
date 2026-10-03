@@ -30,7 +30,7 @@ window.SR = (function () {
     fetch('/data/slott.json').then(function (r) { return r.json(); }).then(function (j) {
       D = j;
       D.list = j.castles.map(function (c) {
-        return { n: c[0], s: c[1], k: c[2], l: c[3], t: c[4], o: c[5].split(' '), r: c[6], lat: c[7], lon: c[8], img: c[9], w: c[10], key: norm(c[0] + ' ' + c[2]) };
+        return { n: c[0], s: c[1], k: c[2], l: c[3], t: c[4], o: c[5].split(' '), r: c[6], lat: c[7], lon: c[8], img: c[9], w: c[10], key: norm(c[0] + ' ' + c[2] + ' ' + (c[11] || '')) };
       });
       D.lanName = {}; j.counties.forEach(function (x) { D.lanName[x[0]] = x[1]; });
       D.catName = {}; j.cats.forEach(function (x) { D.catName[x[0]] = x[1]; });
