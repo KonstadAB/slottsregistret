@@ -14,7 +14,7 @@
     list.innerHTML = r.hits.slice(0, 120).map(function (c) {
       var img = SR.thumb(c, 500);
       return '<li class="card' + (c.r ? ' has-tour' : '') + '"><a href="/slott/' + c.s + '/"><span class="card-img">' + (img ? '<img src="' + esc(img) + '" alt="" loading="lazy">' : '<span class="ph"></span>') + (c.r ? '<span class="lit">' + DOOR + 'Kliv in<span class="visually-hidden">: virtuell rundtur</span></span>' : '') +
-        '</span><span class="card-body"><small class="card-loc">' + esc(c.k + ' · ' + D.lanName[c.l]) + '</small><strong>' + esc(c.n) + '</strong></span></a></li>';
+        '</span><span class="card-body"><small class="card-loc">' + esc(c.k === D.lanName[c.l] ? c.k : c.k + ' · ' + D.lanName[c.l]) + '</small><strong>' + esc(c.n) + '</strong></span></a></li>';
     }).join('');
   });
 })();

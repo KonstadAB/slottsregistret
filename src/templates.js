@@ -132,7 +132,7 @@ function card(S, c, opts = {}) {
   <a href="${castleURL(c)}">
     <span class="card-img">${img ? `<img src="${esc(img)}" alt="" loading="lazy" decoding="async" width="500" height="375">` : '<span class="ph" aria-hidden="true"></span>'}${c.tours.length ? `<span class="lit" title="${esc(kind)}">${TOUR_ICON}Kliv in<span class="visually-hidden">: ${esc(kind)}</span></span>` : ''}</span>
     <span class="card-body">
-      <small class="card-loc">${esc(c.kommun)}${opts.noCounty ? '' : ` · ${esc(c.lan)}`}</small>
+      <small class="card-loc">${esc(c.kommun)}${opts.noCounty || c.kommun === c.lan ? '' : ` · ${esc(c.lan)}`}</small>
       <strong>${esc(c.name)}</strong>
       ${offers.length ? `<small class="card-offers">${offers.map(o => esc(o.short)).join(' · ')}</small>` : ''}
     </span>
