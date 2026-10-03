@@ -7,6 +7,10 @@ document.addEventListener('error', function (e) {
   img.dataset.retry = '1';
   setTimeout(function () { var s = img.src; if (img.srcset) img.srcset = img.srcset; img.src = ''; img.src = s; }, 2500);
 }, true);
+// Kortare exempeltext i sökrutan på smala skärmar, så att den inte klipps av.
+if (window.matchMedia && matchMedia('(max-width: 560px)').matches) {
+  [].forEach.call(document.querySelectorAll('input[data-short]'), function (i) { i.placeholder = i.dataset.short; });
+}
 (function () {
   var btn = document.querySelector('.menu-btn'), nav = document.getElementById('huvudmeny');
   if (btn && nav) {

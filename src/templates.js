@@ -153,7 +153,7 @@ function coverage(n, total, label) {
 function searchBox(S, big = false) {
   return `<form class="search${big ? ' search-big' : ''}" action="/sok/" role="search">
   <label class="visually-hidden" for="q${big ? 'h' : ''}">Sök slott, ort, län eller vad du vill göra</label>
-  <input id="q${big ? 'h' : ''}" name="q" type="search" autocomplete="off" placeholder="Sök slott, ort eller t.ex. ”bröllop Skåne”" data-search>
+  <input id="q${big ? 'h' : ''}" name="q" type="search" autocomplete="off" placeholder="Sök slott, ort eller t.ex. ”bröllop Skåne”" data-short="Sök slott eller ”bröllop Skåne”" data-search>
   <button type="submit">Sök</button>
   <ul class="suggest" role="listbox" hidden></ul>
 </form>`;
