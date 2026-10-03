@@ -63,7 +63,8 @@
  },
  "johannesbergs-slott": {
   "qid": "Q31890033",
-  "website": "https://www.johannesbergsslott.se/"
+  "website": "https://www.johannesbergsslott.se/",
+  "article": "Johannesbergs slott"
  },
  "rossjoholms-slott": {
   "qid": "Q6467965",
@@ -89,10 +90,12 @@
  "gysinge-herrgard": {
   "qid": "Q129324485",
   "website": "https://www.gysinge.se/",
-  "image": "Gysinge herrgård.jpg"
+  "image": "Gysinge herrgård.jpg",
+  "article": "Gysinge"
  },
  "karnan": {
-  "website": "https://www.karnan.se/"
+  "website": "https://www.karnan.se/",
+  "article": "Kärnan"
  },
  "bosjokloster": {
   "website": "https://bosjokloster.com/"
@@ -153,11 +156,13 @@
  },
  "wapno-slott": {
   "website": "https://www.wapnoslott.se/",
-  "image": "Vapnö slott.jpg"
+  "image": "Vapnö slott.jpg",
+  "article": "Wapnö slott"
  },
  "sperlingsholms-slott": {
   "website": "https://www.sperlingsholm.se/",
-  "image": "Sperlingsholm maj 2015-1.jpg"
+  "image": "Sperlingsholm maj 2015-1.jpg",
+  "article": "Sperlingsholm"
  },
  "naas-slott": {
   "website": "https://www.naas.se/",
@@ -200,14 +205,16 @@
  },
  "yxtaholms-slott": {
   "website": "https://www.yxtaholmsslott.se/",
-  "image": "Yxtaholm huvudbyggnad, nov 2021c.jpg"
+  "image": "Yxtaholm huvudbyggnad, nov 2021c.jpg",
+  "article": "Yxtaholms slott"
  },
  "oster-malma": {
   "website": "https://www.ostermalma.se/"
  },
  "haringe-slott": {
   "website": "https://www.haringeslott.se/",
-  "image": "Häringe slott 2014.jpg"
+  "image": "Häringe slott 2014.jpg",
+  "article": "Häringe slott"
  },
  "nasby-slott": {
   "website": "https://www.nasbyslott.se/",
@@ -229,20 +236,23 @@
  },
  "gronsoo-slott": {
   "website": "https://www.gronsoo.se/",
-  "image": "Grönsöö slott.jpg"
+  "image": "Grönsöö slott.jpg",
+  "article": "Grönsöö slott"
  },
  "haga-slott": {
   "website": "https://www.hagaslott.se/",
   "qid": null,
   "lat": 59.6042,
   "lon": 17.0498,
-  "why": "Wikidata-matchningen var Haga slott i Solna (= Hagaslottet)."
+  "why": "Wikidata-matchningen var Haga slott i Solna (= Hagaslottet).",
+  "image": "Haga slott, Enköping, juli 2018.jpg"
  },
  "salnecke-slott": {
   "website": "https://www.salneckeslott.se/"
  },
  "lovstabruk": {
-  "website": "https://lovstabruk.com/"
+  "website": "https://lovstabruk.com/",
+  "article": "Lövstabruk"
  },
  "karlslunds-herrgard": {
   "website": "https://karlslund.com/"
@@ -252,7 +262,8 @@
   "qid": null,
   "lat": 62.5987,
   "lon": 12.1781,
-  "why": "Wikidata-matchningen var Fjällnäs slott i Gällivare; hotellet ligger i Fjällnäs, Härjedalen."
+  "why": "Wikidata-matchningen var Fjällnäs slott i Gällivare; hotellet ligger i Fjällnäs, Härjedalen.",
+  "image": "Fjällnäs1.jpg"
  },
  "venngarns-slott": {
   "website": "https://www.venngarn.se/"
@@ -357,19 +368,28 @@
   "website": "https://glimmingehus.se/"
  },
  "sjoo-slott": {
-  "image": "Sjöö Castle.jpg"
+  "image": "Sjöö Castle.jpg",
+  "article": "Sjöö slott"
  },
  "bergkvara-slottsruin": {
   "image": "Bergkvara - Slottsruin-1 05092014 AP.JPG"
  },
  "stjarnorps-slottsruin": {
-  "image": "Stjärnorps slottsruin Ög.jpg"
+  "image": "Stjärnorps slottsruin Ög.jpg",
+  "article": "Stjärnorps slott"
  },
  "kastellet-karlshamn": {
-  "image": "Karlshamns kastell.JPG"
+  "image": "Karlshamns kastell.JPG",
+  "article": "Kastellet, Karlshamn"
  },
  "rosendals-slott-skane": {
   "skip": true,
   "why": "Gick inte att bekräfta; Wikidata-matchningen var Rosendal på Djurgården. Visas inte förrän vi vet var det ligger."
+ },
+ "hojentorps-slott": {
+  "article": "Höjentorp"
+ },
+ "braborgs-slottsruin": {
+  "image": "Bråborgs slottsruin, den 23 april 2009.JPG"
  }
 }
