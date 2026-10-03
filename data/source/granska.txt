@@ -1,5 +1,4 @@
-# 2026-10-03T00:01:32Z texter och bilder
-/slott/fjallnas/
-/slott/haga-slott/
-/slott/braborgs-slottsruin/
-/slott/karnan/
+# 2026-10-03T00:04:49Z länsingresser
+/lan/skane/
+/lan/norrbotten/
+/slott/boo-slott/
