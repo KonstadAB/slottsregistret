@@ -1,3 +1,2 @@
-# 2026-10-03T00:15:36Z nya rundturer
-/slott/marbacka/
-/slott/almnas-slott/
+# 2026-10-03T00:17:03Z prova att starta rundturen
+/slott/marbacka/ start
