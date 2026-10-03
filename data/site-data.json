@@ -162,7 +162,18 @@
     "borgar-och-ruiner",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "glimmingehus-3d",
+     "kind": "walk",
+     "provider": "Glimmingehus (Riksantikvarieämbetet)",
+     "credit": [],
+     "url": "https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/",
+     "source": "slottets webbplats",
+     "checked": "2026-10-03",
+     "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster."
+    }
+   ]
   },
   {
    "id": "bosjokloster",
@@ -6370,7 +6381,41 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "ks-rikssalen",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Rikssalen",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/rikssalen/",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
+    },
+    {
+     "id": "ks-antik",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Gustav III:s antikmuseum",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
+    },
+    {
+     "id": "ks-vasa",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Utställningen Vasa till Bernadotte",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/vasa-to-bernadotte",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
+    }
+   ]
   },
   {
    "id": "drottningholms-slott",
@@ -6419,6 +6464,17 @@
      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsOW5HeFFF",
      "source": "streetview",
      "checked": "2026-10-02"
+    },
+    {
+     "id": "ks-ehrenstrahl",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Ehrenstrahlsalongen",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
     }
    ]
   },
@@ -6492,7 +6548,19 @@
     "besok",
     "kungliga-slott"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "ks-ulriksdal",
+     "kind": "walk",
+     "provider": "Kungliga slotten",
+     "title": "Vardagsrummet",
+     "embed": null,
+     "url": "https://vr.kungligaslotten.se/ulriksdal",
+     "source": "kungligaslotten.se",
+     "checked": "2026-10-03",
+     "note": "Flera punkter att gå mellan (provat 3 okt)."
+    }
+   ]
   },
   {
    "id": "hagaslottet",
@@ -9119,7 +9187,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 7
+   "withTour": 8
   },
   {
    "name": "Blekinge",
@@ -9189,7 +9257,7 @@
    "full": "Stockholms län",
    "slug": "stockholm",
    "total": 43,
-   "withTour": 3
+   "withTour": 5
   },
   {
    "name": "Uppsala",
@@ -9332,7 +9400,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 25,
+  "withTour": 28,
   "located": 250
  }
 }

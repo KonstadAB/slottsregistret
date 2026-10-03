@@ -18,13 +18,14 @@
  "drottningholms-slott": [
   {
    "id": "ks-ehrenstrahl",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Ehrenstrahlsalongen",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-hedvig",
@@ -203,33 +204,36 @@
  "stockholms-slott": [
   {
    "id": "ks-rikssalen",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Rikssalen",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/rikssalen/",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-antik",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Gustav III:s antikmuseum",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   },
   {
    "id": "ks-vasa",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Utställningen Vasa till Bernadotte",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/vasa-to-bernadotte",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   }
  ],
  "teleborgs-slott": [
@@ -586,13 +590,14 @@
  "ulriksdals-slott": [
   {
    "id": "ks-ulriksdal",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Vardagsrummet",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/ulriksdal",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-10-03",
+   "note": "Flera punkter att gå mellan (provat 3 okt)."
   }
  ],
  "marbacka": [
@@ -620,6 +625,18 @@
    "source": "slottets webbplats",
    "checked": "2026-10-03",
    "note": "Panotour med flygbild och flera punkter runt slottet (länkad från almnas.com). Öppnas i nytt fönster; inbäddning ej provad."
+  }
+ ],
+ "glimmingehus": [
+  {
+   "id": "glimmingehus-3d",
+   "kind": "walk",
+   "provider": "Glimmingehus (Riksantikvarieämbetet)",
+   "credit": [],
+   "url": "https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/",
+   "source": "slottets webbplats",
+   "checked": "2026-10-03",
+   "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster."
   }
  ]
 }

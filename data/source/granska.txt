@@ -1,8 +1,6 @@
-# 2026-10-03T00:18:48Z Kungliga slottens 360-visningar: går det att gå runt?
-https://vr.kungligaslotten.se/vasa-to-bernadotte
-https://vr.kungligaslotten.se/ulriksdal
-https://vr.kungligaslotten.se/rikssalen/
-https://vr.kungligaslotten.se/GustavIIIsAntikmuseum
-https://vr.kungligaslotten.se/teatern_gripsholmsslott/
-https://vr.kungligaslotten.se/ehrenstrahlsalongen
-https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/digital-rundtur-for-vuxna/utsidan
+# 2026-10-03T00:23:54Z fler 360-visningar och nya rundturssidor
+https://vr.kungligaslotten.se/hertigkarlskammare_gripsholmsslott/
+https://vr.kungligaslotten.se/konseljrummet_gripsholmsslott/
+https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare
+/slott/stockholms-slott/
+/slott/glimmingehus/
