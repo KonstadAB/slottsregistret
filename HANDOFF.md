@@ -94,6 +94,8 @@
   punkter att gå mellan räknas nu som `walk`: Rikssalen, Gustav III:s antikmuseum, Vasa till Bernadotte, Ehrenstrahlsalongen,
   Ulriksdal. Enskilda rum utan förflyttning (Gripsholms rum, Hedvig Eleonoras sängkammare) är kvar som `look`.
   Daniel bör bekräfta att Mårbacka (5 punkter) och Glimmingehus (3D) räknas enligt hans regel.
+- Större bilder (≥1280 px, valda för hand efter förhandsbild) för 14 slott som hade små bilder; 15 har fortfarande liten bild.
+- Sökningen använder även andra namn från Wikidata/Wikipedia (`alts`, kan sättas för hand i manuellt.json).
 - Granska kan nu fotografera andra sidor (hel adress på en rad) och trycka på rundturens startknapp (`/slott/x/ start`).
 - Länssidorna har en ingress byggd av registret (kända slott, hur många man kan bo på / gifta sig på / besöka).
 - Bilder: första gången en miniatyr begärs kan Wikimedia svara 429, och Cloudflares cache gäller bara per datacenter.
