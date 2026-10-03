@@ -96,7 +96,10 @@
   Daniel bör bekräfta att Mårbacka (5 punkter) och Glimmingehus (3D) räknas enligt hans regel.
 - Större bilder (≥1280 px, valda för hand efter förhandsbild) för 14 slott som hade små bilder; 15 har fortfarande liten bild.
 - Sökningen använder även andra namn från Wikidata/Wikipedia (`alts`, kan sättas för hand i manuellt.json).
-- Granska kan nu fotografera andra sidor (hel adress på en rad) och trycka på rundturens startknapp (`/slott/x/ start`).
+- Formulären skickas med fetch (form.js) och visar fel på sidan i stället för en textsida. OBS: utan KV (bindningen
+  FORMS) svarar /api/skicka 503 – formulären fungerar alltså inte förrän KV är skapat (se Att göra 2).
+- Granska kan nu fotografera andra sidor (hel adress på en rad), trycka på rundturens startknapp (`/slott/x/ start`) och
+  provskicka ett formulär (`/tipsa/ skicka`).
 - Länssidorna har en ingress byggd av registret (kända slott, hur många man kan bo på / gifta sig på / besöka).
 - Bilder: första gången en miniatyr begärs kan Wikimedia svara 429, och Cloudflares cache gäller bara per datacenter.
   Långsiktigt bättre: lägg miniatyrerna i R2 (en gång hämtad = sparad för alla). Kräver att Daniel slår på R2 i
