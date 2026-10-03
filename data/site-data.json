@@ -3781,7 +3781,18 @@
    },
    "text": null,
    "offers": [],
-   "tours": []
+   "tours": [
+    {
+     "id": "almnas-panotour",
+     "kind": "walk",
+     "provider": "Almnäs",
+     "credit": [],
+     "url": "https://www.almnas.com/360/Almnas.html",
+     "source": "slottets webbplats",
+     "checked": "2026-10-03",
+     "note": "Panotour med flygbild och flera punkter runt slottet (länkad från almnas.com). Öppnas i nytt fönster; inbäddning ej provad."
+    }
+   ]
   },
   {
    "id": "hellidens-slott",
@@ -8857,7 +8868,21 @@
     "besok",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "kuula-marbacka",
+     "kind": "walk",
+     "provider": "Kuula",
+     "credit": [
+      "Open Virtual Worlds"
+     ],
+     "embed": "https://kuula.co/share/collection/7Fhb5?logo=-1&info=0&fs=1&vr=1&sd=1&thumbs=1",
+     "url": "https://openvirtualworlds.viewin360.co/share/collection/7Fhb5?info=0&fs=1&vr=1&sd=1&thumbs=1",
+     "source": "slottets webbplats",
+     "checked": "2026-10-03",
+     "note": "Fem 360-punkter ute och inne som man kan gå mellan (länkad från marbacka.com)."
+    }
+   ]
   },
   {
    "id": "alsters-herrgard",
@@ -9143,7 +9168,7 @@
    "full": "Västra Götalands län",
    "slug": "vastra-gotaland",
    "total": 22,
-   "withTour": 2
+   "withTour": 3
   },
   {
    "name": "Östergötland",
@@ -9192,7 +9217,7 @@
    "full": "Värmlands län",
    "slug": "varmland",
    "total": 3,
-   "withTour": 0
+   "withTour": 1
   },
   {
    "name": "Gävleborg",
@@ -9307,7 +9332,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 23,
+  "withTour": 25,
   "located": 250
  }
 }

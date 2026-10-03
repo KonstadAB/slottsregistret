@@ -1,5 +1,3 @@
-# 2026-10-03T00:12:14Z möjliga rundturer
-https://kuula.co/share/collection/7Fhb5?logo=bWVkaWEvMjA4NTUzLzYzZTYtNTBhMS02N2QzLWYxMjUucG5n&info=0&logosize=200&fs=1&vr=1&sd=1&thumbs=1
-https://www.almnas.com/360/Almnas.html
-https://glimmingehus.se/den-digitala-borgen/borgen-i-3d/
-https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Program-och-visningar/Virtuella-turer.html
+# 2026-10-03T00:15:36Z nya rundturer
+/slott/marbacka/
+/slott/almnas-slott/
