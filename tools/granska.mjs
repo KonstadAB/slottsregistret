@@ -25,6 +25,11 @@ for (const [label, vp] of Object.entries(sizes)) {
       // Rulla igenom sidan så att bilder som laddas sent kommer med.
       await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 120)); } window.scrollTo(0, 0); });
       await page.waitForTimeout(1500);
+      if (action === 'skicka') { // fyller i obligatoriska fält med "Test" och skickar (för att se svaret på sidan)
+        await page.evaluate(() => { const f = document.querySelector('form[data-form]'); f.querySelectorAll('[required]').forEach(el => { if (el.tagName === 'SELECT') el.selectedIndex = 1; else if (el.type === 'email') el.value = 'test@example.com'; else if (el.type === 'checkbox' || el.type === 'radio') el.checked = true; else el.value = 'Test från granskningen'; }); });
+        await page.locator('form[data-form] [type=submit]').first().click(); await page.waitForTimeout(4000);
+        await page.locator('form[data-form] [type=submit]').first().scrollIntoViewIfNeeded();
+      }
       if (action === 'start') { const b = page.locator('.tour [data-start]').first(); await b.scrollIntoViewIfNeeded(); await b.click(); await page.waitForTimeout(10000); }
       await page.screenshot({ path: `${out}/${name}-${label}-topp.jpg`, type: 'jpeg', quality: 75 });
       await page.screenshot({ path: `${out}/${name}-${label}.jpg`, type: 'jpeg', quality: 60, fullPage: true });

@@ -446,3 +446,4 @@ body .leaflet-tooltip { font: 600 .85rem var(--sans); color: var(--ink); border:
   .county-list:not(.county-list-big) a { padding: 10px 0; font-size: .92rem; }
   .county-list:not(.county-list-big) small { font-size: .8rem; }
 }
+.form-msg { margin: 10px 0 0; padding: 10px 14px; border-radius: 10px; background: #FBF1E4; border: 1px solid #E5C9A0; color: #6B4510; font-size: .95rem; }
