@@ -238,6 +238,26 @@ ${S.featured.length ? `<section class="band band-dark">
   });
 }
 
+// Beskrivning för sökmotorer: läge, vad man kan göra och början av texten om slottet, helst 120–160 tecken.
+const DO = { 'bo-pa-slott': 'bo', 'brollop-och-fest': 'gifta dig eller ha fest', konferens: 'ha konferens', 'restaurang-och-kafe': 'äta och fika',
+  spa: 'gå på spa', besok: 'besöka slottet', 'park-och-tradgard': 'promenera i parken' };
+function castleDesc(c, co, offerCats) {
+  const parts = [`${c.name} – ${c.type.toLowerCase()} i ${kommunLabel(c.kommun)}, ${co ? co.full : c.lan}.`];
+  if (c.tours.length) parts.push('Kliv in med en virtuell rundtur.');
+  const verbs = offerCats.map(o => DO[o.slug]).filter(Boolean);
+  if (verbs.length) parts.push(`Här kan du ${verbs.length > 1 ? verbs.slice(0, -1).join(', ') + ' och ' + verbs.at(-1) : verbs[0]}.`);
+  let d = parts.join(' ');
+  const text = (c.text || (c.wiki && c.wiki.text) || '').replace(/\s+/g, ' ').trim();
+  if (d.length < 120 && text) {
+    // Lägg till hela meningar ur texten så länge det ryms.
+    for (const m of text.match(/[^.!?]+[.!?]+/g) || []) {
+      if ((d + ' ' + m.trim()).length > 165) break;
+      d += ' ' + m.trim();
+    }
+  }
+  return d;
+}
+
 function castle(S, c) {
   const img = commonsImage(c.image, 1280), imgSm = commonsImage(c.image, 960);
   const imgXl = c.image && c.image.w > 1920 ? commonsImage(c.image, 1920) : null;
@@ -259,7 +279,7 @@ function castle(S, c) {
     <h1>${esc(c.name)}</h1>
     ${offerCats.length ? `<p class="c-offers">${offerCats.map(o => `<a href="${catURL(o)}">${icon(o.slug)}${esc(o.short)}</a>`).join('')}</p>` : ''}
     <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
-  const desc = `${c.name} – ${c.type.toLowerCase()} i ${kommunLabel(c.kommun)}, ${co ? co.full : c.lan}.${c.tours.length ? ' Kliv in med en virtuell rundtur.' : ''} ${offers.filter(o => o.kind === 'offer').map(o => o.short).join(', ')}`.trim();
+  const desc = castleDesc(c, co, offerCats);
   const tk = t ? (KIND[t.kind] || KIND.view) : null;
   const tourBlock = t ? `
 <section class="tour" id="rundtur" aria-labelledby="rundtur-h">

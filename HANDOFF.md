@@ -86,8 +86,9 @@
   - ~20 döda webbplatslänkar bytta (hovdala.se, svaneholmsslott.se, tyresoslott.se, julitagard.se, glimmingehus.se m.fl.).
     Kvar utan webbplats: Charlottenlund, Fiholm, Rödbergsfortet. Hjularöd och Sturehov blockerar bara robotar.
   - Bilder från Commons till 10 slott som saknade bild (Grönsöö, Sjöö, Yxtaholm, Wapnö m.fl.); bara 4 saknar nu bild.
-  - Kvar att granska: kommunnamn som skiljer sig från Wikidata (Näsbyholm, Dybäck, Svenstorp, Beritsholm, Tureborg,
-    Koberg, Dagsnäs, Huseby, Mem, Elghammar, Ekholmen, Boo, Haddebo) – grundlistan kan ha fel, inte rättat utan källa.
+  - Kommun rättad för 12 slott där Wikidata och Wikipedia var överens mot grundlistan (Boo, Haddebo, Svenstorp, Dybäck,
+    Näsbyholm, Beritsholm, Tureborg, Dagsnäs, Huseby, Mem, Elghammar, Ekholmen). Koberg kvar (källorna oense).
+- Sökmotorbeskrivning per slott: läge + "Här kan du bo, ha konferens …" + hela meningar ur texten upp till ~165 tecken.
 - Sökningen i hamta.mjs (DuckDuckGo) försöker igen vid 202 och har en tidsgräns på 12 min, så körningen aldrig går över tid.
   Gissa hellre adresser direkt med `textPages` – snabbare och säkrare.
 

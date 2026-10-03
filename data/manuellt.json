@@ -177,7 +177,8 @@
   "website": "https://www.stola.se/"
  },
  "dagsnas-slott": {
-  "website": "https://www.dagsnasslott.se/"
+  "website": "https://www.dagsnasslott.se/",
+  "kommun": "Skara"
  },
  "granso-slott": {
   "website": "https://granso.com/"
@@ -186,7 +187,8 @@
   "website": "https://blekhem.com/"
  },
  "huseby-bruk": {
-  "website": "https://husebybruk.com/"
+  "website": "https://husebybruk.com/",
+  "kommun": "Alvesta"
  },
  "vastana-slott": {
   "website": "https://www.vastanaslott.se/"
@@ -391,5 +393,35 @@
  },
  "braborgs-slottsruin": {
   "image": "Bråborgs slottsruin, den 23 april 2009.JPG"
+ },
+ "nasbyholms-slott": {
+  "kommun": "Trelleborg"
+ },
+ "dybacks-slott": {
+  "kommun": "Skurup"
+ },
+ "svenstorps-slott": {
+  "kommun": "Lund"
+ },
+ "beritsholm": {
+  "kommun": "Sjöbo"
+ },
+ "tureborg": {
+  "kommun": "Uddevalla"
+ },
+ "mems-slott": {
+  "kommun": "Norrköping"
+ },
+ "elghammar": {
+  "kommun": "Gnesta"
+ },
+ "ekholmens-slott": {
+  "kommun": "Enköping"
+ },
+ "boo-slott": {
+  "kommun": "Hallsberg"
+ },
+ "haddebo": {
+  "kommun": "Hallsberg"
  }
 }
