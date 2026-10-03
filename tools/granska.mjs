@@ -1,5 +1,6 @@
 // Tar skärmbilder av förhandsversionen (se .github/workflows/granska.yml).
-// Indata: en fil med en sökväg per rad (t.ex. /slott/gransö-slott/). Rader som börjar med # hoppas över.
+// Indata: en fil med en sökväg per rad (t.ex. /slott/gransö-slott/), eller en hel adress (https://…) för att titta på en
+// annan sida, t.ex. en rundtur. Rader som börjar med # hoppas över.
 // Utdata: <namn>-dator.jpg och <namn>-mobil.jpg i utmappen.
 import { chromium } from 'playwright';
 import { readFileSync, mkdirSync } from 'node:fs';
@@ -14,10 +15,12 @@ for (const [label, vp] of Object.entries(sizes)) {
   const { isMobile, deviceScaleFactor, ...viewport } = vp;
   const ctx = await browser.newContext({ viewport, isMobile, deviceScaleFactor: deviceScaleFactor || 1, locale: 'sv-SE' });
   for (const p of paths) {
-    const name = p.replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '-') || 'start';
+    const ext = /^https?:\/\//.test(p);
+    const name = (ext ? 'extern-' + p.replace(/^https?:\/\/(www\.)?/, '').slice(0, 60) : p).replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '-').replace(/-$/, '') || 'start';
     const page = await ctx.newPage();
     try {
-      await page.goto(BASE + p, { waitUntil: 'networkidle', timeout: 45000 });
+      await page.goto(ext ? p : BASE + p, { waitUntil: ext ? 'load' : 'networkidle', timeout: 45000 });
+      if (ext) await page.waitForTimeout(8000); // rundturer laddar bilderna efter sidan
       // Rulla igenom sidan så att bilder som laddas sent kommer med.
       await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise(r => setTimeout(r, 120)); } window.scrollTo(0, 0); });
       await page.waitForTimeout(1500);
