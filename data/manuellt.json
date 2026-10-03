@@ -101,7 +101,8 @@
   "website": "https://bosjokloster.com/"
  },
  "christinehofs-slott": {
-  "website": "https://www.christinehofslott.se/"
+  "website": "https://www.christinehofslott.se/",
+  "image": "Christinehof Castle, Andrarum, Scania, Sweden - August 2015.jpg"
  },
  "trollenas-slott": {
   "website": "https://www.trollenasslott.se/"
@@ -110,7 +111,8 @@
   "website": "https://www.krapperup.se/"
  },
  "borgeby-slott": {
-  "website": "https://borgebyslott.com/"
+  "website": "https://borgebyslott.com/",
+  "image": "Borgeby slott, framsidan-1.jpg"
  },
  "snogeholms-slott": {
   "website": "https://www.snogeholmsslott.se/"
@@ -174,7 +176,8 @@
   "website": "https://www.torpastenhus.se/"
  },
  "stola-herrgard": {
-  "website": "https://www.stola.se/"
+  "website": "https://www.stola.se/",
+  "image": "Stola herrgård 02.jpg"
  },
  "dagsnas-slott": {
   "website": "https://www.dagsnasslott.se/",
@@ -427,5 +430,38 @@
  },
  "haddebo": {
   "kommun": "Hallsberg"
+ },
+ "ekenas-slott": {
+  "image": "Ekenäs slott från bron.jpg"
+ },
+ "gavle-slott": {
+  "image": "Gävle Slott October 2013 04.jpeg"
+ },
+ "gripenbergs-slott": {
+  "image": "0469Gripenbergs slott.jpg"
+ },
+ "hasselby-slott": {
+  "image": "Hässelby slott 2013.jpg"
+ },
+ "kobergs-slott": {
+  "image": "Kobergs slott.jpg"
+ },
+ "mariedals-slott": {
+  "image": "Mariedals slott, den 6 juli 2012, bild 1.JPG"
+ },
+ "nas-slottsruin": {
+  "image": "Näs borgruin Jönköping.jpg"
+ },
+ "nya-alvsborgs-fastning": {
+  "image": "Nya Älvsborg Fästning, Göteborg, seen from the ferry.jpg"
+ },
+ "salsta-slott": {
+  "image": "Salsta slott exteriör 2020.jpg"
+ },
+ "sturefors-slott": {
+  "image": "Sturefors slott 2011.jpg"
+ },
+ "vasteras-slott": {
+  "image": "Västerås slott September 2014 01.jpg"
  }
 }

@@ -1,6 +1,4 @@
-# 2026-10-03T00:23:54Z fler 360-visningar och nya rundturssidor
-https://vr.kungligaslotten.se/hertigkarlskammare_gripsholmsslott/
-https://vr.kungligaslotten.se/konseljrummet_gripsholmsslott/
-https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare
-/slott/stockholms-slott/
-/slott/glimmingehus/
+# 2026-10-03T01:04:14Z större bilder
+/slott/christinehofs-slott/
+/slott/gripenbergs-slott/
+/lan/vastmanland/
