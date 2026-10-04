@@ -1,1 +1,1 @@
-{"jsonUrls": [{"url": "https://dns.google/resolve?name=slottsregistret.se&type=NS&t=6"}, {"url": "https://dns.google/resolve?name=slottsregistret.se&type=DS&t=6"}, {"url": "https://dns.google/resolve?name=se&type=NS&t=6"}]}
+{"jsonUrls": [{"url": "https://dns.google/resolve?name=slottsregistret.se&type=NS&t=7"}, {"url": "https://dns.google/resolve?name=slottsregistret.se&type=NS&cd=1&t=7"}, {"url": "https://cloudflare-dns.com/dns-query?name=slottsregistret.se&type=NS&ct=application/dns-json&t=7"}]}
