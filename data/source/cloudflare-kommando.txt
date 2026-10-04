@@ -1,1 +1,1 @@
-api POST /zones {"name":"slottsregistret.se","account":{"id":"{account}"},"type":"full","jump_start":true} ;; status
+api PUT /zones/{zone}/activation_check ;; status
