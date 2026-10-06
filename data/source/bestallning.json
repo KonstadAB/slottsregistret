@@ -1,6 +1,21 @@
-{"jsonUrls": [
- {"url": "https://malmomuseum.view360.se/menu-mm.html"},
- {"url": "https://malmomuseum.view360.se/tour/"},
- {"url": "https://mickeolsson.se/360/visit_karlskrona/app-files/data.js"},
- {"url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/script.js?v=1593066255974"}
+{"tourScan": [
+ {"id":"dir:countryside","url":"https://www.countrysidehotels.se/"},
+ {"id":"dir:historiskahotell","url":"https://www.historiskahotell.se/"},
+ {"id":"dir:sfv","url":"https://www.sfv.se/fastigheter/"},
+ {"id":"dir:venuu","url":"https://venuu.se/brollopslokal/slott"},
+ {"id":"dir:brollopsguiden","url":"https://www.brollopsguiden.se/"},
+ {"id":"dir:konferensguiden","url":"https://www.konferensguiden.se/"},
+ {"id":"dir:slottsguiden","url":"https://www.slottsguiden.info/"},
+ {"id":"dir:svenskaslott","url":"https://www.svenskaslott.se/"},
+ {"id":"dir:raa","url":"https://www.raa.se/upplev-kulturarvet/"},
+ {"id":"dir:sormlandsmuseum","url":"https://www.sormlandsmuseum.se/"},
+ {"id":"dir:kalmarslott","url":"https://kalmarslott.se/"},
+ {"id":"dir:vadstena","url":"https://vadstenaslott.com/"},
+ {"id":"dir:skokloster","url":"https://skoklostersslott.se/"},
+ {"id":"dir:hallwyl","url":"https://hallwylskamuseet.se/"},
+ {"id":"dir:lackoslott","url":"https://www.lackoslott.se/"},
+ {"id":"dir:tjoloholm","url":"https://www.tjoloholm.se/"},
+ {"id":"dir:gunnebo","url":"https://www.gunneboslott.se/"},
+ {"id":"dir:sofiero","url":"https://sofiero.se/"},
+ {"id":"dir:vrmedia-en","url":"https://www.vrmedia.se/en/home/"}
 ]}
