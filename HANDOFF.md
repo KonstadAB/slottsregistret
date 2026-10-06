@@ -128,3 +128,6 @@
   Kungsvåningen m.fl., går före Google-turen). Kärnan: en Google 360-bild per våning på karnan.se, inte länkade → `look` tills Daniel säger annat.
 - Prövat utan resultat: Karlskrona 360 (Drottningskär/Kungsholm bara en flygbild var), Stola "Rundtur" (bildgalleri), Huseby "rundtur" (text),
   Kungliga slottens 360-lista (laddas med JS, inga nya adresser hittade). Borgholm: möjlig 3D-modell på Sketchfab (okontrollerad).
+- Daniel 6 okt: Kärnan räknas inte (ligger kvar som `look`). VR Medias turer (credit "VR Media") sorteras först bland slott med rundtur,
+  Svaneholm först på startsidan. Läckö: VR Medias egen länk saknas fortfarande. Excel-lista över alla slott med kontaktuppgifter
+  (hämtade från webbplatserna) i projektmappen listor-6-okt/.
