@@ -118,3 +118,9 @@
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
 - Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.
 - Allt från natten publicerat 3 okt på Daniels begäran.
+
+## 6 okt: domänen live
+- Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern (Daniel: "ja kör på", 6 okt).
+- DNSSEC påslaget i Cloudflare (pending). DS att lägga in hos One.com: key tag 2371, algoritm 13, digesttyp 2, digest 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441.
+- Kvar: DS hos One.com, KV för formulären, Email Routing (nyckeln saknar behörighet: 403), Search Console, VR Medias StepInside-länkar från Daniel.
+- tools/cloudflare.mjs fyller nu {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
