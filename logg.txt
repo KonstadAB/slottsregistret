@@ -1,0 +1,107 @@
+
+ ⛅️ wrangler 4.147.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 839 files from the assets directory /home/runner/work/slottsregistret/slottsregistret/dist
+🌀 Starting asset upload...
+🌀 Found 73 new or modified static assets to upload. Proceeding with upload...
++ /.well-known/security.txt
++ /restaurang-och-kafe/stockholm/index.html
++ /konferens/stockholm/index.html
++ /slott/tosterups-slott/index.html
++ /slott/beritsholm/index.html
++ /slott/tunbyholms-slott/index.html
++ /slott/smedstorps-slott/index.html
++ /slott/bjarsjoholms-slott/index.html
++ /slott/vittskovle-slott/index.html
++ /slott/bellinga-slott/index.html
++ /slott/maltesholms-slott/index.html
++ /slott/djursholms-slott/index.html
++ /slott/tureholms-slott/index.html
++ /slott/dybacks-slott/index.html
++ /slott/marsvinsholms-slott/index.html
++ /slott/gustav-iii-s-paviljong/index.html
++ /slott/bogesunds-slott/index.html
++ /slott/tyreso-slott/index.html
++ /slott/akeshovs-slott/index.html
++ /slott/taxinge-slott/index.html
++ /slott/drottningholms-slott/index.html
++ /index.html
++ /lan/stockholm/index.html
++ /konferens/index.html
++ /assets/img/karta.svg
++ /lan/index.html
++ /brollop-och-fest/stockholm/index.html
++ /slott/bjorksunds-slott/index.html
++ /slott/sandemar/index.html
++ /slott/bollerups-borg/index.html
++ /slott/karlbergs-slott/index.html
++ /slott/hogestads-slott/index.html
++ /slott/charlottenlunds-slott/index.html
++ /slott/krageholms-slott/index.html
++ /slott/tullgarns-slott/index.html
++ /slott/horningsholms-slott/index.html
++ /slott/sovdeborgs-slott/index.html
++ /slott/ekebyhovs-slott/index.html
++ /slott/malsakers-slott/index.html
++ /slott/sodertuna-slott/index.html
++ /slott/gripsholms-slott/index.html
++ /slott/ulvsunda-slott/index.html
++ /slott/oster-malma/index.html
++ /slott/christinehofs-slott/index.html
++ /slott/ulriksdals-slott/index.html
++ /slott/stockholms-slott/index.html
++ /bo-pa-slott/index.html
++ /brollop-och-fest/index.html
++ /data/slott.json
++ /bo-pa-slott/stockholm/index.html
++ /slott/elghammar/index.html
++ /slott/garsnas-slott/index.html
++ /slott/trolle-ljungby-slott/index.html
++ /slott/glimmingehus/index.html
++ /slott/gyllebo-slott/index.html
++ /slott/hagaslottet/index.html
++ /slott/kristinebergs-slott/index.html
++ /slott/erstavik/index.html
++ /slott/nynas-slott/index.html
++ /slott/ovesholms-slott/index.html
++ /slott/arsta-slott/index.html
++ /slott/snogeholms-slott/index.html
++ /slott/gladsaxehus/index.html
++ /slott/tullesbo/index.html
++ /slott/kina-slott/index.html
++ /slott/sturehovs-slott/index.html
++ /slott/malmohus/index.html
++ /slott/rosendals-slott/index.html
++ /slott/haringe-slott/index.html
++ /slott/vaxholms-kastell/index.html
++ /virtuella-rundturer/index.html
++ /restaurang-och-kafe/index.html
++ /sitemap.xml
+Uploaded 25 of 73 assets
+Uploaded 49 of 73 assets
+Uploaded 73 of 73 assets
+✨ Success! Uploaded 73 files (364 already uploaded) (19.93 sec)
+
+Total Upload: 7.76 KiB / gzip: 3.07 KiB
+Worker Startup Time: 1 ms
+Your Worker has access to the following bindings:
+Binding                              Resource        
+env.FORM_LIMIT (5 requests/60s)      Rate Limit      
+env.ASSETS                           Assets          
+
+Uploaded slottsregistret (22.38 sec)
+Worker Version ID: d7b2e469-eb65-404f-a40d-6e3e64c3ea7f
+Version Preview URL: https://d7b2e469-slottsregistret.konstadab.workers.dev
+Version Preview Alias URL: https://granska-slottsregistret.konstadab.workers.dev
+
+To deploy this version to production traffic use the command wrangler versions deploy
+
+Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy
+
+Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy
+
+ok dator /slott/haringe-slott/
+ok dator /slott/malmohus/
+ok mobil /slott/haringe-slott/
+ok mobil /slott/malmohus/
