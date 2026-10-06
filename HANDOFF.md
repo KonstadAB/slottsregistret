@@ -118,3 +118,10 @@
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
 - Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.
 - Allt från natten publicerat 3 okt på Daniels begäran.
+
+## 6 okt: boknings- och provisionskartläggning (grenen claude/project-thread-k5ap7a)
+- `tools/bokning.mjs` + `.github/workflows/bokning.yml`: läser webbplatserna i `data/source/bokning-lista.json` (startsida + 14 relevanta
+  undersidor, egna boka.-underdomäner med CNAME) och sparar leverantörsträffar i `data/source/bokning-svar.json`. Kan återanvändas för golfklubbar m.m.
+- Resultat för Daniel: `/mnt/project-files/affiliate-6-okt/bokning-och-provision.xlsx` (per slott, leverantörer, golf, kyrkbröllop).
+- 56 av 136 slott med webbplats har onlinebokning; 14 Bookvisit (länkar med channelid → egen kanal/kampanjkod för Slottsregistret är vägen in).
+  Inga öppna affiliateprogram hos Bookvisit, Tickster, Nortic, Caspeco. Booking.com via Awin/CJ ca 4 %, GetYourGuide/Viator 8 %, Bókun har spårkod.
