@@ -1,44 +1,29 @@
-# 2026-10-06T09:46:06Z api PUT /accounts/{account}/workers/domains {"hostname":"slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"} ;; api PUT /accounts/{account}/workers/domains {"hostname":"www.slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"} ;; status
->> api PUT /accounts/{account}/workers/domains {"hostname":"slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"}
+# 2026-10-06T09:46:39Z api PATCH /zones/{zone}/dnssec {"status":"active"} ;; api GET /zones/{zone}/dnssec
+>> api PATCH /zones/{zone}/dnssec {"status":"active"}
 {
- "id": "9173056df3187718f30252a1cb2ea7eb3bb98d21",
- "zone_id": "ea79ee838c7bee0ef2100f012784f653",
- "zone_name": "slottsregistret.se",
- "hostname": "slottsregistret.se",
- "service": "slottsregistret",
- "environment": "production",
- "cert_id": "413ee5c8-c165-4f72-894a-22aaabf08ccb",
- "previews_enabled": false,
- "enabled": true
+ "algorithm": "13",
+ "digest": "8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
+ "digest_algorithm": "SHA256",
+ "digest_type": "2",
+ "ds": "slottsregistret.se. 3600 IN DS 2371 13 2 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
+ "flags": 257,
+ "key_tag": 2371,
+ "key_type": "ECDSAP256SHA256",
+ "modified_on": "2026-10-06T09:46:40.048115+00:00",
+ "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+KkxLbxILfDLUT0rAK9iUzy1L53eKGQ==",
+ "status": "pending"
 }
->> api PUT /accounts/{account}/workers/domains {"hostname":"www.slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"}
+>> api GET /zones/{zone}/dnssec
 {
- "id": "394932e40e67835e893f7f377f1961defc452539",
- "zone_id": "ea79ee838c7bee0ef2100f012784f653",
- "zone_name": "slottsregistret.se",
- "hostname": "www.slottsregistret.se",
- "service": "slottsregistret",
- "environment": "production",
- "cert_id": "f06c45df-3d9f-4373-a9ae-9d9e86db4379",
- "previews_enabled": false,
- "enabled": true
+ "algorithm": "13",
+ "digest": "8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
+ "digest_algorithm": "SHA256",
+ "digest_type": "2",
+ "ds": "slottsregistret.se. 3600 IN DS 2371 13 2 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
+ "flags": 257,
+ "key_tag": 2371,
+ "key_type": "ECDSAP256SHA256",
+ "modified_on": "2026-10-06T09:46:40.048115+00:00",
+ "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+KkxLbxILfDLUT0rAK9iUzy1L53eKGQ==",
+ "status": "pending"
 }
->> status
-== Nyckel: active
-== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
-== DNS
-  AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
-  AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
-== DNSSEC: disabled
-!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
-== Email Routing: ?
-== Workers: golfregistret, slottsregistret, svenskakyrkor
-== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production)
-== Senaste publicering av Workern: 2026-10-03T10:08:32.787556Z wrangler versioner 857d2c7a Publicera nattens förbättringar (3 okt)
-  version 857d2c7a 2026-10-03T10:08:32.137797Z wrangler Publicera nattens förbättringar (3 okt) version_upload
-  version d42b950e 2026-10-03T08:46:25.503917Z wrangler Granska 8ddf895 version_upload
-  version b663aa55 2026-10-03T03:03:59.702464Z wrangler Granska a612d50 version_upload
-  version 385242de 2026-10-03T01:04:44.309071Z wrangler Granska 71c1445 version_upload
-  version 97daef4b 2026-10-03T00:24:19.391811Z wrangler Granska 60ced87 version_upload
-== Pages-projekt: inga
-== Workers Builds (0)
