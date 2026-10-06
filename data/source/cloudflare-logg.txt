@@ -1,14 +1,48 @@
-# 2026-10-02T14:13:43Z status
+# 2026-10-06T09:45:21Z api PUT /zones/{zone}/activation_check ;; api PUT /accounts/{account}/workers/domains {"hostname":"slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"} ;; api PUT /accounts/{account}/workers/domains {"hostname":"www.slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"} ;; status
+>> api PUT /zones/{zone}/activation_check
+{
+ "id": "ea79ee838c7bee0ef2100f012784f653"
+}
+>> api PUT /accounts/{account}/workers/domains {"hostname":"slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"}
+!! PUT /accounts/36f39bea33a1d0e03815a8b01039efea/workers/domains -> 404 [{"code":10083,"message":"The zone \"slottsregistret.se\" does not exist on your account."}]
+{
+ "result": null,
+ "success": false,
+ "errors": [
+  {
+   "code": 10083,
+   "message": "The zone \"slottsregistret.se\" does not exist on your account."
+  }
+ ],
+ "messages": []
+}
+>> api PUT /accounts/{account}/workers/domains {"hostname":"www.slottsregistret.se","service":"slottsregistret","zone_id":"{zone}","environment":"production"}
+!! PUT /accounts/36f39bea33a1d0e03815a8b01039efea/workers/domains -> 404 [{"code":10083,"message":"The zone \"www.slottsregistret.se\" does not exist on your account."}]
+{
+ "result": null,
+ "success": false,
+ "errors": [
+  {
+   "code": 10083,
+   "message": "The zone \"www.slottsregistret.se\" does not exist on your account."
+  }
+ ],
+ "messages": []
+}
 >> status
 == Nyckel: active
-== Zon slottsregistret.se: pending, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
+== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
 == DNS
 == DNSSEC: disabled
 !! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
 == Email Routing: ?
-== Workers: slottsregistret, svenskakyrkor
+== Workers: golfregistret, slottsregistret, svenskakyrkor
 == Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production)
-== Senaste publicering av Workern: 2026-10-02T14:03:41.515162Z wrangler versioner 75238ec5 Skapa zonen slottsregistret.se; publicering med...
-  version 75238ec5 2026-10-02T14:03:41.515162Z wrangler Skapa zonen slottsregistret.se; publicering med nyckel som indata upload
+== Senaste publicering av Workern: 2026-10-03T10:08:32.787556Z wrangler versioner 857d2c7a Publicera nattens förbättringar (3 okt)
+  version 857d2c7a 2026-10-03T10:08:32.137797Z wrangler Publicera nattens förbättringar (3 okt) version_upload
+  version d42b950e 2026-10-03T08:46:25.503917Z wrangler Granska 8ddf895 version_upload
+  version b663aa55 2026-10-03T03:03:59.702464Z wrangler Granska a612d50 version_upload
+  version 385242de 2026-10-03T01:04:44.309071Z wrangler Granska 71c1445 version_upload
+  version 97daef4b 2026-10-03T00:24:19.391811Z wrangler Granska 60ced87 version_upload
 == Pages-projekt: inga
 == Workers Builds (0)
