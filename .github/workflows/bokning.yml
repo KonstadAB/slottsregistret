@@ -1,0 +1,31 @@
+# Kartlägger boknings- och affiliatesystem på webbplatserna i data/source/bokning-lista.json (tools/bokning.mjs) och
+# sparar svaret (data/source/bokning-svar.json) på samma gren.
+name: Bokningssystem
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['data/source/bokning-lista.json', 'tools/bokning.mjs']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bokning-${{ github.ref }}
+jobs:
+  bokning:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/bokning.mjs
+        timeout-minutes: 40
+      - name: Spara svaret på grenen
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source/bokning-svar.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Kartlade bokningssystem"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push && break; git rebase --abort 2>/dev/null; sleep 5; done

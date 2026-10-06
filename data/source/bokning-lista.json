@@ -1,0 +1,682 @@
+[
+{
+"id": "malmohus",
+"name": "Malmöhus",
+"url": "https://malmo.se/museer"
+},
+{
+"id": "karnan",
+"name": "Kärnan",
+"url": "https://www.karnan.se/"
+},
+{
+"id": "sofiero-slott",
+"name": "Sofiero slott",
+"url": "https://www.sofiero.se"
+},
+{
+"id": "glimmingehus",
+"name": "Glimmingehus",
+"url": "https://glimmingehus.se/"
+},
+{
+"id": "bosjokloster",
+"name": "Bosjökloster",
+"url": "https://bosjokloster.com/"
+},
+{
+"id": "hovdala-slott",
+"name": "Hovdala slott",
+"url": "https://hovdala.se/"
+},
+{
+"id": "backaskog-slott",
+"name": "Bäckaskog slott",
+"url": "http://backaskogslott.se"
+},
+{
+"id": "christinehofs-slott",
+"name": "Christinehofs slott",
+"url": "https://www.christinehofslott.se/"
+},
+{
+"id": "svaneholms-slott",
+"name": "Svaneholms slott",
+"url": "https://svaneholmsslott.se/"
+},
+{
+"id": "trollenas-slott",
+"name": "Trollenäs slott",
+"url": "https://www.trollenasslott.se/"
+},
+{
+"id": "krapperups-slott",
+"name": "Krapperups slott",
+"url": "https://www.krapperup.se/"
+},
+{
+"id": "borgeby-slott",
+"name": "Borgeby slott",
+"url": "https://borgebyslott.com/"
+},
+{
+"id": "wanas-slott",
+"name": "Wanås slott",
+"url": "https://www.wanas.se/"
+},
+{
+"id": "snogeholms-slott",
+"name": "Snogeholms slott",
+"url": "https://www.snogeholmsslott.se/"
+},
+{
+"id": "hackeberga-slott",
+"name": "Häckeberga slott",
+"url": "https://hackebergaslott.com/"
+},
+{
+"id": "trolleholms-slott",
+"name": "Trolleholms slott",
+"url": "https://www.trolleholmsslott.se"
+},
+{
+"id": "tosterups-slott",
+"name": "Tosterups slott",
+"url": "http://www.tosterup.se/"
+},
+{
+"id": "trolle-ljungby-slott",
+"name": "Trolle-Ljungby slott",
+"url": "https://trolleljungby.com/"
+},
+{
+"id": "marsvinsholms-slott",
+"name": "Marsvinsholms slott",
+"url": "https://marsvinsholm.com/"
+},
+{
+"id": "krageholms-slott",
+"name": "Krageholms slott",
+"url": "https://www.krageholm.se/"
+},
+{
+"id": "kulla-gunnarstorps-slott",
+"name": "Kulla Gunnarstorps slott",
+"url": "https://www.kullagunnarstorp.se/"
+},
+{
+"id": "knutstorps-borg",
+"name": "Knutstorps borg",
+"url": "https://knutstorp.se/"
+},
+{
+"id": "skarhults-slott",
+"name": "Skarhults slott",
+"url": "https://skarhult.com/"
+},
+{
+"id": "ellinge-slott",
+"name": "Ellinge slott",
+"url": "https://ellinge.com/"
+},
+{
+"id": "ovedsklosters-slott",
+"name": "Övedsklosters slott",
+"url": "https://ovedskloster.com/"
+},
+{
+"id": "bollerups-borg",
+"name": "Bollerups borg",
+"url": "https://bollerup.com/"
+},
+{
+"id": "rossjoholms-slott",
+"name": "Rössjöholms slott",
+"url": "https://www.rossjoholm.se/"
+},
+{
+"id": "karsholms-slott",
+"name": "Karsholms slott",
+"url": "https://www.karsholmsslott.se/"
+},
+{
+"id": "jordberga-slott",
+"name": "Jordberga slott",
+"url": "https://www.jordberga.se/"
+},
+{
+"id": "borringekloster",
+"name": "Börringekloster",
+"url": "http://www.borringekloster.se/"
+},
+{
+"id": "tullesbo",
+"name": "Tullesbo",
+"url": "https://tullesbo.com/"
+},
+{
+"id": "bjarsjolagards-slott",
+"name": "Bjärsjölagårds slott",
+"url": "https://bjarsjolagardsslott.se"
+},
+{
+"id": "ovesholms-slott",
+"name": "Ovesholms slott",
+"url": "https://ovesholm.com/"
+},
+{
+"id": "hjularods-slott",
+"name": "Hjularöds slott",
+"url": "http://www.hjularod.se"
+},
+{
+"id": "hogestads-slott",
+"name": "Högestads slott",
+"url": "https://www.hogesta.se"
+},
+{
+"id": "sovdeborgs-slott",
+"name": "Sövdeborgs slott",
+"url": "https://www.sovdeborg.se/"
+},
+{
+"id": "johannishus-slott",
+"name": "Johannishus slott",
+"url": "http://www.johannishus.com"
+},
+{
+"id": "drottningskars-kastell",
+"name": "Drottningskärs kastell",
+"url": "https://www.visitkarlskrona.se/sv/drottningskars-kastell-aspo"
+},
+{
+"id": "tjoloholms-slott",
+"name": "Tjolöholms slott",
+"url": "https://www.tjoloholm.se"
+},
+{
+"id": "skottorps-slott",
+"name": "Skottorps slott",
+"url": "https://www.skottorpsslott.se"
+},
+{
+"id": "wapno-slott",
+"name": "Wapnö slott",
+"url": "https://www.wapnoslott.se/"
+},
+{
+"id": "sperlingsholms-slott",
+"name": "Sperlingsholms slott",
+"url": "https://www.sperlingsholm.se/"
+},
+{
+"id": "lacko-slott",
+"name": "Läckö slott",
+"url": "https://www.lackoslott.se"
+},
+{
+"id": "naas-slott",
+"name": "Nääs slott",
+"url": "https://www.naas.se/"
+},
+{
+"id": "gunnebo-slott",
+"name": "Gunnebo slott",
+"url": "http://www.gunneboslott.se/"
+},
+{
+"id": "bohus-fastning",
+"name": "Bohus fästning",
+"url": "https://bohusfastning.com"
+},
+{
+"id": "carlstens-fastning",
+"name": "Carlstens fästning",
+"url": "https://carlsten.se/"
+},
+{
+"id": "skansen-kronan",
+"name": "Skansen Kronan",
+"url": "http://www.skansenkronan.se/"
+},
+{
+"id": "karlsborgs-fastning",
+"name": "Karlsborgs fästning",
+"url": "https://www.vastsverige.com/en/karlsborg/karlsborgs-fastning---eng/"
+},
+{
+"id": "torpa-stenhus",
+"name": "Torpa stenhus",
+"url": "https://www.torpastenhus.se/"
+},
+{
+"id": "thorskogs-slott",
+"name": "Thorskogs slott",
+"url": "https://www.thorskogsslott.se/"
+},
+{
+"id": "bjertorps-slott",
+"name": "Bjertorps slott",
+"url": "https://www.bjertorp.se/"
+},
+{
+"id": "stola-herrgard",
+"name": "Stola herrgård",
+"url": "https://www.stola.se/"
+},
+{
+"id": "sundsby-sateri",
+"name": "Sundsby säteri",
+"url": "https://www.tjorn.se/sundsby"
+},
+{
+"id": "kobergs-slott",
+"name": "Kobergs slott",
+"url": "https://www.koberg.se"
+},
+{
+"id": "dagsnas-slott",
+"name": "Dagsnäs slott",
+"url": "https://www.dagsnasslott.se/"
+},
+{
+"id": "kalmar-slott",
+"name": "Kalmar slott",
+"url": "http://www.kalmarslott.se/"
+},
+{
+"id": "borgholms-slottsruin",
+"name": "Borgholms slottsruin",
+"url": "https://borgholmsslott.se"
+},
+{
+"id": "sollidens-slott",
+"name": "Sollidens slott",
+"url": "https://sollidensslott.se"
+},
+{
+"id": "eketorps-borg",
+"name": "Eketorps borg",
+"url": "https://eketorpsborg.se/"
+},
+{
+"id": "granso-slott",
+"name": "Gränsö slott",
+"url": "https://granso.com/"
+},
+{
+"id": "blekhem",
+"name": "Blekhem",
+"url": "https://blekhem.com/"
+},
+{
+"id": "kronobergs-slottsruin",
+"name": "Kronobergs slottsruin",
+"url": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/"
+},
+{
+"id": "teleborgs-slott",
+"name": "Teleborgs slott",
+"url": "https://teleborgsslott.com"
+},
+{
+"id": "huseby-bruk",
+"name": "Huseby bruk",
+"url": "https://husebybruk.com/"
+},
+{
+"id": "vastana-slott",
+"name": "Västanå slott",
+"url": "https://www.vastanaslott.se/"
+},
+{
+"id": "roma-kungsgard",
+"name": "Roma kungsgård",
+"url": "http://www.romakungsgard.se"
+},
+{
+"id": "vadstena-slott",
+"name": "Vadstena slott",
+"url": "https://vadstenaslott.com"
+},
+{
+"id": "lofstad-slott",
+"name": "Löfstad slott",
+"url": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/"
+},
+{
+"id": "ekenas-slott",
+"name": "Ekenäs slott",
+"url": "https://www.ekenasslott.se/"
+},
+{
+"id": "stegeborgs-slottsruin",
+"name": "Stegeborgs slottsruin",
+"url": "http://www.stegeborg.se/slottsruin.php"
+},
+{
+"id": "mauritzbergs-slott",
+"name": "Mauritzbergs slott",
+"url": "https://mauritzberg.com/"
+},
+{
+"id": "gripsholms-slott",
+"name": "Gripsholms slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/gripsholm-castle.html"
+},
+{
+"id": "nykopingshus",
+"name": "Nyköpingshus",
+"url": "https://sormlandsmuseum.se/besoksinfo/nykopingshus/"
+},
+{
+"id": "nynas-slott",
+"name": "Nynäs slott",
+"url": "https://nynasslott.se/"
+},
+{
+"id": "julita-gard",
+"name": "Julita gård",
+"url": "https://www.julitagard.se/"
+},
+{
+"id": "sundbyholms-slott",
+"name": "Sundbyholms slott",
+"url": "https://www.sundbyholm.se/"
+},
+{
+"id": "malsakers-slott",
+"name": "Mälsåkers slott",
+"url": "https://malsaker.nu/"
+},
+{
+"id": "ericsbergs-slott",
+"name": "Ericsbergs slott",
+"url": "https://ericsberg.com/"
+},
+{
+"id": "stora-sundby-slott",
+"name": "Stora Sundby slott",
+"url": "https://storasundby.com/"
+},
+{
+"id": "sparreholms-slott",
+"name": "Sparreholms slott",
+"url": "https://sparreholmsslott.com/"
+},
+{
+"id": "harpsund",
+"name": "Harpsund",
+"url": "https://www.harpsund.se"
+},
+{
+"id": "claestorps-slott",
+"name": "Claestorps slott",
+"url": "https://www.claestorp.se/"
+},
+{
+"id": "rockelstads-slott",
+"name": "Rockelstads slott",
+"url": "http://www.rockelstad.se/"
+},
+{
+"id": "yxtaholms-slott",
+"name": "Yxtaholms slott",
+"url": "https://www.yxtaholmsslott.se/"
+},
+{
+"id": "sodertuna-slott",
+"name": "Södertuna slott",
+"url": "https://www.sodertuna.se/"
+},
+{
+"id": "safstaholms-slott",
+"name": "Säfstaholms slott",
+"url": "https://safstaholm.se/"
+},
+{
+"id": "ekensholms-slott",
+"name": "Ekensholms slott",
+"url": "http://www.ekensholm.se/"
+},
+{
+"id": "oster-malma",
+"name": "Öster-Malma",
+"url": "https://www.ostermalma.se/"
+},
+{
+"id": "tistads-slott",
+"name": "Tistads slott",
+"url": "http://www.tista.se"
+},
+{
+"id": "stockholms-slott",
+"name": "Stockholms slott",
+"url": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html"
+},
+{
+"id": "drottningholms-slott",
+"name": "Drottningholms slott",
+"url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html"
+},
+{
+"id": "kina-slott",
+"name": "Kina slott",
+"url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion.html"
+},
+{
+"id": "ulriksdals-slott",
+"name": "Ulriksdals slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/ulriksdal-palace.html"
+},
+{
+"id": "rosendals-slott",
+"name": "Rosendals slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html"
+},
+{
+"id": "rosersbergs-slott",
+"name": "Rosersbergs slott",
+"url": "https://www.rosersbergsslott.se/en/"
+},
+{
+"id": "tyreso-slott",
+"name": "Tyresö slott",
+"url": "https://www.tyresoslott.se/"
+},
+{
+"id": "svartsjo-slott",
+"name": "Svartsjö slott",
+"url": "http://www.svartsjoslott.se/"
+},
+{
+"id": "venngarns-slott",
+"name": "Venngarns slott",
+"url": "https://www.venngarn.se/"
+},
+{
+"id": "haringe-slott",
+"name": "Häringe slott",
+"url": "https://www.haringeslott.se/"
+},
+{
+"id": "sandemar",
+"name": "Sandemar",
+"url": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/sandemar.html"
+},
+{
+"id": "taxinge-slott",
+"name": "Taxinge slott",
+"url": "https://taxinge.com/"
+},
+{
+"id": "sturehovs-slott",
+"name": "Sturehovs slott",
+"url": "https://www.sturehov.se"
+},
+{
+"id": "erstavik",
+"name": "Erstavik",
+"url": "http://www.erstavik.se"
+},
+{
+"id": "akeshovs-slott",
+"name": "Åkeshovs slott",
+"url": "http://www.akeshofsslott.se/"
+},
+{
+"id": "nasby-slott",
+"name": "Näsby slott",
+"url": "https://www.nasbyslott.se/"
+},
+{
+"id": "bogesunds-slott",
+"name": "Bogesunds slott",
+"url": "http://www.bogesundsslott.se"
+},
+{
+"id": "vaxholms-kastell",
+"name": "Vaxholms kastell",
+"url": "http://www.vaxholmsfastning.se/"
+},
+{
+"id": "ekebyhovs-slott",
+"name": "Ekebyhovs slott",
+"url": "https://www.ekero.se/uppleva-gora/ekebyhovs-slott"
+},
+{
+"id": "gorvalns-slott",
+"name": "Görvälns slott",
+"url": "https://www.gorvaln.se/"
+},
+{
+"id": "lejondals-slott",
+"name": "Lejondals slott",
+"url": "https://www.lejondalsslott.se/"
+},
+{
+"id": "stora-wasby-slott",
+"name": "Stora Wäsby slott",
+"url": "https://www.storawasby.se/"
+},
+{
+"id": "rydboholms-slott",
+"name": "Rydboholms slott",
+"url": "http://slottsguiden.info/"
+},
+{
+"id": "ostana-slott",
+"name": "Östanå slott",
+"url": "https://www.ostanaslott.se/"
+},
+{
+"id": "skanelaholms-slott",
+"name": "Skånelaholms slott",
+"url": "https://www.vitterhetsakademien.se/kulturfastigheter/skanelaholms-slott.html"
+},
+{
+"id": "penningby-slott",
+"name": "Penningby slott",
+"url": "http://www.svensktkulturarv.se/uppland/penningby-slott"
+},
+{
+"id": "johannesbergs-slott",
+"name": "Johannesbergs slott",
+"url": "https://www.johannesbergsslott.se/"
+},
+{
+"id": "skoklosters-slott",
+"name": "Skoklosters slott",
+"url": "http://www.skoklostersslott.se/"
+},
+{
+"id": "uppsala-slott",
+"name": "Uppsala slott",
+"url": "http://www.uppsalaslott.com/"
+},
+{
+"id": "wiks-slott",
+"name": "Wiks slott",
+"url": "https://www.wikslott.se/"
+},
+{
+"id": "gronsoo-slott",
+"name": "Grönsöö slott",
+"url": "https://www.gronsoo.se/"
+},
+{
+"id": "haga-slott",
+"name": "Haga slott",
+"url": "https://www.hagaslott.se/"
+},
+{
+"id": "salsta-slott",
+"name": "Salsta slott",
+"url": "https://salsta-slott.se"
+},
+{
+"id": "orbyhus-slott",
+"name": "Örbyhus slott",
+"url": "https://www.orbyhusslott.se/"
+},
+{
+"id": "noors-slott",
+"name": "Noors slott",
+"url": "http://noorsslott.se/"
+},
+{
+"id": "salnecke-slott",
+"name": "Salnecke slott",
+"url": "https://www.salneckeslott.se/"
+},
+{
+"id": "lovstabruk",
+"name": "Lövstabruk",
+"url": "https://lovstabruk.com/"
+},
+{
+"id": "angso-slott",
+"name": "Ängsö slott",
+"url": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html"
+},
+{
+"id": "tido-slott",
+"name": "Tidö slott",
+"url": "http://www.tidoslott.se/"
+},
+{
+"id": "vasteras-slott",
+"name": "Västerås slott",
+"url": "http://www.vasteras-slott.se/"
+},
+{
+"id": "orebro-slott",
+"name": "Örebro slott",
+"url": "https://orebroslott.se"
+},
+{
+"id": "karlslunds-herrgard",
+"name": "Karlslunds herrgård",
+"url": "https://karlslund.com/"
+},
+{
+"id": "marbacka",
+"name": "Mårbacka",
+"url": "http://www.marbacka.com/"
+},
+{
+"id": "gysinge-herrgard",
+"name": "Gysinge herrgård",
+"url": "https://www.gysinge.se/"
+},
+{
+"id": "hemso-fastning",
+"name": "Hemsö fästning",
+"url": "http://www.hemsofastning.se/"
+},
+{
+"id": "fjallnas",
+"name": "Fjällnäs",
+"url": "https://www.fjallnas.se/"
+}
+]
