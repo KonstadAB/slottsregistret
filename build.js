@@ -24,7 +24,7 @@ S.nearby = (c, n) => {
 };
 // Startsidans urval: slott med rundtur, helst inbäddningsbar, med bild och hög prioritet; högst två per län.
 // Först de som visar slottet inifrån bäst (granskade för hand), sedan övriga.
-const FEATURE_FIRST = ['granso-slott', 'drottningholms-slott', 'mauritzbergs-slott', 'bjarsjolagards-slott', 'trollenas-slott', 'osterbybruk-herrgard', 'kronovalls-slott', 'malmohus'];
+const FEATURE_FIRST = ['svaneholms-slott', 'granso-slott', 'drottningholms-slott', 'mauritzbergs-slott', 'bjarsjolagards-slott', 'trollenas-slott', 'osterbybruk-herrgard', 'kronovalls-slott', 'malmohus'];
 S.featured = FEATURE_FIRST.map(id => data.castles.find(c => c.id === id)).filter(c => c && c.tours.length);
 {
   const per = {};
