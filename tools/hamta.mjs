@@ -17,6 +17,9 @@
 //   streetview: [{ id, lat, lon }]  -> 360-bilder från andra än Google nära platsen (Street View-metadata, nyckel i
 //                                      miljövariabeln MAPS_KEY): punkter i ett rutnät runt platsen, grupperade per fotograf
 //   search:     [{ id, q }]         -> de tio första träffarna i en webbsökning (DuckDuckGo, html-versionen)
+//   tourScan:   [{ id, url }]       -> letar rundturer på en webbplats: startsidan och upp till 40 undersidor (de med
+//                                      ord som 360/rundtur/konferens först); hela HTML-koden söks efter kända
+//                                      rundtursleverantörer (Matterport, Kuula, 3DVista, krpano m.fl.)
 //   downloads:  [{ url, path }]     -> filen sparas i arkivet på path (t.ex. typsnitt), om den inte redan finns
 import fs from 'node:fs';
 
@@ -241,6 +244,50 @@ await step('search', async () => {
     await sleep(4000 + Math.random() * 3000);
   }
   if ((req.search || []).length) note('Sökningar', req.search.length, 'med träffar', (req.search || []).filter(q => (out.search[q.id].results || []).length).length);
+});
+
+const TOUR_RE = /(?:https?:)?\/\/[^\s"'<>()\\]*(?:matterport\.com|kuula\.co|viewin360\.co|3dvista|vtour|krpano|pano2vr|panotour|roundme\.com|cloudpano|lapentor|teliportme|momento360|ricoh360|theta360|giraffe360|stepinside|vrmedia\.se|360cities|panoee|seekbeak|eyespy360|ipanorama|marzipano|tourmkr|tourbuilder|vr\.kungligaslotten|360-?tour|virtual-?tour|virtuell-?rundtur|google\.com\/maps\/embed\?pb=[^"'\s<>]*!6m8|maps\.app\.goo\.gl)[^\s"'<>()\\]*/gi;
+const TOUR_WORDS = /360|rundtur|rundvandring|virtuell|vr\b|titta in|digital|konferens|möte|bröllop|fest|boende|rum|hotell|galleri|bilder|besök|slottet|historia|visning|om-oss|lokaler|event/i;
+await step('tourScan', async () => {
+  out.tourscan = out.tourscan || {};
+  const queue = [...(req.tourScan || [])];
+  async function page(u) {
+    const r = await fetch(u, { headers: { 'User-Agent': HTML_UA, Accept: 'text/html,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    const html = (r.headers.get('content-type') || '').includes('html') ? await r.text() : '';
+    return { url: r.url || u, status: r.status, html };
+  }
+  async function worker() {
+    for (let s; (s = queue.shift());) {
+      const res = { pages: 0, hits: [], links360: [], error: null };
+      try {
+        const start = await page(s.url);
+        const host = new URL(start.url).hostname.replace(/^www\./, '');
+        const seen = new Set([start.url]);
+        const scan = (p) => {
+          res.pages++;
+          for (const m of p.html.matchAll(TOUR_RE)) res.hits.push([p.url, m[0].slice(0, 300)]);
+          for (const m of p.html.matchAll(/<a\b[^>]*?\shref=["']([^"'#][^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+            const t = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            if (/360|rundtur|rundvandring|virtuell|vr-|\bvr\b|titta in/i.test(t + ' ' + m[1])) res.links360.push([p.url, m[1].slice(0, 300), t.slice(0, 80)]);
+          }
+        };
+        scan(start);
+        const links = [...start.html.matchAll(/href=["']([^"'#]+)["']/gi)].map(m => { try { return new URL(m[1].replace(/&amp;/g, '&'), start.url).href.split('#')[0]; } catch { return null; } })
+          .filter(h => h && /^https?:/.test(h) && new URL(h).hostname.replace(/^www\./, '') === host && !/\.(jpe?g|png|gif|webp|svg|pdf|css|js|xml|ico|mp4|zip)(\?|$)/i.test(h) && !seen.has(h));
+        const uniq = [...new Set(links)].sort((a, b) => TOUR_WORDS.test(b) - TOUR_WORDS.test(a)).slice(0, 40);
+        for (const h of uniq) {
+          seen.add(h);
+          try { scan(await page(h)); } catch {}
+          await sleep(150);
+        }
+      } catch (e) { res.error = String(e.cause && (e.cause.code || e.cause.message) || e.name || e).slice(0, 160); }
+      const dedup = a => [...new Map(a.map(x => [x.slice(1).join(' '), x])).values()].slice(0, 60);
+      res.hits = dedup(res.hits); res.links360 = dedup(res.links360);
+      out.tourscan[s.id] = res;
+    }
+  }
+  await Promise.all([1, 2, 3, 4, 5, 6, 7, 8].map(worker));
+  if ((req.tourScan || []).length) note('Rundtursletning', req.tourScan.length, 'webbplatser, med träffar', Object.values(out.tourscan).filter(x => x.hits.length || x.links360.length).length);
 });
 
 await step('downloads', async () => {

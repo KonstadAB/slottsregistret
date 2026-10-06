@@ -1,3 +1,572 @@
-{"jsonUrls": [{"url": "https://www.vrmedia.se/sitemap.xml"}, {"url": "https://www.vrmedia.se/sitemap_index.xml"}, {"url": "https://www.vrmedia.se/robots.txt"}, {"url": "https://www.vrmedia.se/tjanster/virtuell-rundtur"}, {"url": "https://svaneholmsslott.se/sitemap_index.xml"}, {"url": "https://www.lackoslott.se/sitemap_index.xml"}],
- "textPages": ["https://www.vrmedia.se/tjanster/virtuell-rundtur", "https://www.vrmedia.se/en/home/"],
- "search": [{"id": "si5", "q": "site:vrmedia.se slott"}, {"id": "si6", "q": "vrmedia.se stepinside slott rundtur"}, {"id": "si7", "q": "\"stepinside\" slott virtuell rundtur"}]}
+{
+"tourScan": [
+{
+"id": "malmohus",
+"url": "https://malmo.se/museer"
+},
+{
+"id": "karnan",
+"url": "https://www.karnan.se/"
+},
+{
+"id": "sofiero-slott",
+"url": "https://www.sofiero.se"
+},
+{
+"id": "glimmingehus",
+"url": "https://glimmingehus.se/"
+},
+{
+"id": "bosjokloster",
+"url": "https://bosjokloster.com/"
+},
+{
+"id": "hovdala-slott",
+"url": "https://hovdala.se/"
+},
+{
+"id": "backaskog-slott",
+"url": "http://backaskogslott.se"
+},
+{
+"id": "christinehofs-slott",
+"url": "https://www.christinehofslott.se/"
+},
+{
+"id": "svaneholms-slott",
+"url": "https://svaneholmsslott.se/"
+},
+{
+"id": "trollenas-slott",
+"url": "https://www.trollenasslott.se/"
+},
+{
+"id": "krapperups-slott",
+"url": "https://www.krapperup.se/"
+},
+{
+"id": "borgeby-slott",
+"url": "https://borgebyslott.com/"
+},
+{
+"id": "wanas-slott",
+"url": "https://www.wanas.se/"
+},
+{
+"id": "snogeholms-slott",
+"url": "https://www.snogeholmsslott.se/"
+},
+{
+"id": "hackeberga-slott",
+"url": "https://hackebergaslott.com/"
+},
+{
+"id": "trolleholms-slott",
+"url": "https://www.trolleholmsslott.se"
+},
+{
+"id": "tosterups-slott",
+"url": "http://www.tosterup.se/"
+},
+{
+"id": "trolle-ljungby-slott",
+"url": "https://trolleljungby.com/"
+},
+{
+"id": "marsvinsholms-slott",
+"url": "https://marsvinsholm.com/"
+},
+{
+"id": "krageholms-slott",
+"url": "https://www.krageholm.se/"
+},
+{
+"id": "kulla-gunnarstorps-slott",
+"url": "https://www.kullagunnarstorp.se/"
+},
+{
+"id": "knutstorps-borg",
+"url": "https://knutstorp.se/"
+},
+{
+"id": "skarhults-slott",
+"url": "https://skarhult.com/"
+},
+{
+"id": "ellinge-slott",
+"url": "https://ellinge.com/"
+},
+{
+"id": "ovedsklosters-slott",
+"url": "https://ovedskloster.com/"
+},
+{
+"id": "bollerups-borg",
+"url": "https://bollerup.com/"
+},
+{
+"id": "rossjoholms-slott",
+"url": "https://www.rossjoholm.se/"
+},
+{
+"id": "karsholms-slott",
+"url": "https://www.karsholmsslott.se/"
+},
+{
+"id": "jordberga-slott",
+"url": "https://www.jordberga.se/"
+},
+{
+"id": "borringekloster",
+"url": "http://www.borringekloster.se/"
+},
+{
+"id": "tullesbo",
+"url": "https://tullesbo.com/"
+},
+{
+"id": "bjarsjolagards-slott",
+"url": "https://bjarsjolagardsslott.se"
+},
+{
+"id": "ovesholms-slott",
+"url": "https://ovesholm.com/"
+},
+{
+"id": "hjularods-slott",
+"url": "http://www.hjularod.se"
+},
+{
+"id": "hogestads-slott",
+"url": "https://www.hogesta.se"
+},
+{
+"id": "sovdeborgs-slott",
+"url": "https://www.sovdeborg.se/"
+},
+{
+"id": "johannishus-slott",
+"url": "http://www.johannishus.com"
+},
+{
+"id": "drottningskars-kastell",
+"url": "https://www.visitkarlskrona.se/sv/drottningskars-kastell-aspo"
+},
+{
+"id": "tjoloholms-slott",
+"url": "https://www.tjoloholm.se"
+},
+{
+"id": "skottorps-slott",
+"url": "https://www.skottorpsslott.se"
+},
+{
+"id": "wapno-slott",
+"url": "https://www.wapnoslott.se/"
+},
+{
+"id": "sperlingsholms-slott",
+"url": "https://www.sperlingsholm.se/"
+},
+{
+"id": "lacko-slott",
+"url": "https://www.lackoslott.se"
+},
+{
+"id": "naas-slott",
+"url": "https://www.naas.se/"
+},
+{
+"id": "gunnebo-slott",
+"url": "http://www.gunneboslott.se/"
+},
+{
+"id": "bohus-fastning",
+"url": "https://bohusfastning.com"
+},
+{
+"id": "carlstens-fastning",
+"url": "https://carlsten.se/"
+},
+{
+"id": "skansen-kronan",
+"url": "http://www.skansenkronan.se/"
+},
+{
+"id": "karlsborgs-fastning",
+"url": "https://www.vastsverige.com/en/karlsborg/karlsborgs-fastning---eng/"
+},
+{
+"id": "torpa-stenhus",
+"url": "https://www.torpastenhus.se/"
+},
+{
+"id": "thorskogs-slott",
+"url": "https://www.thorskogsslott.se/"
+},
+{
+"id": "bjertorps-slott",
+"url": "https://www.bjertorp.se/"
+},
+{
+"id": "stola-herrgard",
+"url": "https://www.stola.se/"
+},
+{
+"id": "sundsby-sateri",
+"url": "https://www.tjorn.se/sundsby"
+},
+{
+"id": "kobergs-slott",
+"url": "https://www.koberg.se"
+},
+{
+"id": "dagsnas-slott",
+"url": "https://www.dagsnasslott.se/"
+},
+{
+"id": "kalmar-slott",
+"url": "http://www.kalmarslott.se/"
+},
+{
+"id": "borgholms-slottsruin",
+"url": "https://borgholmsslott.se"
+},
+{
+"id": "sollidens-slott",
+"url": "https://sollidensslott.se"
+},
+{
+"id": "eketorps-borg",
+"url": "https://eketorpsborg.se/"
+},
+{
+"id": "granso-slott",
+"url": "https://granso.com/"
+},
+{
+"id": "blekhem",
+"url": "https://blekhem.com/"
+},
+{
+"id": "kronobergs-slottsruin",
+"url": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/"
+},
+{
+"id": "teleborgs-slott",
+"url": "https://teleborgsslott.com"
+},
+{
+"id": "huseby-bruk",
+"url": "https://husebybruk.com/"
+},
+{
+"id": "vastana-slott",
+"url": "https://www.vastanaslott.se/"
+},
+{
+"id": "roma-kungsgard",
+"url": "http://www.romakungsgard.se"
+},
+{
+"id": "vadstena-slott",
+"url": "https://vadstenaslott.com"
+},
+{
+"id": "lofstad-slott",
+"url": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/"
+},
+{
+"id": "ekenas-slott",
+"url": "https://www.ekenasslott.se/"
+},
+{
+"id": "stegeborgs-slottsruin",
+"url": "http://www.stegeborg.se/slottsruin.php"
+},
+{
+"id": "mauritzbergs-slott",
+"url": "https://mauritzberg.com/"
+},
+{
+"id": "gripsholms-slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/gripsholm-castle.html"
+},
+{
+"id": "nykopingshus",
+"url": "https://sormlandsmuseum.se/besoksinfo/nykopingshus/"
+},
+{
+"id": "nynas-slott",
+"url": "https://nynasslott.se/"
+},
+{
+"id": "julita-gard",
+"url": "https://www.julitagard.se/"
+},
+{
+"id": "sundbyholms-slott",
+"url": "https://www.sundbyholm.se/"
+},
+{
+"id": "malsakers-slott",
+"url": "https://malsaker.nu/"
+},
+{
+"id": "ericsbergs-slott",
+"url": "https://ericsberg.com/"
+},
+{
+"id": "stora-sundby-slott",
+"url": "https://storasundby.com/"
+},
+{
+"id": "sparreholms-slott",
+"url": "https://sparreholmsslott.com/"
+},
+{
+"id": "harpsund",
+"url": "https://www.harpsund.se"
+},
+{
+"id": "claestorps-slott",
+"url": "https://www.claestorp.se/"
+},
+{
+"id": "rockelstads-slott",
+"url": "http://www.rockelstad.se/"
+},
+{
+"id": "yxtaholms-slott",
+"url": "https://www.yxtaholmsslott.se/"
+},
+{
+"id": "sodertuna-slott",
+"url": "https://www.sodertuna.se/"
+},
+{
+"id": "safstaholms-slott",
+"url": "https://safstaholm.se/"
+},
+{
+"id": "ekensholms-slott",
+"url": "http://www.ekensholm.se/"
+},
+{
+"id": "oster-malma",
+"url": "https://www.ostermalma.se/"
+},
+{
+"id": "tistads-slott",
+"url": "http://www.tista.se"
+},
+{
+"id": "stockholms-slott",
+"url": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html"
+},
+{
+"id": "drottningholms-slott",
+"url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html"
+},
+{
+"id": "kina-slott",
+"url": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion.html"
+},
+{
+"id": "ulriksdals-slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/ulriksdal-palace.html"
+},
+{
+"id": "rosendals-slott",
+"url": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html"
+},
+{
+"id": "rosersbergs-slott",
+"url": "https://www.rosersbergsslott.se/en/"
+},
+{
+"id": "tyreso-slott",
+"url": "https://www.tyresoslott.se/"
+},
+{
+"id": "svartsjo-slott",
+"url": "http://www.svartsjoslott.se/"
+},
+{
+"id": "venngarns-slott",
+"url": "https://www.venngarn.se/"
+},
+{
+"id": "haringe-slott",
+"url": "https://www.haringeslott.se/"
+},
+{
+"id": "sandemar",
+"url": "https://www.lansstyrelsen.se/stockholm/besoksmal/naturreservat/sandemar.html"
+},
+{
+"id": "taxinge-slott",
+"url": "https://taxinge.com/"
+},
+{
+"id": "sturehovs-slott",
+"url": "https://www.sturehov.se"
+},
+{
+"id": "erstavik",
+"url": "http://www.erstavik.se"
+},
+{
+"id": "akeshovs-slott",
+"url": "http://www.akeshofsslott.se/"
+},
+{
+"id": "nasby-slott",
+"url": "https://www.nasbyslott.se/"
+},
+{
+"id": "bogesunds-slott",
+"url": "http://www.bogesundsslott.se"
+},
+{
+"id": "vaxholms-kastell",
+"url": "http://www.vaxholmsfastning.se/"
+},
+{
+"id": "ekebyhovs-slott",
+"url": "https://www.ekero.se/uppleva-gora/ekebyhovs-slott"
+},
+{
+"id": "gorvalns-slott",
+"url": "https://www.gorvaln.se/"
+},
+{
+"id": "lejondals-slott",
+"url": "https://www.lejondalsslott.se/"
+},
+{
+"id": "stora-wasby-slott",
+"url": "https://www.storawasby.se/"
+},
+{
+"id": "rydboholms-slott",
+"url": "http://slottsguiden.info/"
+},
+{
+"id": "ostana-slott",
+"url": "https://www.ostanaslott.se/"
+},
+{
+"id": "skanelaholms-slott",
+"url": "https://www.vitterhetsakademien.se/kulturfastigheter/skanelaholms-slott.html"
+},
+{
+"id": "penningby-slott",
+"url": "http://www.svensktkulturarv.se/uppland/penningby-slott"
+},
+{
+"id": "johannesbergs-slott",
+"url": "https://www.johannesbergsslott.se/"
+},
+{
+"id": "skoklosters-slott",
+"url": "http://www.skoklostersslott.se/"
+},
+{
+"id": "uppsala-slott",
+"url": "http://www.uppsalaslott.com/"
+},
+{
+"id": "wiks-slott",
+"url": "https://www.wikslott.se/"
+},
+{
+"id": "gronsoo-slott",
+"url": "https://www.gronsoo.se/"
+},
+{
+"id": "haga-slott",
+"url": "https://www.hagaslott.se/"
+},
+{
+"id": "salsta-slott",
+"url": "https://salsta-slott.se"
+},
+{
+"id": "orbyhus-slott",
+"url": "https://www.orbyhusslott.se/"
+},
+{
+"id": "noors-slott",
+"url": "http://noorsslott.se/"
+},
+{
+"id": "salnecke-slott",
+"url": "https://www.salneckeslott.se/"
+},
+{
+"id": "lovstabruk",
+"url": "https://lovstabruk.com/"
+},
+{
+"id": "angso-slott",
+"url": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html"
+},
+{
+"id": "tido-slott",
+"url": "http://www.tidoslott.se/"
+},
+{
+"id": "vasteras-slott",
+"url": "http://www.vasteras-slott.se/"
+},
+{
+"id": "orebro-slott",
+"url": "https://orebroslott.se"
+},
+{
+"id": "karlslunds-herrgard",
+"url": "https://karlslund.com/"
+},
+{
+"id": "marbacka",
+"url": "http://www.marbacka.com/"
+},
+{
+"id": "gysinge-herrgard",
+"url": "https://www.gysinge.se/"
+},
+{
+"id": "hemso-fastning",
+"url": "http://www.hemsofastning.se/"
+},
+{
+"id": "fjallnas",
+"url": "https://www.fjallnas.se/"
+},
+{
+"id": "bosjokloster~2",
+"url": "https://bosjokloster.se/"
+},
+{
+"id": "mauritzbergs-slott~2",
+"url": "https://mauritzberg.se/"
+},
+{
+"id": "hackeberga-slott~2",
+"url": "https://hackebergaslott.se/"
+},
+{
+"id": "venngarns-slott~2",
+"url": "https://wenngarn.se/"
+},
+{
+"id": "bjertorps-slott~2",
+"url": "https://bjertorpslott.se/"
+}
+],
+"textPages": [
+"https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Museer/Program-och-visningar/Virtuella-turer.html",
+"https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Program-och-visningar/Virtuella-turer.html"
+]
+}
