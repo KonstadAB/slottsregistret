@@ -1,5 +1,5 @@
 {
- "built": "2026-10-03",
+ "built": "2026-10-06",
  "castles": [
   {
    "id": "malmohus",
@@ -41,6 +41,20 @@
     "restaurang-och-kafe"
    ],
    "tours": [
+    {
+     "id": "malmo-museer-kungsvaningen",
+     "kind": "walk",
+     "provider": "Malmö museer",
+     "credit": [
+      "View 360"
+     ],
+     "title": "Kungsvåningen",
+     "embed": "https://malmomuseum.view360.se/tour/#kungsvaningen",
+     "url": "https://malmomuseum.view360.se/tour/#kungsvaningen",
+     "source": "slottets webbplats",
+     "checked": "2026-10-06",
+     "note": "Malmö museers egen rundtur med golvpunkter att gå mellan; även Entré Malmöhus, På kungens order, Makt över människor m.fl. (malmomuseum.view360.se/menu-mm.html, länkad från malmo.se)."
+    },
     {
      "id": "gm-malmohus",
      "kind": "walk",
@@ -7399,7 +7413,22 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "haringe-3dvista",
+     "kind": "walk",
+     "provider": "Häringe slott",
+     "credit": [
+      "OneManWork"
+     ],
+     "title": "Rundtur i slottet",
+     "embed": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/index.htm",
+     "url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/index.htm",
+     "source": "slottets webbplats",
+     "checked": "2026-10-06",
+     "note": "3DVista-tur med flygbild, nedre och övre våningen och kavaljersflygeln (inbäddad på haringeslott.se/sv/om-haringe/slottet)."
+    }
+   ]
   },
   {
    "id": "arsta-slott",
@@ -9827,7 +9856,7 @@
    "full": "Stockholms län",
    "slug": "stockholm",
    "total": 43,
-   "withTour": 5
+   "withTour": 6
   },
   {
    "name": "Uppsala",
@@ -9970,7 +9999,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 27,
+  "withTour": 28,
   "located": 250
  }
 }

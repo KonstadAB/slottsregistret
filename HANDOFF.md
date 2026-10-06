@@ -118,3 +118,16 @@
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
 - Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.
 - Allt från natten publicerat 3 okt på Daniels begäran.
+
+## 6 okt: leta fler rundturer (grenen claude/project-thread-y52k5g)
+- Nytt i `tools/hamta.mjs`: `tourScan` – läser startsidan + upp till 40 undersidor på en webbplats och söker hela koden efter
+  kända rundtursleverantörer (Matterport, Kuula, 3DVista, krpano, StepInside, Street View-inbäddningar m.fl.).
+- Körd på alla 141 slott med webbplats, ett tjugotal kataloger/museer och svenska 360-fotografers sidor. Webbsökningar slott för slott
+  gav inget. Slutsats: nästan inga svenska slott har egen rundtur på sin webbplats (bra säljläge för VR Media).
+- Nya: Häringe slott (3DVista av OneManWork, inbäddad, nedre/övre våningen/kavaljersflygeln) och Malmöhus (Malmö museers egen tur,
+  Kungsvåningen m.fl., går före Google-turen). Kärnan: en Google 360-bild per våning på karnan.se, inte länkade → `look` tills Daniel säger annat.
+- Prövat utan resultat: Karlskrona 360 (Drottningskär/Kungsholm bara en flygbild var), Stola "Rundtur" (bildgalleri), Huseby "rundtur" (text),
+  Kungliga slottens 360-lista (laddas med JS, inga nya adresser hittade). Borgholm: möjlig 3D-modell på Sketchfab (okontrollerad).
+- Daniel 6 okt: Kärnan räknas inte (ligger kvar som `look`). VR Medias turer (credit "VR Media") sorteras först bland slott med rundtur,
+  Svaneholm först på startsidan. Läckö: VR Medias egen länk saknas fortfarande. Excel-lista över alla slott med kontaktuppgifter
+  (hämtade från webbplatserna) i projektmappen listor-6-okt/.

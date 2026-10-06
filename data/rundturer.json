@@ -113,6 +113,20 @@
  ],
  "malmohus": [
   {
+   "id": "malmo-museer-kungsvaningen",
+   "kind": "walk",
+   "provider": "Malmö museer",
+   "credit": [
+    "View 360"
+   ],
+   "title": "Kungsvåningen",
+   "embed": "https://malmomuseum.view360.se/tour/#kungsvaningen",
+   "url": "https://malmomuseum.view360.se/tour/#kungsvaningen",
+   "source": "slottets webbplats",
+   "checked": "2026-10-06",
+   "note": "Malmö museers egen rundtur med golvpunkter att gå mellan; även Entré Malmöhus, På kungens order, Makt över människor m.fl. (malmomuseum.view360.se/menu-mm.html, länkad från malmo.se)."
+  },
+  {
    "id": "gm-malmohus",
    "kind": "walk",
    "provider": "Google Maps",
@@ -637,6 +651,38 @@
    "source": "slottets webbplats",
    "checked": "2026-10-03",
    "note": "3D-modeller av borgen, ute och inne, med guidning rum för rum (Sketchfab). Öppnas i nytt fönster. Daniel 3 okt: räknas inte som rundtur; kan visas i en egen 3D-del senare."
+  }
+ ],
+ "haringe-slott": [
+  {
+   "id": "haringe-3dvista",
+   "kind": "walk",
+   "provider": "Häringe slott",
+   "credit": [
+    "OneManWork"
+   ],
+   "title": "Rundtur i slottet",
+   "embed": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/index.htm",
+   "url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/index.htm",
+   "source": "slottets webbplats",
+   "checked": "2026-10-06",
+   "note": "3DVista-tur med flygbild, nedre och övre våningen och kavaljersflygeln (inbäddad på haringeslott.se/sv/om-haringe/slottet)."
+  }
+ ],
+ "karnan": [
+  {
+   "id": "karnan-virtuell-guide",
+   "kind": "look",
+   "provider": "Kärnan",
+   "credit": [
+    "Fredriksdal museer och trädgårdar"
+   ],
+   "title": "Virtuell guide",
+   "embed": null,
+   "url": "https://karnan.se/om-karnan/virtuell-guide/",
+   "source": "slottets webbplats",
+   "checked": "2026-10-06",
+   "note": "En 360-bild per våning (entréplan, andra–fjärde våningen, utsikten) via Google Maps, inte länkade till varandra. Fråga Daniel om det räknas."
   }
  ]
 }
