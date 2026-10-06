@@ -41,7 +41,13 @@ const VENDORS = {
   'Adtraction': /adtraction/i, 'Awin': /awin1?\.com|zanox/i, 'Tradedoubler': /tradedoubler/i, 'Partner-ads': /partner-ads/i,
   'Stay22': /stay22/i, 'Travelpayouts': /travelpayouts|tp\.media/i, 'Booking affiliate': /booking\.com\/[^"']*[?&]aid=/i,
   'Venuu': /venuu\./i, 'Bröllopstorget': /brollopstorget/i, 'Lokalbokning/Lokalguiden': /lokalguiden|lokalbokning/i,
-  'Meetingselect/Venue': /meetingselect|venue\.se|konferensbokning|bookameeting/i, 'Visit Sweden/Visita': /visitsweden\.|visita\.se/i,
+  'Meetingselect': /meetingselect\.(com|se)|bookameeting/i, 'Meeting Selection (kedja)': /meetingselection\.se/i,
+  'Actor Smartbook': /actorsmartbook/i, 'Techotel Picasso': /techotel\.dk/i, 'BookYourStay': /bookyourstay\.eu/i, 'Valei': /valei\.com/i,
+  'Gastrogate': /gastrogate\.com/i, 'easyTable': /easytable\.com/i, 'Understory': /understory\.io/i, 'Timetomeet': /timetomeet\.se/i,
+  'Tiqets': /tiqets\.com/i, 'Entryevent': /entryevent\.se/i, 'Tix': /tix\.se/i, 'Biljettportalen': /biljettportalen\.se/i,
+  'Upsales (CRM-formulär)': /upsales\.com/i, 'Markethype (formulär)': /markethype/i, 'Reinvented Hospitality': /reinvented-hospitality/i,
+  'Strömma': /stromma\.(com|se)/i, 'Countryside Hotels (kedja)': /countrysidehotels\.se/i, 'Svenska Möten (kedja)': /svenskamoten\.se/i,
+  'Slottsrundan': /slottsrundan\.se/i, 'Venuu/Konferensbokning': /konferensbokning|venue\.se\b/i, 'Visit Sweden/Visita': /visitsweden\.|visita\.se/i,
   'HubSpot': /hubspot|hs-scripts|hsforms/i, 'Typeform': /typeform\./i, 'Jotform': /jotform\./i, 'Gravity Forms': /gravityforms|gform_/i,
   'Mailchimp': /mailchimp|list-manage\.com/i, 'Calendly': /calendly\./i, 'Matterport': /matterport\./i,
   'GolfBox': /golfbox\./i, 'MinGolf': /mingolf\.golf\.se|mingolf\.se/i, 'Golfamore': /golfamore/i,
@@ -54,10 +60,12 @@ const SKIP = /google|gstatic|googletag|doubleclick|facebook|fbcdn|instagram|twit
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 const root = h => h.split('.').slice(-2).join('.');
 
-async function load(u) {
+async function load(u, depth = 0) {
   try {
     const r = await fetch(u, { headers: { 'User-Agent': UA, Accept: 'text/html,*/*', 'Accept-Language': 'sv-SE,sv;q=0.9,en;q=0.5' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
     const html = (r.headers.get('content-type') || '').includes('html') ? (await r.text()).slice(0, 1500000) : '';
+    const m = html.length < 4000 && (html.match(/http-equiv=["']?refresh["']?[^>]*?url=([^"'>\s]+)/i) || html.match(/(?:window\.|document\.)?location(?:\.href)?\s*=\s*["']([^"']+)/i));
+    if (m && depth < 2) { try { return await load(new URL(m[1], r.url || u).href, depth + 1); } catch { } }
     return { status: r.status, final: r.url || u, html };
   } catch (e) { return { status: 0, final: u, html: '', error: String(e.cause && (e.cause.code || e.cause.message) || e.name || e).slice(0, 120) }; }
 }
@@ -113,6 +121,7 @@ async function scan(site) {
         cands.push([a, (/bok|book|reserv|biljett|ticket|presentkort|gift/i.test(a + t) ? 0 : 1)]);
       }
     }
+    if (res.pages.length === 1) res.linkSample = links.slice(0, 40).map(l => l[0].slice(0, 120) + ' | ' + l[1]);
     if (res.pages.length === 1) cands.sort((x, y) => x[1] - y[1]).forEach(([a]) => queue.push([a]));
   }
   for (const a of [...extra].slice(0, 4)) {
