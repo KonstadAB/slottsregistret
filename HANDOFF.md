@@ -32,7 +32,13 @@
   slottet, `streetview` i bestallning), granskade för hand via miniatyrer (Street View Static API). Bara bilder som visar slottet
   inifrån (eller inne i ruinen/fästningen) räknas; parkpromenader räknas inte. Kungliga slottens egna 360-visningar
   (vr.kungligaslotten.se) för Drottningholm, Gripsholm, Stockholms slott och Ulriksdal (öppnas i nytt fönster, inte inbäddade).
-- VR Media International AB har rundturer på Gränsö slott och Svaneholms slott (Google Maps).
+- VR Media International AB har rundturer på Gränsö slott och Svaneholms slott. Sedan 17 okt visas VR Medias egna versioner (StepInside,
+  3DVista) inbäddade i stället för Google Maps, på Daniels begäran. De ligger på
+  `https://googlestreetview.s3.eu-central-1.amazonaws.com/<Namn>/VR+Media+International+AB/index.htm` (Namn = Google-företagsnamnet
+  utan å/ä/ö, + för mellanslag: `Svaneholm+Castle`, `Granso+Slott`). Alla 250 slott söktes av med namnvarianter 17 okt (konstad-repot,
+  grenen claude/vr-media-rundturer): inga fler slott. Läckö är gjord men inte klar än (Daniel 17 okt); lägg in den när han säger till.
+- Hemligheten MAPS_KEY gav tom nyckel 17 okt (grenen claude/vr-media-skanning, skanning av Street View runt slott och golfbanor,
+  körs när nyckeln finns). Tidigare skanningar fick nyckeln som indata `nyckel`.
 - Google-nyckeln (Daniels) skickas som indata `nyckel` till arbetsflödet Hämta data (maskeras), används i `{MAPS_KEY}`.
 
 ## Publicering
