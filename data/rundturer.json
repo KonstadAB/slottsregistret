@@ -53,17 +53,18 @@
  ],
  "granso-slott": [
   {
-   "id": "gm-granso-slott",
+   "id": "vrmedia-granso-slott",
    "kind": "walk",
-   "provider": "Google Maps",
+   "provider": "StepInside",
    "credit": [
     "VR Media International AB"
    ],
    "year": 2026,
-   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaEEtU1ZDX3I1N1BfQjZ3a2tGcU8wZlU.!2m2!1d57.7609467537964!2d16.68475929783742!3f0!4f0!5f0.7820865974627469",
-   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaEEtU1ZDX3I1N1BfQjZ3a2tGcU8wZlU.",
-   "source": "streetview",
-   "checked": "2026-10-02"
+   "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Granso+Slott/VR+Media+International+AB/index.htm",
+   "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Granso+Slott/VR+Media+International+AB/index.htm",
+   "source": "vrmedia",
+   "checked": "2026-10-17",
+   "note": "VR Medias egen version (3DVista): slottet, hotellen, konferens, spa, restaurang, flygbild. Ersätter Google Maps-turen på Daniels begäran 17 okt."
   }
  ],
  "hackeberga-slott": [
@@ -542,17 +543,18 @@
  ],
  "svaneholms-slott": [
   {
-   "id": "gm-svaneholms-slott",
+   "id": "vrmedia-svaneholms-slott",
    "kind": "walk",
-   "provider": "Google Maps",
+   "provider": "StepInside",
    "credit": [
     "VR Media International AB"
    ],
    "year": 2026,
-   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.!2m2!1d55.50077478432323!2d13.47796489161368!3f0!4f0!5f0.7820865974627469",
-   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaENKa1FDa1NiTjBSOEZuSERXeW5YRWY.",
-   "source": "streetview",
-   "checked": "2026-10-02"
+   "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Svaneholm+Castle/VR+Media+International+AB/index.htm",
+   "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Svaneholm+Castle/VR+Media+International+AB/index.htm",
+   "source": "vrmedia",
+   "checked": "2026-10-17",
+   "note": "VR Medias egen version (3DVista): museum, restaurang, konferens, fiske, flygbilder. Ersätter Google Maps-turen på Daniels begäran 17 okt."
   }
  ],
  "gripsholms-slott": [
