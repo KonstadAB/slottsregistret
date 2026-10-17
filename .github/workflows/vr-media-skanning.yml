@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node tools/vr-media-skanna.mjs
+      - run: node tools/vr-media-skanna.mjs || echo "skanningen avbröts"
         env:
           MAPS_KEY: ${{ secrets.MAPS_KEY }}
       - name: Spara svaret på grenen
@@ -25,4 +25,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/source/vr-media-skanning.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Svar: VR Medias bilder"
-          git push
+          git push || true

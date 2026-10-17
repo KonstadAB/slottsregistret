@@ -8,7 +8,8 @@ import fs from 'node:fs';
 
 const IN = 'data/source/vr-media-platser.json', UT = 'data/source/vr-media-skanning.json';
 const key = process.env.MAPS_KEY;
-if (!key) { console.log('FEL: nyckel saknas (MAPS_KEY)'); process.exit(1); }
+// Saknad nyckel eller fel stoppar aldrig arbetsflödet (Daniel vill inte ha mejl om misslyckade körningar); felet sparas i svaret.
+if (!key) { fs.writeFileSync(UT, JSON.stringify({ tid: new Date().toISOString(), fel: 'nyckel saknas (MAPS_KEY)' })); console.log('nyckel saknas'); process.exit(0); }
 const { platser } = JSON.parse(fs.readFileSync(IN, 'utf8'));
 const vila = (ms) => new Promise((ok) => setTimeout(ok, ms));
 
@@ -30,7 +31,7 @@ for (const s of platser)
 const res = { tid: new Date().toISOString(), fragor: fragor.length, status: {}, platser: {} };
 const sedda = {};
 let i = 0, stopp = false;
-await Promise.all(Array.from({ length: 16 }, async () => {
+await Promise.allSettled(Array.from({ length: 16 }, async () => {
   while (i < fragor.length && !stopp) {
     const f = fragor[i++];
     const url = `https://maps.googleapis.com/maps/api/streetview/metadata?location=${f.lat.toFixed(6)},${f.lon.toFixed(6)}&radius=${f.s.r}&source=default&key=${key}`;
@@ -45,8 +46,9 @@ await Promise.all(Array.from({ length: 16 }, async () => {
     }
     if (!j) continue;
     res.status[j.status] = (res.status[j.status] ?? 0) + 1;
+    if (j.error_message) res.felmeddelande ??= j.error_message.replaceAll(key, '…');
     if (j.status === 'REQUEST_DENIED' || j.status === 'OVER_QUERY_LIMIT') { if (res.status[j.status] > 20) stopp = true; continue; }
-    if (j.status !== 'OK' || !j.pano_id || /^©\s*Google$/i.test(j.copyright || '')) continue;
+    if (j.status !== 'OK' || !j.pano_id || !j.location || /^©\s*Google$/i.test(j.copyright || '')) continue;
     const k = `${f.s.register}/${f.s.id}`;
     sedda[k] ??= {};
     if (sedda[k][j.pano_id]) continue;
