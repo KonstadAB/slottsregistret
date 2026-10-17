@@ -1,0 +1,47 @@
+
+ ⛅️ wrangler 4.151.1
+────────────────────
+🌀 Building list of assets...
+✨ Read 839 files from the assets directory /home/runner/work/slottsregistret/slottsregistret/dist
+🌀 Starting asset upload...
+🌀 Found 13 new or modified static assets to upload. Proceeding with upload...
++ /.well-known/security.txt
++ /restaurang-och-kafe/skane/index.html
++ /virtuella-rundturer/index.html
++ /konferens/index.html
++ /besok/index.html
++ /lan/kalmar/index.html
++ /index.html
++ /brollop-och-fest/index.html
++ /lan/skane/index.html
++ /besok/skane/index.html
++ /bo-pa-slott/index.html
++ /restaurang-och-kafe/index.html
++ /sitemap.xml
+Uploaded 4 of 13 assets
+Uploaded 8 of 13 assets
+Uploaded 13 of 13 assets
+✨ Success! Uploaded 13 files (424 already uploaded) (1.31 sec)
+
+Total Upload: 7.76 KiB / gzip: 3.07 KiB
+Worker Startup Time: 2 ms
+Your Worker has access to the following bindings:
+Binding                              Resource        
+env.FORM_LIMIT (5 requests/60s)      Rate Limit      
+env.ASSETS                           Assets          
+
+Uploaded slottsregistret (3.19 sec)
+Worker Version ID: fc74d99a-d8cd-4586-992a-92f61349c9fa
+Version Preview URL: https://fc74d99a-slottsregistret.konstadab.workers.dev
+Version Preview Alias URL: https://granska-slottsregistret.konstadab.workers.dev
+
+To deploy this version to production traffic use the command wrangler versions deploy
+
+Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy
+
+Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy
+
+ok dator /slott/haringe-slott/
+ok dator /slott/malmohus/
+ok mobil /slott/haringe-slott/
+ok mobil /slott/malmohus/
