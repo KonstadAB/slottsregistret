@@ -160,7 +160,9 @@ function searchBox(S, big = false) {
 }
 
 // Sorterar så att slott med rundtur kommer först, sedan prioritet och namn.
-const byTour = (a, b) => (b.tours.length > 0) - (a.tours.length > 0) || a.prio - b.prio || a.name.localeCompare(b.name, 'sv');
+// VR Medias egna turer visas först bland slotten med rundtur (Daniel 6 okt).
+const isVRM = c => c.tours.some(t => (t.credit || []).some(x => /VR Media/i.test(x)));
+const byTour = (a, b) => (b.tours.length > 0) - (a.tours.length > 0) || isVRM(b) - isVRM(a) || a.prio - b.prio || a.name.localeCompare(b.name, 'sv');
 
 // ---------- Sidor ----------
 function home(S) {
