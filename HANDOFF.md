@@ -121,7 +121,7 @@
 5. Etapp 2: konton för slott, förfrågningar bröllop/konferens, affiliate-länkar.
 
 ## SEO-genomgång (22 oktober 2026)
-Gjort 22 okt: sitemap har inget `lastmod` längre. Dagens datum på alla adresser vid varje bygge gjorde datumen meningslösa för Google (samma ändring som på svenskakyrkor.se).
+Gjort 22 okt: sitemap har inget `lastmod` längre. Dagens datum på alla adresser vid varje bygge gjorde datumen meningslösa för Google (samma ändring som på svenskakyrkor.se). **Obs:** Publicera-körningen blev grön (26 s), men slottsregistret.se visade fortfarande 17 okt-versionen kl. 12.10 (sitemap med `lastmod` 2026-10-17). Troligen saknas hemligheten CLOUDFLARE_API_TOKEN, så att steget hoppades över (se Att göra 1). Kontrollera hur 17 okt-versionen kom ut och publicera igen.
 
 Att göra. Daniel 22 okt: inget mer byggs före lördag natt 24–25 okt, när han får ny användning. Grunden (egna titlar, canonical, en H1, BreadcrumbList, platsdata, alt-texter) är bra.
 1. **Search Console och Bing Webmaster Tools** saknas. De kräver Daniels godkännande en gång, som för svenskakyrkor.se.
