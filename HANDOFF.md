@@ -120,6 +120,16 @@
 4. Spa och boende behöver kontrolleras slott för slott (bara 7 spa hittades automatiskt).
 5. Etapp 2: konton för slott, förfrågningar bröllop/konferens, affiliate-länkar.
 
+## SEO-genomgång (22 oktober 2026)
+Gjort 22 okt: sitemap har inget `lastmod` längre. Dagens datum på alla adresser vid varje bygge gjorde datumen meningslösa för Google (samma ändring som på svenskakyrkor.se).
+
+Att göra. Daniel 22 okt: inget mer byggs före lördag natt 24–25 okt, när han får ny användning. Grunden (egna titlar, canonical, en H1, BreadcrumbList, platsdata, alt-texter) är bra.
+1. **Search Console och Bing Webmaster Tools** saknas. De kräver Daniels godkännande en gång, som för svenskakyrkor.se.
+2. **Tunna sidor.** Länssidorna och kategorisidorna per län (besök, restaurang och kafé, konferens, bröllop och fest, bo på slott m.fl.) har under 150 ord. Ge var och en en egen ingress som svarar på sökningen, till exempel "bröllop på slott i Skåne".
+3. **Om, Kontakt, Integritet, Sök och Tack** har startsidans beskrivning. Ge dem egna.
+4. **Slottsidornas text:** kontrollera hur mycket som är unikt jämfört med Wikipedia. Text som redan finns på nätet rankar sämre än originalet.
+5. **Länkar utifrån:** ett märke eller en länk som slotten kan sätta på sin egen sajt, turistorganisationer och VR Media.
+
 ## 3 okt förmiddag
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
 - Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.

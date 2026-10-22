@@ -111,8 +111,9 @@ write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40
 // ---- Sökmotorer ----
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /sok/\n\nSitemap: ${config.domain}/sitemap.xml\n`);
 write('.well-known/security.txt', `Contact: mailto:${config.contactEmail}\nExpires: ${new Date(Date.now() + 364 * 864e5).toISOString()}\nPreferred-Languages: sv, en\n`);
-const today = new Date().toISOString().slice(0, 10);
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, p]) => `<url><loc>${config.domain}${u}</loc><lastmod>${today}</lastmod><priority>${p.toFixed(1)}</priority></url>`).join('\n')}\n</urlset>\n`);
+// Inget lastmod: bygget vet inte när en enskild sida senast ändrades, och dagens datum på alla adresser vid varje
+// bygge gör att Google slutar lita på datumen (samma ändring som på svenskakyrkor.se 22 okt 2026).
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, p]) => `<url><loc>${config.domain}${u}</loc><priority>${p.toFixed(1)}</priority></url>`).join('\n')}\n</urlset>\n`);
 write('_headers', ['/assets/*', '  Cache-Control: public, max-age=31536000, immutable', '/data/*', '  Cache-Control: public, max-age=3600', '/*', '  X-Content-Type-Options: nosniff', '  Referrer-Policy: strict-origin-when-cross-origin', '  Strict-Transport-Security: max-age=31536000', "  Content-Security-Policy: frame-ancestors 'self'"].join('\n') + '\n');
 
 const count = fs.readdirSync(OUT, { recursive: true, withFileTypes: true }).filter(e => e.isFile()).length;
