@@ -1,1 +1,1 @@
-api PATCH /zones/{zone}/dnssec {"status":"active"} ;; api GET /zones/{zone}/dnssec
+api GET /accounts/{account}/storage/kv/namespaces ;; api POST /accounts/{account}/storage/kv/namespaces {"title":"slottsregistret-formular"} ;; api GET /user/tokens/verify
