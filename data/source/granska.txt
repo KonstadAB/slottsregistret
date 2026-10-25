@@ -1,3 +1,2 @@
-# 2026-10-06 nya rundturer
-/slott/haringe-slott/ start
-/slott/malmohus/ start
+# 2026-10-25 formulären med lagring
+/tipsa/ skicka
