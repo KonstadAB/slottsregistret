@@ -1,29 +1,20 @@
-# 2026-10-06T09:46:39Z api PATCH /zones/{zone}/dnssec {"status":"active"} ;; api GET /zones/{zone}/dnssec
->> api PATCH /zones/{zone}/dnssec {"status":"active"}
+# 2026-10-25T01:40:38Z api GET /accounts/{account}/storage/kv/namespaces ;; api POST /accounts/{account}/storage/kv/namespaces {"title":"slottsregistret-formular"} ;; api GET /user/tokens/verify
+>> api GET /accounts/{account}/storage/kv/namespaces
+[
+ {
+  "id": "f89300a3bafd42d9a34876c13e94b363",
+  "title": "svenskakyrkor-formular",
+  "supports_url_encoding": true
+ }
+]
+>> api POST /accounts/{account}/storage/kv/namespaces {"title":"slottsregistret-formular"}
 {
- "algorithm": "13",
- "digest": "8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
- "digest_algorithm": "SHA256",
- "digest_type": "2",
- "ds": "slottsregistret.se. 3600 IN DS 2371 13 2 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
- "flags": 257,
- "key_tag": 2371,
- "key_type": "ECDSAP256SHA256",
- "modified_on": "2026-10-06T09:46:40.048115+00:00",
- "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+KkxLbxILfDLUT0rAK9iUzy1L53eKGQ==",
- "status": "pending"
+ "id": "24b726539b4e40cda5dd28eeec38eac2",
+ "title": "slottsregistret-formular",
+ "supports_url_encoding": true
 }
->> api GET /zones/{zone}/dnssec
+>> api GET /user/tokens/verify
 {
- "algorithm": "13",
- "digest": "8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
- "digest_algorithm": "SHA256",
- "digest_type": "2",
- "ds": "slottsregistret.se. 3600 IN DS 2371 13 2 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441",
- "flags": 257,
- "key_tag": 2371,
- "key_type": "ECDSAP256SHA256",
- "modified_on": "2026-10-06T09:46:40.048115+00:00",
- "public_key": "mdsswUyr3DPW132mOi8V9xESWE8jTo0dxCjjnopKl+GqJxpVXckHAeF+KkxLbxILfDLUT0rAK9iUzy1L53eKGQ==",
- "status": "pending"
+ "id": "538d64f20c8c2ab4c412a518cc4dba17",
+ "status": "active"
 }
