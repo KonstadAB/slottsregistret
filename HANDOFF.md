@@ -32,7 +32,13 @@
   slottet, `streetview` i bestallning), granskade för hand via miniatyrer (Street View Static API). Bara bilder som visar slottet
   inifrån (eller inne i ruinen/fästningen) räknas; parkpromenader räknas inte. Kungliga slottens egna 360-visningar
   (vr.kungligaslotten.se) för Drottningholm, Gripsholm, Stockholms slott och Ulriksdal (öppnas i nytt fönster, inte inbäddade).
-- VR Media International AB har rundturer på Gränsö slott och Svaneholms slott (Google Maps).
+- VR Media International AB har rundturer på Gränsö slott och Svaneholms slott. Sedan 17 okt visas VR Medias egna versioner (StepInside,
+  3DVista) inbäddade i stället för Google Maps, på Daniels begäran. De ligger på
+  `https://googlestreetview.s3.eu-central-1.amazonaws.com/<Namn>/VR+Media+International+AB/index.htm` (Namn = Google-företagsnamnet
+  utan å/ä/ö, + för mellanslag: `Svaneholm+Castle`, `Granso+Slott`). Alla 250 slott söktes av med namnvarianter 17 okt (konstad-repot,
+  grenen claude/vr-media-rundturer): inga fler slott. Läckö är gjord men inte klar än (Daniel 17 okt); lägg in den när han säger till.
+- Hemligheten MAPS_KEY gav tom nyckel 17 okt (grenen claude/vr-media-skanning, skanning av Street View runt slott och golfbanor,
+  körs när nyckeln finns). Tidigare skanningar fick nyckeln som indata `nyckel`.
 - Google-nyckeln (Daniels) skickas som indata `nyckel` till arbetsflödet Hämta data (maskeras), används i `{MAPS_KEY}`.
 
 ## Publicering
@@ -114,13 +120,41 @@
 4. Spa och boende behöver kontrolleras slott för slott (bara 7 spa hittades automatiskt).
 5. Etapp 2: konton för slott, förfrågningar bröllop/konferens, affiliate-länkar.
 
+## SEO-genomgång (22 oktober 2026)
+Gjort 22 okt: sitemap har inget `lastmod` längre. Dagens datum på alla adresser vid varje bygge gjorde datumen meningslösa för Google (samma ändring som på svenskakyrkor.se). **Obs:** Publicera-körningen blev grön (26 s), men slottsregistret.se visade fortfarande 17 okt-versionen kl. 12.10 (sitemap med `lastmod` 2026-10-17). Troligen saknas hemligheten CLOUDFLARE_API_TOKEN, så att steget hoppades över (se Att göra 1). Kontrollera hur 17 okt-versionen kom ut och publicera igen.
+
+Att göra. Daniel 22 okt: inget mer byggs före lördag natt 24–25 okt, när han får ny användning. Grunden (egna titlar, canonical, en H1, BreadcrumbList, platsdata, alt-texter) är bra.
+1. **Search Console och Bing Webmaster Tools** saknas. De kräver Daniels godkännande en gång, som för svenskakyrkor.se.
+2. **Tunna sidor.** Länssidorna och kategorisidorna per län (besök, restaurang och kafé, konferens, bröllop och fest, bo på slott m.fl.) har under 150 ord. Ge var och en en egen ingress som svarar på sökningen, till exempel "bröllop på slott i Skåne".
+3. **Om, Kontakt, Integritet, Sök och Tack** har startsidans beskrivning. Ge dem egna.
+4. **Slottsidornas text:** kontrollera hur mycket som är unikt jämfört med Wikipedia. Text som redan finns på nätet rankar sämre än originalet.
+5. **Länkar utifrån:** ett märke eller en länk som slotten kan sätta på sin egen sajt, turistorganisationer och VR Media.
+
 ## 3 okt förmiddag
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.
 - Daniel vill att VR Medias egna StepInside-turer (Svaneholm, Läckö m.fl.) ersätter Google-turerna. vrmedia.se är en JS-app som inte går att läsa via hamta; behöver länkarna från Daniel eller skärmbild via granska.
 - Allt från natten publicerat 3 okt på Daniels begäran.
 
-## 6 okt: domänen live
-- Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern (Daniel: "ja kör på", 6 okt).
-- DNSSEC påslaget i Cloudflare (pending). DS att lägga in hos One.com: key tag 2371, algoritm 13, digesttyp 2, digest 8449D7BA50F1F1BD903A5E07B43735E3487122FBCBC6002F9FB8FBED98972441.
-- Kvar: DS hos One.com, KV för formulären, Email Routing (nyckeln saknar behörighet: 403), Search Console, VR Medias StepInside-länkar från Daniel.
-- tools/cloudflare.mjs fyller nu {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
+## 6 okt: leta fler rundturer (grenen claude/project-thread-y52k5g, publicerad 17 okt)
+- Nytt i `tools/hamta.mjs`: `tourScan` – läser startsidan + upp till 40 undersidor på en webbplats och söker hela koden efter
+  kända rundtursleverantörer (Matterport, Kuula, 3DVista, krpano, StepInside, Street View-inbäddningar m.fl.).
+- Körd på alla 141 slott med webbplats, ett tjugotal kataloger/museer och svenska 360-fotografers sidor. Webbsökningar slott för slott
+  gav inget. Slutsats: nästan inga svenska slott har egen rundtur på sin webbplats (bra säljläge för VR Media).
+- Nya: Häringe slott (3DVista av OneManWork, inbäddad, nedre/övre våningen/kavaljersflygeln) och Malmöhus (Malmö museers egen tur,
+  Kungsvåningen m.fl., går före Google-turen). Kärnan: en Google 360-bild per våning på karnan.se, inte länkade → `look` tills Daniel säger annat.
+- Prövat utan resultat: Karlskrona 360 (Drottningskär/Kungsholm bara en flygbild var), Stola "Rundtur" (bildgalleri), Huseby "rundtur" (text),
+  Kungliga slottens 360-lista (laddas med JS, inga nya adresser hittade). Borgholm: möjlig 3D-modell på Sketchfab (okontrollerad).
+- Daniel 6 okt: Kärnan räknas inte (ligger kvar som `look`). VR Medias turer (credit "VR Media") sorteras först bland slott med rundtur,
+  Svaneholm först på startsidan. Läckö: VR Medias egen länk saknas fortfarande. Excel-lista över alla slott med kontaktuppgifter
+  (hämtade från webbplatserna) i projektmappen listor-6-okt/.
+
+## 17 okt: publicerat
+- Ändringarna från 6 okt (Häringe, Malmöhus, VR Media först, Svaneholm överst) publicerade 17 okt på Daniels begäran, ihop med VR Medias egna
+  turer för Svaneholm och Gränsö. `site-data.json` är 6 okt-versionen plus de två turerna. Obs: kör man `tools/sammanstall.py` nu ändras
+  kategorierna för åtta slott (Sofiero, Bäckaskog, Ovesholm, Högestad, Skottorp, Solliden, Rockelstad, Tistad), eftersom svar.json fick nya
+  webbplatstexter vid kontakthämtningen 6 okt. Granska dem innan nästa omkörning publiceras.
+
+## 6 okt: domänen live (grenen claude/project-thread-a4pzrq)
+- Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern 6 okt.
+- DNSSEC påslaget i Cloudflare; DS-posten (2371 13 2 8449D7BA…) syns hos .se (kollat 25 okt). Daniel 25 okt: inget mer görs hos One.com.
+- tools/cloudflare.mjs fyller {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
