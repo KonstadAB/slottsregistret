@@ -1,20 +1,5 @@
-# 2026-10-25T01:41:18Z status
->> status
-== Nyckel: active
-== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
-== DNS
-  AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
-  AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
-== DNSSEC: active
-!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
-== Email Routing: ?
-== Workers: golfregistret, hq, instansa-signatur, konstad, slottsregistret, svenskakyrkor
-== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production), hq.konstad.se -> hq (production)
-== Senaste publicering av Workern: 2026-10-22T10:21:06.50589Z wrangler versioner 882e2a97 HANDOFF: publiceringen 22 okt nådde inte slottsregistret.se
-  version ef16763b 2026-10-25T01:40:56.588236Z wrangler Granska 2a3dff9 version_upload
-  version 882e2a97 2026-10-22T10:21:05.1574Z wrangler HANDOFF: publiceringen 22 okt nådde inte slottsregistret.se version_upload
-  version 106395e0 2026-10-22T10:05:28.021757Z wrangler SEO: inget lastmod i sitemap, SEO-synpunkter i HANDOFF version_upload
-  version 2450fc77 2026-10-17T19:23:16.50887Z wrangler Publicera ändringarna från 6 okt ihop med VR Medias egna turer (#3) version_upload
-  version fc74d99a 2026-10-17T19:22:47.530091Z wrangler Granska 143f515 version_upload
-== Pages-projekt: instansa-signatur (instansa-signatur.pages.dev)
-== Workers Builds (0)
+# 2026-10-25T01:44:14Z formular
+>> formular
+== Inlämningar: 2 (de senaste 50)
+  tips:2026-10-25T01:42:22.172Z:75c4bb35    En rundtur som saknas
+  tips:2026-10-25T01:42:59.417Z:abf4d072    En rundtur som saknas
