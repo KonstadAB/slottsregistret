@@ -125,10 +125,31 @@ Gjort 22 okt: sitemap har inget `lastmod` längre. Dagens datum på alla adresse
 
 Att göra. Daniel 22 okt: inget mer byggs före lördag natt 24–25 okt, när han får ny användning. Grunden (egna titlar, canonical, en H1, BreadcrumbList, platsdata, alt-texter) är bra.
 1. **Search Console och Bing Webmaster Tools** saknas. De kräver Daniels godkännande en gång, som för svenskakyrkor.se.
-2. **Tunna sidor.** Länssidorna och kategorisidorna per län (besök, restaurang och kafé, konferens, bröllop och fest, bo på slott m.fl.) har under 150 ord. Ge var och en en egen ingress som svarar på sökningen, till exempel "bröllop på slott i Skåne".
-3. **Om, Kontakt, Integritet, Sök och Tack** har startsidans beskrivning. Ge dem egna.
+2. ~~**Tunna sidor.**~~ Gjort 26 okt (se nedan).
+3. ~~**Om, Kontakt, Integritet, Sök och Tack**~~ Gjort 26 okt (se nedan).
 4. **Slottsidornas text:** kontrollera hur mycket som är unikt jämfört med Wikipedia. Text som redan finns på nätet rankar sämre än originalet.
 5. **Länkar utifrån:** ett märke eller en länk som slotten kan sätta på sin egen sajt, turistorganisationer och VR Media.
+
+### 26 okt: SEO-pass, punkt 2 och 3 (grenen hq/seo-pass-pa-slottsregistret-se-repo-kons-2610261042, inte publicerad)
+- **Ingresser** på alla 19 länssidor, 104 kategorisidor per län och de 10 kategorisidorna för hela Sverige (133 sidor). Byggs i
+  `src/ingress.js` ur `site-data.json` vid varje bygge (inga handskrivna texter, `sammanstall.py` kördes inte). Innehåll: antal,
+  kända namn med kommun, typ och århundrade, vad slotten dessutom erbjuder (med länkar till kategorisidorna), slott med rundtur
+  (eller närmaste slott med rundtur), privata/delvis öppna, slott inom fem mil, närmaste slott och län utanför länet. Ordval väljs
+  med en slumpgenerator som utgår från sidans adress, så att samma sida alltid får samma text men sidorna skiljer sig åt.
+  Ingressen visas under sidhuvudet, före länets mätare och knapparna. Sidornas korta ingress i sidhuvudet och beskrivning är oförändrade.
+- Ord i ingressen: 134–238 (127 av 133 sidor ≥ 150). Lägst: Slott att besöka i Örebro län, Kalmar län och Värmland (två–tre slott).
+  Innehållstext totalt (utan kortlistan) är minst 169 ord på alla sidorna.
+- Sidor med ett enda slott (Jämtland, Norrbotten, Västernorrland och ett fyrtiotal kategori/län-sidor) får ett porträtt av slottet,
+  närmaste slott och län utanför samt rundtur i närheten. De håller längden men blir naturligt mer lika varandra; mer unik text där
+  kräver uppgifter vi inte har (egna beskrivningar).
+- **Egna titlar och beskrivningar** för Om, Kontakt, Integritet, Sök och Tack (127–148 tecken).
+- Rättat: `kommunLabel` skrev "Kalmars kommun" – nu "Kalmar kommun" (syns även på slottssidorna).
+- `data/source/granska.txt`: Skåne, bröllop i Skåne, bo på slott i Södermanland och Jämtland för förhandsvisning. Pushad även som
+  `claude/granska-seo-pass-2610` för att starta Granska, men inga nya skärmbilder kom på `claude/granska-bilder` inom en kvart
+  (körningen syntes inte härifrån). Sidorna fotograferades i stället lokalt (dator och mobil) och såg rätt ut.
+
+Nästa steg: Daniel läser några sidor (t.ex. /lan/skane/, /brollop-och-fest/skane/, /lan/jamtland/) och säger till om tonen; sedan publicera.
+Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktionerna i `src/ingress.js`.
 
 ## 3 okt förmiddag
 - Daniel: Mårbacka räknas som rundtur; Glimmingehus 3D räknas inte (kind '3d', visas inte; kan bli en egen 3D-del). Slottens egna turer före Google Maps.

@@ -45,6 +45,7 @@ const haversine = (a, b) => {
 function kommunLabel(k) {
   if (!k) return '';
   if (k === 'Gotland') return 'Region Gotland';
+  if (k === 'Kalmar') return 'Kalmar kommun';
   return /[aeiouyåäösxz]$/i.test(k) ? `${k} kommun` : `${k}s kommun`;
 }
 
