@@ -1,5 +1,19 @@
-# 2026-10-25T01:44:14Z formular
+# 2026-10-26T13:32:34Z api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-25T01:42:22.172Z:75c4bb35 ;; api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-25T01:42:59.417Z:abf4d072 ;; formular
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-25T01:42:22.172Z:75c4bb35
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-25T01:42:59.417Z:abf4d072
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
 >> formular
 == Inlämningar: 2 (de senaste 50)
-  tips:2026-10-25T01:42:22.172Z:75c4bb35    En rundtur som saknas
-  tips:2026-10-25T01:42:59.417Z:abf4d072    En rundtur som saknas
+  tips:2026-10-25T01:44:56.704Z:63ec8b5b    En rundtur som saknas
+  tips:2026-10-25T01:45:03.891Z:bff208b3    En rundtur som saknas
