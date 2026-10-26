@@ -321,7 +321,7 @@ function categoryIngress(S, cat, co, list) {
     if (extra.length) b.push(counts(extra.slice(0, 3).map(([m, one, many, slug]) => [m, one, many, co ? `/${slug}/${co.slug}/` : `/${slug}/`]), n, pick(['av dem', 'av slotten'])));
     // En mening med namn för det första erbjudande som kategorin har en egen formulering för.
     const also = Object.keys(k.also).find(slug => { const m = list.filter(c => c.offers.includes(slug)).length; return m > 1 && m < n; });
-    if (also) { const l = known(list.filter(c => c.offers.includes(also))); const fresh = l.filter(c => !used.has(c.id)); b.push(k.also[also](fresh.length >= Math.min(2, l.length) ? fresh : l)); }
+    if (also) { const l = known(list.filter(c => c.offers.includes(also))); b.push(k.also[also]([...l.filter(c => !used.has(c.id)), ...l.filter(c => used.has(c.id))])); }
     const old = list.filter(year).sort((x, y) => year(x) - year(y))[0];
     if (old && n > 2) b.push(pick([`Längst tillbaka går ${link(old)}, ${since(old)}.`, `Äldst bland dem är ${link(old)}, från ${century(old)}.`]));
     const op = openPart(list, pick);
