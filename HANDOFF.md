@@ -174,3 +174,8 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
   turer för Svaneholm och Gränsö. `site-data.json` är 6 okt-versionen plus de två turerna. Obs: kör man `tools/sammanstall.py` nu ändras
   kategorierna för åtta slott (Sofiero, Bäckaskog, Ovesholm, Högestad, Skottorp, Solliden, Rockelstad, Tistad), eftersom svar.json fick nya
   webbplatstexter vid kontakthämtningen 6 okt. Granska dem innan nästa omkörning publiceras.
+
+## 6 okt: domänen live (grenen claude/project-thread-a4pzrq)
+- Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern 6 okt.
+- DNSSEC påslaget i Cloudflare; DS-posten (2371 13 2 8449D7BA…) syns hos .se (kollat 25 okt). Daniel 25 okt: inget mer görs hos One.com.
+- tools/cloudflare.mjs fyller {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).

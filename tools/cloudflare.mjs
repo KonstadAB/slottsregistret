@@ -12,11 +12,11 @@
 //   node tools/cloudflare.mjs "formular-visa anmalan:2026-..."  -> hela inlämningen (innehåller personuppgifter)
 //   Flera kommandon i samma körning skiljs med " ;; ".
 //
-// I api-anrop byts {zone} och {account} mot zonens och kontots id.
+// I api-anrop (adress och innehåll) byts {zone} och {account} mot zonens och kontots id.
 const ACCOUNT = '36f39bea33a1d0e03815a8b01039efea';
 const ZONE_NAME = 'slottsregistret.se';
 const WORKER = 'slottsregistret';
-const FORMS_KV = process.env.FORMS_KV || ''; // KV-namnrymden för formulären (se wrangler.jsonc)
+const FORMS_KV = process.env.FORMS_KV || '24b726539b4e40cda5dd28eeec38eac2'; // KV-namnrymden för formulären (se wrangler.jsonc)
 const TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 if (!TOKEN) { console.error('CLOUDFLARE_API_TOKEN saknas'); process.exit(1); }
 
@@ -113,7 +113,7 @@ for (const cmd of (process.argv[2] || 'status').split(' ;; ').map(c => c.trim())
     await dnsSet(type, name, rest.join(' '));
   } else if (cmd.startsWith('api ')) {
     const [, method, path, ...rest] = cmd.split(' ');
-    const res = await cf(method, await fill(path), rest.length ? rest.join(' ') : undefined);
+    const res = await cf(method, await fill(path), rest.length ? await fill(rest.join(' ')) : undefined);
     line(JSON.stringify(res.result ?? res, null, 1).slice(0, 20000));
   } else line(`Okänt kommando: ${cmd}`);
 }

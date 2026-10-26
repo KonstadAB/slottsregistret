@@ -14,6 +14,7 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  "kv_namespaces": [{ "binding": "FORMS", "id": "24b726539b4e40cda5dd28eeec38eac2" }],
   "ratelimits": [{ "name": "FORM_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }],
   "observability": { "enabled": true }
 }
