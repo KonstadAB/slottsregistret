@@ -151,6 +151,9 @@ p { margin: 0 0 1em; }
 .sec-head h2 { margin: 0; }
 .sec-head .kicker { margin-bottom: .5em; }
 .list-extra { margin: 0 0 18px; }
+.ingress { max-width: 46em; margin: 8px 0 28px; color: var(--ink-2); }
+.ingress p { margin: 0 0 .9em; }
+.ingress a { color: var(--ink); }
 .sec-head p { margin: 0; max-width: 34em; color: var(--ink-2); }
 .more { margin-top: 28px; }
 .split { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center; }

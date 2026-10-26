@@ -1,6 +1,7 @@
 'use strict';
 // Sidmallarna. Varje funktion får sammanhanget S (se build.js) och returnerar en hel HTML-sida.
 const { esc, nf, pct, commonsImage, wikiText, kommunLabel } = require('./lib');
+const { categoryIngress, countyIngress } = require('./ingress');
 
 const KIND = {
   walk: { label: 'Virtuell rundvandring', verb: 'Gå runt i slottet', lead: 'Gå från rum till rum och se dig omkring åt alla håll, i din egen takt.' },
@@ -363,7 +364,7 @@ ${near.length ? `<section class="band band-paper2">
   });
 }
 
-function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', countyFilter = null, noCounty = false, kicker = '' }) {
+function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', countyFilter = null, noCounty = false, kicker = '', ingress = '' }) {
   const sorted = [...list].sort(byTour);
   const tours = sorted.filter(c => c.tours.length).length;
   // Sidhuvudet får en bild från ett av de första slotten i listan (helst ett med rundtur).
@@ -386,6 +387,7 @@ ${hero ? `<header class="page-hero">
 <header class="page-head"><div class="wrap"><h1>${esc(h1)}</h1><p class="lead">${esc(intro)}</p></div></header>`}
 <section class="band band-tight">
   <div class="wrap">
+    ${ingress ? `<div class="ingress">${ingress}</div>` : ''}
     ${extra ? `<div class="list-extra">${extra}</div>` : ''}
     ${countyFilter || ''}
     ${sorted.length ? `<p class="count">${nf(sorted.length)} slott${tours ? ` · <span class="lit-text">${nf(tours)} med virtuell rundtur</span>` : ''}</p>${cards(S, sorted, { noCounty })}` : '<p>Inga slott här ännu.</p>'}
@@ -401,6 +403,7 @@ function category(S, cat, co) {
   const h1 = co ? `${cat.name} i ${co.name}` : cat.name;
   return listPage(S, {
     title: h1, h1, kicker: co ? co.full : `${nf(list.length)} slott i hela Sverige`, intro: co ? `${cat.intro.replace(/\.$/, '')} i ${co.full}.` : cat.intro, path: catURL(cat, co), list, countyFilter: filter,
+    ingress: categoryIngress(S, cat, co, list),
     crumbsList: co ? [['/', 'Start'], [catURL(cat), cat.name], [catURL(cat, co), co.name]] : [['/', 'Start'], [catURL(cat), cat.name]],
   });
 }
@@ -424,7 +427,7 @@ function county(S, co) {
   const cats = S.data.categories.map(cat => [cat, list.filter(c => c.offers.includes(cat.slug)).length]).filter(x => x[1]);
   return listPage(S, {
     title: `Slott i ${co.full}`, h1: `Slott i ${co.name}`, path: countyURL(co), list, noCounty: true, kicker: list.length === 1 ? '1 slott i registret' : `${nf(list.length)} slott, borgar och fästningar`,
-    intro: countyIntro(co, list),
+    intro: countyIntro(co, list), ingress: countyIngress(S, co, list),
     crumbsList: [['/', 'Start'], ['/lan/', 'Län'], [countyURL(co), co.name]],
     extra: coverage(co.withTour, co.total, 'slott i länet går att besöka digitalt') +
       `<nav class="chips" aria-label="Kategorier i länet">${cats.map(([cat, n]) => `<a href="${catURL(cat, co)}">${esc(cat.short)} <small>${n}</small></a>`).join('')}</nav>`,
@@ -487,20 +490,22 @@ function mapPage(S) {
 
 function searchPage(S) {
   return layout(S, {
-    title: 'Sök', path: '/sok/', noindex: true, scripts: ['/assets/search.js'], bodyClass: 'overlay',
+    title: 'Sök bland Sveriges slott', path: '/sok/', noindex: true,
+    description: 'Sök bland Sveriges slott, borgar och fästningar på namn, ort, län eller vad du vill göra – till exempel bröllop i Skåne eller bo på slott.', scripts: ['/assets/search.js'], bodyClass: 'overlay',
     body: `
 <header class="page-dark"><div class="wrap"><p class="kicker kicker-gold"><span>${nf(S.data.stats.total)} slott, borgar och fästningar</span></p><h1>Sök bland Sveriges slott</h1>${searchBox(S, true)}</div></header>
 <section class="band band-tight"><div class="wrap"><p class="count" id="sok-antal" aria-live="polite"></p><ul class="cards" id="sok-traffar"></ul></div></section>`,
   });
 }
 
-function textPage(S, { title, path, body, description, scripts }) {
-  return layout(S, { title, path, description, scripts, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, title]])}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>${body}</article>` });
+function textPage(S, { title, path, body, description, scripts, crumb = title }) {
+  return layout(S, { title, path, description, scripts, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, crumb]])}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>${body}</article>` });
 }
 
 function about(S) {
   const st = S.data.stats;
-  return textPage(S, { title: 'Om Slottsregistret', path: '/om/', body: `
+  return textPage(S, { title: 'Om Slottsregistret', path: '/om/',
+    description: `Om Slottsregistret: ${nf(st.total)} svenska slott, borgar och fästningar på ett ställe. Så tar vi fram uppgifterna och vem som står bakom registret.`, body: `
 <h1>Om Slottsregistret</h1>
 <p class="lead">Slottsregistret samlar Sveriges slott, borgar, fästningar och slottsmiljöer på ett ställe – med vad du kan göra där, och vägen in.</p>
 <p>Registret har i dag ${nf(st.total)} slott, och ${nf(st.withTour)} av dem går att besöka digitalt med en virtuell rundtur. Rundturerna gör slotten tillgängliga för den som har långt att resa, inte kan ta sig dit, eller vill se salarna innan ett bröllop, en konferens eller en vistelse.</p>
@@ -513,7 +518,8 @@ function about(S) {
 }
 
 function contact(S) {
-  return textPage(S, { title: 'Kontakt', path: '/kontakt/', body: `
+  return textPage(S, { title: 'Kontakta Slottsregistret', crumb: 'Kontakt', path: '/kontakt/',
+    description: 'Kontakta Slottsregistret om frågor, rättelser eller samarbeten. Äger du ett slott? Hör av dig om rundtur och uppgifter om ert slott.', body: `
 <h1>Kontakt</h1>
 <p>Frågor, rättelser eller samarbeten: <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>
 <p>Äger eller förvaltar du ett slott? Läs mer på sidan <a href="/for-slott/">För slott och slottsägare</a>.</p>
@@ -521,7 +527,8 @@ function contact(S) {
 }
 
 function privacy(S) {
-  return textPage(S, { title: 'Integritet', path: '/integritet/', body: `
+  return textPage(S, { title: 'Integritet och kakor', crumb: 'Integritet', path: '/integritet/',
+    description: 'Så hanterar Slottsregistret integritet och kakor: inga egna kakor, ingen annonsspårning, rundturer laddas först när du startar dem.', body: `
 <h1>Integritet och kakor</h1>
 <p>Slottsregistret sätter inga egna kakor och använder ingen spårning för annonser.</p>
 <h2>Bilder och kartor</h2>
@@ -624,7 +631,8 @@ ${castleSelect(S, false)}
 }
 
 function thanks(S) {
-  return textPage(S, { title: 'Tack', path: '/tack/', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade och hör av oss om vi behöver veta mer.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
+  return textPage(S, { title: 'Tack för ditt meddelande', crumb: 'Tack', path: '/tack/',
+    description: 'Tack för att du hörde av dig till Slottsregistret. Vi har tagit emot ditt meddelande och återkommer om vi behöver veta mer.', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade och hör av oss om vi behöver veta mer.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
 }
 
 function notFound(S) {
