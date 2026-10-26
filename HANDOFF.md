@@ -144,7 +144,9 @@ Att göra. Daniel 22 okt: inget mer byggs före lördag natt 24–25 okt, när h
   kräver uppgifter vi inte har (egna beskrivningar).
 - **Egna titlar och beskrivningar** för Om, Kontakt, Integritet, Sök och Tack (127–148 tecken).
 - Rättat: `kommunLabel` skrev "Kalmars kommun" – nu "Kalmar kommun" (syns även på slottssidorna).
-- `data/source/granska.txt`: Skåne, bröllop i Skåne, bo på slott i Södermanland och Jämtland för förhandsvisning.
+- `data/source/granska.txt`: Skåne, bröllop i Skåne, bo på slott i Södermanland och Jämtland för förhandsvisning. Pushad även som
+  `claude/granska-seo-pass-2610` för att starta Granska, men inga nya skärmbilder kom på `claude/granska-bilder` inom en kvart
+  (körningen syntes inte härifrån). Sidorna fotograferades i stället lokalt (dator och mobil) och såg rätt ut.
 
 Nästa steg: Daniel läser några sidor (t.ex. /lan/skane/, /brollop-och-fest/skane/, /lan/jamtland/) och säger till om tonen; sedan publicera.
 Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktionerna i `src/ingress.js`.
