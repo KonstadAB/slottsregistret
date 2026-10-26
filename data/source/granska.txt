@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# 2026-10-25 formulären med lagring, försök 2
-/tipsa/ skicka
-=======
 # 2026-10-26 SEO-pass: ingresser på läns- och kategorisidor
 /lan/skane/
 /brollop-och-fest/skane/
 /bo-pa-slott/sodermanland/
 /lan/jamtland/
->>>>>>> origin/main
