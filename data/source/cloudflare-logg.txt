@@ -1,10 +1,75 @@
-# 2026-10-26T13:48:54Z status
+# 2026-10-26T14:46:17Z api GET /zones/{zone}/dns_records?type=MX ;; status
+>> api GET /zones/{zone}/dns_records?type=MX
+[
+ {
+  "id": "49b6eaf2099fa420c785cb815bb4ac14",
+  "name": "slottsregistret.se",
+  "type": "MX",
+  "content": "route3.mx.cloudflare.net",
+  "priority": 23,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-10-26T14:35:03.22751Z",
+  "modified_on": "2026-10-26T14:35:03.22751Z"
+ },
+ {
+  "id": "53ff6fc8687ef559743b11bdce3945a2",
+  "name": "slottsregistret.se",
+  "type": "MX",
+  "content": "route2.mx.cloudflare.net",
+  "priority": 26,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-10-26T14:35:03.220354Z",
+  "modified_on": "2026-10-26T14:35:03.220354Z"
+ },
+ {
+  "id": "543307a1efc6c082467ed8ef08a99e0b",
+  "name": "slottsregistret.se",
+  "type": "MX",
+  "content": "route1.mx.cloudflare.net",
+  "priority": 35,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-10-26T14:35:03.209468Z",
+  "modified_on": "2026-10-26T14:35:03.209468Z"
+ }
+]
 >> status
 == Nyckel: active
 == Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
 == DNS
   CNAME  239dbcfb2956abddc9c194a41bebd2d3.slottsregistret.se verify.bing.com  
   CNAME  dd3430875a092a994209f496f48bd39c.slottsregistret.se verify.bing.com  
+  MX     slottsregistret.se           route3.mx.cloudflare.net  (Cloudflare)
+  MX     slottsregistret.se           route2.mx.cloudflare.net  (Cloudflare)
+  MX     slottsregistret.se           route1.mx.cloudflare.net  (Cloudflare)
+  TXT    cf2024-1._domainkey.slottsregistret.se "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7  (Cloudflare)
+  TXT    slottsregistret.se           "v=spf1 include:_spf.mx.cloudflare.net ~all"  
   TXT    slottsregistret.se           "google-site-verification=nU41iQJoGji9chg9lp8oNfRug8YNqZ_xSX2LIchonYg"  
   AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
   AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
@@ -14,10 +79,10 @@
 == Workers: golfregistret, hq, instansa-signatur, konstad, slottsregistret, svenskakyrkor
 == Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production), hq.konstad.se -> hq (production), golfregistret.se -> golfregistret (production), www.golfregistret.se -> golfregistret (production)
 == Senaste publicering av Workern: 2026-10-26T13:38:11.555929Z wrangler versioner 06b29170 Publicera formulären (lagring påkopplad; Daniel 26 okt)
+  version 695e7f00 2026-10-26T13:49:32.617456Z wrangler Granska fb449cb version_upload
   version 62bda42f 2026-10-26T13:39:35.281314Z wrangler Granska 0192b1a version_upload
   version 06b29170 2026-10-26T13:38:10.9372Z wrangler Publicera formulären (lagring påkopplad; Daniel 26 okt) version_upload
   version c143e99b 2026-10-26T13:34:21.035968Z wrangler Granska 08f5c6a version_upload
   version c57783b2 2026-10-26T13:32:47.886222Z wrangler Granska 948363a version_upload
-  version f3d7062a 2026-10-26T10:17:11.115057Z wrangler Merge pull request #4 from KonstadAB/hq/seo-pass-pa-slottsregistret-se-repo-kons-2610261042 version_upload
 == Pages-projekt: instansa-signatur (instansa-signatur.pages.dev)
 == Workers Builds (0)
