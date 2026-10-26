@@ -1,1 +1,1 @@
-status
+api GET /zones/{zone}/dns_records?type=MX ;; status
