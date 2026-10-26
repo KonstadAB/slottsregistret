@@ -1,3 +1,23 @@
-# 2026-10-26T13:38:44Z formular
->> formular
-== Inlämningar: 0 (de senaste 50)
+# 2026-10-26T13:48:54Z status
+>> status
+== Nyckel: active
+== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
+== DNS
+  CNAME  239dbcfb2956abddc9c194a41bebd2d3.slottsregistret.se verify.bing.com  
+  CNAME  dd3430875a092a994209f496f48bd39c.slottsregistret.se verify.bing.com  
+  TXT    slottsregistret.se           "google-site-verification=nU41iQJoGji9chg9lp8oNfRug8YNqZ_xSX2LIchonYg"  
+  AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
+  AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
+== DNSSEC: active
+!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
+== Email Routing: ?
+== Workers: golfregistret, hq, instansa-signatur, konstad, slottsregistret, svenskakyrkor
+== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production), hq.konstad.se -> hq (production), golfregistret.se -> golfregistret (production), www.golfregistret.se -> golfregistret (production)
+== Senaste publicering av Workern: 2026-10-26T13:38:11.555929Z wrangler versioner 06b29170 Publicera formulären (lagring påkopplad; Daniel 26 okt)
+  version 62bda42f 2026-10-26T13:39:35.281314Z wrangler Granska 0192b1a version_upload
+  version 06b29170 2026-10-26T13:38:10.9372Z wrangler Publicera formulären (lagring påkopplad; Daniel 26 okt) version_upload
+  version c143e99b 2026-10-26T13:34:21.035968Z wrangler Granska 08f5c6a version_upload
+  version c57783b2 2026-10-26T13:32:47.886222Z wrangler Granska 948363a version_upload
+  version f3d7062a 2026-10-26T10:17:11.115057Z wrangler Merge pull request #4 from KonstadAB/hq/seo-pass-pa-slottsregistret-se-repo-kons-2610261042 version_upload
+== Pages-projekt: instansa-signatur (instansa-signatur.pages.dev)
+== Workers Builds (0)
