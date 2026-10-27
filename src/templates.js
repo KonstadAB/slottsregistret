@@ -614,8 +614,9 @@ function tip(S) {
 <h1>Tipsa oss</h1>
 <p class="lead">Känner du till en virtuell rundtur av ett slott som saknas här, eller har du hittat ett fel?</p>
 <form class="form" method="post" action="/api/skicka" data-form>
-${formFields(S, 'tips')}
+${formFields(S, 'tips')}<input type="hidden" name="kom" value="">
 ${castleSelect(S, false)}
+<label for="vilket">Vilket slott? (om det inte finns i listan)</label><input id="vilket" name="vilket">
 <fieldset><legend>Det gäller</legend>
   <label><input type="radio" name="vad" value="En rundtur som saknas" required> En rundtur som saknas</label>
   <label><input type="radio" name="vad" value="En rundtur som inte fungerar"> En rundtur som inte fungerar</label>
@@ -624,7 +625,7 @@ ${castleSelect(S, false)}
   <label><input type="radio" name="vad" value="Annat"> Annat</label>
 </fieldset>
 <label for="lank">Länk (frivilligt)</label><input id="lank" name="lank" type="url" inputmode="url">
-<label for="meddelande">Beskriv gärna</label><textarea id="meddelande" name="meddelande" rows="5"></textarea>
+<label for="meddelande">Beskriv tipset (minst 10 tecken)</label><textarea id="meddelande" name="meddelande" rows="5" required minlength="10"></textarea>
 <label for="epost">Din e-post (frivilligt, om du vill ha svar)</label><input id="epost" name="epost" type="email" autocomplete="email">
 <button class="btn btn-gold" type="submit">Skicka tipset</button>
 </form>` });

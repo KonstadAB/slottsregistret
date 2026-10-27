@@ -12,13 +12,24 @@ const FORMS = {
   },
   tips: {
     subject: 'Tips från besökare',
-    required: ['vad'],
-    fields: ['slott', 'vad', 'lank', 'meddelande', 'epost'],
+    required: ['vad', 'meddelande'],
+    fields: ['slott', 'vilket', 'vad', 'lank', 'meddelande', 'epost', 'kom'],
+    castle: true,
   },
 };
 const LABELS = {
   slott: 'Slott', vill: 'Gäller', vad: 'Gäller', lank: 'Länk', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
 };
+// Tipsformulärets meddelande måste ha minst så här många tecken (samma som minlength i formuläret).
+const MIN_MESSAGE = 10;
+// Felmeddelanden på svenska (visas på sidan av form.js, eller som text om JavaScript saknas).
+const ERRORS = {
+  required: 'Fyll i de obligatoriska fälten och försök igen.',
+  short: `Skriv ett meddelande på minst ${MIN_MESSAGE} tecken, så att vi förstår vad tipset gäller.`,
+  email: 'Kontrollera e-postadressen och försök igen.',
+  limit: 'Du har skickat flera gånger på kort tid. Vänta en minut och försök igen.',
+};
+const SLUG = /^[a-z0-9-]{1,80}$/;
 // Tacksidorna som formulären får skicka vidare till (svenska och de andra språken).
 const THANKS = /^\/tack\/$/;
 const TWO_YEARS = 2 * 365 * 86400;
@@ -28,8 +39,8 @@ export async function handleForm(request, env, ctx) {
   const url = new URL(request.url);
   const json = (request.headers.get('accept') || '').includes('application/json');
   const fail = (status, error) => json
-    ? Response.json({ success: false, error }, { status })
-    : new Response('Det gick inte att skicka formuläret. Gå tillbaka och försök igen.', { status, headers: { 'content-type': 'text/plain; charset=utf-8' } });
+    ? Response.json({ success: false, error, message: ERRORS[error] }, { status })
+    : new Response(`Det gick inte att skicka formuläret. ${ERRORS[error] || 'Gå tillbaka och försök igen.'}`, { status, headers: { 'content-type': 'text/plain; charset=utf-8' } });
   if (request.method !== 'POST') return fail(405, 'method');
   const origin = request.headers.get('origin');
   if (origin && origin !== 'null' && new URL(origin).host !== url.host) return fail(403, 'origin');
@@ -53,9 +64,28 @@ export async function handleForm(request, env, ctx) {
     const v = data.getAll(k).map(String).join(', ').replace(/\r\n?/g, '\n').trim().slice(0, k === 'meddelande' ? 5000 : 500);
     if (v) entry[k] = v;
   }
-  if (form.required.some(k => !entry[k])) return fail(400, 'required');
+  if (form.required.some(k => !entry[k] && k !== 'meddelande')) return fail(400, 'required');
+  if (form.required.includes('meddelande') && (entry.meddelande || '').length < MIN_MESSAGE) return fail(400, 'short');
   if (entry.epost && !EMAIL.test(entry.epost)) return fail(400, 'email');
   if (!env.FORMS) return fail(503, 'storage');
+
+  if (form.castle) {
+    // Sidan formuläret skickades från (t.ex. /tipsa/?slott=svaneholms-slott) och sidan besökaren kom från innan dess
+    // (fyllt i av form.js). Bara adresser på den egna sajten tas med.
+    const ref = sameSite(request.headers.get('referer'), url);
+    if (ref) entry.sida = ref.href;
+    const kom = sameSite(entry.kom, url);
+    if (kom && kom.href !== entry.sida) entry.kom = kom.href; else delete entry.kom;
+    // Slottet: valt i listan, eller ?slott=… i adressen till formuläret (om JavaScript saknas). Namnet hämtas ur sajtens data.
+    const slug = SLUG.test(entry.slott || '') && entry.slott !== 'annat' ? entry.slott : ref && SLUG.test(ref.searchParams.get('slott') || '') && ref.searchParams.get('slott') !== 'annat' ? ref.searchParams.get('slott') : '';
+    delete entry.slott;
+    if (slug) {
+      const names = await castleNames(env, url);
+      entry.slott = names.get(slug) || slug;
+      entry.slottid = slug;
+      entry.slottlank = `${url.origin}/slott/${slug}/`;
+    }
+  }
 
   const at = new Date().toISOString();
   const record = { formular: name, at, ...entry };
@@ -67,10 +97,57 @@ export async function handleForm(request, env, ctx) {
   return done();
 }
 
+// Slottens namn efter id, ur sajtens egen sökdata (dist/data/slott.json). Läses en gång per Worker-instans.
+let names;
+async function castleNames(env, url) {
+  if (names) return names;
+  try {
+    const r = await env.ASSETS.fetch(new Request(`${url.origin}/data/slott.json`));
+    if (!r.ok) throw new Error(r.status);
+    names = new Map((await r.json()).castles.map(c => [c[1], c[0]]));
+    return names;
+  } catch (e) {
+    console.log('Slottens namn gick inte att läsa:', e.message);
+    return new Map();
+  }
+}
+
+function sameSite(s, url) {
+  try {
+    const u = new URL(s || '');
+    return u.host === url.host && u.href.length <= 500 ? u : null;
+  } catch { return null; }
+}
+
+export function message(form, r) {
+  if (!form.castle) {
+    return {
+      subject: `${form.subject}${r.slott ? ` – ${r.slott}` : ''}${r.vill || r.vad ? ` (${(r.vill || r.vad).slice(0, 60)})` : ''}`,
+      text: Object.keys(LABELS).filter(k => r[k]).map(k => `${LABELS[k]}: ${r[k]}`).join('\n') +
+        `\n\nSkickat ${r.at} via slottsregistret.se.${r.epost ? ' Svara på det här mejlet för att svara avsändaren.' : ''}\n`,
+    };
+  }
+  // Tips: ämnet säger vad det gäller och vilket slott, texten har länk till slottets sida och varifrån tipset kom.
+  const castle = r.slott || (r.vilket ? `${r.vilket} (ifyllt för hand)` : '');
+  const subject = `${form.subject}${r.vad ? ` (${r.vad.slice(0, 60)})` : ''}${castle ? ` – ${castle.slice(0, 80)}` : ''}`;
+  const lines = [
+    `Gäller: ${r.vad}`,
+    r.slott ? `Slott: ${r.slott} (id: ${r.slottid})` : `Slott: ${r.vilket ? `${r.vilket} (ifyllt för hand, finns inte i listan)` : 'inget särskilt slott angivet'}`,
+    r.slottlank && `Slottets sida: ${r.slottlank}`,
+    r.lank && `Länk: ${r.lank}`,
+    '', 'Meddelande:', r.meddelande, '',
+    `E-post: ${r.epost || 'ingen angiven'}`,
+    r.sida && `Skickat från: ${r.sida}`,
+    r.kom && `Kom dit från: ${r.kom}`,
+  ].filter(x => x != null && x !== false);
+  return {
+    subject,
+    text: `${lines.join('\n')}\n\nSkickat ${r.at} via slottsregistret.se.${r.epost ? ' Svara på det här mejlet för att svara avsändaren.' : ''}\n`,
+  };
+}
+
 async function notify(env, form, r) {
-  const subject = `${form.subject}${r.slott ? ` – ${r.slott}` : ''}${r.vill || r.vad ? ` (${(r.vill || r.vad).slice(0, 60)})` : ''}`;
-  const text = Object.keys(LABELS).filter(k => r[k]).map(k => `${LABELS[k]}: ${r[k]}`).join('\n') +
-    `\n\nSkickat ${r.at} via slottsregistret.se.${r.epost ? ' Svara på det här mejlet för att svara avsändaren.' : ''}\n`;
+  const { subject, text } = message(form, r);
   const from = 'formular@slottsregistret.se';
   const raw = mime({ from: `Slottsregistret.se <${from}>`, to: env.MAIL_TO, replyTo: r.epost, subject, text });
   await env.MAIL.send(new EmailMessage(from, env.MAIL_TO, raw));

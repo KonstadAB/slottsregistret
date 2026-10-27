@@ -3,6 +3,13 @@
 (function () {
   var s = new URLSearchParams(location.search).get('slott'), sel = document.getElementById('slott');
   if (s && sel && sel.querySelector('option[value="' + s.replace(/[^a-z0-9-]/g, '') + '"]')) sel.value = s;
+  // Tipsformuläret: sidan besökaren kom ifrån (t.ex. slottets sida) följer med, och "Vilket slott?" visas bara när inget slott i listan är valt.
+  var kom = document.querySelector('input[name=kom]'), fri = document.getElementById('vilket');
+  if (kom && document.referrer.indexOf(location.origin + '/') === 0) kom.value = document.referrer;
+  if (fri && sel) {
+    var show = function () { var on = !sel.value || sel.value === 'annat'; fri.hidden = fri.labels[0].hidden = !on; if (!on) fri.value = ''; };
+    sel.addEventListener('change', show); show();
+  }
 })();
 
 // Skickar formuläret utan att lämna sidan. Går det inte visas ett meddelande, och det som skrivits ligger kvar.
@@ -15,6 +22,7 @@
     (btn ? btn.parentNode : form).insertBefore(msg, btn ? btn.nextSibling : null);
     var TEXT = {
       required: 'Fyll i de obligatoriska fälten och försök igen.',
+      short: 'Skriv ett meddelande på minst 10 tecken, så att vi förstår vad tipset gäller.',
       email: 'Kontrollera e-postadressen och försök igen.',
       limit: 'Du har skickat flera gånger på kort tid. Vänta en minut och försök igen.',
     };

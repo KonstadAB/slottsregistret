@@ -179,3 +179,20 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern 6 okt.
 - DNSSEC påslaget i Cloudflare; DS-posten (2371 13 2 8449D7BA…) syns hos .se (kollat 25 okt). Daniel 25 okt: inget mer görs hos One.com.
 - tools/cloudflare.mjs fyller {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
+
+## 27 okt: tipsformuläret rättat (grenen hq/ratta-tipsformularet-pa-slottsregistret--2610271026, inte publicerad)
+Bakgrund: 26 okt kom ett tomt tips ("Gäller: En rundtur som saknas" och tid, inget annat). Formuläret gick att skicka utan meddelande och sa inte vilket slott det gällde.
+- **Meddelandet är obligatoriskt, minst 10 tecken** – i formuläret (`required minlength="10"`) och i `worker/forms.js` (felet `short`,
+  svensk text i svaret och i form.js). Inget sparas eller mejlas då. Gäller bara tipsformuläret; formuläret För slott är oförändrat.
+- **Slottet följer med:** "Tipsa oss" på slottssidan länkar redan till `/tipsa/?slott=<id>`, form.js väljer slottet i listan. Servern
+  tar id ur listan, eller ur `?slott=` i Referer om JavaScript saknas, och slår upp namnet i `dist/data/slott.json` (via `env.ASSETS`,
+  läses en gång per Worker-instans). Ämne: `Tips från besökare (En rundtur som saknas) – Svaneholms slott`. Texten har
+  `Slott: Svaneholms slott (id: svaneholms-slott)` och `Slottets sida: https://slottsregistret.se/slott/svaneholms-slott/`.
+- **Nytt fält "Vilket slott?"** (`vilket`) för slott som inte finns i listan; döljs när ett slott i listan är valt. Syns i ämnet som "(ifyllt för hand)".
+- **Varifrån:** "Skickat från" (Referer, t.ex. /tipsa/?slott=…) och "Kom dit från" (dolt fält `kom` = document.referrer, t.ex. slottssidan).
+  Bara adresser på den egna sajten tas med. E-post är frivillig; mejlet säger "E-post: ingen angiven" om den saknas.
+- Fällan mot robotar (`webbplats`) och gränsen på fem inlämningar i minuten är oförändrade.
+- Prov: `node build.js && node tools/testa-formular.mjs` (9 prov: tomt/kort meddelande avvisas, rätt ämne och länk från slottssida,
+  utan JavaScript, ifyllt slott, främmande adresser, fällan, För slott-formuläret som förut). Formuläret provat i Chromium (Playwright).
+
+Nästa steg: Daniel granskar PR:en och publicerar; skicka sedan ett riktigt tips från t.ex. Svaneholms sida och kontrollera mejlet.
