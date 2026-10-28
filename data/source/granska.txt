@@ -1,5 +1,2 @@
-# 2026-10-26 SEO-pass: ingresser på läns- och kategorisidor
-/lan/skane/
-/brollop-och-fest/skane/
-/bo-pa-slott/sodermanland/
-/lan/jamtland/
+# 2026-10-26 formulär med e-post
+/tipsa/ skicka

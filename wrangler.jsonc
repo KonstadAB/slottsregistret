@@ -15,6 +15,8 @@
     "not_found_handling": "404-page"
   },
   "kv_namespaces": [{ "binding": "FORMS", "id": "24b726539b4e40cda5dd28eeec38eac2" }],
+  "send_email": [{ "name": "MAIL", "destination_address": "konstadab@gmail.com" }],
+  "vars": { "MAIL_TO": "konstadab@gmail.com" },
   "ratelimits": [{ "name": "FORM_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }],
   "observability": { "enabled": true }
 }
