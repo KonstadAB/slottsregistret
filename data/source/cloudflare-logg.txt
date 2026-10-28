@@ -1,35 +1,41 @@
-# 2026-10-28T13:51:27Z formular ;; status
+# 2026-10-28T13:52:12Z api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T13:48:47.967Z:09e75d6f ;; api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T13:49:02.707Z:3000e170 ;; api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T14:47:34.635Z:ba4a7302 ;; api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T14:47:41.981Z:2099934b ;; formular-visa tips:2026-10-27T13:47:32.762Z:9f342eec ;; formular
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T13:48:47.967Z:09e75d6f
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T13:49:02.707Z:3000e170
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T14:47:34.635Z:ba4a7302
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
+>> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/tips:2026-10-26T14:47:41.981Z:2099934b
+{
+ "result": null,
+ "errors": [],
+ "messages": [],
+ "success": true
+}
+>> formular-visa tips:2026-10-27T13:47:32.762Z:9f342eec
+{
+ "formular": "tips",
+ "at": "2026-10-27T13:47:32.762Z",
+ "slott": "beritsholm",
+ "vad": "En rundtur som saknas",
+ "meddelande": "Hej,\n\nErbjuder ni tjänster eller produkter till bostadsrättsföreningar?\n\nNi kan skicka epost reklam precis som detta till bostadsrättsföreningar i hela Sverige.\n\nEftersom du läser detta mail så vet du att reklam utskick via email fungerar.\n\nSe vår video för att förstå hur vi kan hjälpa dig att hitta nya kunder:\nhttps://www.brfreklam.se\n\nVi har hjälpt hundratals företagare att få nya kunder, alltifrån städfirmor till arkitekter och nu vill vi hjälpa ännu fler.\n\nNyligen hjälpte vi en städfirma att få 22 offertförfrågningar redan inom 24 timmar.\n\nVi hjälper er att komma i kontakt med tusentals bostadsrättsföreningar.\nAntingen i ert län, i flera län eller i hela Sverige.\n\nMed tanke på hur dyrt det är med frimärken så är det mycket billigare och mer effektivt att nå ut till bostadsrättsföreningar via epost.\nNi sparar tid och pengar samt ser resultat mycket snabbare med epostutskick.\n\nDessutom går det att se statistik på utskicken, vilket inte är möjligt med traditionell reklam utskick.\n\nEfter utskick får ni statistik på:\n- Antal skickade mail\n- Antal lästa mail (öppningsfrekvens)\n- Antal som klickat på er hemsida länk (klickfrekvens)\n\nJust nu har vi ett erbjudande fram till Fredag 30 Oktober.\n\nJust nu bjuder vi helt gratis på andra utskicket, ni betalar helt enkelt för ett första utskick men vi skickar ut andra utskicket gratis vid ett senare tillfälle som ni bestämmer, t.ex. efter 1 månad.\n\nVåra priser är 2 Kr styck för fler än 5,000 st och 5 Kr st för färre än 5,000 st utskick.\n\nDetta ingår:\n\n- Uppföljning med rapportering och statistik ingår efter utskicket.\n- Inga månadsavgifter eller bindningstider.\n\nDet är stor efterfrågan på vår tjänst då det är så effektivt och med snabba resultat, därmed rekommenderar vi att ni lägger er beställning snarast så att ni inte skall behöva vänta i kö på andra kunders utskick.\n\nKontakta oss redan idag så hjälper vi er att komma i kontakt med bostadsrättföreningar i hela Sverige.\n\nKom ihåg att erbjudandet om gratis andra utskick gäller endast fram till Fredag 30 Oktober 2026.\n\nNi är välkomna att svara på denna mail eller ringa oss på telefon: 073-717 17 01\n\nMed vänliga hälsningar,\nKasper Svensson\nTelefon: 073-717 17 01\nhttps://www.brfreklam.se",
+ "epost": "info@brfreklam.se"
+}
 >> formular
-== Inlämningar: 5 (de senaste 50)
-  tips:2026-10-26T13:48:47.967Z:09e75d6f    En rundtur som saknas
-  tips:2026-10-26T13:49:02.707Z:3000e170    En rundtur som saknas
-  tips:2026-10-26T14:47:34.635Z:ba4a7302    En rundtur som saknas
-  tips:2026-10-26T14:47:41.981Z:2099934b    En rundtur som saknas
+== Inlämningar: 1 (de senaste 50)
   tips:2026-10-27T13:47:32.762Z:9f342eec  beritsholm  En rundtur som saknas
->> status
-== Nyckel: active
-== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
-== DNS
-  CNAME  239dbcfb2956abddc9c194a41bebd2d3.slottsregistret.se verify.bing.com  
-  CNAME  dd3430875a092a994209f496f48bd39c.slottsregistret.se verify.bing.com  
-  MX     slottsregistret.se           route3.mx.cloudflare.net  (Cloudflare)
-  MX     slottsregistret.se           route2.mx.cloudflare.net  (Cloudflare)
-  MX     slottsregistret.se           route1.mx.cloudflare.net  (Cloudflare)
-  TXT    cf2024-1._domainkey.slottsregistret.se "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7  (Cloudflare)
-  TXT    slottsregistret.se           "v=spf1 include:_spf.mx.cloudflare.net ~all"  
-  TXT    slottsregistret.se           "google-site-verification=nU41iQJoGji9chg9lp8oNfRug8YNqZ_xSX2LIchonYg"  
-  AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
-  AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
-== DNSSEC: active
-!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
-== Email Routing: ?
-== Workers: golfregistret, hq, instansa-signatur, konstad, siegel-utkast, slottsregistret, svenskakyrkor
-== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production), golfregistret.se -> golfregistret (production), www.golfregistret.se -> golfregistret (production), hq.konstad.se -> hq (production)
-== Senaste publicering av Workern: 2026-10-28T13:50:48.783731Z wrangler versioner f27131e5 Publicera e-post från formulären till Daniel (26–28 okt)
-  version f27131e5 2026-10-28T13:50:47.936552Z wrangler Publicera e-post från formulären till Daniel (26–28 okt) version_upload
-  version 85cf41bf 2026-10-26T14:47:08.928335Z wrangler Granska f769b4b version_upload
-  version 695e7f00 2026-10-26T13:49:32.617456Z wrangler Granska fb449cb version_upload
-  version 62bda42f 2026-10-26T13:39:35.281314Z wrangler Granska 0192b1a version_upload
-  version 06b29170 2026-10-26T13:38:10.9372Z wrangler Publicera formulären (lagring påkopplad; Daniel 26 okt) version_upload
-== Pages-projekt: instansa-signatur (instansa-signatur.pages.dev)
-== Workers Builds (0)
