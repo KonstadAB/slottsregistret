@@ -1,88 +1,340 @@
-# 2026-10-26T14:46:17Z api GET /zones/{zone}/dns_records?type=MX ;; status
->> api GET /zones/{zone}/dns_records?type=MX
-[
- {
-  "id": "49b6eaf2099fa420c785cb815bb4ac14",
-  "name": "slottsregistret.se",
-  "type": "MX",
-  "content": "route3.mx.cloudflare.net",
-  "priority": 23,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
+# 2026-10-28T12:30:40Z api GET /zones/{zone}/email/routing/rules ;; api GET /accounts/{account}/email/routing/addresses ;; api POST /zones/{zone}/email/routing/rules {"name":"kontakt","enabled":true,"matchers":[{"type":"literal","field":"to","value":"kontakt@slottsregistret.se"}],"actions":[{"type":"forward","value":["konstadab@gmail.com"]}]} ;; api POST /accounts/{account}/workers/observability/telemetry/query {"queryId":"formular","timeframe":{"from":1793270000000,"to":1793700000000},"view":"events","limit":20,"parameters":{"filters":[{"key":"$workers.scriptName","operation":"eq","type":"string","value":"slottsregistret"},{"key":"$metadata.message","operation":"includes","type":"string","value":"E-posten"}]}}
+>> api GET /zones/{zone}/email/routing/rules
+!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing/rules -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/subresources/rules/methods/list"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 10000,
+   "message": "Authentication error",
+   "documentation_url": "https://developers.cloudflare.com/api/resources/email_routing/subresources/rules/methods/list"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> api GET /accounts/{account}/email/routing/addresses
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/email/routing/addresses -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/subresources/addresses/methods/list"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 10000,
+   "message": "Authentication error",
+   "documentation_url": "https://developers.cloudflare.com/api/resources/email_routing/subresources/addresses/methods/list"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> api POST /zones/{zone}/email/routing/rules {"name":"kontakt","enabled":true,"matchers":[{"type":"literal","field":"to","value":"kontakt@slottsregistret.se"}],"actions":[{"type":"forward","value":["konstadab@gmail.com"]}]}
+!! POST /zones/ea79ee838c7bee0ef2100f012784f653/email/routing/rules -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/subresources/rules/methods/create"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 10000,
+   "message": "Authentication error",
+   "documentation_url": "https://developers.cloudflare.com/api/resources/email_routing/subresources/rules/methods/create"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> api POST /accounts/{account}/workers/observability/telemetry/query {"queryId":"formular","timeframe":{"from":1793270000000,"to":1793700000000},"view":"events","limit":20,"parameters":{"filters":[{"key":"$workers.scriptName","operation":"eq","type":"string","value":"slottsregistret"},{"key":"$metadata.message","operation":"includes","type":"string","value":"E-posten"}]}}
+{
+ "run": {
+  "id": "yzgkmbanes1rbzhj060h40c3",
+  "query": {
+   "id": "formular",
+   "description": "",
+   "name": "",
+   "generated": false,
+   "parameters": {
+    "filters": [
+     {
+      "key": "$workers.scriptName",
+      "operation": "eq",
+      "value": "slottsregistret",
+      "type": "string"
+     },
+     {
+      "key": "$metadata.message",
+      "operation": "includes",
+      "value": "E-posten",
+      "type": "string"
+     }
+    ]
+   },
+   "workspaceId": "36f39bea33a1d0e03815a8b01039efea",
+   "environmentId": "cloudflare",
+   "userId": "d0e330335ec5973032529b9334264bca",
+   "created": "2026-10-28T12:30:41.955Z",
+   "updated": "2026-10-28T12:30:41.955Z"
   },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-10-26T14:35:03.22751Z",
-  "modified_on": "2026-10-26T14:35:03.22751Z"
+  "accountId": "36f39bea33a1d0e03815a8b01039efea",
+  "timeframe": {
+   "from": 1793270000000,
+   "to": 1793700000000
+  },
+  "userId": "d0e330335ec5973032529b9334264bca",
+  "status": "COMPLETED",
+  "granularity": 7167000,
+  "dry": false,
+  "statistics": {
+   "elapsed": 0.019794399,
+   "rows_read": 0,
+   "bytes_read": 0,
+   "abr_level": 1
+  }
  },
- {
-  "id": "53ff6fc8687ef559743b11bdce3945a2",
-  "name": "slottsregistret.se",
-  "type": "MX",
-  "content": "route2.mx.cloudflare.net",
-  "priority": 26,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-10-26T14:35:03.220354Z",
-  "modified_on": "2026-10-26T14:35:03.220354Z"
+ "events": {
+  "events": [],
+  "fields": [],
+  "count": 0,
+  "series": [
+   {
+    "time": "2026-10-29 14:22:18",
+    "data": []
+   },
+   {
+    "time": "2026-10-29 16:21:45",
+    "data": []
+   },
+   {
+    "time": "2026-10-29 18:21:12",
+    "data": []
+   },
+   {
+    "time": "2026-10-29 20:20:39",
+    "data": []
+   },
+   {
+    "time": "2026-10-29 22:20:06",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 00:19:33",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 02:19:00",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 04:18:27",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 06:17:54",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 08:17:21",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 10:16:48",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 12:16:15",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 14:15:42",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 16:15:09",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 18:14:36",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 20:14:03",
+    "data": []
+   },
+   {
+    "time": "2026-10-30 22:13:30",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 00:12:57",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 02:12:24",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 04:11:51",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 06:11:18",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 08:10:45",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 10:10:12",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 12:09:39",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 14:09:06",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 16:08:33",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 18:08:00",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 20:07:27",
+    "data": []
+   },
+   {
+    "time": "2026-10-31 22:06:54",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 00:06:21",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 02:05:48",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 04:05:15",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 06:04:42",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 08:04:09",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 10:03:36",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 12:03:03",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 14:02:30",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 16:01:57",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 18:01:24",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 20:00:51",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 22:00:18",
+    "data": []
+   },
+   {
+    "time": "2026-11-01 23:59:45",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 01:59:12",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 03:58:39",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 05:58:06",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 07:57:33",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 09:57:00",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 11:56:27",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 13:55:54",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 15:55:21",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 17:54:48",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 19:54:15",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 21:53:42",
+    "data": []
+   },
+   {
+    "time": "2026-11-02 23:53:09",
+    "data": []
+   },
+   {
+    "time": "2026-11-03 01:52:36",
+    "data": []
+   },
+   {
+    "time": "2026-11-03 03:52:03",
+    "data": []
+   },
+   {
+    "time": "2026-11-03 05:51:30",
+    "data": []
+   },
+   {
+    "time": "2026-11-03 07:50:57",
+    "data": []
+   },
+   {
+    "time": "2026-11-03 09:50:24",
+    "data": []
+   }
+  ]
  },
- {
-  "id": "543307a1efc6c082467ed8ef08a99e0b",
-  "name": "slottsregistret.se",
-  "type": "MX",
-  "content": "route1.mx.cloudflare.net",
-  "priority": 35,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-10-26T14:35:03.209468Z",
-  "modified_on": "2026-10-26T14:35:03.209468Z"
+ "statistics": {
+  "elapsed": 0.019794399,
+  "rows_read": 0,
+  "bytes_read": 0,
+  "abr_level": 1
  }
-]
->> status
-== Nyckel: active
-== Zon slottsregistret.se: active, plan Free Website, namnservrar ian.ns.cloudflare.com kimora.ns.cloudflare.com
-== DNS
-  CNAME  239dbcfb2956abddc9c194a41bebd2d3.slottsregistret.se verify.bing.com  
-  CNAME  dd3430875a092a994209f496f48bd39c.slottsregistret.se verify.bing.com  
-  MX     slottsregistret.se           route3.mx.cloudflare.net  (Cloudflare)
-  MX     slottsregistret.se           route2.mx.cloudflare.net  (Cloudflare)
-  MX     slottsregistret.se           route1.mx.cloudflare.net  (Cloudflare)
-  TXT    cf2024-1._domainkey.slottsregistret.se "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7  (Cloudflare)
-  TXT    slottsregistret.se           "v=spf1 include:_spf.mx.cloudflare.net ~all"  
-  TXT    slottsregistret.se           "google-site-verification=nU41iQJoGji9chg9lp8oNfRug8YNqZ_xSX2LIchonYg"  
-  AAAA   slottsregistret.se           100:: (proxad) (Cloudflare)
-  AAAA   www.slottsregistret.se       100:: (proxad) (Cloudflare)
-== DNSSEC: active
-!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/routing -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_routing/methods/get"}]
-== Email Routing: ?
-== Workers: golfregistret, hq, instansa-signatur, konstad, slottsregistret, svenskakyrkor
-== Egna domäner: svenskakyrkor.se -> svenskakyrkor (production), www.svenskakyrkor.se -> svenskakyrkor (production), slottsregistret.se -> slottsregistret (production), www.slottsregistret.se -> slottsregistret (production), hq.konstad.se -> hq (production), golfregistret.se -> golfregistret (production), www.golfregistret.se -> golfregistret (production)
-== Senaste publicering av Workern: 2026-10-26T13:38:11.555929Z wrangler versioner 06b29170 Publicera formulären (lagring påkopplad; Daniel 26 okt)
-  version 695e7f00 2026-10-26T13:49:32.617456Z wrangler Granska fb449cb version_upload
-  version 62bda42f 2026-10-26T13:39:35.281314Z wrangler Granska 0192b1a version_upload
-  version 06b29170 2026-10-26T13:38:10.9372Z wrangler Publicera formulären (lagring påkopplad; Daniel 26 okt) version_upload
-  version c143e99b 2026-10-26T13:34:21.035968Z wrangler Granska 08f5c6a version_upload
-  version c57783b2 2026-10-26T13:32:47.886222Z wrangler Granska 948363a version_upload
-== Pages-projekt: instansa-signatur (instansa-signatur.pages.dev)
-== Workers Builds (0)
+}
