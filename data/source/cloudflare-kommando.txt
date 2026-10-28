@@ -1,1 +1,1 @@
-api POST /accounts/{account}/workers/observability/telemetry/query {"queryId":"formular2","timeframe":{"from":1793026000000,"to":1793029000000},"view":"events","limit":50,"parameters":{"filters":[{"key":"$workers.scriptName","operation":"eq","type":"string","value":"slottsregistret"}]}}
+formular ;; status
