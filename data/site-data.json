@@ -302,7 +302,22 @@
     "bo-pa-slott",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gs360-backaskog",
+     "kind": "walk",
+     "provider": "GS360",
+     "credit": [
+      "GS360 AB"
+     ],
+     "title": "Slottshallen och salongerna",
+     "embed": "https://tours.gs360ab.com/t/slottshallen-wxmy",
+     "url": "https://tours.gs360ab.com/t/slottshallen-wxmy",
+     "source": "fotografen",
+     "checked": "2026-11-02",
+     "note": "Virtuell visning gjord för slottet av GS360 i Kristianstad (gs360ab.com/portfolio), med guidad visning och punkter att gå mellan."
+    }
+   ]
   },
   {
    "id": "christinehofs-slott",
@@ -9662,7 +9677,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 6
+   "withTour": 7
   },
   {
    "name": "Blekinge",
@@ -9875,7 +9890,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 18,
+  "withTour": 19,
   "located": 250
  }
 }

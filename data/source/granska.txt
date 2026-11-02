@@ -1,5 +1,1 @@
-/slott/skoklosters-slott/ start
-/slott/mauritzbergs-slott/ start
-/slott/drottningholms-slott/ start
-/slott/bosjokloster/
-https://tours.gs360ab.com/t/slottshallen-wxmy
+/slott/backaskog-slott/ start

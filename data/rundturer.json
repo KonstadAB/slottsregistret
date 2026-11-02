@@ -715,5 +715,21 @@
    "checked": "2026-10-06",
    "note": "En 360-bild per våning (entréplan, andra–fjärde våningen, utsikten) via Google Maps, inte länkade till varandra. Fråga Daniel om det räknas."
   }
+ ],
+ "backaskog-slott": [
+  {
+   "id": "gs360-backaskog",
+   "kind": "walk",
+   "provider": "GS360",
+   "credit": [
+    "GS360 AB"
+   ],
+   "title": "Slottshallen och salongerna",
+   "embed": "https://tours.gs360ab.com/t/slottshallen-wxmy",
+   "url": "https://tours.gs360ab.com/t/slottshallen-wxmy",
+   "source": "fotografen",
+   "checked": "2026-11-02",
+   "note": "Virtuell visning gjord för slottet av GS360 i Kristianstad (gs360ab.com/portfolio), med guidad visning och punkter att gå mellan."
+  }
  ]
 }
