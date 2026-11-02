@@ -1,1 +1,36 @@
-{"jsonUrls":[{"url":"https://permstade.se/360_slott/mauritzbergdata/mauritzberg_vr.xml"}]}
+{
+"tourScan": [
+{
+"id": "www.hagaslott.se",
+"url": "https://www.hagaslott.se/"
+},
+{
+"id": "www.claestorp.se",
+"url": "https://www.claestorp.se/"
+},
+{
+"id": "www.ekenasslott.se",
+"url": "https://www.ekenasslott.se/"
+},
+{
+"id": "www.hackebergaslott.com",
+"url": "https://www.hackebergaslott.com/"
+},
+{
+"id": "www.karlslund.com",
+"url": "https://www.karlslund.com/"
+},
+{
+"id": "www.wikslott.se",
+"url": "https://www.wikslott.se/"
+},
+{
+"id": "www.view360.se",
+"url": "https://www.view360.se/"
+},
+{
+"id": "www.backaskogslott.se",
+"url": "https://www.backaskogslott.se/"
+}
+]
+}
