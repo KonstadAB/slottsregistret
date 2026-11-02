@@ -1,52 +1,8 @@
 {
-"jsonUrls": [
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=R%C3%A5bel%C3%B6vs+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=G%C3%A5sevadholms+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Dalaborg+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Kavl%C3%A5s+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Dagsn%C3%A4s+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Almn%C3%A4s+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Blekhem+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Stora+H%C3%A4stn%C3%A4s+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Stegeborgssruin+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Vibyholms+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Elghammar+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Rinkesta+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=%C3%85ker%C3%B6+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Stora+W%C3%A4sby+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Salnecke+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-},
-{
-"url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=Johannesbergs+filetype%3Abitmap&gsrlimit=25&prop=imageinfo&iiprop=size%7Curl%7Cextmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CImageDescription"
-}
+"commonsFiles": [
+"0284Salnecke slott.jpg",
+"DJI 0227SVS 05.jpg",
+"Dalaborg2.jpg",
+"Sthästnäsexteriör.JPG"
 ]
 }
