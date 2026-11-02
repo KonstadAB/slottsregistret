@@ -269,13 +269,13 @@ function leadForm(S, c) {
   const kinds = leadKinds(c);
   if (!kinds.length) return '';
   const what = kinds.length > 1 ? kinds.slice(0, -1).join(', ').toLowerCase() + ' eller ' + kinds[kinds.length - 1].toLowerCase() : 'en ' + kinds[0].toLowerCase();
-  return `<section class="band band-dark lead" id="forfragan">
+  return `<section class="band band-dark inquiry" id="forfragan">
   <div class="wrap form-split">
     <div>
       <p class="kicker kicker-gold"><span>Förfrågan</span></p>
       <h2>Planerar du ${esc(what)} på ${esc(c.name)}?</h2>
       <p>Berätta vad du har i tankarna, så hjälper vi dig vidare till slottet. Det kostar ingenting och du binder dig inte till något.</p>
-      <ul class="lead-points"><li>Svar inom ett par vardagar</li><li>Vi tar kontakten med slottet åt dig</li><li>Dina uppgifter går bara till oss och slottet</li></ul>
+      <ul class="inquiry-points"><li>Svar inom ett par vardagar</li><li>Vi tar kontakten med slottet åt dig</li><li>Dina uppgifter går bara till oss och slottet</li></ul>
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'forfragan')}
