@@ -1,8 +1,8 @@
 {
-"commonsFiles": [
-"0284Salnecke slott.jpg",
-"DJI 0227SVS 05.jpg",
-"Dalaborg2.jpg",
-"Sthästnäsexteriör.JPG"
-]
+ "wdSearch": [
+  {"id": "toftaholm", "q": "Toftaholm"},
+  {"id": "soderfors-herrgard", "q": "Söderfors herrgård"},
+  {"id": "fredensborgs-herrgard", "q": "Fredensborg Vimmerby"}
+ ],
+ "textPages": ["https://www.toftaholm.se/", "https://www.soderforsherrgard.se/", "http://www.fredensborg.com/"]
 }
