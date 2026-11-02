@@ -262,7 +262,7 @@ function castleDesc(c, co, offerCats) {
 }
 
 // Förfrågan om bröllop, fest eller konferens på slottets sida (bara slott som tar emot sådant). Den går till Daniel,
-// som hjälper besökaren vidare till slottet. Underlag för att visa slotten hur många förfrågningar sajten ger.
+// som svarar besökaren. Underlag för att visa slotten hur många förfrågningar sajten ger.
 const LEAD = [['brollop-och-fest', ['Bröllop', 'Fest']], ['konferens', ['Konferens']]];
 const leadKinds = c => LEAD.filter(([slug]) => c.offers.includes(slug)).flatMap(([, k]) => k);
 function leadForm(S, c) {
@@ -274,8 +274,8 @@ function leadForm(S, c) {
     <div>
       <p class="kicker kicker-gold"><span>Förfrågan</span></p>
       <h2>Planerar du ${esc(what)} på ${esc(c.name)}?</h2>
-      <p>Berätta vad du har i tankarna, så hjälper vi dig vidare till slottet. Det kostar ingenting och du binder dig inte till något.</p>
-      <ul class="inquiry-points"><li>Svar inom ett par vardagar</li><li>Vi tar kontakten med slottet åt dig</li><li>Dina uppgifter går bara till oss och slottet</li></ul>
+      <p>Berätta vad du har i tankarna, så hör vi av oss. Det kostar ingenting och du binder dig inte till något.</p>
+      <ul class="inquiry-points"><li>Svar inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Dina uppgifter stannar hos oss och slottet</li></ul>
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'forfragan')}
@@ -290,7 +290,7 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 <label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
 <label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
 <button class="btn btn-gold" type="submit">Skicka förfrågan</button>
-<p class="small">Vi sparar uppgifterna i högst två år och delar dem bara med ${esc(c.name)}. Se <a href="/integritet/">integritet</a>.</p>
+<p class="small">Vi sparar uppgifterna i högst två år och delar dem inte med någon annan än ${esc(c.name)}. Se <a href="/integritet/">integritet</a>.</p>
 </form>
   </div>
 </section>`;
@@ -572,7 +572,7 @@ function privacy(S) {
 <h2>Virtuella rundturer</h2>
 <p>En rundtur laddas först när du trycker på knappen för att starta den. Då hämtas den från leverantören (till exempel Google, Matterport eller Kuula), som kan sätta egna kakor enligt sina villkor. Att starta rundturen är ditt samtycke till det.</p>
 <h2>Formulär</h2>
-<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest eller konferens delar vi med det slott den gäller, så att de kan svara dig. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
+<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest eller konferens kan vi dela med det slott den gäller, men inte med någon annan. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
 }
 
 function formFields(S, name) {
