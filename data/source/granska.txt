@@ -1,4 +1,2 @@
-https://slottsregistret.se/
-https://slottsregistret.se/slott/svaneholms-slott/
-https://slottsregistret.se/lan/skane/
-https://slottsregistret.se/karta/
+/
+/slott/svaneholms-slott/

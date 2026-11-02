@@ -267,7 +267,7 @@ function castle(S, c) {
   const wiki = c.text ? [c.text] : wikiText(c.wiki && c.wiki.text);
   const co = S.countyBySlug.get(c.lanSlug);
   const offers = c.offers.map(o => S.catBySlug.get(o)).filter(Boolean);
-  const near = S.nearby(c, 6);
+  const near = S.fullRows(S.nearby(c, 8));
   const t = c.tours[0];
   const facts = [
     ['Typ', c.type], ['Byggt', c.inception && +c.inception > 900 ? (c.inception.length === 4 ? c.inception : c.inception) : null],

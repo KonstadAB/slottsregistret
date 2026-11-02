@@ -159,6 +159,7 @@ p { margin: 0 0 1em; }
 .split { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center; }
 @media (max-width: 820px) { .split { grid-template-columns: 1fr; } }
 .map-teaser { display: block; border-radius: var(--radius); overflow: hidden; background: var(--forest); box-shadow: var(--shadow); }
+.map-teaser img { width: 100%; height: auto; }
 .page-head { padding: 18px 0 8px; }
 .page-head h1 { margin-bottom: .3em; }
 

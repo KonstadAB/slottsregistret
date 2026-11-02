@@ -26,6 +26,10 @@ S.nearby = (c, n) => {
 // Först de som visar slottet inifrån bäst (granskade för hand), sedan övriga.
 const FEATURE_FIRST = ['svaneholms-slott', 'granso-slott', 'drottningholms-slott', 'mauritzbergs-slott', 'bjarsjolagards-slott', 'trollenas-slott', 'osterbybruk-herrgard', 'kronovalls-slott', 'malmohus'];
 S.featured = FEATURE_FIRST.map(id => data.castles.find(c => c.id === id)).filter(c => c && c.tours.length);
+// Hela rader i rutnätet (fyra i bredd på dator, två på mobil), så att inget kort blir ensamt kvar.
+const fullRows = list => list.length > 4 ? list.slice(0, list.length - list.length % 4) : list;
+S.fullRows = fullRows;
+S.featured = fullRows(S.featured);
 {
   const per = {};
   const cand = data.castles.filter(c => c.tours.length && c.image)
