@@ -1,5 +1,5 @@
 {
- "built": "2026-10-17",
+ "built": "2026-11-02",
  "castles": [
   {
    "id": "malmohus",
@@ -278,7 +278,22 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-hovdala-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Mohammed Mroveh"
+     ],
+     "year": 2017,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF!2m2!1d56.10373330932681!2d13.71388923233674!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "backaskog-slott",
@@ -2058,7 +2073,22 @@
    "offers": [
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-tullesbo",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "ALTUS 360"
+     ],
+     "year": 2024,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.!2m2!1d55.71204619562005!2d13.66253890094276!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "bjarsjolagards-slott",
@@ -5293,7 +5323,22 @@
     "borgar-och-ruiner",
     "konferens"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-stegeborgs-slottsruin",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Samuel Cedermyr"
+     ],
+     "year": 2021,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF!2m2!1d58.44128314134035!2d16.59817181322306!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "sturefors-slott",
@@ -5829,7 +5874,22 @@
     "besok",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-nynas-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "george saguna"
+     ],
+     "year": 2018,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF!2m2!1d58.80758174024182!2d17.36444188259743!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "julita-gard",
@@ -5905,7 +5965,22 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-sundbyholms-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "360 Swiss GmbH"
+     ],
+     "year": 2024,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.!2m2!1d59.44611030178714!2d16.62400827220129!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "malsakers-slott",
@@ -7214,7 +7289,22 @@
    "offers": [
     "besok"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-tyreso-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Tyresö slott"
+     ],
+     "year": 2016,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.!2m2!1d59.23524132080628!2d18.30468220478975!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "svartsjo-slott",
@@ -9788,7 +9878,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 7
+   "withTour": 9
   },
   {
    "name": "Blekinge",
@@ -9844,21 +9934,21 @@
    "full": "Östergötlands län",
    "slug": "ostergotland",
    "total": 17,
-   "withTour": 3
+   "withTour": 4
   },
   {
    "name": "Södermanland",
    "full": "Södermanlands län",
    "slug": "sodermanland",
    "total": 27,
-   "withTour": 1
+   "withTour": 3
   },
   {
    "name": "Stockholm",
    "full": "Stockholms län",
    "slug": "stockholm",
    "total": 43,
-   "withTour": 6
+   "withTour": 7
   },
   {
    "name": "Uppsala",
@@ -10001,7 +10091,7 @@
  ],
  "stats": {
   "total": 250,
-  "withTour": 28,
+  "withTour": 34,
   "located": 250
  }
 }

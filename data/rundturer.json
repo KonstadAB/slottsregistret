@@ -512,6 +512,20 @@
  "stegeborgs-slottsruin": [
   {
    "id": "gm-stegeborgs-slottsruin",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Samuel Cedermyr"
+   ],
+   "year": 2021,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF!2m2!1d58.44128314134035!2d16.59817181322306!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  },
+  {
+   "id": "gm-stegeborgs-slottsruin",
    "kind": "look",
    "provider": "Google Maps",
    "credit": [
@@ -685,6 +699,86 @@
    "source": "slottets webbplats",
    "checked": "2026-10-06",
    "note": "En 360-bild per våning (entréplan, andra–fjärde våningen, utsikten) via Google Maps, inte länkade till varandra. Fråga Daniel om det räknas."
+  }
+ ],
+ "tyreso-slott": [
+  {
+   "id": "gm-tyreso-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Tyresö slott"
+   ],
+   "year": 2016,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.!2m2!1d59.23524132080628!2d18.30468220478975!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  }
+ ],
+ "sundbyholms-slott": [
+  {
+   "id": "gm-sundbyholms-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "360 Swiss GmbH"
+   ],
+   "year": 2024,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.!2m2!1d59.44611030178714!2d16.62400827220129!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  }
+ ],
+ "nynas-slott": [
+  {
+   "id": "gm-nynas-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "george saguna"
+   ],
+   "year": 2018,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF!2m2!1d58.80758174024182!2d17.36444188259743!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  }
+ ],
+ "hovdala-slott": [
+  {
+   "id": "gm-hovdala-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Mohammed Mroveh"
+   ],
+   "year": 2017,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF!2m2!1d56.10373330932681!2d13.71388923233674!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  }
+ ],
+ "tullesbo": [
+  {
+   "id": "gm-tullesbo",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "ALTUS 360"
+   ],
+   "year": 2024,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.!2m2!1d55.71204619562005!2d13.66253890094276!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
   }
  ]
 }

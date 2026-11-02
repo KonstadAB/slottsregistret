@@ -179,3 +179,15 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern 6 okt.
 - DNSSEC påslaget i Cloudflare; DS-posten (2371 13 2 8449D7BA…) syns hos .se (kollat 25 okt). Daniel 25 okt: inget mer görs hos One.com.
 - tools/cloudflare.mjs fyller {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
+
+## Google-räkningen 2 nov (grenen claude/google-turer-nov)
+- Ny genomsökning runt Googles egen punkt för varje slott (tät sökning ca 100 m, även ägaruppladdade bilder, CIHM), turer följda via
+  länkarna, bara ihopkopplade grupper om minst 3 bilder och med bilder inomhus. Varje kandidat granskad för hand via miniatyrer.
+- Tillagda (walk): Tyresö slott (slottets egen tur), Sundbyholms slott, Nynäs slott, Hovdala slott, Tullesbo, Stegeborgs slottsruin
+  (inne i ruinen under skyddstaket). 28 → 34 slott med rundtur.
+- Inte tillagda: Öster-Malma, Ekenäs, Karlbergs slott (bara utomhus); Glimmingehus (inomhus bara besökscentrets butik);
+  Läckö (View360-tur finns, men VR Medias egen ska in när Daniel säger till).
+- site-data.json lappades bara med turerna: en ny körning av sammanstall.py ändrade även erbjudanden för åtta slott
+  (Sofiero, Backaskog, Övedskloster, Högestad, Solliden, Rockelstad, Tistad, Ängsö), det är inte med här och bör ses över separat.
+- Herrgårdar med Google-tur som inte finns i listan än: Toftaholm, Söderfors och Fredensborg (alla VR Media), Skytteholm,
+  Siggesta, Riddersvik, Hooks, Tokeryd, Friibergh, Hofsnäs, Baldersnäs, Ulfshyttan, Cedergrenska tornet, Stora Nyckelviken, Örestens fästning.
