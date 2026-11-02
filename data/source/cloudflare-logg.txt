@@ -1,6 +1,19 @@
-# 2026-11-02T20:09:53Z formular
->> formular
-== Inlämningar: 3 (de senaste 50)
-  tips:2026-10-27T13:47:32.762Z:9f342eec  beritsholm  En rundtur som saknas
-  forfragan:2026-11-02T20:09:07.479Z:313dae63  svaneholms-slott  Bröllop
-  forfragan:2026-11-02T20:09:23.210Z:3aad50f4  svaneholms-slott  Bröllop
+# 2026-11-02T20:10:24Z formular-visa forfragan:2026-11-02T20:09:07.479Z:313dae63 ;; formular-visa forfragan:2026-11-02T20:09:23.210Z:3aad50f4
+>> formular-visa forfragan:2026-11-02T20:09:07.479Z:313dae63
+{
+ "formular": "forfragan",
+ "at": "2026-11-02T20:09:07.479Z",
+ "slott": "svaneholms-slott",
+ "vad": "Bröllop",
+ "namn": "Test från granskningen",
+ "epost": "test@example.com"
+}
+>> formular-visa forfragan:2026-11-02T20:09:23.210Z:3aad50f4
+{
+ "formular": "forfragan",
+ "at": "2026-11-02T20:09:23.210Z",
+ "slott": "svaneholms-slott",
+ "vad": "Bröllop",
+ "namn": "Test från granskningen",
+ "epost": "test@example.com"
+}
