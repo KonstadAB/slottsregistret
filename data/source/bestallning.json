@@ -1,143 +1,40 @@
 {
 "jsonUrls": [
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6J7i-QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4l9nGxQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/rikssalen/"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4j9yOigE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICujaAV!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/vasa-to-bernadotte"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDOhrSdwAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/ulriksdal"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2Kve7gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICawquK-AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://vr.kungligaslotten.se/teatern_gripsholmsslott/"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nb6gjwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://permstade.se/360_slott/mauritzberg.html"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICklOyANg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://permstade.se/360_slott/mauritzberg.xml"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2koaMowE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.almnas.com/360/Almnas.html"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4scyHWg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.almnas.com/360/Almnas.xml"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRyc3ttgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2IryrgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICuiYn1dA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICU5YvF4gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4sdTelAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDc95rjjgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDuqrbWpQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICE_dHTEQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4xLW2Vg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICpyt2R7QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID41oD2igE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICeycidtAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID497P3LQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDus_-PzAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4x7r83gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe4Pv_mQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEseDc4AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDy_Zm7bQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4yuSlIQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDurIXvdg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
-}
-],
-"textPages": [
-"https://vr.kungligaslotten.se/ehrenstrahlsalongen",
-"https://vr.kungligaslotten.se/rikssalen/",
-"https://vr.kungligaslotten.se/GustavIIIsAntikmuseum",
-"https://vr.kungligaslotten.se/vasa-to-bernadotte",
-"https://vr.kungligaslotten.se/ulriksdal",
-"https://vr.kungligaslotten.se/",
-"https://permstade.se/360_slott/",
-"https://permstade.se/360_slott/mauritzberg.html",
-"https://www.almnas.com/360/Almnas.html",
-"https://artsandculture.google.com/streetview/skokloster-castle/kwFkqrQRtMYEEw?sv_pid=pToDyqalmPY8_VuVs4rYEg"
-],
-"search": [
-{
-"id": "s1",
-"q": "slott 360 virtuell rundtur"
-},
-{
-"id": "s2",
-"q": "slott virtuell visning 360 grader Sverige"
-},
-{
-"id": "s3",
-"q": "herrgård 360 rundtur konferens"
-},
-{
-"id": "s4",
-"q": "slott \"virtual tour\" Sweden castle 360"
-},
-{
-"id": "s5",
-"q": "matterport slott Sverige"
-},
-{
-"id": "s6",
-"q": "slottet digital rundvandring"
-},
-{
-"id": "s7",
-"q": "3dvista slott"
-},
-{
-"id": "s8",
-"q": "kuula slott"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e2!2spToDyqalmPY8_VuVs4rYEg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 }
 ]
 }
