@@ -261,6 +261,41 @@ function castleDesc(c, co, offerCats) {
   return d;
 }
 
+// Förfrågan om bröllop, fest eller konferens på slottets sida (bara slott som tar emot sådant). Den går till Daniel,
+// som hjälper besökaren vidare till slottet. Underlag för att visa slotten hur många förfrågningar sajten ger.
+const LEAD = [['brollop-och-fest', ['Bröllop', 'Fest']], ['konferens', ['Konferens']]];
+const leadKinds = c => LEAD.filter(([slug]) => c.offers.includes(slug)).flatMap(([, k]) => k);
+function leadForm(S, c) {
+  const kinds = leadKinds(c);
+  if (!kinds.length) return '';
+  const what = kinds.length > 1 ? kinds.slice(0, -1).join(', ').toLowerCase() + ' eller ' + kinds[kinds.length - 1].toLowerCase() : 'en ' + kinds[0].toLowerCase();
+  return `<section class="band band-dark lead" id="forfragan">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker kicker-gold"><span>Förfrågan</span></p>
+      <h2>Planerar du ${esc(what)} på ${esc(c.name)}?</h2>
+      <p>Berätta vad du har i tankarna, så hjälper vi dig vidare till slottet. Det kostar ingenting och du binder dig inte till något.</p>
+      <ul class="lead-points"><li>Svar inom ett par vardagar</li><li>Vi tar kontakten med slottet åt dig</li><li>Dina uppgifter går bara till oss och slottet</li></ul>
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
+${formFields(S, 'forfragan')}
+<input type="hidden" name="slott" value="${esc(c.slug)}">
+<fieldset><legend>Det gäller</legend>
+${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ? '' : ' required'}> ${k}</label>`).join('\n')}
+</fieldset>
+<label for="datum">När ungefär? (frivilligt)</label><input id="datum" name="datum" placeholder="t.ex. juni 2027">
+<label for="gaster">Hur många gäster? (frivilligt)</label><input id="gaster" name="gaster" inputmode="numeric" placeholder="t.ex. 80">
+<label for="namn">Ditt namn</label><input id="namn" name="namn" required autocomplete="name">
+<label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
+<label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
+<label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
+<button class="btn btn-gold" type="submit">Skicka förfrågan</button>
+<p class="small">Vi sparar uppgifterna i högst två år och delar dem bara med ${esc(c.name)}. Se <a href="/integritet/">integritet</a>.</p>
+</form>
+  </div>
+</section>`;
+}
+
 function castle(S, c) {
   const img = commonsImage(c.image, 1280), imgSm = commonsImage(c.image, 960);
   const imgXl = c.image && c.image.w > 1920 ? commonsImage(c.image, 1920) : null;
@@ -318,7 +353,7 @@ function castle(S, c) {
   return layout(S, {
     title: `${c.name}${S.dupNames.has(c.name) ? ` (${c.kommun})` : ''}`, description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
     image: commonsImage(c.image, 1280) || undefined,
-    scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js'],
+    scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js', ...(leadKinds(c).length ? ['/assets/form.js'] : [])],
     jsonld: [crumbLd(S, [['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]]), {
       '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', 'TouristAttraction'], name: c.name,
       description: desc, url: S.config.domain + castleURL(c), ...(img ? { image: encodeURI(S.config.domain + img) } : {}),
@@ -355,6 +390,7 @@ ${tourBlock}
     </aside>
   </div>
 </section>
+${leadForm(S, c)}
 ${near.length ? `<section class="band band-paper2">
   <div class="wrap">
     <h2>Fler slott i närheten</h2>
@@ -536,7 +572,7 @@ function privacy(S) {
 <h2>Virtuella rundturer</h2>
 <p>En rundtur laddas först när du trycker på knappen för att starta den. Då hämtas den från leverantören (till exempel Google, Matterport eller Kuula), som kan sätta egna kakor enligt sina villkor. Att starta rundturen är ditt samtycke till det.</p>
 <h2>Formulär</h2>
-<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
+<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest eller konferens delar vi med det slott den gäller, så att de kan svara dig. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
 }
 
 function formFields(S, name) {

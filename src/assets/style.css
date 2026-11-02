@@ -451,3 +451,10 @@ body .leaflet-tooltip { font: 600 .85rem var(--sans); color: var(--ink); border:
   .county-list:not(.county-list-big) small { font-size: .8rem; }
 }
 .form-msg { margin: 10px 0 0; padding: 10px 14px; border-radius: 10px; background: #FBF1E4; border: 1px solid #E5C9A0; color: #6B4510; font-size: .95rem; }
+
+/* Förfrågan om bröllop, fest och konferens på slottens sidor */
+.lead h2 { color: #F6F1E7; }
+.lead p:not(.kicker):not(.small) { color: #DCE3DE; }
+.lead-points { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 8px; color: #DCE3DE; }
+.lead-points li::before { content: ''; display: inline-block; width: 18px; height: 1px; background: var(--gold-2); vertical-align: middle; margin-right: 10px; }
+.lead .form { color: var(--ink); }

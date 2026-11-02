@@ -20,7 +20,7 @@
 <link rel="preload" href="/assets/fonts/fraunces-latin.woff2?v=7f9d191d99" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin.woff2?v=2ee17598a9" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="/assets/style.css?v=a2e99fdffa">
+<link rel="stylesheet" href="/assets/style.css?v=eff93bf5ea">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start","item":"https://slottsregistret.se/"},{"@type":"ListItem","position":2,"name":"Jönköpings län","item":"https://slottsregistret.se/lan/jonkoping/"},{"@type":"ListItem","position":3,"name":"Västanå slott","item":"https://slottsregistret.se/slott/vastana-slott/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":["LandmarksOrHistoricalBuildings","TouristAttraction"],"name":"Västanå slott","description":"Västanå slott – slott i Jönköpings kommun, Jönköpings län. Här kan du bo, gifta dig eller ha fest och ha konferens.","url":"https://slottsregistret.se/slott/vastana-slott/","image":"https://slottsregistret.se/img/thumb/d/d3/Gr%C3%A4nna_V%C3%A4stan%C3%A5_Manor.JPG/1280px-Gr%C3%A4nna_V%C3%A4stan%C3%A5_Manor.JPG","geo":{"@type":"GeoCoordinates","latitude":57.99,"longitude":14.42111111},"address":{"@type":"PostalAddress","addressLocality":"Jönköping","addressRegion":"Jönköpings län","addressCountry":"SE"},"sameAs":["https://www.vastanaslott.se/","https://www.wikidata.org/wiki/Q10717839","https://sv.wikipedia.org/wiki/V%C3%A4stan%C3%A5_slott"]}</script>
 </head>
@@ -79,6 +79,34 @@
       <link rel="stylesheet" href="/assets/vendor/leaflet.css?v=a783710282"><div class="mini-map" id="minikarta" data-lat="57.99" data-lon="14.42111111" data-name="Västanå slott" role="img" aria-label="Karta över läget för Västanå slott"></div>
       <p class="small">Stämmer något inte? <a href="/tipsa/?slott=vastana-slott">Tipsa oss</a> · Är det ditt slott? <a href="/for-slott/?slott=vastana-slott">Uppdatera uppgifterna</a></p>
     </aside>
+  </div>
+</section>
+<section class="band band-dark lead" id="forfragan">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker kicker-gold"><span>Förfrågan</span></p>
+      <h2>Planerar du bröllop, fest eller konferens på Västanå slott?</h2>
+      <p>Berätta vad du har i tankarna, så hjälper vi dig vidare till slottet. Det kostar ingenting och du binder dig inte till något.</p>
+      <ul class="lead-points"><li>Svar inom ett par vardagar</li><li>Vi tar kontakten med slottet åt dig</li><li>Dina uppgifter går bara till oss och slottet</li></ul>
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
+<input type="hidden" name="formular" value="forfragan"><input type="hidden" name="tack" value="/tack/">
+<div class="trap" aria-hidden="true"><label>Lämna tomt <input name="webbplats" tabindex="-1" autocomplete="off"></label></div>
+<input type="hidden" name="slott" value="vastana-slott">
+<fieldset><legend>Det gäller</legend>
+  <label><input type="radio" name="vad" value="Bröllop" required> Bröllop</label>
+  <label><input type="radio" name="vad" value="Fest"> Fest</label>
+  <label><input type="radio" name="vad" value="Konferens"> Konferens</label>
+</fieldset>
+<label for="datum">När ungefär? (frivilligt)</label><input id="datum" name="datum" placeholder="t.ex. juni 2027">
+<label for="gaster">Hur många gäster? (frivilligt)</label><input id="gaster" name="gaster" inputmode="numeric" placeholder="t.ex. 80">
+<label for="namn">Ditt namn</label><input id="namn" name="namn" required autocomplete="name">
+<label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
+<label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
+<label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
+<button class="btn btn-gold" type="submit">Skicka förfrågan</button>
+<p class="small">Vi sparar uppgifterna i högst två år och delar dem bara med Västanå slott. Se <a href="/integritet/">integritet</a>.</p>
+</form>
   </div>
 </section>
 <section class="band band-paper2">
@@ -190,6 +218,7 @@
 <script src="/assets/app.js?v=3a9611b67b" defer></script>
 <script src="/assets/vendor/leaflet.js?v=db49d009c8" defer></script>
 <script src="/assets/castle.js?v=4f284eca15" defer></script>
+<script src="/assets/form.js?v=bf722c906e" defer></script>
 
 </body>
 </html>
