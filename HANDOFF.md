@@ -191,3 +191,7 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
   (Sofiero, Backaskog, Övedskloster, Högestad, Solliden, Rockelstad, Tistad, Ängsö), det är inte med här och bör ses över separat.
 - Herrgårdar med Google-tur som inte finns i listan än: Toftaholm, Söderfors och Fredensborg (alla VR Media), Skytteholm,
   Siggesta, Riddersvik, Hooks, Tokeryd, Friibergh, Hofsnäs, Baldersnäs, Ulfshyttan, Cedergrenska tornet, Stora Nyckelviken, Örestens fästning.
+- Tillägg samma kväll (Daniel 2 nov): tre herrgårdar med VR Media-turer inlagda som nya poster: Toftaholm och Fredensborg (VR Medias
+  egna 3DVista-versioner på S3), Söderfors (VR Medias tur på Google Maps, källarbaren; S3-version hittades inte under namnvarianter).
+  Läckö har fått View360-turen från Google tills VR Medias egen är klar (Daniel: byt när den kommer). Nu 253 slott, 38 med rundtur.
+  Fredensborg saknar Wikidata-post och bild; kort text i manuellt.json.

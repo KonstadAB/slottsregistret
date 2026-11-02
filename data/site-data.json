@@ -3285,7 +3285,22 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-lacko-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "View360 Sweden AB"
+     ],
+     "year": 2022,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF!2m2!1d58.67515683330208!2d13.21950266577586!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Tillfällig på Daniels begäran 2 nov; byts mot VR Medias egen när den är klar."
+    }
+   ]
   },
   {
    "id": "naas-slott",
@@ -9870,6 +9885,162 @@
     "fastningar"
    ],
    "tours": []
+  },
+  {
+   "id": "toftaholm",
+   "slug": "toftaholm",
+   "name": "Toftaholm herrgård",
+   "type": "Herrgård",
+   "kommun": "Ljungby",
+   "lan": "Kronoberg",
+   "lanSlug": "kronoberg",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": "Q10678513",
+   "lat": 57.028148,
+   "lon": 14.013403,
+   "inception": null,
+   "website": "https://www.toftaholm.se/",
+   "image": {
+    "file": "Toftaholm hotell.jpg",
+    "path": "e/e8/Toftaholm_hotell.jpg",
+    "w": 1560,
+    "h": 1113,
+    "artist": "Udo Schröter",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toftaholm_hotell.jpg"
+   },
+   "wiki": {
+    "title": "Toftaholm",
+    "text": "Toftaholm är en herrgård i Dörarps socken i Ljungby kommun i Småland. Den nuvarande huvudbyggnaden är i trä, och uppfördes 1871. Byggnaden flankeras av ett par äldre flyglar. Herrgården är numera konferensanläggning med restaurang och hotellverksamhet.\nToftaholm ligger vid östra stranden av sjön Vidöstern och omkring herrgården ligger Toftaholms naturreservat. En runsten, Smålands runinskrifter 31, står på en äng mellan vägen och herrgården. I Toftaholm finns även en campingplats och ett stugområde. Motorvägen på E4 går förbi Toftaholm."
+   },
+   "text": null,
+   "alts": [
+    "Dörarp 34:1",
+    "Stenhusholmen",
+    "Toftaholm"
+   ],
+   "offers": [
+    "bo-pa-slott",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "vrmedia-toftaholm",
+     "kind": "walk",
+     "provider": "StepInside",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+     "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+     "source": "vrmedia",
+     "checked": "2026-11-02",
+     "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+    }
+   ]
+  },
+  {
+   "id": "soderfors-herrgard",
+   "slug": "soderfors-herrgard",
+   "name": "Söderfors herrgård",
+   "type": "Herrgård",
+   "kommun": "Tierp",
+   "lan": "Uppsala",
+   "lanSlug": "uppsala",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": "Q10688516",
+   "lat": 60.383427,
+   "lon": 17.2388221,
+   "inception": null,
+   "website": "https://www.soderforsherrgard.se/",
+   "image": {
+    "file": "Bergslagssafari Uppland 2012 13 Söderfors herrgård 1.jpg",
+    "path": "4/4f/Bergslagssafari_Uppland_2012_13_Söderfors_herrgård_1.jpg",
+    "w": 5184,
+    "h": 3456,
+    "artist": "Calle Eklund/V-wolf",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bergslagssafari_Uppland_2012_13_S%C3%B6derfors_herrg%C3%A5rd_1.jpg"
+   },
+   "wiki": {
+    "title": "Söderfors herrgård",
+    "text": "Söderfors herrgård är en herrgård i Söderfors, Söderfors socken, Tierps kommun, Uppsala län (Uppland). Huvudbyggnaden är en timrad tvåvåningsbyggnad i karolinsk stil med spåntäckt säteritak och stod färdig 1700. 1749-1756 byggdes den om under ledning av arkitekten Carl Hårleman. Byggnaden fick då panelade fasader, som målades med grå oljefärg, i vilken man slog in fin sand, varefter huset målades en andra gång. Vidare ersattes säteritaket med ett brutet tak och byggnaden fick ett torn, vilket dock revs på 1800-talet.\n\nI samband med ombyggnationerna i mitten av 1700-talet uppfördes också två flygelbyggnader (färdiga före år 1753), som i det närmaste fick kubisk form med spetsigt tak. De byggdes i två våningar och fick samma fasader som huvudbyggnaden. I östra flygeln fanns brukskontoret, medan den andra blev bostad åt bruksbokhållaren."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "gm-soderfors-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk!2m2!1d60.38259718173753!2d17.237862484547303!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "VR Medias tur på Google Maps (källarbaren). VR Medias egen version hittades inte på S3; byt när länken finns."
+    }
+   ]
+  },
+  {
+   "id": "fredensborgs-herrgard",
+   "slug": "fredensborgs-herrgard",
+   "name": "Fredensborgs herrgård",
+   "type": "Herrgård",
+   "kommun": "Vimmerby",
+   "lan": "Kalmar",
+   "lanSlug": "kalmar",
+   "use": "Hotell, restaurang",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": null,
+   "lat": 57.5762232,
+   "lon": 15.8056804,
+   "inception": null,
+   "website": "http://www.fredensborg.com/",
+   "image": null,
+   "wiki": null,
+   "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "vrmedia-fredensborgs-herrgard",
+     "kind": "walk",
+     "provider": "StepInside",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+     "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+     "source": "vrmedia",
+     "checked": "2026-11-02",
+     "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+    }
+   ]
   }
  ],
  "counties": [
@@ -9898,15 +10069,15 @@
    "name": "Kronoberg",
    "full": "Kronobergs län",
    "slug": "kronoberg",
-   "total": 4,
-   "withTour": 1
+   "total": 5,
+   "withTour": 2
   },
   {
    "name": "Kalmar",
    "full": "Kalmar län",
    "slug": "kalmar",
-   "total": 9,
-   "withTour": 2
+   "total": 10,
+   "withTour": 3
   },
   {
    "name": "Jönköping",
@@ -9927,7 +10098,7 @@
    "full": "Västra Götalands län",
    "slug": "vastra-gotaland",
    "total": 22,
-   "withTour": 3
+   "withTour": 4
   },
   {
    "name": "Östergötland",
@@ -9954,8 +10125,8 @@
    "name": "Uppsala",
    "full": "Uppsala län",
    "slug": "uppsala",
-   "total": 14,
-   "withTour": 2
+   "total": 15,
+   "withTour": 3
   },
   {
    "name": "Västmanland",
@@ -10014,7 +10185,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 36
+   "total": 39
   },
   {
    "slug": "spa",
@@ -10022,7 +10193,7 @@
    "short": "Spa",
    "kind": "offer",
    "intro": "Slott och slottshotell med spa, bad eller behandlingar.",
-   "total": 5
+   "total": 7
   },
   {
    "slug": "konferens",
@@ -10030,7 +10201,7 @@
    "short": "Konferens",
    "kind": "offer",
    "intro": "Slott för möten, konferenser och kickoffer.",
-   "total": 60
+   "total": 63
   },
   {
    "slug": "brollop-och-fest",
@@ -10038,7 +10209,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 47
+   "total": 49
   },
   {
    "slug": "restaurang-och-kafe",
@@ -10046,7 +10217,7 @@
    "short": "Mat",
    "kind": "offer",
    "intro": "Slott med restaurang, kafé eller servering.",
-   "total": 55
+   "total": 58
   },
   {
    "slug": "besok",
@@ -10090,8 +10261,8 @@
   }
  ],
  "stats": {
-  "total": 250,
-  "withTour": 34,
-  "located": 250
+  "total": 253,
+  "withTour": 38,
+  "located": 253
  }
 }

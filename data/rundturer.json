@@ -345,6 +345,20 @@
  "lacko-slott": [
   {
    "id": "gm-lacko-slott",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "View360 Sweden AB"
+   ],
+   "year": 2022,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF!2m2!1d58.67515683330208!2d13.21950266577586!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "Tillfällig på Daniels begäran 2 nov; byts mot VR Medias egen när den är klar."
+  },
+  {
+   "id": "gm-lacko-slott",
    "kind": "look",
    "provider": "Google Maps",
    "credit": [
@@ -779,6 +793,54 @@
    "source": "streetview",
    "checked": "2026-11-02",
    "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+  }
+ ],
+ "toftaholm": [
+  {
+   "id": "vrmedia-toftaholm",
+   "kind": "walk",
+   "provider": "StepInside",
+   "credit": [
+    "VR Media International AB"
+   ],
+   "year": 2026,
+   "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+   "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+   "source": "vrmedia",
+   "checked": "2026-11-02",
+   "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+  }
+ ],
+ "fredensborgs-herrgard": [
+  {
+   "id": "vrmedia-fredensborgs-herrgard",
+   "kind": "walk",
+   "provider": "StepInside",
+   "credit": [
+    "VR Media International AB"
+   ],
+   "year": 2026,
+   "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+   "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+   "source": "vrmedia",
+   "checked": "2026-11-02",
+   "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+  }
+ ],
+ "soderfors-herrgard": [
+  {
+   "id": "gm-soderfors-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "VR Media International AB"
+   ],
+   "year": 2026,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk!2m2!1d60.38259718173753!2d17.237862484547303!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk",
+   "source": "streetview",
+   "checked": "2026-11-02",
+   "note": "VR Medias tur på Google Maps (källarbaren). VR Medias egen version hittades inte på S3; byt när länken finns."
   }
  ]
 }

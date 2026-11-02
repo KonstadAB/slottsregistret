@@ -2770,5 +2770,38 @@
   "open": "Ja",
   "prio": 2,
   "note": null
+ },
+ {
+  "id": "toftaholm",
+  "name": "Toftaholm herrgård",
+  "type": "Herrgård",
+  "kommun": "Ljungby",
+  "lan": "Kronoberg",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 2,
+  "note": null
+ },
+ {
+  "id": "soderfors-herrgard",
+  "name": "Söderfors herrgård",
+  "type": "Herrgård",
+  "kommun": "Tierp",
+  "lan": "Uppsala",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 2,
+  "note": null
+ },
+ {
+  "id": "fredensborgs-herrgard",
+  "name": "Fredensborgs herrgård",
+  "type": "Herrgård",
+  "kommun": "Vimmerby",
+  "lan": "Kalmar",
+  "use": "Hotell, restaurang",
+  "open": "Delvis",
+  "prio": 2,
+  "note": null
  }
 ]

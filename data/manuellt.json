@@ -473,5 +473,24 @@
  },
  "stora-hastnas": {
   "image": "Sthästnäsexteriör.JPG"
+ },
+ "toftaholm": {
+  "lat": 57.028148,
+  "lon": 14.013403,
+  "website": "https://www.toftaholm.se/",
+  "qid": "Q10678513"
+ },
+ "soderfors-herrgard": {
+  "lat": 60.383427,
+  "lon": 17.2388221,
+  "website": "https://www.soderforsherrgard.se/",
+  "qid": "Q10688516"
+ },
+ "fredensborgs-herrgard": {
+  "lat": 57.5762232,
+  "lon": 15.8056804,
+  "website": "http://www.fredensborg.com/",
+  "qid": null,
+  "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana."
  }
 }
