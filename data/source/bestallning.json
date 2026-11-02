@@ -1,40 +1,40 @@
 {
 "jsonUrls": [
 {
-"url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen"
+"url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/rikssalen/"
+"url": "https://vr.kungligaslotten.se/rikssalen/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum"
+"url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/vasa-to-bernadotte"
+"url": "https://vr.kungligaslotten.se/vasa-to-bernadotte/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/ulriksdal"
+"url": "https://vr.kungligaslotten.se/ulriksdal/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare"
+"url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare/indexdata/index_vr.xml"
 },
 {
-"url": "https://vr.kungligaslotten.se/teatern_gripsholmsslott/"
+"url": "https://vr.kungligaslotten.se/teatern_gripsholmsslott/indexdata/index_vr.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/hertigkarlskammare_gripsholmsslott/indexdata/index_vr.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/konseljrummet_gripsholmsslott/indexdata/index_vr.xml"
+},
+{
+"url": "https://www.almnas.com/360/Almnasdata/Almnas_vr.xml"
+},
+{
+"url": "https://www.almnas.com/360/Almnasdata/Almnas.xml"
 },
 {
 "url": "https://permstade.se/360_slott/mauritzberg.html"
-},
-{
-"url": "https://permstade.se/360_slott/mauritzberg.xml"
-},
-{
-"url": "https://www.almnas.com/360/Almnas.html"
-},
-{
-"url": "https://www.almnas.com/360/Almnas.xml"
-},
-{
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e2!2spToDyqalmPY8_VuVs4rYEg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 }
 ]
 }
