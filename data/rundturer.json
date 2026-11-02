@@ -29,17 +29,17 @@
   },
   {
    "id": "ks-hedvig",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Kungliga slotten",
    "title": "Hedvig Eleonoras paradsängkammare",
    "embed": null,
    "url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare",
    "source": "kungligaslotten.se",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   },
   {
    "id": "gm-drottningholms-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Magnús Sveinsson"
@@ -48,7 +48,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRsOW5HeFFF!2m2!1d59.32151822082885!2d17.88544380968146!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsOW5HeFFF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "granso-slott": [
@@ -144,7 +144,7 @@
  "malsakers-slott": [
   {
    "id": "gm-malsakers-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Hans Hallgren"
@@ -153,10 +153,24 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ2F3cXVLLUFF!2m2!1d59.38430300599786!2d17.30681306558065!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2F3cXVLLUFF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "mauritzbergs-slott": [
+  {
+   "id": "permstade-mauritzberg",
+   "kind": "walk",
+   "provider": "Mauritzbergs slott",
+   "credit": [
+    "Permstade"
+   ],
+   "title": "Slottet och parken",
+   "embed": "https://permstade.se/360_slott/mauritzberg.html",
+   "url": "https://permstade.se/360_slott/mauritzberg.html",
+   "source": "slottets webbplats",
+   "checked": "2026-11-02",
+   "note": "Panotour med över 25 sammanlänkade bilder, länkad från slottets webbplats."
+  },
   {
    "id": "gm-mauritzbergs-slott",
    "kind": "walk",
@@ -203,8 +217,23 @@
  ],
  "skoklosters-slott": [
   {
-   "id": "gm-skoklosters-slott",
+   "id": "gac-skoklosters-slott",
    "kind": "walk",
+   "provider": "Google Arts & Culture",
+   "credit": [
+    "Skoklosters slott",
+    "Google"
+   ],
+   "title": "Slottets våningar",
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1spToDyqalmPY8_VuVs4rYEg!2m2!1d59.70304226630398!2d17.6215755006689!3f205.93!4f0!5f0.7820865974627469",
+   "url": "https://artsandculture.google.com/streetview/skokloster-castle/kwFkqrQRtMYEEw?sv_pid=pToDyqalmPY8_VuVs4rYEg",
+   "source": "slottets webbplats",
+   "checked": "2026-11-02",
+   "note": "Googles inomhusbilder gjorda med museet, länkade från skoklostersslott.se (Digitalt när det passar dig). Sammanhängande, flera våningar."
+  },
+  {
+   "id": "gm-skoklosters-slott",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Ouali Béchir"
@@ -213,7 +242,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDRzY3lIV2c.!2m2!1d59.70263482652148!2d17.62164716231423!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRzY3lIV2c.",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "stockholms-slott": [
@@ -284,7 +313,7 @@
  "vadstena-slott": [
   {
    "id": "gm-vadstena-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Andreas Tangsjö"
@@ -293,7 +322,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ3VpWW4xZEE.!2m2!1d58.44627759545326!2d14.88333739136743!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VpWW4xZEE.",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "svartsjo-slott": [
@@ -314,7 +343,7 @@
  "venngarns-slott": [
   {
    "id": "gm-venngarns-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Ouali Béchir"
@@ -323,14 +352,14 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRzZFRlbEFF!2m2!1d59.64863509143022!2d17.71964955237093!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzZFRlbEFF",
    "source": "streetview",
-   "checked": "2026-10-02",
+   "checked": "2026-11-02",
    "title": "Slottskapellet"
   }
  ],
  "linkopings-slott": [
   {
    "id": "gm-linkopings-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Fredric Sommer"
@@ -339,7 +368,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF!2m2!1d58.41044073182184!2d15.61546260610252!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "lacko-slott": [
@@ -391,7 +420,7 @@
  "gavle-slott": [
   {
    "id": "gm-gavle-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Daniel Åkerman"
@@ -400,7 +429,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ3B5dDJSN1FF!2m2!1d60.6716027653727!2d17.14292213009134!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3B5dDJSN1FF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "carlstens-fastning": [
@@ -437,7 +466,7 @@
  "vaxholms-kastell": [
   {
    "id": "gm-vaxholms-kastell",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Henrik S"
@@ -446,13 +475,13 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDQ5N1AzTFE.!2m2!1d59.40337901322727!2d18.35992044000478!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQ5N1AzTFE.",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "borgholms-slottsruin": [
   {
    "id": "gm-borgholms-slottsruin",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Tomasz Sudoł"
@@ -461,13 +490,13 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVzXy1QekFF!2m2!1d56.87026369388941!2d16.64401424009274!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVzXy1QekFF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "visingsborgs-slottsruin": [
   {
    "id": "gm-visingsborgs-slottsruin",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Andreas Tangsjö"
@@ -476,7 +505,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDR4N3I4M2dF!2m2!1d58.03514738174579!2d14.35221163946738!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDR4N3I4M2dF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-11-02"
   }
  ],
  "manstorps-gavlar": [
@@ -542,7 +571,7 @@
  "bosjokloster": [
   {
    "id": "gm-bosjokloster",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "vdBaan-Media"
@@ -551,7 +580,7 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRHVySVh2ZGc.!2m2!1d55.8774482452642!2d13.51828084350174!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRHVySVh2ZGc.",
    "source": "streetview",
-   "checked": "2026-10-02",
+   "checked": "2026-11-02",
    "title": "Klosterkyrkan"
   }
  ],
@@ -634,12 +663,12 @@
  "almnas-slott": [
   {
    "id": "almnas-panotour",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Almnäs",
    "credit": [],
    "url": "https://www.almnas.com/360/Almnas.html",
    "source": "slottets webbplats",
-   "checked": "2026-10-03",
+   "checked": "2026-11-02",
    "note": "Panotour med flygbild och flera punkter runt slottet (länkad från almnas.com). Öppnas i nytt fönster; inbäddning ej provad."
   }
  ],
