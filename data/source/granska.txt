@@ -1,2 +1,5 @@
-/
+/slott/stora-wasby-slott/
+/slott/salnecke-slott/
+/slott/dalaborg/
+/slott/stora-hastnas/
 /slott/svaneholms-slott/

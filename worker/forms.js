@@ -10,6 +10,11 @@ const FORMS = {
     required: ['slott', 'namn', 'epost'],
     fields: ['slott', 'vill', 'lank', 'namn', 'roll', 'epost', 'telefon', 'meddelande'],
   },
+  forfragan: {
+    subject: 'Förfrågan',
+    required: ['slott', 'vad', 'namn', 'epost'],
+    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande'],
+  },
   tips: {
     subject: 'Tips från besökare',
     required: ['vad'],
@@ -17,7 +22,7 @@ const FORMS = {
   },
 };
 const LABELS = {
-  slott: 'Slott', vill: 'Gäller', vad: 'Gäller', lank: 'Länk', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
+  slott: 'Slott', vill: 'Gäller', vad: 'Gäller', lank: 'Länk', datum: 'När', gaster: 'Gäster', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
 };
 // Tacksidorna som formulären får skicka vidare till (svenska och de andra språken).
 const THANKS = /^\/tack\/$/;

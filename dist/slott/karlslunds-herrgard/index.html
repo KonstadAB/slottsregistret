@@ -20,7 +20,7 @@
 <link rel="preload" href="/assets/fonts/fraunces-latin.woff2?v=7f9d191d99" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/instrument-sans-latin.woff2?v=2ee17598a9" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="/assets/style.css?v=a2e99fdffa">
+<link rel="stylesheet" href="/assets/style.css?v=0bd939d5cd">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start","item":"https://slottsregistret.se/"},{"@type":"ListItem","position":2,"name":"Örebro län","item":"https://slottsregistret.se/lan/orebro/"},{"@type":"ListItem","position":3,"name":"Karlslunds herrgård","item":"https://slottsregistret.se/slott/karlslunds-herrgard/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":["LandmarksOrHistoricalBuildings","TouristAttraction"],"name":"Karlslunds herrgård","description":"Karlslunds herrgård – herrgård i Örebro kommun, Örebro län. Här kan du gifta dig eller ha fest, ha konferens och äta och fika.","url":"https://slottsregistret.se/slott/karlslunds-herrgard/","image":"https://slottsregistret.se/img/thumb/e/e6/Karlslunds_herrg%C3%A5rd.jpg/1280px-Karlslunds_herrg%C3%A5rd.jpg","geo":{"@type":"GeoCoordinates","latitude":59.26916666666666,"longitude":15.148888888888889},"address":{"@type":"PostalAddress","addressLocality":"Örebro","addressRegion":"Örebro län","addressCountry":"SE"},"sameAs":["https://karlslund.com/","https://www.wikidata.org/wiki/Q10543905","https://sv.wikipedia.org/wiki/Karlslunds_herrg%C3%A5rd"]}</script>
 </head>
@@ -79,6 +79,34 @@
       <link rel="stylesheet" href="/assets/vendor/leaflet.css?v=a783710282"><div class="mini-map" id="minikarta" data-lat="59.26916666666666" data-lon="15.148888888888889" data-name="Karlslunds herrgård" role="img" aria-label="Karta över läget för Karlslunds herrgård"></div>
       <p class="small">Stämmer något inte? <a href="/tipsa/?slott=karlslunds-herrgard">Tipsa oss</a> · Är det ditt slott? <a href="/for-slott/?slott=karlslunds-herrgard">Uppdatera uppgifterna</a></p>
     </aside>
+  </div>
+</section>
+<section class="band band-dark inquiry" id="forfragan">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker kicker-gold"><span>Förfrågan</span></p>
+      <h2>Planerar du bröllop, fest eller konferens på Karlslunds herrgård?</h2>
+      <p>Berätta vad du har i tankarna, så hör vi av oss. Det kostar ingenting och du binder dig inte till något.</p>
+      <ul class="inquiry-points"><li>Svar inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Dina uppgifter stannar hos oss och slottet</li></ul>
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
+<input type="hidden" name="formular" value="forfragan"><input type="hidden" name="tack" value="/tack/">
+<div class="trap" aria-hidden="true"><label>Lämna tomt <input name="webbplats" tabindex="-1" autocomplete="off"></label></div>
+<input type="hidden" name="slott" value="karlslunds-herrgard">
+<fieldset><legend>Det gäller</legend>
+  <label><input type="radio" name="vad" value="Bröllop" required> Bröllop</label>
+  <label><input type="radio" name="vad" value="Fest"> Fest</label>
+  <label><input type="radio" name="vad" value="Konferens"> Konferens</label>
+</fieldset>
+<label for="datum">När ungefär? (frivilligt)</label><input id="datum" name="datum" placeholder="t.ex. juni 2027">
+<label for="gaster">Hur många gäster? (frivilligt)</label><input id="gaster" name="gaster" inputmode="numeric" placeholder="t.ex. 80">
+<label for="namn">Ditt namn</label><input id="namn" name="namn" required autocomplete="name">
+<label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
+<label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
+<label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
+<button class="btn btn-gold" type="submit">Skicka förfrågan</button>
+<p class="small">Vi sparar uppgifterna i högst två år och delar dem inte med någon annan än Karlslunds herrgård. Se <a href="/integritet/">integritet</a>.</p>
+</form>
   </div>
 </section>
 <section class="band band-paper2">
@@ -190,6 +218,7 @@
 <script src="/assets/app.js?v=3a9611b67b" defer></script>
 <script src="/assets/vendor/leaflet.js?v=db49d009c8" defer></script>
 <script src="/assets/castle.js?v=4f284eca15" defer></script>
+<script src="/assets/form.js?v=bf722c906e" defer></script>
 
 </body>
 </html>

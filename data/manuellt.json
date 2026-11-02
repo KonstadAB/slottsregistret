@@ -85,7 +85,8 @@
   "website": "https://www.storawasby.se/",
   "notOffers": [
    "bo-pa-slott"
-  ]
+  ],
+  "image": "DJI 0227SVS 05.jpg"
  },
  "gysinge-herrgard": {
   "qid": "Q129324485",
@@ -254,7 +255,8 @@
   "text": "Haga slott ligger vid Svinnegarnsviken i Mälaren, några kilometer söder om Enköping. Slottet är i dag hotell med konferens, spa, restaurang och bröllop."
  },
  "salnecke-slott": {
-  "website": "https://www.salneckeslott.se/"
+  "website": "https://www.salneckeslott.se/",
+  "image": "0284Salnecke slott.jpg"
  },
  "lovstabruk": {
   "website": "https://lovstabruk.com/",
@@ -465,5 +467,11 @@
  },
  "vasteras-slott": {
   "image": "Västerås slott September 2014 01.jpg"
+ },
+ "dalaborg": {
+  "image": "Dalaborg2.jpg"
+ },
+ "stora-hastnas": {
+  "image": "Sthästnäsexteriör.JPG"
  }
 }
