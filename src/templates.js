@@ -111,7 +111,7 @@ function footer(S) {
       </ul>
     </div>
   </div>
-  <div class="wrap fine">Texter från Wikipedia (CC BY-SA) och bilder från Wikimedia Commons visas med upphov och licens på varje sida. Kartdata © OpenStreetMap.</div>
+  <div class="wrap fine">Texterna om slotten är våra egna, med källorna angivna under varje text. Bilder från Wikimedia Commons visas med upphov och licens. Kartdata © OpenStreetMap.</div>
 </footer>`;
 }
 
@@ -299,9 +299,10 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 // Vår egen text om slottet (data/texter.json, skriven från källorna som listas under texten).
 function articleHtml(c) {
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
-  const src = (c.articleSources || []).slice(0, 6);
+  const label = u => /wikipedia\.org/.test(u) ? 'Wikipedia' + (/\/\/en\./.test(u) ? ' (engelska)' : '') : host(u);
+  const src = [...new Map((c.articleSources || []).filter(u => /^https?:\/\//.test(u)).map(u => [label(u), u])).entries()].slice(0, 6);
   return c.article.map(sec => `${sec.h ? `<h3>${esc(sec.h)}</h3>` : ''}${sec.p.map(p => `<p>${esc(p)}</p>`).join('')}`).join('') +
-    (src.length ? `<p class="source">Källor: ${src.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(/wikipedia\.org/.test(u) ? 'Wikipedia' : host(u))}</a>`).join(', ')}.</p>` : '');
+    (src.length ? `<p class="source">Källor: ${src.map(([l, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)}</a>`).join(', ')}.</p>` : '');
 }
 // Det slottet själv har skrivit (via kontot, granskat innan det syns).
 function profileHtml(c) {
@@ -561,7 +562,7 @@ function about(S) {
 <p class="lead">Slottsregistret samlar Sveriges slott, borgar, fästningar och slottsmiljöer på ett ställe – med vad du kan göra där, och vägen in.</p>
 <p>Registret har i dag ${nf(st.total)} slott, och ${nf(st.withTour)} av dem går att besöka digitalt med en virtuell rundtur. Rundturerna gör slotten tillgängliga för den som har långt att resa, inte kan ta sig dit, eller vill se salarna innan ett bröllop, en konferens eller en vistelse.</p>
 <h2>Varifrån kommer uppgifterna?</h2>
-<p>Grunduppgifterna – läge, byggår, bilder och texter – kommer från öppna källor: Wikidata, Wikipedia och Wikimedia Commons. Vad slotten används till och vad du kan göra där har vi sammanställt från slottens egna webbplatser. Rundturerna kommer från slotten själva och från fotografer som har publicerat dem. Upphov och licens står vid varje bild och text.</p>
+<p>Grunduppgifterna – läge, byggår och bilder – kommer från öppna källor: Wikidata och Wikimedia Commons. Texterna om slotten skriver vi själva, utifrån slottens egna webbplatser, Wikipedia, länsstyrelserna och andra källor som vi anger under varje text. Vad du kan göra på varje slott har vi kontrollerat slott för slott på slottens egna webbplatser. Rundturerna kommer från slotten själva och från fotografer som har publicerat dem. Upphov och licens står vid varje bild och text.</p>
 <p>Öppettider och priser ändras. Kontrollera alltid hos slottet innan du åker.</p>
 <h2>Vem står bakom?</h2>
 <p>Slottsregistret drivs av ${esc(S.config.company)} och är en del av samma familj som <a href="https://svenskakyrkor.se">Svenskakyrkor.se</a>.</p>
