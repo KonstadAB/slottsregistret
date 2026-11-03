@@ -1,1 +1,1 @@
-api GET /accounts/{account}/d1/database ;; api GET /accounts/{account}/r2/buckets ;; api GET /zones/{zone}/email/sending/subdomains ;; api GET /accounts/{account}/email/sending/domains ;; api GET /user/tokens/verify
+api GET /accounts/{account}/subscriptions ;; api GET /accounts/{account}/workers/account-settings ;; api GET /user/tokens/verify
