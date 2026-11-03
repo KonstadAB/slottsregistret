@@ -1,25 +1,133 @@
-# 2026-11-03T10:57:30Z api GET /accounts/{account}/subscriptions ;; api GET /accounts/{account}/workers/account-settings ;; api GET /user/tokens/verify
->> api GET /accounts/{account}/subscriptions
-!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/subscriptions -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/accounts/subresources/subscriptions/methods/get"}]
+# 2026-11-03T12:07:57Z api GET /accounts/{account}/d1/database ;; api POST /accounts/{account}/d1/database {"name":"slottsregistret","primary_location_hint":"weur"} ;; api GET /zones/{zone}/dns_records?name.contains=cf-bounce
+>> api GET /accounts/{account}/d1/database
+[
+ {
+  "uuid": "b061e7da-e842-47e3-8b74-2bcfaf8cfd86",
+  "name": "brf",
+  "created_at": "2026-11-02T18:27:51.752Z",
+  "version": "production",
+  "num_tables": 0,
+  "file_size": 5214208,
+  "jurisdiction": "eu"
+ },
+ {
+  "uuid": "64563344-9982-481c-bd20-c636ed7df430",
+  "name": "hq-db",
+  "created_at": "2026-10-24T18:34:16.072Z",
+  "version": "production",
+  "num_tables": 0,
+  "file_size": 6877184,
+  "jurisdiction": null
+ }
+]
+>> api POST /accounts/{account}/d1/database {"name":"slottsregistret","primary_location_hint":"weur"}
 {
- "success": false,
- "errors": [
-  {
-   "code": 10000,
-   "message": "Authentication error",
-   "documentation_url": "https://developers.cloudflare.com/api/resources/accounts/subresources/subscriptions/methods/get"
-  }
- ],
- "messages": [],
- "result": null
+ "uuid": "9c9bc08f-b808-44e7-b8a9-975232cdef40",
+ "name": "slottsregistret",
+ "created_at": "2026-11-03T12:07:58.312Z",
+ "version": "production",
+ "file_size": 8192,
+ "num_tables": 0,
+ "primary_location_hint": "WEUR",
+ "created_in_region": "WEUR",
+ "jurisdiction": null,
+ "read_replication": {
+  "mode": "disabled"
+ }
 }
->> api GET /accounts/{account}/workers/account-settings
-{
- "default_usage_model": "standard",
- "green_compute": false
-}
->> api GET /user/tokens/verify
-{
- "id": "538d64f20c8c2ab4c412a518cc4dba17",
- "status": "active"
-}
+>> api GET /zones/{zone}/dns_records?name.contains=cf-bounce
+[
+ {
+  "id": "2948cc240581ba777b8cf7f2205cbc28",
+  "name": "cf-bounce.slottsregistret.se",
+  "type": "MX",
+  "content": "route3.mx.cloudflare.net",
+  "priority": 23,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-11-03T12:04:42.706688Z",
+  "modified_on": "2026-11-03T12:04:42.706688Z"
+ },
+ {
+  "id": "efd488a6ed69c06627b15e353c9ca4bf",
+  "name": "cf-bounce.slottsregistret.se",
+  "type": "MX",
+  "content": "route2.mx.cloudflare.net",
+  "priority": 26,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-11-03T12:04:42.698902Z",
+  "modified_on": "2026-11-03T12:04:42.698902Z"
+ },
+ {
+  "id": "5e6d5d4aff4a0562d25fff37c3cf1ce2",
+  "name": "cf-bounce.slottsregistret.se",
+  "type": "MX",
+  "content": "route1.mx.cloudflare.net",
+  "priority": 35,
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-11-03T12:04:42.68866Z",
+  "modified_on": "2026-11-03T12:04:42.68866Z"
+ },
+ {
+  "id": "1df7cdd93c81fb8f39f18ca4cdd5cd37",
+  "name": "cf-bounce._domainkey.slottsregistret.se",
+  "type": "TXT",
+  "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-11-03T12:04:42.723233Z",
+  "modified_on": "2026-11-03T12:04:42.723233Z"
+ },
+ {
+  "id": "753db24dcaec3decae316072707d25cc",
+  "name": "cf-bounce.slottsregistret.se",
+  "type": "TXT",
+  "content": "\"v=spf1 include:_spf.mx.cloudflare.net ~all\"",
+  "proxiable": false,
+  "proxied": false,
+  "ttl": 1,
+  "settings": {},
+  "meta": {
+   "email_routing": true,
+   "read_only": true
+  },
+  "comment": null,
+  "tags": [],
+  "created_on": "2026-11-03T12:04:42.714839Z",
+  "modified_on": "2026-11-03T12:04:42.714839Z"
+ }
+]
