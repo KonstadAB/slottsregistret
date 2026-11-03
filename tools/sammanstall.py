@@ -24,6 +24,8 @@ MATCH = load('data/source/matchning.json', {})
 MAN = load('data/manuellt.json', {})
 # Granskade slott för slott (webbplatsen, besöksmål, kommuner, nyheter) 3 nov 2026. Erbjudandena här ersätter gissningarna nedan.
 REV = load('data/erbjudanden.json', {})
+# Våra egna texter om slotten (skrivna från källorna i 'sources', 3 nov 2026). Visas i stället för Wikipedias inledning.
+TEXTS = load('data/texter.json', {})
 OFFER_SLUGS = {'bo-pa-slott', 'spa', 'konferens', 'brollop-och-fest', 'restaurang-och-kafe', 'besok', 'park-och-tradgard'}
 # Bara rundturer där man kan röra sig mellan platser räknas (Daniels regel 2 okt): kind 'walk'.
 # Enstaka 360-bilder ('look', 'view') ligger kvar i rundturer.json men visas inte.
@@ -129,6 +131,8 @@ for c in S:
         'alts': m['alts'] if 'alts' in m else sorted({a for a in (e.get('alts') or []) + [((wiki_intro(m.get('article', e.get('article'))) or {}).get('title') or '')] if a and a != c['name']})[:6],
         'offers': sorted(set(r['offers']) | (offers_for(c, None) - OFFER_SLUGS)) if r else sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
         # Slottets egna källor först, Google Maps sist (Daniel 3 okt); inom varje grupp de som går att visa på sidan.
+        'article': (TEXTS.get(c['id']) or {}).get('sections'),
+        'articleSources': (TEXTS.get(c['id']) or {}).get('sources'),
         'tours': sorted(TOURS.get(c['id'], []), key=lambda t: (t.get('source') == 'streetview', not t.get('embed'))),
     }
     if lat is None:

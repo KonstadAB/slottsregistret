@@ -458,3 +458,24 @@ body .leaflet-tooltip { font: 600 .85rem var(--sans); color: var(--ink); border:
 .inquiry-points { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 8px; color: #DCE3DE; }
 .inquiry-points li::before { content: ''; display: inline-block; width: 18px; height: 1px; background: var(--gold-2); vertical-align: middle; margin-right: 10px; }
 .inquiry .form { color: var(--ink); }
+
+/* Egna texter och det slottet själv skriver */
+.c-text h3 { margin: 1.6em 0 .4em; font: 600 1.25rem/1.3 var(--serif); }
+.c-text .source a { color: inherit; }
+.from-castle { margin: 2em 0; padding: 18px 22px; border-left: 3px solid var(--gold); background: var(--paper-2, #F4EEE2); border-radius: 0 12px 12px 0; }
+.from-castle h3 { margin-top: 0; }
+
+/* Konton för slotten */
+.account { max-width: 760px; padding-bottom: 64px; }
+.account h1 { margin: .2em 0 .4em; }
+.account-form { margin: 18px 0; }
+.account-castle { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); }
+.account-castle h2 a { color: inherit; }
+.account fieldset label { display: block; margin: 4px 0; }
+.note { margin: 14px 0; padding: 10px 14px; border-radius: 10px; background: #EEF3EF; border: 1px solid #C9D8CE; font-size: .95rem; }
+.note-warn { background: #FBF1E4; border-color: #E5C9A0; color: #6B4510; }
+.linkbtn { background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; font: inherit; }
+.review { margin: 18px 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; }
+.review h3 { margin-top: 0; }
+.review .facts dd { font: 400 1rem/1.5 var(--sans); white-space: pre-wrap; }
+.review-note { margin-left: 8px; min-width: 260px; }

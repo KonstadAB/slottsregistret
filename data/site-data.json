@@ -42,6 +42,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "malmo-museer-kungsvaningen",
@@ -108,6 +110,8 @@
     "borgar-och-ruiner",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -151,6 +155,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -189,6 +195,8 @@
     "borgar-och-ruiner",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -232,6 +240,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -272,6 +282,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -313,6 +325,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gs360-backaskog",
@@ -365,6 +379,8 @@
     "besok",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -408,6 +424,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "vrmedia-svaneholms-slott",
@@ -461,6 +479,8 @@
     "konferens",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -500,6 +520,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-trollenas-slott",
@@ -556,6 +578,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -596,6 +620,8 @@
     "besok",
     "fastningar"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -637,6 +663,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -680,6 +708,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -714,6 +744,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-kronovalls-slott",
@@ -762,6 +794,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -801,6 +835,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -835,6 +871,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -869,6 +907,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -903,6 +943,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -940,6 +982,8 @@
     "Trolle-Ljungby"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -977,6 +1021,8 @@
     "Bjärsjöholms gamla slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1011,6 +1057,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1045,6 +1093,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1081,6 +1131,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1117,6 +1169,8 @@
     "Vrams Gunnarstorp 2:1"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1151,6 +1205,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1187,6 +1243,8 @@
     "Skabersjö"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1221,6 +1279,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1259,6 +1319,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1293,6 +1355,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1329,6 +1393,8 @@
     "Skarhult 13:36; f.d. 13:30"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1366,6 +1432,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1402,6 +1470,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1436,6 +1506,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1476,6 +1548,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1515,6 +1589,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1555,6 +1631,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1592,6 +1670,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1629,6 +1709,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1668,6 +1750,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1705,6 +1789,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1744,6 +1830,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-lillo-borgruin",
@@ -1794,6 +1882,8 @@
     "Rössjöholms gods"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1828,6 +1918,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1864,6 +1956,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1898,6 +1992,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1936,6 +2032,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -1974,6 +2072,8 @@
    "offers": [
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2008,6 +2108,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2042,6 +2144,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2076,6 +2180,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2115,6 +2221,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-bjarsjolagards-slott",
@@ -2164,6 +2272,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2200,6 +2310,8 @@
    "offers": [
     "brollop-och-fest"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2234,6 +2346,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2268,6 +2382,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2304,6 +2420,8 @@
     "Högestads gods"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2338,6 +2456,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2372,6 +2492,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2409,6 +2531,8 @@
     "Sövdeborg slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2443,6 +2567,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2480,6 +2606,8 @@
     "Viderups gods"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2514,6 +2642,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2548,6 +2678,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2582,6 +2714,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2616,6 +2750,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2650,6 +2786,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2684,6 +2822,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2718,6 +2858,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2752,6 +2894,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2786,6 +2930,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2822,6 +2968,8 @@
    "offers": [
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2859,6 +3007,8 @@
     "besok",
     "fastningar"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2899,6 +3049,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2940,6 +3092,8 @@
     "fastningar",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -2983,6 +3137,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3024,6 +3180,8 @@
     "fastningar",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3060,6 +3218,8 @@
     "Slottet 1"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3096,6 +3256,8 @@
     "Skottorp 1:39"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3137,6 +3299,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3171,6 +3335,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3209,6 +3375,8 @@
    "offers": [
     "bo-pa-slott"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3245,6 +3413,8 @@
     "Sperlingsholm"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3287,6 +3457,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3330,6 +3502,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3373,6 +3547,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3413,6 +3589,8 @@
     "fastningar",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3457,6 +3635,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-carlstens-fastning",
@@ -3518,6 +3698,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3557,6 +3739,8 @@
     "fastningar",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3598,6 +3782,8 @@
     "fastningar",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3639,6 +3825,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3681,6 +3869,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3722,6 +3912,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3760,6 +3952,8 @@
    "offers": [
     "besok"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3800,6 +3994,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3839,6 +4035,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3878,6 +4076,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3912,6 +4112,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3946,6 +4148,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -3984,6 +4188,8 @@
     "Kavlås"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4020,6 +4226,8 @@
     "Dagsnäs"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4054,6 +4262,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4093,6 +4303,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-hellidens-slott",
@@ -4143,6 +4355,8 @@
     "Höjentorp"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4182,6 +4396,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4221,6 +4437,8 @@
     "brollop-och-fest",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4262,6 +4480,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4303,6 +4523,8 @@
     "brollop-och-fest",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4344,6 +4566,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4381,6 +4605,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4421,6 +4647,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "vrmedia-granso-slott",
@@ -4475,6 +4703,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4509,6 +4739,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4549,6 +4781,8 @@
     "borgar-och-ruiner",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4583,6 +4817,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4622,6 +4858,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-teleborgs-slott",
@@ -4678,6 +4916,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4715,6 +4955,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4754,6 +4996,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4793,6 +5037,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4827,6 +5073,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4866,6 +5114,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4903,6 +5153,8 @@
     "Lyckås herrgård"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4941,6 +5193,8 @@
    "offers": [
     "besok"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -4979,6 +5233,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5018,6 +5274,8 @@
     "bo-pa-slott",
     "brollop-och-fest"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5052,6 +5310,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5090,6 +5350,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5127,6 +5389,8 @@
     "besok",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5171,6 +5435,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5214,6 +5480,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5254,6 +5522,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5300,6 +5570,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5336,6 +5608,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5372,6 +5646,8 @@
     "Brokinds herrgård"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5411,6 +5687,8 @@
    "offers": [
     "besok"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5449,6 +5727,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5487,6 +5767,8 @@
     "konferens",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5529,6 +5811,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "permstade-mauritzberg",
@@ -5596,6 +5880,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5637,6 +5923,8 @@
     "borgar-och-ruiner",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5671,6 +5959,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5705,6 +5995,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5744,6 +6036,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5784,6 +6078,8 @@
     "kungliga-slott",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5823,6 +6119,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5865,6 +6163,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5905,6 +6205,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5945,6 +6247,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -5984,6 +6288,8 @@
     "brollop-och-fest",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6020,6 +6326,8 @@
     "Thureholms slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6063,6 +6371,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6102,6 +6412,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6142,6 +6454,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6178,6 +6492,8 @@
     "Stenhammars gods"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6216,6 +6532,8 @@
     "Harpsunds säteri"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6256,6 +6574,8 @@
    "offers": [
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6296,6 +6616,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6335,6 +6657,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6377,6 +6701,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6421,6 +6747,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6457,6 +6785,8 @@
     "Wibyholm"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6493,6 +6823,8 @@
     "Fiholm, Södermanland"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6529,6 +6861,8 @@
     "Elghammars herrgård"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6565,6 +6899,8 @@
     "Ekensholm"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6601,6 +6937,8 @@
     "Björksund"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6638,6 +6976,8 @@
     "Rinkesta slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6685,6 +7025,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6721,6 +7063,8 @@
     "Tistads herrgård"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6757,6 +7101,8 @@
     "Tynnelsö"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6794,6 +7140,8 @@
     "Åkerö säteri"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -6838,6 +7186,8 @@
     "besok",
     "kungliga-slott"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "ks-rikssalen",
@@ -6913,6 +7263,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "ks-ehrenstrahl",
@@ -6974,6 +7326,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7013,6 +7367,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "ks-ulriksdal",
@@ -7064,6 +7420,8 @@
    "offers": [
     "kungliga-slott"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7102,6 +7460,8 @@
     "kungliga-slott",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7140,6 +7500,8 @@
     "kungliga-slott",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7182,6 +7544,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7224,6 +7588,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7264,6 +7630,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7305,6 +7673,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7341,6 +7711,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7379,6 +7751,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7418,6 +7792,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7457,6 +7833,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "haringe-3dvista",
@@ -7509,6 +7887,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7545,6 +7925,8 @@
     "Sandemars naturreservat"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7586,6 +7968,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7627,6 +8011,8 @@
     "besok",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7661,6 +8047,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7695,6 +8083,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7733,6 +8123,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7774,6 +8166,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7816,6 +8210,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7850,6 +8246,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7890,6 +8288,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7928,6 +8328,8 @@
     "konferens",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -7971,6 +8373,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8011,6 +8415,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8047,6 +8453,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8089,6 +8497,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8128,6 +8538,8 @@
     "besok",
     "borgar-och-ruiner"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8168,6 +8580,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8205,6 +8619,8 @@
     "Granhammars herrgård"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8247,6 +8663,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8281,6 +8699,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8317,6 +8737,8 @@
     "Stora Väsby slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8357,6 +8779,8 @@
    "offers": [
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8391,6 +8815,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8425,6 +8851,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8463,6 +8891,8 @@
    "offers": [
     "besok"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8497,6 +8927,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8529,6 +8961,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8569,6 +9003,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gac-skoklosters-slott",
@@ -8623,6 +9059,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8664,6 +9102,8 @@
     "borgar-och-ruiner",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8707,6 +9147,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8747,6 +9189,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8784,6 +9228,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8825,6 +9271,8 @@
     "brollop-och-fest",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8867,6 +9315,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8906,6 +9356,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8940,6 +9392,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -8976,6 +9430,8 @@
     "Sjö slott"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9015,6 +9471,8 @@
     "brollop-och-fest",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9059,6 +9517,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9099,6 +9559,8 @@
     "bo-pa-slott",
     "park-och-tradgard"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "gm-osterbybruk-herrgard",
@@ -9152,6 +9614,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9192,6 +9656,8 @@
     "brollop-och-fest",
     "konferens"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9231,6 +9697,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9270,6 +9738,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9307,6 +9777,8 @@
     "Fullerö säteri"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9346,6 +9818,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9391,6 +9865,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9432,6 +9908,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9468,6 +9946,8 @@
     "Göksholm"
    ],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9504,6 +9984,8 @@
    "offers": [
     "bo-pa-slott"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9538,6 +10020,8 @@
    "text": null,
    "alts": [],
    "offers": [],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9576,6 +10060,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9617,6 +10103,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": [
     {
      "id": "kuula-marbacka",
@@ -9672,6 +10160,8 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9710,6 +10200,8 @@
    "offers": [
     "besok"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9751,6 +10243,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9790,6 +10284,8 @@
     "konferens",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9827,6 +10323,8 @@
     "restaurang-och-kafe",
     "spa"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   },
   {
@@ -9869,6 +10367,8 @@
     "fastningar",
     "restaurang-och-kafe"
    ],
+   "article": null,
+   "articleSources": null,
    "tours": []
   }
  ],

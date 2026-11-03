@@ -250,7 +250,7 @@ function castleDesc(c, co, offerCats) {
   const verbs = offerCats.map(o => DO[o.slug]).filter(Boolean);
   if (verbs.length) parts.push(`Här kan du ${verbs.length > 1 ? verbs.slice(0, -1).join(', ') + ' och ' + verbs.at(-1) : verbs[0]}.`);
   let d = parts.join(' ');
-  const text = (c.text || (c.wiki && c.wiki.text) || '').replace(/\s+/g, ' ').trim();
+  const text = (c.text || (c.article && c.article[0].p[0]) || (c.wiki && c.wiki.text) || '').replace(/\s+/g, ' ').trim();
   if (d.length < 120 && text) {
     // Lägg till hela meningar ur texten så länge det ryms.
     for (const m of text.match(/[^.!?]+[.!?]+/g) || []) {
@@ -296,6 +296,19 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 </section>`;
 }
 
+// Vår egen text om slottet (data/texter.json, skriven från källorna som listas under texten).
+function articleHtml(c) {
+  const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+  const src = (c.articleSources || []).slice(0, 6);
+  return c.article.map(sec => `${sec.h ? `<h3>${esc(sec.h)}</h3>` : ''}${sec.p.map(p => `<p>${esc(p)}</p>`).join('')}`).join('') +
+    (src.length ? `<p class="source">Källor: ${src.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(/wikipedia\.org/.test(u) ? 'Wikipedia' : host(u))}</a>`).join(', ')}.</p>` : '');
+}
+// Det slottet själv har skrivit (via kontot, granskat innan det syns).
+function profileHtml(c) {
+  const p = c.profile;
+  return `<div class="from-castle"><h3>Från slottet</h3>${p.text ? p.text.split(/\n\s*\n/).map(t => `<p>${esc(t).replace(/\n/g, '<br>')}</p>`).join('') : ''}${p.open ? `<p><b>Säsong och öppet:</b> ${esc(p.open)}</p>` : ''}</div>`;
+}
+
 function castle(S, c) {
   const img = commonsImage(c.image, 1280), imgSm = commonsImage(c.image, 960);
   const imgXl = c.image && c.image.w > 1920 ? commonsImage(c.image, 1920) : null;
@@ -308,6 +321,7 @@ function castle(S, c) {
     ['Typ', c.type], ['Byggt', c.inception && +c.inception > 900 ? (c.inception.length === 4 ? c.inception : c.inception) : null],
     ['Används i dag', c.use], ['Öppet för besök', { Ja: 'Ja', Delvis: 'Delvis – se slottets egen webbplats', Nej: 'Nej, privat' }[c.open]],
     ['Kommun', kommunLabel(c.kommun)], ['Län', co ? co.full : c.lan],
+    ['Telefon', c.profile && c.profile.phone], ['E-post', c.profile && c.profile.email],
   ].filter(f => f[1]);
   const directions = c.lat != null ? `https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lon}` : null;
   const offerCats = offers.filter(o => o.kind === 'offer');
@@ -316,7 +330,7 @@ function castle(S, c) {
   const titleBlock = `<p class="kicker${big ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}</span></p>
     <h1>${esc(c.name)}</h1>
     ${offerCats.length ? `<p class="c-offers">${offerCats.map(o => `<a href="${catURL(o)}">${icon(o.slug)}${esc(o.short)}</a>`).join('')}</p>` : ''}
-    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
+    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.profile && c.profile.booking ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.profile.booking)}" target="_blank" rel="noopener">Boka</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
   const desc = castleDesc(c, co, offerCats);
   const tk = t ? (KIND[t.kind] || KIND.view) : null;
   const tourBlock = t ? `
@@ -378,8 +392,9 @@ ${tourBlock}
   <div class="wrap c-grid">
     <div class="c-text">
       <h2>Om ${esc(c.name)}</h2>
-      ${wiki.length ? wiki.map(p => `<p>${esc(p)}</p>`).join('') : `<p>${esc(c.name)} är ${esc(c.type.toLowerCase())} i ${esc(kommunLabel(c.kommun))}.</p>`}
-      ${c.wiki && !c.text ? `<p class="source">Text från <a href="https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</p>` : ''}
+      ${c.article ? articleHtml(c) : `${wiki.length ? wiki.map(p => `<p>${esc(p)}</p>`).join('') : `<p>${esc(c.name)} är ${esc(c.type.toLowerCase())} i ${esc(kommunLabel(c.kommun))}.</p>`}
+      ${c.wiki && !c.text ? `<p class="source">Text från <a href="https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</p>` : ''}`}
+      ${c.profile && (c.profile.text || c.profile.open) ? profileHtml(c) : ''}
       ${offerCats.length ? `<h3>Här kan du</h3><ul class="offer-list">${offerCats.map(o => `<li><a href="${catURL(o)}">${icon(o.slug)}<span>${esc(o.short)}</span></a></li>`).join('')}</ul>
       <p class="small">Kontrollera alltid öppettider, priser och bokning på slottets egen webbplats.</p>` : ''}
     </div>
@@ -676,4 +691,56 @@ function notFound(S) {
 <div class="wrap page-hero-in"><p class="kicker kicker-gold"><span>Sidan finns inte</span></p><h1>Här tog vägen slut</h1><p class="lead">Sidan kan ha flyttats. Sök efter slottet i stället, eller gå till <a href="/">startsidan</a>.</p>${searchBox(S, true)}</div></header>` });
 }
 
-module.exports = { home, castle, category, county, countiesIndex, tours, mapPage, searchPage, about, contact, privacy, forCastles, tip, thanks, notFound, castleURL, countyURL, catURL };
+// ---- Konton för slotten (sidorna fylls av /assets/konto.js från /api/konto/…) ----
+function accountPage(S, { title, path, body }) {
+  return layout(S, { title, path, noindex: true, scripts: ['/assets/konto.js'], description: 'Logga in och sköt ert slotts sida på Slottsregistret.se.',
+    body: `<div class="wrap">${crumbs([['/', 'Start'], ['/konto/', 'Konto'], ...(path !== '/konto/' ? [[path, title]] : [])])}</div>
+<section class="account wrap" data-konto="${esc(path)}">${body}</section>` });
+}
+function account(S) {
+  return accountPage(S, { title: 'Konto för slott', path: '/konto/', body: `
+<p class="kicker kicker-gold"><span>För slott och slottsägare</span></p>
+<h1>Ert slotts sida</h1>
+<div data-view="laddar"><p>Ett ögonblick …</p></div>
+<div data-view="logga-in" hidden>
+  <p class="lead">Logga in med er e-postadress. Ni får en länk i mejlet, inget lösenord behövs.</p>
+  <form class="form account-form" data-action="logga-in">
+    <label for="k-epost">E-post</label><input id="k-epost" name="epost" type="email" required autocomplete="email">
+    <button class="btn btn-gold" type="submit">Skicka inloggningslänk</button>
+  </form>
+  <p data-msg="skickat" class="note" hidden>Om adressen hör till ett slott hos oss har vi skickat en länk. Titta i inkorgen (och skräpposten) – länken fungerar i 30 minuter.</p>
+  <p data-msg="lank" class="note note-warn" hidden>Länken har redan använts eller gått ut. Be om en ny här.</p>
+  <p class="small">Har ni inget konto än? <a href="/konto/ansok/">Ansök om att få sköta ert slotts sida</a>.</p>
+</div>
+<div data-view="konto" hidden></div>
+<div data-view="snart" hidden><p class="lead">Kontona för slotten öppnar inom kort. Hör av er så länge via <a href="/for-slott/#formular">formuläret för slott</a>.</p></div>` });
+}
+function accountApply(S) {
+  return accountPage(S, { title: 'Ansök om konto', path: '/konto/ansok/', body: `
+<p class="kicker kicker-gold"><span>För slott och slottsägare</span></p>
+<h1>Sköt ert slotts sida själva</h1>
+<p class="lead">Uppdatera texten, vad ni erbjuder och länken till er bokning. Vi kontrollerar att ni företräder slottet innan kontot öppnas, och vi tittar på ändringarna innan de syns.</p>
+<form class="form account-form" data-action="ansok">
+${castleSelect(S, true)}
+<label for="namn">Ditt namn</label><input id="namn" name="namn" required autocomplete="name">
+<label for="roll">Roll</label><input id="roll" name="roll" placeholder="t.ex. ägare, förvaltare, marknadsansvarig" autocomplete="organization-title">
+<label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
+<p class="small">Använd gärna en adress hos slottet (t.ex. namn@slottet.se), så går det fortare att bekräfta.</p>
+<label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
+<label for="meddelande">Något mer vi bör veta? (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="3"></textarea>
+<div class="trap" aria-hidden="true"><label>Lämna tomt <input name="webbplats" tabindex="-1" autocomplete="off"></label></div>
+<button class="btn btn-gold" type="submit">Skicka ansökan</button>
+<p class="small">Vi sparar uppgifterna så länge kontot finns. Se <a href="/integritet/">integritet</a>.</p>
+</form>
+<p data-msg="klar" class="note" hidden>Tack! Vi hör av oss när kontot är klart, oftast inom ett par vardagar.</p>
+<p data-msg="snart" class="note" hidden>Kontona öppnar inom kort. Skicka gärna uppgifterna via <a href="/for-slott/#formular">formuläret för slott</a> så länge.</p>` });
+}
+function accountReview(S) {
+  return accountPage(S, { title: 'Granska', path: '/konto/granska/', body: `
+<h1>Granska</h1>
+<div data-view="laddar"><p>Ett ögonblick …</p></div>
+<div data-view="granska" hidden></div>
+<div data-view="logga-in" hidden><p>Logga in först på <a href="/konto/">kontosidan</a>.</p></div>` });
+}
+
+module.exports = { account, accountApply, accountReview, home, castle, category, county, countiesIndex, tours, mapPage, searchPage, about, contact, privacy, forCastles, tip, thanks, notFound, castleURL, countyURL, catURL };

@@ -9,6 +9,21 @@ const ROOT = __dirname, OUT = path.join(ROOT, 'dist');
 const config = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8'));
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site-data.json'), 'utf8'));
 
+// Uppgifter som slotten själva har skickat in och som Daniel har godkänt (hämtas från /api/profiler.json vid publiceringen).
+{
+  const f = path.join(ROOT, 'data/slottsprofiler.json');
+  const prof = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  const OFFERS = new Set(['bo-pa-slott', 'spa', 'konferens', 'brollop-och-fest', 'restaurang-och-kafe', 'besok', 'park-och-tradgard']);
+  for (const c of data.castles) {
+    const p = prof[c.slug];
+    if (!p || typeof p !== 'object') continue;
+    c.profile = { text: p.text || '', booking: p.booking || '', phone: p.phone || '', email: p.email || '', open: p.open || '', approved: p.approved || '' };
+    if (p.website) c.website = p.website;
+    if (Array.isArray(p.offers)) c.offers = [...new Set([...c.offers.filter(o => !OFFERS.has(o)), ...p.offers.filter(o => OFFERS.has(o))])].sort();
+  }
+  for (const cat of data.categories) cat.total = data.castles.filter(c => c.offers.includes(cat.slug)).length;
+}
+
 const S = {
   config, data,
   catBySlug: new Map(data.categories.map(c => [c.slug, c])),
@@ -95,6 +110,11 @@ page('for-slott/index.html', T.forCastles(S), '/for-slott/', 0.6);
 page('kontakt/index.html', T.contact(S), '/kontakt/', 0.3);
 page('integritet/index.html', T.privacy(S), '/integritet/', 0.2);
 write('tipsa/index.html', T.tip(S));
+write('konto/index.html', T.account(S));
+write('konto/ansok/index.html', T.accountApply(S));
+write('konto/granska/index.html', T.accountReview(S));
+// Slotten för kontona (worker/konto.js): bara namn, slug, län och det som står på sidan i dag.
+write('data/slott.json', JSON.stringify(data.castles.map(c => ({ slug: c.slug, name: c.name, lan: c.lan, offers: c.offers, website: c.website }))));
 write('tack/index.html', T.thanks(S));
 write('sok/index.html', T.searchPage(S));
 write('404.html', T.notFound(S));

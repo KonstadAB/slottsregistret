@@ -3,8 +3,10 @@
 // - /img/... hämtar bilder från Wikimedia Commons åt besökaren (se commons nedan).
 // - /tiles/z/x/y.png hämtar kartplattor från OpenStreetMap åt besökaren (se tiles nedan).
 // - /api/skicka tar emot formulären (se forms.js).
+// - /api/konto/… och /api/profiler.json: konton för slotten (se konto.js).
 // - Allt annat hämtas bland filerna i dist/, där _headers, _redirects och 404-sidorna gäller som vanligt.
 import { handleForm } from './forms.js';
+import { handleKonto } from './konto.js';
 
 const COMMONS = 'https://upload.wikimedia.org/wikipedia/commons/';
 const UA = 'slottsregistret.se/1.0 (https://slottsregistret.se/; kontakt@slottsregistret.se)';
@@ -76,6 +78,7 @@ export default {
       return Response.redirect(url.toString(), 301);
     }
     if (url.pathname === '/api/skicka') return handleForm(request, env, ctx);
+    if (url.pathname.startsWith('/api/konto/') || url.pathname === '/api/profiler.json') return handleKonto(request, env, ctx);
     const read = request.method === 'GET' || request.method === 'HEAD';
     if (read && url.pathname.startsWith('/img/')) return commons(request, url, ctx);
     if (read && url.pathname.startsWith('/tiles/')) return tiles(request, url, ctx);
