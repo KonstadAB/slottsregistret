@@ -1,9 +1,12 @@
-# Bygger och publicerar sajten till Cloudflare (Workern slottsregistret) vid varje push till main.
+# Bygger och publicerar sajten till Cloudflare (Workern slottsregistret) vid varje push till main och varje natt
+# (då kommer slottens godkända ändringar från kontona med, se worker/konto.js).
 # Kräver hemligheten CLOUDFLARE_API_TOKEN (behörighet att redigera Workers).
 name: Publicera
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '17 3 * * *' # varje natt, så att slottens godkända ändringar kommer ut på sajten
   workflow_dispatch:
     inputs:
       token:
@@ -24,11 +27,20 @@ jobs:
         with:
           node-version: 22
       - name: Hämta slottens godkända uppgifter
+        id: profiler
         run: |
-          curl -fsS --max-time 30 https://slottsregistret.se/api/profiler.json -o p.json && jq -e 'type == "object"' p.json >/dev/null && mv p.json data/slottsprofiler.json || echo '{}' > data/slottsprofiler.json
+          if curl -fsS --retry 3 --max-time 30 https://slottsregistret.se/api/profiler.json -o p.json && jq -e 'type == "object"' p.json >/dev/null; then
+            mv p.json data/slottsprofiler.json; echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo '{}' > data/slottsprofiler.json; echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Kunde inte hämta slottens uppgifter."
+          fi
           echo "Slott med egna uppgifter: $(jq 'length' data/slottsprofiler.json)"
+      # På natten publiceras bara när slottens uppgifter gick att hämta (annars skulle de försvinna från sajten till nästa gång).
       - run: node build.js
+        if: steps.profiler.outputs.ok == 'true' || github.event_name != 'schedule'
       - name: Publicera till Cloudflare
+        if: steps.profiler.outputs.ok == 'true' || github.event_name != 'schedule'
         env:
           SECRET_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: 36f39bea33a1d0e03815a8b01039efea

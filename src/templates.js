@@ -402,7 +402,7 @@ ${tourBlock}
     <aside class="c-side">
       <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
       ${c.lat != null ? `<link rel="stylesheet" href="${S.asset('/assets/vendor/leaflet.css')}"><div class="mini-map" id="minikarta" data-lat="${c.lat}" data-lon="${c.lon}" data-name="${esc(c.name)}" role="img" aria-label="Karta över läget för ${esc(c.name)}"></div>` : ''}
-      <p class="small">Stämmer något inte? <a href="/tipsa/?slott=${esc(c.slug)}">Tipsa oss</a> · Är det ditt slott? <a href="/for-slott/?slott=${esc(c.slug)}">Uppdatera uppgifterna</a></p>
+      <p class="small">Stämmer något inte? <a href="/tipsa/?slott=${esc(c.slug)}">Tipsa oss</a> · Är det ditt slott? <a href="/konto/ansok/?slott=${esc(c.slug)}">Sköt sidan själva</a></p>
     </aside>
   </div>
 </section>
@@ -627,7 +627,7 @@ function forCastles(S) {
     <ul class="benefits">
       <li>${TOUR_ICON}<h2>Visa slottet inifrån</h2><p>Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en hjälper vi er att ta fram en, som ni också kan använda på er egen webbplats.</p></li>
       <li>${icon('brollop-och-fest')}<h2>Fler förfrågningar</h2><p>Den som redan har gått runt i festsalen eller konferensrummet hemifrån vet vad de bokar. Rundturen visar slottet innan visningen.</p></li>
-      <li>${icon('besok')}<h2>Rätt uppgifter</h2><p>Text, bilder, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. Snart kan ni sköta sidan själva.</p></li>
+      <li>${icon('besok')}<h2>Rätt uppgifter</h2><p>Er egen text, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. <a href="/konto/ansok/">Ansök om konto</a> och sköt sidan själva, eller <a href="/konto/">logga in</a>.</p></li>
     </ul>
   </div>
 </section>

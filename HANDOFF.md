@@ -230,10 +230,17 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - **Egna texter** (`data/texter.json`, sektioner + källor) till alla 264 slott, skrivna från källorna; visas i stället för Wikipedias
   inledning, med källor under. Obs: sv.wikipedia gick inte att läsa med WebFetch, så historiken bygger på inledningarna, engelska
   Wikipedia, länsstyrelser och slottens sidor. Kan fördjupas genom att hämta hela artiklarna via Actions.
-- **Konton för slotten** (kod klar, inte påslagen): `worker/konto.js`, `migrations/0001_konton.sql`, sidorna `/konto/`, `/konto/ansok/`,
-  `/konto/granska/` (`src/assets/konto.js`). Inloggning med e-postlänk; slottet ansöker, Daniel godkänner; slottets ändringar granskas
-  av Daniel innan de syns; godkända uppgifter hämtas från `/api/profiler.json` vid publiceringen (`data/slottsprofiler.json`).
-  Saknas databasen svarar sidorna "öppnar inom kort". **För att slå på:** Workers Paid (5 USD/mån, krävs för e-post till vem som helst),
-  Email Service → Email Sending → Onboard Domain slottsregistret.se, API-nyckeln behöver D1 Edit; skapa D1 `slottsregistret`, kör
-  migreringen, lägg in `d1_databases` (DB), `send_email` EMAIL (utan mottagare) och `ADMIN_EMAILS` i wrangler.jsonc, schemalägg
-  publiceringen varje natt, och byt länken "Uppdatera uppgifterna" på slottssidan till /konto/ansok/.
+- **Konton för slotten** (påslagna 3 nov): `worker/konto.js`, `migrations/0001_konton.sql`, sidorna `/konto/`, `/konto/ansok/`,
+  `/konto/granska/` (`src/assets/konto.js`). Inloggning med e-postlänk från konto@slottsregistret.se (Cloudflare Email Service,
+  bindningen EMAIL; svar går till kontakt@); slottet ansöker, Daniel (ADMIN_EMAILS = daniel@konstad.se) godkänner i /konto/granska/;
+  slottets ändringar granskas innan de syns; godkända uppgifter hämtas från `/api/profiler.json` vid publiceringen
+  (`data/slottsprofiler.json`), som nu också körs varje natt 03.17 UTC (hoppar över om hämtningen misslyckas).
+  - Workers Paid finns (Daniel betalar 5 USD/mån). Email Sending onboardad för slottsregistret.se (cf-bounce-poster).
+  - API-nyckeln "Edit Cloudflare Workers" (den GitHub använder) har fått Account · D1 · Edit.
+  - D1 `slottsregistret` id 9c9bc08f-b808-44e7-b8a9-975232cdef40 (WEUR). Tabellerna skapades direkt via API:t (inte
+    `wrangler d1 migrations apply`, så tabellen d1_migrations saknas: nästa migrering körs på samma sätt, eller skapa d1_migrations först).
+  - Läs eller ändra databasen: `api POST /accounts/{account}/d1/database/<id>/query {"sql":"…"}` i cloudflare-kommando.txt.
+  - Prov 3 nov i förhandsversionen (hela flödet: ansökan → godkänn → inloggning → slottet skickar text → godkänn → profiler.json),
+    provdata raderad efteråt. Granska-verktyget kan nu `loggain`, `ansok`, `profil`, `godkann` (se tools/granska.mjs); länkarna läses i
+    Daniels Gmail (Gmail-kopplingen).
+  - Obs: `data/slott.json` används av kartan/sökningen; kontonas lista heter `data/konto-slott.json`.
