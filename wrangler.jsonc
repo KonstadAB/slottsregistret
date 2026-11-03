@@ -15,8 +15,13 @@
     "not_found_handling": "404-page"
   },
   "kv_namespaces": [{ "binding": "FORMS", "id": "24b726539b4e40cda5dd28eeec38eac2" }],
-  "send_email": [{ "name": "MAIL", "destination_address": "daniel@konstad.se" }],
-  "vars": { "MAIL_TO": "daniel@konstad.se" },
+  "send_email": [
+    { "name": "MAIL", "destination_address": "daniel@konstad.se" },
+    { "name": "EMAIL" }
+  ],
+  // Konton för slotten (worker/konto.js). Tabellerna skapades 3 nov 2026 från migrations/0001_konton.sql.
+  "d1_databases": [{ "binding": "DB", "database_name": "slottsregistret", "database_id": "9c9bc08f-b808-44e7-b8a9-975232cdef40" }],
+  "vars": { "MAIL_TO": "daniel@konstad.se", "ADMIN_EMAILS": "daniel@konstad.se" },
   "ratelimits": [{ "name": "FORM_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }],
   "observability": { "enabled": true }
 }

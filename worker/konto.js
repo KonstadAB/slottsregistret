@@ -60,7 +60,7 @@ async function sendLink(env, url, user) {
     .bind(await sha(t), user.id, new Date(Date.now() + 30 * 60e3).toISOString()).run();
   const link = `${url.origin}/api/konto/lank?t=${t}`;
   const text = `Hej${user.name ? ' ' + user.name.split(' ')[0] : ''}!\n\nKlicka på länken för att logga in på Slottsregistret.se:\n${link}\n\nLänken fungerar i 30 minuter och bara en gång. Har du inte bett om den kan du strunta i det här mejlet.\n\nVänliga hälsningar\nSlottsregistret.se\n`;
-  await env.EMAIL.send({ from: { email: FROM, name: 'Slottsregistret.se' }, to: user.email, subject: 'Din inloggningslänk till Slottsregistret.se', text });
+  await env.EMAIL.send({ from: { email: FROM, name: 'Slottsregistret.se' }, to: user.email, subject: 'Din inloggningslänk till Slottsregistret.se', text, replyTo: 'kontakt@slottsregistret.se' });
 }
 
 // Meddelande till Daniel (samma väg som formulären).

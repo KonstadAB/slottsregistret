@@ -1,3 +1,2 @@
-/slott/karnan/
-/slott/runsa-slott/
-/konto/
+/konto/ loggain daniel@konstad.se
+/konto/ansok/?slott=svaneholms-slott ansok daniel+test@konstad.se

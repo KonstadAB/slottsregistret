@@ -50,6 +50,15 @@ for (const [label, vp] of Object.entries(sizes)) {
         const kvar = page.locator('form[data-form] [type=submit]').first();
         if (await kvar.count()) await kvar.scrollIntoViewIfNeeded();
       }
+      // Konton: "/konto/ loggain namn@exempel.se" ber om en inloggningslänk, "/konto/ansok/?slott=x ansok namn@exempel.se" skickar en ansökan
+      // (bara i datorvarvet, så att det inte går iväg två gånger). En hel inloggningslänk som rad loggar in, och raderna efter ser då kontot.
+      if ((action === 'loggain' || action === 'ansok') && label === 'dator') {
+        const email = line.split(/\s+/)[2];
+        const f = page.locator(action === 'loggain' ? '[data-action=logga-in]' : '[data-action=ansok]');
+        if (action === 'ansok') { await f.locator('#namn').fill('Test från granskningen'); }
+        await f.locator('[name=epost]').fill(email);
+        await f.locator('[type=submit]').click(); await page.waitForTimeout(4000);
+      }
       if (action === 'start') { const b = page.locator('.tour [data-start]').first(); await b.scrollIntoViewIfNeeded(); await b.click(); await page.waitForTimeout(10000); }
       await page.screenshot({ path: `${out}/${name}-${label}-topp.jpg`, type: 'jpeg', quality: 75 });
       await page.screenshot({ path: `${out}/${name}-${label}.jpg`, type: 'jpeg', quality: 60, fullPage: true });
