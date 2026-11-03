@@ -220,3 +220,4 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - 3 nov (Daniel: "kör på"): elva herrgårdar till med riktiga Google-turer (granskade för hand): Cedergrenska tornet, Skytteholm, Stora Nyckelviken,
   Riddersvik, Friibergh, Siggesta, Hooks, Tokeryd, Baldersnäs, Hofsnäs, Ulfshyttan. Läge och webbplats från Google Places, korta texter i
   manuellt.json där Wikipedia saknas. Bortsorterade (bara utomhus): Nolhaga, Örestens fästning. Nu 264 platser, 49 med rundtur.
+- 3 nov: Linköpings slott tillbaka som walk på Daniels begäran (14 ihopkopplade bilder enligt länkarna i Maps). Publicerat samma dag.

@@ -359,7 +359,7 @@
  "linkopings-slott": [
   {
    "id": "gm-linkopings-slott",
-   "kind": "look",
+   "kind": "walk",
    "provider": "Google Maps",
    "credit": [
     "Fredric Sommer"
@@ -368,7 +368,8 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF!2m2!1d58.41044073182184!2d15.61546260610252!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF",
    "source": "streetview",
-   "checked": "2026-11-02"
+   "checked": "2026-11-03",
+   "note": "Tillbaka 3 nov på Daniels begäran: 14 ihopkopplade bilder (följda via länkarna i Maps), inomhus."
   }
  ],
  "lacko-slott": [
