@@ -1,3 +1,4 @@
-https://granska-slottsregistret.konstadab.workers.dev/api/konto/lank?t=a391d51ae8f8739309a057f69347ec31f0ee9f0dc2bda5abd3f7775e19cb1c61
-/konto/ profil
-/konto/ loggain daniel@konstad.se
+https://granska-slottsregistret.konstadab.workers.dev/api/konto/lank?t=2e2c7a129002caf9467988a76758eb22258fa7b6d25ca5b366a0ca7242d86cac
+/konto/granska/
+/konto/granska/ godkann
+https://granska-slottsregistret.konstadab.workers.dev/api/profiler.json
