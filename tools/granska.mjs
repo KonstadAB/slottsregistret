@@ -60,6 +60,10 @@ for (const [label, vp] of Object.entries(sizes)) {
         page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
         await f.locator('[type=submit]').click(); await page.waitForTimeout(4000);
       }
+      if (action === 'godkann' && label === 'dator') { // godkänner den första ansökan på /konto/granska/
+        page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
+        await page.locator('.review .btn-gold').first().click(); await page.waitForTimeout(3000);
+      }
       if (action === 'start') { const b = page.locator('.tour [data-start]').first(); await b.scrollIntoViewIfNeeded(); await b.click(); await page.waitForTimeout(10000); }
       await page.screenshot({ path: `${out}/${name}-${label}-topp.jpg`, type: 'jpeg', quality: 75 });
       await page.screenshot({ path: `${out}/${name}-${label}.jpg`, type: 'jpeg', quality: 60, fullPage: true });

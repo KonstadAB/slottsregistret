@@ -1,4 +1,4 @@
-/konto/ loggain daniel@konstad.se
-/konto/ansok/?slott=svaneholms-slott ansok daniel+test@konstad.se
-# 1793707863
-# 1793707944
+https://granska-slottsregistret.konstadab.workers.dev/api/konto/lank?t=8e0ae34923ec62441533779810b1084784afd476fd83770c554c4f437abe0056
+/konto/granska/
+/konto/granska/ godkann
+/konto/
