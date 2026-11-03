@@ -141,9 +141,9 @@
 <url><loc>https://slottsregistret.se/slott/karnan/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/sofiero-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/glimmingehus/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/bosjokloster/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/bosjokloster/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/hovdala-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/backaskog-slott/</loc><priority>0.6</priority></url>
+<url><loc>https://slottsregistret.se/slott/backaskog-slott/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/christinehofs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/svaneholms-slott/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/torups-slott/</loc><priority>0.6</priority></url>
@@ -241,11 +241,11 @@
 <url><loc>https://slottsregistret.se/slott/mariedals-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/kavlas-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/dagsnas-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/almnas-slott/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/almnas-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/hellidens-slott/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/hojentorps-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/kalmar-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/borgholms-slottsruin/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/borgholms-slottsruin/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/sollidens-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/eketorps-borg/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/ismantorps-borg/</loc><priority>0.6</priority></url>
@@ -258,7 +258,7 @@
 <url><loc>https://slottsregistret.se/slott/teleborgs-slott/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/huseby-bruk/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/brahehus/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/visingsborgs-slottsruin/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/visingsborgs-slottsruin/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/nas-slottsruin/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/gripenbergs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/vastana-slott/</loc><priority>0.6</priority></url>
@@ -267,8 +267,8 @@
 <url><loc>https://slottsregistret.se/slott/roma-kungsgard/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/katthammarsvik-katthamra/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/stora-hastnas/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/vadstena-slott/</loc><priority>0.8</priority></url>
-<url><loc>https://slottsregistret.se/slott/linkopings-slott/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/vadstena-slott/</loc><priority>0.6</priority></url>
+<url><loc>https://slottsregistret.se/slott/linkopings-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/lofstad-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/ekenas-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/bjarka-saby-slott/</loc><priority>0.6</priority></url>
@@ -289,7 +289,7 @@
 <url><loc>https://slottsregistret.se/slott/nynas-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/julita-gard/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/sundbyholms-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/malsakers-slott/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/malsakers-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/tureholms-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/ericsbergs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/stora-sundby-slott/</loc><priority>0.6</priority></url>
@@ -324,7 +324,7 @@
 <url><loc>https://slottsregistret.se/slott/svartsjo-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/karlbergs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/steninge-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/venngarns-slott/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/venngarns-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/haringe-slott/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/arsta-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/sandemar/</loc><priority>0.6</priority></url>
@@ -339,7 +339,7 @@
 <url><loc>https://slottsregistret.se/slott/nasby-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/djursholms-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/bogesunds-slott/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/vaxholms-kastell/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/vaxholms-kastell/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/edsbergs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/ekebyhovs-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/alsno-hus/</loc><priority>0.6</priority></url>
@@ -382,7 +382,7 @@
 <url><loc>https://slottsregistret.se/slott/rottneros-herrgard/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/marbacka/</loc><priority>0.8</priority></url>
 <url><loc>https://slottsregistret.se/slott/alsters-herrgard/</loc><priority>0.6</priority></url>
-<url><loc>https://slottsregistret.se/slott/gavle-slott/</loc><priority>0.8</priority></url>
+<url><loc>https://slottsregistret.se/slott/gavle-slott/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/gysinge-herrgard/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/hemso-fastning/</loc><priority>0.6</priority></url>
 <url><loc>https://slottsregistret.se/slott/fjallnas/</loc><priority>0.6</priority></url>
