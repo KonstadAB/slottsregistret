@@ -244,3 +244,17 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
     provdata raderad efteråt. Granska-verktyget kan nu `loggain`, `ansok`, `profil`, `godkann` (se tools/granska.mjs); länkarna läses i
     Daniels Gmail (Gmail-kopplingen).
   - Obs: `data/slott.json` används av kartan/sökningen; kontonas lista heter `data/konto-slott.json`.
+
+## 3 nov 2026: tipsformuläret kunde skickas tomt (grenen hq/ratta-tipsformularet-pa-slottsregistret--2611032320, inte publicerad)
+- Problem: två tips "En rundtur som saknas" kom in utan text. Fälten stämmer mellan sidan och workern (`meddelande` skickas som
+  formdata och läses med `formData()`). Felet var att beskrivningen inte var obligatorisk, så ett tips med bara "Det gäller" ikryssat gick igenom.
+- Trolig källa till just de två tipsen: Granskas provskick mot riktiga sajten 2 nov (`https://slottsregistret.se/tipsa/ skicka`,
+  commit cf3dfeb) körs både i dator- och mobilvarvet och fyller bara i obligatoriska fält. Två tomma tips stämmer med det. Inte bekräftat
+  mot tidsstämplarna i KV (går inte att nå härifrån; kör `formular` i tools/cloudflare.mjs för att jämföra med 2 nov ca 15.00 UTC).
+- Rättat: textrutan på /tipsa/ är obligatorisk (`required`), och workern kräver `meddelande` för `tips`. Tom text eller bara blanksteg
+  ger formulärets befintliga felmeddelande ("Fyll i de obligatoriska fälten …"). Inga nya texter; etiketten "Beskriv gärna" är kvar
+  (Daniel kan vilja ändra den så att den inte låter frivillig).
+- Testat lokalt: `node build.js` utan fel; workern med exempelanrop (texten finns i det som sparas i KV och i mejlet, tomt ger 400
+  `required`); sidan i Chromium (tom ruta stoppas av webbläsaren, blanksteg ger felrutan, med text kommer man till /tack/).
+- Obs: provskick med Granska fyller nu även textrutan ("Test från granskningen") – sådana tips går fortfarande in i KV/mejl som riktiga.
+- Nästa steg: Daniel granskar PR:en och publicerar.
