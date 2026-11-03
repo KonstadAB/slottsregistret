@@ -114,7 +114,7 @@ write('konto/index.html', T.account(S));
 write('konto/ansok/index.html', T.accountApply(S));
 write('konto/granska/index.html', T.accountReview(S));
 // Slotten för kontona (worker/konto.js): bara namn, slug, län och det som står på sidan i dag.
-write('data/slott.json', JSON.stringify(data.castles.map(c => ({ slug: c.slug, name: c.name, lan: c.lan, offers: c.offers, website: c.website }))));
+write('data/konto-slott.json', JSON.stringify(data.castles.map(c => ({ slug: c.slug, name: c.name, lan: c.lan, offers: c.offers, website: c.website }))));
 write('tack/index.html', T.thanks(S));
 write('sok/index.html', T.searchPage(S));
 write('404.html', T.notFound(S));

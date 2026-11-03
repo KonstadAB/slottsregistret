@@ -32,7 +32,7 @@ const admins = env => String(env.ADMIN_EMAILS || '').toLowerCase().split(/[\s,]+
 let CASTLES;
 async function castles(env, origin) {
   if (!CASTLES) {
-    const r = await env.ASSETS.fetch(new Request(origin + '/data/slott.json'));
+    const r = await env.ASSETS.fetch(new Request(origin + '/data/konto-slott.json'));
     CASTLES = r.ok ? new Map((await r.json()).map(c => [c.slug, c])) : new Map();
   }
   return CASTLES;
