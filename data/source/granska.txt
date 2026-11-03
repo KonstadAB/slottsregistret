@@ -1,4 +1,3 @@
-https://granska-slottsregistret.konstadab.workers.dev/api/konto/lank?t=2e2c7a129002caf9467988a76758eb22258fa7b6d25ca5b366a0ca7242d86cac
-/konto/granska/
-/konto/granska/ godkann
-https://granska-slottsregistret.konstadab.workers.dev/api/profiler.json
+https://slottsregistret.se/slott/svaneholms-slott/
+https://slottsregistret.se/konto/
+https://slottsregistret.se/api/profiler.json
