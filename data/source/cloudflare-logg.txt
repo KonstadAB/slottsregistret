@@ -1,133 +1,194 @@
-# 2026-11-03T12:07:57Z api GET /accounts/{account}/d1/database ;; api POST /accounts/{account}/d1/database {"name":"slottsregistret","primary_location_hint":"weur"} ;; api GET /zones/{zone}/dns_records?name.contains=cf-bounce
->> api GET /accounts/{account}/d1/database
+# 2026-11-03T12:08:38Z api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql": "CREATE TABLE users ( id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, name TEXT, phone TEXT, created_at TEXT NOT NULL, last_login TEXT ); CREATE TABLE memberships ( id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), castle TEXT NOT NULL, role TEXT, message TEXT, status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'removed')), created_at TEXT NOT NULL, decided_at TEXT, UNIQUE (user_id, castle) ); CREATE INDEX memberships_castle ON memberships(castle); CREATE TABLE login_tokens ( token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), expires_at TEXT NOT NULL, used_at TEXT ); CREATE TABLE sessions ( id_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), created_at TEXT NOT NULL, expires_at TEXT NOT NULL ); CREATE TABLE profiles ( id TEXT PRIMARY KEY, castle TEXT NOT NULL, data TEXT NOT NULL, user_id TEXT NOT NULL REFERENCES users(id), status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'replaced')), note TEXT, created_at TEXT NOT NULL, decided_at TEXT ); CREATE INDEX profiles_castle ON profiles(castle, status);"} ;; api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"SELECT name FROM sqlite_master WHERE type='table'"}
+>> api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql": "CREATE TABLE users ( id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, name TEXT, phone TEXT, created_at TEXT NOT NULL, last_login TEXT ); CREATE TABLE memberships ( id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), castle TEXT NOT NULL, role TEXT, message TEXT, status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'removed')), created_at TEXT NOT NULL, decided_at TEXT, UNIQUE (user_id, castle) ); CREATE INDEX memberships_castle ON memberships(castle); CREATE TABLE login_tokens ( token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), expires_at TEXT NOT NULL, used_at TEXT ); CREATE TABLE sessions ( id_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), created_at TEXT NOT NULL, expires_at TEXT NOT NULL ); CREATE TABLE profiles ( id TEXT PRIMARY KEY, castle TEXT NOT NULL, data TEXT NOT NULL, user_id TEXT NOT NULL REFERENCES users(id), status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'replaced')), note TEXT, created_at TEXT NOT NULL, decided_at TEXT ); CREATE INDEX profiles_castle ON profiles(castle, status);"}
 [
  {
-  "uuid": "b061e7da-e842-47e3-8b74-2bcfaf8cfd86",
-  "name": "brf",
-  "created_at": "2026-11-02T18:27:51.752Z",
-  "version": "production",
-  "num_tables": 0,
-  "file_size": 5214208,
-  "jurisdiction": "eu"
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 1.7442
+   },
+   "duration": 1.7442,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 24576,
+   "rows_read": 1,
+   "rows_written": 4,
+   "total_attempts": 1
+  }
  },
  {
-  "uuid": "64563344-9982-481c-bd20-c636ed7df430",
-  "name": "hq-db",
-  "created_at": "2026-10-24T18:34:16.072Z",
-  "version": "production",
-  "num_tables": 0,
-  "file_size": 6877184,
-  "jurisdiction": null
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.3609
+   },
+   "duration": 0.3609,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 36864,
+   "rows_read": 1,
+   "rows_written": 4,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.1973
+   },
+   "duration": 0.1973,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 40960,
+   "rows_read": 2,
+   "rows_written": 1,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.2084
+   },
+   "duration": 0.2084,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 49152,
+   "rows_read": 1,
+   "rows_written": 3,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.3251
+   },
+   "duration": 0.3251,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 57344,
+   "rows_read": 1,
+   "rows_written": 3,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.2485
+   },
+   "duration": 0.2485,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 65536,
+   "rows_read": 1,
+   "rows_written": 3,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.181
+   },
+   "duration": 0.181,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 69632,
+   "rows_read": 2,
+   "rows_written": 1,
+   "total_attempts": 1
+  }
  }
 ]
->> api POST /accounts/{account}/d1/database {"name":"slottsregistret","primary_location_hint":"weur"}
-{
- "uuid": "9c9bc08f-b808-44e7-b8a9-975232cdef40",
- "name": "slottsregistret",
- "created_at": "2026-11-03T12:07:58.312Z",
- "version": "production",
- "file_size": 8192,
- "num_tables": 0,
- "primary_location_hint": "WEUR",
- "created_in_region": "WEUR",
- "jurisdiction": null,
- "read_replication": {
-  "mode": "disabled"
- }
-}
->> api GET /zones/{zone}/dns_records?name.contains=cf-bounce
+>> api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"SELECT name FROM sqlite_master WHERE type='table'"}
 [
  {
-  "id": "2948cc240581ba777b8cf7f2205cbc28",
-  "name": "cf-bounce.slottsregistret.se",
-  "type": "MX",
-  "content": "route3.mx.cloudflare.net",
-  "priority": 23,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
+  "results": [
+   {
+    "name": "_cf_KV"
+   },
+   {
+    "name": "users"
+   },
+   {
+    "name": "memberships"
+   },
+   {
+    "name": "login_tokens"
+   },
+   {
+    "name": "sessions"
+   },
+   {
+    "name": "profiles"
+   }
+  ],
+  "success": true,
   "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-11-03T12:04:42.706688Z",
-  "modified_on": "2026-11-03T12:04:42.706688Z"
- },
- {
-  "id": "efd488a6ed69c06627b15e353c9ca4bf",
-  "name": "cf-bounce.slottsregistret.se",
-  "type": "MX",
-  "content": "route2.mx.cloudflare.net",
-  "priority": 26,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-11-03T12:04:42.698902Z",
-  "modified_on": "2026-11-03T12:04:42.698902Z"
- },
- {
-  "id": "5e6d5d4aff4a0562d25fff37c3cf1ce2",
-  "name": "cf-bounce.slottsregistret.se",
-  "type": "MX",
-  "content": "route1.mx.cloudflare.net",
-  "priority": 35,
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-11-03T12:04:42.68866Z",
-  "modified_on": "2026-11-03T12:04:42.68866Z"
- },
- {
-  "id": "1df7cdd93c81fb8f39f18ca4cdd5cd37",
-  "name": "cf-bounce._domainkey.slottsregistret.se",
-  "type": "TXT",
-  "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-11-03T12:04:42.723233Z",
-  "modified_on": "2026-11-03T12:04:42.723233Z"
- },
- {
-  "id": "753db24dcaec3decae316072707d25cc",
-  "name": "cf-bounce.slottsregistret.se",
-  "type": "TXT",
-  "content": "\"v=spf1 include:_spf.mx.cloudflare.net ~all\"",
-  "proxiable": false,
-  "proxied": false,
-  "ttl": 1,
-  "settings": {},
-  "meta": {
-   "email_routing": true,
-   "read_only": true
-  },
-  "comment": null,
-  "tags": [],
-  "created_on": "2026-11-03T12:04:42.714839Z",
-  "modified_on": "2026-11-03T12:04:42.714839Z"
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 1.4647
+   },
+   "duration": 1.4647,
+   "changes": 0,
+   "last_row_id": 0,
+   "changed_db": false,
+   "size_after": 69632,
+   "rows_read": 15,
+   "rows_written": 0,
+   "total_attempts": 1
+  }
  }
 ]
