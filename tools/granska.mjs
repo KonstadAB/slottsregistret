@@ -57,6 +57,7 @@ for (const [label, vp] of Object.entries(sizes)) {
         const f = page.locator(action === 'loggain' ? '[data-action=logga-in]' : '[data-action=ansok]');
         if (action === 'ansok') { await f.locator('#namn').fill('Test från granskningen'); }
         await f.locator('[name=epost]').fill(email);
+        page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
         await f.locator('[type=submit]').click(); await page.waitForTimeout(4000);
       }
       if (action === 'start') { const b = page.locator('.tour [data-start]').first(); await b.scrollIntoViewIfNeeded(); await b.click(); await page.waitForTimeout(10000); }

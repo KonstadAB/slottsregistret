@@ -85,6 +85,11 @@ function cleanProfile(d) {
 }
 
 export async function handleKonto(request, env, ctx) {
+  try { return await konto(request, env, ctx); }
+  catch (e) { console.log('Konto-fel:', e.stack || e.message); return json({ success: false, error: 'server', detail: String(e.message).slice(0, 300) }, 500); } // TILLFÄLLIGT: detail
+}
+
+async function konto(request, env, ctx) {
   const url = new URL(request.url);
   const path = url.pathname;
   if (path === '/api/profiler.json') return profilesExport(env);
