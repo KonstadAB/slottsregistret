@@ -23,6 +23,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Hämta slottens godkända uppgifter
+        run: |
+          curl -fsS --max-time 30 https://slottsregistret.se/api/profiler.json -o p.json && jq -e 'type == "object"' p.json >/dev/null && mv p.json data/slottsprofiler.json || echo '{}' > data/slottsprofiler.json
+          echo "Slott med egna uppgifter: $(jq 'length' data/slottsprofiler.json)"
       - run: node build.js
       - name: Publicera till Cloudflare
         env:
