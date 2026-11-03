@@ -2803,5 +2803,126 @@
   "open": "Delvis",
   "prio": 2,
   "note": null
+ },
+ {
+  "id": "cedergrenska-tornet",
+  "name": "Cedergrenska tornet",
+  "type": "Torn",
+  "kommun": "Danderyd",
+  "lan": "Stockholm",
+  "use": "Restaurang, konferens, bröllop",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "skytteholm",
+  "name": "Skytteholm",
+  "type": "Herrgård",
+  "kommun": "Ekerö",
+  "lan": "Stockholm",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "stora-nyckelviken",
+  "name": "Stora Nyckelviken",
+  "type": "Herrgård",
+  "kommun": "Nacka",
+  "lan": "Stockholm",
+  "use": "Kafé, bröllop, park",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "riddersviks-herrgard",
+  "name": "Riddersviks herrgård",
+  "type": "Herrgård",
+  "kommun": "Stockholm",
+  "lan": "Stockholm",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "friiberghs-herrgard",
+  "name": "Friiberghs herrgård",
+  "type": "Herrgård",
+  "kommun": "Enköping",
+  "lan": "Uppsala",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "siggesta-gard",
+  "name": "Siggesta gård",
+  "type": "Herrgård",
+  "kommun": "Värmdö",
+  "lan": "Stockholm",
+  "use": "Hotell, restaurang, konferens",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "hooks-herrgard",
+  "name": "Hooks herrgård",
+  "type": "Herrgård",
+  "kommun": "Vaggeryd",
+  "lan": "Jönköping",
+  "use": "Hotell, restaurang, konferens, spa",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "tokeryds-herrgard",
+  "name": "Tokeryds herrgård",
+  "type": "Herrgård",
+  "kommun": "Jönköping",
+  "lan": "Jönköping",
+  "use": "Hotell",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "baldersnas-herrgard",
+  "name": "Baldersnäs herrgård",
+  "type": "Herrgård",
+  "kommun": "Bengtsfors",
+  "lan": "Västra Götaland",
+  "use": "Hotell, restaurang, park",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "hofsnas-herrgard",
+  "name": "Hofsnäs herrgård",
+  "type": "Herrgård",
+  "kommun": "Tranemo",
+  "lan": "Västra Götaland",
+  "use": "Kafé, restaurang, övernattning",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
+ },
+ {
+  "id": "ulfshyttans-herrgard",
+  "name": "Ulfshyttans herrgård",
+  "type": "Herrgård",
+  "kommun": "Säter",
+  "lan": "Dalarna",
+  "use": "Hotell",
+  "open": "Delvis",
+  "prio": 3,
+  "note": null
  }
 ]

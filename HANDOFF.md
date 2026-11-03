@@ -195,3 +195,6 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
   egna 3DVista-versioner på S3), Söderfors (VR Medias tur på Google Maps, källarbaren; S3-version hittades inte under namnvarianter).
   Läckö har fått View360-turen från Google tills VR Medias egen är klar (Daniel: byt när den kommer). Nu 253 slott, 38 med rundtur.
   Fredensborg saknar Wikidata-post och bild; kort text i manuellt.json.
+- 3 nov (Daniel: "kör på"): elva herrgårdar till med riktiga Google-turer (granskade för hand): Cedergrenska tornet, Skytteholm, Stora Nyckelviken,
+  Riddersvik, Friibergh, Siggesta, Hooks, Tokeryd, Baldersnäs, Hofsnäs, Ulfshyttan. Läge och webbplats från Google Places, korta texter i
+  manuellt.json där Wikipedia saknas. Bortsorterade (bara utomhus): Nolhaga, Örestens fästning. Nu 264 platser, 49 med rundtur.

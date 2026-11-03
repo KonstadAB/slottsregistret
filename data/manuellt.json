@@ -492,5 +492,76 @@
   "website": "http://www.fredensborg.com/",
   "qid": null,
   "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana."
+ },
+ "cedergrenska-tornet": {
+  "lat": 59.3804333,
+  "lon": 18.0555123,
+  "website": "http://www.cedergrenskatornet.se/",
+  "qid": "Q10444370"
+ },
+ "skytteholm": {
+  "lat": 59.3196315,
+  "lon": 17.6687962,
+  "website": "http://www.skytteholm.se/",
+  "qid": "Q10670859"
+ },
+ "stora-nyckelviken": {
+  "lat": 59.3226028,
+  "lon": 18.1906644,
+  "website": "https://www.nyckelvikensherrgard.se/",
+  "qid": "Q10681080"
+ },
+ "riddersviks-herrgard": {
+  "lat": 59.3797057,
+  "lon": 17.7980926,
+  "website": "http://www.riddersviksherrgard.se/",
+  "qid": null,
+  "text": "Riddersviks herrgård ligger vid Mälaren i Hässelby, i västra Stockholm. Herrgården från 1700-talet är i dag hotell med restaurang, konferens, fest och bröllop."
+ },
+ "friiberghs-herrgard": {
+  "lat": 59.6994444,
+  "lon": 17.5019444,
+  "website": "http://www.friibergh.se/",
+  "qid": null,
+  "text": "Friiberghs herrgård ligger sjönära i Enköpings kommun, mellan Stockholm och Uppsala. Herrgården är i dag hotell med restaurang, konferens, bröllop och golfbana."
+ },
+ "siggesta-gard": {
+  "lat": 59.3722555,
+  "lon": 18.5281764,
+  "website": "https://www.siggestagard.se/",
+  "qid": "Q10667547"
+ },
+ "hooks-herrgard": {
+  "lat": 57.5392231,
+  "lon": 14.2711141,
+  "website": "http://www.hooksherrgard.se/",
+  "qid": "Q18290679"
+ },
+ "tokeryds-herrgard": {
+  "lat": 57.8182843,
+  "lon": 14.1086192,
+  "website": "http://www.tokerydsherrgard.se/",
+  "qid": "Q112014375",
+  "text": "Tokeryds herrgård är ett herrgårdshotell från 1800-talet, omgivet av åkrar och småländsk skog sju minuter från centrala Jönköping. Här finns rum, sällskapsrum och en lada för fest."
+ },
+ "baldersnas-herrgard": {
+  "lat": 58.9633653,
+  "lon": 12.2772244,
+  "website": "http://www.baldersnas.eu/",
+  "qid": null,
+  "text": "Baldersnäs herrgård ligger vid sjön Laxsjön i Dalsland, med en stor park runt huset. Herrgården från sekelskiftet är i dag hotell med restaurang, konferens och bröllop."
+ },
+ "hofsnas-herrgard": {
+  "lat": 57.6299882,
+  "lon": 13.2924128,
+  "website": "http://www.hofsnas.se/",
+  "qid": null,
+  "text": "Hofsnäs herrgård ligger utanför Länghem i Tranemo kommun. Här finns restaurang, bistro och kafé, boende, julbord och evenemang."
+ },
+ "ulfshyttans-herrgard": {
+  "lat": 60.3064651,
+  "lon": 15.3847815,
+  "website": "https://www.ulfshyttan.se/",
+  "qid": "Q134777790"
  }
 }

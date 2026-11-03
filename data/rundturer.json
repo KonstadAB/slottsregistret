@@ -842,5 +842,181 @@
    "checked": "2026-11-02",
    "note": "VR Medias tur på Google Maps (källarbaren). VR Medias egen version hittades inte på S3; byt när länken finns."
   }
+ ],
+ "cedergrenska-tornet": [
+  {
+   "id": "gm-cedergrenska-tornet",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Ian Johnson Photo"
+   ],
+   "year": 2014,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.!2m2!1d59.38045137471623!2d18.055507560117153!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (10 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "skytteholm": [
+  {
+   "id": "gm-skytteholm",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Skytteholm"
+   ],
+   "year": 2016,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF!2m2!1d59.31978375101988!2d17.668496035666774!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (16 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "stora-nyckelviken": [
+  {
+   "id": "gm-stora-nyckelviken",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "3D Swiss Media"
+   ],
+   "year": 2024,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF!2m2!1d59.322616758011485!2d18.19065625472392!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (6 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "riddersviks-herrgard": [
+  {
+   "id": "gm-riddersviks-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Ingemar Edfalk"
+   ],
+   "year": 2012,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.!2m2!1d59.37971183339639!2d17.798054402011868!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (18 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "friiberghs-herrgard": [
+  {
+   "id": "gm-friiberghs-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Abil MEDIA"
+   ],
+   "year": 2023,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF!2m2!1d59.69940301853662!2d17.501908030316468!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (7 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "siggesta-gard": [
+  {
+   "id": "gm-siggesta-gard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Siggesta Gård - Hotell & konferens"
+   ],
+   "year": 2016,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.!2m2!1d59.3715919713643!2d18.526845172698664!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (29 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "hooks-herrgard": [
+  {
+   "id": "gm-hooks-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Tommy Hvitfeldt"
+   ],
+   "year": 2022,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.!2m2!1d57.539344860849255!2d14.270969389173406!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (17 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "tokeryds-herrgard": [
+  {
+   "id": "gm-tokeryds-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Daniel Roos"
+   ],
+   "year": 2012,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.!2m2!1d57.81817143605726!2d14.108639618560975!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (30 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "baldersnas-herrgard": [
+  {
+   "id": "gm-baldersnas-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "360 Alpine Vision AG"
+   ],
+   "year": 2025,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.!2m2!1d58.96341753867311!2d12.277313262391521!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (4 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "hofsnas-herrgard": [
+  {
+   "id": "gm-hofsnas-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "Mikael Guldbransen"
+   ],
+   "year": 2018,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF!2m2!1d57.63005629930963!2d13.292085762178521!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (15 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
+ ],
+ "ulfshyttans-herrgard": [
+  {
+   "id": "gm-ulfshyttans-herrgard",
+   "kind": "walk",
+   "provider": "Google Maps",
+   "credit": [
+    "360 Alpine Vision AG"
+   ],
+   "year": 2025,
+   "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.!2m2!1d60.30664264715481!2d15.385044833937096!3f0!4f0!5f0.7820865974627469",
+   "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.",
+   "source": "streetview",
+   "checked": "2026-11-03",
+   "note": "Google-räkningen 2 nov (3 ihopkopplade bilder, inomhus, granskad för hand)"
+  }
  ]
 }
