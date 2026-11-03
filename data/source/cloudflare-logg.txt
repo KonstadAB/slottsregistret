@@ -1,47 +1,22 @@
-# 2026-11-03T10:33:07Z api GET /accounts/{account}/d1/database ;; api GET /accounts/{account}/r2/buckets ;; api GET /zones/{zone}/email/sending/subdomains ;; api GET /accounts/{account}/email/sending/domains ;; api GET /user/tokens/verify
->> api GET /accounts/{account}/d1/database
-!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/d1/database -> 401 [{"code":10000,"message":"Authentication error"}]
-{
- "result": null,
- "success": false,
- "errors": [
-  {
-   "code": 10000,
-   "message": "Authentication error"
-  }
- ],
- "messages": []
-}
->> api GET /accounts/{account}/r2/buckets
-{
- "buckets": []
-}
->> api GET /zones/{zone}/email/sending/subdomains
-!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/sending/subdomains -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_sending/subresources/subdomains/methods/list"}]
+# 2026-11-03T10:57:30Z api GET /accounts/{account}/subscriptions ;; api GET /accounts/{account}/workers/account-settings ;; api GET /user/tokens/verify
+>> api GET /accounts/{account}/subscriptions
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/subscriptions -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/accounts/subresources/subscriptions/methods/get"}]
 {
  "success": false,
  "errors": [
   {
    "code": 10000,
    "message": "Authentication error",
-   "documentation_url": "https://developers.cloudflare.com/api/resources/email_sending/subresources/subdomains/methods/list"
+   "documentation_url": "https://developers.cloudflare.com/api/resources/accounts/subresources/subscriptions/methods/get"
   }
  ],
  "messages": [],
  "result": null
 }
->> api GET /accounts/{account}/email/sending/domains
-!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/email/sending/domains -> 404 [{"code":10001,"message":"Unable to authenticate request"}]
+>> api GET /accounts/{account}/workers/account-settings
 {
- "success": false,
- "errors": [
-  {
-   "code": 10001,
-   "message": "Unable to authenticate request"
-  }
- ],
- "messages": [],
- "result": null
+ "default_usage_model": "standard",
+ "green_compute": false
 }
 >> api GET /user/tokens/verify
 {
