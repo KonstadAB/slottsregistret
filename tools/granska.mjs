@@ -3,7 +3,7 @@
 // annan sida, t.ex. en rundtur. " start" efter sökvägen trycker på rundturens startknapp först. Rader som börjar med # hoppas över.
 // Utdata: <namn>-dator.jpg och <namn>-mobil.jpg i utmappen.
 import { chromium } from 'playwright';
-import { readFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
 const [list, out] = process.argv.slice(2);
 const BASE = process.env.GRANSKA_URL || 'https://granska-slottsregistret.konstadab.workers.dev';
@@ -18,6 +18,24 @@ for (const [label, vp] of Object.entries(sizes)) {
     const [p, action] = line.split(/\s+/);
     const ext = /^https?:\/\//.test(p);
     const name = (action ? action + '-' : '') + (ext ? 'extern-' + p.replace(/^https?:\/\/(www\.)?/, '').slice(0, 60) : p).replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '-').replace(/-$/, '') || 'start';
+    if (action === 'text') { // läser en webbplats som byggs med JavaScript: startsidan och upp till 20 undersidor, texten sparas som JSON
+      if (label !== 'dator') continue;
+      const res = { start: p, pages: [] }; const page = await ctx.newPage();
+      const read = async u => { await page.goto(u, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {}); await page.waitForTimeout(1500);
+        return page.evaluate(() => ({ url: location.href, title: document.title, text: document.body ? document.body.innerText.slice(0, 8000) : '',
+          links: [...document.querySelectorAll('a[href]')].map(a => [a.href.split('#')[0], a.innerText.trim().slice(0, 80)]) })); };
+      try {
+        const first = await read(p); const host = new URL(first.url).hostname;
+        res.pages.push({ url: first.url, title: first.title, text: first.text });
+        const W = /br[öo]llop|fest|konferens|m[öo]te|boende|hotell|rum|spa|restaurang|meny|kaf|caf|bes[öo]k|visning|[öo]ppet|park|tr[äa]dg|historia|om|about|event|boka|paket/i;
+        const seen = new Set([first.url]);
+        const next = [...new Map(first.links.filter(([h]) => { try { return new URL(h).hostname === host && !/\.(jpe?g|png|pdf)$/i.test(h); } catch { return false; } }).map(l => [l[0], l])).values()]
+          .filter(([h]) => !seen.has(h)).sort((a, b) => W.test(b.join(' ')) - W.test(a.join(' '))).slice(0, 20);
+        for (const [h] of next) { const x = await read(h).catch(() => null); if (x && !seen.has(x.url)) { seen.add(x.url); res.pages.push({ url: x.url, title: x.title, text: x.text }); } }
+      } catch (e) { res.error = String(e.message).slice(0, 160); }
+      writeFileSync(`${out}/${name}.json`, JSON.stringify(res)); console.log('ok text', p, res.pages.length);
+      await page.close(); continue;
+    }
     const page = await ctx.newPage();
     try {
       await page.goto(ext ? p : BASE + p, { waitUntil: ext ? 'load' : 'networkidle', timeout: 45000 });
