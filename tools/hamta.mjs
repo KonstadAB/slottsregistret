@@ -20,6 +20,9 @@
 //   tourScan:   [{ id, url }]       -> letar rundturer på en webbplats: startsidan och upp till 40 undersidor (de med
 //                                      ord som 360/rundtur/konferens först); hela HTML-koden söks efter kända
 //                                      rundtursleverantörer (Matterport, Kuula, 3DVista, krpano m.fl.)
+//   siteRead:   [{ id, url }]       -> läser slottets egen webbplats: startsidan och upp till 30 undersidor (de om bröllop,
+//                                      konferens, boende, spa, mat, besök, park och historia först). Texten sparas per slott i
+//                                      data/source/webbplatser/<id>.json (inte i svar.json), för granskning av erbjudanden och texter
 //   downloads:  [{ url, path }]     -> filen sparas i arkivet på path (t.ex. typsnitt), om den inte redan finns
 import fs from 'node:fs';
 
@@ -288,6 +291,49 @@ await step('tourScan', async () => {
   }
   await Promise.all([1, 2, 3, 4, 5, 6, 7, 8].map(worker));
   if ((req.tourScan || []).length) note('Rundtursletning', req.tourScan.length, 'webbplatser, med träffar', Object.values(out.tourscan).filter(x => x.hits.length || x.links360.length).length);
+});
+
+const READ_WORDS = /br[öo]llop|fest|vigsel|konferens|m[öo]te|boende|bo-|hotell|rum\b|rummen|[öo]vernatt|spa|bad|behandling|restaurang|meny|mat\b|kaf[eé]|caf[eé]|servering|bes[öo]k|visning|[öo]ppet|[öo]ppettid|guidad|museum|park|tr[äa]dg[åa]rd|historia|om-|om\b|about|slottet|evenemang|event|boka|priser|paket/i;
+const plain = html => html.replace(/<(script|style|noscript|svg)\b[\s\S]*?<\/\1>/gi, ' ').replace(/<br\s*\/?>|<\/(p|li|h[1-6]|div|tr|section)>/gi, '\n')
+  .replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#8211;|&ndash;/g, '–').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+  .replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
+await step('siteRead', async () => {
+  const queue = [...(req.siteRead || [])];
+  if (!queue.length) return;
+  fs.mkdirSync('data/source/webbplatser', { recursive: true });
+  let done = 0;
+  async function page(u) {
+    const r = await fetch(u, { headers: { 'User-Agent': HTML_UA, Accept: 'text/html,*/*', 'Accept-Language': 'sv,en;q=0.5' }, redirect: 'follow', signal: AbortSignal.timeout(20000) });
+    const html = (r.headers.get('content-type') || '').includes('html') ? await r.text() : '';
+    const title = ((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '').replace(/\s+/g, ' ').trim().slice(0, 160);
+    return { url: r.url || u, status: r.status, html, title };
+  }
+  async function worker() {
+    for (let s; (s = queue.shift());) {
+      const res = { id: s.id, start: s.url, read: new Date().toISOString().slice(0, 10), pages: [], error: null };
+      try {
+        const start = await page(s.url);
+        const host = new URL(start.url).hostname.replace(/^www\./, '');
+        const seen = new Set([start.url, s.url]);
+        const keep = p => res.pages.push({ url: p.url, status: p.status, title: p.title, text: plain(p.html).slice(0, 8000) });
+        keep(start);
+        const links = [...start.html.matchAll(/<a\b[^>]*?\shref=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)].map(m => {
+          try { return [new URL(m[1].replace(/&amp;/g, '&'), start.url).href.split('#')[0], m[2].replace(/<[^>]+>/g, ' ')]; } catch { return null; } })
+          .filter(h => h && /^https?:/.test(h[0]) && new URL(h[0]).hostname.replace(/^www\./, '') === host && !/\.(jpe?g|png|gif|webp|svg|pdf|css|js|xml|ico|mp4|zip)(\?|$)/i.test(h[0]) && !/\/(en|de|fi|da|no)\//i.test(h[0]));
+        const uniq = [...new Map(links.map(h => [h[0], h])).values()].filter(h => !seen.has(h[0]))
+          .sort((a, b) => READ_WORDS.test(b.join(' ')) - READ_WORDS.test(a.join(' '))).slice(0, 30);
+        for (const [h] of uniq) {
+          seen.add(h);
+          try { const p = await page(h); if (p.html && !seen.has(p.url + '#') ) keep(p); } catch {}
+          await sleep(200);
+        }
+      } catch (e) { res.error = String(e.cause && (e.cause.code || e.cause.message) || e.name || e).slice(0, 160); }
+      fs.writeFileSync(`data/source/webbplatser/${s.id.replace(/[^a-z0-9-]/g, '')}.json`, JSON.stringify(res));
+      done++;
+    }
+  }
+  await Promise.all([1, 2, 3, 4, 5, 6, 7, 8].map(worker));
+  note('Webbplatser lästa', done);
 });
 
 await step('downloads', async () => {
