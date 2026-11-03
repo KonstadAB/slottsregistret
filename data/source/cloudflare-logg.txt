@@ -1,5 +1,5 @@
-# 2026-11-03T12:08:38Z api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql": "CREATE TABLE users ( id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, name TEXT, phone TEXT, created_at TEXT NOT NULL, last_login TEXT ); CREATE TABLE memberships ( id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), castle TEXT NOT NULL, role TEXT, message TEXT, status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'removed')), created_at TEXT NOT NULL, decided_at TEXT, UNIQUE (user_id, castle) ); CREATE INDEX memberships_castle ON memberships(castle); CREATE TABLE login_tokens ( token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), expires_at TEXT NOT NULL, used_at TEXT ); CREATE TABLE sessions ( id_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), created_at TEXT NOT NULL, expires_at TEXT NOT NULL ); CREATE TABLE profiles ( id TEXT PRIMARY KEY, castle TEXT NOT NULL, data TEXT NOT NULL, user_id TEXT NOT NULL REFERENCES users(id), status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'replaced')), note TEXT, created_at TEXT NOT NULL, decided_at TEXT ); CREATE INDEX profiles_castle ON profiles(castle, status);"} ;; api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"SELECT name FROM sqlite_master WHERE type='table'"}
->> api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql": "CREATE TABLE users ( id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, name TEXT, phone TEXT, created_at TEXT NOT NULL, last_login TEXT ); CREATE TABLE memberships ( id TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), castle TEXT NOT NULL, role TEXT, message TEXT, status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'removed')), created_at TEXT NOT NULL, decided_at TEXT, UNIQUE (user_id, castle) ); CREATE INDEX memberships_castle ON memberships(castle); CREATE TABLE login_tokens ( token_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), expires_at TEXT NOT NULL, used_at TEXT ); CREATE TABLE sessions ( id_hash TEXT PRIMARY KEY, user_id TEXT NOT NULL REFERENCES users(id), created_at TEXT NOT NULL, expires_at TEXT NOT NULL ); CREATE TABLE profiles ( id TEXT PRIMARY KEY, castle TEXT NOT NULL, data TEXT NOT NULL, user_id TEXT NOT NULL REFERENCES users(id), status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'replaced')), note TEXT, created_at TEXT NOT NULL, decided_at TEXT ); CREATE INDEX profiles_castle ON profiles(castle, status);"}
+# 2026-11-03T12:21:27Z api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"DELETE FROM profiles; DELETE FROM memberships; DELETE FROM login_tokens; DELETE FROM sessions; DELETE FROM users; SELECT (SELECT count(*) FROM users) u, (SELECT count(*) FROM profiles) p"}
+>> api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"DELETE FROM profiles; DELETE FROM memberships; DELETE FROM login_tokens; DELETE FROM sessions; DELETE FROM users; SELECT (SELECT count(*) FROM users) u, (SELECT count(*) FROM profiles) p"}
 [
  {
   "results": [],
@@ -10,136 +10,10 @@
    "served_by_colo": "AMS",
    "served_by_primary": true,
    "timings": {
-    "sql_duration_ms": 1.7442
+    "sql_duration_ms": 0.1785
    },
-   "duration": 1.7442,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 24576,
-   "rows_read": 1,
-   "rows_written": 4,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.3609
-   },
-   "duration": 0.3609,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 36864,
-   "rows_read": 1,
-   "rows_written": 4,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.1973
-   },
-   "duration": 0.1973,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 40960,
-   "rows_read": 2,
-   "rows_written": 1,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.2084
-   },
-   "duration": 0.2084,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 49152,
-   "rows_read": 1,
-   "rows_written": 3,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.3251
-   },
-   "duration": 0.3251,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 57344,
-   "rows_read": 1,
-   "rows_written": 3,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.2485
-   },
-   "duration": 0.2485,
-   "changes": 0,
-   "last_row_id": 0,
-   "changed_db": true,
-   "size_after": 65536,
-   "rows_read": 1,
-   "rows_written": 3,
-   "total_attempts": 1
-  }
- },
- {
-  "results": [],
-  "success": true,
-  "meta": {
-   "served_by": "v3-prod",
-   "served_by_region": "WEUR",
-   "served_by_colo": "AMS",
-   "served_by_primary": true,
-   "timings": {
-    "sql_duration_ms": 0.181
-   },
-   "duration": 0.181,
-   "changes": 0,
+   "duration": 0.1785,
+   "changes": 1,
    "last_row_id": 0,
    "changed_db": true,
    "size_after": 69632,
@@ -147,29 +21,96 @@
    "rows_written": 1,
    "total_attempts": 1
   }
- }
-]
->> api POST /accounts/{account}/d1/database/9c9bc08f-b808-44e7-b8a9-975232cdef40/query {"sql":"SELECT name FROM sqlite_master WHERE type='table'"}
-[
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.1591
+   },
+   "duration": 0.1591,
+   "changes": 1,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 69632,
+   "rows_read": 2,
+   "rows_written": 1,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.1477
+   },
+   "duration": 0.1477,
+   "changes": 3,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 69632,
+   "rows_read": 6,
+   "rows_written": 3,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.1094
+   },
+   "duration": 0.1094,
+   "changes": 3,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 69632,
+   "rows_read": 6,
+   "rows_written": 3,
+   "total_attempts": 1
+  }
+ },
+ {
+  "results": [],
+  "success": true,
+  "meta": {
+   "served_by": "v3-prod",
+   "served_by_region": "WEUR",
+   "served_by_colo": "AMS",
+   "served_by_primary": true,
+   "timings": {
+    "sql_duration_ms": 0.3442
+   },
+   "duration": 0.3442,
+   "changes": 2,
+   "last_row_id": 0,
+   "changed_db": true,
+   "size_after": 69632,
+   "rows_read": 10,
+   "rows_written": 2,
+   "total_attempts": 1
+  }
+ },
  {
   "results": [
    {
-    "name": "_cf_KV"
-   },
-   {
-    "name": "users"
-   },
-   {
-    "name": "memberships"
-   },
-   {
-    "name": "login_tokens"
-   },
-   {
-    "name": "sessions"
-   },
-   {
-    "name": "profiles"
+    "u": 0,
+    "p": 0
    }
   ],
   "success": true,
@@ -179,14 +120,14 @@
    "served_by_colo": "AMS",
    "served_by_primary": true,
    "timings": {
-    "sql_duration_ms": 1.4647
+    "sql_duration_ms": 0.1386
    },
-   "duration": 1.4647,
+   "duration": 0.1386,
    "changes": 0,
    "last_row_id": 0,
    "changed_db": false,
    "size_after": 69632,
-   "rows_read": 15,
+   "rows_read": 0,
    "rows_written": 0,
    "total_attempts": 1
   }
