@@ -1,3 +1,3 @@
+/slott/karnan/
+/slott/runsa-slott/
 /konto/
-/konto/ansok/?slott=svaneholms-slott
-/slott/haga-slott/
