@@ -1,5 +1,5 @@
 {
- "built": "2026-10-17",
+ "built": "2026-11-03",
  "castles": [
   {
    "id": "malmohus",
@@ -263,7 +263,22 @@
     "park-och-tradgard",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-hovdala-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Mohammed Mroveh"
+     ],
+     "year": 2017,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF!2m2!1d56.10373330932681!2d13.71388923233674!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "backaskog-slott",
@@ -2058,7 +2073,22 @@
    "offers": [
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-tullesbo",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "ALTUS 360"
+     ],
+     "year": 2024,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.!2m2!1d55.71204619562005!2d13.66253890094276!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "bjarsjolagards-slott",
@@ -3255,7 +3285,22 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-lacko-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "View360 Sweden AB"
+     ],
+     "year": 2022,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF!2m2!1d58.67515683330208!2d13.21950266577586!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Tillfällig på Daniels begäran 2 nov; byts mot VR Medias egen när den är klar."
+    }
+   ]
   },
   {
    "id": "naas-slott",
@@ -5064,7 +5109,22 @@
    "offers": [
     "besok"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-linkopings-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Fredric Sommer"
+     ],
+     "year": 2015,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF!2m2!1d58.41044073182184!2d15.61546260610252!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Tillbaka 3 nov på Daniels begäran: 14 ihopkopplade bilder (följda via länkarna i Maps), inomhus."
+    }
+   ]
   },
   {
    "id": "lofstad-slott",
@@ -5226,7 +5286,22 @@
     "borgar-och-ruiner",
     "konferens"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-stegeborgs-slottsruin",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Samuel Cedermyr"
+     ],
+     "year": 2021,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF!2m2!1d58.44128314134035!2d16.59817181322306!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "sturefors-slott",
@@ -5776,7 +5851,22 @@
     "besok",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-nynas-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "george saguna"
+     ],
+     "year": 2018,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF!2m2!1d58.80758174024182!2d17.36444188259743!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "julita-gard",
@@ -5852,7 +5942,22 @@
     "konferens",
     "restaurang-och-kafe"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-sundbyholms-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "360 Swiss GmbH"
+     ],
+     "year": 2024,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.!2m2!1d59.44611030178714!2d16.62400827220129!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "malsakers-slott",
@@ -7144,7 +7249,22 @@
    "offers": [
     "besok"
    ],
-   "tours": []
+   "tours": [
+    {
+     "id": "gm-tyreso-slott",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Tyresö slott"
+     ],
+     "year": 2016,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.!2m2!1d59.23524132080628!2d18.30468220478975!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+    }
+   ]
   },
   {
    "id": "svartsjo-slott",
@@ -9669,6 +9789,702 @@
     "fastningar"
    ],
    "tours": []
+  },
+  {
+   "id": "toftaholm",
+   "slug": "toftaholm",
+   "name": "Toftaholm herrgård",
+   "type": "Herrgård",
+   "kommun": "Ljungby",
+   "lan": "Kronoberg",
+   "lanSlug": "kronoberg",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": "Q10678513",
+   "lat": 57.028148,
+   "lon": 14.013403,
+   "inception": null,
+   "website": "https://www.toftaholm.se/",
+   "image": {
+    "file": "Toftaholm hotell.jpg",
+    "path": "e/e8/Toftaholm_hotell.jpg",
+    "w": 1560,
+    "h": 1113,
+    "artist": "Udo Schröter",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Toftaholm_hotell.jpg"
+   },
+   "wiki": {
+    "title": "Toftaholm",
+    "text": "Toftaholm är en herrgård i Dörarps socken i Ljungby kommun i Småland. Den nuvarande huvudbyggnaden är i trä, och uppfördes 1871. Byggnaden flankeras av ett par äldre flyglar. Herrgården är numera konferensanläggning med restaurang och hotellverksamhet.\nToftaholm ligger vid östra stranden av sjön Vidöstern och omkring herrgården ligger Toftaholms naturreservat. En runsten, Smålands runinskrifter 31, står på en äng mellan vägen och herrgården. I Toftaholm finns även en campingplats och ett stugområde. Motorvägen på E4 går förbi Toftaholm."
+   },
+   "text": null,
+   "alts": [
+    "Dörarp 34:1",
+    "Stenhusholmen",
+    "Toftaholm"
+   ],
+   "offers": [
+    "bo-pa-slott",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "vrmedia-toftaholm",
+     "kind": "walk",
+     "provider": "StepInside",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+     "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/index.htm",
+     "source": "vrmedia",
+     "checked": "2026-11-02",
+     "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+    }
+   ]
+  },
+  {
+   "id": "soderfors-herrgard",
+   "slug": "soderfors-herrgard",
+   "name": "Söderfors herrgård",
+   "type": "Herrgård",
+   "kommun": "Tierp",
+   "lan": "Uppsala",
+   "lanSlug": "uppsala",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": "Q10688516",
+   "lat": 60.383427,
+   "lon": 17.2388221,
+   "inception": null,
+   "website": "https://www.soderforsherrgard.se/",
+   "image": {
+    "file": "Bergslagssafari Uppland 2012 13 Söderfors herrgård 1.jpg",
+    "path": "4/4f/Bergslagssafari_Uppland_2012_13_Söderfors_herrgård_1.jpg",
+    "w": 5184,
+    "h": 3456,
+    "artist": "Calle Eklund/V-wolf",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bergslagssafari_Uppland_2012_13_S%C3%B6derfors_herrg%C3%A5rd_1.jpg"
+   },
+   "wiki": {
+    "title": "Söderfors herrgård",
+    "text": "Söderfors herrgård är en herrgård i Söderfors, Söderfors socken, Tierps kommun, Uppsala län (Uppland). Huvudbyggnaden är en timrad tvåvåningsbyggnad i karolinsk stil med spåntäckt säteritak och stod färdig 1700. 1749-1756 byggdes den om under ledning av arkitekten Carl Hårleman. Byggnaden fick då panelade fasader, som målades med grå oljefärg, i vilken man slog in fin sand, varefter huset målades en andra gång. Vidare ersattes säteritaket med ett brutet tak och byggnaden fick ett torn, vilket dock revs på 1800-talet.\n\nI samband med ombyggnationerna i mitten av 1700-talet uppfördes också två flygelbyggnader (färdiga före år 1753), som i det närmaste fick kubisk form med spetsigt tak. De byggdes i två våningar och fick samma fasader som huvudbyggnaden. I östra flygeln fanns brukskontoret, medan den andra blev bostad åt bruksbokhållaren."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "gm-soderfors-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk!2m2!1d60.38259718173753!2d17.237862484547303!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk",
+     "source": "streetview",
+     "checked": "2026-11-02",
+     "note": "VR Medias tur på Google Maps (källarbaren). VR Medias egen version hittades inte på S3; byt när länken finns."
+    }
+   ]
+  },
+  {
+   "id": "fredensborgs-herrgard",
+   "slug": "fredensborgs-herrgard",
+   "name": "Fredensborgs herrgård",
+   "type": "Herrgård",
+   "kommun": "Vimmerby",
+   "lan": "Kalmar",
+   "lanSlug": "kalmar",
+   "use": "Hotell, restaurang",
+   "open": "Delvis",
+   "prio": 2,
+   "qid": null,
+   "lat": 57.5762232,
+   "lon": 15.8056804,
+   "inception": null,
+   "website": "http://www.fredensborg.com/",
+   "image": null,
+   "wiki": null,
+   "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "vrmedia-fredensborgs-herrgard",
+     "kind": "walk",
+     "provider": "StepInside",
+     "credit": [
+      "VR Media International AB"
+     ],
+     "year": 2026,
+     "embed": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+     "url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/index.htm",
+     "source": "vrmedia",
+     "checked": "2026-11-02",
+     "note": "VR Medias egen version (3DVista). Tillagd på Daniels begäran 2 nov."
+    }
+   ]
+  },
+  {
+   "id": "cedergrenska-tornet",
+   "slug": "cedergrenska-tornet",
+   "name": "Cedergrenska tornet",
+   "type": "Torn",
+   "kommun": "Danderyd",
+   "lan": "Stockholm",
+   "lanSlug": "stockholm",
+   "use": "Restaurang, konferens, bröllop",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q10444370",
+   "lat": 59.3804333,
+   "lon": 18.0555123,
+   "inception": null,
+   "website": "http://www.cedergrenskatornet.se/",
+   "image": {
+    "file": "Cedergrenska tornet 2014.jpg",
+    "path": "3/36/Cedergrenska_tornet_2014.jpg",
+    "w": 3852,
+    "h": 2856,
+    "artist": "Holger.Ellgaard",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cedergrenska_tornet_2014.jpg"
+   },
+   "wiki": {
+    "title": "Cedergrenska tornet",
+    "text": "Cedergrenska tornet är en kommunalt ägd  byggnad i Cedergrenska parken i Danderyds kommun. Det byggdes på uppdrag av jägmästare Albert Gotthard Nestor Cedergren (1849–1921) på dennes mark i Stocksund. Cedergren hade varit den förste som köpte mark av Stockby AB, ett aktiebolag som hade grundats för att exploatera mark och skapa ett villasamhälle i Stocksund. Efter att tornet stått ofullbordat under många år slutfördes bygget och invigdes den 21 april 1996. Byggnaden är k-märkt. Idag drivs byggnaden av skolkoncernen Cedergrenska och används bland annat som event- och konferenslokal."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-cedergrenska-tornet",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Ian Johnson Photo"
+     ],
+     "year": 2014,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.!2m2!1d59.38045137471623!2d18.055507560117153!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (10 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "skytteholm",
+   "slug": "skytteholm",
+   "name": "Skytteholm",
+   "type": "Herrgård",
+   "kommun": "Ekerö",
+   "lan": "Stockholm",
+   "lanSlug": "stockholm",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q10670859",
+   "lat": 59.3196315,
+   "lon": 17.6687962,
+   "inception": null,
+   "website": "http://www.skytteholm.se/",
+   "image": {
+    "file": "Skytteholm 2008.jpg",
+    "path": "b/b7/Skytteholm_2008.jpg",
+    "w": 2475,
+    "h": 1605,
+    "artist": "Holger.Ellgaard",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Skytteholm_2008.jpg"
+   },
+   "wiki": {
+    "title": "Skytteholm, Ekerö kommun",
+    "text": "Skytteholm är ett tidigare säteri vid Långtarmen i Ekerö socken på Ekerön, Ekerö kommun. Idag är Skytteholm en hotell- och konferensanläggning med en omfattande samling repliker av Carl Milles-skulpturer."
+   },
+   "text": null,
+   "alts": [
+    "Skytteholm, Ekerö kommun",
+    "Skytteholms herrgård"
+   ],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "gm-skytteholm",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Skytteholm"
+     ],
+     "year": 2016,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF!2m2!1d59.31978375101988!2d17.668496035666774!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (16 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "stora-nyckelviken",
+   "slug": "stora-nyckelviken",
+   "name": "Stora Nyckelviken",
+   "type": "Herrgård",
+   "kommun": "Nacka",
+   "lan": "Stockholm",
+   "lanSlug": "stockholm",
+   "use": "Kafé, bröllop, park",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q10681080",
+   "lat": 59.3226028,
+   "lon": 18.1906644,
+   "inception": null,
+   "website": "https://www.nyckelvikensherrgard.se/",
+   "image": {
+    "file": "Stora Nyckelviken February 2011.jpg",
+    "path": "b/b8/Stora_Nyckelviken_February_2011.jpg",
+    "w": 2905,
+    "h": 1854,
+    "artist": "Ankara",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Stora_Nyckelviken_February_2011.jpg"
+   },
+   "wiki": {
+    "title": "Stora Nyckelviken",
+    "text": "Stora Nyckelviken är en herrgård vid Nyckelviken i Nacka socken i Nacka kommun belägen nära Saltsjön mellan Jarlaberg och Skuru. Herrgården uppfördes i mitten av 1700-talet av Herman Petersen och ägs idag av Nacka kommun. Stora Nyckelviken är klassat som byggnadsminne. På platsen har det legat en sjökrog från åtminstone 1600-talet."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "brollop-och-fest",
+    "konferens",
+    "park-och-tradgard",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-stora-nyckelviken",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "3D Swiss Media"
+     ],
+     "year": 2024,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF!2m2!1d59.322616758011485!2d18.19065625472392!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (6 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "riddersviks-herrgard",
+   "slug": "riddersviks-herrgard",
+   "name": "Riddersviks herrgård",
+   "type": "Herrgård",
+   "kommun": "Stockholm",
+   "lan": "Stockholm",
+   "lanSlug": "stockholm",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": null,
+   "lat": 59.3797057,
+   "lon": 17.7980926,
+   "inception": null,
+   "website": "http://www.riddersviksherrgard.se/",
+   "image": null,
+   "wiki": null,
+   "text": "Riddersviks herrgård ligger vid Mälaren i Hässelby, i västra Stockholm. Herrgården från 1700-talet är i dag hotell med restaurang, konferens, fest och bröllop.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-riddersviks-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Ingemar Edfalk"
+     ],
+     "year": 2012,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.!2m2!1d59.37971183339639!2d17.798054402011868!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (18 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "friiberghs-herrgard",
+   "slug": "friiberghs-herrgard",
+   "name": "Friiberghs herrgård",
+   "type": "Herrgård",
+   "kommun": "Enköping",
+   "lan": "Uppsala",
+   "lanSlug": "uppsala",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": null,
+   "lat": 59.6994444,
+   "lon": 17.5019444,
+   "inception": null,
+   "website": "http://www.friibergh.se/",
+   "image": null,
+   "wiki": null,
+   "text": "Friiberghs herrgård ligger sjönära i Enköpings kommun, mellan Stockholm och Uppsala. Herrgården är i dag hotell med restaurang, konferens, bröllop och golfbana.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-friiberghs-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Abil MEDIA"
+     ],
+     "year": 2023,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF!2m2!1d59.69940301853662!2d17.501908030316468!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (7 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "siggesta-gard",
+   "slug": "siggesta-gard",
+   "name": "Siggesta gård",
+   "type": "Herrgård",
+   "kommun": "Värmdö",
+   "lan": "Stockholm",
+   "lanSlug": "stockholm",
+   "use": "Hotell, restaurang, konferens",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q10667547",
+   "lat": 59.3722555,
+   "lon": 18.5281764,
+   "inception": null,
+   "website": "https://www.siggestagard.se/",
+   "image": {
+    "file": "Siggesta 01.jpg",
+    "path": "6/6f/Siggesta_01.jpg",
+    "w": 2502,
+    "h": 1634,
+    "artist": "Udo Schröter",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Siggesta_01.jpg"
+   },
+   "wiki": {
+    "title": "Siggesta gård",
+    "text": "Siggesta gård är en herrgård med lantbruk samt turist- och fritidsverksamhet i Värmdö kommun öster om Stockholm. Gården, som ligger i en gammal kulturbygd, är dokumenterad från år 1323. \nDet finns en folklig tradition att socknens första kyrka skulle ha funnits vid Siggesta, men det finns inga uppgifter som bekräftar detta. I Siggestas närhet finns tio dokumenterade gravfält med 85 gravar. Området har troligen varit bebott sedan järnåldern och vendeltid, cirka 550–800 e. Kr. I närheten av gården finns även en 900 år gammal ek.\nEnligt Beskrifning öfver Stockholms län ska gården under medeltiden ha tillhört släkten Vasa, varefter den skänktes till kyrkan. I samband med reformationen återgick gården i Vasaättens ägo. Kung Erik XIV skänkte därefter gården till Jakob Bagge d ä, vars släkt ägde gården in på 1600-talet. I ägarlängden finns, enligt samma källa, även bland andra släkterna  Svinhufvud, Fleming (1662) och von Scheven (1770).\nEn tidigare huvudbyggnad revs år 1732, då ägaren Gabriel Cronstedt uppförde en ny mangårdsbyggnad. Den i sin tur förföll och revs 1872. Runt sekelskiftet 1900 byggdes flera nya ekonomibyggnader och arbetarbostäder vid gården, men den nuvarande huvudbyggnaden uppfördes först år 1938. Den ritades i 1700-talsromantisk stil av arkitekten W Nathanson. \nGården ägs sedan år 1990 av finansmannen Olof Stenhammar, som har utvecklat verksamheten med bland annat konferenslokaler i herrgården samt restaurang, konsertlokal, butiker och ridskola i intilliggande byggnader."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-siggesta-gard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Siggesta Gård - Hotell & konferens"
+     ],
+     "year": 2016,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.!2m2!1d59.3715919713643!2d18.526845172698664!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (29 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "hooks-herrgard",
+   "slug": "hooks-herrgard",
+   "name": "Hooks herrgård",
+   "type": "Herrgård",
+   "kommun": "Vaggeryd",
+   "lan": "Jönköping",
+   "lanSlug": "jonkoping",
+   "use": "Hotell, restaurang, konferens, spa",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q18290679",
+   "lat": 57.5392231,
+   "lon": 14.2711141,
+   "inception": null,
+   "website": "http://www.hooksherrgard.se/",
+   "image": {
+    "file": "Hooks Herrgård.jpg",
+    "path": "2/20/Hooks_Herrgård.jpg",
+    "w": 3072,
+    "h": 2304,
+    "artist": "Lsj",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hooks_Herrg%C3%A5rd.jpg"
+   },
+   "wiki": {
+    "title": "Hooks herrgård",
+    "text": "Hooks säteri är en herrgård i Svenarums socken i Vaggeryds kommun, Småland.\nHerrgården ligger strax söder om Jönköping vid Hoksåns utlopp ur Hokasjön, nära Hok. Herrgården omges av en nästan jämn sandhed, bevuxen med granskog.\nHooks by testamenterades 1408 till Nydala kloster, varifrån det av Gustav Vasa 1527 drogs in till hans privata egendom. 1624 arrenderades Hook ut till storköpmannen Peder Gudmundsson som drev fåravel här för produktion av ull till sitt vantmakeri i Jönköping. 1639 köpte Peder Gudmundssons svåger Johan Strömfelt och gjorde jorden till frälse. När Peder Gudmundsson blev adlad 1646 kunde han själv köpa Hook, gissningsvis hade svågern redan från början agerat bulvan i väntan på ett adlande då Peder Gudmundsson kunde ta över godset. Efter hans död 1655 uppstod tvist om ägarskapet, som efter änkan Catharina Törnskölds död 1687 tillföll dottern Brita Sofia, gift med Christoffer von Günthersberg, och därefter deras dotter Anna Margareta, gift med Johan Otto von Vicken. De sålde 1717 Hook till lagmannen Nils Stedt. Han lät 1728 anlägga ett järnbruk vid Humbleforsen söder om herrgården, som kom att ges namnet Lindefors. En masugn uppfördes vid Lindefors 1728 och sonen Claes Henrik Stedt lät 1765 utöka verksamheten vid Lindefors med ett manufakturverk. Han lät även uppföra den nuvarande huvudbyggnaden, en envånings reveterad träbyggnad 1778–1786. Material hämtades delvis från Nydala kloster, som vid den där tiden ägdes av Stedt. Den tidigare byggnaden var då från 1703 och hade ersatt en äldre som brann 1700. Efter Claes Henrik Stedts död övertogs Hook 1787 av sonen Johan Axel Stedt. Det var han som lät uppföra flyglarna och ett flertal av ekonomibyggnaderna. Vid hans död 1805 visade det sig att familjens ekonomi var i dåligt skick, och redan 1819 tvingades sonen Claes Fredrik Stedt gå ifrån Hook. Det bytte därefter ägare ett flertal gånger innan det 1816 hamnade i släkten Killanders ägo, 1836 blev Johan Fredrik Killander ägare. Det var hans hustru Henriette Killander som enligt uppgift inspirerade till den första pinnstolen i Sverige. 1868 lämnade Johan Fredrik Killander Hook och bosatte sig i Jönköping, Lindefors bruk gick allt sämre, och sista masugnsblåsningen ägde rum på 1880-talet. Efter försäljning förvandlades Lidefors till en trämassafabrik och två kilometer söder om bruket vid Granfors anlades ett träsliperi, senare kartongfabrik. De omfattande skogsinnehavet gjorde godset intressant för köpare, och 1912 köptes det av Munksjö AB. Munksjö lät 1923 arrendera ut herrgårdsbyggnaden till Lillemor Åkerhielm, som startade herrgårdspensionat. 1949 tog Rudolf Isoz över verksamheten och utvecklade den. Då Munksjö 1963 sålde av herrgården från ägorna köptes den av familjen Edberg, som utvidgade verksamheten.\nDrottning Sofia valde Hooks herrgård till rekreationsort somrarna 1894 och 1895, då trakten ansågs ha en frisk och stimulerande höglands- och skogsluft. \nHooks Golfklubb, grundad 1934, har två golfbanor, Skogbanan och Parkbanan."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "konferens",
+    "restaurang-och-kafe",
+    "spa"
+   ],
+   "tours": [
+    {
+     "id": "gm-hooks-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Tommy Hvitfeldt"
+     ],
+     "year": 2022,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.!2m2!1d57.539344860849255!2d14.270969389173406!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (17 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "tokeryds-herrgard",
+   "slug": "tokeryds-herrgard",
+   "name": "Tokeryds herrgård",
+   "type": "Herrgård",
+   "kommun": "Jönköping",
+   "lan": "Jönköping",
+   "lanSlug": "jonkoping",
+   "use": "Hotell",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q112014375",
+   "lat": 57.8182843,
+   "lon": 14.1086192,
+   "inception": null,
+   "website": "http://www.tokerydsherrgard.se/",
+   "image": null,
+   "wiki": null,
+   "text": "Tokeryds herrgård är ett herrgårdshotell från 1800-talet, omgivet av åkrar och småländsk skog sju minuter från centrala Jönköping. Här finns rum, sällskapsrum och en lada för fest.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest"
+   ],
+   "tours": [
+    {
+     "id": "gm-tokeryds-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Daniel Roos"
+     ],
+     "year": 2012,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.!2m2!1d57.81817143605726!2d14.108639618560975!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (30 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "baldersnas-herrgard",
+   "slug": "baldersnas-herrgard",
+   "name": "Baldersnäs herrgård",
+   "type": "Herrgård",
+   "kommun": "Bengtsfors",
+   "lan": "Västra Götaland",
+   "lanSlug": "vastra-gotaland",
+   "use": "Hotell, restaurang, park",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": null,
+   "lat": 58.9633653,
+   "lon": 12.2772244,
+   "inception": null,
+   "website": "http://www.baldersnas.eu/",
+   "image": null,
+   "wiki": null,
+   "text": "Baldersnäs herrgård ligger vid sjön Laxsjön i Dalsland, med en stor park runt huset. Herrgården från sekelskiftet är i dag hotell med restaurang, konferens och bröllop.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "park-och-tradgard",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-baldersnas-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "360 Alpine Vision AG"
+     ],
+     "year": 2025,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.!2m2!1d58.96341753867311!2d12.277313262391521!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (4 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "hofsnas-herrgard",
+   "slug": "hofsnas-herrgard",
+   "name": "Hofsnäs herrgård",
+   "type": "Herrgård",
+   "kommun": "Tranemo",
+   "lan": "Västra Götaland",
+   "lanSlug": "vastra-gotaland",
+   "use": "Kafé, restaurang, övernattning",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": null,
+   "lat": 57.6299882,
+   "lon": 13.2924128,
+   "inception": null,
+   "website": "http://www.hofsnas.se/",
+   "image": null,
+   "wiki": null,
+   "text": "Hofsnäs herrgård ligger utanför Länghem i Tranemo kommun. Här finns restaurang, bistro och kafé, boende, julbord och evenemang.",
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens",
+    "restaurang-och-kafe"
+   ],
+   "tours": [
+    {
+     "id": "gm-hofsnas-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "Mikael Guldbransen"
+     ],
+     "year": 2018,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF!2m2!1d57.63005629930963!2d13.292085762178521!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (15 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
+  },
+  {
+   "id": "ulfshyttans-herrgard",
+   "slug": "ulfshyttans-herrgard",
+   "name": "Ulfshyttans herrgård",
+   "type": "Herrgård",
+   "kommun": "Säter",
+   "lan": "Dalarna",
+   "lanSlug": "dalarna",
+   "use": "Hotell",
+   "open": "Delvis",
+   "prio": 3,
+   "qid": "Q134777790",
+   "lat": 60.3064651,
+   "lon": 15.3847815,
+   "inception": null,
+   "website": "https://www.ulfshyttan.se/",
+   "image": {
+    "file": "1910tal 250611.jpg",
+    "path": "2/2b/1910tal_250611.jpg",
+    "w": 307,
+    "h": 300,
+    "artist": "K-E Forsslund",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1910tal_250611.jpg"
+   },
+   "wiki": {
+    "title": "Ulfshyttans herrgård",
+    "text": "Ulfshyttans herrgård är huvudbyggnaden för det tidigare Ulfshyttans järnbruk i Dalarna, belägen vid Lilla Ulvsjön i Säters kommun. Bruket anlades redan på 1600‐talet och förvaltades sedan länge gemensamt med Grängshammars bruk. Herrgårdens nuvarande huvudbyggnad uppfördes på 1890-talet och under 1900-talets första decennium i samband med att brukets administration flyttades till Ulfshyttan. Byggnaden står på en halvö som sträcker sig ut i Ulvsjön, och hela gårdsmiljön är ett välbevarat exempel på bruksepokens herrgårdar i Bergslagen."
+   },
+   "text": null,
+   "alts": [],
+   "offers": [
+    "bo-pa-slott",
+    "brollop-och-fest",
+    "konferens"
+   ],
+   "tours": [
+    {
+     "id": "gm-ulfshyttans-herrgard",
+     "kind": "walk",
+     "provider": "Google Maps",
+     "credit": [
+      "360 Alpine Vision AG"
+     ],
+     "year": 2025,
+     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.!2m2!1d60.30664264715481!2d15.385044833937096!3f0!4f0!5f0.7820865974627469",
+     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.",
+     "source": "streetview",
+     "checked": "2026-11-03",
+     "note": "Google-räkningen 2 nov (3 ihopkopplade bilder, inomhus, granskad för hand)"
+    }
+   ]
   }
  ],
  "counties": [
@@ -9677,7 +10493,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 7
+   "withTour": 9
   },
   {
    "name": "Blekinge",
@@ -9697,22 +10513,22 @@
    "name": "Kronoberg",
    "full": "Kronobergs län",
    "slug": "kronoberg",
-   "total": 4,
-   "withTour": 1
+   "total": 5,
+   "withTour": 2
   },
   {
    "name": "Kalmar",
    "full": "Kalmar län",
    "slug": "kalmar",
-   "total": 9,
-   "withTour": 1
+   "total": 10,
+   "withTour": 2
   },
   {
    "name": "Jönköping",
    "full": "Jönköpings län",
    "slug": "jonkoping",
-   "total": 6,
-   "withTour": 0
+   "total": 8,
+   "withTour": 2
   },
   {
    "name": "Gotland",
@@ -9725,36 +10541,36 @@
    "name": "Västra Götaland",
    "full": "Västra Götalands län",
    "slug": "vastra-gotaland",
-   "total": 22,
-   "withTour": 2
+   "total": 24,
+   "withTour": 5
   },
   {
    "name": "Östergötland",
    "full": "Östergötlands län",
    "slug": "ostergotland",
    "total": 17,
-   "withTour": 1
+   "withTour": 3
   },
   {
    "name": "Södermanland",
    "full": "Södermanlands län",
    "slug": "sodermanland",
    "total": 27,
-   "withTour": 0
+   "withTour": 2
   },
   {
    "name": "Stockholm",
    "full": "Stockholms län",
    "slug": "stockholm",
-   "total": 43,
-   "withTour": 4
+   "total": 48,
+   "withTour": 10
   },
   {
    "name": "Uppsala",
    "full": "Uppsala län",
    "slug": "uppsala",
-   "total": 14,
-   "withTour": 2
+   "total": 16,
+   "withTour": 4
   },
   {
    "name": "Västmanland",
@@ -9775,6 +10591,13 @@
    "full": "Värmlands län",
    "slug": "varmland",
    "total": 3,
+   "withTour": 1
+  },
+  {
+   "name": "Dalarna",
+   "full": "Dalarnas län",
+   "slug": "dalarna",
+   "total": 1,
    "withTour": 1
   },
   {
@@ -9813,7 +10636,7 @@
    "short": "Bo",
    "kind": "offer",
    "intro": "Slott och slottsmiljöer där du kan övernatta – slottshotell, värdshus och gästrum.",
-   "total": 36
+   "total": 48
   },
   {
    "slug": "spa",
@@ -9821,7 +10644,7 @@
    "short": "Spa",
    "kind": "offer",
    "intro": "Slott och slottshotell med spa, bad eller behandlingar.",
-   "total": 5
+   "total": 9
   },
   {
    "slug": "konferens",
@@ -9829,7 +10652,7 @@
    "short": "Konferens",
    "kind": "offer",
    "intro": "Slott för möten, konferenser och kickoffer.",
-   "total": 60
+   "total": 73
   },
   {
    "slug": "brollop-och-fest",
@@ -9837,7 +10660,7 @@
    "short": "Bröllop & fest",
    "kind": "offer",
    "intro": "Slott för bröllop, vigsel och fest.",
-   "total": 47
+   "total": 59
   },
   {
    "slug": "restaurang-och-kafe",
@@ -9845,7 +10668,7 @@
    "short": "Mat",
    "kind": "offer",
    "intro": "Slott med restaurang, kafé eller servering.",
-   "total": 55
+   "total": 67
   },
   {
    "slug": "besok",
@@ -9861,7 +10684,7 @@
    "short": "Park",
    "kind": "offer",
    "intro": "Slott med park eller trädgård som går att besöka.",
-   "total": 16
+   "total": 18
   },
   {
    "slug": "kungliga-slott",
@@ -9889,8 +10712,8 @@
   }
  ],
  "stats": {
-  "total": 250,
-  "withTour": 19,
-  "located": 250
+  "total": 264,
+  "withTour": 41,
+  "located": 264
  }
 }

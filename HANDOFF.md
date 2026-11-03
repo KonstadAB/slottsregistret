@@ -201,3 +201,23 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Satt till `look` (visas inte): Bosjökloster, Borgholm, Visingsborg, Vadstena, Linköping, Mälsåker, Venngarn, Vaxholm, Gävle, Almnäs, Drottningholms och Skoklosters Googlebilder.
 - Nya: Skokloster (Google Arts & Culture), Mauritzberg (slottets Panotour), Bäckaskog (GS360), Drottningholm Hedvig Eleonoras sängkammare (5 scener).
 - Bara rundturerna i site-data.json patchades (inte hela sammanstall.py, som ändrar erbjudanden).
+
+## Google-räkningen 2 nov (grenen claude/google-turer-nov)
+- Ny genomsökning runt Googles egen punkt för varje slott (tät sökning ca 100 m, även ägaruppladdade bilder, CIHM), turer följda via
+  länkarna, bara ihopkopplade grupper om minst 3 bilder och med bilder inomhus. Varje kandidat granskad för hand via miniatyrer.
+- Tillagda (walk): Tyresö slott (slottets egen tur), Sundbyholms slott, Nynäs slott, Hovdala slott, Tullesbo, Stegeborgs slottsruin
+  (inne i ruinen under skyddstaket). 28 → 34 slott med rundtur.
+- Inte tillagda: Öster-Malma, Ekenäs, Karlbergs slott (bara utomhus); Glimmingehus (inomhus bara besökscentrets butik);
+  Läckö (View360-tur finns, men VR Medias egen ska in när Daniel säger till).
+- site-data.json lappades bara med turerna: en ny körning av sammanstall.py ändrade även erbjudanden för åtta slott
+  (Sofiero, Backaskog, Övedskloster, Högestad, Solliden, Rockelstad, Tistad, Ängsö), det är inte med här och bör ses över separat.
+- Herrgårdar med Google-tur som inte finns i listan än: Toftaholm, Söderfors och Fredensborg (alla VR Media), Skytteholm,
+  Siggesta, Riddersvik, Hooks, Tokeryd, Friibergh, Hofsnäs, Baldersnäs, Ulfshyttan, Cedergrenska tornet, Stora Nyckelviken, Örestens fästning.
+- Tillägg samma kväll (Daniel 2 nov): tre herrgårdar med VR Media-turer inlagda som nya poster: Toftaholm och Fredensborg (VR Medias
+  egna 3DVista-versioner på S3), Söderfors (VR Medias tur på Google Maps, källarbaren; S3-version hittades inte under namnvarianter).
+  Läckö har fått View360-turen från Google tills VR Medias egen är klar (Daniel: byt när den kommer). Nu 253 slott, 38 med rundtur.
+  Fredensborg saknar Wikidata-post och bild; kort text i manuellt.json.
+- 3 nov (Daniel: "kör på"): elva herrgårdar till med riktiga Google-turer (granskade för hand): Cedergrenska tornet, Skytteholm, Stora Nyckelviken,
+  Riddersvik, Friibergh, Siggesta, Hooks, Tokeryd, Baldersnäs, Hofsnäs, Ulfshyttan. Läge och webbplats från Google Places, korta texter i
+  manuellt.json där Wikipedia saknas. Bortsorterade (bara utomhus): Nolhaga, Örestens fästning. Nu 264 platser, 49 med rundtur.
+- 3 nov: Linköpings slott tillbaka som walk på Daniels begäran (14 ihopkopplade bilder enligt länkarna i Maps). Publicerat samma dag.

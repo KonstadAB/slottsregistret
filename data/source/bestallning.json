@@ -1,8 +1,61 @@
 {
-"commonsFiles": [
-"0284Salnecke slott.jpg",
-"DJI 0227SVS 05.jpg",
-"Dalaborg2.jpg",
-"Sthästnäsexteriör.JPG"
-]
+ "wdSearch": [
+  {
+   "id": "cedergrenska-tornet",
+   "q": "Cedergrenska tornet"
+  },
+  {
+   "id": "skytteholm",
+   "q": "Skytteholm"
+  },
+  {
+   "id": "stora-nyckelviken",
+   "q": "Stora Nyckelviken"
+  },
+  {
+   "id": "riddersviks-herrgard",
+   "q": "Riddersviks herrgård"
+  },
+  {
+   "id": "friiberghs-herrgard",
+   "q": "Friiberghs herrgård"
+  },
+  {
+   "id": "siggesta-gard",
+   "q": "Siggesta gård"
+  },
+  {
+   "id": "hooks-herrgard",
+   "q": "Hooks herrgård"
+  },
+  {
+   "id": "tokeryds-herrgard",
+   "q": "Tokeryds herrgård"
+  },
+  {
+   "id": "baldersnas-herrgard",
+   "q": "Baldersnäs herrgård"
+  },
+  {
+   "id": "hofsnas-herrgard",
+   "q": "Hofsnäs herrgård"
+  },
+  {
+   "id": "ulfshyttans-herrgard",
+   "q": "Ulfshyttans herrgård"
+  }
+ ],
+ "textPages": [
+  "http://www.cedergrenskatornet.se/",
+  "http://www.skytteholm.se/",
+  "https://www.nyckelvikensherrgard.se/",
+  "http://www.riddersviksherrgard.se/",
+  "http://www.friibergh.se/",
+  "https://www.siggestagard.se/",
+  "http://www.hooksherrgard.se/",
+  "http://www.tokerydsherrgard.se/",
+  "http://www.baldersnas.eu/",
+  "http://www.hofsnas.se/",
+  "https://www.ulfshyttan.se/"
+ ]
 }
