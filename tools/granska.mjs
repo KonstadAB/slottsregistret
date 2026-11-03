@@ -54,6 +54,7 @@ for (const [label, vp] of Object.entries(sizes)) {
       // (bara i datorvarvet, så att det inte går iväg två gånger). En hel inloggningslänk som rad loggar in, och raderna efter ser då kontot.
       if ((action === 'loggain' || action === 'ansok') && label === 'dator') {
         const email = line.split(/\s+/)[2];
+        if (action === 'loggain' && !(await page.locator('[data-action=logga-in]').isVisible())) { await ctx.clearCookies(); await page.reload({ waitUntil: 'networkidle' }); }
         const f = page.locator(action === 'loggain' ? '[data-action=logga-in]' : '[data-action=ansok]');
         if (action === 'ansok') { await f.locator('#namn').fill('Test från granskningen'); }
         await f.locator('[name=epost]').fill(email);
@@ -63,6 +64,12 @@ for (const [label, vp] of Object.entries(sizes)) {
       if (action === 'godkann' && label === 'dator') { // godkänner den första ansökan på /konto/granska/
         page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
         await page.locator('.review .btn-gold').first().click(); await page.waitForTimeout(3000);
+      }
+      if (action === 'profil' && label === 'dator') { // skickar in en provtext för det första slottet på /konto/
+        page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
+        const f = page.locator('.account-castle').first();
+        await f.locator('textarea').fill('Provtext från granskningen. Den här texten ska inte synas på sajten.');
+        await f.locator('[type=submit]').click(); await page.waitForTimeout(3000);
       }
       if (action === 'start') { const b = page.locator('.tour [data-start]').first(); await b.scrollIntoViewIfNeeded(); await b.click(); await page.waitForTimeout(10000); }
       await page.screenshot({ path: `${out}/${name}-${label}-topp.jpg`, type: 'jpeg', quality: 75 });
