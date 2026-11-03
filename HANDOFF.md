@@ -221,3 +221,19 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
   Riddersvik, Friibergh, Siggesta, Hooks, Tokeryd, Baldersnäs, Hofsnäs, Ulfshyttan. Läge och webbplats från Google Places, korta texter i
   manuellt.json där Wikipedia saknas. Bortsorterade (bara utomhus): Nolhaga, Örestens fästning. Nu 264 platser, 49 med rundtur.
 - 3 nov: Linköpings slott tillbaka som walk på Daniels begäran (14 ihopkopplade bilder enligt länkarna i Maps). Publicerat samma dag.
+
+## 3 nov: erbjudanden, egna texter, konton
+- **Erbjudanden granskade slott för slott** (Daniel: "gå igenom noga så att vi inte har fel"): `data/erbjudanden.json` har för varje slott
+  webbplats, erbjudanden med källa (URL + citat), vad som togs bort och varför, osäkerheter och korta fakta. `tools/sammanstall.py`
+  använder den före allt annat (typtaggarna kungliga/borgar/fästningar räknas fortfarande ut). Underlaget: alla slottens webbplatser
+  lästa med `siteRead` (hamta.mjs → `data/source/webbplatser/<id>.json`), sidor som byggs med JavaScript med granska.mjs " text".
+- **Egna texter** (`data/texter.json`, sektioner + källor) till alla 264 slott, skrivna från källorna; visas i stället för Wikipedias
+  inledning, med källor under. Obs: sv.wikipedia gick inte att läsa med WebFetch, så historiken bygger på inledningarna, engelska
+  Wikipedia, länsstyrelser och slottens sidor. Kan fördjupas genom att hämta hela artiklarna via Actions.
+- **Konton för slotten** (kod klar, inte påslagen): `worker/konto.js`, `migrations/0001_konton.sql`, sidorna `/konto/`, `/konto/ansok/`,
+  `/konto/granska/` (`src/assets/konto.js`). Inloggning med e-postlänk; slottet ansöker, Daniel godkänner; slottets ändringar granskas
+  av Daniel innan de syns; godkända uppgifter hämtas från `/api/profiler.json` vid publiceringen (`data/slottsprofiler.json`).
+  Saknas databasen svarar sidorna "öppnar inom kort". **För att slå på:** Workers Paid (5 USD/mån, krävs för e-post till vem som helst),
+  Email Service → Email Sending → Onboard Domain slottsregistret.se, API-nyckeln behöver D1 Edit; skapa D1 `slottsregistret`, kör
+  migreringen, lägg in `d1_databases` (DB), `send_email` EMAIL (utan mottagare) och `ADMIN_EMAILS` i wrangler.jsonc, schemalägg
+  publiceringen varje natt, och byt länken "Uppdatera uppgifterna" på slottssidan till /konto/ansok/.
