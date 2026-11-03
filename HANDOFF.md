@@ -179,3 +179,25 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Namnservrar bytta hos One.com (Daniel 4 okt); zonen aktiv i Cloudflare. slottsregistret.se och www kopplade till Workern 6 okt.
 - DNSSEC påslaget i Cloudflare; DS-posten (2371 13 2 8449D7BA…) syns hos .se (kollat 25 okt). Daniel 25 okt: inget mer görs hos One.com.
 - tools/cloudflare.mjs fyller {zone}/{account} även i anropets innehåll. Kör aldrig hamta och cloudflare samtidigt (båda sparar på grenen).
+
+## 29 okt – 2 nov: e-post, sökmotorer, förfrågan (publicerat)
+- kontakt@slottsregistret.se: alias på daniel@konstad.se i Konstads Google Workspace (slottsregistret.se är sekundär domän,
+  verifierad). Posten tas emot av Cloudflare Email Routing (MX ligger kvar hos Cloudflare, regel kontakt@ → daniel@konstad.se),
+  så att formulärens send_email fortsätter fungera. SPF har include:_spf.google.com, DKIM google._domainkey är inlagd.
+  Gmail-filter (to:kontakt@ och from:formular@) lägger posten i etiketten Slottsregistret.
+- Formulären mejlar nu daniel@konstad.se (wrangler.jsonc MAIL_TO och destination_address).
+- Google Search Console (domänegendom, daniel@konstad.se) och Bing Webmaster Tools: webbplatskartan inläst, 391 sidor.
+- Förfrågan om bröllop, fest och konferens (formuläret `forfragan`) på de 68 slott som erbjuder det. Daniel 2 nov: lova
+  "svar inom ett par vardagar" men aldrig att vi kontaktar slottet åt besökaren.
+- Startsidans rundturer och "Fler slott i närheten" visar hela rader (fyra i bredd). Kartbilden fyller rutan.
+- Större bilder för Stora Wäsby, Salnecke, Dalaborg och Stora Hästnäs (manuellt.json + bara bildfälten i site-data.json;
+  en full omkörning av sammanstall.py ändrar även erbjudanden för flera slott – granska innan den publiceras).
+- Väntar: Läckö och ev. fler VR Media-turer (Daniel frågar sin grupp).
+
+## 2 nov: genomgång av rundturerna
+- Daniels regel: bara sammanhängande rundturer räknas (flera bilder man kan gå mellan), aldrig en ensam 360-bild.
+- Googlebilder kontrolleras med Googles `photometa`-adress via `jsonUrls` (se git-historiken 2 nov): grannbilderna (andra `CIHM…`-id före den långa A-raden) visar om bilden hänger ihop med andra. Kräv minst tre bilder.
+- Panotour/krpano: räkna `<scene` i `…data/…_vr.xml`.
+- Satt till `look` (visas inte): Bosjökloster, Borgholm, Visingsborg, Vadstena, Linköping, Mälsåker, Venngarn, Vaxholm, Gävle, Almnäs, Drottningholms och Skoklosters Googlebilder.
+- Nya: Skokloster (Google Arts & Culture), Mauritzberg (slottets Panotour), Bäckaskog (GS360), Drottningholm Hedvig Eleonoras sängkammare (5 scener).
+- Bara rundturerna i site-data.json patchades (inte hela sammanstall.py, som ändrar erbjudanden).
