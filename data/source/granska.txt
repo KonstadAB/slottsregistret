@@ -1,25 +1,3 @@
-https://blekhem.com/ text
-https://bollerup.com/ text
-https://bosjokloster.com/ text
-https://www.dagsnasslott.se/ text
-http://www.ekensholm.se/ text
-https://ellinge.com/ text
-https://granso.com/ text
-http://www.hjularod.se text
-https://www.vastsverige.com/en/karlsborg/karlsborgs-fastning---eng/ text
-https://mauritzberg.com/ text
-https://www.ostanaslott.se/ text
-https://ovesholm.com/ text
-https://www.salneckeslott.se/ text
-https://skarhult.com/ text
-https://www.skottorpsslott.se text
-https://www.sovdeborg.se/ text
-https://www.sperlingsholm.se/ text
-https://www.sturehov.se text
-http://www.tista.se text
-https://www.trolleholmsslott.se text
-https://tullesbo.com/ text
-https://www.venngarn.se/ text
-https://www.wanas.se/ text
-https://www.wikslott.se/ text
-https://www.yxtaholmsslott.se/ text
+/slott/ekolsunds-slott/
+/slott/granso-slott/
+/brollop-och-fest/

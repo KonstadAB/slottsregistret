@@ -7,6 +7,7 @@ Källor, i den ordning de gäller (senare skriver över tidigare):
   data/source/matchning.json   vilken Wikidata-post varje slott är (tools/matcha.py)
   data/manuellt.json           rättelser för hand per slott: qid, lat/lon, kommun, webbplats, erbjudanden, bild, text m.m.
   data/rundturer.json          virtuella rundturer per slott (granskade)
+  data/erbjudanden.json        granskade erbjudanden och webbplats per slott, med källor (3 nov 2026); gäller före allt annat
 Kör: python3 tools/sammanstall.py
 """
 import json, hashlib, re, unicodedata, datetime
@@ -21,6 +22,9 @@ S = load('data/slott.json', [])
 V = load('data/source/svar.json', {})
 MATCH = load('data/source/matchning.json', {})
 MAN = load('data/manuellt.json', {})
+# Granskade slott för slott (webbplatsen, besöksmål, kommuner, nyheter) 3 nov 2026. Erbjudandena här ersätter gissningarna nedan.
+REV = load('data/erbjudanden.json', {})
+OFFER_SLUGS = {'bo-pa-slott', 'spa', 'konferens', 'brollop-och-fest', 'restaurang-och-kafe', 'besok', 'park-och-tradgard'}
 # Bara rundturer där man kan röra sig mellan platser räknas (Daniels regel 2 okt): kind 'walk'.
 # Enstaka 360-bilder ('look', 'view') ligger kvar i rundturer.json men visas inte.
 TOURS = {k: [t for t in v if t.get('kind') == 'walk'] for k, v in load('data/rundturer.json', {}).items()}
@@ -106,7 +110,8 @@ for c in S:
     lat, lon = m.get('lat', e.get('lat')), m.get('lon', e.get('lon'))
     if lat is None and GEO.get(c['id']):
         lat, lon = GEO[c['id']]['lat'], GEO[c['id']]['lon']
-    website = m.get('website', e.get('website'))
+    r = REV.get(c['id'])
+    website = r['website'] if r and 'website' in r else m.get('website', e.get('website'))
     page = PAGES.get(website, {}) if website else {}
     img = m.get('image', e.get('image'))
     image = None
@@ -122,7 +127,7 @@ for c in S:
         'text': m.get('text'),
         # Andra namn och stavningar (Wikidata, Wikipedia), så att sökningen hittar t.ex. Engsö och Leufsta.
         'alts': m['alts'] if 'alts' in m else sorted({a for a in (e.get('alts') or []) + [((wiki_intro(m.get('article', e.get('article'))) or {}).get('title') or '')] if a and a != c['name']})[:6],
-        'offers': sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
+        'offers': sorted(set(r['offers']) | (offers_for(c, None) - OFFER_SLUGS)) if r else sorted(set(m.get('offers', [])) | (offers_for(c, page.get('text'), bool(website) and not GUIDES.search(website)) - set(m.get('notOffers', [])))),
         # Slottets egna källor först, Google Maps sist (Daniel 3 okt); inom varje grupp de som går att visa på sidan.
         'tours': sorted(TOURS.get(c['id'], []), key=lambda t: (t.get('source') == 'streetview', not t.get('embed'))),
     }

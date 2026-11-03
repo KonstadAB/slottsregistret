@@ -1,0 +1,3907 @@
+{
+ "malmohus": {
+  "checked": "2026-11-03",
+  "website": "https://malmo.se/museer",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://malmo.se/museer — Malmö museum in Malmöhus slott, opening hours and entry fees (adult 100 kr)",
+   "restaurang-och-kafe": "https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Besok-Malmo-museum.html — 'Restaurang Wega ligger på Slottet… dagens lunch, mackor och fika'",
+   "brollop-och-fest": "https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-museum/Besok-Malmo-museum/Restaurang-Wega.html — Borgstuga hired via Wega for 'bröllopsfester'",
+   "park-och-tradgard": "https://en.wikipedia.org/wiki/Slottsparken,_Malm%C3%B6 — public Slottsparken surrounds Malmöhus"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: Slottsparken/Slottsträdgården are city parks beside the castle, not run by the castle"
+  ],
+  "facts": "Malmöhus, Nordens oldest preserved Renaissance castle, houses Malmö museum (castle, aquarium, natural history) and Malmö Konstmuseum; a lift replacement currently closes some exhibitions. Restaurang Wega serves lunch and fika and rents out the Borgstuga for parties."
+ },
+ "karnan": {
+  "checked": "2026-11-03",
+  "website": "https://karnan.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "https://karnan.se/ — 'Kärnan har öppet helger klockan 11.00-15.00', exhibition + audioguide",
+   "park-och-tradgard": "https://karnan.se/ — 'belägen i den vackra Slottshagsparken' (public city park)"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: tower can be hired for 'arrangemang' (825 kr/h, application form), unclear if private parties/weddings are accepted"
+  ],
+  "facts": "The 35 m medieval keep is the only remaining part of Helsingborg Castle, run by Helsingborg city as a museum with exhibitions and audioguides (Swedish/English/German). Open weekends 11-15; sits in the public Slottshagen park above Stortorget."
+ },
+ "sofiero-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sofiero.se",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.sofiero.se/planera-besok/ — opening hours, tickets, guided tours, castle exhibition 'Trädgårdspionjärerna'",
+   "brollop-och-fest": "https://www.sofiero.se/se-och-gora/brollop-pa-sofiero/ — 'Bröllop och fest på slottet', vigsel, brudskål",
+   "konferens": "https://www.sofiero.se/konferens/ — 'Boka din nästa konferens i Helsingborg, på anrika Sofiero slott'",
+   "park-och-tradgard": "https://www.sofiero.se/ — 15 ha castle garden, Northern Europe's largest rhododendron collection",
+   "restaurang-och-kafe": "https://www.sofiero.se/ — 'Slottsrestaurangen och Slottsverandans café håller öppet', Bistro Orangeriet"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Former royal summer palace owned by the City of Helsingborg, with a 15-hectare garden famous for about 10,000 rhododendrons. Seasonal opening with exhibitions, events like Höstljus, a castle restaurant and cafés; meeting rooms and weddings can be booked."
+ },
+ "glimmingehus": {
+  "checked": "2026-11-03",
+  "website": "https://glimmingehus.se/",
+  "offers": [
+   "besok",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://glimmingehus.se/ — 'Öppettider, priser och visningar'; open days incl. 5/12 S:t Nikolai afton",
+   "restaurang-och-kafe": "https://glimmingehus.se/ — menu 'Vad finns på plats? … Café Borggården'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Nordic's best-preserved medieval single-house castle, run by the Swedish National Heritage Board (SFV/RAÄ). Seasonal opening with guided tours, exhibitions, shop and Café Borggården; group and school programmes year-round."
+ },
+ "bosjokloster": {
+  "checked": "2026-11-03",
+  "website": "https://bosjokloster.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://bosjokloster.se/en/open — exhibitions, boutique and Garden Café open May–Sep; Christmas fair Nov",
+   "park-och-tradgard": "https://bosjokloster.se/en/open — 'The park & gardens are open all days 9am–5pm'",
+   "restaurang-och-kafe": "https://www.bosjokloster.se/en/restaurant-cafe — Garden Café open daily May–September, lunch served",
+   "bo-pa-slott": "https://bosjokloster.se/en/accommodation — 'Stay in the castle guest apartment or in the guest house'",
+   "brollop-och-fest": "https://www.bosjokloster.se/en/restaurant-cafe — the Stable hosts 'parties & weddings'; Weddings & parties page",
+   "konferens": "https://www.bosjokloster.se/en/restaurant-cafe — Stable used for conferences; 'Conferences & events' page"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: guest apartment/guest house are small; booking process not described on page"
+  ],
+  "facts": "Former 12th-century convent on Lake Ringsjön. Park and gardens open daily 9–17 all year; exhibitions, shop and Garden Café open May–September plus Christmas fair. Castle guest apartment and guest house for overnight stays; the Stable and Barn are hired for weddings, parties and conferences."
+ },
+ "hovdala-slott": {
+  "checked": "2026-11-03",
+  "website": "https://hovdala.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://hovdala.se/h/besok-hovdala-slott — öppettider, guidade turer, utställningar, butik",
+   "park-och-tradgard": "https://hovdala.se/h/park-och-tradgard — park, köksträdgård open to visitors",
+   "restaurang-och-kafe": "https://hovdala.se/ — 'Butiken, Restaurang och Café' (paused Oct–Nov 2026 for maintenance in Stora Stallet)",
+   "konferens": "https://hovdala.se/h/besok-hovdala-slott/hyr-lokal — Arrendatorsbostaden: rooms for small meetings/conferences, max 20",
+   "brollop-och-fest": "https://hovdala.se/h/besok-hovdala-slott/hyr-lokal — Orangeriet rentable for ceremonies such as weddings, max 50 (not winter)"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: Orangeriet is for wedding ceremonies only; no party venue listed"
+  ],
+  "facts": "Municipal (Hässleholm) castle museum by Finjasjön with exhibitions, guided tours, shop, park and kitchen garden. Restaurant and café in Stora Stallet (closed Oct–Nov 2026 for maintenance). Small meeting rooms and the Orangery (ceremonies) can be rented."
+ },
+ "backaskog-slott": {
+  "checked": "2026-11-03",
+  "website": "https://backaskogslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://backaskogslott.se/rum — hotel rooms incl. suite in Klostergården and rooms in Karl XV:s värdshus, 'Boka nu'",
+   "restaurang-och-kafe": "https://backaskogslott.se/ — menu 'Restauranger', 'Slottscafé – Våfflor', julbord in the slottsstall",
+   "konferens": "https://backaskogslott.se/Konferens/konferens — 'Konferens i slottsmiljö! Moderna mötesrum för små och stora konferenser'",
+   "brollop-och-fest": "https://backaskogslott.se/festbr%C3%B6llop/festbrollop — Fest/Bröllop page"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: slottspark has 3 marked trails, but listed under facilities for staying guests; unclear if open to all"
+  ],
+  "facts": "Bäckaskog, a former 13th-century monastery and royal summer residence between Ivösjön and Oppmannasjön, is a hotel with restaurant, waffle café, conferences, weddings and seasonal packages (julbord, ghost walks)."
+ },
+ "christinehofs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.christinehofslott.se/",
+  "offers": [
+   "besok",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.christinehofslott.se/besok-oss/oppettider-kontakt/ — open May–Oct 11-16, guided tours, exhibitions",
+   "restaurang-och-kafe": "https://www.christinehofslott.se/ — 'Christinehofs slottscafé har samma öppettider som slottet'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Run by the association Christinas Wänner: open May to October with guided tours, exhibitions, lectures and 1700s-themed events. Castle café and shop open the same hours as the castle."
+ },
+ "svaneholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://svaneholmsslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://svaneholmsslott.se/museet/ — castle and local history museum with guided tours, price list & opening hours",
+   "brollop-och-fest": "https://svaneholmsslott.se/restaurang/fest-brollop/ — 'Fira en av livet största dagar på ett romantiskt slott'",
+   "konferens": "https://svaneholmsslott.se/restaurang/konferens/ — conferences, lectures, team building in the castle",
+   "park-och-tradgard": "https://svaneholmsslott.se/besok-oss-kontakt/ — 'besök vår slottsträdgård, den engelska parken', walk round Svansjön",
+   "restaurang-och-kafe": "https://svaneholmsslott.se/restaurang/ — 'Slottsrestaurangen har öppet året runt' (lunch, brunch, à la carte)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "16th-century moated castle near Skurup run by a shareholder association, with one of Sweden's finest castle and local-history museums. Year-round castle restaurant, conferences and weddings; park, lake walk and rowing-boat hire."
+ },
+ "torups-slott": {
+  "checked": "2026-11-03",
+  "website": "https://malmo.se/Uppleva-och-gora/Natur-och-parker/Bokskogen-i-Torup/Torups-slott-och-slottspark.html",
+  "offers": [
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "malmo.se Torups slott och slottspark — 'större delen av slottsparken tillgänglig för allmänheten'",
+   "konferens": "malmo.se Torups slott — Stenladan 'en av Skånes nya moderna konferens/arrangemang/event-anläggningar', 400–600 guests",
+   "brollop-och-fest": "malmo.se has pages 'Vigsel i Torups slottspark' and Stenladan booking request (event venue for 400–600)"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: Stenladan event hire and park vigsel seen only via page titles/summary; malmo.se pages failed to load for detail"
+  ],
+  "facts": "Owned by the City of Malmö; the 16th-century castle sits in the 365-ha Torup beech forest recreation area. Most of the castle park is open to the public, and the converted Stenladan barn is hired out for conferences and events."
+ },
+ "trollenas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.trollenasslott.se/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://www.trollenasslott.se/festlokal/ — party venue April–Oct, dining room seats 100 (weddings paused from 2026)",
+   "konferens": "https://www.trollenasslott.se/ — 'Vi är öppna för konferensbokningar april-oktober'"
+  },
+  "removed": {
+   "besok": "site: 'Visningsverksamheten är nu stängd' (no current public tours)",
+   "restaurang-och-kafe": "site: 'Cafeet är nu stängt för allmänheten'; Borgstugan only for booked events"
+  },
+  "unsure": [
+   "brollop-och-fest: weddings paused 'tillsvidare' from 2026, private parties still offered",
+   "besok: tour text outdated (said restart April 2023), unclear if group tours resume"
+  ],
+  "facts": "Privately owned castle near Eslöv run as a venue for parties and conferences April–October. Weddings are paused from 2026 until further notice; public café and tours are closed."
+ },
+ "krapperups-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.krapperup.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.krapperup.se/se/parken/parkguidning — 'Parken är fritt tillgänglig för allmänheten året runt'",
+   "restaurang-och-kafe": "https://www.krapperup.se/se/kulturbyggnader/krapperups-cafe-och-slottsboden/ — Kaffestugan on stallplan",
+   "besok": "https://www.krapperup.se/ — Gårdsmuseum open daily 11–17 in summer 2026, Borgmuseum, konsthall, slottsguidning",
+   "konferens": "https://www.krapperup.se/se/byggnader/konferens-festlokal/ — Brygghuset, 'möjlighet till konferens', heldag möte 3000 kr",
+   "brollop-och-fest": "https://www.krapperup.se/se/byggnader/konferens-festlokal/ — 'Fira högtidsdag med släkt och vänner', pris fest 4000 kr"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: Brygghuset closed for renovation until early 2027",
+   "brollop-och-fest: same venue (Brygghuset), closed until early 2027"
+  ],
+  "facts": "Estate owned by the Gyllenstierna Krapperup Foundation near Kullaberg. The romantic park is open free all year; summer farm museum, castle museum, art hall, music hall and Kaffestugan café. Brygghuset (max 50) rents for meetings and parties but is under renovation until early 2027."
+ },
+ "landskrona-citadell": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Museum, open: Ja — state-owned 1500s water fortress, shown to visitors (tours/exhibitions)"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: no current official page checked for 2026 opening/tour times; website still missing"
+  ],
+  "facts": "One of the best-preserved 16th-century moated fortresses in the Nordics, owned by Statens fastighetsverk; formerly a prison with a dungeon and prison tower."
+ },
+ "borgeby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://borgebyslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "lansstyrelsen.se/skane borgeby-slott — Norlinds' home and studio is a museum open in summer (west wing/gatehouse run by Kulturen)",
+   "bo-pa-slott": "https://borgebyslott.se/hotell/ — 'Hotellet består av 1 enkelrum, 19 dubbelrum och 1 svit'",
+   "brollop-och-fest": "https://borgebyslott.se/ — 'Logen Bröllop och fest'; pages Bröllop, Fest eller mottagning",
+   "konferens": "https://borgebyslott.se/ — 'Salongen Konferens'; 'Konferens, event & bröllop i en vacker medeltida miljö'",
+   "park-och-tradgard": "https://borgebyslott.se/hotell/ — 'Ströva runt i slottsparken, hyr kanot'",
+   "restaurang-och-kafe": "https://borgebyslott.se/ — 'Restaurangen Lunchservering måndag - söndag'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Borgeby by Lödde å has a hotel (21 rooms), lunch restaurant, conference rooms and wedding/party venues, plus shops and canoe rental. The Norlind atelier museum in the west wing is open in summer (Kulturen)."
+ },
+ "wanas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.wanas.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.wanas.se/se/ — Wanås Konst sculpture park, exhibitions and drop-in art workshop open to visitors",
+   "bo-pa-slott": "https://www.wanas.se/se/ — Wanås Restaurant Hotel on the estate, eleven rooms in 1700s buildings",
+   "brollop-och-fest": "http://www.wanasrh.se — Restaurant Hotel hosts 'privata fester och bröllop', can be rented exclusively",
+   "konferens": "http://www.wanasrh.se — 'Möten och konferens' section, meeting rooms on the estate",
+   "park-och-tradgard": "https://www.wanas.se/ — Sweden's largest sculpture park in the beech forest around the castle",
+   "restaurang-och-kafe": "https://www.wanas.se/ — Wanås Konst café (lunch, coffee) and Wanås Restaurant Hotel"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: the castle itself is a private home; 'besok' rests on the sculpture park/art venue"
+  ],
+  "facts": "Medieval castle (rebuilt 1556) on a private estate with Sweden's largest sculpture park, run by the Wanås Konst foundation. A boutique hotel and restaurant in two 18th-century buildings hosts stays, meetings and weddings; the castle itself is a private residence."
+ },
+ "kronovalls-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.kronovall.com/",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "restaurang-och-kafe": "Former Kronovalls Vinslott went bankrupt; Thatsup lists it as permanently closed; March 2026 news describes only plans for new restaurants"
+  },
+  "unsure": [
+   "website: kronovall.com ('KRONOVALL SLOTT') blocks fetching, content unverified; kronovall.se is a maintenance page",
+   "restaurang-och-kafe/brollop-och-fest: new manager (Markposten 9 Mar 2026) plans 2–3 restaurant concepts and private event hire — check if opened"
+  ],
+  "facts": "The former wine-castle hotel went bankrupt; a new manager took over in 2026 with plans for restaurants, motorhome pitches and exclusive private events. Earlier it offered hotel stays, wine tastings and weddings."
+ },
+ "snogeholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.snogeholmsslott.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "bo-pa-slott": "site banner: 'Slottet är under omfattande renovering tills vidare' — hotel not bookable now",
+   "konferens": "same: closed for extensive renovation until further notice"
+  },
+  "unsure": [
+   "bo-pa-slott/konferens: may reopen as hotel/conference after renovation; no reopening date found"
+  ],
+  "facts": "French-baroque-style castle on a headland in Lake Snogeholmssjön, formerly a 46-room hotel and conference venue. The website states the castle is under extensive renovation until further notice. Surrounding Snogeholm recreation area is public."
+ },
+ "hackeberga-slott": {
+  "checked": "2026-11-03",
+  "website": "https://hackebergaslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://hackebergaslott.se/ — 'Välkommen till vårt hotell! … HOTELLRUM FÖR ÖVERNATTNING'",
+   "brollop-och-fest": "https://hackebergaslott.se/ — 'FEST OCH BRÖLLOP I SLOTTSMILJÖ', hyra hela slottet",
+   "konferens": "https://hackebergaslott.se/ — 'LOKAL FÖR KONFERENSER', Lokaler och konferensrum",
+   "restaurang-och-kafe": "https://hackebergaslott.se/ — Restaurang, avsmakningsmeny, julbord"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Neo-Renaissance castle on an island in Häckebergasjön near Genarp, run as a boutique hotel with gastronomic restaurant. Rooms in the castle and pavilions; weddings, parties, conferences and seasonal julbord. (.com redirects to .se)"
+ },
+ "vittskovle-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Skåne's largest Renaissance castle (100+ rooms), private home of the Stjernswärd family; not open to the public."
+ },
+ "trolleholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.trolleholmsslott.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "konferens": "Own site is only a contact page (no offers); no source found for bookable conferences; Wikipedia: not open to the public"
+  },
+  "unsure": [
+   "konferens: site lists a 'Köket' phone number, may host events on request, but nothing public says so"
+  ],
+  "facts": "Privately owned 1760s castle by Carl Hårleman, owned by Trolleholms Slott AB; not open to the public."
+ },
+ "tosterups-slott": {
+  "checked": "2026-11-03",
+  "website": "https://tosterup.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: guided castle/orchard tours with cider tasting only for pre-booked groups of 10+"
+  ],
+  "facts": "Moated castle on Österlen owned by the Ehrensvärd family, who run a farm and apple orchard producing must and cider. Group tours with cider tasting can be booked and there is a farm shop; the castle is a private home."
+ },
+ "trolle-ljungby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.trolleljungby.com/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private estate owned by the Wachtmeister family; the castle is 'ej öppet för allmänheten'. The estate runs farming, forestry and a game shop (Viltboden)."
+ },
+ "bjarsjoholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Two castles near Ystad: a ruined-looking 1576 Renaissance castle and a 1850s main building by Meldahl. Privately owned residence, not open to the public."
+ },
+ "marsvinsholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://marsvinsholm.com/",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "park-och-tradgard": "Own site: 'Slottsparken är privat och därmed inte öppen för besökare' / 'Slottsparken Stängd för besökare'"
+  },
+  "unsure": [],
+  "facts": "Private residence; the estate is run as a farm (crops, outdoor pigs, charcuterie) by the Iacobaéus family. The castle and park are not open to visitors."
+ },
+ "krageholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.krageholm.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: castle shown only to groups by prior agreement (visning@krageholm.se) — not counted as public visits"
+  ],
+  "facts": "Privately owned 1720s castle with moat and baroque chapel north of Ystad; the estate runs farming, rentals and hunting. The castle is shown to groups by appointment only."
+ },
+ "kulla-gunnarstorps-slott": {
+  "checked": "2026-11-03",
+  "website": "https://kullagunnarstorp.se/",
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://kullagunnarstorp.se/oversiktskarta/ — visitor parking and 'Huvudentré till Slottsparken'; 'vissa delar av slottsparken är inte tillgängliga'"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: site says Borgen/Kulturhallen are meant for 'utställningar, bröllop och speciella events' but content is from 2018-2020; unclear if bookable now"
+  ],
+  "facts": "Private estate north of Helsingborg on the Öresund coast; much of the castle park and adjoining nature reserve are open for walks, with farm shop. The castle buildings are private."
+ },
+ "vrams-gunnarstorps-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: the famous garden may have occasional open days; nothing current found (wramsgunnarstorp.com blocked to fetching)"
+  ],
+  "facts": "Privately owned Dutch-Renaissance castle near Bjuv (from 1633), known for its formal hornbeam and box hedge garden. Not open to the public."
+ },
+ "barsebacks-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned manor in Barsebäck village, not open to the public."
+ },
+ "skabersjo-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Moated 18th/19th-century castle between Malmö and Svedala with a park laid out by Adolf Barnekow. Private residence, not open to visitors."
+ },
+ "nasbyholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private estate run as a fideikommiss company with about 2,000 ha; not open to the public."
+ },
+ "maltesholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://sv.wikipedia.org/wiki/Maltesholm — 'parkanläggningen är öppen för allmänheten från slutet av april'"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: only Wikipedia source; no owner page found to confirm current season"
+  ],
+  "facts": "Private 1630s Renaissance castle on Linderödsåsen, rebuilt in the 1780s; the castle is private but the park is reported open to the public in the summer half-year."
+ },
+ "knutstorps-borg": {
+  "checked": "2026-11-03",
+  "website": "https://knutstorp.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "Ring Knutstorp motor circuit on estate land has conference, restaurant and cabins, but it is a separate business away from the castle - not counted"
+  ],
+  "facts": "Tycho Brahe's birthplace, owned by the Wachtmeister family since 1771 and run as a forestry/farming estate. A shop (Knutstorps Butik) is in the castle's old cellar with own opening hours; the castle is private."
+ },
+ "skarhults-slott": {
+  "checked": "2026-11-03",
+  "website": "https://skarhult.com/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: Wikipedia mentions summer exhibitions since 2014, but the site is 'Under konstruktion' and nothing current found"
+  ],
+  "facts": "Privately owned Renaissance castle by Bråån north-east of Lund. Summer cultural-history exhibitions have been held in part of the castle in some years; the website is under construction."
+ },
+ "ellinge-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "konferens": "https://venuu.se/en/venues/ellinge-slott-korsvirkesstallet — 'Stor, ljus möteslokal i vacker slottsmiljö', 20–70 people",
+   "brollop-och-fest": "venuu.se Ellinge Slott Korsvirkesstallet — event types incl. weddings, parties, company parties up to 160"
+  },
+  "removed": {
+   "restaurang-och-kafe": "No public restaurant found; venue only offers catering for booked events. ellinge.com is a parked domain for sale"
+  },
+  "unsure": [
+   "website: ellinge.com is for sale; no own site found",
+   "restaurang-och-kafe: could not confirm any public restaurant"
+  ],
+  "facts": "Castle estate near Eslöv whose half-timbered stable (Korsvirkesstallet) is hired out for meetings, company parties and weddings, with guided tours of the castle and distillery for groups."
+ },
+ "alnarps-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.slu.se/en/about-slu/visit-slu/vara-besoksmal/alnarpsparken/",
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.slu.se/en/about-slu/visit-slu/vara-besoksmal/alnarpsparken/ — SLU visitor page: 'A visit to the park is a rewarding experience at any time of year'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "1860s Neo-Renaissance castle on SLU's Alnarp campus north of Malmö. The surrounding Alnarpsparken, with one of Sweden's largest tree collections, is open to visitors year-round."
+ },
+ "rabelovs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned by the Murray family, by Råbelövssjön north of Kristianstad; not open to the public."
+ },
+ "ovedsklosters-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.ovedskloster.com/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://www.ovedskloster.com/brollop — one wedding at a time, venue hired Fri–Sun, park usable for ceremony",
+   "konferens": "https://www.ovedskloster.com/foretag — 'Möten och event i en levande slottsmiljö', groups up to 500+",
+   "restaurang-och-kafe": "https://www.ovedskloster.com/besok — Slottscaféet open in summer season (opens 28 June 2027)",
+   "besok": "https://www.ovedskloster.com/besok — park and borggård open daily 9–16, free; Easter indoor tours with tickets; group tours Apr–Sep",
+   "park-och-tradgard": "https://www.ovedskloster.com/besok/tradgarden — 'Parken och borggården är öppna alla dagar 9–16. Ingen entréavgift'"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: Stenstallet offers lodging only in connection with meetings, events or weddings"
+  ],
+  "facts": "Rococo castle (1765–76, Carl Hårleman) still a private Ramel family home; park and courtyard free daily 9–16, summer café, Christmas market in December, weddings and corporate events. Interior shown to pre-booked groups and at Easter."
+ },
+ "bollerups-borg": {
+  "checked": "2026-11-03",
+  "website": "https://bollerup.se/",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "lansstyrelsen.se/skane bollerups-borg — 'Den är öppen för besök under sommaren'; bollerup.se has 'Turism och besökare'"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: summer opening hours not stated on school site"
+  ],
+  "facts": "Late-1400s moated borg on Österlen, now part of Bollerup naturbruksgymnasium (agricultural school). Open for visits in summer; groups can book study visits."
+ },
+ "lindholmens-borgruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Freely accessible castle ruin site (base list: Ruin, open)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Remains of a medieval castle near Svedala, where Queen Margaret held Albert of Mecklenburg captive. The ruin mound is freely accessible."
+ },
+ "stjarneholms-borgruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list: freely accessible ruin (remains of the 1500s house) near Skurup"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of a 1500s fortified house built by Mogens Gyldenstierne, demolished 1627; part of the Svaneholm estate and accessible outdoors."
+ },
+ "manstorps-gavlar": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://guidebook-sweden.com/en/guidebook/destination/manstorps-gavlar-castle-ruins-near-vellinge — ruin reached over a wooden bridge across the old moat"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Gable ruins of a moated medieval/Renaissance manor on Söderslätt between Västra Ingelstad and Östra Grevie. The ruin within its ring wall and moat can be visited freely."
+ },
+ "falsterbohus": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Ruin mound in Falsterbo, freely accessible outdoor site (base list: Ruin, open Ja)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Remains of the medieval castle Falsterbohus in Falsterbo; the ruin and mound can be visited freely."
+ },
+ "gladsaxehus": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Ruin, open: Ja — remains of the royal castle next to Gladsax church, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of the medieval Danish royal castle Gladsaxehus, just east of Gladsax church near Simrishamn; freely accessible."
+ },
+ "lillo-borgruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list: ruin, open: Ja — freely accessible ruin mound with excavated remains under a roof (Wikipedia)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Medieval castle ruin on an islet in Helge å near Kristianstad; remains shown under a protective roof, surrounded by bird-rich meadows. Free to visit."
+ },
+ "rossjoholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://rossjoholm.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Rössjöholms Gods is an estate west of Örkelljunga that rents out about 50 long-term homes. The 1731 manor house is not open to visitors."
+ },
+ "bjornstorps-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private rococo manor (1752) near Genarp, not open to the public."
+ },
+ "karsholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.karsholmsslott.se/",
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.karsholmsslott.se/ — 'Parken är öppen för besök under dagtid'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Dutch Renaissance-style castle on Lake Oppmannasjön near Kristianstad. The castle is a private residence, but the park is open to visitors during daytime."
+ },
+ "charlottenlunds-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private residence west of Ystad, built 1849 in medieval-romantic style; not open to the public."
+ },
+ "jordberga-slott": {
+  "checked": "2026-11-03",
+  "website": "https://jordberga.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://jordberga.se/hotellet — hotel Parkvillan on the estate, 'En god natts sömn på vårt hotell'",
+   "brollop-och-fest": "https://jordberga.se/brollop — 'exklusiv bröllopslokal i Skåne', weddings in Herrskapsstallet; private events page",
+   "konferens": "https://jordberga.se/konferens — conference in Parkvillan, 'en konferens i taget'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Baroque castle on Söderslätt, home of the von Arnold family; the estate hosts weddings in Herrskapsstallet, conferences and hunts with lodging in hotel Parkvillan. The castle is shown to a few pre-booked groups a year."
+ },
+ "borringekloster": {
+  "checked": "2026-11-03",
+  "website": "https://www.borringekloster.se/",
+  "offers": [
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "restaurang-och-kafe": "spinach.guide (refreshed 2 Nov 2026) — Anita på Börringekloster, lunch buffet daily 11-16, Sunday brunch"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: restaurant page on own site returns 404 though still in menu"
+  ],
+  "facts": "Private castle (former 1200s monastery) near Malmö Airport; estate rents houses and runs farming. Restaurant Anita på Börringekloster serves lunch buffet daily on the estate."
+ },
+ "dybacks-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned manor near Skurup, Skåne's southernmost manor, with an east wing from about 1490. Not open to the public."
+ },
+ "gyllebo-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private estate; Länsstyrelsen states 'parken med ruinen är stängd för besök'."
+ },
+ "tullesbo": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "restaurang-och-kafe": "tullesbo.com is an empty Cloudflare placeholder; no café found; Länsstyrelsen lists the castle as privately owned"
+  },
+  "unsure": [
+   "bo-pa-slott: glamping/B&B 'Tullesbo Sätesgård' listed on booking sites — unclear whether it is the castle estate or the separate säteri"
+  ],
+  "facts": "1780s castle built by Hans Ramel near Sjöbo, in the same ownership as Övedskloster. Privately owned; no public café or visits found."
+ },
+ "bjarsjolagards-slott": {
+  "checked": "2026-11-03",
+  "website": "https://bjarsjolagardsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://bjarsjolagardsslott.se/hotell/ — rooms in the castle plus Slottsvillan with 9 rooms",
+   "brollop-och-fest": "https://bjarsjolagardsslott.se/brollop/festlokaler/ — wedding and party venues",
+   "konferens": "https://bjarsjolagardsslott.se/konferens/ — conference rooms, conference centre",
+   "restaurang-och-kafe": "https://bjarsjolagardsslott.se/ — Restaurang: afternoon tea, brunch, gåsamiddag, julbord 27 Nov–19 Dec, påskcafé"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: public dining appears to be themed dates (brunch, afternoon tea, julbord) rather than daily opening"
+  ],
+  "facts": "Rococo castle near Sjöbo owned by Hushållningssällskapet Skåne, run as a conference and wedding venue with hotel rooms in the castle and Slottsvillan. Public dining events such as afternoon tea, brunch, goose dinner and Christmas buffet."
+ },
+ "loberods-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle built from 1798 by Hans Ramel on a ridge west of Löberöd; not open to the public."
+ },
+ "ovesholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ovesholm.com/",
+  "offers": [
+   "brollop-och-fest"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://ovesholm.com/fest-brollop/ — 'kontakta oss vid intresse att hyra lokal för fest, event'; barns converted to festlokaler"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Hamilton family estate near Kristianstad; converted barns and lawns are rented for parties, fairs, concerts and markets. Main building and park are private."
+ },
+ "palsjo-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Small 17th/18th-century manor at Pålsjö forest in northern Helsingborg. The building is not open to visitors; the surrounding Pålsjö forest is a public recreation area."
+ },
+ "hjularods-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: hjularod.se is suspended; base list says occasional events but nothing current found"
+  ],
+  "facts": "Neo-medieval castle built 1894–97, owned by the Bergengren family since 1926 and not open to the public."
+ },
+ "hogestads-slott": {
+  "checked": "2026-11-03",
+  "website": "https://hogesta.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: estate site lists a 'Festlokal' for rent, but not shown to be in the castle"
+  ],
+  "facts": "Manor estate between Ystad and Tomelilla, run with Christinehof by the Piper family's estate company (forestry, farming, rentals). The main building is a private residence."
+ },
+ "osbyholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: osbyholm.se exists but blocks fetching (robots); could not confirm it belongs to the castle"
+  ],
+  "facts": "Private castle outside Osbyholm in Hörby municipality; not open to the public."
+ },
+ "smedstorps-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: suggested smedstorp.se is the village association site, not the castle"
+  ],
+  "facts": "Remaining west wing of a large 16th-century castle complex east of Tomelilla; private and not open to the public."
+ },
+ "sovdeborgs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sovdeborg.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website shows WordPress error output, no readable content"
+  ],
+  "facts": "Private castle near Sjöbo with an English park; not open to the public."
+ },
+ "svenstorps-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned Renaissance castle from 1596 north-east of Lund, in Christian IV style. Not open to the public."
+ },
+ "viderups-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private Renaissance castle on a moated island, not open to the public."
+ },
+ "vegeholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Moated castle at the mouth of the Vege river south of Ängelholm. Private residence, not open to the public."
+ },
+ "tunbyholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private residence between Smedstorp and Sankt Olof in Tomelilla municipality; not open to the public."
+ },
+ "toppeladugards-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle near Genarp built 1918–20 in Renaissance style, with remains of a baroque garden; no public offers found."
+ },
+ "ronneholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle by Rönne å; since 1996 home to treatment centres for women. Not open to the public."
+ },
+ "hanaskogs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned castle by Helge å, built 1852–1854 to designs by H. J. Strömberg. Not open to the public."
+ },
+ "garsnas-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle by Tommarpsån on Österlen, not open to the public."
+ },
+ "bellinga-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "1860s castle by Lake Ellestadsjön, owned by the Piper family. Private and not open to the public."
+ },
+ "beritsholm": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "type: Beritsholm is a medieval castle mound (borgkulle) near Bjärsjölagård, not a standing castle or residence; type 'Slott'/use 'Privat bostad' look wrong — borgar-och-ruiner fits better"
+  ],
+  "facts": "Site of a medieval stronghold, visible as a castle mound at the north end of the bog a few hundred metres northwest of Bjärsjölagård."
+ },
+ "klagerups-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: Wikipedia mentions a doll museum in a wing since 2004; no current source found that it is open"
+  ],
+  "facts": "Private 1858 castle in French Renaissance style in Svedala municipality."
+ },
+ "johannishus-slott": {
+  "checked": "2026-11-03",
+  "website": "https://johannishus.com/",
+  "offers": [
+   "konferens"
+  ],
+  "evidence": {
+   "konferens": "https://johannishus.com/upplev/mote/ — 'vackra lokaler som passar för både mindre och större events... kommersiella och ideella'"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: same venue page could cover private parties but doesn't say so",
+   "konferens: venues are estate barns (Galleriet, Stenladan), not the castle"
+  ],
+  "facts": "Wachtmeister family estate since 1684; castle is a private home and not shown. Farm shop with exhibition, brewery, group farm visits and event rooms in the farm buildings."
+ },
+ "kungsholms-fort": {
+  "checked": "2026-11-03",
+  "website": "https://www.visitkarlskrona.se/sv/kungsholms-fort",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://www.visitkarlskrona.se/en/guided-tour-kungsholms-fortress — scheduled guided boat tours May–Aug, daily in high season"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Naval fortress in the Karlskrona archipelago (World Heritage), still owned by the Swedish Navy. It can only be visited on guided boat tours from Fisktorget, booked through Karlskrona Tourist Center, weekends in May–June and daily in high summer."
+ },
+ "drottningskars-kastell": {
+  "checked": "2026-11-03",
+  "website": "https://www.visitkarlskrona.se/sv/drottningskarskastell",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "visitkarlskrona.se/sv/drottningskarskastell — entry 2026 '1 juni - 31 augusti', guided tours; reopens summer 2027",
+   "restaurang-och-kafe": "visitkarlskrona.se/sv/drottningskarskastell — 'Kastellets Krog … Servering … under sommaren'",
+   "brollop-och-fest": "visitkarlskrona.se/sv/drottningskarskastell — 'Går du i bröllopstankar? … perfekta platsen!' contact to book",
+   "konferens": "visitkarlskrona.se/sv/drottningskarskastell — 'planerar du ett kreativt möte? Drottningskärs kastell är den perfekta platsen'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Well-preserved 1680s fortress on Aspö, managed by SFV and run by Karlskrona municipality. Open in summer (June–August) with guided tours and the seasonal Kastellets Krog; can be booked for weddings and meetings."
+ },
+ "kastellet-karlshamn": {
+  "checked": "2026-11-03",
+  "website": "https://www.visitblekinge.se/kastellet",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.visitblekinge.se/en/kastellet-citadel — daily summer boat from Karlshamn, guided tours, summer theatre",
+   "restaurang-och-kafe": "https://www.svenskakyrkan.se/karlshamn/kastellet — a Lions café is open during the summer season",
+   "brollop-och-fest": "https://www.svenskakyrkan.se/karlshamn/kastellet — Kastellkyrkan 'en uppskattad vigsel- och dopkyrka'"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: Visit Blekinge says café open in low season, church page says summer — season unclear"
+  ],
+  "facts": "1670s fortress on Frisholmen in Karlshamn's harbour, reached by a five-minute boat ride in summer. Guided tours, summer theatre, a small café and the island church, a popular wedding venue."
+ },
+ "tjoloholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.tjoloholm.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.tjoloholm.se/oppettider — slottsentré, slottsvisningar, Vagnsmuseet, Museistugan",
+   "bo-pa-slott": "https://www.tjoloholm.se/hotellstugor — Hotellstugor on the estate",
+   "konferens": "https://www.tjoloholm.se/event — Event & konferens",
+   "brollop-och-fest": "https://www.tjoloholm.se/boka/158/brollop-och-fest — Bröllop & Fest bookable",
+   "restaurang-och-kafe": "https://www.tjoloholm.se/ — 'Njut av god mat och fika i Trädgårdskafé Manegen'; afternoon tea in the castle",
+   "park-och-tradgard": "https://www.tjoloholm.se/tradgardar/129/slottstradgarden — prize-winning castle and allmoge gardens"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Tudor-style castle (1898–1904) on a peninsula in Kungsbackafjorden, owned by Stiftelsen Tjolöholm. Castle tours, carriage museum, gardens, nature reserve, Trädgårdskafé Manegen and afternoon tea; hotel cottages, weddings and conferences. Christmas market Nov–Dec 2026."
+ },
+ "varbergs-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://www.museumhalland.se/",
+  "offers": [
+   "besok",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.museumhalland.se/?p=3971 — Halland cultural history museum at the fortress; daily fortress tours summer 2026",
+   "restaurang-och-kafe": "https://www.museumhalland.se/?p=3971 — museum menu lists Café Längan"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: Fästningens Vandrarhem (old prison) listed on booking sites; current operation not confirmed",
+   "restaurang-och-kafe: café hours not seen"
+  ],
+  "facts": "Medieval castle turned fortress on a cliff by the Kattegat, home to Hallands kulturhistoriska museum with the Bocksten Man; guided fortress tours daily in summer."
+ },
+ "halmstads-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: governor's residence with tourist office in east wing; no evidence of regular public tours found"
+  ],
+  "facts": "Governor's residence of Halland County in central Halmstad; houses offices, Musik i Halland and the tourist office."
+ },
+ "skottorps-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.skottorpsslott.se",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "brollop-och-fest": "Site only says 'Karl XI och Ulrika Eleonoras bröllopslokal' (history, 1680); no venue hire offered",
+   "restaurang-och-kafe": "No café found; site says 'Enbart bokade besök!' — castle sold as private home"
+  },
+  "unsure": [
+   "brollop-och-fest: site is a near-empty placeholder; owner may rent out on request"
+  ],
+  "facts": "Privately owned castle near Laholm where Charles XI married Ulrika Eleonora in 1680, surrounded by an English landscape park. Visits by appointment only."
+ },
+ "wapno-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.wapnoslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.wapnoslott.se/gårdshotell/ — 'Gårdshotellet ligger intill Wapnö Slott'",
+   "brollop-och-fest": "https://www.wapnoslott.se/ — 'Låt drömmen om ett slottsbröllop bli sann!'",
+   "konferens": "https://www.wapnoslott.se/ — 'KONFERERA PÅ WAPNÖ'",
+   "restaurang-och-kafe": "https://www.wapnoslott.se/ — Restaurang, julbord; 'Dagens lunch och Slottets fikafat' at events"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: restaurant seems mostly event/julbord/group-based; no regular open hours seen"
+  ],
+  "facts": "Working dairy estate near Halmstad with a farm hotel next to the castle, conferences, weddings, julbord and seasonal fairs (garden fair, Christmas fair). Guided farm tours for groups year-round."
+ },
+ "gasevadholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Pink late-18th-century castle on an island in the Rolfsån river near Kungsbacka. Private residence, not open to visitors."
+ },
+ "vallens-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "bo-pa-slott"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://hotel.routard.com/hotel/se/vallens-sateri-gardshotell.en-gb.html — 'Vallens Säteri Gårdshotell', Vallen 3, Våxtorp; guest mentions the little castle"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: Vallens Säteri Gårdshotell (Vallen 3, Våxtorp) seems to be on the estate, but own site vallens-sateri.se blocks fetching so link to the castle is not confirmed",
+   "website: vallens-sateri.se likely the gårdshotell site; unverified"
+  ],
+  "facts": "Empire-style castle with about 40 rooms on an islet in Storsjön, Våxtorp; listed building. The castle is private; a farm hotel (Vallens Säteri Gårdshotell) operates on the Vallen estate."
+ },
+ "sperlingsholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sperlingsholm.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private estate outside Halmstad by the Nissan river; the website is the estate company's (farming, staff ads) with no public offers."
+ },
+ "lacko-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.lackoslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.lackoslott.se/ditt-besok/oppettider/ — guided tours, exhibitions, entry prices",
+   "bo-pa-slott": "https://www.lackoslott.se/ — 'Bo på Läckö Wärdshus'; hotel at the castle",
+   "konferens": "https://www.lackoslott.se/ — 'Konferens på Läckö Slott... möten i slottets historiska salar'",
+   "park-och-tradgard": "https://www.lackoslott.se/ — 'Lilla Slottsträdgården... öppnar igen 2027'; slottsträdgården in entry",
+   "restaurang-och-kafe": "https://www.lackoslott.se/ — 'Restaurang Läckö Wärdshus Öppet onsdag–lördag'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Baroque De la Gardie castle on Vänern run by Stiftelsen Läckö Slott: guided tours, summer exhibitions, opera, kitchen garden and naturum. Hotel and restaurant Läckö Wärdshus, conferences, camping and guest harbour."
+ },
+ "naas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://naas.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://naas.se/planera-ditt-besok/oppettider/ — 'Slottet besöks via guidad visning', classic tour 160 kr",
+   "bo-pa-slott": "https://naas.se/se-gora/boende/ — rooms in Södra/Norra flygeln, Björkenääs, Vänhem; 'Hyr ett rum för en natt'",
+   "brollop-och-fest": "https://naas.se/ — 'Bröllop & Högtid': Vänhem 60–140, Lekhuset 120–200 guests, vigsel i slottet",
+   "konferens": "https://naas.se/ — 'Konferens & Workasion' under Bröllop, fest & konferens",
+   "park-och-tradgard": "https://naas.se/planera-ditt-besok/oppettider/ — 'Slottsparken och Nääs Ekhagar är alltid öppna för allmänheten'",
+   "restaurang-och-kafe": "https://naas.se/ — Kaffestugan café/restaurant, 'Spelmanskafé i Kaffestugan'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "19th-century castle by Lake Sävelången run by the August Abrahamson foundation, famous for its former sloyd teacher seminary. Guided castle tours, crafts courses, Kaffestugan café, overnight rooms in the old buildings, weddings and conferences; the park and nature reserve are always open."
+ },
+ "gunnebo-slott": {
+  "checked": "2026-11-03",
+  "website": "https://gunneboslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://gunneboslott.se/ — 'Guidad visning av Gunnebo slott', open year-round",
+   "brollop-och-fest": "https://gunneboslott.se/ — 'Bröllop & högtid Bröllop Fest och middag'",
+   "konferens": "https://gunneboslott.se/ — 'Konferens på Gunnebo Slott och Trädgårdar'",
+   "park-och-tradgard": "https://gunneboslott.se/ — 'Gunnebo slott och trädgårdar', cultural reserve with 1700s gardens",
+   "restaurang-och-kafe": "https://gunneboslott.se/ — 'Kaffehus och Krog Öppet alla…', Gunnebo restaurang och café"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "1780s summer house of merchant John Hall near Mölndal, run by Mölndal municipality. Guided tours of the house and orangery, gardens and cultural reserve open year-round, restaurant, café and bakery; hired for conferences, weddings and parties."
+ },
+ "bohus-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://bohusfastning.com/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://bohusfastning.com/oppettider/ — ticketed seasonal opening, group guided tours, digital guide",
+   "restaurang-och-kafe": "https://bohusfastning.com/baahus-garkok/ — Baahus Gårkök serves grilled food at the fortress",
+   "brollop-och-fest": "https://bohusfastning.com/en/wedding-at-bohus-fortress/ — weddings (vigsel) bookable; also children's parties"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruined medieval fortress (from 1308) on a cliff above the Nordre älv in Kungälv, owned by Statens fastighetsverk. Open seasonally with tickets, guided group tours, events, a food stall and bookable wedding ceremonies."
+ },
+ "carlstens-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://carlsten.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://carlsten.se/ — 'Marstrands största sevärdhet', öppettider, priser, guide",
+   "bo-pa-slott": "https://carlsten.se/ — Soldathotell in the fortress",
+   "brollop-och-fest": "https://carlsten.se/ — 'Bröllop / Fest / konferens', Bröllop & Vigslar",
+   "konferens": "https://carlsten.se/ — Konferenspaket, konferensaktiviteter",
+   "restaurang-och-kafe": "https://carlsten.se/ — Carlstens våffelcafé; julbord and jullunch 2026"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "17th-century fortress above Marstrand with guided tours and fortress plays. Soldier hotel, waffle café, Christmas buffets, conferences, weddings and school camps."
+ },
+ "nya-alvsborgs-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://www.älvsborgsfästning.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.älvsborgsfästning.se/ — day trips by boat from Lilla Bommen, guided tours; 2026 visiting days late Aug–Sep",
+   "restaurang-och-kafe": "https://www.goteborg.com/platser/nya-alvsborgs-fastning — fortress has restaurant and café; own site: 'Gästabud' dining",
+   "brollop-och-fest": "https://www.älvsborgsfästning.se/ — event venue and wedding packages",
+   "konferens": "https://www.älvsborgsfästning.se/ — conference venue with booking form"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: public visiting days in 2026 appear limited (30 Aug, 4–6 and 11–13 Sep) plus Strömma boat trips"
+  ],
+  "facts": "17th-century island fortress at the mouth of Göta älv, never taken by enemies; run by Älvsborgs Event AB with boat trips (Strömma), guided tours, dining, weddings and conferences."
+ },
+ "skansen-kronan": {
+  "checked": "2026-11-03",
+  "website": "https://www.skansenkronan.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "besok": "https://www.skansenkronan.se/guidningar/ — bookable officer-led tours; fortress grounds on Risåsberget freely accessible",
+   "brollop-och-fest": "https://www.skansenkronan.se/brollop/ — 'Vigsel och bröllopsfest'; 'bröllop och fester i borgen varje vecka'",
+   "konferens": "https://www.skansenkronan.se/konferens/ — 'Konferens på Skansen Kronan'"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: tours are private bookings (5 000 kr), no scheduled public tours",
+   "note: guidningar page contains injected casino spam text"
+  ],
+  "facts": "1690s fortress tower on Risåsberget in Gothenburg, owned by Statens fastighetsverk and run as a party, wedding and conference venue with Christmas buffets and private guided tours. The summer terrace café is closed for 2026."
+ },
+ "karlsborgs-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://www.vastsverige.com/karlsborg/karlsborgsfastning/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "besok": "https://www.vastsverige.com/karlsborg/karlsborgsfastning/ — Fästningsmuseet and guided tours (adventure tours, rampart tours)",
+   "brollop-och-fest": "https://www.vastsverige.com/karlsborg/karlsborgsfastning/ — 'släktträff, bröllopsfest... i fästningens spännande lokaler'",
+   "konferens": "https://www.vastsverige.com/en/karlsborg/produkter/konferenscenter-karlsborgs-fastning/ — Konferenscenter Karlsborgs Fästning, day/overnight"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: conference packages include a B&B but unclear whether it is inside the fortress",
+   "restaurang-och-kafe: 'Bo, Äta' page lists eateries on the fortress but none could be confirmed"
+  ],
+  "facts": "One of Sweden's largest fortresses on Vanäs point in Lake Vättern, planned as a reserve capital and managed by SFV. Fortress museum, guided tours, escape room and party/conference rooms; no own website beyond the West Sweden tourist pages."
+ },
+ "torpa-stenhus": {
+  "checked": "2026-11-03",
+  "website": "https://www.torpastenhus.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.torpastenhus.se/ — 'Öppettider & guidade visningar'",
+   "bo-pa-slott": "https://www.torpastenhus.se/boende — 'Boende i historisk miljö', Gårdshuset, Brygghuset etc.",
+   "brollop-och-fest": "https://www.torpastenhus.se/ — menu 'Bröllop & Fest'",
+   "konferens": "https://www.torpastenhus.se/ — 'Höstöppet för grupper & konferenser!'",
+   "restaurang-och-kafe": "torpastenhus.se/öppettider — 'Torpa slottscafé & restaurang'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "One of Sweden's best-preserved medieval castles, by Lake Åsunden. Summer guided tours, café and restaurant, accommodation in estate houses, conferences, weddings, medieval days, castle theatre and a Christmas market."
+ },
+ "thorskogs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.thorskogsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.thorskogsslott.se/ — rooms in Slottet, Smedjan, Kvarnen and other houses; weekend packages",
+   "brollop-och-fest": "https://www.thorskogsslott.se/ — 'Fest & Bröllop' section",
+   "konferens": "https://www.thorskogsslott.se/konferens/ — meetings and conferences",
+   "restaurang-och-kafe": "https://www.thorskogsslott.se/mat-dryck/ — lunch, dinner and afternoon tea, pre-booked by the day before"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "1892 castle by the Göta älv in Lilla Edet, a hotel and conference venue since 1986. Offers weekend packages, weddings, conferences, and pre-booked lunch, dinner and afternoon tea; sauna and wood-fired tubs in winter."
+ },
+ "bjertorps-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.bjertorpslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.bjertorpslott.se/hotell — hotel rooms, packages ('Bo på Slott')",
+   "brollop-och-fest": "https://www.bjertorpslott.se/ — Bröllop & Fest",
+   "konferens": "https://www.bjertorpslott.se/konferens — 'Konferensrum och festsal för 100 sittande gäster'",
+   "restaurang-och-kafe": "https://www.bjertorpslott.se/ — White Guide-listed restaurant, 'Boka bord'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ferdinand Boberg-designed castle (1914) on the Vara plain, run as a hotel by Winn Hotel Group. White Guide restaurant, conferences, weddings, golf and gourmet/New Year packages. Old bjertorp.se redirects to bjertorpslott.se."
+ },
+ "stola-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.stola.se/",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://www.stola.se/praktiskt/ — guided tours Wed, Thu, Sat, Sun 14.00, 24/6–16/8 2026, 100 kr"
+  },
+  "removed": {
+   "konferens": "no mention of meetings or conferences on own site or Västsverige page"
+  },
+  "unsure": [
+   "park-och-tradgard: park belongs to the foundation and memorial grove is open year-round, but no statement that the park is open"
+  ],
+  "facts": "Carolean manor near Lidköping on the road to Läckö, with rococo interiors and the Ekeblad family's furnishings; run by a foundation with guided tours in summer."
+ },
+ "sundsby-sateri": {
+  "checked": "2026-11-03",
+  "website": "https://www.tjorn.se/sundsby",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.tjorn.se/webbplatser/sundsby-sateri/hitta-hit-och-oppettider — free entry, historic guided walks, exhibition",
+   "park-och-tradgard": "same page — 'Park, trädgård och vandringsleder är öppet dygnet runt, året runt'",
+   "restaurang-och-kafe": "…/margaretas-kok--skafferi — 'Lunch, middag eller finfika' in the manor house, uteservering"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor on Mjörn in Tjörn municipality, owned by the municipality: park, kitchen garden and trails open all year with free entry. Margaretas kök & skafferi serves lunch and fika in the main building; bakery and farm shop on site."
+ },
+ "dalaborg": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Freely accessible medieval castle ruin on a point in Vänern (base list: Ruin, open)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of a castle built 1304 and destroyed 1434 during the Engelbrekt rebellion, on a headland by Lake Vänern near Mellerud. The site is freely accessible."
+ },
+ "tureborg": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list/wiki: ruin on a hill in Uddevalla, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Romantic 'knight's castle' built around 1900 in Uddevalla, burnt in the 1950s; the ruin on the hilltop is freely accessible with views over the town."
+ },
+ "kobergs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.koberg.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: estate rents Livereds Jakthus (14 beds) short-term — a hunting lodge, not the castle",
+   "konferens/brollop-och-fest: Kobergsgården community hall on the estate can be hired, not the castle"
+  ],
+  "facts": "Three-storey castle south of Trollhättan owned by the Silfverschiöld family; the estate company runs forestry, golf courses, hunting and property rentals. The castle itself is a private residence."
+ },
+ "mariedals-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Baroque stone house by Jean de la Vallée for Magnus Gabriel De la Gardie, between Skara and Götene; private residence, not open to the public."
+ },
+ "kavlas-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private manor and säteri near Hömb in Tidaholm municipality, owned by the von Essen family since 1723."
+ },
+ "dagsnas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.dagsnasslott.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Privately owned 1770s manor at Hornborgasjön; runs forestry and wood-pellet production. Not open to the public."
+ },
+ "almnas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://almnas.com",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: almnas.com is the estate's cheese business (Almnäs Bruk), not a page about the manor itself"
+  ],
+  "facts": "1770s manor by Lake Vättern south of Hjo; the estate runs Almnäs Bruk, an organic cheese dairy (Wrångebäcksost) with a farm shop. The manor house itself is not open to visitors."
+ },
+ "hellidens-slott": {
+  "checked": "2026-11-03",
+  "website": "https://hellidensslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://hellidensslott.se/ — 'Boende finns både i själva slottet och i flera annexbyggnader'",
+   "konferens": "https://hellidensslott.se/ — 'boende, restaurang, konferensverksamhet, folkhögskola…'",
+   "restaurang-och-kafe": "https://hellidensslott.se/ — restaurant with 'Lunch varje vardag'",
+   "park-och-tradgard": "https://hellidensslott.se/ — 'blommande parker och vackra promenadstråk'"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: lunch restaurant likely open to public but not stated explicitly"
+  ],
+  "facts": "1858 manor above Tidaholm housing a folk high school, rooms in the castle and annexes, a lunch restaurant, conference rooms and a museum of lithographic art. Seasonal events such as Valborg, concerts and Christmas at the castle."
+ },
+ "hojentorps-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "18th-century royal estate (kungsgård) by Lake Skärvalången near Skara, on the site of a 17th-century castle. The building is private; the surrounding Höjentorp–Drottningkullen nature reserve is open under the right of public access."
+ },
+ "kalmar-slott": {
+  "checked": "2026-11-03",
+  "website": "https://kalmarslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://kalmarslott.se/ — öppettider, entré, guidade turer, utställningar",
+   "brollop-och-fest": "https://kalmarslott.se/ — Bröllopsfest, Middag/fest, borgerlig och kyrklig vigsel",
+   "konferens": "https://kalmarslott.se/ — Konferens: Gröna salen, Sturesalen, Borgstugan",
+   "restaurang-och-kafe": "https://kalmarslott.se/ — Restaurang: öppettider, meny, julbord"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Renaissance castle on Slottsholmen in Kalmar with exhibitions, guided tours, castle church, children's activities and a restaurant. Weddings, parties and conferences can be booked. Same site, now https without www."
+ },
+ "borgholms-slottsruin": {
+  "checked": "2026-11-03",
+  "website": "https://www.borgholmsslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.borgholmsslott.se/oppettider/ — opening hours, entrance with audioguide, guided tours, exhibitions",
+   "brollop-och-fest": "https://www.borgholmsslott.se/hyr-slottet/ — 'lokaler för bröllop, fester och konferensmiddagar', Drabantsalen and Jungfrutornet; vigsel",
+   "restaurang-och-kafe": "https://www.borgholmsslott.se/slottscafe/ — Slottscafé page"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "One of Öland's biggest attractions: the castle ruin has exhibitions, guided tours, children's activities, concerts, a café and halls for weddings and dinners. Run by Borgholm municipality."
+ },
+ "sollidens-slott": {
+  "checked": "2026-11-03",
+  "website": "https://sollidensslott.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://sollidensslott.se/besok/oppettider/ — seasonal opening with entry, guided tours, exhibitions; 'Öppnar åter 13 maj 2027'",
+   "park-och-tradgard": "https://sollidensslott.se/ — 'Välkommen att njuta av Sollidens vackra parker'",
+   "restaurang-och-kafe": "https://sollidensslott.se/ — 'Kaffetorpet – Restaurang & Café'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "The King's summer residence on Öland; the palace gardens are open to visitors in season (reopens 13 May 2027) with guided tours. Restaurant/café Kaffetorpet, shop and children's activities; the house itself is private."
+ },
+ "eketorps-borg": {
+  "checked": "2026-11-03",
+  "website": "https://eketorpsborg.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://eketorpsborg.se/ — opening hours and admission (adult 125 kr), guided tours, exhibitions",
+   "brollop-och-fest": "https://eketorpsborg.se/boka/ — 'Boka hela eller delar av Eketorps borg... barnkalas, en 50-årsfest'",
+   "restaurang-och-kafe": "https://eketorpsborg.se/mat-dryck/ — 'I entrébyggnaden... köpa enklare fika, smörgås... glass'"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: company kick-offs/team-building offered ('samla ledningsgruppen'), but no meeting room described"
+  ],
+  "facts": "Reconstructed Iron Age ring fort on Öland's Stora alvaret (World Heritage), run by Mörbylånga municipality. Open seasonally with guided tours, activities and a simple café in the entrance building; the fort can be booked for parties and company events."
+ },
+ "ismantorps-borg": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list/wiki: freely accessible prehistoric ring fort in central Öland"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Iron Age ring fort (c. 200–600 AD) with a 125 m wall, nine gates and 88 house foundations, freely accessible in the Mittlandsskogen forest."
+ },
+ "graborg": {
+  "checked": "2026-11-03",
+  "website": "https://vitterhetsakademien.se/english/the-royal-swedish-academy-of-letters-history-and-antiquities/heritage-properties/borg-and-graborg.html",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "vitterhetsakademien.se Borg and Gråborg page — 'Free admission', 'Open to visitors all year'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Öland's best-known prehistoric ring fort with a 4-metre stone wall, managed by the Royal Academy of Letters (Vitterhetsakademien). Free entry year-round; walking paths and picnic area."
+ },
+ "granso-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.granso.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.granso.se/ — hotel rooms and 'nya lyxiga Strandsviter direkt vid havet'",
+   "konferens": "https://www.granso.se/ — 'Våra konferenspaket', meeting rooms",
+   "spa": "https://www.granso.se/ — 'vårt spa med åtta pooler', saunas, treatments",
+   "brollop-och-fest": "https://www.granso.se/wp-content/uploads/2026/04/fest-brollop-broschyr-2026_web.pdf — weddings, birthdays, jubilees",
+   "restaurang-och-kafe": "https://www.granso.se/ — castle restaurant with table booking, café, afternoon tea"
+  },
+  "removed": {},
+  "unsure": [
+   "website: old granso.com is a parked GoDaddy for-sale domain; replaced by granso.se"
+  ],
+  "facts": "Gränsö Slott Hotel & Spa on Gränsö island 4 km from Västervik: hotel, beach suites, spa with eight pools and saunas, restaurant and café. Conferences, weddings and parties."
+ },
+ "stegeholms-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Ruin, open: Ja — ruin on Slottsholmen in Västervik, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of the medieval Stegeholm castle on Slottsholmen in Västervik, freely accessible."
+ },
+ "blekhem": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private manor in Törnsfall parish, Västervik; not open to the public. The listed domain blekhem.com is parked/for sale."
+ },
+ "kronobergs-slottsruin": {
+  "checked": "2026-11-03",
+  "website": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/",
+  "offers": [
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "restaurang-och-kafe": "https://upplev.vaxjo.se/.../the-ruins-of-kronobergs-castle — 'Adjacent to the castle ruins is a café called Ryttmästargården'"
+  },
+  "removed": {
+   "besok": "https://www.kulturparkensmaland.se/kronobergs-slottsruin/ — 'Från årsskiftet 2022/2023 är slottsruinen permanent stängd för besök'"
+  },
+  "unsure": [
+   "restaurang-och-kafe: Ryttmästargården is a separate seasonal café next to the (closed) ruin",
+   "besok: SFV has discussed restoration and reopening parts (SVT May 2025); no reopening found as of Nov 2026"
+  ],
+  "facts": "Vasa-era castle ruin on an islet in Helgasjön north of Växjö, owned by SFV. The ruin has been closed to visitors since 2022/2023 because of its condition; the seasonal café Ryttmästargården lies next to it."
+ },
+ "bergkvara-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list: ruin, open/freely accessible near Växjö"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruin of a 1500s castle by Lake Bergkvarasjön south-west of Växjö, freely accessible outdoors."
+ },
+ "teleborgs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://teleborgsslott.com/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://teleborgsslott.com/ — 'Här kan ni äta och bo i en vacker slottsmiljö', Boka hotell",
+   "brollop-och-fest": "https://teleborgsslott.com/brollop-pa-slott/ — weddings and birthday celebrations",
+   "konferens": "https://teleborgsslott.com/ — 'Hotell, konferens, bröllop och matupplevelser'",
+   "restaurang-och-kafe": "https://teleborgsslott.com/restaurang/ — lunch Mon–Fri 11.45–14, à la carte dinner"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Granite castle on a rocky headland in Lake Trummen near Växjö, now a hotel, restaurant and conference venue. Restaurant serves weekday lunch and à la carte dinners; weddings and celebrations are booked."
+ },
+ "huseby-bruk": {
+  "checked": "2026-11-03",
+  "website": "https://www.husebybruk.se/",
+  "offers": [
+   "besok",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.husebybruk.se/summer-at-huseby-bruk/?lang=en — open daily 20 Jun–23 Aug, 11–17; castle tours and museums",
+   "konferens": "https://www.husebybruk.se/conferences-2/?lang=en — meetings for larger and smaller groups",
+   "park-och-tradgard": "https://husebybruk.com/rundtur/index.htm — slottspark and garden with planting; Elisabeth's Garden",
+   "restaurang-och-kafe": "https://husebybruk.se/elisabeths/?lang=en — Elisabeth's Garden Restaurant & Café, open 11–17 in season"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Former ironworks estate by lake Åsnen, open daily in summer (20 Jun–23 Aug 2026) with manor-house tours, ironworks and nature museums, and Elisabeth's Garden restaurant & café. Conferences bookable. The old husebybruk.com site is outdated; husebybruk.se is current."
+ },
+ "brahehus": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Ruin, rastplats, open: Ja — ruin by the E4 at Uppgränna, free access"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruin of Per Brahe's 17th-century castle above Lake Vättern by the E4 north of Gränna, with a rest stop and views."
+ },
+ "visingsborgs-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list: ruin, open: Ja — freely accessible castle ruin on Visingsö"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruin of the Brahe family's 1500s castle on the east shore of Visingsö, burnt in 1718; freely accessible grounds."
+ },
+ "nas-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Freely accessible royal castle ruin at Visingsö's southern tip (base list: Ruin, open)"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of the medieval royal castle of Näs at the southern tip of Visingsö in Lake Vättern. Freely accessible, reached by ferry from Gränna."
+ },
+ "gripenbergs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "One of Sweden's largest wooden castles (1660s), privately owned by the von Söderling family; not open to the public."
+ },
+ "vastana-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.vastanaslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.vastanaslott.se/boende/ — six castle double rooms plus south wing and Grindstugan rooms",
+   "brollop-och-fest": "https://www.vastanaslott.se/fest/ — weddings and anniversaries",
+   "konferens": "https://www.vastanaslott.se/konferens/ — conference offer",
+   "restaurang-och-kafe": "https://www.vastanaslott.se/restaurang/ — 'Varje kväll serverar Restaurang Västanå en trerättersmeny', 895 kr"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor on a ridge above Lake Vättern south of Gränna, a hotel with rooms in the castle, wing and gatehouse. Nightly three-course dinner, weddings, conferences, padel and nearby golf."
+ },
+ "lyckas-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Lyckås säteri, a private manor in Skärstad parish, Jönköping municipality; not open to the public."
+ },
+ "visby-ringmur": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Världsarv, open: Ja — 3.4 km medieval town wall, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "3.4 km medieval town wall around Visby with 27 towers left; part of the Visby World Heritage Site and freely accessible."
+ },
+ "roma-kungsgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.romakungsgard.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.romakungsgard.se/ — shops and exhibitions open 'september alla dagar 10:00-17:00'",
+   "park-och-tradgard": "https://www.romakungsgard.se/ — 'promenera i den återställda parken med grusgångar'",
+   "restaurang-och-kafe": "https://www.romakungsgard.se/ — 'Café Grönhagen. Där serveras goda bakverk, dagens lunch'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal estate on central Gotland (Statens fastighetsverk) with the Roma monastery ruin, where summer theatre is staged. Art exhibitions, glass and craft shops, Café Grönhagen and a restored 1800s park; pilgrim trail starts here."
+ },
+ "katthammarsvik-katthamra": {
+  "checked": "2026-11-03",
+  "website": "https://katthamra.nu",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://katthamra.nu — 'charmiga semesterhus', 'Charmigt och personligt boende i historisk miljö'",
+   "brollop-och-fest": "https://katthamra.nu — 'Bröllop & Fest: En plats för middagar, firanden...' (Magasinet)"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: holiday houses are on the Katthamra farm estate, not in the main house"
+  ],
+  "facts": "Katthamra Gård is a historic 18th-century estate at Katthammarsvik on Gotland's east coast. It rents out holiday houses and hosts weddings and parties in its old farm buildings."
+ },
+ "stora-hastnas": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private farm east of Visby with a well-preserved 1300s stone house; not open to the public."
+ },
+ "vadstena-slott": {
+  "checked": "2026-11-03",
+  "website": "https://vadstenaslott.com/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "besok": "https://vadstenaslott.com/oppettider/ — opening hours, guided tours on set dates, exhibitions",
+   "brollop-och-fest": "https://vadstenaslott.com/ — 'Bröllop & fest', vigsel på Vadstena Slott, rum & lokaler",
+   "konferens": "https://vadstenaslott.com/ — meetings and congresses for 20–600 participants"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Gustav Vasa's 16th-century Renaissance castle on Lake Vättern. Open to visitors with exhibitions, guided tours and events such as medieval days and Christmas market; rooms hired for weddings, parties and congresses."
+ },
+ "linkopings-slott": {
+  "checked": "2026-11-03",
+  "website": "https://lsdm.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "https://lsdm.se/ — Slotts- & Domkyrkomuseum open Wed–Sun 12–16, daily in summer; guided tours Sat 11",
+   "park-och-tradgard": "https://lsdm.se/ — free guided tours of Slottsträdgården on set dates May–Sep (max 30)"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: castle garden is visited only on scheduled guided garden tours"
+  ],
+  "facts": "Sweden's oldest preserved secular building, home of Linköpings Slotts- & Domkyrkomuseum (open Wed–Sun 12–16, daily in summer; adult entry 95 SEK). Guided tours and free summer tours of the castle garden."
+ },
+ "lofstad-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/ — shown as museum by Östergötlands museum in summer season",
+   "park-och-tradgard": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/ — 'Här finns en slottsträdgård att vandra i'",
+   "restaurang-och-kafe": "https://ostergotlandsmuseum.se/besoek/loefstad-slott/ — 'värdshus och handelsträdgård med tillhörande fik'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor left untouched since Emilie Piper died in 1926, owned by Riddarhuset with interiors shown by Östergötlands museum in summer; garden, shop, inn and nursery café on site."
+ },
+ "ekenas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ekenasslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://ekenasslott.se/ — 'endast guidade turer... Vuxna: 140 kr'",
+   "brollop-och-fest": "https://ekenasslott.se/brollop-fest/ — 'Hyra festlokal för bröllop & fest'",
+   "konferens": "https://ekenasslott.se/foretagsevent/ — 'företagsevent, kickoff eller teambuildingaktivitet'",
+   "park-och-tradgard": "https://ekenasslott.se/ — 'Slottsparken är öppen året om'",
+   "restaurang-och-kafe": "https://ekenasslott.se/ — 'Slottscafé... Öppet onsdagar till söndagar 10-17' (July–Aug)"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: corporate events/kickoffs, not explicitly meeting rooms"
+  ],
+  "facts": "Privately owned, well-preserved 1600s castle near Linköping, shown on guided tours in summer. Known for knight tournaments, ghost walks and a Christmas market (12–15 Nov 2026); summer café, and rentals for weddings and company events."
+ },
+ "bjarka-saby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://visitlinkoping.se/en/see-and-do/new-castle-bjarka-saby",
+  "offers": [
+   "besok",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://visitlinkoping.se/en/se-och-gora/nya-slottet-bjarka-saby — historical guided tours in summer",
+   "konferens": "https://visitlinkoping.se/en/se-och-gora/nya-slottet-bjarka-saby — seminars and conferences hosted year-round",
+   "restaurang-och-kafe": "https://visitlinkoping.se/en/se-och-gora/nya-slottet-bjarka-saby — Castle Café open to the public in summer"
+  },
+  "removed": {},
+  "unsure": [
+   "website: bjarka-saby.se returned an error; Visit Linköping page used",
+   "brollop-och-fest: concerts held, but no wedding/party hire confirmed"
+  ],
+  "facts": "Neo-Baroque castle south-east of Linköping, run by a foundation. Seminars and conferences year-round; in summer there are guided tours, concerts and a castle café."
+ },
+ "stegeborgs-slottsruin": {
+  "checked": "2026-11-03",
+  "website": "https://www.stegeborg.se/slottsruinen/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.stegeborg.se/slottsruinen/ — 'Slottsruin … Guidad tur Audioguide', summer guided tours",
+   "park-och-tradgard": "https://www.stegeborg.se/slottsruinen/ — 'Slottsruin och örtagård'; site mentions 'promenader i Slottsparken'",
+   "bo-pa-slott": "https://www.stegeborg.se/ — menu 'Trädgårdshotellet Stugor … Camping'",
+   "konferens": "stegeborg.se/stegeborgs-tradgardshotell/ — 'När man bokar konferens hos oss får man alltid hela anläggningen'",
+   "brollop-och-fest": "stegeborg.se/stegeborgs-tradgardshotell/ — 'Planerar du bröllop eller femtioårsfest? … perfekta platsen'",
+   "restaurang-och-kafe": "https://www.stegeborg.se/slottsruinen/ — 'Stegeborgs Hamnkrog, Trädgårdscafé, Glasseria'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Medieval castle ruin on an islet in Slätbaken near Söderköping, part of the Stegeborg estate. Summer guided tours and audio guide, herb garden, harbour restaurant, garden café, garden hotel, cottages and camping; conferences and parties at the garden hotel."
+ },
+ "sturefors-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://kindakanal.se/en/culture-along-the-kinda-kanal/ — 'The castle isn´t open to the public but the grounds are still worth a visit'"
+  },
+  "removed": {},
+  "unsure": [
+   "website: stureforsgods.se exists (blocks robots) but could not be verified as the estate's site"
+  ],
+  "facts": "Major 1700s manor by Lake Ärlången near Linköping. The castle is private, but the English park with its mirror pond and the Sturefors nature reserve are open; the M/S Kind canal boat sometimes stops here."
+ },
+ "brokinds-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle on islets where Stångån leaves lake Järnlunden, about 30 km from Linköping, next to Brokind lock; not open to the public."
+ },
+ "charlottenborgs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://www.naturkartan.se/en/ostergotlands-lan/charlottenborgs-slott-d657486a-4cdd-4e06-bb69-646c497ed67d — museum on Motala history, Motala kommun"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: opening hours not found; website still missing (Motala kommun page)"
+  ],
+  "facts": "Manor by Motala ström that has housed a museum since 1984; run by Motala municipality's culture unit since 2016 with exhibitions on Motala's history."
+ },
+ "ljungs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://visitlinkoping.se/se-och-gora/ljungs-slott/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "visitlinkoping.se ljungs-castle — guided tours in period dress, exhibitions, late June–early Oct",
+   "park-och-tradgard": "gotakanal.se Ljung tours — visitors can sit behind the castle and enjoy the park (English park by Motala ström)",
+   "restaurang-och-kafe": "gotakanal.se / visitlinkoping.se — summer café serving coffee"
+  },
+  "removed": {},
+  "unsure": [
+   "website: no own site found; tourism page used"
+  ],
+  "facts": "Private castle by Ljungssjön near Linköping shown in summer by Ljungs slotts preservation association: guided tours, lectures, concerts, summer café and shop. Set in an English park by Motala ström."
+ },
+ "finspangs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://finspongsslott.se",
+  "offers": [
+   "bo-pa-slott",
+   "konferens",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://finspongsslott.se — hotel in the wings, 20 rooms; also sold as 'Finspångs Slott – Gästflygeln' on booking sites",
+   "konferens": "https://finspongsslott.se — several conference rooms with modern equipment (largest for 14)",
+   "park-och-tradgard": "https://finspongsslott.se — 1700s park 'open to the public year-round'"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: restaurant Slottsmässen (120 seats) exists, unclear if open to walk-in guests",
+   "brollop-och-fest: older articles say Slottsmässen hosts weddings/birthdays; not stated on current site"
+  ],
+  "facts": "Baroque castle (1668–1685) owned by Siemens Energy and used as offices. The 18th-century wings house a 20-room hotel, conference rooms and the restaurant Slottsmässen; the castle park is open to the public all year."
+ },
+ "mauritzbergs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://mauritzberg.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://mauritzberg.se/ — rooms: 'Sviter, Premiumrum, Standardrum, Flygelrum… Lodge villor'",
+   "konferens": "https://mauritzberg.se/ — 'Dagskonferens, Dygnskonferens, Lokaler'",
+   "brollop-och-fest": "https://mauritzberg.se/restaurang/fest-brollop/ — 'En oförglömlig bröllopsfest eller middag på Mauritzbergs Slott'",
+   "restaurang-och-kafe": "mauritzberg.se/restaurang/ebba-grips-restauranger/ — 'Dagens lunch serveras i Ebba Grips Bistro'"
+  },
+  "removed": {},
+  "unsure": [
+   "website: old mauritzberg.com is now a Finnish parked domain; mauritzberg.se is current (updated Oct 2026)"
+  ],
+  "facts": "Castle hotel and 18-hole golf course on Vikbolandet near Norrköping (Mauritzbergs Slott & Golf). Rooms in the castle, wings and lodge villas, castle restaurant Silverklippan and Ebba Grips Bistro, conferences, weddings and themed weekends."
+ },
+ "stjarnorps-slottsruin": {
+  "checked": "2026-11-03",
+  "website": "https://www.slottstornet.se/",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://visitlinkoping.se/en/see-and-do/stjarnorp-castle-ruin — 'Today you can visit the ruin from the park side'; tours of ruin and tower"
+  },
+  "removed": {},
+  "unsure": [
+   "website: slottstornet.se is the estate company's contact page; no visitor info there"
+  ],
+  "facts": "Ruin of a 17th-century castle that burned in 1789, recently conserved (Tengbom). The ruin can be viewed from the park side; one wing houses the active Stjärnorp church. Estate owned by the Douglas family's Slottstornet AB."
+ },
+ "johannisborgs-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "Public ruin in central Norrköping north of Motala ström, freely accessible (base list: Ruin, open Ja)",
+   "park-och-tradgard": "Ruin stands in the public Johannisborg park area in Norrköping"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: based on general knowledge of the park setting, not a fetched source"
+  ],
+  "facts": "Ruin of the fortified castle begun in 1613 by Duke Johan of Östergötland in Norrköping; the remaining bastion and ramparts are freely accessible."
+ },
+ "braborgs-slottsruin": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "base list: Ruin, open: Ja — castle ruin outside Norrköping, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of Bråborg, a 17th-century castle of Queen Dowager Maria Eleonora's era, near Norrköping."
+ },
+ "mems-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle at Göta kanal's outlet into Slätbaken near Söderköping; not open to the public."
+ },
+ "ulvasa": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.naturkartan.se/en/ostergotlands-lan/ulvasa-slott-och-park — 'castle park down to the water is open to the public'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Historic manor on Lake Boren near Motala, linked to St Birgitta, whose house is private. The castle park down to the water is open to the public, but the garden nearest the house is private."
+ },
+ "gripsholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/gripsholm-castle.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "royalpalaces.se Gripsholm — 'Tickets Opening hours … Guided tours'",
+   "park-och-tradgard": "royalpalaces.se Gripsholm — 'Gripsholm Palace Park', 'Gripsholm Deer Field' open to walk in"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal castle by Lake Mälaren at Mariefred, built by Gustav Vasa from 1537; houses the Swedish National Portrait Gallery. Seasonal opening with guided tours; the castle park and Hjorthagen deer field are open for walks, with cafés in Mariefred nearby."
+ },
+ "nykopingshus": {
+  "checked": "2026-11-03",
+  "website": "https://sormlandsmuseum.se/besoksinfo/nykopingshus/",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://sormlandsmuseum.se/besoksinfo/nykopingshus/ — Kungstornet exhibitions, entry fee, free-entry days 2026"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: Sörmlands museum's restaurant is in the museum building nearby, not in the castle"
+  ],
+  "facts": "Medieval castle in central Nyköping, partly in ruins, run by Sörmlands museum. The white King's Tower (Kungstornet) holds three exhibitions; the castle area is open to walk around."
+ },
+ "nynas-slott": {
+  "checked": "2026-11-03",
+  "website": "https://nynasslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://nynasslott.se/besoksinformation/ — slott, visningar, utställningar in summer; reopens summer 2027",
+   "restaurang-och-kafe": "https://nynasslott.se/at-och-florera/ata-och-fika/ — Café Nynäs in the orangery, summer season",
+   "park-och-tradgard": "https://nynasslott.se/at-och-florera/ — 'Parken och trädgårdarna vid Nynäs är alltid öppna'",
+   "bo-pa-slott": "https://nynasslott.se/vandrarhemmet-branneriet/ — hostel Bränneriet on the estate, open all year"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Estate of Region Sörmland in a large nature reserve between Trosa and Nyköping. Castle tours, exhibitions and the orangery café open in summer (closed until summer 2027); park, gardens and reserve open all year; hostel Bränneriet with sauna by the lake."
+ },
+ "julita-gard": {
+  "checked": "2026-11-03",
+  "website": "https://www.julitagard.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.julitagard.se/besok-oss/oppettider/ — open-air museum of Nordiska museet with buildings, exhibitions, tickets",
+   "bo-pa-slott": "https://www.julitagard.se/besok-oss/overnatta/ — rooms in Södra flygeln, Åttkanten and hostel, booked via Fiskeboda Camping",
+   "restaurang-och-kafe": "https://www.julitagard.se/besok-oss/ata-och-fika/ — Café & Bistro inside, Bakfickan by entrance (seasonal)",
+   "park-och-tradgard": "https://www.julitagard.se/ — 'Herrgårdsparken och trädgårdarna är öppna för besök året om'",
+   "brollop-och-fest": "https://www.julitagard.se/besok-oss/ — book Rosenträdgården or the jetty for a simple wedding ceremony, 5000 kr"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor estate owned by Nordiska museet since 1944, run as an open-air museum with gardens open year-round, café/bistro, overnight stays and bookable wedding spots."
+ },
+ "sundbyholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://sundbyholms-slott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://sundbyholms-slott.se/ — rooms in herrgården, hotel building and chalets on the grounds",
+   "brollop-och-fest": "https://sundbyholm.se/ — 'uthyrning för bröllop och fest'; wedding packages on sundbyholms-slott.se",
+   "konferens": "https://sundbyholm.se/ — 'Slottet har även konferensverksamhet'",
+   "park-och-tradgard": "https://sundbyholm.se/ — 'slottsparken öppen för allmänheten'",
+   "restaurang-och-kafe": "https://sundbyholms-slott.se/ — restaurant and bar in the castle; afternoon tea"
+  },
+  "removed": {},
+  "unsure": [
+   "spa: only rentable hot tubs and chalet spa suites - not counted as spa"
+  ],
+  "facts": "1640s castle on a Mälaren headland 9 km from Eskilstuna, run as a hotel and conference venue with restaurant, afternoon tea and wedding packages. Public castle park, beech forest, beach and guest harbour nearby."
+ },
+ "malsakers-slott": {
+  "checked": "2026-11-03",
+  "website": "https://malsaker.nu/",
+  "offers": [
+   "brollop-och-fest",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://malsaker.nu/boka-slottet/boka-slottet — 'Boka slottet för eget evenemang', Riddarsalen dukad för bröllop",
+   "park-och-tradgard": "https://malsaker.nu/ — 'Slottsparken är tillgänglig året runt'"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: 'Slottet är stängt för besökare 2026 och öppnar igen juni 2027' (group tours bookable) — re-add besok in 2027",
+   "restaurang-och-kafe: 'Caféet är stängt för besökare 2026 och öppnar igen juni 2027'"
+  ],
+  "facts": "Baroque castle on Selaön in Lake Mälaren, run by a non-profit association. Closed to regular visitors in 2026 and reopening June 2027 with summer opening, concerts and a café; the park is open year-round and the castle can be booked for private events."
+ },
+ "tureholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "besok": "Private home of the Bonde family; no current public tours or open days found"
+  },
+  "unsure": [
+   "besok: base list says 'visningar' — maybe occasional group visits by arrangement, none found online"
+  ],
+  "facts": "Large 1700s castle near Trosa, owned by the Bonde family since 1935 and used as a private home."
+ },
+ "ericsbergs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ericsberg.se/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://ericsberg.se/ — 'Bröllop' under Aktiviteter & tjänster; slottsbröllop page",
+   "konferens": "https://ericsberg.se/bokning_konferens/ — book conference",
+   "restaurang-och-kafe": "https://ericsberg.se/cafe/ — Slottscafét: fika and lunch, summer outdoor seating; seasonal hours",
+   "park-och-tradgard": "https://ericsberg.se/cafe/ — 'Slottsparken håller alltid öppet på helgfria vardagar 9-16'; labyrinth"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: guided tours offered ('Guidade turer'), seemingly on request rather than scheduled"
+  ],
+  "facts": "Baroque castle near Katrineholm, run by the eighth generation of the Bonde family. Baroque park and labyrinth open weekdays 9–16; castle café with seasonal hours; guided tours, weddings and conferences."
+ },
+ "stora-sundby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://storasundby.com/",
+  "offers": [
+   "besok",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://storasundby.com/besok-oss/ — 'Parken är öppen för allmänheten varje dag året runt mellan 10-18', 20 kr",
+   "besok": "https://storasundby.com/besok-oss/ — guided castle tours ~50 min, tickets via Tickster (summer)",
+   "restaurang-och-kafe": "https://storasundby.com/besok-oss/ — Slottscafé in the former orangery; closed for the season now",
+   "konferens": "https://storasundby.com/kontakt/ — 'För frågor kring besök, visningar, och konferenser kontakta…'"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: only a contact line mentions conferences; no conference page"
+  ],
+  "facts": "Private castle by Hjälmaren in the De Geer/Wedel tradition. Park with medieval borg ruin, runestone and deer enclosure open daily 10–18 (20 SEK); guided castle tours and an orangery café in summer; farm shop and hunting."
+ },
+ "sparreholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sparreholmsslott.com/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.sparreholmsslott.com/museer-caf%C3%A9 — car museum open Tue–Sun 12–17, 23 June–9 Aug 2026",
+   "restaurang-och-kafe": "https://www.sparreholmsslott.com/museer-caf%C3%A9 — 'Café och butik har samma öppettider' (summer)",
+   "bo-pa-slott": "https://www.sparreholmsslott.com/vandrarhem — hostel with 11 beds at Björkhults gård by the horse centre, booked via Booking",
+   "konferens": "https://www.sparreholmsslott.com/m%C3%B6teslokaler — 'lokaler för möten, konferenser, mässor och fester', hall for 100",
+   "brollop-och-fest": "https://www.sparreholmsslott.com/m%C3%B6teslokaler — Stora salen hired for parties ('fester')"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: venue is the horse-centre hall at Björkhults gård, not the castle itself"
+  ],
+  "facts": "Estate on Båven with one of Europe's finest car collections (museum open summer), café, horse centre with courses, hostel and meeting/party hall."
+ },
+ "stenhammars-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal residence (leased to Prince Carl Philip) on a 2,000 ha estate near Flen; not open to the public."
+ },
+ "harpsund": {
+  "checked": "2026-11-03",
+  "website": "https://www.harpsund.se",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "The Swedish prime minister's country retreat near Flen; the house, garden and park are managed by SFV and the farm and forest by the Harpsund board. Not open to the public."
+ },
+ "claestorps-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.claestorp.se/",
+  "offers": [
+   "konferens"
+  ],
+  "evidence": {
+   "konferens": "claestorp.se/verksamhet/jakt-konferens/ — 'mindre sällskap möjlighet till både konferenser och representationsmiddagar'"
+  },
+  "removed": {
+   "bo-pa-slott": "Overnight stays offered only to hunting guests ('gästerna övernatta' as part of hunts), not bookable by the public"
+  },
+  "unsure": [
+   "bo-pa-slott: conference groups may perhaps stay overnight; not stated"
+  ],
+  "facts": "Private estate (Claestorps Fideikommiss AB) near Katrineholm with farming, forestry and hunting. Small groups can book conferences and representation dinners in the historic setting."
+ },
+ "rockelstads-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.rockelstad.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "http://www.rockelstad.se/hyra-hus — 'I slottsparken på Rockelstad finns trevliga hus och stugor att hyra' per day/week",
+   "brollop-och-fest": "http://www.rockelstad.se/brollop — weddings include party rooms and overnight stay",
+   "konferens": "http://www.rockelstad.se/konferens — conferences, kick-offs, sauna on the lake"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor by Lake Båven in Sörmland, rebuilt by Ivar Tengbom for Count Eric von Rosen. Family-run estate renting self-catering houses in the castle park and hosting weddings, parties and conferences with own caterer; B&B currently paused, no restaurant."
+ },
+ "yxtaholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://yxtaholmsslott.se/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://yxtaholmsslott.se/ — 'Här arrangeras privata fester, bröllop och företagsevent'",
+   "konferens": "https://yxtaholmsslott.se/ — venue for 'arbetets mest betydelsefulla tillfällen', företagsevent"
+  },
+  "removed": {
+   "bo-pa-slott": "Site now presents only private, exclusive events; no public hotel booking or rooms mentioned",
+   "spa": "Only 'bastu, jacuzzi och badbrygga' for event guests; no spa area or treatments"
+  },
+  "unsure": [
+   "konferens: described as corporate events, no explicit conference packages",
+   "bo-pa-slott: event guests may stay overnight, but no public hotel booking"
+  ],
+  "facts": "Manor on a peninsula in Yxtasjön near Flen, privately owned since 2010. Reopened as an exclusive venue for weddings, private parties and corporate events, with sauna, jacuzzi, rowing boats, tennis and nature trails."
+ },
+ "sodertuna-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sodertuna.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.sodertuna.se/hotell/hotellrum/ — hotel rooms incl. slottsgemak, 'Boka hotellrum'",
+   "brollop-och-fest": "https://www.sodertuna.se/brollop-fest/ — wedding and party packages; Saturdays reserved for weddings",
+   "konferens": "https://www.sodertuna.se/konferens/ — conference rooms and packages",
+   "restaurang-och-kafe": "https://www.sodertuna.se/ — 'Slottslunch tisdag–fredag 12–14', à la carte, afternoon tea",
+   "spa": "https://www.sodertuna.se/ — 'Hertig Karls bad' relax area with pool and sauna, open Mon–Sat 10–22"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: 18th-c. English park described, but public access not stated",
+   "spa: Hertig Karls bad is a small relax area (pool, sauna), not a full spa"
+  ],
+  "facts": "Hotel and conference castle on an islet in Frösjön near Gnesta, run by the Åström family (Svenska Kulturpärlor) since 1985; weddings, lunch and dinner restaurant, relax area and an English park."
+ },
+ "safstaholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://safstaholm.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://safstaholm.se/safstaholms-slott/besoksinformation — open Tue–Fri 11-16 (winter), daily in summer; exhibitions",
+   "brollop-och-fest": "…/vigsel-pa-slottet — 'kan du gifta dig i egen regi, året om... upp till 75 personer'",
+   "konferens": "…/besoksinformation — 'Slottet rymmer museishop, utställningsverksamhet, konferenslokaler'",
+   "restaurang-och-kafe": "https://safstaholm.se/ — 'Sultans slottscafé' (seasonal, closed for winter)"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: castle park likely public (municipal) but not stated",
+   "konferens: rooms mentioned, booking terms not shown"
+  ],
+  "facts": "Owned and run by Vingåker municipality: art collections and exhibitions, open year-round (daily in summer). Weddings for up to 75 guests; seasonal Sultans slottscafé."
+ },
+ "vibyholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: vibyholm.se could not be fetched (robots disallowed), not verified"
+  ],
+  "facts": "17th-century castle on an island in Lake Båven near Flen, owned by the Bonde family line since 1730. Private, not open to the public."
+ },
+ "fiholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private estate by Mälaren north-east of Eskilstuna with 1640s wings by Simon de la Vallée; not open to the public."
+ },
+ "elghammar": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Early-1800s manor by Quarenghi on a headland in Lake Lockvattnet near Björnlunda, Gnesta. Private and not open to the public."
+ },
+ "ekensholms-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.ekensholm.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: ekensholm.se blocks our crawler (Cloudflare) and WebFetch; could not check content"
+  ],
+  "facts": "Manor from 1827 on the north shore of lake Dunkern in Flen municipality; private estate, not open to the public."
+ },
+ "bjorksunds-slott": {
+  "checked": "2026-11-03",
+  "website": "https://bjorksund.com/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Early-1700s baroque manor by Sibbofjärden northeast of Nyköping; managed by the family company Björksund Holding, which rents out housing on the estate. No public visits."
+ },
+ "rinkesta": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle and former entailed estate in Ärla parish, Eskilstuna; not open to the public."
+ },
+ "oster-malma": {
+  "checked": "2026-11-03",
+  "website": "https://www.ostermalma.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.ostermalma.se/oster-malma-wildelife-park/ — Wildlife Park open to visitors, 'Guidade turer erbjuds regelbundet'",
+   "bo-pa-slott": "https://www.ostermalma.se/boka-logi/ — hotel (33 rooms in Röda längan) and hostel on the estate",
+   "brollop-och-fest": "https://www.ostermalma.se/fest-brollop/ — 'Unika fest- och bröllopslokaler i Sörmland'",
+   "konferens": "https://www.ostermalma.se/konferens/ — meetings and training for up to 200 people",
+   "restaurang-och-kafe": "https://www.ostermalma.se/mat-dryck/ — Restaurang Jägaren lunch buffet Tue–Fri, dinners in the castle"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: based on the wildlife park, not the castle interior"
+  ],
+  "facts": "Baroque estate near Nyköping owned by the Swedish Hunters' Association since 1946. Hotel and hostel, Restaurang Jägaren with game food, conferences, weddings and a wildlife park with Nordic animals; sauna lounge for hotel guests."
+ },
+ "tistads-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.tista.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: guided visits only for booked groups ('195 kr per person, minst 3500 kr per grupp') — counts only if group visits qualify",
+   "restaurang-och-kafe: Kaffestugan 'öppen endast för bokade grupper, minimum 12 personer' — excluded"
+  ],
+  "facts": "Italian-style castle (1766–71) near Nyköping owned by the Wachtmeister family. Guided group tours and a coffee house in the old granary can be booked by groups; estate houses are rented as permanent homes."
+ },
+ "tynnelso-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "besok: previously occasional summer tours; Statens fastighetsverk put the castle on its sale list in Dec 2024"
+  ],
+  "facts": "Uninhabited castle on Tynnelsö island in Lake Mälaren, owned by Statens fastighetsverk, which listed it for sale in December 2024. No regular public opening found."
+ },
+ "akero": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "website: akero-sateri.se blocks fetching; could not confirm it belongs to Åkerö"
+  ],
+  "facts": "Historic manor with medieval roots in Bettna parish, Flen municipality; private, not open to the public."
+ },
+ "stockholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://www.kungligaslotten.se/vara-besoksmal/kungliga-slottet.html — 'Öppet idag 10.00-16.00', state rooms, Skattkammaren, guided tours"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: Logården garden only open on special occasions — not included"
+  ],
+  "facts": "The King's official residence in Gamla stan with state apartments, the Treasury, Tre Kronor museum, Gustav III's museum of antiquities and the Royal Armoury; open daily."
+ },
+ "drottningholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/drottningholm-palace.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "kungligaslotten.se Drottningholm — 'explore Drottningholm Palace by yourself, but a guided tour...'",
+   "park-och-tradgard": "kungligaslotten.se …/drottningholm-palace-park.html — Drottningholm Palace Park page",
+   "restaurang-och-kafe": "kungligaslotten.se …/restaurant-and-cafe-drottningholm.html — 'Restaurant and café, Drottningholm'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "The royal family's home and a UNESCO World Heritage site on Lovön; palace, Chinese Pavilion, court theatre and chapel are open to visitors with guided tours. The large baroque and English park is free to walk; restaurant and café on site."
+ },
+ "kina-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion.html — royal pavilion open seasonally with guided tours",
+   "park-och-tradgard": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-royal-parks.html — Drottningholm Palace Park open every day, 24 h",
+   "restaurang-och-kafe": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/the-chinese-pavilion/pavilion-cafe.html — Pavilion Café near the pavilion"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Rococo pleasure pavilion from 1763–1769 in Drottningholm Palace Park, part of the World Heritage Site. Open in summer with guided tours; the Pavilion Café is nearby and the park is open all year."
+ },
+ "ulriksdals-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/ulriksdal-palace.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "royalpalaces.se Ulriksdal — 'palace and the Orangery are open to the public during the summer months'",
+   "restaurang-och-kafe": "royalpalaces.se Ulriksdal visitor-centre-cafe — 'The palace café offers both indoor and outdoor seating'",
+   "park-och-tradgard": "royalpalaces.se Ulriksdal — 'Ulriksdal Palace Park is open every day of the year, 24 hours a day'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal palace on Edsviken in the Royal National City Park, Solna. Palace and Orangery sculpture museum open in summer with guided tours; park open all year, visitor centre café, palace chapel and Confidencen theatre."
+ },
+ "hagaslottet": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: the castle stands in public Hagaparken, but its own garden is private"
+  ],
+  "facts": "Early-1800s palace in Hagaparken, Solna, home of Crown Princess Victoria and Prince Daniel since 2010. Not open to the public; the surrounding Hagaparken is."
+ },
+ "gustav-iii-s-paviljong": {
+  "checked": "2026-11-03",
+  "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/gustav-iiis-pavilion.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/gustav-iiis-pavilion.html — guided tours with tickets (seasonal, currently closed)",
+   "park-och-tradgard": "same page — in Hagaparken, 'Sweden's foremost example of an English landscape park', public"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Gustav III's small palace in Hagaparken, Solna, shown on guided tours in summer (closed for the season now). Set in the public English landscape park of Haga, with the Copper Tents café nearby."
+ },
+ "rosendals-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace.html — guided tours of the palace (summer season)",
+   "park-och-tradgard": "https://www.royalpalaces.se/english/royal-palaces-and-sites/rosendal-palace/the-palace-park.html — the palace park; royal parks open every day, 24h"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: Rosendals Trädgård café is nearby but run separately — not included"
+  ],
+  "facts": "Karl XIV Johan's 1820s pleasure palace on Djurgården, a showcase of Swedish Empire style; shown on guided tours in summer, with the palace park open all year."
+ },
+ "rosersbergs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.rosersbergsslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "rosersbergsslott.se — 'Under säsong går det även att boka guidade visningar av slottets visningsvåningar via Kungahuset.se'",
+   "bo-pa-slott": "https://www.rosersbergsslott.se/hotell/ — Rosersbergs Slottshotell, hotel rooms",
+   "brollop-och-fest": "rosersbergsslott.se — 'Fest & bröllop Boka här'",
+   "konferens": "https://www.rosersbergsslott.se/konferens/ — 'Konferens nära Arlanda'",
+   "park-och-tradgard": "naturkartan.se rosersbergs-slott — English-style park by the castle listed as outdoor destination",
+   "restaurang-och-kafe": "rosersbergsslott.se — 'Slottsrestaurang... Slottscafé hembakat, lättare lunch'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal palace by Mälaren 10 min from Arlanda: state rooms shown by the Royal Court in season, while other wings house Rosersbergs Slottshotell with hotel, conference, restaurant, café, own brewery, weddings and parties."
+ },
+ "tullgarns-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.kungligaslotten.se/english/royal-palaces-and-sites/tullgarn-palace.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://gripsholmsslott.se/english/royal-palaces-and-sites/tullgarn-palace/visit-us/guided-tours.html — royal palace with guided tours, seasonal hours",
+   "park-och-tradgard": "https://naturkartan.se/en/stockholmslan/tullgarns-slott-2 — palace park by Tullgarnsviken open to visitors",
+   "restaurang-och-kafe": "https://naturkartan.se/fi/sodermanlands-lan/restaurang-cafe-vid-tullgarns-slott — restaurant/café at Tullgarn Palace"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Royal palace from 1727 on Tullgarnsviken south of Södertälje, furnished as Gustaf V's and Queen Victoria's summer home. Open in summer with guided tours; park, café/inn and stables on site."
+ },
+ "tyreso-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.tyresoslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.tyresoslott.se/ — 'Guidade visningar', tickets and opening hours (Nordiska museet)",
+   "park-och-tradgard": "https://www.tyresoslott.se/ — 'Engelsk park'; 'Upplev … den lummiga engelska parken'",
+   "restaurang-och-kafe": "tyresoslott.se/besok-oss/ — 'Ta en fika … på något av kaféerna eller restaurangen'",
+   "bo-pa-slott": "tyresoslott.se/besok-oss/ — 'Övernatta på det charmiga vandrarhemmet Prinsvillan'",
+   "brollop-och-fest": "tyresoslott.se/besok-oss/vigsel-i-slottsparken/ — bookable 'enkel vigsel i Tyresö slottspark' (5000 kr)"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: only a simple wedding ceremony in the park is bookable; no party hire (the slottskrog may host parties)",
+   "bo-pa-slott: Prinsvillan hostel is on the castle grounds but run separately"
+  ],
+  "facts": "Manor museum of Nordiska museet with interiors from the Lagergren era, shown on guided tours in season. English landscape park, cafés, Tyresö slottskrog in a wing, a garden shop and the Prinsvillan hostel; simple wedding ceremonies can be booked in the park."
+ },
+ "svartsjo-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.svartsjoslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://lustslottetab.wordpress.com/ — museum Thu–Sun 11–16, guided tours 11.30, 13.00, 14.30",
+   "restaurang-och-kafe": "https://lustslottetab.wordpress.com/ — Lovisa Ulrikas Kaffehus Thu–Sun 12–16",
+   "brollop-och-fest": "https://lustslottetab.wordpress.com/ — 'Nu öppnar vi slottets dörrar för bröllop'; rooms for hire",
+   "park-och-tradgard": "https://lustslottetab.wordpress.com/ — slottsparken open during the castle's opening hours"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: rooms are hired out (film, photo, company Christmas lunches) but conferences not explicitly offered"
+  ],
+  "facts": "18th-century royal pleasure palace on Färingsö, Ekerö, owned by Statens fastighetsverk. Open Thursday–Sunday 11–16 with museum, guided tours, café and bookshop; now also hosts weddings."
+ },
+ "karlbergs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.naturkartan.se/sv/stockholms-lan/karlbergs-slott-ingegerdsleden — public walking route through Karlberg palace park"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Houses the Swedish Defence University's military academy (Militärhögskolan Karlberg), so the building is not open. The palace park by Karlbergssjön is publicly accessible."
+ },
+ "steninge-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://www.freedomtravel.se/en/2023/07/steninge-slott/ — castle private, park open for walks/picnics",
+   "restaurang-och-kafe": "https://hirespace.com/Spaces/Stockholm/211713/Steninge-Bruk/Caf%C3%A9/Events — Steninge Bruk café/restaurant, Steninge Slottsväg 141",
+   "konferens": "base list use 'Evenemang, konferens'; own site steningeslott.se exists but blocks fetching"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: not verified; steningeslott.se could not be read",
+   "website: steningeslott.se likely own site but unverified"
+  ],
+  "facts": "Tessin the Younger's late-1600s castle on Mälaren near Märsta; the castle is closed but the park is open, and the stone barn holds shops and the Steninge Bruk restaurant/café."
+ },
+ "venngarns-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "park-och-tradgard": "freedomtravel.se 2021 — baroque castle park with avenues and pond, freely walkable",
+   "restaurang-och-kafe": "freedomtravel.se 2021 — bakery café with lunch; Dammstugan wood-fired pizza"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: only 2021 source; venngarn.se 'Site Currently Unavailable' Nov 2026",
+   "bo-pa-slott/konferens: Hotel Anstalten on the estate (Cvent/Trip listings) - current status unverified, not added"
+  ],
+  "facts": "1670s De la Gardie castle north of Sigtuna; the estate (Wenngarn) has been redeveloped with housing, a bakery café, a hotel in the former institution building and occasional guided tours. Baroque park open to walkers."
+ },
+ "haringe-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.haringeslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.haringeslott.se/sv/vistelse/hotellrum — hotel, 132 beds in castle wings and pavilions",
+   "brollop-och-fest": "https://www.haringeslott.se/sv — 'Fira bröllop på Häringe', EVENT & FEST (birthday parties)",
+   "konferens": "https://www.haringeslott.se/sv/konferens — 'konferenslokaler för upp till 150 personer'",
+   "restaurang-och-kafe": "https://www.haringeslott.se/sv — RESTAURANG: dagens lunch, lördagslunch, bar, à la carte bookings"
+  },
+  "removed": {},
+  "unsure": [
+   "spa: 1930s pool and archipelago sauna exist but not marketed as a spa"
+  ],
+  "facts": "1650s castle on the Häringe peninsula 25 minutes south of Stockholm, owned since 2017 by Vesko Mijac. Hotel, restaurant, conferences, weddings and parties, with pool, sauna and a park with sculptures."
+ },
+ "arsta-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.haninge.se/uppleva-och-gora/besok-och-upplev-haninge/sevardheter/arsta-slott/",
+  "offers": [
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "restaurang-och-kafe": "haninge.se Årsta slott — 'Restaurang Slottet' on site, breakfast/lunch/dinner",
+   "park-och-tradgard": "haninge.se Årsta slott — Engelska parken 'perfekt för en picknick eller en promenad'; parks stay public"
+  },
+  "removed": {
+   "besok": "haninge.se: 'inga öppna visningar för allmänheten' of the museum in 2026"
+  },
+  "unsure": [
+   "besok: occasional bookable visits may appear in the municipal calendar; group visits via Årstasällskapet"
+  ],
+  "facts": "1660s manor in Haninge, childhood home of Fredrika Bremer, owned by Haninge municipality; Haninge golf club leases most of the estate since 2025. Restaurang Slottet operates on site and the parks are open to all."
+ },
+ "sandemar": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "17th-century manor by the sea in Haninge, privately owned and not open. The surrounding Sandemar nature reserve (Länsstyrelsen) is open for walks."
+ },
+ "taxinge-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.taxingeslott.se/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://www.taxingeslott.se/ — 'Konferens, Café & Festvåning', Bröllop, Stallet for 'storslagen fest'",
+   "konferens": "https://www.taxingeslott.se/konferens/ — conference rooms in the castle and Stallet",
+   "restaurang-och-kafe": "https://www.taxingeslott.se/ — Slottscafé, 'Kakslottet' with ~65 kinds of cakes",
+   "park-och-tradgard": "https://www.taxingeslott.se/ — coffee 'i slottsparken som ligger på en udde i Mälaren'; 'Våra parker'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "'The Cake Castle' on a Mälaren point near Nykvarn: castle café with one of Sweden's biggest cake buffets, afternoon tea, castle shop and park. Weddings, parties and day conferences; summer steamboat from Stockholm via Mariefred."
+ },
+ "sturehovs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.sturehov.se",
+  "offers": [
+   "besok",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "base list: Visningar, evenemang — municipal manor shown at public viewings",
+   "restaurang-och-kafe": "https://thatsup.co.uk/stockholm/cafe/sturehofs-slottscafe/ — Sturehofs Slottscafé at the manor, Thu–Sun, year-round"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: viewing dates not confirmed; own site blocks crawlers (Cloudflare)"
+  ],
+  "facts": "18th-century manor by Rödstensfjärden in Botkyrka, owned by the municipality; Sturehofs Slottscafé serves fika and lunch Thursday–Sunday."
+ },
+ "horningsholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private castle on a cliff above Borgsundet on Mörkö, Södertälje; not open to the public."
+ },
+ "erstavik": {
+  "checked": "2026-11-03",
+  "website": "http://www.erstavik.se",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Large forestry, farming and property estate in Nacka, a fideikommiss of the af Petersens family until 2015. The manor is private, but the estate's land is open under the right of public access."
+ },
+ "hasselby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.hesselbyslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "mynewsdesk Hesselby Slott 2023 — '70 rooms'; Thatsup lists hotel accommodation",
+   "konferens": "mynewsdesk Hesselby Slott — '14 conference and group rooms'",
+   "brollop-och-fest": "venuu.se Hesselby Slott Polarsalen — event types incl. weddings, parties, dinners"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: has a restaurant but unclear if open to the public",
+   "park-och-tradgard: castle grounds likely public, not verified",
+   "website: hesselbyslott.se blocks fetching; confirmed via Thatsup/press releases"
+  ],
+  "facts": "1650s manor in western Stockholm marketed as 'Sveriges musikslott' (Hesselby Slott). Hotel with about 70 rooms, 14 meeting rooms, restaurant and halls for conferences, weddings and parties."
+ },
+ "akeshovs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.akeshofsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.akeshofsslott.se/ — 'Vi erbjuder 23 hotellrum i tre slottsflyglar'",
+   "brollop-och-fest": "https://www.akeshofsslott.se/ — Fest & bröllop: festpaket, bröllopspaket, festlokaler",
+   "konferens": "https://www.akeshofsslott.se/konferens/ — day conferences from 795 kr, 9 meeting rooms",
+   "restaurang-och-kafe": "https://www.akeshofsslott.se/ — Restaurang Råkoko: breakfast, lunch, dinner"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Castle in Bromma by the Judarskogen nature reserve, 15 minutes from central Stockholm, part of Stockholm Meeting Selection. Hotel with 23 rooms, Restaurang Råkoko, conferences, parties and weddings."
+ },
+ "ulvsunda-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.ulfsundaslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.ulfsundaslott.se/ — '54 unika hotellrum', 'Sov gott på slottet'",
+   "konferens": "https://www.ulfsundaslott.se/ — 'Konferens med karaktär'",
+   "brollop-och-fest": "https://www.ulfsundaslott.se/ — 'Fest & bröllop'",
+   "restaurang-och-kafe": "https://www.ulfsundaslott.se/ — restaurant with online table booking",
+   "spa": "https://www.ulfsundaslott.se/ — 'Spabehandlingar', 'Boka spabehandling'"
+  },
+  "removed": {},
+  "unsure": [
+   "spa: treatments offered; unclear whether there is a full spa area"
+  ],
+  "facts": "1640s castle in Bromma, Stockholm, run as Ulfsunda Slott hotel and conference centre with 54 rooms, restaurant, spa treatments, weddings and parties."
+ },
+ "kristinebergs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Former malmgård on Kungsholmen, Stockholm; main building has private flats and the wings house Kristinebergsskolan. Not open to visitors."
+ },
+ "nasby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.nasbyslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "nasbyslott.se — '53 hotellrum med totalt 95 bäddar, fördelade mellan slottets olika byggnader'",
+   "brollop-och-fest": "nasbyslott.se — 'Fest & bröllop... Festlokaler'",
+   "konferens": "https://www.nasbyslott.se/konferens/ — 'Konferens på slott nära Stockholm'",
+   "restaurang-och-kafe": "nasbyslott.se — 'Lilla Slottskrogen, Lilla Stenugnsbageriet, Slottsbaren, Doras Pizzeria'",
+   "spa": "nasbyslott.se — 'I vår wellnessavdelning finns bubbelpool, bastu, relaxytor'"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: slottspark by the hotel, likely public (Täby) but not confirmed",
+   "spa: wellness area without treatments - borderline"
+  ],
+  "facts": "Boutique hotel in Täby near Stockholm with 53 rooms, conferences, coworking, several restaurants, bakery and bar. Wellness area with sauna and hot tub; weddings and parties."
+ },
+ "djursholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://danderyd.se/ovriga-verksamheter/djursholms-slott/information-in-english/parties-and-special-occasions",
+  "offers": [
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://danderyd.se/.../parties-and-special-occasions — public can hire the banquet suite for parties, weddings, civil ceremonies",
+   "konferens": "https://www.danderyd.se/ovriga-verksamheter/djursholms-slott/information-in-english/conferences-and-business-events/ — conferences and business events",
+   "park-och-tradgard": "Djursholm castle park around the municipal building is a public park"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: public park status not checked on a source page"
+  ],
+  "facts": "Former Banér family seat, now Danderyd's municipal hall. The banquet suite can be hired by the public for weddings, civil ceremonies, parties and business events."
+ },
+ "bogesunds-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.bogesundsslott.se",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "bogesundsslott.se/slottet-idag — 'Guidade visningar … 60 minuters tur genom slottet'",
+   "bo-pa-slott": "bogesundsslott.se/slottet-idag — 'Bogesunds Vandrarhem … c:a 200 m öster om slottet … övernattning'",
+   "konferens": "bogesundsslott.se/slottet-idag — vandrarhem offers 'konferenser, fester och bröllop'",
+   "brollop-och-fest": "bogesundsslott.se/slottet-idag — vandrarhem offers 'konferenser, fester och bröllop'",
+   "restaurang-och-kafe": "bogesundsslott.se/slottet-idag — 'Café Parkvillan … bakverk, smörgåsar, sopplunch' (seasonal)",
+   "park-och-tradgard": "bogesundsslott.se/historia — SFV manages 'slott med park'; park open around the castle"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott/konferens/brollop-och-fest: hostel site last updated 2020; still listed on Booking/Naturkartan"
+  ],
+  "facts": "1640s castle by Per Brahe near Vaxholm, managed by SFV, shown on 60-minute guided tours. A castle hostel 200 m away offers rooms, conferences and parties, and the seasonal Café Parkvillan serves lunch and pastries."
+ },
+ "vaxholms-kastell": {
+  "checked": "2026-11-03",
+  "website": "https://www.vaxholmsfastning.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.vaxholmsfastning.se/besoksinfo/ — museum open May–Sept 2026, guided tours included; groups all year",
+   "bo-pa-slott": "https://www.vaxholmsfastning.se/besoksinfo/ — 'Kastellets Bed & Breakfast har 27 rum och har öppet året runt'",
+   "konferens": "https://www.stromma.com/sv-se/stockholm/julbord/jul-pa-kastellet/ — 'lokaler i olika storlekar, alla utrustade med modern konferensteknik'",
+   "restaurang-och-kafe": "https://www.vaxholmsfastning.se/besoksinfo/ — 'enkelt café finns i museets reception'"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: restaurant Pansarbatteriet (kastellet.com) may host parties; not checked"
+  ],
+  "facts": "16th–19th-century fortress on an islet off Vaxholm, reached by boat all year. Vaxholm Fortress Museum is open May–September with guided tours; Kastellet B&B (27 rooms), conference rooms and Christmas buffets in the Pansarbatteriet restaurant."
+ },
+ "edsbergs-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "https://sollentuna.se/globalassets/bygga-bo-och-miljo/byggprojekt/gestaltningsforslag-tradgardsdamm--parkdamm-201022.pdf — municipal park works at Edsberg"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: Edsbergs park is municipal and public as far as known, but source is indirect"
+  ],
+  "facts": "Owned by Sollentuna municipality; houses Edsbergs Musikinstitut (Royal College of Music) and Edsvik Konsthall nearby. The castle park by Edsviken is a public park and hosts summer festivals."
+ },
+ "ekebyhovs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.ekebyhovsslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "restaurang-och-kafe": "https://www.ekebyhovsslott.se/ — lunch buffet on weekdays, 'fika på helgen'",
+   "besok": "https://www.ekero.se/uppleva-gora/ekebyhovs-slott — 'se utställningar'; Konstgalleriet art gallery",
+   "park-och-tradgard": "https://www.ekebyhovsslott.se/ — castle park with nature trail and apple gene bank",
+   "konferens": "https://www.ekebyhovsslott.se/ — 'Möten & konferenser'",
+   "brollop-och-fest": "https://www.ekebyhovsslott.se/ — weddings and venue hire in the castle"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Late-1600s Carolean manor owned by Ekerö municipality, a short walk from Ekerö centrum; lunch, weekend fika, art exhibitions, park with nature trail, and rooms for meetings and weddings."
+ },
+ "alsno-hus": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "Base list: ruin, open: Ja — part of UNESCO site Birka–Hovgården on Adelsö, freely accessible"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Ruins of a 1200s royal palace at Hovgården on Adelsö, part of the Birka and Hovgården UNESCO World Heritage site; freely accessible."
+ },
+ "gorvalns-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.gorvalnsslott.se",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://gorvalnsslott.se/en/konferens — hotel rooms in the castle and Villa Solbacka (Deluxe, Grand Deluxe)",
+   "brollop-och-fest": "https://www.gorvalnsslott.se/en/brollop — wedding page with contact form",
+   "konferens": "https://www.gorvalnsslott.se/en/boka-konferens — day and overnight conferences",
+   "park-och-tradgard": "https://gorvalnsslott.se/en/konferens — 'ta en promenad i slottsparken', next to Görväln nature reserve",
+   "restaurang-och-kafe": "https://gorvalnsslott.se/en/konferens — restaurant Galleriet, lunch for non-guests, 'BOOK DINNER'"
+  },
+  "removed": {},
+  "unsure": [
+   "website: gorvaln.se now redirects to 'Villa Görväln', a separate event villa (Basetvägen 2) — not the castle"
+  ],
+  "facts": "Castle hotel on Lake Mälaren in Järfälla run by Workation Group, nominated in Culinary Hotel Awards 2026. Hotel rooms, conferences, weddings and the restaurant Galleriet, in a castle park next to Görväln nature reserve."
+ },
+ "granhammars-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Carl Hårleman manor (1748–52) inside a military training area of Svea Livgarde; not open to the public."
+ },
+ "lejondals-slott": {
+  "checked": "2026-11-03",
+  "website": "https://lejondalsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://lejondalsslott.se/hotell — hotel rooms around the castle, staycation",
+   "brollop-och-fest": "https://lejondalsslott.se/ — 'Fest & Bröllop', event och fest",
+   "konferens": "https://lejondalsslott.se/konferens — meeting rooms for 2–110 people",
+   "spa": "https://lejondalsslott.se/ — 'Spa & Wellness', Pool Lounge, bastu, dagspa",
+   "restaurang-och-kafe": "https://lejondalsslott.se/meny — à la carte menu, afternoon tea, wine cellar, gin bar"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Late-1800s castle by Isak Gustaf Clason on Lake Lejondalssjön in Bro, part of Stockholm Meeting Selection. Hotel, conferences, weddings, à la carte dining and afternoon tea, plus a pool lounge and day spa."
+ },
+ "runsa-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Mid-1600s manor by the Skarven bay in Upplands Väsby, almost unchanged; private residence, not open to the public."
+ },
+ "stora-wasby-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.storawasby.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: baroque park being restored as part of a municipal heritage trail; public access not stated"
+  ],
+  "facts": "Hårleman-era manor in Upplands Väsby; buildings are rented out as offices and homes. No public offers."
+ },
+ "rydboholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "park-och-tradgard": "freedomtravel.se 2020 — castle and garden private, 'the English park is open to the public'"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: source from 2020"
+  ],
+  "facts": "Private Douglas family castle at Kyrkfjärden, Österåker, birthplace of Per Brahe the Younger. The castle is private, but the English landscape park west of it with temples and follies is open for walks."
+ },
+ "ostana-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ostanaslott.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Late-18th-century manor in Roslags-Kulla, once owned by Prime Minister E. G. Boström. Now converted into eight private condominium flats (Östanå Real Estate); not open to visitors."
+ },
+ "skanelaholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.vitterhetsakademien.se/kulturfastigheter/skanelaholms-slott.html",
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "besok": "vitterhetsakademien.se — 'slottet stängt för visningar hela 2026 och 2027' due to renovation"
+  },
+  "unsure": [
+   "park-och-tradgard: landscape park with alleys likely walkable, not stated as open",
+   "besok: re-add from 2028 when summer tours return"
+  ],
+  "facts": "Vitterhetsakademien's castle near Upplands Väsby with Herbert Rettig's folk-art collections and a carriage museum. Closed for roof and facade renovation through 2026–2027; normally summer guided tours and a café."
+ },
+ "penningby-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.svensktkulturarv.se/uppland/penningby-slott",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "https://www.naturkartan.se/en/stockholms-lan/penningby-slott-norrtalje — 'open for public only summer time during July' plus concerts; guided tours"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Medieval castle by Lake Lännaviken in Norrtälje, privately owned. Open for guided tours in July and on some concert and event days; group visits by arrangement."
+ },
+ "ekebyholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://ekebyholm.se/",
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor by lake Syningen near Rimbo, now home of Ekebyholmsskolan, a boarding school; the castle is used as student housing and is not open to the public."
+ },
+ "johannesbergs-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.johannesbergsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.johannesbergsslott.se/hotellet.html — hotel and hotel packages",
+   "brollop-och-fest": "https://www.johannesbergsslott.se/ — Bröllop&fest, bröllopspaket",
+   "konferens": "https://www.johannesbergsslott.se/ — conference packages and rooms",
+   "restaurang-och-kafe": "https://www.johannesbergsslott.se/ — Mat&Dryck: lunch, kvällsmeny, julbord",
+   "spa": "https://www.johannesbergsslott.se/ — day spa, spa packages, spa & gym membership"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Hotel, conference and golf resort near Gottröra, Norrtälje, with spa, restaurant, weddings and its own golf club."
+ },
+ "skoklosters-slott": {
+  "checked": "2026-11-03",
+  "website": "https://skoklostersslott.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://skoklostersslott.se/besok-slottet/ — opening hours, tickets, guided tours",
+   "park-och-tradgard": "https://skoklostersslott.se/parkleken/ — 'Parkleken Paradiset Öppet varje dag året om'; slottsparken",
+   "restaurang-och-kafe": "https://skoklostersslott.se/ — 'Café vid Skoklosters slott'"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: 'Vi hyr ut lokaler för mindre sällskap och fotograferingar' - unclear if parties/weddings"
+  ],
+  "facts": "World-class baroque castle by Mälaren, a state museum (Statens historiska museer) with guided tours, exhibitions and a Christmas market. Café, shop, park and historic playground open daily."
+ },
+ "uppsala-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.uppsalaslott.com/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "besok": "https://konstmuseum.uppsala.se/ — Uppsala Art Museum in the castle; summer guided tours of the castle",
+   "brollop-och-fest": "https://www.uppsalaslott.com/v%C3%A5ra-salar — 'en av Sveriges mest imponerande fest- och möteslokaler', jubileum",
+   "konferens": "https://www.uppsalaslott.com/ — 'Vi arrangerar företagsevent, konferenser, galamiddagar' up to 750 guests"
+  },
+  "removed": {
+   "restaurang-och-kafe": "Rikssalen Gastronomi only caters booked events in the halls; no open restaurant/café found"
+  },
+  "unsure": [
+   "website: uppsalaslott.com is the event caterer Rikssalen Gastronomi, not an official castle site",
+   "restaurang-och-kafe: a café at Uppsala konstmuseum in the castle could not be confirmed"
+  ],
+  "facts": "16th-century Vasa castle on Kasåsen in Uppsala, seat of the county governor and home to Uppsala Art Museum. The state halls (Rikssalen, Vasasalen) are hired out for galas, conferences and celebrations by Rikssalen Gastronomi."
+ },
+ "wiks-slott": {
+  "checked": "2026-11-03",
+  "website": "https://regionuppsala.se/wiks-slott/",
+  "offers": [
+   "bo-pa-slott",
+   "konferens"
+  ],
+  "evidence": {
+   "konferens": "regionuppsala.se/wiks-slott/om-wiks-slott/ — 'kurs-, event och konferensverksamhet'",
+   "bo-pa-slott": "regionuppsala.se/wiks-slott — 'hotell- och konferensbyggnader'; listed bookable on Expedia/Hotels.com"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: own booking form is for conference groups; public stays only via booking sites",
+   "website: wikslott.se redirects to a dead lul.se page"
+  ],
+  "facts": "Medieval castle by Ekoln (Mälaren) south-west of Uppsala, owned by Region Uppsala and run as a course and conference centre with rooms and a KRAV-certified restaurant. Large nature area with beach, apple orchard and trails."
+ },
+ "ekolsunds-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.ekolsundsslott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.ekolsundsslott.se/ — guided castle tours (e.g. 17 Oct 2026) and park/arboretum tours",
+   "park-och-tradgard": "https://www.ekolsundsslott.se/ — Baroque park and arboretum open to visitors, voluntary fee via Swish",
+   "restaurang-och-kafe": "https://www.ekolsundsslott.se/ — castle café open weekends; Wärdshus lunch weekdays 11–13.30",
+   "bo-pa-slott": "https://www.ekolsundsslott.se/ — 40 guest rooms on the castle grounds",
+   "brollop-och-fest": "https://www.ekolsundsslott.se/ — ceremonies in castle/park, dinner in Riddarsalen",
+   "konferens": "https://www.ekolsundsslott.se/ — meeting facilities"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Former royal Baroque castle by Ekolsundsviken east of Enköping, privately owned and run as Ekolsunds Slott & Wärdshus. Park with 13 avenues and arboretum, weekend castle café, weekday inn lunch, guided tours, 40 guest rooms, weddings and conferences."
+ },
+ "gronsoo-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.gronsoo.se/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://gronsoo.se/besok-oss/ — Slottet, utställningar, öppettider, gruppbesök",
+   "restaurang-och-kafe": "https://gronsoo.se/ — Café on the estate (seasonal)",
+   "park-och-tradgard": "https://gronsoo.se/ — 'Parken' under Se & Göra, open to visitors"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Early-1600s castle on Grönsö island in Mälaren, run by a foundation. Guided castle visits, exhibitions, park, café and shop in season; reachable by boat, apple-must sales."
+ },
+ "haga-slott": {
+  "checked": "2026-11-03",
+  "website": "https://hagaslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://hagaslott.se/hotell/ — hotel rooms",
+   "brollop-och-fest": "https://hagaslott.se/brollop/ — weddings, winter weddings, event & fest",
+   "konferens": "https://hagaslott.se/konferens/ — conference packages; Stallet with large rooms",
+   "spa": "https://hagaslott.se/spa/ — spa and day spa packages",
+   "restaurang-och-kafe": "https://hagaslott.se/ — weekly lunch menu, à la carte, 'Boka bord'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Castle hotel by Mälaren near Enköping with conference, spa, weddings and a restaurant serving lunch and dinner."
+ },
+ "salsta-slott": {
+  "checked": "2026-11-03",
+  "website": "https://salsta-slott.se/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://salsta-slott.se/prislista-salsta-slott/ — guided tours 120 kr, 'Öppet slott' days, ghost walks",
+   "bo-pa-slott": "https://salsta-slott.se/overnattning/ — 'Bo en natt i östra slottspaviljongen' 2000 kr",
+   "brollop-och-fest": "https://salsta-slott.se/brollop/ — vigsel in chapel, dinner in Kungssalen, bookable 2h to days",
+   "restaurang-och-kafe": "https://salsta-slott.se/english-summary/ — 'visit the castle just for a cup of coffee or lunch'; Salsta slottkafé"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Baroque castle near Vattholma, Uppland, with guided tours, open-castle days, ghost walks, murder-mystery dinners and concerts. Café, weddings in the chapel and halls, and overnight stays in the east pavilion."
+ },
+ "orbyhus-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.orbyhusslott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://www.orbyhusslott.se/visningar — guided tours of Erik XIV's prison room from June; groups year-round",
+   "brollop-och-fest": "https://www.orbyhusslott.se/hyr-orangeriet — 'Orangeriet... för bröllop, fester', hire from 30 000 kr",
+   "konferens": "https://www.orbyhusslott.se/besk — 'Konferens på Örbyhus', packages with room, tech and fika",
+   "park-och-tradgard": "https://www.orbyhusslott.se/parkerna — 'Örbyhus slottspark... en levande park att besöka'",
+   "restaurang-och-kafe": "https://www.orbyhusslott.se/slottscafeet — Slottscaféet, seasonal, reopens May 2027"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Castle in northern Uppland where Erik XIV died in 1577, still a living estate. Summer guided tours, a seasonal castle café, an orangery for weddings and events, conference packages and a historic park."
+ },
+ "noors-slott": {
+  "checked": "2026-11-03",
+  "website": "http://noorsslott.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://noorsslott.se/ — 'Slottshotell … 25 rum och 60 bäddar'",
+   "brollop-och-fest": "https://noorsslott.se/brollop/ — 'Våra bröllopspaket'",
+   "konferens": "https://noorsslott.se/konferens/ — conference packages",
+   "restaurang-och-kafe": "noorsslott.se/hander-hos-oss/julbord-pa-sondagar/ — julbord open to bookings; restaurant"
+  },
+  "removed": {},
+  "unsure": [
+   "spa: 'relaxavdelning' with sauna and outdoor jacuzzi for guests — maybe counts as spa",
+   "restaurang-och-kafe: restaurant mainly for hotel/event guests; public mainly julbord"
+  ],
+  "facts": "Small wooden castle from 1697 near Knivsta and Arlanda, run as a castle hotel with 25 rooms. Conferences, weddings, parties, castle weekends and julbord; relaxation area with sauna and outdoor jacuzzi."
+ },
+ "ekholmens-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {
+   "konferens": "no conference offer found online; not in Fjärdhundraland's conference listing"
+  },
+  "unsure": [
+   "konferens: could not confirm current use or owner; may host events privately"
+  ],
+  "facts": "Carl Hårleman's 1736–48 castle by Norra Björkfjärden south of Enköping, remodelled with four corner towers in 1857. No public opening or bookable offer found."
+ },
+ "sjoo-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Baroque castle in Holm parish, Enköping municipality; private, not open to the public."
+ },
+ "salnecke-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.salneckeslott.se/",
+  "offers": [
+   "brollop-och-fest",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "restaurang-och-kafe": "https://thatsup.co.uk/uppsala/cafe/salnecke-slottscafe/ — Salnecke Slottscafé, Tue–Sun 11–17, in barn next to castle",
+   "brollop-och-fest": "https://www.fjardhundraland.se/en/places/gora/slott-herrgardar/ — café & bistro with party room and civil weddings"
+  },
+  "removed": {
+   "konferens": "no current evidence; own site is a placeholder ('Under konstruktion', Salnecke Slott AB)"
+  },
+  "unsure": [
+   "konferens: may still be offered by new owner; site not ready",
+   "website: own site is a placeholder; café has salneckeslottscafe.se (not readable)"
+  ],
+  "facts": "Well-preserved 1640s Vasa-era castle near Örsundsbro; a café and bistro in the old barn next to the castle has a party room and hosts weddings."
+ },
+ "lovstabruk": {
+  "checked": "2026-11-03",
+  "website": "https://lovstabruk.com/",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "lovstabruk.com/oppettider — guided manor tours 3 times a day in summer, day pass",
+   "bo-pa-slott": "lovstabruk.com/boochata — 'Lövstabruks Värdshus & Brukshotell... övernattning på hotellet och vandrarhemmet'",
+   "brollop-och-fest": "lovstabruk.com — 'Hyr orangeriet till er bröllop eller er fest'",
+   "konferens": "lovstabruk.com/grupper — 'möte eller konferens hos oss'",
+   "park-och-tradgard": "lovstabruk.com — 'Herrgårdsparken är alltid fritt tillgänglig'",
+   "restaurang-och-kafe": "lovstabruk.com/boochata — Café Infretta at Barnens Bruk, värdshus, Café Norra porten"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: hotel is in the bruk village, run separately (vardshuset.com), info cites summer 2025"
+  ],
+  "facts": "Well-preserved 1700s Walloon ironworks in northern Uppland; Stiftelsen Leufsta shows the manor with guided tours in summer, plus Barnens Bruk by Sven Nordqvist. Baroque park always open; orangery rented for weddings; inn, hotel and cafés in the village."
+ },
+ "osterbybruk-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.lansstyrelsen.se/uppsala/besoksmal/kulturmiljoer/osterby-bruk.html",
+  "offers": [
+   "besok",
+   "bo-pa-slott",
+   "park-och-tradgard"
+  ],
+  "evidence": {
+   "besok": "Base list: Besöksmål, open — part of the Österbybruk ironworks visitor site",
+   "bo-pa-slott": "https://www.naturkartan.se/de/uppsala-lan/wardshuset-gammel-tammen-osterbybruks-herrgard — Wärdshuset Gammel Tammen, 26 rooms at the herrgård",
+   "park-och-tradgard": "Hårleman-designed manor garden/park at the ironworks (base list: open)"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: whether the manor interior has public guided tours was not confirmed",
+   "park-och-tradgard: public access to the garden not stated on Länsstyrelsen page",
+   "restaurang-och-kafe/konferens: Gammel Tammen serves breakfast and mentions meetings; no public restaurant confirmed"
+  ],
+  "facts": "18th-century ironworks manor with a Hårleman garden, owned by Stiftelsen Österbybruks herrgård. Wärdshuset Gammel Tammen offers rooms at the manor, in the middle of the preserved Walloon ironworks village."
+ },
+ "stromsholms-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.royalpalaces.se/english/royal-palaces-and-sites/stromsholm-palace.html",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "kungligaslotten.se Strömsholm visit-us — 'Join a guided tour'; group tours year round",
+   "restaurang-och-kafe": "kungligaslotten.se Strömsholm visit-us — 'The Palace Café' in a 1731 Hårleman building",
+   "park-och-tradgard": "kungligaslotten.se Strömsholm — palace park described; grounds open to walk"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: park access not stated explicitly on the page fetched"
+  ],
+  "facts": "Royal palace south-west of Västerås, famous for its equestrian heritage and riding school. Seasonal guided tours, pre-booked group tours year-round and a palace café."
+ },
+ "angso-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.vasteras.se/uppleva-och-gora/kultur/museer/engso-slott.html",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "besok": "vasteras.se Engsö slott — 'Slottet öppnar för säsongen i maj och stänger i slutet på september'; guided tours",
+   "brollop-och-fest": "vasteras.se Engsö slott — groups can pre-book 'visningar, konferenser, bröllop, middagar'",
+   "konferens": "vasteras.se Engsö slott — off-season bookings of conferences for companies"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: castle park hosts public midsummer celebration; general access not stated",
+   "website: engso.se (slottet@engso.se) may be own site but blocks fetching"
+  ],
+  "facts": "Castle with medieval core on Ängsö island in Lake Mälaren, furnished as in Piper family times. Open for guided tours May–September with concerts and events; outside season groups book tours, conferences, weddings and dinners."
+ },
+ "tido-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.tidoslott.se/",
+  "offers": [
+   "besok",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "http://tidoslott.se/priseroppettider/ — guided tours of the state floor (13.00, season; 2027 dates in April), MC and toy museums",
+   "konferens": "http://tidoslott.se/konferens/ — Riddarsalen, Stora Salen up to 150, conference packages",
+   "restaurang-och-kafe": "http://tidoslott.se/priseroppettider/ — 'I Stenstallet finns en enkel cafémeny'",
+   "park-och-tradgard": "http://tidoslott.se/ — 'Välkommen till Tidö slottspark och njut av den vackra miljön'"
+  },
+  "removed": {},
+  "unsure": [
+   "brollop-och-fest: Värdshuset and Stora Salen (150) bookable by email but no wedding/party page"
+  ],
+  "facts": "Axel Oxenstierna's 1600s castle near Västerås, still a private home. Seasonal guided tours of the state floor, MC Collection and bicycle/toy museums with café in Stenstallet, castle park, conferences and hunting."
+ },
+ "vasteras-slott": {
+  "checked": "2026-11-03",
+  "website": "http://www.vasteras-slott.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://vasterasslottslottsrestaurangen.gastrogate.com/brollop/ — weddings and parties in Rikssalen (30–200 guests)",
+   "konferens": "https://vasterasslottslottsrestaurangen.gastrogate.com/konferens/ — Rikssalen plus meeting rooms for 10–30",
+   "restaurang-och-kafe": "https://vasterasslottslottsrestaurangen.gastrogate.com/ — 'Dagens lunch… Serveras vardagar 11.30–14.00'",
+   "besok": "https://vasterasslottslottsrestaurangen.gastrogate.com/guidade-turer/ — public guided tour of the castle, e.g. 23/11 kl 14, 145 kr"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: public tours occasional, not regular"
+  ],
+  "facts": "Vasa-era castle by Svartån, the county governor's residence; the restaurant serves weekday lunch and hosts parties, weddings and conferences, with occasional public guided tours."
+ },
+ "fullero": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private 1600s castle in Västerås-Barkarö parish; Fullerö golf club and nature reserve nearby. Not open to the public."
+ },
+ "orebro-slott": {
+  "checked": "2026-11-03",
+  "website": "https://orebroslott.se",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://orebroslott.se/besok-slottet/oppettider/ — open daily with exhibitions, historical guided tours",
+   "brollop-och-fest": "https://orebroslott.se/gruppbokning/privat-tillstallning/ — 'Hyr ståtliga salar eller boka för vigsel'",
+   "konferens": "https://orebroslott.se/gruppbokning/foretagsevent/ — 'Hyr maffiga lokaler eller boka dagkonferens'",
+   "restaurang-och-kafe": "https://orebroslott.se/ — 'Lill-Annas slottscafé', fika, lunch, after work"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Medieval castle on an islet in Svartån in central Örebro, seat of the county governor. Open to visitors with exhibitions, guided tours, a shop and Lill-Annas castle café; halls can be hired for weddings, parties and day conferences."
+ },
+ "stjernsunds-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.vitterhetsakademien.se/kulturfastigheter/stjernsunds-slott.html",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "vitterhetsakademien.se Stjernsund — summer guided tours 11, 12, 14, 15, Tue–Sun 23 June–30 Aug",
+   "restaurang-och-kafe": "vitterhetsakademien.se Stjernsund — 'Slottet, butiken och kaféet' (seasonal café)",
+   "park-och-tradgard": "Vitterhetsakademien press 2022 — English park over Vättern and Alsen open for walks",
+   "brollop-och-fest": "vitterhetsakademien.se Stjernsund — Stallsalen bookable for 'konferenser, föreläsningar, konserter eller bröllop' May–Sept",
+   "konferens": "vitterhetsakademien.se Stjernsund — Stallsalen bookable for conferences May–Sept"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Neoclassical castle (1798–1801) on a headland by Lake Vättern near Askersund, owned by Vitterhetsakademien with intact 1800s interiors. Summer guided tours, café and shop, English park and a new orangery; Stallsalen can be hired for weddings and conferences May–September."
+ },
+ "karlslunds-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://karlslund.com/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "http://www.karlslund.com/ — Bröllop page, julbord and parties",
+   "konferens": "http://www.karlslund.com/ — 'Konferens på Karlslunds Herrgård'",
+   "restaurang-och-kafe": "http://www.karlslund.com/cafe — summer café from 23 May to end of August",
+   "park-och-tradgard": "http://www.karlslund.com/ — sit in the garden; manor lies in Örebro kommun's Karlslund kulturreservat"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Manor on the esker in the Karlslund cultural reserve, Örebro, owned by the municipality and run by the Jander family. Summer café late May–August, conferences, weddings, Christmas buffets and catering."
+ },
+ "goksholms-slott": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "One of Sweden's oldest still-inhabited private buildings, by Hjälmaren, owned by the Leijonhufvud family. Länsstyrelsen: 'privatägd och ej öppen för allmänheten'."
+ },
+ "boo-slott": {
+  "checked": "2026-11-03",
+  "website": "https://booegendom.se/",
+  "offers": [
+   "bo-pa-slott"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://booegendom.se/en/accommodation — five furnished houses on the estate for short-term rental"
+  },
+  "removed": {},
+  "unsure": [
+   "bo-pa-slott: unclear if rentals are open to the public or mainly hunting guests",
+   "park-och-tradgard: castle park was open for a fee in 2021 (freedomtravel.se); current status unknown",
+   "konferens: site lists 'Courses and Kick-off Meetings' page, not read"
+  ],
+  "facts": "1880s castle by Lake Avern in southeast Närke, centre of the Boo Egendom estate (forestry, hunting, fishing permits, rental houses); English landscape park from the 1920s."
+ },
+ "haddebo": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [],
+  "evidence": {},
+  "removed": {},
+  "unsure": [],
+  "facts": "Private manor/village in Svennevad parish, Hallsberg; not open to the public."
+ },
+ "rottneros-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://rottnerospark.se",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://visitvarmland.com/sunne/en/culture-history/parks-gardens/rottneros-park — open daily 30 May–30 Aug, admission",
+   "park-och-tradgard": "https://visitvarmland.com/sunne/en/culture-history/parks-gardens/rottneros-park — sculpture park and gardens",
+   "restaurang-och-kafe": "https://visitvarmland.com/sunne/en/food-drinks/cafe-bakery/rottneros-park-cafe — Rottneros Park café"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: the manor house itself is private; visits are to the park"
+  ],
+  "facts": "Manor by Lake Fryken in Sunne, the model for 'Ekeby' in Gösta Berling's Saga. Rottneros Park, with sculptures and gardens, is open daily in summer (about 30 May–30 August) and has a café."
+ },
+ "marbacka": {
+  "checked": "2026-11-03",
+  "website": "https://marbacka.com/",
+  "offers": [
+   "besok",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "marbacka.com/oppettider-och-priser/ — 'Guidad visning kl. 12,13,14 och 15'",
+   "restaurang-och-kafe": "marbacka.com/oppettider-och-priser/ — 'Caféet öppet kl.12 – 16' (season)",
+   "park-och-tradgard": "marbacka.com/tradgarden/ — 'Den nuvarande trädgården är restaurerad 1996–1997'"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Selma Lagerlöf's home near Sunne, shown on guided tours, with café Mårbacka (seasonal), shop and restored garden. Accommodation is only recommended nearby (e.g. Ulvsby herrgård), not on site."
+ },
+ "alsters-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://karlstad.se/alstersherrgard",
+  "offers": [
+   "besok",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://karlstad.se/alstersherrgard — Gustaf Fröding memorial, exhibitions, bookable guided tours; closed in winter",
+   "restaurang-och-kafe": "https://karlstad.se/alstersherrgard — herrgårdscafé serving lunch, fika, ice cream, afternoon tea",
+   "park-och-tradgard": "https://karlstad.se/alstersherrgard — park and trails open year-round, grill spot and play forest",
+   "konferens": "https://karlstad.se/alstersherrgard — 'Konferens' section; groups book lunches and fika"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: page has a Konferens section but details not read"
+  ],
+  "facts": "Birthplace of poet Gustaf Fröding east of Karlstad, run by Karlstad municipality as a memorial with exhibitions and the Fröding library. Open in season with café and restaurant; the park and Alsterdalen trails are open all year."
+ },
+ "gavle-slott": {
+  "checked": "2026-11-03",
+  "website": "https://www.lansstyrelsen.se/gavleborg/besoksmal/kulturmiljoer/gavle-slott.html",
+  "offers": [
+   "besok"
+  ],
+  "evidence": {
+   "besok": "lansstyrelsen.se/gavleborg calendar — guided tour of Gävle slott 6 Aug 2026; open house April 2026"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: only a few scheduled tours/open houses per year, not regular opening"
+  ],
+  "facts": "Residence of the Gävleborg county governor by Gavleån; managed by Statens fastighetsverk. The representation floor is shown on a few scheduled guided tours and open-house days each year."
+ },
+ "gysinge-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.gysingeherrgard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.gysingeherrgard.se/ — rooms in the main house and Flygeln",
+   "restaurang-och-kafe": "https://www.gysinge.se/%C3%A4ta-10540595 — Restaurang Orangeriet at the herrgård, lunch and dinner",
+   "konferens": "https://www.gysingeherrgard.se/ — meeting rooms for up to 80",
+   "brollop-och-fest": "https://www.gysingeherrgard.se/ — weddings, dinners and celebrations"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: the bruk area (museums, naturum) is open, but the herrgård itself is a hotel — not included"
+  ],
+  "facts": "Bruk manor at the Dalälven by Färnebofjärden National Park, run as a hotel by Jula Hotell AB with restaurant Orangeriet, conferences and weddings; the surrounding bruk has shops, museums and naturum."
+ },
+ "hemso-fastning": {
+  "checked": "2026-11-03",
+  "website": "https://se.hemsofastning.se/",
+  "offers": [
+   "besok",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "https://se.hemsofastning.se/guidade-turer/ — guided tours 40 m underground (adult 180 kr); groups year-round",
+   "konferens": "https://se.hemsofastning.se/konferens/ — Konferens page",
+   "restaurang-och-kafe": "https://se.hemsofastning.se/64ce2-destinations/ — daily buffet and à la carte; no entry fee to restaurant"
+  },
+  "removed": {},
+  "unsure": [
+   "besok/restaurang: Nov 2026 'fortsatt stängt för allmänheten' after TV production; tours and restaurant reopen 'senare i höst'"
+  ],
+  "facts": "Cold War coastal artillery fortress near Härnösand, now a museum with guided tours deep in the rock; restaurant at the tunnel exit and conference rooms. Temporarily closed to the public autumn 2026 (groups of 15+ can still book)."
+ },
+ "fjallnas": {
+  "checked": "2026-11-03",
+  "website": "https://www.fjallnas.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.fjallnas.se/sv/hotell/ — hotel and Villa Ugglebo, premium and standard rooms",
+   "brollop-och-fest": "https://www.fjallnas.se/sv/brollop-och-fest/ — weddings, birthday parties, private parties",
+   "konferens": "https://www.fjallnas.se/sv/ — day conference and conference with overnight stay",
+   "restaurang-och-kafe": "https://www.fjallnas.se/sv/restaurang/ — Restaurang Näset, Nordic cuisine, breakfast & lunch",
+   "spa": "https://www.fjallnas.se/sv/ — 'Mii Gullo Spa | Dagspa', spa treatments bookable"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Sweden's oldest mountain hotel (founded 1882) by Tänndalen in the Funäsfjällen. Hotel, Restaurang Näset, Mii Gullo spa with day spa, guided outdoor activities, conferences and weddings."
+ },
+ "bodens-fastning-rodbergsfortet": {
+  "checked": "2026-11-03",
+  "website": null,
+  "offers": [
+   "besok",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "besok": "naturkartan.se Rödbergsfortet — 'Guided tours of the fort during the summer', pre-booked tours all year",
+   "restaurang-och-kafe": "naturkartan.se Rödbergsfortet — facilities list 'The café'"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: café listed on Naturkartan, hours unclear",
+   "website: no own site found; info via Naturkartan (tel. 076-771 23 23)"
+  ],
+  "facts": "Part of the Boden Fortress, Rödbergsfortet is a rock-cut fort about 6 km from Boden. Guided tours in summer (weekends 11–15) and pre-booked tours year-round, starting at the old marketenteri."
+ }
+}
