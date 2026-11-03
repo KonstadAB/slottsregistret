@@ -10579,6 +10579,13 @@
    "withTour": 1
   },
   {
+   "name": "Dalarna",
+   "full": "Dalarnas län",
+   "slug": "dalarna",
+   "total": 1,
+   "withTour": 1
+  },
+  {
    "name": "Gävleborg",
    "full": "Gävleborgs län",
    "slug": "gavleborg",
