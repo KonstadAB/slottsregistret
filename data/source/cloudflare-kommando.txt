@@ -1,1 +1,1 @@
-api GET /accounts/{account}/subscriptions ;; api GET /accounts/{account}/workers/account-settings ;; api GET /user/tokens/verify
+api GET /accounts/{account}/d1/database ;; api POST /accounts/{account}/d1/database {"name":"slottsregistret","primary_location_hint":"weur"} ;; api GET /zones/{zone}/dns_records?name.contains=cf-bounce
