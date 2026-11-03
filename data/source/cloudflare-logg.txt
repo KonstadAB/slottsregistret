@@ -1,18 +1,50 @@
-# 2026-11-02T20:10:54Z api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/forfragan:2026-11-02T20:09:07.479Z:313dae63 ;; api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/forfragan:2026-11-02T20:09:23.210Z:3aad50f4 ;; formular
->> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/forfragan:2026-11-02T20:09:07.479Z:313dae63
+# 2026-11-03T10:33:07Z api GET /accounts/{account}/d1/database ;; api GET /accounts/{account}/r2/buckets ;; api GET /zones/{zone}/email/sending/subdomains ;; api GET /accounts/{account}/email/sending/domains ;; api GET /user/tokens/verify
+>> api GET /accounts/{account}/d1/database
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/d1/database -> 401 [{"code":10000,"message":"Authentication error"}]
 {
  "result": null,
- "errors": [],
- "messages": [],
- "success": true
+ "success": false,
+ "errors": [
+  {
+   "code": 10000,
+   "message": "Authentication error"
+  }
+ ],
+ "messages": []
 }
->> api DELETE /accounts/{account}/storage/kv/namespaces/24b726539b4e40cda5dd28eeec38eac2/values/forfragan:2026-11-02T20:09:23.210Z:3aad50f4
+>> api GET /accounts/{account}/r2/buckets
 {
- "result": null,
- "errors": [],
- "messages": [],
- "success": true
+ "buckets": []
 }
->> formular
-== Inlämningar: 1 (de senaste 50)
-  tips:2026-10-27T13:47:32.762Z:9f342eec  beritsholm  En rundtur som saknas
+>> api GET /zones/{zone}/email/sending/subdomains
+!! GET /zones/ea79ee838c7bee0ef2100f012784f653/email/sending/subdomains -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/email_sending/subresources/subdomains/methods/list"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 10000,
+   "message": "Authentication error",
+   "documentation_url": "https://developers.cloudflare.com/api/resources/email_sending/subresources/subdomains/methods/list"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> api GET /accounts/{account}/email/sending/domains
+!! GET /accounts/36f39bea33a1d0e03815a8b01039efea/email/sending/domains -> 404 [{"code":10001,"message":"Unable to authenticate request"}]
+{
+ "success": false,
+ "errors": [
+  {
+   "code": 10001,
+   "message": "Unable to authenticate request"
+  }
+ ],
+ "messages": [],
+ "result": null
+}
+>> api GET /user/tokens/verify
+{
+ "id": "538d64f20c8c2ab4c412a518cc4dba17",
+ "status": "active"
+}
