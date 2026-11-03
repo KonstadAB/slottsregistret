@@ -3903,5 +3903,289 @@
    "website: no own site found; info via Naturkartan (tel. 076-771 23 23)"
   ],
   "facts": "Part of the Boden Fortress, Rödbergsfortet is a rock-cut fort about 6 km from Boden. Guided tours in summer (weekends 11–15) and pre-booked tours year-round, starting at the old marketenteri."
+ },
+ "toftaholm": {
+  "checked": "2026-11-03",
+  "website": "https://www.toftaholm.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.toftaholm.se/ — packages with 'övernattning i uppgraderat dubbelrum i huvudbyggnaden'; Våra Rum page",
+   "spa": "https://www.toftaholm.se/sv/vara-paket/wellness/ — 'Eco-spa nere vid strandkanten' and relax area in the main building",
+   "konferens": "https://www.toftaholm.se/ — 'Vi skapar den konferens ni vill ha', conference rooms and packages",
+   "brollop-och-fest": "https://www.toftaholm.se/ — wedding packages and menus; 'Orangeriet är för 50-100 gäster'",
+   "restaurang-och-kafe": "https://www.toftaholm.se/ — 'Dagens lunch' and à la carte dinner menus; White Guide listed"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Toftaholm is a historic manor hotel (Historic Hotels of Europe, Green Key) on Lake Vidöstern by the E4, with rooms in the 1871 main building and older wings, restaurant with lunch and à la carte, eco-spa by the shore, conferences and weddings in the Orangery. The 1640 inn Den Gyllene Abborren is the oldest building on the estate."
+ },
+ "soderfors-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.soderforsherrgard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.soderforsherrgard.se/ — 'Historiskt hotell, restaurang, spa och konferens vid Dalälven'; Boka rum",
+   "spa": "https://www.soderforsherrgard.se/spa-pa-soderfors-herrgard/ — Relax spa with massage, sauna and a sauna raft on Dalälven",
+   "konferens": "https://www.soderforsherrgard.se/konferens/ — meeting rooms and conference packages",
+   "brollop-och-fest": "https://www.soderforsherrgard.se/brollop-fest/ — 'Vigsel i Söderfors kyrka eller i vår trädgård', dinner/party in the manor",
+   "restaurang-och-kafe": "https://www.soderforsherrgard.se/restaurang/ — weekday 'Dagens lunch', à la carte dinners, Sunday menu, online table booking"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Söderfors herrgård by the Dalälven river is the manor of the anchor works founded in 1676; today a hotel with restaurant open for lunch and dinner, Relax spa with sauna raft, conference and weddings. The Grill family, owners from 1748–50, shaped the bruk environment."
+ },
+ "fredensborgs-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.fredensborg.com/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.fredensborg.com/ — rooms in the manor and attached hotel wing: 'Vi erbjuder boende för alla'",
+   "konferens": "https://www.fredensborg.com/konferens/ — 'Konferens i herrgårdsmiljö'",
+   "brollop-och-fest": "https://www.fredensborg.com/ — Bröllop and Fest & kalas pages",
+   "restaurang-och-kafe": "https://www.fredensborg.com/restaurang/ — weekly 'Dagens lunch' with public prices; dinner some days in autumn"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Fredensborgs herrgård is a manor hotel just south of Vimmerby, near Astrid Lindgren's World, with a main building from the 1870s and a newer hotel wing. Restaurant serves lunch and seasonal dinners; padel, tennis, minigolf, lake sauna and the adjacent Tobo golf course."
+ },
+ "cedergrenska-tornet": {
+  "checked": "2026-11-03",
+  "website": "https://www.cedergrenskatornet.se/",
+  "offers": [
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "konferens": "https://www.cedergrenskatornet.se/17/10/konferens-moten/ — 'Festvåning & konferensanläggning', Konferens & Möten",
+   "brollop-och-fest": "https://www.cedergrenskatornet.se/17/9/brollop-dop/ — Bröllop & Dop, Fest & Event"
+  },
+  "removed": {
+   "restaurang-och-kafe": "No restaurant or café open to visitors; only occasional ticketed afternoon tea/brunch dates and julbord, otherwise a party/conference venue"
+  },
+  "unsure": [
+   "restaurang-och-kafe: occasional public afternoon tea and brunch dates are advertised, but no regular opening"
+  ],
+  "facts": "The municipally owned red-brick tower in Stocksund, begun in 1896 and only completed in 1996, is run as a party and conference venue (from September 2026 part of the Food Family group). It hosts weddings, christenings, parties, meetings, julbord and occasional afternoon tea."
+ },
+ "skytteholm": {
+  "checked": "2026-11-03",
+  "website": "https://www.skytteholm.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.skytteholm.se/hotell/hotellrum/ — 'Hotell med naturen inpå', 74 rooms",
+   "spa": "https://www.skytteholm.se/nordic-spa-skytteholm/ — Nordic Spa with outdoor pool, sauna pavilion, day spa packages",
+   "konferens": "https://www.skytteholm.se/konferens/ — conference packages and rooms, 'Möten i naturen'",
+   "brollop-och-fest": "https://www.skytteholm.se/fest-brollop/ — weddings, parties, christenings, party venues",
+   "restaurang-och-kafe": "https://www.skytteholm.se/restaurang/ — Skyttegårdens, Herrgårdens and Golf restaurants; julbord incl. Saturday lunch"
+  },
+  "removed": {},
+  "unsure": [
+   "park-och-tradgard: grounds have a large collection of Carl Milles sculpture replicas, but public access is not stated"
+  ],
+  "facts": "Skytteholm on Ekerö by Lake Mälaren is a hotel, Nordic spa and conference venue about 35 minutes from Stockholm, owned by Konsumentföreningen Stockholm; the park holds one of the largest collections of Carl Milles sculptures (replicas). Next to the 27-hole Mälarö golf course."
+ },
+ "stora-nyckelviken": {
+  "checked": "2026-11-03",
+  "website": "https://www.nyckelvikensherrgard.se/",
+  "offers": [
+   "besok",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "brollop-och-fest": "https://thatsup.co.uk/stockholm/cafe/nyckelvikens-café/ — venue hosts parties, weddings, conferences; naturkartan: manor rented out for events",
+   "konferens": "https://thatsup.co.uk/stockholm/cafe/nyckelvikens-café/ — 'parties, weddings, conferences, and kickoff events'",
+   "restaurang-och-kafe": "https://naturkartan.se/sv/nacka/stora-nyckelviken — restaurant and café in the manor, opening hours vary (weekend café)",
+   "park-och-tradgard": "https://naturkartan.se/sv/nacka/stora-nyckelviken — municipal estate with garden, park and farmland in Nyckelviken nature reserve, public walking route",
+   "besok": "https://naturkartan.se/sv/nacka/stora-nyckelviken — south wing houses Nacka's hembygdsmuseum, open Sundays late spring–early autumn"
+  },
+  "removed": {},
+  "unsure": [
+   "besok: local history museum in the south wing has limited seasonal Sunday opening; own site blocks fetching so café hours not confirmed"
+  ],
+  "facts": "Stora Nyckelviken is a 1740s summer manor owned by Nacka kommun in the Nyckelviken nature reserve by Saltsjön. A café/restaurant runs in the manor (mainly weekends), the house is hired for weddings, parties and meetings, and the south wing holds the local history museum open on summer Sundays."
+ },
+ "riddersviks-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.riddersviksherrgard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.riddersviksherrgard.se/hotell/ — 'Boka rum i vårt mysiga hotell', 24 hotel rooms",
+   "konferens": "https://www.riddersviksherrgard.se/konferens-event/ — conference and event venue, 7 conference rooms",
+   "brollop-och-fest": "https://www.riddersviksherrgard.se/fest-brollop/ — 'Fira en födelsedag, jubileumsfest, student…'; the Tempel is used for weddings"
+  },
+  "removed": {
+   "restaurang-och-kafe": "No public restaurant: 'Delar av året har vi bara öppet för vissa evenemang och bokade grupper'; food is for events, catering, julbord"
+  },
+  "unsure": [],
+  "facts": "Riddersvik in Hässelby, built in 1762 for Elias von Langenberg and owned by the City of Stockholm since 1885, is run as a hotel, conference and party venue with 24 rooms. The late-1700s garden temple is popular for weddings; julbord and catering are offered."
+ },
+ "friiberghs-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://friibergh.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://friibergh.se/boende/ — overnight stays incl. 'tre minisviter' in Sjövillan, weekend packages",
+   "konferens": "https://friibergh.se/konferens/ — conference packages; one of Sweden's first conference centres (1960s)",
+   "brollop-och-fest": "https://friibergh.se/brollop/ — weddings 'Upp till 100 personer', bridal suite, parties"
+  },
+  "removed": {
+   "restaurang-och-kafe": "Dining is fixed menus for booked guests/groups; no regular restaurant or café open to drop-in visitors stated"
+  },
+  "unsure": [
+   "restaurang-och-kafe: a 'Priser för privatgäster' page suggests private guests may book meals and julbord, but no public opening"
+  ],
+  "facts": "Friibergh by Lake Mälaren near Örsundsbro is a conference manor, made a säteri in 1658 by Arvid Forbus, run since 2007 by Michael Hallbäck. Offers conferences, weekend and golf packages, weddings up to 100 guests, julbord and a lakeside sauna."
+ },
+ "siggesta-gard": {
+  "checked": "2026-11-03",
+  "website": "https://www.siggestagard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.siggestagard.se/hotell — 'Hotellrum och glampingtält i en lantlig och naturnära miljö'",
+   "konferens": "https://www.siggestagard.se/konferens — conference packages, e.g. 'Släpp loss i Logen'",
+   "brollop-och-fest": "https://www.siggestagard.se/fest-brollop — 'Fira bröllop eller fest på Siggesta Gård', up to 150 guests",
+   "restaurang-och-kafe": "https://www.siggestagard.se/ — weekday 'Dagens lunch' in Restaurang Ladugården, weekend brunch; Orangery café"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Siggesta gård on Värmdö is a working farm estate with a 57-room hotel, glamping, Restaurang Ladugården (lunch, brunch) and an orangery café, plus conferences, weddings and activities such as alpaca feeding. Open year-round, reachable by bus from Slussen."
+ },
+ "hooks-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.hooksherrgard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "restaurang-och-kafe",
+   "spa"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.hooksherrgard.se/hotellet/vara-hotellrum/ — hotel rooms and packages",
+   "spa": "https://www.hooksherrgard.se/spa/ — spa packages and day spa; 1,300 m² spa opened 2014",
+   "konferens": "https://www.hooksherrgard.se/konferens/ — conference packages and meeting rooms",
+   "brollop-och-fest": "https://www.hooksherrgard.se/restaurang/brollop/ — weddings, 'Fest & firanden', party venues",
+   "restaurang-och-kafe": "https://www.hooksherrgard.se/restaurang/lunchmeny-herrgard/ — lunch and evening menus; Bistron in golf season"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Hooks herrgård by Lake Hokasjön south of Jönköping has been a hotel since 1923 and owned by the Edberg family since the 1960s; it offers a 1,300 m² spa (2014), two golf courses (golf since 1934), restaurant and bistro, conferences and weddings."
+ },
+ "tokeryds-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.tokerydsherrgard.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.tokerydsherrgard.se/vara-rum/ — 'klassiskt herrgårdshotell' with 36 rooms",
+   "brollop-och-fest": "https://www.tokerydsherrgard.se/hyr-lada/ — 'Boka in Ert bröllop, fest eller event hos oss!' in the estate barn"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Tokeryds herrgård is a 19th-century manor hotel seven minutes from central Jönköping with original staircase, ceiling paintings and salon wallpaper; the event barn next to the manor is hired for weddings and parties. No public restaurant (breakfast for non-guests by advance booking only)."
+ },
+ "baldersnas-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://baldersnas.com/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://baldersnas.com/ — 30 rooms in the manor and 2011 wings overlooking Laxsjön",
+   "konferens": "https://baldersnas.com/ — meeting rooms for up to 30, 'Virkeslada' hall for up to 300",
+   "brollop-och-fest": "https://baldersnas.com/ — ceremonies in the park, by the water or in the manor, followed by celebrations",
+   "restaurang-och-kafe": "https://www.vastsverige.com/bengtsfors/produkter/naturreservat-baldersnas/ — café open in summer, restaurant by advance booking",
+   "park-och-tradgard": "https://www.vastsverige.com/bengtsfors/produkter/naturreservat-baldersnas/ — public nature reserve since 1975 with remains of the English park, 5 km trail"
+  },
+  "removed": {},
+  "unsure": [],
+  "facts": "Baldersnäs at Dals Långed is a manor hotel (main building 1910) on a peninsula in Laxsjön inside a public nature reserve with remains of a famous 1800s English-style park. Offers rooms, restaurant, summer café, weddings, conferences, sauna and guest harbour."
+ },
+ "hofsnas-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.hofsnas.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens",
+   "park-och-tradgard",
+   "restaurang-och-kafe"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.hofsnas.se/lilla-sjostugan/ — Lilla Sjöstugan, 12 beds: 'Endast hela huset hyrs ut och det gör vi året runt'",
+   "konferens": "https://www.hofsnas.se/konferens/ — 'HOFSNÄS KONFERENS OCH KICK OFF'",
+   "brollop-och-fest": "https://www.hofsnas.se/brollop/ — 'Fest & Bröllop' in Ladan",
+   "restaurang-och-kafe": "https://www.hofsnas.se/bistro-kafe/ — Bistro & kafé on open days, afternoon tea, julbord, påskbuffé",
+   "park-och-tradgard": "https://www.hofsnas.se/om-oss/ — estate lies in Torpanäsets naturreservat with 'naturstigar utmed vattenkanten'"
+  },
+  "removed": {},
+  "unsure": [
+   "restaurang-och-kafe: bistro/café opens on set dates and for bookings/events ('Öppet för bokningar och event'), not regular daily opening"
+  ],
+  "facts": "Hofsnäs herrgård by Lake Åsunden near Länghem, owned by Borås kommun since 1964 and run by the Equitz family since 2006, offers a restaurant and bistro on open days and events, weddings in the barn, conferences and the rentable Lilla Sjöstugan. It lies in Torpanäset nature reserve and is the 'Lindö' of Birgit Th. Sparre's novels."
+ },
+ "ulfshyttans-herrgard": {
+  "checked": "2026-11-03",
+  "website": "https://www.ulfshyttan.se/",
+  "offers": [
+   "bo-pa-slott",
+   "brollop-och-fest",
+   "konferens"
+  ],
+  "evidence": {
+   "bo-pa-slott": "https://www.ulfshyttan.se/ — 'hotellboende i en lugn och personlig miljö', several room types",
+   "konferens": "https://visitdalarna.se/en/ulfshyttans-herrgard — conference rooms listed; history page: used for 'möten' since 2020",
+   "brollop-och-fest": "https://ulfshyttan.se/sv/brollop — 'Magiskt bröllop med egen herrgård', dinner up to 54 guests"
+  },
+  "removed": {},
+  "unsure": [
+   "konferens: own site lists 'Bröllop & Konferens' but describes no conference package"
+  ],
+  "facts": "Ulfshyttans herrgård on a peninsula in Ulvsjön between Borlänge and Säter was built around 1895 for ironmaster Gerhard Arfwedson; since 2020 owners Bo and Ying run it as a hotel for overnight stays, weddings and meetings. Dinner is for hotel guests; Romme Alpin is 12 km away."
  }
 }
