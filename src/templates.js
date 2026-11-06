@@ -676,7 +676,7 @@ ${castleSelect(S, false)}
   <label><input type="radio" name="vad" value="Annat"> Annat</label>
 </fieldset>
 <label for="lank">Länk (frivilligt)</label><input id="lank" name="lank" type="url" inputmode="url">
-<label for="meddelande">Beskriv gärna</label><textarea id="meddelande" name="meddelande" rows="5"></textarea>
+<label for="meddelande">Beskriv gärna</label><textarea id="meddelande" name="meddelande" rows="5" required></textarea>
 <label for="epost">Din e-post (frivilligt, om du vill ha svar)</label><input id="epost" name="epost" type="email" autocomplete="email">
 <button class="btn btn-gold" type="submit">Skicka tipset</button>
 </form>` });

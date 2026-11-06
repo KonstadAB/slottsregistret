@@ -17,7 +17,7 @@ const FORMS = {
   },
   tips: {
     subject: 'Tips från besökare',
-    required: ['vad'],
+    required: ['vad', 'meddelande'],
     fields: ['slott', 'vad', 'lank', 'meddelande', 'epost'],
   },
 };
