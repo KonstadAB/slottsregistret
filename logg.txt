@@ -1,0 +1,39 @@
+
+ ⛅️ wrangler 4.159.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 930 files from the assets directory /home/runner/work/slottsregistret/slottsregistret/dist
+🌀 Starting asset upload...
+🌀 Found 2 new or modified static assets to upload. Proceeding with upload...
++ /.well-known/security.txt
++ /signatur/index.html
+Uploaded 1 of 2 assets
+Uploaded 2 of 2 assets
+✨ Success! Uploaded 2 files (482 already uploaded) (0.81 sec)
+
+Total Upload: 22.56 KiB / gzip: 6.87 KiB
+Worker Startup Time: 1 ms
+Your Worker has access to the following bindings:
+Binding                                                  Resource                  
+env.FORMS (24b726539b4e40cda5dd28eeec38eac2)             KV Namespace              
+env.MAIL (daniel@konstad.se)                             Send Email                
+env.EMAIL (unrestricted)                                 Send Email                
+env.DB (slottsregistret)                                 D1 Database               
+env.FORM_LIMIT (5 requests/60s)                          Rate Limit                
+env.ASSETS                                               Assets                    
+env.MAIL_TO ("daniel@konstad.se")                        Environment Variable      
+env.ADMIN_EMAILS ("daniel@konstad.se")                   Environment Variable      
+
+Uploaded slottsregistret (2.79 sec)
+Worker Version ID: 80641e3c-ef5d-4695-9029-be424b23378b
+Version Preview URL: https://80641e3c-slottsregistret.konstadab.workers.dev
+Version Preview Alias URL: https://granska-slottsregistret.konstadab.workers.dev
+
+To deploy this version to production traffic use the command wrangler versions deploy
+
+Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy
+
+Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy
+
+ok dator https://granska-slottsregistret.konstadab.workers.dev/signatur/
+ok mobil https://granska-slottsregistret.konstadab.workers.dev/signatur/
