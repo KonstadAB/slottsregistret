@@ -258,3 +258,8 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
   `required`); sidan i Chromium (tom ruta stoppas av webbläsaren, blanksteg ger felrutan, med text kommer man till /tack/).
 - Obs: provskick med Granska fyller nu även textrutan ("Test från granskningen") – sådana tips går fortfarande in i KV/mejl som riktiga.
 - Nästa steg: Daniel granskar PR:en och publicerar.
+
+## 10 nov: e-postsignatur
+- Bilden ligger på https://slottsregistret.se/signatur/slottsregistret-signatur.png (src/signatur/, kopieras utan hash i build.js). Källa: tools/signatur.html.
+- Signaturen (HTML) följer Konstad-signaturens upplägg: bild, Daniels foto (konstad.se/signatur/daniel.png), namn, Slottsregistret.se, 0739-14 04 50, kontakt@slottsregistret.se.
+- Förfrågningar från sajten: ge aldrig slottet kundens uppgifter innan Daniel har en överenskommelse (Gunnebo 10 nov).
