@@ -263,3 +263,7 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Bilden ligger på https://slottsregistret.se/signatur/slottsregistret-signatur.png (src/signatur/, kopieras utan hash i build.js). Källa: tools/signatur.html.
 - Signaturen (HTML) följer Konstad-signaturens upplägg: bild, Daniels foto (konstad.se/signatur/daniel.png), namn, Slottsregistret.se, 0739-14 04 50, kontakt@slottsregistret.se.
 - Förfrågningar från sajten: ge aldrig slottet kundens uppgifter innan Daniel har en överenskommelse (Gunnebo 10 nov).
+
+## 10 nov: besöksstatistik
+- Cloudflare Web Analytics (site_tag f16fe1ec…, token 133e60e5…) fanns sedan 4 okt med automatisk inläggning, men den gav nästan ingen data eftersom Workern serverar sidorna. Nu ligger beacon-skriptet i varje sida via `cloudflareAnalyticsToken` i site.config.json. Den automatiska inläggningen står på "lite" (utan EU-besökare). Nyckeln får 403 på rum/site_info, så det går inte att ändra via API:t. Det spelar ingen roll, eftersom vår egen snippet räknar alla.
+- Statistik läses med GraphQL via cloudflare-kommando.txt: zonens httpRequests1dGroups (räknar med robotar) och kontots rumPageloadEventsAdaptiveGroups (riktiga besökare). Siffror visas aldrig publikt (Daniels regel 5 nov).
