@@ -1,30 +1,977 @@
-# 2026-11-10T08:49:26Z api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { httpRequests1dGroups(limit:40, filter:{date_geq:\"2026-10-10\"}, orderBy:[date_ASC]) { dimensions { date } sum { requests pageViews countryMap { clientCountryName requests } browserMap { uaBrowserFamily pageViews } } uniq { uniques } } } } }"} ;; api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { top: httpRequestsAdaptiveGroups(limit:40, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRequestPath } } refs: httpRequestsAdaptiveGroups(limit:25, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRefererHost } } bots: httpRequestsAdaptiveGroups(limit:15, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { userAgentBrowser clientDeviceType } } } } }"}
+# 2026-11-10T11:46:31Z api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { httpRequests1dGroups(limit:40, filter:{date_geq:\"2026-10-10\"}, orderBy:[date_ASC]) { dimensions { date } sum { requests pageViews countryMap { clientCountryName requests } browserMap { uaBrowserFamily pageViews } } uniq { uniques } } } } }"} ;; api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { top: httpRequestsAdaptiveGroups(limit:40, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRequestPath } } refs: httpRequestsAdaptiveGroups(limit:25, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRefererHost } } bots: httpRequestsAdaptiveGroups(limit:15, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { userAgentBrowser clientDeviceType } } } } }"}
 >> api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { httpRequests1dGroups(limit:40, filter:{date_geq:\"2026-10-10\"}, orderBy:[date_ASC]) { dimensions { date } sum { requests pageViews countryMap { clientCountryName requests } browserMap { uaBrowserFamily pageViews } } uniq { uniques } } } } }"}
 {
- "data": null,
- "errors": [
-  {
-   "message": "Actor 'com.cloudflare.api.token.538d64f20c8c2ab4c412a518cc4dba17' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone ea79ee838c7bee0ef2100f012784f653",
-   "path": null,
-   "extensions": {
-    "code": "authz",
-    "timestamp": "2026-11-10T08:49:26.477367086Z",
-    "ray_id": "a583cdcb8abf58ce-SEA"
-   }
-  }
- ]
-}
->> api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { top: httpRequestsAdaptiveGroups(limit:40, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRequestPath } } refs: httpRequestsAdaptiveGroups(limit:25, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRefererHost } } bots: httpRequestsAdaptiveGroups(limit:15, filter:{datetime_geq:\"2026-11-09T09:00:00Z\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { userAgentBrowser clientDeviceType } } } } }"}
+ "data": {
+  "viewer": {
+   "zones": [
+    {
+     "httpRequests1dGroups": [
+      {
+       "dimensions": {
+        "date": "2026-10-10"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 42,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 18,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 3,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 29,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 51,
+          "uaBrowserFamily": "ChromeMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "SamsungInternet"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "OperaMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Edge"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeDerivative"
+         },
+         {
+          "pageViews": 12,
+          "uaBrowserFamily": "ChromeHeadless"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AT",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "BD",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "BE",
+          "requests": 121
+         },
+         {
+          "clientCountryName": "BR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "CA",
+          "requests": 91
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 72
+         },
+         {
+          "clientCountryName": "DK",
+          "requests": 8
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "GB",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 6
+         },
+         {
+          "clientCountryName": "PL",
+          "requests": 5
+         },
+         {
+          "clientCountryName": "SA",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 73
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 64
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 280
+         }
+        ],
+        "pageViews": 159,
+        "requests": 730
+       },
+       "uniq": {
+        "uniques": 109
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-11"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 763,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 25,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 60,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeMobile"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BD",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BE",
+          "requests": 239
+         },
+         {
+          "clientCountryName": "CA",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "CH",
+          "requests": 38
+         },
+         {
+          "clientCountryName": "CZ",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 1298
+         },
+         {
+          "clientCountryName": "DK",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "FI",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "IN",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "JP",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "NO",
+          "requests": 5
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "TR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "UA",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 143
+         }
+        ],
+        "pageViews": 851,
+        "requests": 1746
+       },
+       "uniq": {
+        "uniques": 285
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-12"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 9,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 4,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 51,
+          "uaBrowserFamily": "ChromeMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Edge"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeDerivative"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeHeadless"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "CA",
+          "requests": 27
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 4
+         },
+         {
+          "clientCountryName": "DK",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 9
+         },
+         {
+          "clientCountryName": "MK",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "QA",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "RU",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 127
+         },
+         {
+          "clientCountryName": "VN",
+          "requests": 1
+         }
+        ],
+        "pageViews": 68,
+        "requests": 179
+       },
+       "uniq": {
+        "uniques": 30
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-13"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 42,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 4,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 335,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "MobileSafari"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "Edge"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AE",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "CH",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "DK",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 5
+         },
+         {
+          "clientCountryName": "IN",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "KH",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 305
+         },
+         {
+          "clientCountryName": "PK",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "RO",
+          "requests": 4
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 39
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 461
+         }
+        ],
+        "pageViews": 386,
+        "requests": 824
+       },
+       "uniq": {
+        "uniques": 381
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-14"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 496,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 10,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 4,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 371,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 339,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeMobile"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AU",
+          "requests": 279
+         },
+         {
+          "clientCountryName": "BR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "CA",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 25
+         },
+         {
+          "clientCountryName": "DK",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "FI",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "GB",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "IN",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "JP",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "MY",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "NI",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 5
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 16
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 45
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 1857
+         }
+        ],
+        "pageViews": 1221,
+        "requests": 2240
+       },
+       "uniq": {
+        "uniques": 413
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-15"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 31,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 9,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Safari"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 9,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 8,
+          "uaBrowserFamily": "MobileSafari"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Curl"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "BE",
+          "requests": 32
+         },
+         {
+          "clientCountryName": "BR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "FI",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 4
+         },
+         {
+          "clientCountryName": "GB",
+          "requests": 278
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 18
+         },
+         {
+          "clientCountryName": "PK",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "RU",
+          "requests": 8
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 61
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 139
+         },
+         {
+          "clientCountryName": "VN",
+          "requests": 1
+         }
+        ],
+        "pageViews": 64,
+        "requests": 548
+       },
+       "uniq": {
+        "uniques": 53
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-16"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 1483,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 35,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 166,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 48,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 3,
+          "uaBrowserFamily": "MobileSafari"
+         },
+         {
+          "pageViews": 3,
+          "uaBrowserFamily": "ChromeDerivative"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AE",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BD",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "BE",
+          "requests": 6
+         },
+         {
+          "clientCountryName": "BR",
+          "requests": 22
+         },
+         {
+          "clientCountryName": "CA",
+          "requests": 14
+         },
+         {
+          "clientCountryName": "CL",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "CO",
+          "requests": 8
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 285
+         },
+         {
+          "clientCountryName": "DZ",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "ES",
+          "requests": 31
+         },
+         {
+          "clientCountryName": "FI",
+          "requests": 32
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 365
+         },
+         {
+          "clientCountryName": "GB",
+          "requests": 34
+         },
+         {
+          "clientCountryName": "ID",
+          "requests": 16
+         },
+         {
+          "clientCountryName": "IE",
+          "requests": 3
+         },
+         {
+          "clientCountryName": "IL",
+          "requests": 4
+         },
+         {
+          "clientCountryName": "IN",
+          "requests": 16
+         },
+         {
+          "clientCountryName": "JP",
+          "requests": 21
+         },
+         {
+          "clientCountryName": "MX",
+          "requests": 30
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 61
+         },
+         {
+          "clientCountryName": "PL",
+          "requests": 148
+         },
+         {
+          "clientCountryName": "RU",
+          "requests": 8
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 49
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 24
+         },
+         {
+          "clientCountryName": "TN",
+          "requests": 12
+         },
+         {
+          "clientCountryName": "TR",
+          "requests": 7
+         },
+         {
+          "clientCountryName": "TW",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "UA",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 1282
+         },
+         {
+          "clientCountryName": "VE",
+          "requests": 4
+         },
+         {
+          "clientCountryName": "VN",
+          "requests": 8
+         }
+        ],
+        "pageViews": 1739,
+        "requests": 2501
+       },
+       "uniq": {
+        "uniques": 329
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-17"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 991,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 23,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 2,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 653,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 107,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 3,
+          "uaBrowserFamily": "MobileSafari"
+         },
+         {
+          "pageViews": 4,
+          "uaBrowserFamily": "ChromeMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "Edge"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "ChromeHeadless"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "BD",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BE",
+          "requests": 236
+         },
+         {
+          "clientCountryName": "BO",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "DE",
+          "requests": 151
+         },
+         {
+          "clientCountryName": "FI",
+          "requests": 60
+         },
+         {
+          "clientCountryName": "FR",
+          "requests": 752
+         },
+         {
+          "clientCountryName": "IE",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "NL",
+          "requests": 22
+         },
+         {
+          "clientCountryName": "PE",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "PL",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "SE",
+          "requests": 358
+         },
+         {
+          "clientCountryName": "SG",
+          "requests": 14
+         },
+         {
+          "clientCountryName": "TR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "TW",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "UA",
+          "requests": 57
+         },
+         {
+          "clientCountryName": "US",
+          "requests": 899
+         },
+         {
+          "clientCountryName": "VN",
+          "requests": 1
+         }
+        ],
+        "pageViews": 1785,
+        "requests": 2559
+       },
+       "uniq": {
+        "uniques": 696
+       }
+      },
+      {
+       "dimensions": {
+        "date": "2026-10-18"
+       },
+       "sum": {
+        "browserMap": [
+         {
+          "pageViews": 994,
+          "uaBrowserFamily": "Unknown"
+         },
+         {
+          "pageViews": 43,
+          "uaBrowserFamily": "Chrome"
+         },
+         {
+          "pageViews": 4,
+          "uaBrowserFamily": "Firefox"
+         },
+         {
+          "pageViews": 102,
+          "uaBrowserFamily": "AppleBot"
+         },
+         {
+          "pageViews": 10,
+          "uaBrowserFamily": "GoogleBot"
+         },
+         {
+          "pageViews": 14,
+          "uaBrowserFamily": "MobileSafari"
+         },
+         {
+          "pageViews": 5,
+          "uaBrowserFamily": "ChromeMobile"
+         },
+         {
+          "pageViews": 1,
+          "uaBrowserFamily": "SamsungInternet"
+         },
+         {
+          "pageViews": 3,
+          "uaBrowserFamily": "Edge"
+         }
+        ],
+        "countryMap": [
+         {
+          "clientCountryName": "AR",
+          "requests": 1
+         },
+         {
+          "clientCountryName": "BD",
+          "requests": 2
+         },
+         {
+          "clientCountryName": "BE",
+          "requests": 240
+         },
+         {
+          "clientCountry
+>> api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"ea79ee838c7bee0ef2100f012784f653\"}) { top: httpRequestsAdaptiveGroups(limit:40, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRequestPath } } refs: httpRequestsAdaptiveGroups(limit:25, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", requestSource:\"eyeball\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { clientRefererHost } } bots: httpRequestsAdaptiveGroups(limit:15, filter:{datetime_geq:\"2026-11-09T12:00:00Z\", edgeResponseContentTypeName:\"html\"}, orderBy:[count_DESC]) { count dimensions { userAgentBrowser clientDeviceType } } } } }"}
 {
  "data": null,
  "errors": [
   {
-   "message": "Actor 'com.cloudflare.api.token.538d64f20c8c2ab4c412a518cc4dba17' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone ea79ee838c7bee0ef2100f012784f653",
-   "path": null,
+   "message": "zone 'ea79ee838c7bee0ef2100f012784f653' does not have access to the field 'clientrefererhost' from the path",
+   "path": [
+    "viewer",
+    "zones",
+    "0",
+    "refs"
+   ],
    "extensions": {
     "code": "authz",
-    "timestamp": "2026-11-10T08:49:26.770112056Z",
-    "ray_id": "a583cdcceacd15cd-SEA"
+    "timestamp": "2026-11-10T11:46:32.00727414Z",
+    "ray_id": "a584d135add050a1-SJC"
    }
   }
  ]
