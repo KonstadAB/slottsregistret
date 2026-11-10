@@ -1,8 +1,6 @@
 Wikidata-sökningar 0
-Wikidata-poster 550
-Wikipedia-texter 350
-Commons-bilder 364
+Wikidata-poster 572
+Wikipedia-texter 364
+Commons-bilder 376
 Sidor lästa 0
-Sökningar 114 med träffar 100
-Webbplatser lästa 136
-Klart 2026-11-03T10:50:30.909Z
+Klart 2026-11-10T12:24:46.078Z
