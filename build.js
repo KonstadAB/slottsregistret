@@ -133,6 +133,8 @@ for (const [url, buf] of assets) write(url.slice(1), buf);
 write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#1F3A31"/><path d="M8 33V18l3.5-2.5V12h2.5v3.5L17.5 13V9h5v4l3.5 2.5V12h2.5v3.5L32 18v15" fill="none" stroke="#F3EBDB" stroke-width="2" stroke-linejoin="round"/><path d="M17 33v-6a3 3 0 0 1 6 0v6" fill="#C9A24E"/></svg>');
 
 // ---- Sökmotorer ----
+// E-postsignaturens bild på en fast adress (används i mejl, så den får ingen hash): https://slottsregistret.se/signatur/…
+for (const f of fs.readdirSync(path.join(ROOT, 'src/signatur'))) write(`signatur/${f}`, fs.readFileSync(path.join(ROOT, 'src/signatur', f)));
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /sok/\n\nSitemap: ${config.domain}/sitemap.xml\n`);
 write('.well-known/security.txt', `Contact: mailto:${config.contactEmail}\nExpires: ${new Date(Date.now() + 364 * 864e5).toISOString()}\nPreferred-Languages: sv, en\n`);
 // Inget lastmod: bygget vet inte när en enskild sida senast ändrades, och dagens datum på alla adresser vid varje
