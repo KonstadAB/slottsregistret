@@ -82,6 +82,13 @@ export default {
     const read = request.method === 'GET' || request.method === 'HEAD';
     if (read && url.pathname.startsWith('/img/')) return commons(request, url, ctx);
     if (read && url.pathname.startsWith('/tiles/')) return tiles(request, url, ctx);
-    return env.ASSETS.fetch(request);
+    const res = await env.ASSETS.fetch(request);
+    // Testadressen (*.workers.dev) visar samma sidor som slottsregistret.se; den ska aldrig hamna i Google.
+    if (url.hostname.endsWith('.workers.dev')) {
+      const r = new Response(res.body, res);
+      r.headers.set('X-Robots-Tag', 'noindex');
+      return r;
+    }
+    return res;
   },
 };

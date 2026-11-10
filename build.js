@@ -31,6 +31,40 @@ const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site-data.json'), 
   for (const c of data.castles) if (kap[c.id]) c.capacity = kap[c.id];
 }
 
+// Faktarutan: "Öppet för besök" och "Används i dag" kommer från Wikidata och kan vara gamla. De verifierade erbjudandena
+// (data/erbjudanden.json) vinner: ett slott som är hotell i dag ska inte stå som "Privat" (slottsägargranskningen 10 nov).
+{
+  const GUEST = ['bo-pa-slott', 'spa', 'restaurang-och-kafe', 'park-och-tradgard'], EVENT = ['brollop-och-fest', 'konferens'];
+  const USE = [['bo-pa-slott', 'Hotell och boende'], ['restaurang-och-kafe', 'restaurang'], ['spa', 'spa'], ['konferens', 'konferens'], ['brollop-och-fest', 'bröllop och fest'], ['park-och-tradgard', 'park']];
+  for (const c of data.castles) {
+    const has = s => c.offers.includes(s);
+    if (c.open === 'Nej') {
+      if (has('besok') || GUEST.some(has)) c.open = 'Delvis';
+      else if (EVENT.some(has)) c.open = 'Bokning';
+    }
+    if (/^(Privat|Kontor|Kommunkontor|Gods)/.test(c.use || '') && [...GUEST, ...EVENT].some(has)) {
+      const parts = USE.filter(([s]) => has(s)).map(([, t]) => t).slice(0, 3);
+      c.use = (parts[0] === 'Hotell och boende' ? parts : parts.map((t, i) => i ? t : t[0].toUpperCase() + t.slice(1))).join(', ');
+    }
+  }
+}
+
+// "Byggt": Wikidata anger ofta bara århundradet (1300 = någon gång på 1200- eller 1300-talet). Sådana årtal visas inte,
+// utom där våra egna texter ger ett säkrare svar.
+{
+  const BUILT = { 'gunnebo-slott': '1784–1796', 'sofiero-slott': '1865', 'stjernsunds-slott': '1808', 'backaskog-slott': '1200-talet',
+    'kulla-gunnarstorps-slott': '1500-talet och 1865–1872', 'skansen-kronan': '1687–1698', 'tosterups-slott': 'Troligen efter 1483',
+    'halmstads-slott': '1609–1615', 'kalmar-slott': '1100-talet', graborg: '500-talet', 'nas-slottsruin': '1100-talet',
+    'nykopingshus': '1100-talet', 'orebro-slott': '1300-talet', 'goksholms-slott': '1200-talet' };
+  for (const c of data.castles) c.built = BUILT[c.id] || (c.inception && +c.inception > 900 && !/00$/.test(c.inception) ? c.inception : null);
+}
+
+// Fotografens namn från Commons kommer ibland som en hel mening på engelska ("No machine-readable author provided…").
+{
+  const { cleanArtist } = require('./src/lib');
+  for (const c of data.castles) if (c.image) c.image.artist = cleanArtist(c.image.artist);
+}
+
 const S = {
   config, data,
   catBySlug: new Map(data.categories.map(c => [c.slug, c])),
@@ -38,11 +72,12 @@ const S = {
 };
 { const n = new Map(); for (const c of data.castles) n.set(c.name, (n.get(c.name) || 0) + 1); S.dupNames = new Set([...n].filter(x => x[1] > 1).map(x => x[0])); }
 const located = data.castles.filter(c => c.lat != null);
-// Närliggande slott: de med rundtur först (inom 60 km), sedan övriga.
+// Närliggande slott inom 60 km, närmast först (besökargranskningen 10 nov: "i närheten" ska betyda nära).
+// Slott med rundtur syns ändå på sitt märke "Kliv in".
 S.nearby = (c, n) => {
   if (c.lat == null) return [];
   const near = located.filter(o => o.id !== c.id).map(o => [haversine(c, o), o]).filter(x => x[0] < 60);
-  return near.sort((a, b) => (b[1].tours.length > 0) - (a[1].tours.length > 0) || a[0] - b[0]).slice(0, n).map(x => x[1]);
+  return near.sort((a, b) => a[0] - b[0]).slice(0, n).map(x => x[1]);
 };
 // Startsidans urval: slott med rundtur, helst inbäddningsbar, med bild och hög prioritet; högst två per län.
 // Först de som visar slottet inifrån bäst (granskade för hand), sedan övriga.
@@ -146,7 +181,8 @@ write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40
 for (const f of fs.readdirSync(path.join(ROOT, 'src/signatur'))) write(`signatur/${f}`, fs.readFileSync(path.join(ROOT, 'src/signatur', f)));
 // IndexNow (Bing, Yandex m.fl.): nyckelfilen visar att vi äger sajten; publicera.yml anmäler sidorna efter varje publicering.
 write('ecfd97ed0b5d68350752b1ce21328549.txt', 'ecfd97ed0b5d68350752b1ce21328549');
-write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /sok/\n\nSitemap: ${config.domain}/sitemap.xml\n`);
+// Söksidan har noindex i sidhuvudet, så den behöver inte spärras här (Google måste kunna läsa den för att se noindex).
+write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${config.domain}/sitemap.xml\n`);
 write('.well-known/security.txt', `Contact: mailto:${config.contactEmail}\nExpires: ${new Date(Date.now() + 364 * 864e5).toISOString()}\nPreferred-Languages: sv, en\n`);
 // Inget lastmod: bygget vet inte när en enskild sida senast ändrades, och dagens datum på alla adresser vid varje
 // bygge gör att Google slutar lita på datumen (samma ändring som på svenskakyrkor.se 22 okt 2026).

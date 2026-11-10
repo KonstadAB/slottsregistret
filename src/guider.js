@@ -41,7 +41,7 @@ module.exports = (S, L, list) => [
 <ul>
 <li>${L('safstaholms-slott')} tar emot bröllop med upp till 75 gäster.</li>
 <li>${L('friiberghs-herrgard')} tar bröllop med upp till 100 gäster.</li>
-<li>${L('naas-slott')} har festlokalen Lekhuset för 120–200 gäster.</li>
+<li>${L('naas-slott')} har sommarlokalen Lekhuset med plats för upp till 140 gäster vid fest.</li>
 <li>${L('tjoloholms-slott')} har Magasinet, med plats för upp till 550 sittande gäster.</li>
 </ul>
 <p>Slott som enligt sina egna webbplatser tar emot 150 gäster eller fler vid fest:</p>
@@ -73,7 +73,7 @@ module.exports = (S, L, list) => [
     slug: 'bo-pa-slott',
     cat: 'bo-pa-slott',
     title: 'Bo på slott i Sverige – slottshotell, flyglar och vandrarhem',
-    h1: 'Bo på slott',
+    h1: 'Så bor du på slott',
     description: 'Guide till att bo på slott i Sverige: slottshotell, rum i flyglar och villor, slottsvandrarhem och vad som finns att göra runt slotten.',
     lead: 'Att sova på ett slott behöver inte vara dyrt eller krångligt. I Sverige finns allt från lyxiga slottshotell med spa till enkla vandrarhem i slottsparker. Här är de olika sätten att bo, och var ni hittar dem.',
     body: () => `
@@ -151,7 +151,7 @@ module.exports = (S, L, list) => [
     slug: 'konferens-pa-slott',
     cat: 'konferens',
     title: 'Konferens på slott – så väljer ni slott för mötet',
-    h1: 'Konferens på slott',
+    h1: 'Så väljer ni slott för konferensen',
     description: 'Guide till konferens på slott i Sverige: slottshotell, dagkonferens och stora möten, hur många som får plats och vad ni ska fråga innan ni bokar.',
     lead: 'Ett slott ger mötet något extra: ny miljö, historia i väggarna och ofta natur runt omkring. Men slotten är väldigt olika som konferensställen. Här är vad som skiljer dem åt och vad ni bör ta reda på.',
     body: () => `
@@ -207,6 +207,7 @@ module.exports = (S, L, list) => [
   {
     slug: 'slott-nara-stockholm',
     cat: null,
+    near: ['stockholm', 'uppsala', 'sodermanland'],
     title: 'Slott nära Stockholm – att besöka, bo på och gifta sig på',
     h1: 'Slott nära Stockholm',
     description: 'Slott inom sex mil från Stockholm: kungliga slott att besöka, slottshotell att bo på och slott för bröllop och konferens, med avstånd från stan.',
@@ -223,6 +224,7 @@ ${nearCity(S, L, { lat: 59.3293, lon: 18.0686 }, 60)}`,
   {
     slug: 'slott-nara-goteborg',
     cat: null,
+    near: ['vastra-gotaland', 'halland'],
     title: 'Slott nära Göteborg – att besöka, bo på och gifta sig på',
     h1: 'Slott nära Göteborg',
     description: 'Slott och fästningar inom sju mil från Göteborg: Gunnebo, Nääs, Tjolöholm, Carlsten och fler, med vad man kan göra och avstånd från stan.',
@@ -239,6 +241,7 @@ ${nearCity(S, L, { lat: 57.7089, lon: 11.9746 }, 70)}`,
   {
     slug: 'slott-nara-malmo',
     cat: null,
+    near: ['skane'],
     title: 'Slott nära Malmö – att besöka, bo på och gifta sig på',
     h1: 'Slott nära Malmö',
     description: 'Slott, borgar och ruiner inom sex mil från Malmö: Malmöhus, Torup, Svaneholm, Häckeberga, Sofiero och fler, med vad man kan göra och avstånd.',

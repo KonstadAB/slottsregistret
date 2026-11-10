@@ -273,3 +273,44 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - IndexNow: nyckelfilen skrivs av build.js; publicera.yml anmäler alla adresser i sitemap efter varje push till main.
 - Guider under /guider/ (src/guider.js): gifta sig på slott, bo på slott, slott med spa, konferens på slott, slott med barn, slott nära Stockholm/Göteborg/Malmö (listorna i stadsguiderna räknas fram ur avståndet). Daniel 10 nov: fyll gärna på med fler guider när de fyller en funktion. Bara uppgifter från erbjudanden.json/slottens sajter. Länk från kategorisidorna och sidfoten.
 - data/kapacitet.json: antal gäster för fest och konferens för 63 slott, med källa och ordagrant citat från slottens egna sajter. Visas i faktarutan på slottssidan (festText/konferensText) och som lista i bröllopsguiden (fest ≥ 150). Medvetet utelämnade vid osäkerhet (Åkeshov fest, Salsta, Hooks, Nya Älvsborg, m.fl.). Justerat för hand: Övedskloster 150 (bröllopssidan), Vadstena 400–600, Torup 400, Jordberga (bord för 150).
+
+## 10 nov: tre granskare och rättningar (publicerat)
+Tre agenter granskade sajten som besökare, som Google och som slottsägare. Betyg: besökare 6,5, SEO 6,5, slottsägare 5.
+Rättat utifrån granskningen:
+- Faktarutan räknas om i build.js:
+  - "Öppet för besök" och "Används i dag" följer nu de verifierade erbjudandena, inte gamla Wikidata-värden. En del slott stod som "Privat" fast de är hotell. Det nya värdet "Bokning" visas som "För bokade sällskap".
+  - "Byggt" visar inte längre Wikidatas avrundade sekelårtal (1300, 1600 …). Där våra texter ger ett säkrare årtal står det i BUILT i build.js.
+  - Fotografernas namn rensas från Commons engelska standardfraser (`cleanArtist` i src/lib.js).
+- Slottssidan:
+  - Rutan om rundtur, när slottet saknar en, heter nu "Ingen virtuell rundtur ännu". Den är mindre och ligger längst ner, efter förfrågan.
+  - Knappen "Skicka förfrågan" finns i sidhuvudet.
+  - "Fler slott i närheten" visar de närmaste först, med avstånd i km.
+  - Titeln har formen "Namn i Kommun – bröllop och boende". Slott som är öppna för besök har "besök" först.
+  - JSON-LD: TouristAttraction bara för slott som går att besöka, EventVenue och maximumAttendeeCapacity för slott som tar bröllop och konferens.
+- Förfrågan: texten säger att Slottsregistret svarar, inte slottet, och att vi tipsar om andra slott. Det följer Daniels regel om leads.
+- Listsidorna: första stycket av ingressen står ovanför listan, resten under. Procentsiffrorna är borttagna, och du/ni blandas inte längre.
+- Guider:
+  - "Guider" finns i menyn, och startsidan har en rad med guiderna.
+  - Läns- och kategorisidor i Stockholm, Uppsala, Sörmland, Västra Götaland, Halland och Skåne länkar till "Slott nära …" (fältet `near` i src/guider.js).
+  - Guiderna "Så bor du på slott" och "Så väljer ni slott för konferensen" har fått egna rubriker, så att de inte krockar med kategorisidorna.
+- Sökningen (src/assets/app.js):
+  - Län med två ord fungerar.
+  - göteborg, gbg, malmö och sthlm ger slotten inom 6–7 mil och länkar till "Slott nära …".
+  - barn, familj och lekplats leder till barnguiden.
+  - Små stavfel hittas också ("gunebo").
+- SEO:
+  - /tack/ har noindex.
+  - /sok/ är inte längre spärrad i robots.txt, eftersom sidan redan har noindex.
+  - Alla sidor har max-image-preview:large.
+  - *.workers.dev får X-Robots-Tag noindex (worker/index.js).
+- Kapacitet:
+  - Nääs rättat till 140 vid fest, bara sommartid (det stod 200).
+  - Tillagt: Nya Älvsborg 200–500, Carlsten konferens 20–200, Bohus 90.
+- Bilder: Fredensborg, Riddersvik, Baldersnäs och Hofsnäs har fått Commons-bilder (`image` i data/manuellt.json och site-data.json).
+  - Friibergh, Tokeryd och Johannesberg har inga fria bilder: inget på Commons, i Kulturmiljöbild eller via Openverse.
+
+Kvar att besluta:
+- VR Media, Daniels bolag, syns inte som samarbete på sajten, och slott med rundtur sorteras först. Granskaren tyckte att det borde sägas öppet. Det är Daniels beslut.
+- Slottsägarna vill längre fram ha en egen statistiksida.
+
+Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en plan finns i Claude-dokumentet "Länkplan Slottsregistret". Ingen är kontaktad än.

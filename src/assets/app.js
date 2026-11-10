@@ -54,10 +54,46 @@ window.SR = (function () {
   var PLAIN = {};
   'bo boende hotell slottshotell sova natt weekend spa bad konferens konferenser mote moten brollop vigsel gifta fest restaurang kafe cafe mat lunch middag fika besok museum museer visning visningar oppet park parker tradgard tradgardar kunglig kungliga ruin ruiner borg borgar slottsruin slottsruiner fornborg fornborgar fastning fastningar fort kastell skans skansar rundtur rundturer 360 virtuell virtuella digital digitalt'
     .split(' ').forEach(function (w) { PLAIN[w] = 1; });
-  var STOP = { i: 1, pa: 1, slott: 1, slottet: 1, med: 1, och: 1, nara: 1, lan: 1, kommun: 1, att: 1, ett: 1, en: 1 };
+  var STOP = { i: 1, pa: 1, slott: 1, slottet: 1, med: 1, och: 1, nara: 1, lan: 1, lans: 1, kommun: 1, att: 1, ett: 1, en: 1, runt: 1, omkring: 1, kring: 1 };
+  // Städer utan eget län: slotten inom en radie, och guiden "Slott nära …" överst.
+  var CITY = {
+    goteborg: [57.7089, 11.9746, 70, '/guider/slott-nara-goteborg/', 'Slott nära Göteborg'], gbg: 'goteborg', goteborgs: 'goteborg',
+    malmo: [55.605, 13.0038, 60, '/guider/slott-nara-malmo/', 'Slott nära Malmö'], malmos: 'malmo',
+    sthlm: [59.3293, 18.0686, 60, '/guider/slott-nara-stockholm/', 'Slott nära Stockholm']
+  };
+  // Ord som har en egen guide: guiden visas överst och slotten filtreras på det guiden handlar om.
+  var GUIDE_WORDS = [[/^(barn|barnen|barnvanlig\w*|familj\w*|lekplats\w*|riddar\w*)$/, 'besok', '/guider/slott-med-barn/', 'Slott att besöka med barn']];
+  function km(a, b) {
+    var r = Math.PI / 180, x = Math.sin((b[0] - a[0]) * r / 2), y = Math.sin((b[1] - a[1]) * r / 2);
+    return 12742 * Math.asin(Math.sqrt(x * x + Math.cos(a[0] * r) * Math.cos(b[0] * r) * y * y));
+  }
+  // Högst ett eller två fel i ett ord ("gunebo" hittar Gunnebo).
+  function near1(a, b) {
+    if (Math.abs(a.length - b.length) > 2) return false;
+    var prev = [], cur, i, j;
+    for (j = 0; j <= b.length; j++) prev[j] = j;
+    for (i = 1; i <= a.length; i++) {
+      cur = [i];
+      for (j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      prev = cur;
+    }
+    return prev[b.length] <= (a.length >= 8 ? 2 : 1);
+  }
   function parse(q) {
-    var words = norm(q).split(' ').filter(Boolean), cat = null, lan = null, rest = [];
+    var qn = ' ' + norm(q) + ' ', cat = null, lan = null, rest = [], city = null, guide = null;
+    // Län med två ord ("västra götaland", "västra götalands län") tas bort ur frågan först.
+    Object.keys(D.lanName).forEach(function (s) {
+      var n = norm(D.lanName[s]);
+      if (lan || n.indexOf(' ') < 0) return;
+      [n + 's lan', n + 's', n].some(function (v) { if (qn.indexOf(' ' + v + ' ') >= 0) { lan = s; qn = qn.replace(' ' + v + ' ', ' '); return true; } });
+    });
+    var words = qn.trim().split(' ').filter(Boolean);
     words.forEach(function (w) {
+      var c = CITY[w]; if (typeof c === 'string') c = CITY[c];
+      if (c && !city && !lan) { city = c; return; }
+      var g = null;
+      GUIDE_WORDS.forEach(function (x) { if (!g && x[0].test(w)) g = x; });
+      if (g && !guide) { guide = g; if (!cat) cat = g[1]; return; }
       var hit = null;
       CAT_WORDS.forEach(function (cw) { if (!hit && cw[0].test(w)) hit = cw[1]; });
       // "Borgeby", "Borgholm", "Parkudden": ett längre ord som börjar som en kategori men är början på ett namn är ett namn.
@@ -68,16 +104,23 @@ window.SR = (function () {
       if (l && !lan) { lan = l; return; }
       if (!STOP[w]) rest.push(w);
     });
-    return { cat: cat, lan: lan, rest: rest };
+    return { cat: cat, lan: lan, rest: rest, city: city, guide: guide };
   }
-  function search(q) {
+  function search(q, fuzzy) {
     var p = parse(q), out = [];
     D.list.forEach(function (c) {
       if (p.cat === 'tour' ? !c.r : p.cat && c.o.indexOf(p.cat) < 0) return;
       if (p.lan && c.l !== p.lan) return;
       var score = 0;
+      if (p.city) {
+        if (c.lat == null) return;
+        c.d = km([p.city[0], p.city[1]], [c.lat, c.lon]);
+        if (c.d > p.city[2]) return;
+        score -= c.d / 20;
+      }
       if (p.rest.length) {
-        var ok = p.rest.every(function (w) { return (' ' + c.key).indexOf(' ' + w) >= 0 || c.key.indexOf(w) >= 0; });
+        var toks = c.key.split(' ');
+        var ok = p.rest.every(function (w) { return (' ' + c.key).indexOf(' ' + w) >= 0 || c.key.indexOf(w) >= 0 || (fuzzy && w.length > 3 && toks.some(function (t) { return near1(w, t); })); });
         if (!ok) return;
         p.rest.forEach(function (w) { if (norm(c.n).indexOf(w) === 0) score += 3; else if ((' ' + norm(c.n)).indexOf(' ' + w) >= 0) score += 2; else score += 1; });
       }
@@ -85,9 +128,12 @@ window.SR = (function () {
       out.push([score, c]);
     });
     out.sort(function (a, b) { return b[0] - a[0] || a[1].n.localeCompare(b[1].n, 'sv'); });
+    if (!out.length && !fuzzy && p.rest.length) return search(q, true);
     return { p: p, hits: out.map(function (x) { return x[1]; }) };
   }
   function pageFor(p) {
+    if (p.guide) return { u: p.guide[2], t: p.guide[3] };
+    if (p.city) return { u: p.city[3], t: p.city[4] };
     if (p.cat === 'tour') return { u: '/virtuella-rundturer/', t: 'Alla slott med virtuell rundtur' };
     if (p.cat) return { u: '/' + p.cat + '/' + (p.lan ? p.lan + '/' : ''), t: D.catName[p.cat] + (p.lan ? ' i ' + D.lanName[p.lan] : '') };
     if (p.lan) return { u: '/lan/' + p.lan + '/', t: 'Alla slott i ' + D.lanName[p.lan] };

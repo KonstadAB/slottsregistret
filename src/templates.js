@@ -1,6 +1,6 @@
 'use strict';
 // Sidmallarna. Varje funktion får sammanhanget S (se build.js) och returnerar en hel HTML-sida.
-const { esc, nf, pct, commonsImage, wikiText, kommunLabel } = require('./lib');
+const { esc, nf, pct, commonsImage, wikiText, kommunLabel, haversine } = require('./lib');
 const { categoryIngress, countyIngress } = require('./ingress');
 
 const KIND = {
@@ -36,7 +36,7 @@ function layout(S, { title, description, path, body, image, jsonld, scripts = []
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(description || c.description)}">
 <link rel="canonical" href="${esc(canonical)}">
-${noindex ? '<meta name="robots" content="noindex">' : ''}
+<meta name="robots" content="${noindex ? 'noindex' : 'max-image-preview:large'}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(c.name)}">
 <meta property="og:title" content="${esc(title || c.name)}">
@@ -70,7 +70,7 @@ ${c.cloudflareAnalyticsToken ? `<script defer src="https://static.cloudflareinsi
 const LOGO = `<svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 35V17l4-3v-4h3v4l4-3V7h6v4l4 3v-4h3v4l4 3v18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M16 35v-8a4 4 0 0 1 8 0v8" fill="currentColor" class="door"/></svg>`;
 
 function header(S, path) {
-  const nav = [['/karta/', 'Karta'], ['/virtuella-rundturer/', 'Rundturer'], ['/lan/', 'Län'], ['/bo-pa-slott/', 'Bo på slott'], ['/brollop-och-fest/', 'Bröllop'], ['/konferens/', 'Konferens'], ['/besok/', 'Besöka']];
+  const nav = [['/karta/', 'Karta'], ['/virtuella-rundturer/', 'Rundturer'], ['/lan/', 'Län'], ['/bo-pa-slott/', 'Bo på slott'], ['/brollop-och-fest/', 'Bröllop'], ['/konferens/', 'Konferens'], ['/besok/', 'Besöka'], ['/guider/', 'Guider']];
   return `<header class="site-header">
   <div class="wrap hdr">
     <a class="logo" href="/" aria-label="${esc(S.config.name)}, till startsidan">${LOGO}<span>Slotts<b>registret</b></span></a>
@@ -134,7 +134,7 @@ function card(S, c, opts = {}) {
   <a href="${castleURL(c)}">
     <span class="card-img">${img ? `<img src="${esc(img)}" alt="" loading="lazy" decoding="async" width="500" height="375">` : '<span class="ph" aria-hidden="true"></span>'}${c.tours.length ? `<span class="lit" title="${esc(kind)}">${TOUR_ICON}Kliv in<span class="visually-hidden">: ${esc(kind)}</span></span>` : ''}</span>
     <span class="card-body">
-      <small class="card-loc">${esc(c.kommun)}${opts.noCounty || c.kommun === c.lan ? '' : ` · ${esc(c.lan)}`}</small>
+      <small class="card-loc">${esc(c.kommun)}${opts.dist ? ` · ca ${opts.dist(c)} km` : opts.noCounty || c.kommun === c.lan ? '' : ` · ${esc(c.lan)}`}</small>
       <strong>${esc(c.name)}</strong>
       ${offers.length ? `<small class="card-offers">${offers.map(o => esc(o.short)).join(' · ')}</small>` : ''}
     </span>
@@ -145,11 +145,7 @@ function card(S, c, opts = {}) {
 const cards = (S, list, opts) => `<ul class="cards">${list.map(c => card(S, c, opts)).join('')}</ul>`;
 
 function coverage(n, total, label) {
-  const p = pct(n, total);
-  return `<div class="coverage" role="img" aria-label="${p} procent: ${n} av ${total} ${label}">
-  <div class="bar"><span style="width:${p}%"></span></div>
-  <p><b>${p} %</b> · ${nf(n)} av ${nf(total)} ${esc(label)}</p>
-</div>`;
+  return n ? `<p class="coverage-text">${nf(n)} av ${nf(total)} ${esc(label)}.</p>` : '';
 }
 
 function searchBox(S, big = false) {
@@ -219,6 +215,13 @@ ${S.featured.length ? `<section class="band band-dark">
   </div>
 </section>
 
+<section class="band band-tight">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">Guider</p><h2>Tips inför besöket, bröllopet eller konferensen</h2></div><p>Våra guider samlar slotten efter vad du vill göra och var du bor.</p></div>
+    <ul class="pills guide-pills">${guides(S).map(g => `<li><a href="${g.path}">${esc(g.h1)}</a></li>`).join('')}<li><a href="/guider/">Alla guider</a></li></ul>
+  </div>
+</section>
+
 <section class="band band-paper2">
   <div class="wrap">
     <div class="sec-head">
@@ -275,8 +278,8 @@ function leadForm(S, c) {
     <div>
       <p class="kicker kicker-gold"><span>Förfrågan</span></p>
       <h2>Planerar du ${esc(what)} på ${esc(c.name)}?</h2>
-      <p>Berätta vad du har i tankarna, så hör vi av oss. Det kostar ingenting och du binder dig inte till något.</p>
-      <ul class="inquiry-points"><li>Svar inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Dina uppgifter stannar hos oss och slottet</li></ul>
+      <p>Berätta vad du har i tankarna, så hör vi på Slottsregistret av oss. Det kostar ingenting och du binder dig inte till något.</p>
+      <ul class="inquiry-points"><li>Svar från oss inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Passar inte slottet tipsar vi om andra</li></ul>
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'forfragan')}
@@ -311,6 +314,16 @@ function profileHtml(c) {
   return `<div class="from-castle"><h3>Från slottet</h3>${p.text ? p.text.split(/\n\s*\n/).map(t => `<p>${esc(t).replace(/\n/g, '<br>')}</p>`).join('') : ''}${p.open ? `<p><b>Säsong och öppet:</b> ${esc(p.open)}</p>` : ''}</div>`;
 }
 
+// Sidans titel i Googles träfflista: namn, ort och det man oftast söker på (t.ex. "Tjolöholms slott i Kungsbacka – bröllop och konferens").
+const TITLE_DO = [['brollop-och-fest', 'bröllop'], ['bo-pa-slott', 'boende'], ['konferens', 'konferens'], ['spa', 'spa'], ['besok', 'besök'], ['restaurang-och-kafe', 'restaurang'], ['park-och-tradgard', 'park']];
+function castleTitle(c) {
+  const k = c.kommun && !c.name.includes(c.kommun) ? ` i ${c.kommun}` : '';
+  // Slott som är öppna för besök söks mest för besöket, övriga för bröllop, boende och konferens.
+  const order = c.open === 'Ja' ? [...TITLE_DO.filter(x => x[0] === 'besok'), ...TITLE_DO.filter(x => x[0] !== 'besok')] : TITLE_DO;
+  const what = order.filter(([slug]) => c.offers.includes(slug)).map(([, t]) => t).slice(0, 2);
+  return `${c.name}${k}${what.length ? ` – ${what.join(' och ')}` : ''}`;
+}
+
 function castle(S, c) {
   const img = commonsImage(c.image, 1280), imgSm = commonsImage(c.image, 960);
   const imgXl = c.image && c.image.w > 1920 ? commonsImage(c.image, 1920) : null;
@@ -318,10 +331,11 @@ function castle(S, c) {
   const co = S.countyBySlug.get(c.lanSlug);
   const offers = c.offers.map(o => S.catBySlug.get(o)).filter(Boolean);
   const near = S.fullRows(S.nearby(c, 8));
+  const km = o => Math.max(1, Math.round(haversine(c, o)));
   const t = c.tours[0];
   const facts = [
-    ['Typ', c.type], ['Byggt', c.inception && +c.inception > 900 ? (c.inception.length === 4 ? c.inception : c.inception) : null],
-    ['Används i dag', c.use], ['Öppet för besök', { Ja: 'Ja', Delvis: 'Delvis – se slottets egen webbplats', Nej: 'Nej, privat' }[c.open]],
+    ['Typ', c.type], ['Byggt', c.built],
+    ['Används i dag', c.use], ['Öppet för besök', { Ja: 'Ja', Delvis: c.website ? 'Delvis – se slottets egen webbplats' : 'Delvis', Nej: 'Nej, privat', Bokning: 'För bokade sällskap' }[c.open]],
     ['Bröllop och fest', c.capacity && c.capacity.festText && c.offers.includes('brollop-och-fest') ? c.capacity.festText : null],
     ['Konferens', c.capacity && c.capacity.konferensText && c.offers.includes('konferens') ? c.capacity.konferensText : null],
     ['Kommun', kommunLabel(c.kommun)], ['Län', co ? co.full : c.lan],
@@ -334,7 +348,7 @@ function castle(S, c) {
   const titleBlock = `<p class="kicker${big ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}</span></p>
     <h1>${esc(c.name)}</h1>
     ${offerCats.length ? `<p class="c-offers">${offerCats.map(o => `<a href="${catURL(o)}">${icon(o.slug)}${esc(o.short)}</a>`).join('')}</p>` : ''}
-    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.profile && c.profile.booking ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.profile.booking)}" target="_blank" rel="noopener">Boka</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
+    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${leadKinds(c).length ? `<a class="btn ${t ? (big ? 'btn-light' : 'btn-ghost') : 'btn-gold'}" href="#forfragan">Skicka förfrågan</a>` : ''}${c.profile && c.profile.booking ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.profile.booking)}" target="_blank" rel="noopener">Boka</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
   const desc = castleDesc(c, co, offerCats);
   const tk = t ? (KIND[t.kind] || KIND.view) : null;
   const tourBlock = t ? `
@@ -354,26 +368,28 @@ function castle(S, c) {
     </div>
   </div>
   ${c.tours.length > 1 ? `<div class="wrap"><h3 class="more-tours">Fler rum att kliva in i</h3><ul class="tour-list">${c.tours.slice(1).map(tour => `<li><a href="${esc(tour.url)}" target="_blank" rel="noopener"><strong>${esc(tour.title || (KIND[tour.kind] || KIND.view).label)}</strong><small>${esc(tour.provider)}${tour.credit && tour.credit.length ? ` · Foto: ${esc(tour.credit.join(', '))}` : ''}</small></a></li>`).join('')}</ul></div>` : ''}
-</section>` : `
+</section>` : '';
+  // Inget om rundtur högt upp när det inte finns någon: rutan ligger längst ner och läses inte som att slottet är stängt.
+  const noTour = t ? '' : `
 <section class="tour-none" id="rundtur" aria-labelledby="rundtur-h">
   <div class="wrap">
     <div class="tour-none-in">
       <span class="door" aria-hidden="true"><svg viewBox="0 0 60 80"><path d="M4 78V30a26 26 0 0 1 52 0v48"/><path d="M14 78V32a16 16 0 0 1 32 0v46"/><path d="M30 16v62" opacity=".5"/><circle cx="25" cy="52" r="1.6"/><circle cx="35" cy="52" r="1.6"/></svg></span>
       <div>
-        <h2 id="rundtur-h">Dörren till ${esc(c.name)} är ännu stängd</h2>
-        <p>Det finns ingen virtuell rundtur av ${esc(c.name)} här än. ${nf(S.data.stats.withTour)} av Sveriges slott går redan att besöka digitalt, för den som har långt att resa, inte kan ta sig dit eller vill se salarna innan ett bröllop eller en konferens.</p>
-        <p class="actions"><a class="btn btn-ghost" href="/for-slott/?slott=${esc(c.slug)}" rel="nofollow">Äger du slottet? Visa det inifrån</a></p>
-        <p class="small">Finns det redan en rundtur? <a href="/tipsa/?slott=${esc(c.slug)}" rel="nofollow">Tipsa oss</a>.</p>
+        <h2 id="rundtur-h">Ingen virtuell rundtur ännu</h2>
+        <p>Det finns ingen virtuell rundtur av ${esc(c.name)} här än. ${nf(S.data.stats.withTour)} andra slott kan du redan <a href="/virtuella-rundturer/">gå runt i digitalt</a>.</p>
+        <p class="small">Äger du slottet? <a href="/for-slott/?slott=${esc(c.slug)}" rel="nofollow">Visa det inifrån</a> · Finns det redan en rundtur? <a href="/tipsa/?slott=${esc(c.slug)}" rel="nofollow">Tipsa oss</a></p>
       </div>
     </div>
   </div>
 </section>`;
   return layout(S, {
-    title: `${c.name}${S.dupNames.has(c.name) ? ` (${c.kommun})` : ''}`, description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
+    title: castleTitle(c), description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
     image: commonsImage(c.image, 1280) || undefined,
     scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js', ...(leadKinds(c).length ? ['/assets/form.js'] : [])],
     jsonld: [crumbLd(S, [['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]]), {
-      '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', 'TouristAttraction'], name: c.name,
+      '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', ...(c.open !== 'Nej' && (c.offers.includes('besok') || c.offers.includes('park-och-tradgard')) ? ['TouristAttraction'] : []), ...(leadKinds(c).length ? ['EventVenue'] : [])], name: c.name,
+      ...(leadKinds(c).length && c.capacity && (c.capacity.fest || c.capacity.konferens) ? { maximumAttendeeCapacity: Math.max(c.capacity.fest || 0, c.capacity.konferens || 0) } : {}),
       description: desc, url: S.config.domain + castleURL(c), ...(img ? { image: encodeURI(S.config.domain + img) } : {}),
       ...(c.lat != null ? { geo: { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lon } } : {}),
       address: { '@type': 'PostalAddress', addressLocality: c.kommun, addressRegion: co ? co.full : c.lan, addressCountry: 'SE' },
@@ -400,7 +416,7 @@ ${tourBlock}
       ${c.wiki && !c.text ? `<p class="source">Text från <a href="https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</p>` : ''}`}
       ${c.profile && (c.profile.text || c.profile.open) ? profileHtml(c) : ''}
       ${offerCats.length ? `<h3>Här kan du</h3><ul class="offer-list">${offerCats.map(o => `<li><a href="${catURL(o)}">${icon(o.slug)}<span>${esc(o.short)}</span></a></li>`).join('')}</ul>
-      <p class="small">Kontrollera alltid öppettider, priser och bokning på slottets egen webbplats.</p>` : ''}
+      ${c.website ? `<p class="small">Kontrollera alltid öppettider, priser och bokning på <a href="${esc(c.website)}" target="_blank" rel="noopener">slottets egen webbplats</a>.</p>` : ''}` : ''}
     </div>
     <aside class="c-side">
       <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
@@ -410,22 +426,33 @@ ${tourBlock}
   </div>
 </section>
 ${leadForm(S, c)}
+${noTour}
 ${near.length ? `<section class="band band-paper2">
   <div class="wrap">
     <h2>Fler slott i närheten</h2>
-    ${cards(S, near)}
+    ${cards(S, near, { dist: km })}
   </div>
 </section>` : ''}`,
   });
 }
 
+// Beskrivningen i träfflistan: hela meningar upp till ungefär 155 tecken (Google kortar resten).
+function metaDesc(t, max = 158) {
+  if (t.length <= max) return t;
+  let out = '';
+  for (const m of t.match(/[^.!?]+[.!?]+/g) || [t]) { if ((out + m).trim().length > max) break; out += m; }
+  return (out.trim() || t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…');
+}
 function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', countyFilter = null, noCounty = false, kicker = '', ingress = '' }) {
   const sorted = [...list].sort(byTour);
   const tours = sorted.filter(c => c.tours.length).length;
+  // Första stycket ovanför listan, resten under den, så att slotten syns utan att man behöver skrolla förbi texten.
+  const paras = (ingress || '').match(/<p>[\s\S]*?<\/p>/g) || (ingress ? [ingress] : []);
+  const ingTop = paras.slice(0, 1).join(''), ingMore = paras.slice(1).join('');
   // Sidhuvudet får en bild från ett av de första slotten i listan (helst ett med rundtur).
   const hero = sorted.find(c => c.image && c.image.w >= 1280) || sorted.find(c => c.image);
   return layout(S, {
-    title, path, description: `${intro} ${nf(list.length)} slott${tours ? `, varav ${nf(tours)} med virtuell rundtur` : ''}.`,
+    title, path, description: metaDesc(`${intro} ${nf(list.length)} slott${tours && tours < list.length ? `, varav ${nf(tours)} med virtuell rundtur` : ''}.`),
     bodyClass: hero ? 'overlay' : '', image: hero ? commonsImage(hero.image, 1280) : undefined, jsonld: crumbLd(S, crumbsList),
     body: `
 ${hero ? `<header class="page-hero">
@@ -442,10 +469,11 @@ ${hero ? `<header class="page-hero">
 <header class="page-head"><div class="wrap"><h1>${esc(h1)}</h1><p class="lead">${esc(intro)}</p></div></header>`}
 <section class="band band-tight">
   <div class="wrap">
-    ${ingress ? `<div class="ingress">${ingress}</div>` : ''}
+    ${ingTop ? `<div class="ingress">${ingTop}</div>` : ''}
     ${extra ? `<div class="list-extra">${extra}</div>` : ''}
     ${countyFilter || ''}
     ${sorted.length ? `<p class="count">${nf(sorted.length)} slott${tours ? ` · <span class="lit-text">${nf(tours)} med virtuell rundtur</span>` : ''}</p>${cards(S, sorted, { noCounty })}` : '<p>Inga slott här ännu.</p>'}
+    ${ingMore ? `<div class="ingress ingress-more">${ingMore}</div>` : ''}
   </div>
 </section>`,
   });
@@ -459,10 +487,13 @@ function category(S, cat, co) {
   return listPage(S, {
     title: h1, h1, kicker: co ? co.full : `${nf(list.length)} slott i hela Sverige`, intro: co ? `${cat.intro.replace(/\.$/, '')} i ${co.full}.` : cat.intro, path: catURL(cat, co), list, countyFilter: filter,
     ingress: categoryIngress(S, cat, co, list),
-    extra: (g => g ? `<p class="guide-link">Läs vår guide: <a href="${g.path}">${esc(g.h1)}</a></p>` : '')(guides(S).find(g => g.cat === cat.slug)),
+    extra: guideLinks(S, guides(S).filter(g => g.cat === cat.slug || (co && (g.near || []).includes(co.slug)))),
     crumbsList: co ? [['/', 'Start'], [catURL(cat), cat.name], [catURL(cat, co), co.name]] : [['/', 'Start'], [catURL(cat), cat.name]],
   });
 }
+
+// Länkar till guiderna som hör till sidan (kategorins guide, och "Slott nära …" för länen runt storstäderna).
+const guideLinks = (S, list) => list.length ? `<p class="guide-link">Läs vår guide: ${list.map(g => `<a href="${g.path}">${esc(g.h1)}</a>`).join(' · ')}</p>` : '';
 
 // Ingress per län, byggd av registret: kända slott först och vad man kan göra där.
 function countyIntro(co, list) {
@@ -485,7 +516,7 @@ function county(S, co) {
     title: `Slott i ${co.full}`, h1: `Slott i ${co.name}`, path: countyURL(co), list, noCounty: true, kicker: list.length === 1 ? '1 slott i registret' : `${nf(list.length)} slott, borgar och fästningar`,
     intro: countyIntro(co, list), ingress: countyIngress(S, co, list),
     crumbsList: [['/', 'Start'], ['/lan/', 'Län'], [countyURL(co), co.name]],
-    extra: coverage(co.withTour, co.total, 'slott i länet går att besöka digitalt') +
+    extra: guideLinks(S, guides(S).filter(g => (g.near || []).includes(co.slug))) + coverage(co.withTour, co.total, 'slott i länet går att besöka digitalt') +
       `<nav class="chips" aria-label="Kategorier i länet">${cats.map(([cat, n]) => `<a href="${catURL(cat, co)}">${esc(cat.short)} <small>${n}</small></a>`).join('')}</nav>`,
   });
 }
@@ -556,6 +587,8 @@ function searchPage(S) {
 
 // Guiderna (src/guider.js): egna artiklar med länkar till slotten och till kategorin per län.
 let GUIDES;
+const SEE_ALL = { besok: 'Se alla slott att besöka', 'bo-pa-slott': 'Se alla slott att bo på', spa: 'Se alla slott med spa', konferens: 'Se alla slott för konferens',
+  'brollop-och-fest': 'Se alla slott för bröllop och fest', 'restaurang-och-kafe': 'Se alla slott med restaurang och kafé', 'park-och-tradgard': 'Se alla slottsparker' };
 function guides(S) {
   if (GUIDES) return GUIDES;
   const bySlug = new Map(S.data.castles.map(c => [c.slug, c]));
@@ -567,7 +600,7 @@ function guide(S, g) {
   const cat = g.cat && S.catBySlug.get(g.cat);
   const counties = cat ? S.data.counties.map(x => [x, S.data.castles.filter(c => c.offers.includes(g.cat) && c.lanSlug === x.slug).length]).filter(x => x[1]) : [];
   const chips = cat ? `<nav class="chips" aria-label="Välj län"><a href="${catURL(cat)}">Hela Sverige <small>${cat.total}</small></a>${counties.map(([x, n]) => `<a href="${catURL(cat, x)}">${esc(x.name)} <small>${n}</small></a>`).join('')}</nav>
-<p><a class="btn btn-gold" href="${catURL(cat)}">Se alla: ${esc(cat.name.toLowerCase())}</a></p>` : '';
+<p><a class="btn btn-gold" href="${catURL(cat)}">${esc(SEE_ALL[cat.slug] || 'Se alla')} (${nf(cat.total)})</a></p>` : '';
   const others = guides(S).filter(o => o.slug !== g.slug);
   const items = [['/', 'Start'], ['/guider/', 'Guider'], [g.path, g.h1]];
   return layout(S, { title: g.title, path: g.path, description: g.description,
@@ -583,7 +616,7 @@ ${chips}
 }
 function guidesIndex(S) {
   const items = [['/', 'Start'], ['/guider/', 'Guider']];
-  return layout(S, { title: 'Guider om slott i Sverige', path: '/guider/', description: 'Guider från Slottsregistret: gifta sig på slott, bo på slott och slott med spa i Sverige.', jsonld: crumbLd(S, items),
+  return layout(S, { title: 'Guider om slott i Sverige', path: '/guider/', description: 'Guider om slott i Sverige: gifta sig, bo, spa och konferens på slott, slott att besöka med barn och slott nära Stockholm, Göteborg och Malmö.', jsonld: crumbLd(S, items),
     body: `<div class="wrap">${crumbs(items)}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>
 <h1>Guider</h1>
 <p class="lead">Tips och råd för den som vill gifta sig, bo eller unna sig något extra på ett slott i Sverige.</p>
@@ -591,8 +624,8 @@ ${guides(S).map(g => `<h2><a href="${g.path}">${esc(g.h1)}</a></h2><p>${esc(g.le
 </article>` });
 }
 
-function textPage(S, { title, path, body, description, scripts, crumb = title }) {
-  return layout(S, { title, path, description, scripts, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, crumb]])}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>${body}</article>` });
+function textPage(S, { title, path, body, description, scripts, crumb = title, noindex = false }) {
+  return layout(S, { title, path, description, scripts, noindex, body: `<div class="wrap">${crumbs([['/', 'Start'], [path, crumb]])}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>${body}</article>` });
 }
 
 function about(S) {
@@ -668,7 +701,7 @@ function forCastles(S) {
     <ul class="benefits">
       <li>${TOUR_ICON}<h2>Visa slottet inifrån</h2><p>Har ni redan en rundtur visar vi den på ert slotts sida. Saknar ni en hjälper vi er att ta fram en, som ni också kan använda på er egen webbplats.</p></li>
       <li>${icon('brollop-och-fest')}<h2>Fler förfrågningar</h2><p>Den som redan har gått runt i festsalen eller konferensrummet hemifrån vet vad de bokar. Rundturen visar slottet innan visningen.</p></li>
-      <li>${icon('besok')}<h2>Rätt uppgifter</h2><p>Er egen text, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. <a href="/konto/ansok/">Ansök om konto</a> och sköt sidan själva, eller <a href="/konto/">logga in</a>.</p></li>
+      <li>${icon('besok')}<h2>Rätt uppgifter</h2><p>Er egen text, vad ni erbjuder (boende, spa, konferens, bröllop, restaurang, visningar) och länk till er bokning. Kontot är gratis: <a href="/konto/ansok/">ansök om konto</a> och sköt sidan själva, eller <a href="/konto/">logga in</a>.</p></li>
     </ul>
   </div>
 </section>
@@ -677,7 +710,7 @@ function forCastles(S) {
     <div>
       <p class="kicker">Kontakt</p>
       <h2>Berätta om ert slott</h2>
-      <p>Skicka uppgifterna här så hör vi av oss.</p>
+      <p>Skicka uppgifterna här så hör vi av oss. Vill ni hellre sköta slottets sida själva? <a href="/konto/ansok/">Ansök om ett gratis konto</a>.</p>
       <p class="small">Hellre e-post? <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a></p>
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
@@ -687,7 +720,6 @@ ${castleSelect(S, true)}
   <label><input type="checkbox" name="vill" value="Vi vill ta fram en virtuell rundtur"> Vi vill ta fram en virtuell rundtur</label>
   <label><input type="checkbox" name="vill" value="Vi har en rundtur som ska visas"> Vi har redan en rundtur som ska visas</label>
   <label><input type="checkbox" name="vill" value="Uppdatera uppgifterna om slottet"> Uppdatera uppgifterna om slottet</label>
-  <label><input type="checkbox" name="vill" value="Logga in och sköta sidan själva"> Vi vill kunna logga in och sköta sidan själva</label>
 </fieldset>
 <label for="lank">Länk till rundturen eller er webbplats (om ni har)</label><input id="lank" name="lank" type="url" inputmode="url">
 <label for="namn">Ditt namn</label><input id="namn" name="namn" required autocomplete="name">
@@ -724,8 +756,8 @@ ${castleSelect(S, false)}
 }
 
 function thanks(S) {
-  return textPage(S, { title: 'Tack för ditt meddelande', crumb: 'Tack', path: '/tack/',
-    description: 'Tack för att du hörde av dig till Slottsregistret. Vi har tagit emot ditt meddelande och återkommer om vi behöver veta mer.', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade och hör av oss om vi behöver veta mer.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
+  return textPage(S, { title: 'Tack för ditt meddelande', crumb: 'Tack', path: '/tack/', noindex: true,
+    description: 'Tack för att du hörde av dig till Slottsregistret.', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade. Gällde det en förfrågan om bröllop, fest eller konferens hör vi av oss inom ett par vardagar.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
 }
 
 function notFound(S) {

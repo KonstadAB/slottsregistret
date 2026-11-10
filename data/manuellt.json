@@ -491,7 +491,8 @@
   "lon": 15.8056804,
   "website": "http://www.fredensborg.com/",
   "qid": null,
-  "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana."
+  "text": "Fredensborgs herrgård ligger på en höjd utanför Vimmerby, i Astrid Lindgrens hemtrakter. Herrgården från 1875 är i dag hotell med restaurang, konferens och bröllop, och har en egen golfbana.",
+  "image": "Fredensborgs herrgård, juni 2019b.jpg"
  },
  "cedergrenska-tornet": {
   "lat": 59.3804333,
@@ -516,7 +517,8 @@
   "lon": 17.7980926,
   "website": "http://www.riddersviksherrgard.se/",
   "qid": null,
-  "text": "Riddersviks herrgård ligger vid Mälaren i Hässelby, i västra Stockholm. Herrgården från 1700-talet är i dag hotell med restaurang, konferens, fest och bröllop."
+  "text": "Riddersviks herrgård ligger vid Mälaren i Hässelby, i västra Stockholm. Herrgården från 1700-talet är i dag hotell med restaurang, konferens, fest och bröllop.",
+  "image": "Riddersviks gård 2013.jpg"
  },
  "friiberghs-herrgard": {
   "lat": 59.6994444,
@@ -549,14 +551,16 @@
   "lon": 12.2772244,
   "website": "http://www.baldersnas.eu/",
   "qid": null,
-  "text": "Baldersnäs herrgård ligger vid sjön Laxsjön i Dalsland, med en stor park runt huset. Herrgården från sekelskiftet är i dag hotell med restaurang, konferens och bröllop."
+  "text": "Baldersnäs herrgård ligger vid sjön Laxsjön i Dalsland, med en stor park runt huset. Herrgården från sekelskiftet är i dag hotell med restaurang, konferens och bröllop.",
+  "image": "Baldersnaes.jpg"
  },
  "hofsnas-herrgard": {
   "lat": 57.6299882,
   "lon": 13.2924128,
   "website": "http://www.hofsnas.se/",
   "qid": null,
-  "text": "Hofsnäs herrgård ligger utanför Länghem i Tranemo kommun. Här finns restaurang, bistro och kafé, boende, julbord och evenemang."
+  "text": "Hofsnäs herrgård ligger utanför Länghem i Tranemo kommun. Här finns restaurang, bistro och kafé, boende, julbord och evenemang.",
+  "image": "Hofsnasherrgard.JPG"
  },
  "ulfshyttans-herrgard": {
   "lat": 60.3064651,

@@ -49,4 +49,23 @@ function kommunLabel(k) {
   return /[aeiouyåäösxz]$/i.test(k) ? `${k} kommun` : `${k}s kommun`;
 }
 
-module.exports = { esc, nf, pct, commonsImage, wikiText, haversine, kommunLabel };
+// Fotografens namn från Commons utan engelska standardfraser, användarsidor och länkar.
+function cleanArtist(s) {
+  let a = String(s || '').replace(/\s+/g, ' ').trim();
+  if (!a) return '';
+  if (/^unknown author/i.test(a)) return 'Okänd fotograf';
+  if (/^Swedish National Heritage Board/i.test(a)) return 'Riksantikvarieämbetet';
+  a = a.replace(/^No machine-readable author provided\. (.+?) assumed.*$/i, '$1')
+    .replace(/^The original uploader was (.+?) at .*$/i, '$1')
+    .replace(/^This image was produced by me, ([^(.,]+).*$/i, '$1')
+    .replace(/^This photo \(C\)\s*/i, '')
+    .replace(/^.*\bPhoto: /i, '')
+    .replace(/, a friend of .*$/i, '')
+    .replace(/^User:?\s*/i, '').replace(/ on [a-z]+\.wikipedia$/i, '')
+    .replace(/\s*\(talk\).*$/i, '').replace(/\s*\d{1,2}:\d{2}, \d{1,2} \w+ \d{4} \(UTC\)/, '')
+    .replace(/https?:\/\/\S+/g, '').replace(/~commonswiki/g, '')
+    .replace(/[\s.]+$/, '').trim();
+  return a;
+}
+
+module.exports = { esc, nf, pct, commonsImage, wikiText, haversine, kommunLabel, cleanArtist };

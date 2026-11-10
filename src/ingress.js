@@ -91,7 +91,7 @@ const CAT = {
       (n, L) => `Ska ni ha möte, kickoff eller konferens ${L} finns ${num(n)} ${n === 1 ? 'slott' : 'slott att välja bland'}.`,
       (n, L) => `${cap(num(n))} slott ${L} har lokaler för konferens och möten.`,
     ],
-    why: ['så att ni kan se lokalerna innan bokningen', 'praktiskt för den som planerar och inte hinner åka på visning', 'utan att någon behöver åka dit'],
+    why: ['bra för den som vill se lokalerna före bokningen', 'praktiskt för den som planerar och inte hinner åka på visning', 'utan att någon behöver åka dit'],
     noun: 'konferensslott',
     also: { 'bo-pa-slott': l => `${names(l)} har även boende, för möten som pågår över flera dagar.`, spa: l => `${names(l)} har dessutom spa.`,
       'restaurang-och-kafe': l => `På ${names(l)} finns restaurang eller kafé i huset.` },
@@ -102,7 +102,7 @@ const CAT = {
       (n, L) => `Drömmer ni om att gifta er på slott ${L}? Registret har ${num(n)} slott som tar emot bröllop och fester.`,
       (n, L) => `För vigsel, bröllopsmiddag eller en stor fest ${L} finns ${n === 1 ? 'ett slott i registret' : `${num(n)} slott att välja mellan`}.`,
     ],
-    why: ['så att ni kan gå runt i salarna innan ni bestämmer er', 'ett sätt att se slottet innan visningen', 'så att ni kan visa platsen för familjen redan före bröllopet'],
+    why: ['bra för den som vill se salarna innan beslutet', 'ett sätt att se slottet innan visningen', 'så att familjen kan se platsen redan före bröllopet'],
     noun: 'slott för bröllop och fest',
     also: { 'bo-pa-slott': l => `På ${names(l)} kan gästerna också övernatta.`, 'restaurang-och-kafe': l => `${names(l)} har egen restaurang eller kafé.`,
       konferens: l => `${names(l)} tar även emot konferenser.` },
@@ -363,7 +363,7 @@ function categoryIngress(S, cat, co, list) {
       `Totalt har registret ${href(`/${cat.slug}/`, `${num(inCat.length, k.g || 'ett')} ${k.noun}`)} i landet${tail ? `, och utanför ${esc(where(co))} finns ${tail.replace(/^övriga /, 'de övriga ')}` : ''}.`]));
   } else {
     const t = inCat.filter(x => x.tours.length).length;
-    c.push(`Det är ungefär ${Math.round(n / all.length * 100)} procent av alla ${all.length} slott i registret${t ? `, och ${num(t)} av dem går att kliva in i digitalt` : ''}.`);
+    if (t) c.push(`${cap(num(t))} av dem går att kliva in i digitalt.`);
     c.push(pick(['Välj ett län nedan för att se slotten där.', 'Länsknapparna nedan visar slotten län för län.']));
   }
   p.push(c.join(' '));
