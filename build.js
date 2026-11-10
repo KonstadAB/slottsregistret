@@ -135,6 +135,8 @@ write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40
 // ---- Sökmotorer ----
 // E-postsignaturens bild på en fast adress (används i mejl, så den får ingen hash): https://slottsregistret.se/signatur/…
 for (const f of fs.readdirSync(path.join(ROOT, 'src/signatur'))) write(`signatur/${f}`, fs.readFileSync(path.join(ROOT, 'src/signatur', f)));
+// IndexNow (Bing, Yandex m.fl.): nyckelfilen visar att vi äger sajten; publicera.yml anmäler sidorna efter varje publicering.
+write('ecfd97ed0b5d68350752b1ce21328549.txt', 'ecfd97ed0b5d68350752b1ce21328549');
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /sok/\n\nSitemap: ${config.domain}/sitemap.xml\n`);
 write('.well-known/security.txt', `Contact: mailto:${config.contactEmail}\nExpires: ${new Date(Date.now() + 364 * 864e5).toISOString()}\nPreferred-Languages: sv, en\n`);
 // Inget lastmod: bygget vet inte när en enskild sida senast ändrades, och dagens datum på alla adresser vid varje

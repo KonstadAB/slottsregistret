@@ -50,3 +50,9 @@ jobs:
           set -o pipefail
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "::notice::Ingen Cloudflare-nyckel ännu – hoppar över publiceringen."; exit 0; fi
           npx -y wrangler@4 deploy --message "$(git log -1 --format=%s | head -c 100)" 2>&1 | tee publicera-logg.txt
+      # Säg till Bing m.fl. (IndexNow) att sidorna finns eller har ändrats. Bara vid push, och ett fel här stoppar inget.
+      - name: Anmäl sidorna till IndexNow
+        if: github.event_name == 'push'
+        run: |
+          grep -o '<loc>[^<]*' dist/sitemap.xml | sed 's/<loc>//' | jq -R . | jq -s '{host:"slottsregistret.se",key:"ecfd97ed0b5d68350752b1ce21328549",keyLocation:"https://slottsregistret.se/ecfd97ed0b5d68350752b1ce21328549.txt",urlList:.}' > indexnow.json
+          curl -sS --max-time 30 -o /dev/null -w "IndexNow: %{http_code}\n" -H 'content-type: application/json; charset=utf-8' --data @indexnow.json https://api.indexnow.org/indexnow || true
