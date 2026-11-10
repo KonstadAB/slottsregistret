@@ -114,6 +114,6 @@ for (const cmd of (process.argv[2] || 'status').split(' ;; ').map(c => c.trim())
   } else if (cmd.startsWith('api ')) {
     const [, method, path, ...rest] = cmd.split(' ');
     const res = await cf(method, await fill(path), rest.length ? await fill(rest.join(' ')) : undefined);
-    line(JSON.stringify(res.result ?? res, null, 1).slice(0, 20000));
+    line(path === '/graphql' ? JSON.stringify(res).slice(0, 400000) : JSON.stringify(res.result ?? res, null, 1).slice(0, 20000));
   } else line(`Okänt kommando: ${cmd}`);
 }
