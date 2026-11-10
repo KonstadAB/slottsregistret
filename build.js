@@ -105,6 +105,8 @@ for (const cat of data.categories) {
   }
 }
 for (const c of data.castles) page(`slott/${c.slug}/index.html`, T.castle(S, c), T.castleURL(c), c.tours.length ? 0.8 : 0.6);
+page('guider/index.html', T.guidesIndex(S), '/guider/', 0.7);
+for (const g of T.guides(S)) page(`guider/${g.slug}/index.html`, T.guide(S, g), g.path, 0.8);
 page('om/index.html', T.about(S), '/om/', 0.5);
 page('for-slott/index.html', T.forCastles(S), '/for-slott/', 0.6);
 page('kontakt/index.html', T.contact(S), '/kontakt/', 0.3);

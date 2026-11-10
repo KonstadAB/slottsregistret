@@ -103,6 +103,7 @@ function footer(S) {
     <div>
       <h2>Om</h2>
       <ul>
+        <li><a href="/guider/">Guider</a></li>
         <li><a href="/om/">Om Slottsregistret</a></li>
         <li><a href="/for-slott/">För slott och slottsägare</a></li>
         <li><a href="/tipsa/">Tipsa om en rundtur eller ett fel</a></li>
@@ -456,6 +457,7 @@ function category(S, cat, co) {
   return listPage(S, {
     title: h1, h1, kicker: co ? co.full : `${nf(list.length)} slott i hela Sverige`, intro: co ? `${cat.intro.replace(/\.$/, '')} i ${co.full}.` : cat.intro, path: catURL(cat, co), list, countyFilter: filter,
     ingress: categoryIngress(S, cat, co, list),
+    extra: (g => g ? `<p class="guide-link">Läs vår guide: <a href="${g.path}">${esc(g.h1)}</a></p>` : '')(guides(S).find(g => g.cat === cat.slug)),
     crumbsList: co ? [['/', 'Start'], [catURL(cat), cat.name], [catURL(cat, co), co.name]] : [['/', 'Start'], [catURL(cat), cat.name]],
   });
 }
@@ -548,6 +550,43 @@ function searchPage(S) {
 <header class="page-dark"><div class="wrap"><p class="kicker kicker-gold"><span>${nf(S.data.stats.total)} slott, borgar och fästningar</span></p><h1>Sök bland Sveriges slott</h1>${searchBox(S, true)}</div></header>
 <section class="band band-tight"><div class="wrap"><p class="count" id="sok-antal" aria-live="polite"></p><ul class="cards" id="sok-traffar"></ul></div></section>`,
   });
+}
+
+// Guiderna (src/guider.js): egna artiklar med länkar till slotten och till kategorin per län.
+let GUIDES;
+function guides(S) {
+  if (GUIDES) return GUIDES;
+  const bySlug = new Map(S.data.castles.map(c => [c.slug, c]));
+  const L = slug => { const c = bySlug.get(slug); if (!c) throw new Error(`Guiderna: okänt slott ${slug}`); return `<a href="${castleURL(c)}">${esc(c.name)}</a>`; };
+  const list = cat => S.data.castles.filter(c => c.offers.includes(cat));
+  return (GUIDES = require('./guider')(S, L, list).map(g => ({ ...g, path: `/guider/${g.slug}/`, html: g.body() })));
+}
+function guide(S, g) {
+  const cat = S.catBySlug.get(g.cat);
+  const counties = S.data.counties.map(x => [x, S.data.castles.filter(c => c.offers.includes(g.cat) && c.lanSlug === x.slug).length]).filter(x => x[1]);
+  const chips = `<nav class="chips" aria-label="Välj län"><a href="${catURL(cat)}">Hela Sverige <small>${cat.total}</small></a>${counties.map(([x, n]) => `<a href="${catURL(cat, x)}">${esc(x.name)} <small>${n}</small></a>`).join('')}</nav>`;
+  const others = guides(S).filter(o => o.slug !== g.slug);
+  const items = [['/', 'Start'], ['/guider/', 'Guider'], [g.path, g.h1]];
+  return layout(S, { title: g.title, path: g.path, description: g.description,
+    jsonld: [crumbLd(S, items), { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, inLanguage: 'sv', url: S.config.domain + g.path, dateModified: g.updated || '2026-11-10', author: { '@type': 'Organization', name: S.config.name, url: S.config.domain }, publisher: { '@type': 'Organization', name: S.config.name, url: S.config.domain } }],
+    body: `<div class="wrap">${crumbs(items)}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Guide</span></p>
+<h1>${esc(g.h1)}</h1>
+<p class="lead">${esc(g.lead)}</p>
+${g.html}
+${chips}
+<p><a class="btn btn-gold" href="${catURL(cat)}">Se alla: ${esc(cat.name.toLowerCase())}</a></p>
+<h2>Fler guider</h2>
+<ul>${others.map(o => `<li><a href="${o.path}">${esc(o.h1)}</a></li>`).join('')}</ul>
+</article>` });
+}
+function guidesIndex(S) {
+  const items = [['/', 'Start'], ['/guider/', 'Guider']];
+  return layout(S, { title: 'Guider om slott i Sverige', path: '/guider/', description: 'Guider från Slottsregistret: gifta sig på slott, bo på slott och slott med spa i Sverige.', jsonld: crumbLd(S, items),
+    body: `<div class="wrap">${crumbs(items)}</div><article class="prose wrap"><p class="kicker kicker-gold"><span>Slottsregistret</span></p>
+<h1>Guider</h1>
+<p class="lead">Tips och råd för den som vill gifta sig, bo eller unna sig något extra på ett slott i Sverige.</p>
+${guides(S).map(g => `<h2><a href="${g.path}">${esc(g.h1)}</a></h2><p>${esc(g.lead)}</p>`).join('\n')}
+</article>` });
 }
 
 function textPage(S, { title, path, body, description, scripts, crumb = title }) {
@@ -744,4 +783,4 @@ function accountReview(S) {
 <div data-view="logga-in" hidden><p>Logga in först på <a href="/konto/">kontosidan</a>.</p></div>` });
 }
 
-module.exports = { account, accountApply, accountReview, home, castle, category, county, countiesIndex, tours, mapPage, searchPage, about, contact, privacy, forCastles, tip, thanks, notFound, castleURL, countyURL, catURL };
+module.exports = { guides, guide, guidesIndex, account, accountApply, accountReview, home, castle, category, county, countiesIndex, tours, mapPage, searchPage, about, contact, privacy, forCastles, tip, thanks, notFound, castleURL, countyURL, catURL };
