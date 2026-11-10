@@ -1,106 +1,25 @@
-# 2026-11-10T12:22:31Z api GET /accounts/{account}/rum/site_info/list ;; api POST /accounts/{account}/rum/site_info {"host":"slottsregistret.se","auto_install":false}
->> api GET /accounts/{account}/rum/site_info/list
-[
- {
-  "id_please_delete": 0,
-  "site_tag": "e8e92013e89a47d7a72584a74b4cb277",
-  "site_token": "c1c350342e544cf3b57d69638de59d71",
-  "created": "2026-10-26T16:03:41.630255Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"c1c350342e544cf3b57d69638de59d71\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "25d70483582af09c9ed7e836ff4247b4",
-   "zone_name": "golfregistret.se",
-   "enabled": true,
-   "id": "bf3d00f3-a0e9-4750-9e5e-ccc92988fea6",
-   "lite": true
-  }
- },
- {
-  "id_please_delete": 0,
-  "site_tag": "566b13c6ad224aa5b012c25afd59a18b",
-  "site_token": "9ba04683c1b843b7867e72cf31f0e3a5",
-  "created": "2026-10-18T21:34:36.558922Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"9ba04683c1b843b7867e72cf31f0e3a5\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "72e8e0bbe6cabf91a8266f5bd8c855e7",
-   "zone_name": "hollowgraphic.se",
-   "enabled": true,
-   "id": "6fa39110-25c8-4605-843c-520148462043",
-   "lite": true
-  }
- },
- {
-  "id_please_delete": 0,
-  "site_tag": "8bfdc30583f34398bfedf3371b7c6088",
-  "site_token": "1e84057c3c644c058942bd92ee907f84",
-  "created": "2026-10-27T08:08:46.412477Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"1e84057c3c644c058942bd92ee907f84\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "db2e6361cbacbe9d8d88b5ca96044d03",
-   "zone_name": "jordlaget.se",
-   "enabled": true,
-   "id": "e0e8064f-4914-44eb-917d-b3ea1b271d10",
-   "lite": true
-  }
- },
- {
-  "id_please_delete": 0,
-  "site_tag": "968cef38fe3d428e9ac225d7f21185cb",
-  "site_token": "2c50a8c8b39c4668909172adfe0f6c47",
-  "created": "2026-10-11T01:12:08.463469Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"2c50a8c8b39c4668909172adfe0f6c47\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "3bd1350fb3b26cdc7703dcfe2e2876a9",
-   "zone_name": "konstad.se",
-   "enabled": true,
-   "id": "7a30d6ab-91cf-45a6-a661-a2d91636a482",
-   "lite": true
-  }
- },
- {
-  "id_please_delete": 0,
-  "site_tag": "f16fe1ecef52482e965d05f3dfd6bb37",
-  "site_token": "133e60e5e047486f8809b993c248dca9",
-  "created": "2026-10-04T15:08:45.706341Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"133e60e5e047486f8809b993c248dca9\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "ea79ee838c7bee0ef2100f012784f653",
-   "zone_name": "slottsregistret.se",
-   "enabled": true,
-   "id": "2d83e44c-c234-4d2f-8a6e-012c1bd04e1e",
-   "lite": true
-  }
- },
- {
-  "id_please_delete": 0,
-  "site_tag": "8bec3dfc5a0040b48d89ac3532e2aae7",
-  "site_token": "80f51b958d504f4b88dedb14f0b0b5a3",
-  "created": "2026-09-30T10:53:42.617117Z",
-  "snippet": "<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"80f51b958d504f4b88dedb14f0b0b5a3\"}'></script><!-- End Cloudflare Web Analytics -->",
-  "auto_install": true,
-  "ruleset": {
-   "zone_tag": "e1683cfe800368688a2f6dc64ee9e4f6",
-   "zone_name": "svenskakyrkor.se",
-   "enabled": false,
-   "id": "a6ec8827-e1e1-4170-b55c-5b178a0ac020",
-   "lite": false
-  }
- }
-]
->> api POST /accounts/{account}/rum/site_info {"host":"slottsregistret.se","auto_install":false}
-!! POST /accounts/36f39bea33a1d0e03815a8b01039efea/rum/site_info -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/rum/subresources/site_info/methods/create"}]
+# 2026-11-10T12:23:27Z api POST /graphql {"query": "{ viewer { accounts(filter:{accountTag:\"36f39bea33a1d0e03815a8b01039efea\"}) { rumPageloadEventsAdaptiveGroups(limit:40, filter:{siteTag:\"f16fe1ecef52482e965d05f3dfd6bb37\", date_geq:\"2026-10-01\"}, orderBy:[date_ASC]) { count sum { visits } dimensions { date } } } } }"} ;; api GET /zones/{zone}/settings/rum ;; api PUT /accounts/{account}/rum/site_info/f16fe1ecef52482e965d05f3dfd6bb37 {"host":"slottsregistret.se","auto_install":true,"lite":false,"enabled":true}
+>> api POST /graphql {"query": "{ viewer { accounts(filter:{accountTag:\"36f39bea33a1d0e03815a8b01039efea\"}) { rumPageloadEventsAdaptiveGroups(limit:40, filter:{siteTag:\"f16fe1ecef52482e965d05f3dfd6bb37\", date_geq:\"2026-10-01\"}, orderBy:[date_ASC]) { count sum { visits } dimensions { date } } } } }"}
+{"data":{"viewer":{"accounts":[{"rumPageloadEventsAdaptiveGroups":[{"count":50,"dimensions":{"date":"2026-11-02"},"sum":{"visits":50}},{"count":10,"dimensions":{"date":"2026-11-03"},"sum":{"visits":10}}]}]}},"errors":null}
+>> api GET /zones/{zone}/settings/rum
+{
+ "id": "rum",
+ "value": "on",
+ "editable": true,
+ "site_tag": "f16fe1ecef52482e965d05f3dfd6bb37",
+ "lite": null,
+ "host": "",
+ "zone_name": "slottsregistret.se"
+}
+>> api PUT /accounts/{account}/rum/site_info/f16fe1ecef52482e965d05f3dfd6bb37 {"host":"slottsregistret.se","auto_install":true,"lite":false,"enabled":true}
+!! PUT /accounts/36f39bea33a1d0e03815a8b01039efea/rum/site_info/f16fe1ecef52482e965d05f3dfd6bb37 -> 403 [{"code":10000,"message":"Authentication error","documentation_url":"https://developers.cloudflare.com/api/resources/rum/subresources/site_info/methods/update"}]
 {
  "success": false,
  "errors": [
   {
    "code": 10000,
    "message": "Authentication error",
-   "documentation_url": "https://developers.cloudflare.com/api/resources/rum/subresources/site_info/methods/create"
+   "documentation_url": "https://developers.cloudflare.com/api/resources/rum/subresources/site_info/methods/update"
   }
  ],
  "messages": [],
