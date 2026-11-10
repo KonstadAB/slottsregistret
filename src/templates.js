@@ -359,8 +359,8 @@ function castle(S, c) {
       <div>
         <h2 id="rundtur-h">Dörren till ${esc(c.name)} är ännu stängd</h2>
         <p>Det finns ingen virtuell rundtur av ${esc(c.name)} här än. ${nf(S.data.stats.withTour)} av Sveriges slott går redan att besöka digitalt, för den som har långt att resa, inte kan ta sig dit eller vill se salarna innan ett bröllop eller en konferens.</p>
-        <p class="actions"><a class="btn btn-ghost" href="/for-slott/?slott=${esc(c.slug)}">Äger du slottet? Visa det inifrån</a></p>
-        <p class="small">Finns det redan en rundtur? <a href="/tipsa/?slott=${esc(c.slug)}">Tipsa oss</a>.</p>
+        <p class="actions"><a class="btn btn-ghost" href="/for-slott/?slott=${esc(c.slug)}" rel="nofollow">Äger du slottet? Visa det inifrån</a></p>
+        <p class="small">Finns det redan en rundtur? <a href="/tipsa/?slott=${esc(c.slug)}" rel="nofollow">Tipsa oss</a>.</p>
       </div>
     </div>
   </div>
@@ -402,7 +402,7 @@ ${tourBlock}
     <aside class="c-side">
       <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
       ${c.lat != null ? `<link rel="stylesheet" href="${S.asset('/assets/vendor/leaflet.css')}"><div class="mini-map" id="minikarta" data-lat="${c.lat}" data-lon="${c.lon}" data-name="${esc(c.name)}" role="img" aria-label="Karta över läget för ${esc(c.name)}"></div>` : ''}
-      <p class="small">Stämmer något inte? <a href="/tipsa/?slott=${esc(c.slug)}">Tipsa oss</a> · Är det ditt slott? <a href="/konto/ansok/?slott=${esc(c.slug)}">Sköt sidan själva</a></p>
+      <p class="small">Stämmer något inte? <a href="/tipsa/?slott=${esc(c.slug)}" rel="nofollow">Tipsa oss</a> · Är det ditt slott? <a href="/konto/ansok/?slott=${esc(c.slug)}" rel="nofollow">Sköt sidan själva</a></p>
     </aside>
   </div>
 </section>
