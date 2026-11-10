@@ -1,6 +1,22 @@
 // Guiderna under /guider/. Texterna är våra egna; uppgifterna om varje slott kommer från slottens egna webbplatser
 // (data/erbjudanden.json). L('slug') blir en länk till slottets sida, och bygget stoppar om ett slott saknas.
 'use strict';
+const { haversine } = require('./lib');
+
+// Slott inom en viss radie från en stad, sorterade på avstånd och uppdelade på vad man kan göra där.
+function nearCity(S, L, p, km) {
+  const near = S.data.castles.filter(c => c.lat != null).map(c => [Math.round(haversine(p, c)), c]).filter(x => x[0] <= km).sort((a, b) => a[0] - b[0]);
+  const dist = d => d < 3 ? 'i stan' : `ca ${d < 10 ? d : Math.round(d / 5) * 5} km`;
+  const has = (c, ...o) => o.some(x => c.offers.includes(x));
+  const li = l => `<ul>${l.map(([d, c]) => `<li>${L(c.slug)} (${c.kommun}, ${dist(d)})${c.capacity && c.capacity.festText && has(c, 'brollop-och-fest') && l.isFest ? `: ${c.capacity.festText}` : ''}</li>`).join('')}</ul>`;
+  const sec = (h, l, fest) => { if (fest) l.isFest = true; return l.length ? `<h3>${h}</h3>${li(l)}` : ''; };
+  return [
+    sec('Att besöka', near.filter(([, c]) => has(c, 'besok', 'park-och-tradgard') || (has(c, 'borgar-och-ruiner') && c.open === 'Ja'))),
+    sec('Att bo på', near.filter(([, c]) => has(c, 'bo-pa-slott'))),
+    sec('För bröllop och fest', near.filter(([, c]) => has(c, 'brollop-och-fest')), true),
+    sec('För konferens', near.filter(([, c]) => has(c, 'konferens'))),
+  ].join('\n');
+}
 
 module.exports = (S, L, list) => [
   {
@@ -130,5 +146,112 @@ module.exports = (S, L, list) => [
 <li>Behandlingar behöver ofta bokas i förväg, särskilt på helger.</li>
 <li>Kolla åldersgränsen. Många spa tar bara emot vuxna.</li>
 </ul>`,
+  },
+  {
+    slug: 'konferens-pa-slott',
+    cat: 'konferens',
+    title: 'Konferens på slott – så väljer ni slott för mötet',
+    h1: 'Konferens på slott',
+    description: 'Guide till konferens på slott i Sverige: slottshotell, dagkonferens och stora möten, hur många som får plats och vad ni ska fråga innan ni bokar.',
+    lead: 'Ett slott ger mötet något extra: ny miljö, historia i väggarna och ofta natur runt omkring. Men slotten är väldigt olika som konferensställen. Här är vad som skiljer dem åt och vad ni bör ta reda på.',
+    body: () => `
+<h2>Slottshotell för konferens med övernattning</h2>
+<p>Ska gruppen sova över passar ett slottshotell bäst. Där finns mötesrum, restaurang och rum under samma tak, och ofta något att göra mellan passen. ${L('hasselby-slott')} i västra Stockholm har tolv konferensrum för 2–130 personer. ${L('johannesbergs-slott')} har en sal för 225 personer och egen golfbana, och ${L('sodertuna-slott')} ligger på en holme i Frösjön. Vill ni kombinera mötet med spa finns ${L('lejondals-slott')}, ${L('haga-slott')} och ${L('hooks-herrgard')}.</p>
+<h2>Dagkonferens nära stan</h2>
+<p>För ett heldagsmöte utan övernattning är det viktigaste att slottet går lätt att nå. Nära Stockholm finns ${L('akeshovs-slott')} och ${L('ulvsunda-slott')} i Bromma och ${L('cedergrenska-tornet')} i Stocksund. I Göteborg ligger ${L('skansen-kronan')} mitt i stan, och i Uppsala hyrs salarna på ${L('uppsala-slott')} ut för konferenser och galor. ${L('taxinge-slott')} vid Mälaren tar emot dagkonferenser, med ett av Sveriges största tårtbord i kaféet.</p>
+<h2>Stora möten och event</h2>
+<p>Några slott har lokaler för flera hundra personer. ${L('vadstena-slott')} har Västra vallen med 600 platser i biosittning, ${L('siggesta-gard')} på Värmdö har Logen för upp till 525 personer och ${L('wapno-slott')} har Spannmålsmagasinet för 300. På ${L('orebro-slott')} rymmer Rikssalen upp till 250 personer.</p>
+<h2>Små grupper och ledningsmöten</h2>
+<p>För en styrelse eller ledningsgrupp kan ett mindre gods vara bättre än ett stort hotell. ${L('claestorps-slott')} tar emot små grupper för konferens och representationsmiddagar. ${L('rockelstads-slott')} hyr ut hus i slottsparken, och ${L('yxtaholms-slott')} är numera en exklusiv plats för företagsevent och privata fester.</p>
+<h2>Frågor att ställa till slottet</h2>
+<ul>
+<li>Hur många får plats i det rum vi vill ha, i den möblering vi vill ha (bio, skola, U-bord)?</li>
+<li>Finns det grupprum, och vilken teknik ingår (skärm, ljud, wifi)?</li>
+<li>Har vi lokalerna för oss själva, eller finns andra grupper samtidigt?</li>
+<li>Hur tar man sig dit med tåg eller buss, och kan slottet ordna transfer?</li>
+<li>Vad ingår i dagpaketet: fika, lunch, middag, aktiviteter?</li>
+<li>Vilka avbokningsregler gäller?</li>
+</ul>
+<h2>Se lokalerna innan ni bokar</h2>
+<p>Flera av slotten har en <a href="/virtuella-rundturer/">virtuell rundtur</a>, så att ni kan se salarna innan ni åker på visning.</p>
+<h2>Alla slott för konferens</h2>
+<p>Vi har samlat ${list('konferens').length} slott och herrgårdar som tar emot konferenser. Välj län för att se dem i ert område.</p>`,
+  },
+  {
+    slug: 'slott-med-barn',
+    cat: 'besok',
+    title: 'Slott att besöka med barn – riddare, fästningar och lekplatser',
+    h1: 'Slott att besöka med barn',
+    description: 'Tips på slott, borgar och fästningar i Sverige som passar barn: riddarspel, medeltidsdagar, barnaktiviteter, djur och lekplatser.',
+    lead: 'Slott och borgar är som gjorda för barn: torn att klättra i, vallgravar, kanoner och berättelser om kungar och riddare. Här är slotten som har något extra för barnfamiljer.',
+    body: () => `
+<h2>Barnaktiviteter på slottet</h2>
+<p>Några slott har program särskilt för barn. På ${L('kalmar-slott')} och på ${L('borgholms-slottsruin')} på Öland finns barnaktiviteter i säsong. ${L('lovstabruk')} i norra Uppland har Barnens Bruk med Sven Nordqvists figurer, och ${L('skoklosters-slott')} vid Mälaren har en historisk lekplats som är öppen varje dag.</p>
+<h2>Riddare och medeltid</h2>
+<p>${L('ekenas-slott')} utanför Linköping är känt för sina riddarturneringar. Medeltidsdagar ordnas på ${L('vadstena-slott')} och ${L('torpa-stenhus')}, ett av Sveriges bäst bevarade medeltida slott. Den som vill se en riktig medeltida borg kan åka till ${L('glimmingehus')} i Skåne.</p>
+<h2>Fästningar att utforska</h2>
+<p>På fästningarna finns murar, kanoner och kasematter. ${L('carlstens-fastning')} ovanför Marstrand har guidade turer och fästningsspel. Till ${L('nya-alvsborgs-fastning')} i Göteborgs inlopp och ${L('kastellet-karlshamn')} åker man båt, vilket är ett äventyr i sig. ${L('karlsborgs-fastning')} vid Vättern har fästningsmuseum och escape room, och ${L('varbergs-fastning')} har museet med Bockstensmannen.</p>
+<h2>Djur och natur</h2>
+<p>På ${L('oster-malma')} utanför Nyköping finns en djurpark med nordiska djur. ${L('stora-sundby-slott')} vid Hjälmaren har en hjorthage i parken, och vid ${L('gripsholms-slott')} i Mariefred kan man gå i Hjorthagen. På ${L('malmohus')} finns ett akvarium i museet.</p>
+<h2>Bo nära</h2>
+<p>${L('fredensborgs-herrgard')} ligger strax söder om Vimmerby, nära Astrid Lindgrens Värld, och har padel, minigolf och bastu vid sjön. Fler ställen att sova på finns i guiden <a href="/guider/bo-pa-slott/">Bo på slott</a>.</p>
+<h2>Bra att veta</h2>
+<ul>
+<li>Många slott har bara öppet på sommaren. Kolla öppettiderna på slottets egen sida innan ni åker.</li>
+<li>Guidade turer kan bli långa för små barn. Fråga om det finns familjevisningar eller audioguide.</li>
+<li>Parker och ruiner är ofta öppna året runt och gratis, och de är bra utflyktsmål även när slottet är stängt.</li>
+</ul>
+<h2>Alla slott att besöka</h2>
+<p>Vi har samlat ${list('besok').length} slott som går att besöka. Välj län för att se dem nära er.</p>`,
+  },
+  {
+    slug: 'slott-nara-stockholm',
+    cat: null,
+    title: 'Slott nära Stockholm – att besöka, bo på och gifta sig på',
+    h1: 'Slott nära Stockholm',
+    description: 'Slott inom sex mil från Stockholm: kungliga slott att besöka, slottshotell att bo på och slott för bröllop och konferens, med avstånd från stan.',
+    lead: 'Runt Stockholm och Mälaren ligger fler slott än kring någon annan stad i registret.',
+    body: () => `
+<h2>Kungliga slott</h2>
+<p>Mitt i Gamla stan ligger ${L('stockholms-slott')}, kungens officiella residens, med representationsvåningar, Skattkammaren och Livrustkammaren. ${L('drottningholms-slott')} på Lovön är kungafamiljens hem och ett världsarv, och parken är gratis att promenera i. ${L('ulriksdals-slott')} vid Edsviken och ${L('rosendals-slott')} på Djurgården visas på sommaren. Lite längre bort ligger ${L('gripsholms-slott')} i Mariefred med Statens porträttsamling och ${L('tullgarns-slott')} söder om Södertälje.</p>
+<h2>Utflykter</h2>
+<p>${L('skoklosters-slott')} vid Mälaren är ett av världens främsta barockslott och har en historisk lekplats. Till ${L('vaxholms-kastell')} åker man båt året runt, och ${L('tyreso-slott')} har en engelsk park, kaféer och slottskrog.</p>
+<h2>Alla slott inom sex mil</h2>
+<p>Avstånden är fågelvägen från centrala Stockholm.</p>
+${nearCity(S, L, { lat: 59.3293, lon: 18.0686 }, 60)}`,
+  },
+  {
+    slug: 'slott-nara-goteborg',
+    cat: null,
+    title: 'Slott nära Göteborg – att besöka, bo på och gifta sig på',
+    h1: 'Slott nära Göteborg',
+    description: 'Slott och fästningar inom sju mil från Göteborg: Gunnebo, Nääs, Tjolöholm, Carlsten och fler, med vad man kan göra och avstånd från stan.',
+    lead: 'Runt Göteborg finns färre slott än runt Stockholm och Malmö, men desto fler fästningar. Här är allt inom sju mil, från Skansen Kronan mitt i stan till Varbergs fästning vid Kattegatt.',
+    body: () => `
+<h2>Slotten</h2>
+<p>${L('gunnebo-slott')} i Mölndal är John Halls sommarhus från 1780-talet, med trädgårdar som är öppna året runt, restaurang och bageri. ${L('naas-slott')} vid Sävelången har guidade turer, kafé och ett naturreservat som alltid är öppet. ${L('tjoloholms-slott')} vid Kungsbackafjorden är byggt i Tudorstil och har vagnmuseum, trädgårdar och afternoon tea. Ett slottshotell finns på ${L('thorskogs-slott')} vid Göta älv.</p>
+<h2>Fästningarna</h2>
+<p>${L('skansen-kronan')} står på Risåsberget mitt i Göteborg. Ut till ${L('nya-alvsborgs-fastning')} i älvmynningen går båtar, och ${L('bohus-fastning')} i Kungälv är en ruin från 1300-talet på en klippa ovanför älven. ${L('carlstens-fastning')} på Marstrand har guidade turer och soldathotell.</p>
+<h2>Alla slott inom sju mil</h2>
+<p>Avstånden är fågelvägen från centrala Göteborg.</p>
+${nearCity(S, L, { lat: 57.7089, lon: 11.9746 }, 70)}`,
+  },
+  {
+    slug: 'slott-nara-malmo',
+    cat: null,
+    title: 'Slott nära Malmö – att besöka, bo på och gifta sig på',
+    h1: 'Slott nära Malmö',
+    description: 'Slott, borgar och ruiner inom sex mil från Malmö: Malmöhus, Torup, Svaneholm, Häckeberga, Sofiero och fler, med vad man kan göra och avstånd.',
+    lead: 'Skåne är slottens landskap. Inom sex mil från Malmö ligger ett femtiotal slott, borgar och ruiner. Många är privata hem, men det finns gott om slott att besöka, bo på och fira på.',
+    body: () => `
+<h2>Att besöka</h2>
+<p>${L('malmohus')} mitt i Malmö är Nordens äldsta bevarade renässansslott och rymmer Malmö museer. ${L('torups-slott')} ligger i Torups bokskog, och det mesta av slottsparken är öppet för alla. ${L('svaneholms-slott')} vid Skurup är omgivet av vallgrav och har slottsmuseum, restaurang och roddbåtar. Längre norrut finns ${L('sofiero-slott')} i Helsingborg med sina rhododendron och ${L('karnan')}, det medeltida tornet ovanför Stortorget.</p>
+<h2>Att bo och fira</h2>
+<p>${L('hackeberga-slott')} ligger på en ö i Häckebergasjön och har en gastronomisk restaurang. ${L('borgeby-slott')} vid Lödde å har hotell, restaurang och kanotuthyrning, och på ${L('bjarsjolagards-slott')} kan man bo i slottet. ${L('bosjokloster')} vid Ringsjön har trädgårdar som är öppna året runt.</p>
+<h2>Ruiner som alltid är öppna</h2>
+<p>${L('lindholmens-borgruin')} vid Svedala, där drottning Margareta höll Albrekt av Mecklenburg fången, ${L('falsterbohus')} och ${L('manstorps-gavlar')} kan besökas fritt året runt.</p>
+<h2>Alla slott inom sex mil</h2>
+<p>Avstånden är fågelvägen från centrala Malmö.</p>
+${nearCity(S, L, { lat: 55.605, lon: 13.0038 }, 60)}`,
   },
 ];

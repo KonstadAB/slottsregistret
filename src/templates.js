@@ -564,9 +564,10 @@ function guides(S) {
   return (GUIDES = require('./guider')(S, L, list).map(g => ({ ...g, path: `/guider/${g.slug}/`, html: g.body() })));
 }
 function guide(S, g) {
-  const cat = S.catBySlug.get(g.cat);
-  const counties = S.data.counties.map(x => [x, S.data.castles.filter(c => c.offers.includes(g.cat) && c.lanSlug === x.slug).length]).filter(x => x[1]);
-  const chips = `<nav class="chips" aria-label="Välj län"><a href="${catURL(cat)}">Hela Sverige <small>${cat.total}</small></a>${counties.map(([x, n]) => `<a href="${catURL(cat, x)}">${esc(x.name)} <small>${n}</small></a>`).join('')}</nav>`;
+  const cat = g.cat && S.catBySlug.get(g.cat);
+  const counties = cat ? S.data.counties.map(x => [x, S.data.castles.filter(c => c.offers.includes(g.cat) && c.lanSlug === x.slug).length]).filter(x => x[1]) : [];
+  const chips = cat ? `<nav class="chips" aria-label="Välj län"><a href="${catURL(cat)}">Hela Sverige <small>${cat.total}</small></a>${counties.map(([x, n]) => `<a href="${catURL(cat, x)}">${esc(x.name)} <small>${n}</small></a>`).join('')}</nav>
+<p><a class="btn btn-gold" href="${catURL(cat)}">Se alla: ${esc(cat.name.toLowerCase())}</a></p>` : '';
   const others = guides(S).filter(o => o.slug !== g.slug);
   const items = [['/', 'Start'], ['/guider/', 'Guider'], [g.path, g.h1]];
   return layout(S, { title: g.title, path: g.path, description: g.description,
@@ -576,7 +577,6 @@ function guide(S, g) {
 <p class="lead">${esc(g.lead)}</p>
 ${g.html}
 ${chips}
-<p><a class="btn btn-gold" href="${catURL(cat)}">Se alla: ${esc(cat.name.toLowerCase())}</a></p>
 <h2>Fler guider</h2>
 <ul>${others.map(o => `<li><a href="${o.path}">${esc(o.h1)}</a></li>`).join('')}</ul>
 </article>` });

@@ -271,5 +271,5 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 ## 10 nov: SEO – Bing, IndexNow, guider, antal gäster
 - Bing Webmaster Tools: Daniel importerade slottsregistret.se från Search Console (10 nov).
 - IndexNow: nyckelfilen skrivs av build.js; publicera.yml anmäler alla adresser i sitemap efter varje push till main.
-- Guider under /guider/ (src/guider.js): gifta sig på slott, bo på slott, slott med spa. Bara uppgifter från erbjudanden.json/slottens sajter. Länk från kategorisidorna och sidfoten.
+- Guider under /guider/ (src/guider.js): gifta sig på slott, bo på slott, slott med spa, konferens på slott, slott med barn, slott nära Stockholm/Göteborg/Malmö (listorna i stadsguiderna räknas fram ur avståndet). Daniel 10 nov: fyll gärna på med fler guider när de fyller en funktion. Bara uppgifter från erbjudanden.json/slottens sajter. Länk från kategorisidorna och sidfoten.
 - data/kapacitet.json: antal gäster för fest och konferens för 63 slott, med källa och ordagrant citat från slottens egna sajter. Visas i faktarutan på slottssidan (festText/konferensText) och som lista i bröllopsguiden (fest ≥ 150). Medvetet utelämnade vid osäkerhet (Åkeshov fest, Salsta, Hooks, Nya Älvsborg, m.fl.). Justerat för hand: Övedskloster 150 (bröllopssidan), Vadstena 400–600, Torup 400, Jordberga (bord för 150).
