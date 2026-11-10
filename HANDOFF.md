@@ -5,7 +5,7 @@
 - Syfte utåt: register över Sveriges slott, borgar, fästningar och slottsmiljöer – vad man kan göra där (bo, spa, konferens, bröllop,
   mat, besöka, park) och "vägen in" via virtuella rundturer.
 - **Huvudsyfte (står inte på sajten):** att sälja virtuella rundturer (360). Slott med rundtur lyfts fram överallt (först i listor,
-  guld på kartan, startsidan), slott utan rundtur får en lugn ruta som får ägaren att vilja ha en. Daniel samarbetar med VR Media International AB.
+  guld på kartan, startsidan), slott utan rundtur får en lugn ruta som får ägaren att vilja ha en. Daniel är underkonsult till VR Media International AB. VR Media är inte hans bolag (ägs av Elias och Jesper, hälften var).
 - Framtid (beslutat 2 okt, inte byggt): inloggning för slotten (sköta sin sida), betalnivåer för synlighet, provision/förfrågningar
   för bröllop och konferens, affiliate till Booking/Expedia. Se Daniels utredning "Slottsregistret – intäktsmodeller" (Claude Docs).
 - Plattform: Cloudflare (Worker med statiska filer, som svenskakyrkor.se; Daniel har Workers Paid). Senare D1/KV för konton och
@@ -310,7 +310,6 @@ Rättat utifrån granskningen:
   - Friibergh, Tokeryd och Johannesberg har inga fria bilder: inget på Commons, i Kulturmiljöbild eller via Openverse.
 
 Kvar att besluta:
-- VR Media, Daniels bolag, syns inte som samarbete på sajten, och slott med rundtur sorteras först. Granskaren tyckte att det borde sägas öppet. Det är Daniels beslut.
 - Slottsägarna vill längre fram ha en egen statistiksida.
 
 Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en plan finns i Claude-dokumentet "Länkplan Slottsregistret". Ingen är kontaktad än.
