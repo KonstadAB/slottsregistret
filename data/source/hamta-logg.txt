@@ -1,23 +1,7 @@
-Wikidata-sökningar 3
+Wikidata-sökningar 0
 Wikidata-poster 573
 Wikipedia-texter 365
 Commons-bilder 392
 Sidor lästa 0
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fredensborgs_herrg%C3%A5rd%2C_juni_2019a.jpg/480px-Fredensborgs_herrg%C3%A5rd%2C_juni_2019a.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Fredensborgs_herrg%C3%A5rd%2C_juni_2019b.jpg/480px-Fredensborgs_herrg%C3%A5rd%2C_juni_2019b.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Fredensborgs_herrg%C3%A5rd%2C_juni_2019c.jpg/480px-Fredensborgs_herrg%C3%A5rd%2C_juni_2019c.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Fredensborgs_herrg%C3%A5rd%2C_juni_2019d.jpg/480px-Fredensborgs_herrg%C3%A5rd%2C_juni_2019d.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riddersviks_g%C3%A5rd_2013.jpg/480px-Riddersviks_g%C3%A5rd_2013.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Riddersviks_g%C3%A5rd_2013a.jpg/480px-Riddersviks_g%C3%A5rd_2013a.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Riddersviks_g%C3%A5rd_2013b.jpg/480px-Riddersviks_g%C3%A5rd_2013b.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Riddersviks_g%C3%A5rd_2013c.jpg/480px-Riddersviks_g%C3%A5rd_2013c.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Riddersviks_g%C3%A5rd_2013d.jpg/480px-Riddersviks_g%C3%A5rd_2013d.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Riddersvik%2C_okt_2019.jpg/480px-Riddersvik%2C_okt_2019.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Riddersvik%2C_okt_2019a.jpg/480px-Riddersvik%2C_okt_2019a.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Riddersvik_g%C3%A5rd_2008.jpg/480px-Riddersvik_g%C3%A5rd_2008.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Baldersnaes.jpg/480px-Baldersnaes.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Melin1.jpg/480px-Melin1.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Melin3.jpg/480px-Melin3.jpg Error: HTTP 400
-FEL nedladdning https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hofsnasherrgard.JPG/480px-Hofsnasherrgard.JPG Error: HTTP 400
-Nedladdade 0 av 16
-Klart 2026-11-10T14:08:51.222Z
+Nedladdade 16 av 16
+Klart 2026-11-10T14:10:36.698Z
