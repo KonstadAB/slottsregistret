@@ -201,7 +201,6 @@
   "checked": "2026-11-03",
   "website": "https://www.trollenasslott.se/",
   "offers": [
-   "brollop-och-fest",
    "konferens"
   ],
   "evidence": {
@@ -210,7 +209,8 @@
   },
   "removed": {
    "besok": "site: 'Visningsverksamheten är nu stängd' (no current public tours)",
-   "restaurang-och-kafe": "site: 'Cafeet är nu stängt för allmänheten'; Borgstugan only for booked events"
+   "restaurang-och-kafe": "site: 'Cafeet är nu stängt för allmänheten'; Borgstugan only for booked events",
+   "brollop-och-fest": "weddings paused from 2026 ('Vi pausar bröllopsverksamheten från och med 2026, tillsvidare'); private parties still offered (2026-11-10)"
   },
   "unsure": [
    "brollop-och-fest: weddings paused 'tillsvidare' from 2026, private parties still offered",
@@ -1180,6 +1180,7 @@
   "offers": [
    "besok",
    "bo-pa-slott",
+   "brollop-och-fest",
    "konferens",
    "park-och-tradgard",
    "restaurang-och-kafe"
@@ -1189,7 +1190,8 @@
    "bo-pa-slott": "https://www.lackoslott.se/ — 'Bo på Läckö Wärdshus'; hotel at the castle",
    "konferens": "https://www.lackoslott.se/ — 'Konferens på Läckö Slott... möten i slottets historiska salar'",
    "park-och-tradgard": "https://www.lackoslott.se/ — 'Lilla Slottsträdgården... öppnar igen 2027'; slottsträdgården in entry",
-   "restaurang-och-kafe": "https://www.lackoslott.se/ — 'Restaurang Läckö Wärdshus Öppet onsdag–lördag'"
+   "restaurang-och-kafe": "https://www.lackoslott.se/ — 'Restaurang Läckö Wärdshus Öppet onsdag–lördag'",
+   "brollop-och-fest": "https://www.lackoslott.se/ — 'Drömmer du om ett slottsbröllop? Gift dig i Läckö Slottskyrka!' (added 2026-11-10)"
   },
   "removed": {},
   "unsure": [],
