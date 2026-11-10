@@ -267,3 +267,9 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 ## 10 nov: besöksstatistik
 - Cloudflare Web Analytics (site_tag f16fe1ec…, token 133e60e5…) fanns sedan 4 okt med automatisk inläggning, men den gav nästan ingen data eftersom Workern serverar sidorna. Nu ligger beacon-skriptet i varje sida via `cloudflareAnalyticsToken` i site.config.json. Den automatiska inläggningen står på "lite" (utan EU-besökare). Nyckeln får 403 på rum/site_info, så det går inte att ändra via API:t. Det spelar ingen roll, eftersom vår egen snippet räknar alla.
 - Statistik läses med GraphQL via cloudflare-kommando.txt: zonens httpRequests1dGroups (räknar med robotar) och kontots rumPageloadEventsAdaptiveGroups (riktiga besökare). Siffror visas aldrig publikt (Daniels regel 5 nov).
+
+## 10 nov: SEO – Bing, IndexNow, guider, antal gäster
+- Bing Webmaster Tools: Daniel importerade slottsregistret.se från Search Console (10 nov).
+- IndexNow: nyckelfilen skrivs av build.js; publicera.yml anmäler alla adresser i sitemap efter varje push till main.
+- Guider under /guider/ (src/guider.js): gifta sig på slott, bo på slott, slott med spa. Bara uppgifter från erbjudanden.json/slottens sajter. Länk från kategorisidorna och sidfoten.
+- data/kapacitet.json: antal gäster för fest och konferens för 63 slott, med källa och ordagrant citat från slottens egna sajter. Visas i faktarutan på slottssidan (festText/konferensText) och som lista i bröllopsguiden (fest ≥ 150). Medvetet utelämnade vid osäkerhet (Åkeshov fest, Salsta, Hooks, Nya Älvsborg, m.fl.). Justerat för hand: Övedskloster 150 (bröllopssidan), Vadstena 400–600, Torup 400, Jordberga (bord för 150).

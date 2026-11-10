@@ -322,6 +322,8 @@ function castle(S, c) {
   const facts = [
     ['Typ', c.type], ['Byggt', c.inception && +c.inception > 900 ? (c.inception.length === 4 ? c.inception : c.inception) : null],
     ['Används i dag', c.use], ['Öppet för besök', { Ja: 'Ja', Delvis: 'Delvis – se slottets egen webbplats', Nej: 'Nej, privat' }[c.open]],
+    ['Bröllop och fest', c.capacity && c.capacity.festText && c.offers.includes('brollop-och-fest') ? c.capacity.festText : null],
+    ['Konferens', c.capacity && c.capacity.konferensText && c.offers.includes('konferens') ? c.capacity.konferensText : null],
     ['Kommun', kommunLabel(c.kommun)], ['Län', co ? co.full : c.lan],
     ['Telefon', c.profile && c.profile.phone], ['E-post', c.profile && c.profile.email],
   ].filter(f => f[1]);

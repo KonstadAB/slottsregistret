@@ -24,6 +24,13 @@ const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site-data.json'), 
   for (const cat of data.categories) cat.total = data.castles.filter(c => c.offers.includes(cat.slug)).length;
 }
 
+// Antal gäster per slott, från slottens egna webbplatser (data/kapacitet.json, med källa och citat).
+{
+  const f = path.join(ROOT, 'data/kapacitet.json');
+  const kap = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  for (const c of data.castles) if (kap[c.id]) c.capacity = kap[c.id];
+}
+
 const S = {
   config, data,
   catBySlug: new Map(data.categories.map(c => [c.slug, c])),

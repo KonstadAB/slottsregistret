@@ -1,0 +1,569 @@
+{
+ "akeshovs-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 50,
+  "konferensText": "Största mötesrummet, 50 personer",
+  "source": "https://www.akeshofsslott.se/",
+  "quote": "9 mötesrum, det största med plats för 50 personer"
+ },
+ "alsters-herrgard": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 50,
+  "konferensText": "Stora salongen, ca 50 personer i biosittning",
+  "source": "https://karlstad.se/alsters-herrgard/konferens",
+  "quote": "Det finns plats för cirka 50 personer i biosittning"
+ },
+ "backaskog-slott": {
+  "fest": 400,
+  "festText": "Logen, upp till 400 gäster (endast sommartid); Stallet upp till 180",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://backaskogslott.se/festbr%C3%B6llop/festbrollop",
+  "quote": "Stallet - upp till 180 gäster Logen - upp till 400 gäster (endast sommartid)"
+ },
+ "baldersnas-herrgard": {
+  "fest": 300,
+  "festText": "Virkesladan, upp till 300 personer",
+  "mingel": null,
+  "konferens": 300,
+  "konferensText": "Virkesladan, upp till 300 personer",
+  "source": "https://baldersnas.com/",
+  "quote": "vår rymliga Virkeslada , med plats för upp till 300 personer"
+ },
+ "bjarsjolagards-slott": {
+  "fest": 500,
+  "festText": "Stenlogen, upp till 500 personer",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://bjarsjolagardsslott.se/brollop/festlokaler/",
+  "quote": "Lämplig för sällskap upp till 500 personer"
+ },
+ "bjertorps-slott": {
+  "fest": 120,
+  "festText": "Musiksalen, 120 sittande gäster",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Musiksalen, upp till 100 i biosittning",
+  "source": "https://www.bjertorpslott.se/brollop",
+  "quote": "Salongen rymmer 120 sittande gäster"
+ },
+ "borgeby-slott": {
+  "fest": 300,
+  "festText": "Logen, upp till 300 personer (maj–sept)",
+  "mingel": null,
+  "konferens": 75,
+  "konferensText": "Konferens- och mötesrum för 2–75 personer",
+  "source": "https://borgebyslott.se/lokaler/",
+  "quote": "kan ni hålla bröllopsfest eller annan tillställning för upp till 300 personer"
+ },
+ "carlstens-fastning": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 200,
+  "konferensText": "Konferenser för 20–200 personer",
+  "source": "https://carlsten.se/konferens-pa-carlsten/",
+  "quote": "Våra konferenser går att boka året runt och tar allt från 20 – 200 personer"
+ },
+ "cedergrenska-tornet": {
+  "fest": 100,
+  "festText": "Riddarsalen, 100 sittande gäster",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Riddarsalen, upp till 100 sittande deltagare",
+  "source": "https://www.cedergrenskatornet.se/17/7/fest-event/",
+  "quote": "Riddarsalen, med högt i tak, ligger på plan fem och har plats för 100 sittande gäster"
+ },
+ "djursholms-slott": {
+  "fest": 100,
+  "festText": "Banérsalen, 100 sittande gäster",
+  "mingel": 140,
+  "konferens": 100,
+  "konferensText": "Konferens- och festvåningen, 100 sittande",
+  "source": "https://www.danderyd.se/ovriga-verksamheter/djursholms-slott/fragor-och-svar/",
+  "quote": "I Banérsalen kan du ha totalt 100 sittande gäster alternativt 140 minglande gäster"
+ },
+ "ekolsunds-slott": {
+  "fest": 200,
+  "festText": "Riddarsalen, festmåltider för upp till 200 personer",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://www.ekolsundsslott.se/aktiviteter/mat-dryck/",
+  "quote": "I den fantastiska Riddarsalen kan vi erbjuda festmåltider för upp till 200 personer"
+ },
+ "ericsbergs-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 120,
+  "konferensText": "Dagkonferens sommarhalvåret, 120 deltagare",
+  "source": "https://ericsberg.se/bokning_konferens/",
+  "quote": "Dagkonferens sommarhalvåret: 120 deltagare"
+ },
+ "finspangs-slott": {
+  "fest": 120,
+  "festText": "Restaurang Slottsmässen, 120 gäster",
+  "mingel": null,
+  "konferens": 14,
+  "konferensText": "Största konferensrummet, 14 personer",
+  "source": "https://www.finspongsslott.se/",
+  "quote": "Vi har plats för 120 gäster"
+ },
+ "fjallnas": {
+  "fest": 100,
+  "festText": "Restaurang Näset, klassisk sittning för upp till 100 gäster",
+  "mingel": null,
+  "konferens": 90,
+  "konferensText": "Aula Capella, upp till 90 sittande",
+  "source": "https://www.fjallnas.se/sv/events/fest/",
+  "quote": "Restaurang Näset : Klassisk sittning för upp till 100 gäster"
+ },
+ "fredensborgs-herrgard": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 110,
+  "konferensText": "Konferenslokal upp till 110 personer (biosittning)",
+  "source": "https://www.fredensborg.com/konferens/",
+  "quote": "rymmer upp till 110 personer (biosittning)"
+ },
+ "friiberghs-herrgard": {
+  "fest": 100,
+  "festText": "Bröllop för upp till 100 personer",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Mälarsalen, 100 i biosittning",
+  "source": "https://friibergh.se/konferens/konferenslokaler/",
+  "quote": "Mälarsalen Storlek: 120 kvm Biosittning: 100 personer"
+ },
+ "hackeberga-slott": {
+  "fest": 70,
+  "festText": "Festsalen, upp till 70 personer",
+  "mingel": null,
+  "konferens": 65,
+  "konferensText": "Största konferensrummet, upp till 65 personer",
+  "source": "https://hackebergaslott.se/fest-event/",
+  "quote": "Håll en stor fest i vår festsal för upp till 70 personer"
+ },
+ "haga-slott": {
+  "fest": 100,
+  "festText": "Stora matsalen, upp till 100 gäster",
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Konferenslokaler för upp till 150 personer",
+  "source": "https://hagaslott.se/brollop/",
+  "quote": "Stora matsalen rymmer upp till 100 gäster"
+ },
+ "haringe-slott": {
+  "fest": 150,
+  "festText": "Bankettflygeln, plats för 150 gäster",
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Konferenslokaler för upp till 150 personer",
+  "source": "https://www.haringeslott.se/sv/restaurang",
+  "quote": "bankettflygel med plats för 150 gäster"
+ },
+ "hasselby-slott": {
+  "fest": 96,
+  "festText": "Orangeriets restaurang, middagar för upp till 96 personer",
+  "mingel": null,
+  "konferens": 130,
+  "konferensText": "12 konferensrum för 2–130 personer",
+  "source": "https://www.hesselbyslott.se/fest-brollop/festlokaler/",
+  "quote": "I Orangeriets härliga restaurang kan vi ta emot middagar för upp till 96 personer"
+ },
+ "hofsnas-herrgard": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Ladan, sällskap om 35–150 pers (maj–aug/sept)",
+  "source": "https://www.hofsnas.se/konferens/",
+  "quote": "KONFERERA I LADAN Sällskap om 35 -150 pers"
+ },
+ "huseby-bruk": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Värdshuset Stallet, konferenslokal för upp till 100 personer",
+  "source": "https://husebybruk.com/konferens/index.htm",
+  "quote": "Värdshuset Stallet erbjuder en stor och rymlig konferenslokal för upp till 100 personer"
+ },
+ "johannesbergs-slott": {
+  "fest": 225,
+  "festText": "Festvåningen (Johannesbergssalen), 225 personer",
+  "mingel": null,
+  "konferens": 225,
+  "konferensText": "Johannesbergssalen, 225 i biosittning",
+  "source": "https://www.johannesbergsslott.se/brollopspaket.html",
+  "quote": "Den största av lokalerna ligger i festvåningen på övre plan i Johannesbergs huset och har plats för 225 personer"
+ },
+ "jordberga-slott": {
+  "fest": 300,
+  "festText": "Herrskapsstallet, festlokal för upp till 300 personer (bord och stolar för 150 ingår)",
+  "mingel": null,
+  "konferens": 12,
+  "konferensText": "Konferenssalen i villan, 10–12 personer",
+  "source": "https://jordberga.se/brollop",
+  "quote": "Festlokal för upp till 300 personer"
+ },
+ "katthammarsvik-katthamra": {
+  "fest": 120,
+  "festText": "Övervåningen, upp till 120 sittande gäster",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://www.katthamra.nu/brollop-och-fest",
+  "quote": "bord och stolar för upp till 120 sittande gäster"
+ },
+ "krapperups-slott": {
+  "fest": 50,
+  "festText": "Brygghuset, max 50 personer",
+  "mingel": null,
+  "konferens": 50,
+  "konferensText": "Brygghuset, max 50 personer",
+  "source": "https://www.krapperup.se/se/byggnader/konferens-festlokal/",
+  "quote": "Krapperups Brygghus, ett stort rum för max 50 st personer"
+ },
+ "lejondals-slott": {
+  "fest": 110,
+  "festText": "Verandan, 110 personer (större bröllopsmiddagar)",
+  "mingel": null,
+  "konferens": 110,
+  "konferensText": "Största konferensrummet, 110 personer",
+  "source": "https://lejondalsslott.se/matsalarna",
+  "quote": "Verandan tar 110 personer och här serverar vi våra större bröllopsmiddagar"
+ },
+ "lovstabruk": {
+  "fest": 100,
+  "festText": "Orangeriets festsal, 100 gäster",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://lovstabruk.squarespace.com/brllop-fest",
+  "quote": "I festsalen på 132 kvm ryms 100 gäster"
+ },
+ "malsakers-slott": {
+  "fest": 80,
+  "festText": "Slottet, totalt 80 personer",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://malsaker.nu/boka-slottet/boka-slottet",
+  "quote": "Av brandsäkerhetsskäl är vi begränsade till att ha totalt 80 personer i slottet samtidigt"
+ },
+ "naas-slott": {
+  "fest": 200,
+  "festText": "Lekhuset, 120–200 gäster",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://naas.se/brollop-hogtid/",
+  "quote": "Lekhuset 120–200 personer"
+ },
+ "nasby-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 80,
+  "konferensText": "Galleriet och Stora Salongen, 80 personer",
+  "source": "https://www.nasbyslott.se/konferens/konferenslokaler/",
+  "quote": "plats för upp till 80 personer i öar"
+ },
+ "noors-slott": {
+  "fest": 140,
+  "festText": "Sommarloungen (tält) i parken, max 140 middagsgäster",
+  "mingel": null,
+  "konferens": 60,
+  "konferensText": "Kungssalen, upp till ca 60 personer",
+  "source": "https://noorsslott.se/brollop/",
+  "quote": "Max antal middagsgäster i vår sommarlounge ute i parken: 140 personer"
+ },
+ "orbyhus-slott": {
+  "fest": 200,
+  "festText": "Orangeriet, upp till 200 sittande gäster",
+  "mingel": null,
+  "konferens": 25,
+  "konferensText": "Slottscaféets pubdel, ca 25 personer",
+  "source": "https://www.orbyhusslott.se/hyr-orangeriet",
+  "quote": "Orangeriet rymmer upp till 200 sittande gäster"
+ },
+ "orebro-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 250,
+  "konferensText": "Rikssalen, upp till 250 personer",
+  "source": "https://orebroslott.se/gruppbokning/foretagsevent/",
+  "quote": "Rikssalen Upp till 250 personer"
+ },
+ "oster-malma": {
+  "fest": 180,
+  "festText": "Laggårn, bröllop för 65–180 gäster",
+  "mingel": null,
+  "konferens": 200,
+  "konferensText": "Konferens- och eventlokaler för 2–200 personer",
+  "source": "https://www.ostermalma.se/fest-brollop/",
+  "quote": "Vårt mest populära paket är anpassat för 65–180 gäster, där middagen serveras i Laggårn"
+ },
+ "ovedsklosters-slott": {
+  "fest": 150,
+  "festText": "Magasinet, upp till 150 gäster vid bröllop",
+  "mingel": null,
+  "konferens": 500,
+  "konferensText": "Magasinet, över 500 sittande",
+  "source": "https://www.ovedskloster.com/foretag",
+  "quote": "Från det mindre sällskapet till middag med dans för cirka 500 personer"
+ },
+ "riddersviks-herrgard": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 65,
+  "konferensText": "Logen, 65 i biosittning",
+  "source": "https://www.riddersviksherrgard.se/konferens-event/",
+  "quote": "Biosittning: 65 personer"
+ },
+ "rockelstads-slott": {
+  "fest": 120,
+  "festText": "Gula paviljongen, middagslokal för upp till 120 personer",
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Gula paviljongen, ca 150 i biosittning",
+  "source": "http://www.rockelstad.se/festlokal",
+  "quote": "Gula paviljongen har den största middagslokalen för upp till 120 personer"
+ },
+ "rosersbergs-slott": {
+  "fest": 100,
+  "festText": "Brandklipparen i Slottsstallet, upp till 100 middagsgäster",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Slottsstallet, upp till 100 i biosittning",
+  "source": "https://www.rosersbergsslott.se/fest-brollop/fest/",
+  "quote": "Brandklipparen i Slottsstallet, med plats för upp till 100 middagsgäster"
+ },
+ "safstaholms-slott": {
+  "fest": 75,
+  "festText": "Slottets lokaler, upp till 75 personer",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://safstaholm.se/safstaholms-slott/vigsel-pa-slottet",
+  "quote": "Våra lokaler rymmer sällskap på upp till 75 personer"
+ },
+ "siggesta-gard": {
+  "fest": 150,
+  "festText": "Logen, 60–150 gäster för middag, tal och dans",
+  "mingel": null,
+  "konferens": 525,
+  "konferensText": "Logen, upp till 525 personer",
+  "source": "https://www.siggestagard.se/fest-brollop",
+  "quote": "Här ryms 60–150 gäster för middag, tal och dans"
+ },
+ "skansen-kronan": {
+  "fest": 160,
+  "festText": "Max 160 personer sittande",
+  "mingel": null,
+  "konferens": 110,
+  "konferensText": "Artillerivåningen, 30–110 personer",
+  "source": "https://www.skansenkronan.se/om-oss/faq/",
+  "quote": "Vi kan ta emot max 160 personer sittande"
+ },
+ "skytteholm": {
+  "fest": 148,
+  "festText": "Skytteholm exklusivt, 80–148 gäster",
+  "mingel": null,
+  "konferens": 130,
+  "konferensText": "Småland, 130 personer",
+  "source": "https://www.skytteholm.se/fest-brollop/",
+  "quote": "Skytteholm exklusivt för 80–148 gäster"
+ },
+ "soderfors-herrgard": {
+  "fest": 120,
+  "festText": "Bröllopssällskap 50–120 gäster",
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Grillska salen, 150 i biosittning",
+  "source": "https://www.soderforsherrgard.se/brollop-fest/",
+  "quote": "Vi tar emot bröllopssällskap från 50 upp till 120 gäster"
+ },
+ "sodertuna-slott": {
+  "fest": 120,
+  "festText": "Hertig Karls sal, upp till 120 gäster",
+  "mingel": null,
+  "konferens": 140,
+  "konferensText": "Hertig Karls sal, upp till 140 personer",
+  "source": "https://www.sodertuna.se/brollop-fest/fest-och-brollopslokaler/",
+  "quote": "Hertig Karls sal ligger i den södra flygeln framför slottet och är vår största festlokal – med plats för upp till 120 gäster"
+ },
+ "sparreholms-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Stora salen på Björkhults gård, upp till 100 sittande",
+  "source": "https://www.sparreholmsslott.com/m%C3%B6teslokaler",
+  "quote": "Vår vackra samlingssal rymmer upp till 100 sittande personer"
+ },
+ "stjernsunds-slott": {
+  "fest": 80,
+  "festText": "Stallsalen, ca 80 i bröllopssittning",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Stallsalen, 100 i föreläsningsmöblering",
+  "source": "https://www.vitterhetsakademien.se/kulturfastigheter/stjernsunds-slott.html",
+  "quote": "Salen rymmer 100 personer i föreläsningsmöblering med stolar och cirka 80 personer i bröllopssittning"
+ },
+ "stora-nyckelviken": {
+  "fest": 140,
+  "festText": "Herrgården, upp till 140 gäster (festtält upp till 240)",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://nyckelvikensherrgard.se/fest-hogtider/",
+  "quote": "Herrgården - upp till 140 gäster"
+ },
+ "svaneholms-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Konferensrum för 3–100 personer",
+  "source": "https://svaneholmsslott.se/restaurang/konferens/",
+  "quote": "Från 3-100 personer erbjuder vi olika rum"
+ },
+ "teleborgs-slott": {
+  "fest": 90,
+  "festText": "Stora salen, upp till 90 personer",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Stora salen, 100 i biosittning",
+  "source": "https://teleborgsslott.com/fest-hogtidsdagar/",
+  "quote": "Stora salen – upp till 90 personer"
+ },
+ "tido-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 150,
+  "konferensText": "Stora Salen, upp till 150 personer",
+  "source": "http://tidoslott.se/konferens/",
+  "quote": "Stora Salen Rymmer upp till 150 personer"
+ },
+ "tjoloholms-slott": {
+  "fest": 550,
+  "festText": "Magasinet, upp till 550 sittande gäster",
+  "mingel": 700,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://www.tjoloholm.se/event",
+  "quote": "Magasinet är godsets största eventlokal på 1 200 kvm och med möjlighet att ta upp till 550 sittande gäster och upp till 700 mingelgäster"
+ },
+ "toftaholm": {
+  "fest": 100,
+  "festText": "Orangeriet, upp till 100 middagsgäster",
+  "mingel": null,
+  "konferens": 90,
+  "konferensText": "Största konferenslokalen, 90 i biosittning",
+  "source": "https://www.toftaholm.se/sv/brollop-fest/",
+  "quote": "festlokaler för små och stora sällskap med upp till 100 middagsgäster"
+ },
+ "torpa-stenhus": {
+  "fest": 200,
+  "festText": "Lokaler för upp till 200 gäster",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://www.torpastenhus.se/mat-dryck",
+  "quote": "Vi har lokaler som kan ta emot upp till 200 gäster"
+ },
+ "torups-slott": {
+  "fest": 400,
+  "festText": "Stenladan, 250–400 sittande",
+  "mingel": 600,
+  "konferens": 400,
+  "konferensText": "Stenladan, 250–400 sittande",
+  "source": "https://malmo.se/Uppleva-och-gora/Natur-och-parker/Bokskogen-i-Torup/Torups-slott-och-slottspark/Stenladan.html",
+  "quote": "Lokalen Stenladan har en kapacitet på 600 stående eller 250 till 400 sittande"
+ },
+ "trollenas-slott": {
+  "fest": 100,
+  "festText": "Matsalen, 100 sittande personer",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Matsalen, 100 sittande",
+  "source": "https://www.trollenasslott.se/brollop/",
+  "quote": "Matsalen rymmer 100 sittande personer"
+ },
+ "ulfshyttans-herrgard": {
+  "fest": 54,
+  "festText": "Festmiddag för upp till 54 gäster",
+  "mingel": null,
+  "konferens": null,
+  "konferensText": null,
+  "source": "https://ulfshyttan.se/sv/brollop",
+  "quote": "Här finns plats för upp till 54 gäster vid festmiddagen"
+ },
+ "ulvsunda-slott": {
+  "fest": 100,
+  "festText": "Festpaket, max 100 personer",
+  "mingel": null,
+  "konferens": 100,
+  "konferensText": "Rikssalen, upp till 100 personer",
+  "source": "https://www.ulfsundaslott.se/fest-brollop/fest/",
+  "quote": "Minimum 60 personer, max 100 personer"
+ },
+ "uppsala-slott": {
+  "fest": 550,
+  "festText": "Rikssalen, upp till 550 gäster",
+  "mingel": null,
+  "konferens": 550,
+  "konferensText": "Rikssalen, upp till 550 gäster",
+  "source": "https://www.uppsalaslott.com/v%C3%A5ra-salar",
+  "quote": "Kapacitet: Upp till 550 gäster"
+ },
+ "vadstena-slott": {
+  "fest": 400,
+  "festText": "Västra vallen, middag för 400–600 gäster beroende på bordsplacering",
+  "mingel": null,
+  "konferens": 600,
+  "konferensText": "Västra vallen, 600 i biosittning",
+  "source": "https://vadstenaslott.com/konferenslokaler/",
+  "quote": "middagssittning/konferens för 600 gäster"
+ },
+ "vastana-slott": {
+  "fest": 60,
+  "festText": "Matsalarna, upp till 50–60 sittande gäster",
+  "mingel": null,
+  "konferens": 60,
+  "konferensText": "Festvåningsmatsal, upp till 60 i teatersittning",
+  "source": "https://www.vastanaslott.se/fest/",
+  "quote": "Västanå kan ta emot upp till 50–60 sittande gäster i våra matsalar"
+ },
+ "vasteras-slott": {
+  "fest": 200,
+  "festText": "Rikssalen, upp till 200 sittande till bords",
+  "mingel": null,
+  "konferens": 200,
+  "konferensText": "Fest- och konferensanläggning för 30–200 personer",
+  "source": "https://vasterasslottslottsrestaurangen.gastrogate.com/brollop/",
+  "quote": "Rikssalen rymmer upp till 200 personer sittande till bords"
+ },
+ "wapno-slott": {
+  "fest": null,
+  "festText": null,
+  "mingel": null,
+  "konferens": 300,
+  "konferensText": "Spannmålsmagasinet, 300 personer i valfri sittning",
+  "source": "https://www.wapnoslott.se/konferenslokaler/",
+  "quote": "Det charmiga spannmålsmagasinet rymmer 300 personer i valfri sittning"
+ }
+}

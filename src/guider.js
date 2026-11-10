@@ -28,6 +28,8 @@ module.exports = (S, L, list) => [
 <li>${L('naas-slott')} har festlokalen Lekhuset för 120–200 gäster.</li>
 <li>${L('tjoloholms-slott')} har Magasinet, med plats för upp till 550 sittande gäster.</li>
 </ul>
+<p>Slott som enligt sina egna webbplatser tar emot 150 gäster eller fler vid fest:</p>
+<ul>${list('brollop-och-fest').filter(c => c.capacity && c.capacity.fest >= 150).sort((a, b) => a.lan.localeCompare(b.lan, 'sv') || a.name.localeCompare(b.name, 'sv')).map(c => `<li>${L(c.slug)} (${c.kommun}, ${c.lan}): ${c.capacity.festText}</li>`).join('')}</ul>
 <p>Tänk också på att en sal som rymmer många vid långbord kan bli trång med dansgolv och bar. Fråga hur rummet ser ut med just ert antal gäster.</p>
 
 <h2>Boende för brudparet och gästerna</h2>
