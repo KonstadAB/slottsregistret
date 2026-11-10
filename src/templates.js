@@ -269,6 +269,19 @@ function castleDesc(c, co, offerCats) {
 // som svarar besökaren. Underlag för att visa slotten hur många förfrågningar sajten ger.
 const LEAD = [['brollop-och-fest', ['Bröllop', 'Fest']], ['konferens', ['Konferens']]];
 const leadKinds = c => LEAD.filter(([slug]) => c.offers.includes(slug)).flatMap(([, k]) => k);
+// Hur många gäster slottet tar, enligt slottets egen webbplats (data/kapacitet.json). Visas vid förfrågan,
+// eftersom faktarutan hamnar långt ner på mobilen.
+function capacityBox(c) {
+  const cap = c.capacity; if (!cap) return '';
+  const rows = [
+    ['Bröllop och fest', cap.festText && c.offers.includes('brollop-och-fest') ? cap.festText : null],
+    ['Konferens', cap.konferensText && c.offers.includes('konferens') ? cap.konferensText : null],
+  ].filter(r => r[1]);
+  if (!rows.length) return '';
+  return `<div class="inquiry-cap"><h3>Så många får plats</h3><dl>${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
+      <p class="small">Enligt ${cap.source ? `<a href="${esc(cap.source)}" rel="nofollow noopener" target="_blank">slottets egen webbplats</a>` : 'slottets egen webbplats'}.</p></div>`;
+}
+
 function leadForm(S, c) {
   const kinds = leadKinds(c);
   if (!kinds.length) return '';
@@ -280,6 +293,7 @@ function leadForm(S, c) {
       <h2>Planerar du ${esc(what)} på ${esc(c.name)}?</h2>
       <p>Berätta vad du har i tankarna, så hör vi på Slottsregistret av oss. Det kostar ingenting och du binder dig inte till något.</p>
       <ul class="inquiry-points"><li>Svar från oss inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Passar inte slottet tipsar vi om andra</li></ul>
+${capacityBox(c)}
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'forfragan')}

@@ -312,4 +312,6 @@ Rättat utifrån granskningen:
 Kvar att besluta:
 - Slottsägarna vill längre fram ha en egen statistiksida.
 
+- Antal gäster (från data/kapacitet.json) visas nu också i en ruta "Så många får plats" vid förfrågan, eftersom faktarutan hamnar långt ner på mobilen (Daniel hittade inte siffran, 10 nov).
+
 Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en plan finns i Claude-dokumentet "Länkplan Slottsregistret". Ingen är kontaktad än.
