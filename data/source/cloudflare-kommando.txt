@@ -1,1 +1,1 @@
-api POST /graphql {"query": "{ viewer { accounts(filter:{accountTag:\"36f39bea33a1d0e03815a8b01039efea\"}) { rumPageloadEventsAdaptiveGroups(limit:40, filter:{siteTag:\"f16fe1ecef52482e965d05f3dfd6bb37\", date_geq:\"2026-10-01\"}, orderBy:[date_ASC]) { count sum { visits } dimensions { date } } } } }"} ;; api GET /zones/{zone}/settings/rum ;; api PUT /accounts/{account}/rum/site_info/f16fe1ecef52482e965d05f3dfd6bb37 {"host":"slottsregistret.se","auto_install":true,"lite":false,"enabled":true}
+api GET /zones/{zone}/dns_records?per_page=100
