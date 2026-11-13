@@ -1,1 +1,1 @@
-api GET /zones/{zone}/dns_records?per_page=100
+api POST /graphql {"query": "{ viewer { zones(filter:{zoneTag:\"{zone}\"}) { emailRoutingAdaptive(limit:10, filter:{datetime_geq:\"2026-11-10T00:00:00Z\"}, orderBy:[datetime_DESC]) { datetime from to subject status spf dkim dmarc errorDetail } } } }"}
