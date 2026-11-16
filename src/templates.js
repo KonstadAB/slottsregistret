@@ -62,7 +62,7 @@ ${body}
 ${footer(S)}
 <script src="${S.asset('/assets/app.js')}" defer></script>
 ${scripts.map(s => `<script src="${S.asset(s)}" defer></script>`).join('\n')}
-${c.cloudflareAnalyticsToken ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(c.cloudflareAnalyticsToken)}"}'></script>` : ''}
+${c.fathomSiteId ? `<script src="https://cdn.usefathom.com/script.js" data-site="${esc(c.fathomSiteId)}" defer></script>` : ''}
 </body>
 </html>`;
 }

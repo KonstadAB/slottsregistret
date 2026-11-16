@@ -265,6 +265,7 @@ Vill man justera formuleringar finns alla varianter samlade i `CAT` och funktion
 - Förfrågningar från sajten: ge aldrig slottet kundens uppgifter innan Daniel har en överenskommelse (Gunnebo 10 nov).
 
 ## 10 nov: besöksstatistik
+- **16 nov: Fathom ersätter Cloudflare Web Analytics** (Daniels beslut). Skriptet läggs in via `fathomSiteId` (SAUNKNRJ) i site.config.json. Sajten fanns redan i Daniels Fathom-konto (app.usefathom.com, 50 sajter ingår). Cloudflares räknare räknade inte EU-besökare. Robotstatistiken hämtas fortfarande från Cloudflare-zonen.
 - Cloudflare Web Analytics (site_tag f16fe1ec…, token 133e60e5…) fanns sedan 4 okt med automatisk inläggning, men den gav nästan ingen data eftersom Workern serverar sidorna. Nu ligger beacon-skriptet i varje sida via `cloudflareAnalyticsToken` i site.config.json. Den automatiska inläggningen står på "lite" (utan EU-besökare). Nyckeln får 403 på rum/site_info, så det går inte att ändra via API:t. Det spelar ingen roll, eftersom vår egen snippet räknar alla.
 - 16 nov: Web Analytics räknar inte besökare i EU (inställningen "lite"/"excluding visitor data in the EU" på sajten). Nyckeln får 403 på att ändra den, så Daniel ändrar i dashboarden. Tills dess räknas svenska besökare ur zonens httpRequestsAdaptiveGroups (html, eyeball, land SE, utan robotar).
 - Statistik läses med GraphQL via cloudflare-kommando.txt: zonens httpRequests1dGroups (räknar med robotar) och kontots rumPageloadEventsAdaptiveGroups (riktiga besökare). Siffror visas aldrig publikt (Daniels regel 5 nov).
