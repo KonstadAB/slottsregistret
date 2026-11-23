@@ -1,229 +1,472 @@
 {
 "jsonUrls": [
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6J7i-QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2s-rTbrU1f1tmE7FEdd3E71w!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4l9nGxQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sAy907xaOPe6KkCG43v8MtA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4j9yOigE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhA67szOiJyNG7Jh6F2qsNzZ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICujaAV!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhAL7x-VdIwn5DU9V8yz55FY!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDOhrSdwAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhAQASRaM-ZEd4OzZVRsyhnm!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2Kve7gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhAWSa2Nt5s8XF_qjqPpGWPf!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICawquK-AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhA_EcFd7dDX9cXQF_e7Tiif!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nb6gjwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhAiQWwq5k0TNmVw8U6Havfc!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICklOyANg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhBMt0nTJseIczfMC9Thceim!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2koaMowE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhBOLMsEvNo4TccSxn32_VRB!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4scyHWg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhBeUUx8flIqCHr-51YqOOCf!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRyc3ttgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhBlcKVpLgJzigc45s-hP-Yz!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2IryrgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhBnlA0E8-Z0AiZsgmjpUQHY!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICuiYn1dA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhC1ExI-Nfhpc22YXXWL69Iz!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICU5YvF4gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhC2Giw8H-0Qjx5TRwFe7arC!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4sdTelAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhC32Fyz1tHCi-RmyPeUTRgB!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDc95rjjgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhC8fBmBMjmtCoehhkgWarS1!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDuqradpAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhCRRIMAEejzqycHc_GHCpnH!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDuqrbWpQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhCdTZmNXIA-HQUcyDTxZ2SX!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICE_dHTEQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhCsFHhQswcGUcVz3ICLx9-k!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4xLW2Vg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhCvHAFotZkPTAlTG3HrsxSA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICpyt2R7QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhD1fRMyROa2rY4rMULKj6My!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID41oD2igE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhDYJ-KJweKHM5-9JDrdga_g!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICeycidtAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhDkXJfcC-B9DdOHSsURCo0z!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID497P3LQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2ioWrkgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDus_-PzAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2ionnEg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4x7r83gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2iqm2Ow!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe4Pv_mQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2isWXgAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEseDc4AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2isWeKA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID666DyyQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2isnVLg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDy_Zm7bQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2isncVQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4yuSlIQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2isnvhwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDurIXvdg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it6C7gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bmTTw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it6HqQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICz9PyqGA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it6HsQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4s7mmvgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it6lJQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID42ZT-tAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it7JaQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDbq_KlZQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it7M4AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhDCFibKJuYlBEp8uxcu-g0y!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2it7z5gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4vi3YA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2iu79rgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjh1QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2kobd8gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC9nazCugE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2kobu8wE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p7a1Sg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC2y9SKogE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDZgeeRqAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v5uv6gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDOAQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v5uvygE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDOsebJFA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v7uaEA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v7vebQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v9umYg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhCCXMlSxWFUbG6zgtvEIPYd!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v9ut-gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICE8oi6zwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC9nazCdQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIABIhDi1aAbyWrA1jFokewT6mXf!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC9nazsswE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Granso+Slott/VR+Media+International+AB/locale/sv.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICE8pCENA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Granso+Slott/VR+Media+International+AB/locale/en.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICE8sj9sQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Granso+Slott/VR+Media+International+AB/script.js"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6J6ungE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Svaneholm+Castle/VR+Media+International+AB/locale/sv.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L6iwgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Svaneholm+Castle/VR+Media+International+AB/locale/en.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L6mRg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Svaneholm+Castle/VR+Media+International+AB/script.js"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L7FKQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/locale/sv.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L7UDg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/locale/en.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L7alQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Toftaholm+Herrgard/VR+Media+International+AB/script.js"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6L7wvQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/locale/sv.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6N6bYg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/locale/en.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6N6vnQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://googlestreetview.s3.eu-central-1.amazonaws.com/Fredensborgs+Herrgard/VR+Media+International+AB/script.js"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6N70HQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/locale/sv.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICe6N7LvgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/locale/en.txt"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICujaC9Gw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/script.js"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICujaC9Jg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/rikssalen/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgICz9LzjPA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID42cSoHA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/vasa-to-bernadotte/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID42fC6gwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4lp_b6wE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4lr_FeQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://vr.kungligaslotten.se/ulriksdal/indexdata/index.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4lv_G3QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://permstade.se/360_slott/mauritzberg_data/mauritzberg.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nb769QE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 },
 {
-"url": "https://www.almnas.com/360/Almnas_data/Almnas.xml"
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nb76HQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nf6nzQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4nf74UQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p-7ZpgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p-b4cw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p-qxqQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p4b5Fg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4p9q3JQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4s7ni9gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4s_nYBg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4xN2_BQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4xNWkeg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4xO2rhgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4yoP8NQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID4yt7VPQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID666CCXg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgID666CSNQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0Zmn5AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0Zmn6AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0Zmn9AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmnDA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmnKA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmnVA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmnfA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmniAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0ZmnqAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bmTDw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bmTzwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bnT8AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bnTVA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE0bnTsAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2I-p2AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2IW-Dg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2IW-jAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2JGLTA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2K-X3wE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2L7oogE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2OuBKw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2P7QrQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2Pq4ZQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE2PyufQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDO1gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDOIQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDONQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDOQQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4dDOwQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4vjX-wE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDE4vjXBw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEouyc6gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEovWZvgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEuJiHpgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvZiMGQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvZiMMQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjh3gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhDQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhMw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhQQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhWQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhXg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhiwE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvbjhvgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvdiG0wE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvdiGIw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvdiGJQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEvdiGNQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDEwp34mgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDOsebpugE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRya26hQE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRya2yLQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRya3ZBA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRyc2hfA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRyc2tSw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDRyc3tQA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDZgeeZ9gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDZgeeZlgE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDZgef-Qg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDZgefhKw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDbq4rGPw!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDbq_LB5gE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDc95rjEg!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDuqraHSA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIDuqraxsAE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sPyTowXQe6hCn1pUuxnwHqQ!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
+},
+{
+"url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2smzoqGGCei7twajm7vrF4jA!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
 }
-],
-"textPages": [
-"https://permstade.se/360_slott/mauritzberg.html",
-"https://tours.gs360ab.com/t/slottshallen-wxmy",
-"https://malmomuseum.view360.se/menu-mm.html",
-"https://openvirtualworlds.viewin360.co/share/collection/7Fhb5?info=0&fs=1&vr=1&sd=1&thumbs=1"
 ]
 }
