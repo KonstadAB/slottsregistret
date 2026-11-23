@@ -30,6 +30,12 @@ const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/site-data.json'), 
   const kap = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
   for (const c of data.castles) if (kap[c.id]) c.capacity = kap[c.id];
 }
+// Rum, bäddar och "från"-priser, från slottens egna webbplatser (data/praktiskt.json, med källa och citat, kontrollerat 23 nov 2026).
+{
+  const f = path.join(ROOT, 'data/praktiskt.json');
+  const pr = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  for (const c of data.castles) if (pr[c.id]) c.practical = pr[c.id];
+}
 
 // Faktarutan: "Öppet för besök" och "Används i dag" kommer från Wikidata och kan vara gamla. De verifierade erbjudandena
 // (data/erbjudanden.json) vinner: ett slott som är hotell i dag ska inte stå som "Privat" (slottsägargranskningen 10 nov).

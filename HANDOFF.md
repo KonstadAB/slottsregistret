@@ -330,3 +330,11 @@ Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en pla
   Kryssruta "Tipsa mig om liknande slott i närheten" i förfrågan.
 - Bekräftelsemejl till besökaren (forfragan och forslag) via bindningen EMAIL från kontakt@slottsregistret.se, bara fasta texter.
 - Fathom-händelser: klick på `data-ev` (förfrågan, slottets webbplats, boka, rundtur), "Ser formulär", "Börjar fylla i", "Skickat".
+- 23 nov, andra omgången (publiceras när Daniel säger till):
+  - `data/praktiskt.json`: rum, bäddar och "från"-priser (bröllop, konferens, boende) för 52 slott, med källa och ordagrant citat från
+    slottens egna sajter (kontrollerat 23 nov). Visas i faktarutan och i rutan "Bra att veta" vid förfrågan (`practicalRows`).
+    Osäkra/motsägelsefulla uppgifter utelämnade (Hässelby, Häringe, Ekolsund, Ericsberg m.fl.; Johannesbergs rum kom från en jobbannons).
+  - Förfrågan: kryssa i upp till fyra närliggande slott som tar samma sak (`alsoAsk`, fältet `fler`).
+  - Åtta nya guider (src/guider.js `niche`): bröllop/konferens på slott nära Stockholm, Göteborg, Malmö, bröllop med övernattning,
+    kickoff och konferens med övernattning. Listorna räknas fram ur erbjudanden och kapacitet.
+  - Bröllops-, konferens-, bo- och spasidorna: rutan "Titta in innan du frågar" om hur många som har rundtur.

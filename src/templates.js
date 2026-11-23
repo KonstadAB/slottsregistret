@@ -275,15 +275,27 @@ const LEAD = [['brollop-och-fest', ['Bröllop', 'Fest']], ['konferens', ['Konfer
 const leadKinds = c => LEAD.filter(([slug]) => c.offers.includes(slug)).flatMap(([, k]) => k);
 // Hur många gäster slottet tar, enligt slottets egen webbplats (data/kapacitet.json). Visas vid förfrågan,
 // eftersom faktarutan hamnar långt ner på mobilen.
-function capacityBox(c) {
-  const cap = c.capacity; if (!cap) return '';
-  const rows = [
-    ['Bröllop och fest', cap.festText && c.offers.includes('brollop-och-fest') ? cap.festText : null],
-    ['Konferens', cap.konferensText && c.offers.includes('konferens') ? cap.konferensText : null],
+// Rader om antal gäster, rum och priser (kapacitet.json och praktiskt.json), bara för det slottet faktiskt erbjuder.
+function practicalRows(c) {
+  const cap = c.capacity || {}, pr = c.practical || {}, has = o => c.offers.includes(o);
+  const t = x => x && x.text;
+  const sleep = [t(pr.rum), t(pr.baddar)].filter(Boolean).join(', ');
+  return [
+    ['Bröllop och fest', cap.festText && has('brollop-och-fest') ? cap.festText : null],
+    ['Konferens', cap.konferensText && has('konferens') ? cap.konferensText : null],
+    ['Övernattning', sleep && (has('bo-pa-slott') || has('brollop-och-fest') || has('konferens')) ? sleep : null],
+    ['Pris bröllop', has('brollop-och-fest') ? t(pr.prisBrollop) : null],
+    ['Pris konferens', has('konferens') ? t(pr.prisKonferens) : null],
+    ['Pris boende', has('bo-pa-slott') ? t(pr.prisNatt) : null],
   ].filter(r => r[1]);
+}
+function capacityBox(c) {
+  const rows = practicalRows(c);
   if (!rows.length) return '';
-  return `<div class="inquiry-cap"><h3>Så många får plats</h3><dl>${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
-      <p class="small">Enligt ${cap.source ? `<a href="${esc(cap.source)}" rel="nofollow noopener" target="_blank">slottets egen webbplats</a>` : 'slottets egen webbplats'}.</p></div>`;
+  const price = rows.some(r => r[0].startsWith('Pris'));
+  const src = (c.capacity && c.capacity.source) || Object.values(c.practical || {}).find(x => x && x.source)?.source;
+  return `<div class="inquiry-cap"><h3>${price ? 'Bra att veta' : 'Så många får plats'}</h3><dl>${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
+      <p class="small">Enligt ${src ? `<a href="${esc(src)}" rel="nofollow noopener" target="_blank">slottets egen webbplats</a>` : 'slottets egen webbplats'}${price ? ' (november 2026). Priser och villkor kan ändras' : ''}.</p></div>`;
 }
 
 // Besökaren godkänner att vi vidarebefordrar uppgifterna (kryssrutan). Daniels interna regel gäller ändå: uppgifterna går till ett slott
@@ -433,8 +445,7 @@ function castle(S, c) {
   const facts = [
     ['Typ', c.type], ['Byggt', c.built],
     ['Används i dag', c.use], ['Öppet för besök', { Ja: 'Ja', Delvis: c.website ? 'Delvis – se slottets egen webbplats' : 'Delvis', Nej: 'Nej, privat', Bokning: 'För bokade sällskap' }[c.open]],
-    ['Bröllop och fest', c.capacity && c.capacity.festText && c.offers.includes('brollop-och-fest') ? c.capacity.festText : null],
-    ['Konferens', c.capacity && c.capacity.konferensText && c.offers.includes('konferens') ? c.capacity.konferensText : null],
+    ...practicalRows(c),
     ['Kommun', kommunLabel(c.kommun)], ['Län', co ? co.full : c.lan],
     ['Telefon', c.profile && c.profile.phone], ['E-post', c.profile && c.profile.email],
   ].filter(f => f[1]);

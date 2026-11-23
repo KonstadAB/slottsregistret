@@ -1,0 +1,743 @@
+{
+ "akeshovs-slott": {
+  "baddar": {
+   "quote": "Totalt finns 38 bäddar, uppdelat på 23 hotellrum i tre flyglar.",
+   "source": "https://www.akeshofsslott.se/hotell/",
+   "text": "38 bäddar",
+   "value": 38
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "1 900 kr per person (minimum 8 personer, max 12 personer)",
+   "source": "https://www.akeshofsslott.se/fest-brollop/brollopspaket/",
+   "text": "Bröllopspaket från 1 900 kr/person (8–12 personer); för 20–40 personer 2 080 kr",
+   "value": 1900
+  },
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Konferenslokal med teknik från 795 kr/person exkl. moms",
+   "source": "https://www.akeshofsslott.se/erbjudanden/dagkonferens/",
+   "text": "Dagkonferens från 795 kr/person (exkl. moms)",
+   "value": 795
+  },
+  "rum": {
+   "quote": "Totalt finns 38 bäddar, uppdelat på 23 hotellrum i tre flyglar.",
+   "source": "https://www.akeshofsslott.se/hotell/",
+   "text": "23 hotellrum",
+   "value": 23
+  }
+ },
+ "backaskog-slott": {
+  "baddar": {
+   "quote": "Totalt finns 63 rum, 122 bäddar.",
+   "source": "https://backaskogslott.se/festbr%C3%B6llop/festbrollop",
+   "text": "122 bäddar",
+   "value": 122
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Totalt finns 63 rum, 122 bäddar.",
+   "source": "https://backaskogslott.se/festbr%C3%B6llop/festbrollop",
+   "text": "63 rum",
+   "value": 63
+  }
+ },
+ "baldersnas-herrgard": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Baldersnäs kan idag erbjuda totalt 34 hotellrum.",
+   "source": "https://baldersnas.com/baldersnas-herrgard/",
+   "text": "34 hotellrum",
+   "value": 34
+  }
+ },
+ "bjarsjolagards-slott": {
+  "baddar": {
+   "quote": "Vid bröllop, fest och andra större arrangemang finns 52 bäddar till förfogande",
+   "source": "https://bjarsjolagardsslott.se/hotell/",
+   "text": "52 bäddar vid bröllop och fest",
+   "value": 52
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "På slottet finns 18 unikt inredda rum … slottsvilla med ytterligare 9 rum",
+   "source": "https://bjarsjolagardsslott.se/hotell/",
+   "text": "27 rum (18 på slottet, 9 i slottsvillan)",
+   "value": 27
+  }
+ },
+ "bjertorps-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "35 unika rum",
+   "source": "https://www.bjertorpslott.se/hotell",
+   "text": "35 rum och sviter",
+   "value": 35
+  }
+ },
+ "borgeby-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Hotellet består av 1 enkelrum, 19 dubbelrum och 1 svit.",
+   "source": "https://borgebyslott.se/hotell/",
+   "text": "21 hotellrum (19 dubbelrum, 1 enkelrum, 1 svit)",
+   "value": 21
+  }
+ },
+ "carlstens-fastning": {
+  "checked": "2026-11-23",
+  "prisKonferens": {
+   "per": "person",
+   "quote": "1-dagars konferens inklusive övernattning på Carlstens Soldathotell fr. 1550 kr/person",
+   "source": "https://carlsten.se/konferens-pa-carlsten/",
+   "text": "Endagskonferens med övernattning från 1 550 kr/person",
+   "value": 1550
+  }
+ },
+ "finspangs-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Välj mellan 11 enkelrum, 6 dubbelrum och 3 sviter.",
+   "source": "https://www.finspongsslott.se/hotell/",
+   "text": "20 rum (11 enkelrum, 6 dubbelrum, 3 sviter)",
+   "value": 20
+  }
+ },
+ "fjallnas": {
+  "baddar": {
+   "quote": "Fjällnäs erbjuder totalt 41 rum och 97 bäddar",
+   "source": "https://www.fjallnas.se/sv/om-fjallnas/",
+   "text": "97 bäddar",
+   "value": 97
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Fjällnäs erbjuder totalt 41 rum och 97 bäddar",
+   "source": "https://www.fjallnas.se/sv/om-fjallnas/",
+   "text": "41 rum",
+   "value": 41
+  }
+ },
+ "fredensborgs-herrgard": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "1 895 kr per kuvert (gäller vid minst 60 personer)",
+   "source": "https://www.fredensborg.com/brollop/",
+   "text": "Bröllopspaket 1 895 kr/kuvert (minst 60 personer)",
+   "value": 1895
+  },
+  "rum": {
+   "quote": "Fredensborg har 45 hotellrum",
+   "source": "https://www.fredensborg.com/konferens/",
+   "text": "45 hotellrum",
+   "value": 45
+  }
+ },
+ "gorvalns-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "lokal",
+   "quote": "Premium/Bröllop från 25 000 kr",
+   "source": "https://xn--grvln-ira7j.se/evenemang",
+   "text": "Bröllop: grundpris från 25 000 kr (mat och tjänster tillkommer)",
+   "value": 25000
+  }
+ },
+ "hackeberga-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Vi har totalt 27 rum indelad i fem kategorier.",
+   "source": "https://hackebergaslott.se/rum/",
+   "text": "27 rum i fem kategorier",
+   "value": 27
+  }
+ },
+ "haga-slott": {
+  "baddar": {
+   "quote": "Haga Slott har 83 hotellrum och upp till 150 bäddar",
+   "source": "https://hagaslott.se/hotell/",
+   "text": "Upp till 150 bäddar",
+   "value": 150
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Haga Slott har 83 hotellrum och upp till 150 bäddar",
+   "source": "https://hagaslott.se/hotell/",
+   "text": "83 hotellrum",
+   "value": 83
+  }
+ },
+ "haringe-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "SOMMARBRÖLLOP från 4 475kr/person. VINTERBRÖLLOP från 3295kr/person.",
+   "source": "https://www.haringeslott.se/sv/brollop",
+   "text": "Vinterbröllop från 3 295 kr/person, sommarbröllop från 4 475 kr/person",
+   "value": 3295
+  }
+ },
+ "hofsnas-herrgard": {
+  "baddar": {
+   "quote": "Det finns 5 rum med 12 fasta sängplatser.",
+   "source": "https://www.hofsnas.se/konferens/",
+   "text": "12 fasta sängplatser",
+   "value": 12
+  },
+  "checked": "2026-11-23",
+  "prisKonferens": {
+   "per": "person",
+   "quote": "Hembakat eftermiddagsfika. 695 kr/pers Bokningsbart måndag-fredag",
+   "source": "https://www.hofsnas.se/konferens/",
+   "text": "Dagkonferens på herrgården 695 kr/person (i Ladan maj–sept 545 kr)",
+   "value": 695
+  },
+  "rum": {
+   "quote": "Det finns 5 rum med 12 fasta sängplatser.",
+   "source": "https://www.hofsnas.se/konferens/",
+   "text": "5 rum i Sjöstugan",
+   "value": 5
+  }
+ },
+ "hooks-herrgard": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "ett av våra 103 hotellrum",
+   "source": "https://www.hooksherrgard.se/konferens/",
+   "text": "103 hotellrum",
+   "value": 103
+  }
+ },
+ "johannesbergs-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Dryck samt lokalhyra tillkommer 1 114 kr/person",
+   "source": "https://www.johannesbergsslott.se/brollopspaket.html",
+   "text": "Bröllopspaket från 1 114 kr/person (dryck och lokalhyra tillkommer)",
+   "value": 1114
+  },
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Halvdagskonferens från 372 kr/person ex moms Lokalhyra tillkommer",
+   "source": "https://www.johannesbergsslott.se/konferenspaket.html",
+   "text": "Halvdagskonferens från 372 kr/person, heldag från 488 kr (exkl. moms, lokalhyra tillkommer)",
+   "value": 372
+  }
+ },
+ "jordberga-slott": {
+  "baddar": {
+   "quote": "plats för 20 boende (samt möjlighet till 2 extrasängar)",
+   "source": "https://jordberga.se/brollop",
+   "text": "Plats för 20 boende (+2 extrasängar)",
+   "value": 20
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "paket",
+   "quote": "Pris veckobröllop: maj-oktober: 98 000 kr november-april: 83 000 kr",
+   "source": "https://jordberga.se/brollop",
+   "text": "Veckobröllop nov–apr 83 000 kr, inkl. hela hotellet (helgbröllop maj–okt 125 000 kr)",
+   "value": 83000
+  },
+  "rum": {
+   "quote": "i 10 individuellt inredda rum med egna badrum",
+   "source": "https://jordberga.se/brollop",
+   "text": "10 rum i Parkvillan",
+   "value": 10
+  }
+ },
+ "kalmar-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Pris: 1 695 kr Barn under 12 år: 850 kr Lokalhyra Lokalhyra tillkommer på 8 000 kr.",
+   "source": "https://kalmarslott.se/besok-restaurang/brollopsfest/",
+   "text": "Bröllopsfest 1 695 kr/person + lokalhyra 8 000 kr",
+   "value": 1695
+  }
+ },
+ "karlslunds-herrgard": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Bröllopsmeny Från 1295 kr per person Förrätt · Varmrätt · Dessert · Drycker ingår",
+   "source": "http://www.karlslund.com/menyer",
+   "text": "Bröllopsmeny från 1 295 kr/person, drycker ingår",
+   "value": 1295
+  },
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Pris: 595 kr per person och dag exklusive moms.",
+   "source": "http://www.karlslund.com/konferens",
+   "text": "Dagkonferens 595 kr/person (exkl. moms)",
+   "value": 595
+  }
+ },
+ "katthammarsvik-katthamra": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "lokal",
+   "quote": "Helghyra fredag–söndag: 25 000 kr",
+   "source": "https://www.katthamra.nu/brollop-och-fest",
+   "text": "Helghyra fredag–söndag 25 000 kr (egen catering)",
+   "value": 25000
+  }
+ },
+ "lacko-slott": {
+  "checked": "2026-11-23",
+  "prisNatt": {
+   "per": "rum",
+   "quote": "Om du bor själv i rummet kan du få enkelrumspris (fr. 1460 kr). Från 1790/natt",
+   "source": "https://www.lackoslott.se/boende/hotellet/",
+   "text": "Dubbelrum från 1 790 kr/natt (enkelrumspris från 1 460 kr), Läckö Wärdshus",
+   "value": 1460
+  }
+ },
+ "lejondals-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Bröllopspaket Sagolikt Från 3 890 kr per person.",
+   "source": "https://lejondalsslott.se/brollop",
+   "text": "Bröllopspaket från 3 890 kr/person",
+   "value": 3890
+  },
+  "rum": {
+   "quote": "Vi kan erbjuda 101 rum för övernattning.",
+   "source": "https://lejondalsslott.se/brollop",
+   "text": "101 hotellrum",
+   "value": 101
+  }
+ },
+ "naas-slott": {
+  "baddar": {
+   "quote": "(17 rum, 42 bäddar)",
+   "source": "https://naas.se/brollop-hogtid/vanhem-60-140-pers/",
+   "text": "42 bäddar",
+   "value": 42
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "moms": "inkl.",
+   "per": "lokal",
+   "quote": "Lördag: 29 000 kr Onsdag: 15 000 kr Priserna är inklusive moms och gäller för 2026 och 2027.",
+   "source": "https://naas.se/brollop-hogtid/lekhuset-120-200-pers/",
+   "text": "Lekhuset: lokalhyra 15 000 kr (onsdag), 29 000 kr (lördag), inkl. moms",
+   "value": 15000
+  },
+  "rum": {
+   "quote": "(17 rum, 42 bäddar)",
+   "source": "https://naas.se/brollop-hogtid/vanhem-60-140-pers/",
+   "text": "17 rum",
+   "value": 17
+  }
+ },
+ "nasby-slott": {
+  "baddar": {
+   "quote": "Näsby Slott har 53 hotellrum med totalt 95 bäddar",
+   "source": "https://www.nasbyslott.se/hotell/hotellrum/",
+   "text": "95 bäddar",
+   "value": 95
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Näsby Slott har 53 hotellrum med totalt 95 bäddar",
+   "source": "https://www.nasbyslott.se/hotell/hotellrum/",
+   "text": "53 hotellrum",
+   "value": 53
+  }
+ },
+ "noors-slott": {
+  "baddar": {
+   "quote": "Vi har 25 rum och erbjuder 60 bäddar.",
+   "source": "https://noorsslott.se/konferens/",
+   "text": "60 bäddar",
+   "value": 60
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Vi har 25 rum och erbjuder 60 bäddar.",
+   "source": "https://noorsslott.se/konferens/",
+   "text": "25 rum",
+   "value": 25
+  }
+ },
+ "orbyhus-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "lokal",
+   "quote": "Lokalhyra Tisdag-Torsdag Pris 30 000 kr Fredag-söndag 45 000 kr",
+   "source": "https://www.orbyhusslott.se/hyr-orangeriet",
+   "text": "Orangeriet: lokalhyra 30 000 kr tis–tor, 45 000 kr fre–sön",
+   "value": 30000
+  }
+ },
+ "oster-malma": {
+  "baddar": {
+   "quote": "Upp till 93 bäddar",
+   "source": "https://www.ostermalma.se/fest-brollop/",
+   "text": "Upp till 93 bäddar",
+   "value": 93
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Hotell “Röda längan” : 33 rum, 63 sängar",
+   "source": "https://www.ostermalma.se/boka-logi/",
+   "text": "33 hotellrum i Röda längan",
+   "value": 33
+  }
+ },
+ "ovedsklosters-slott": {
+  "baddar": {
+   "quote": "Summa: 5 rum och 8 sängar.",
+   "source": "https://www.ovedskloster.com/foretag/stenstallet",
+   "text": "8 sängar i Stenstallet",
+   "value": 8
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "lokal",
+   "quote": "Priset ligger mellan 40 000 och 55 000 kr beroende på lokal och arrangemang.",
+   "source": "https://www.ovedskloster.com/brollop",
+   "text": "Bröllop 40 000–55 000 kr beroende på lokal och arrangemang",
+   "value": 40000
+  },
+  "rum": {
+   "quote": "Summa: 5 rum och 8 sängar.",
+   "source": "https://www.ovedskloster.com/foretag/stenstallet",
+   "text": "5 gästrum i Stenstallet",
+   "value": 5
+  }
+ },
+ "riddersviks-herrgard": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "24 Hotellrum 7 Konferensrum",
+   "source": "https://www.riddersviksherrgard.se/about-us/",
+   "text": "24 hotellrum",
+   "value": 24
+  }
+ },
+ "rosersbergs-slott": {
+  "checked": "2026-11-23",
+  "prisKonferens": {
+   "per": "person",
+   "quote": "Dagkonferens Från 795 kr/person Helpension Från 1 995 kr/person",
+   "source": "https://www.rosersbergsslott.se/konferens/konferenspaket/",
+   "text": "Dagkonferens från 795 kr/person",
+   "value": 795
+  },
+  "rum": {
+   "quote": "64 hotellrum på Rosersbergs Slottshotell",
+   "source": "https://www.rosersbergsslott.se/hotell/",
+   "text": "64 hotellrum",
+   "value": 64
+  }
+ },
+ "salsta-slott": {
+  "baddar": {
+   "quote": "Totalt fyra bäddar, med möjlighet till extrasäng.",
+   "source": "https://salsta-slott.se/overnattning/",
+   "text": "4 bäddar i östra slottspaviljongen",
+   "value": 4
+  },
+  "checked": "2026-11-23",
+  "prisNatt": {
+   "per": "hus",
+   "quote": "Bo en natt i östra slottspaviljongen. 1 person 2000kr 2 personer 2200kr.",
+   "source": "https://salsta-slott.se/overnattning/",
+   "text": "Östra slottspaviljongen 2 000 kr/natt (1 person), 2 200 kr (2 personer)",
+   "value": 2000
+  }
+ },
+ "siggesta-gard": {
+  "baddar": {
+   "quote": "Vi har 57 unika hotellrum med totalt 140 bäddar.",
+   "source": "https://www.siggestagard.se/fest-brollop",
+   "text": "140 bäddar",
+   "value": 140
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "paket",
+   "quote": "Från 85 800 kr för 30 - 150 gäster",
+   "source": "https://www.siggestagard.se/fest-brollop",
+   "text": "Vinterbröllop från 85 800 kr för 30–150 gäster",
+   "value": 85800
+  },
+  "rum": {
+   "quote": "Vi har 57 unika hotellrum med totalt 140 bäddar.",
+   "source": "https://www.siggestagard.se/fest-brollop",
+   "text": "57 hotellrum",
+   "value": 57
+  }
+ },
+ "skytteholm": {
+  "baddar": {
+   "quote": "74 hotellrum 148 bäddar",
+   "source": "https://www.skytteholm.se/konferens/",
+   "text": "148 bäddar",
+   "value": 148
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "74 hotellrum 148 bäddar",
+   "source": "https://www.skytteholm.se/konferens/",
+   "text": "74 hotellrum",
+   "value": 74
+  }
+ },
+ "soderfors-herrgard": {
+  "baddar": {
+   "quote": "Vi har 49 hotellrum fördelade på fem byggnader på området, med upp till 150 bäddar.",
+   "source": "https://www.soderforsherrgard.se/kontakt/",
+   "text": "Upp till 150 bäddar",
+   "value": 150
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Vårt vinterbröllop gäller januari till mars och kostar 1 495 kr per gäst.",
+   "source": "https://www.soderforsherrgard.se/brollop-fest/",
+   "text": "Vinterbröllop (jan–mars) 1 495 kr/gäst",
+   "value": 1495
+  },
+  "rum": {
+   "quote": "Vi har 49 hotellrum fördelade på fem byggnader på området, med upp till 150 bäddar.",
+   "source": "https://www.soderforsherrgard.se/kontakt/",
+   "text": "49 hotellrum",
+   "value": 49
+  }
+ },
+ "sodertuna-slott": {
+  "baddar": {
+   "quote": "Här finns 67 rum och plats för upp till 134 övernattande gäster",
+   "source": "https://www.sodertuna.se/hotell/",
+   "text": "Plats för 134 övernattande gäster",
+   "value": 134
+  },
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Här finns 67 rum och plats för upp till 134 övernattande gäster",
+   "source": "https://www.sodertuna.se/hotell/",
+   "text": "67 rum",
+   "value": 67
+  }
+ },
+ "sofiero-slott": {
+  "checked": "2026-11-23",
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Pris per person exkl. moms: Heldag: 695 kr/person Halvdag: 595 kr/person",
+   "source": "https://www.sofiero.se/konferens/",
+   "text": "Halvdag 595 kr/person, heldag 695 kr/person (exkl. moms)",
+   "value": 595
+  }
+ },
+ "sparreholms-slott": {
+  "checked": "2026-11-23",
+  "prisNatt": {
+   "per": "rum",
+   "quote": "Pris inklusive frukost: Dubbelrum 1 895 kr Enkelrum 1 295 kr",
+   "source": "https://www.sparreholmsslott.com/slottetsflyglar",
+   "text": "Enkelrum 1 295 kr, dubbelrum 1 895 kr inkl. frukost (maj–okt, grupper om minst 4)",
+   "value": 1295
+  }
+ },
+ "stegeborgs-slottsruin": {
+  "checked": "2026-11-23",
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Dagkonferens Pris 795 kr per person och dag, exkl moms",
+   "source": "https://www.stegeborg.se/konferens/",
+   "text": "Dagkonferens 795 kr/person (exkl. moms)",
+   "value": 795
+  },
+  "rum": {
+   "quote": "Trädgårdshotellet har nio rum",
+   "source": "https://www.stegeborg.se/stegeborgs-tradgardshotell/",
+   "text": "9 rum på Trädgårdshotellet",
+   "value": 9
+  }
+ },
+ "stora-nyckelviken": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "moms": "inkl.",
+   "per": "person",
+   "quote": "Friherrens bröllop 1 990 kr per person (inkl. moms)",
+   "source": "https://nyckelvikensherrgard.se/fest-hogtider/arrangemang-priser/brollopspaket/",
+   "text": "Bröllopspaket från 1 990 kr/person inkl. moms",
+   "value": 1990
+  },
+  "prisKonferens": {
+   "moms": "exkl.",
+   "per": "person",
+   "quote": "Upplägg: förmiddag eller eftermiddag 495 kr/person (exkl moms)",
+   "source": "https://nyckelvikensherrgard.se/konferens-moten/halvdagskonferens/",
+   "text": "Halvdagskonferens 495 kr/person, heldag 695 kr/person (exkl. moms)",
+   "value": 495
+  }
+ },
+ "svaneholms-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Prisbild 1 299 kr/kuvert Pris beräknat på minimum 30 gäster. Gäller januari–mars 2027.",
+   "source": "https://svaneholmsslott.se/restaurang/fest-brollop/",
+   "text": "Bronspaket (jan–mars 2027) 1 299 kr/kuvert, minst 30 gäster",
+   "value": 1299
+  }
+ },
+ "taxinge-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "moms": "inkl.",
+   "per": "person",
+   "quote": "Bröllopsmeny Pris per person, 1395 kr inklusive moms",
+   "source": "https://www.taxingeslott.se/brollop/",
+   "text": "Bröllopsmeny 1 395 kr/person inkl. moms",
+   "value": 1395
+  }
+ },
+ "teleborgs-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Inkl. lokalhyra 1 260 kr/person",
+   "source": "https://teleborgsslott.com/brollop-pa-slott/",
+   "text": "Silverpaket 1 260 kr/person inkl. lokalhyra",
+   "value": 1260
+  },
+  "rum": {
+   "quote": "Totalt erbjuder vi 30 rum.",
+   "source": "https://teleborgsslott.com/",
+   "text": "30 hotellrum",
+   "value": 30
+  }
+ },
+ "toftaholm": {
+  "baddar": {
+   "quote": "På herrgården finns 45 unika rum i herrgårdsmiljö och totalt 89 bäddar",
+   "source": "https://www.toftaholm.se/sv/brollop-fest/overnattning-brollop/",
+   "text": "89 bäddar (+ extrasängar)",
+   "value": 89
+  },
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Stolsöverdrag 1750:- per person.",
+   "source": "https://www.toftaholm.se/sv/brollop-fest/brollopspaket/",
+   "text": "Bröllopspaket Klassiskt 1 750 kr/person (minst 20 gästrum ska bokas)",
+   "value": 1750
+  },
+  "prisNatt": {
+   "per": "rum",
+   "quote": "Pris: 1990kr per dubbelrum inklusive frukost (ordinarie pris 2190kr) och enkelrum 1590kr (ordinarie pris 1790kr)",
+   "source": "https://www.toftaholm.se/sv/brollop-fest/overnattning-brollop/",
+   "text": "Enkelrum 1 790 kr, dubbelrum 2 190 kr per natt inkl. frukost (ordinarie pris)",
+   "value": 1790
+  },
+  "rum": {
+   "quote": "På herrgården finns 45 unika rum i herrgårdsmiljö och totalt 89 bäddar",
+   "source": "https://www.toftaholm.se/sv/brollop-fest/overnattning-brollop/",
+   "text": "45 rum",
+   "value": 45
+  }
+ },
+ "tokeryds-herrgard": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "På herrgården har vi 36 rum.",
+   "source": "https://tokerydsherrgard.se/vara-rum/",
+   "text": "36 rum",
+   "value": 36
+  }
+ },
+ "trollenas-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "lokal",
+   "quote": "Hyra av slottet: 55 000 kr. Dukningsavgift: 150 kr/person.",
+   "source": "https://www.trollenasslott.se/brollop/",
+   "text": "Hyra av slottet 55 000 kr + dukningsavgift 150 kr/person (7 dubbelrum ingår)",
+   "value": 55000
+  },
+  "rum": {
+   "quote": "Det finns 7 dubbelrum för övernattning.",
+   "source": "https://www.trollenasslott.se/konferens/",
+   "text": "7 dubbelrum",
+   "value": 7
+  }
+ },
+ "ulfshyttans-herrgard": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "paket",
+   "quote": "Grundpaket 2027: 36 800 kr",
+   "source": "https://ulfshyttan.se/sv/brollop",
+   "text": "Grundpaket bröllop 2027: 36 800 kr (hela herrgården, övernattning för 37 gäster)",
+   "value": 36800
+  },
+  "rum": {
+   "quote": "Ulfshyttans Herrgård erbjuder 17 individuellt inredda hotellrum",
+   "source": "https://ulfshyttan.se/sv/boende",
+   "text": "17 hotellrum",
+   "value": 17
+  }
+ },
+ "ulvsunda-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Alla våra 54 hotellrum är individuellt inredda.",
+   "source": "https://www.ulfsundaslott.se/hotell/",
+   "text": "54 hotellrum",
+   "value": 54
+  }
+ },
+ "vastana-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "göra Västanå till ert för en hel helg genom att boka samtliga 21 rum",
+   "source": "https://www.vastanaslott.se/fest/",
+   "text": "21 rum",
+   "value": 21
+  }
+ },
+ "vaxholms-kastell": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Kastellets Bed & Breakfast har 27 rum och har öppet året runt.",
+   "source": "https://www.vaxholmsfastning.se/besoksinfo/",
+   "text": "27 rum på Kastellets Bed & Breakfast",
+   "value": 27
+  }
+ },
+ "wanas-slott": {
+  "checked": "2026-11-23",
+  "rum": {
+   "quote": "Hotellet erbjuder elva individuellt inredda rum",
+   "source": "https://www.wanas.se/se/",
+   "text": "11 rum på Wanås Restaurant Hotel",
+   "value": 11
+  }
+ },
+ "wapno-slott": {
+  "checked": "2026-11-23",
+  "prisBrollop": {
+   "per": "person",
+   "quote": "Allt detta erbjuder vi till ett kuvertpris från 1 495 kr.",
+   "source": "https://www.wapnoslott.se/fest-amp-br%C3%B6llop/",
+   "text": "Bröllop från 1 495 kr/kuvert",
+   "value": 1495
+  }
+ }
+}
