@@ -317,3 +317,15 @@ Kvar att besluta:
 - Antal gäster (från data/kapacitet.json) visas nu också i en ruta "Så många får plats" vid förfrågan, eftersom faktarutan hamnar långt ner på mobilen (Daniel hittade inte siffran, 10 nov).
 
 Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en plan finns i Claude-dokumentet "Länkplan Slottsregistret". Ingen är kontaktad än.
+
+## 23 nov: konkurrentanalys och förfrågan överallt (grenen claude/project-thread-wtnj7g, inte publicerad)
+- Konkurrentanalys (Claude Doc "Slottsregistret – konkurrentanalys november 2026"): Venuu största hotet, ingen annan använder 360-turer.
+- Integritetstexten vid förfrågan och på /integritet/ sa att uppgifter kan delas med slottet. Nu: vi lämnar inte ut uppgifter utan att fråga först (Daniels regel).
+- Nytt formulär `forslag` ("Få förslag på slott", `suggestForm` i templates.js): startsidan, kategorisidorna bröllop/konferens/bo/spa
+  (även per län), alla länssidor, guiderna (utom barnguiden) och slottssidor där slottet inte själv tar bröllop/konferens
+  (`nearSuggest`, antal slott inom 5 mil, länet förvalt). Fält: vad, område, datum, flexibelt, gäster, övernattning, budget.
+- Slottssidan: "Skicka förfrågan" är huvudknappen; "Slottets webbplats" ligger i faktarutan när slottet tar förfrågningar.
+  Privata hem: "Privat bostad" i rubriken och ingen "Hitta hit". Fast knapp längst ner på mobilen (`.sticky-cta`).
+  Kryssruta "Tipsa mig om liknande slott i närheten" i förfrågan.
+- Bekräftelsemejl till besökaren (forfragan och forslag) via bindningen EMAIL från kontakt@slottsregistret.se, bara fasta texter.
+- Fathom-händelser: klick på `data-ev` (förfrågan, slottets webbplats, boka, rundtur), "Ser formulär", "Börjar fylla i", "Skickat".

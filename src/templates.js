@@ -11,6 +11,7 @@ const KIND = {
 const castleURL = c => `/slott/${c.slug}/`;
 const countyURL = co => `/lan/${co.slug}/`;
 const catURL = (cat, co) => `/${cat.slug}/${co ? co.slug + '/' : ''}`;
+const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 
 // Ikoner för erbjudandena (24×24, linjer).
 const ICON = {
@@ -178,7 +179,7 @@ function home(S) {
     return [o, c];
   });
   return layout(S, {
-    path: '/', bodyClass: 'home', scripts: S.hero.length ? ['/assets/hero.js'] : [],
+    path: '/', bodyClass: 'home', scripts: [...(S.hero.length ? ['/assets/hero.js'] : []), '/assets/form.js'],
     preload: S.hero.length ? `<link rel="preload" as="image" type="image/avif" imagesrcset="${S.asset(`/assets/hero/${S.hero[0].id}-1100.avif`)} 1100w, ${S.asset(`/assets/hero/${S.hero[0].id}-1920.avif`)} 1920w" imagesizes="100vw" fetchpriority="high">` : '',
     jsonld: { '@context': 'https://schema.org', '@type': 'WebSite', name: S.config.name, url: S.config.domain + '/',
       potentialAction: { '@type': 'SearchAction', target: S.config.domain + '/sok/?q={q}', 'query-input': 'required name=q' } },
@@ -214,6 +215,9 @@ ${S.featured.length ? `<section class="band band-dark">
     <ul class="pills">${types.map(t => `<li><a href="${catURL(t)}">${esc(t.name)} <small>${nf(t.total)}</small></a></li>`).join('')}</ul>
   </div>
 </section>
+
+${suggestForm(S, { heading: 'Planerar ni bröllop, fest eller konferens på slott?', page: '/',
+  lead: 'Berätta vad ni har i tankarna, så letar vi fram slott som passar och svarar med förslag. Det kostar ingenting och ni binder er inte till något.' })}
 
 <section class="band band-tight">
   <div class="wrap">
@@ -282,6 +286,55 @@ function capacityBox(c) {
       <p class="small">Enligt ${cap.source ? `<a href="${esc(cap.source)}" rel="nofollow noopener" target="_blank">slottets egen webbplats</a>` : 'slottets egen webbplats'}.</p></div>`;
 }
 
+// Daniels regel: kundens uppgifter lämnas aldrig ut till slottet innan han har en överenskommelse, och då bara om kunden säger ja.
+const PRIVACY = `<p class="small">Det är vi på Slottsregistret som läser och svarar. Vi lämnar inte ut dina uppgifter till slottet eller någon annan utan att fråga dig först, och sparar dem i högst två år. Se <a href="/integritet/">integritet</a>.</p>`;
+const WHO = `<p class="inquiry-who">Daniel Andersson på Slottsregistret läser och svarar på varje förfrågan själv.</p>`;
+
+// "Få förslag på slott": en kort förfrågan utan bestämt slott, för start-, kategori-, läns- och guidesidorna och för
+// slottssidor där slottet självt inte tar emot bröllop eller konferens. Går till Daniel som vanligt (formuläret forslag).
+const SUGGEST_KINDS = ['Bröllop', 'Fest', 'Konferens', 'Övernattning'];
+function suggestForm(S, { heading = 'Få förslag på slott – gratis', lead, kind = null, lan = null, near = null, page = '/' } = {}) {
+  const kinds = kind ? [kind, ...SUGGEST_KINDS.filter(k => k !== kind)] : SUGGEST_KINDS;
+  const counties = [...S.data.counties].sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+  return `<section class="band band-dark inquiry" id="forslag">
+  <div class="wrap form-split">
+    <div>
+      <p class="kicker kicker-gold"><span>Förslag på slott</span></p>
+      <h2>${esc(heading)}</h2>
+      <p>${esc(lead || 'Berätta vad ni planerar, så letar vi fram slott som passar och svarar med förslag. Det kostar ingenting och ni binder er inte till något.')}</p>
+      <ul class="inquiry-points"><li>Svar från oss inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Vi känner ${nf(S.data.stats.total)} slott i hela Sverige</li></ul>
+      ${WHO}
+    </div>
+    <form class="form" method="post" action="/api/skicka" data-form>
+${formFields(S, 'forslag')}
+${near ? `<input type="hidden" name="slott" value="${esc(near)}">` : ''}
+<input type="hidden" name="sida" value="${esc(page)}">
+<fieldset><legend>Vad planerar ni?</legend>
+${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${kind === k ? ' checked' : ''}${i ? '' : ' required'}> ${k}</label>`).join('\n')}
+</fieldset>
+<label for="f-omrade">Var någonstans?</label><select id="f-omrade" name="omrade"><option value="">Var som helst i Sverige</option>${counties.map(co => `<option value="${esc(co.full)}"${lan === co.slug ? ' selected' : ''}>${esc(co.full)}</option>`).join('')}</select>
+<label for="f-datum">När ungefär? (frivilligt)</label><input id="f-datum" name="datum" placeholder="t.ex. juni 2027">
+<label class="check"><input type="checkbox" name="flexibelt" value="Ja"> Datumet är flexibelt</label>
+<label for="f-gaster">Hur många gäster? (frivilligt)</label><input id="f-gaster" name="gaster" inputmode="numeric" placeholder="t.ex. 80">
+<fieldset><legend>Behöver ni övernatta? (frivilligt)</legend>
+  <label><input type="radio" name="overnattning" value="Ja"> Ja</label>
+  <label><input type="radio" name="overnattning" value="Nej"> Nej</label>
+  <label><input type="radio" name="overnattning" value="Vet inte än"> Vet inte än</label>
+</fieldset>
+<label for="f-budget">Ungefärlig budget (frivilligt)</label><input id="f-budget" name="budget" placeholder="t.ex. 100 000 kr">
+<label for="f-namn">Ditt namn</label><input id="f-namn" name="namn" required autocomplete="name">
+<label for="f-epost">E-post</label><input id="f-epost" name="epost" type="email" required autocomplete="email">
+<label for="f-telefon">Telefon (frivilligt)</label><input id="f-telefon" name="telefon" type="tel" autocomplete="tel">
+<label for="f-meddelande">Berätta gärna mer (frivilligt)</label><textarea id="f-meddelande" name="meddelande" rows="3"></textarea>
+<button class="btn btn-gold" type="submit">Skicka och få förslag</button>
+${PRIVACY}
+</form>
+  </div>
+</section>`;
+}
+// Fast knapp längst ner på mobilen, så att förfrågan går att nå utan att skrolla igenom hela sidan.
+const stickyCta = (href, label) => `<a class="sticky-cta" href="${href}" data-ev="Klick: ${esc(label)} (mobilknapp)">${esc(label)}</a>`;
+
 function leadForm(S, c) {
   const kinds = leadKinds(c);
   if (!kinds.length) return '';
@@ -294,6 +347,7 @@ function leadForm(S, c) {
       <p>Berätta vad du har i tankarna, så hör vi på Slottsregistret av oss. Det kostar ingenting och du binder dig inte till något.</p>
       <ul class="inquiry-points"><li>Svar från oss inom ett par vardagar</li><li>Kostnadsfritt och utan förpliktelser</li><li>Passar inte slottet tipsar vi om andra</li></ul>
 ${capacityBox(c)}
+${WHO}
     </div>
     <form class="form" method="post" action="/api/skicka" data-form>
 ${formFields(S, 'forfragan')}
@@ -307,8 +361,10 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 <label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
 <label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
 <label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
-<button class="btn btn-gold" type="submit">Skicka förfrågan</button>
-<p class="small">Vi sparar uppgifterna i högst två år och delar dem inte med någon annan än ${esc(c.name)}. Se <a href="/integritet/">integritet</a>.</p>
+<label class="check"><input type="checkbox" name="liknande" value="Ja" checked> Tipsa mig gärna om liknande slott i närheten</label>
+<input type="hidden" name="sida" value="${esc(castleURL(c))}">
+<button class="btn btn-gold" type="submit" data-ev="Skickar förfrågan">Skicka förfrågan</button>
+${PRIVACY}
 </form>
   </div>
 </section>`;
@@ -338,6 +394,16 @@ function castleTitle(c) {
   return `${c.name}${k}${what.length ? ` – ${what.join(' och ')}` : ''}`;
 }
 
+// Slott som inte själva tar emot bröllop eller konferens (privata hem, museer, ruiner): erbjud förslag på slott i närheten
+// som gör det, i stället för att sidan tar slut. Antalet räknas inom fem mil.
+function nearSuggest(S, c, co) {
+  const near = c.lat != null ? S.data.castles.filter(o => o !== c && o.lat != null && haversine(c, o) <= 50) : [];
+  const wed = near.filter(o => o.offers.includes('brollop-och-fest')).length, conf = near.filter(o => o.offers.includes('konferens')).length;
+  const lead = wed > 1 ? `${nf(wed)} slott inom fem mil från ${c.name} tar emot bröllop och fest${conf > 1 ? `, och ${nf(conf)} har konferens` : ''}. Berätta vad ni planerar, så föreslår vi de som passar.`
+    : `Berätta vad ni planerar, så letar vi fram slott ${co ? `i ${co.full} eller i närheten` : 'som passar'}.`;
+  return suggestForm(S, { heading: `Vill ni gifta er eller ha fest nära ${c.name}?`, lead, kind: wed ? 'Bröllop' : null, lan: c.lanSlug, near: c.slug, page: castleURL(c) });
+}
+
 function castle(S, c) {
   const img = commonsImage(c.image, 1280), imgSm = commonsImage(c.image, 960);
   const imgXl = c.image && c.image.w > 1920 ? commonsImage(c.image, 1920) : null;
@@ -359,10 +425,11 @@ function castle(S, c) {
   const offerCats = offers.filter(o => o.kind === 'offer');
   // Stor bild överst bara när bilden är skarp nog; annars bilden bredvid rubriken.
   const big = !!(img && c.image.w >= 1000);
-  const titleBlock = `<p class="kicker${big ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}</span></p>
+  const lead = leadKinds(c).length > 0, priv = c.open === 'Nej';
+  const titleBlock = `<p class="kicker${big ? ' kicker-gold' : ''}"><span>${esc(c.type)} · ${esc(kommunLabel(c.kommun))}${priv ? ' · Privat bostad' : ''}</span></p>
     <h1>${esc(c.name)}</h1>
     ${offerCats.length ? `<p class="c-offers">${offerCats.map(o => `<a href="${catURL(o)}">${icon(o.slug)}${esc(o.short)}</a>`).join('')}</p>` : ''}
-    <p class="actions">${t ? `<a class="btn btn-gold" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${leadKinds(c).length ? `<a class="btn ${t ? (big ? 'btn-light' : 'btn-ghost') : 'btn-gold'}" href="#forfragan">Skicka förfrågan</a>` : ''}${c.profile && c.profile.booking ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.profile.booking)}" target="_blank" rel="noopener">Boka</a>` : ''}${c.website ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener">Slottets webbplats</a>` : ''}${directions ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
+    <p class="actions">${lead ? `<a class="btn btn-gold" href="#forfragan" data-ev="Klick: förfrågan (överst)">Skicka förfrågan</a>` : ''}${t ? `<a class="btn ${lead ? (big ? 'btn-light' : 'btn-ghost') : 'btn-gold'}" href="#rundtur">${TOUR_ICON}Kliv in i slottet</a>` : ''}${c.profile && c.profile.booking ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.profile.booking)}" target="_blank" rel="noopener" data-ev="Klick: boka">Boka</a>` : ''}${c.website && !lead ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(c.website)}" target="_blank" rel="noopener" data-ev="Klick: slottets webbplats">Slottets webbplats</a>` : ''}${directions && !priv ? `<a class="btn ${big ? 'btn-light' : 'btn-ghost'}" href="${esc(directions)}" target="_blank" rel="noopener">Hitta hit</a>` : ''}</p>`;
   const desc = castleDesc(c, co, offerCats);
   const tk = t ? (KIND[t.kind] || KIND.view) : null;
   const tourBlock = t ? `
@@ -372,13 +439,13 @@ function castle(S, c) {
       <p class="kicker kicker-gold"><span>${esc(tk.label)}${t.title ? ` · ${esc(t.title)}` : ''}</span></p>
       <h2 id="rundtur-h">Kliv in i ${esc(c.name)}</h2>
       <p class="tour-lead">${esc(tk.lead)}</p>
-      <p>${t.embed ? `<button class="btn btn-gold" type="button" data-start>${TOUR_ICON}${esc(tk.verb)}</button>` : `<a class="btn btn-gold" href="${esc(t.url)}" target="_blank" rel="noopener">${TOUR_ICON}${esc(tk.verb)}</a>`}</p>
+      <p>${t.embed ? `<button class="btn btn-gold" type="button" data-start data-ev="Startar rundtur">${TOUR_ICON}${esc(tk.verb)}</button>` : `<a class="btn btn-gold" href="${esc(t.url)}" target="_blank" rel="noopener" data-ev="Startar rundtur">${TOUR_ICON}${esc(tk.verb)}</a>`}</p>
       <p class="consent">${t.embed ? `Rundturen visas från ${esc(t.provider)} och laddas först när du startar den.` : `Öppnas i ett nytt fönster hos ${esc(t.provider)}.`}</p>
       <p class="credit">Rundtur: ${esc(t.provider)}${t.credit && t.credit.length ? ` · Foto: ${esc(t.credit.join(', '))}` : ''}${t.year ? ` · ${esc(t.year)}` : ''}${t.url && t.embed ? ` · <a href="${esc(t.url)}" target="_blank" rel="noopener">Öppna i nytt fönster</a>` : ''}</p>
     </div>
     <div class="tour-frame" data-embed="${esc(t.embed || '')}" data-title="${esc(c.name)}">
       ${imgSm ? `<img src="${esc(imgSm)}" alt="" class="poster" loading="lazy" decoding="async">` : ''}
-      ${t.embed ? `<button class="portal" type="button" data-start aria-label="${esc(tk.verb)}">${TOUR_ICON}</button>` : `<a class="portal" href="${esc(t.url)}" target="_blank" rel="noopener" aria-label="${esc(tk.verb)}">${TOUR_ICON}</a>`}
+      ${t.embed ? `<button class="portal" type="button" data-start data-ev="Startar rundtur" aria-label="${esc(tk.verb)}">${TOUR_ICON}</button>` : `<a class="portal" href="${esc(t.url)}" target="_blank" rel="noopener" aria-label="${esc(tk.verb)}">${TOUR_ICON}</a>`}
     </div>
   </div>
   ${c.tours.length > 1 ? `<div class="wrap"><h3 class="more-tours">Fler rum att kliva in i</h3><ul class="tour-list">${c.tours.slice(1).map(tour => `<li><a href="${esc(tour.url)}" target="_blank" rel="noopener"><strong>${esc(tour.title || (KIND[tour.kind] || KIND.view).label)}</strong><small>${esc(tour.provider)}${tour.credit && tour.credit.length ? ` · Foto: ${esc(tour.credit.join(', '))}` : ''}</small></a></li>`).join('')}</ul></div>` : ''}
@@ -398,9 +465,9 @@ function castle(S, c) {
   </div>
 </section>`;
   return layout(S, {
-    title: castleTitle(c), description: desc.slice(0, 300), path: castleURL(c), bodyClass: big ? 'overlay' : '',
+    title: castleTitle(c), description: desc.slice(0, 300), path: castleURL(c),
     image: commonsImage(c.image, 1280) || undefined,
-    scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js', ...(leadKinds(c).length ? ['/assets/form.js'] : [])],
+    scripts: [...(c.lat != null ? ['/assets/vendor/leaflet.js'] : []), '/assets/castle.js', '/assets/form.js'], bodyClass: (big ? 'overlay ' : '') + 'has-cta',
     jsonld: [crumbLd(S, [['/', 'Start'], [countyURL(co), co.full], [castleURL(c), c.name]]), {
       '@context': 'https://schema.org', '@type': ['LandmarksOrHistoricalBuildings', ...(c.open !== 'Nej' && (c.offers.includes('besok') || c.offers.includes('park-och-tradgard')) ? ['TouristAttraction'] : []), ...(leadKinds(c).length ? ['EventVenue'] : [])], name: c.name,
       ...(leadKinds(c).length && c.capacity && (c.capacity.fest || c.capacity.konferens) ? { maximumAttendeeCapacity: Math.max(c.capacity.fest || 0, c.capacity.konferens || 0) } : {}),
@@ -430,17 +497,18 @@ ${tourBlock}
       ${c.wiki && !c.text ? `<p class="source">Text från <a href="https://sv.wikipedia.org/wiki/${encodeURIComponent(c.wiki.title.replace(/ /g, '_'))}" target="_blank" rel="noopener">Wikipedia</a> (CC BY-SA 4.0).</p>` : ''}`}
       ${c.profile && (c.profile.text || c.profile.open) ? profileHtml(c) : ''}
       ${offerCats.length ? `<h3>Här kan du</h3><ul class="offer-list">${offerCats.map(o => `<li><a href="${catURL(o)}">${icon(o.slug)}<span>${esc(o.short)}</span></a></li>`).join('')}</ul>
-      ${c.website ? `<p class="small">Kontrollera alltid öppettider, priser och bokning på <a href="${esc(c.website)}" target="_blank" rel="noopener">slottets egen webbplats</a>.</p>` : ''}` : ''}
+      ${c.website ? `<p class="small">Kontrollera alltid öppettider, priser och bokning på <a href="${esc(c.website)}" target="_blank" rel="noopener" data-ev="Klick: slottets webbplats">slottets egen webbplats</a>.</p>` : ''}` : ''}
     </div>
     <aside class="c-side">
-      <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
+      <dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}${c.website && lead ? `<div><dt>Webbplats</dt><dd><a href="${esc(c.website)}" target="_blank" rel="noopener" data-ev="Klick: slottets webbplats">${esc(hostOf(c.website))}</a></dd></div>` : ''}</dl>
       ${c.lat != null ? `<link rel="stylesheet" href="${S.asset('/assets/vendor/leaflet.css')}"><div class="mini-map" id="minikarta" data-lat="${c.lat}" data-lon="${c.lon}" data-name="${esc(c.name)}" role="img" aria-label="Karta över läget för ${esc(c.name)}"></div>` : ''}
       <p class="small">Stämmer något inte? <a href="/tipsa/?slott=${esc(c.slug)}" rel="nofollow">Tipsa oss</a> · Är det ditt slott? <a href="/konto/ansok/?slott=${esc(c.slug)}" rel="nofollow">Sköt sidan själva</a></p>
     </aside>
   </div>
 </section>
-${leadForm(S, c)}
+${lead ? leadForm(S, c) : nearSuggest(S, c, co)}
 ${noTour}
+${lead ? stickyCta('#forfragan', 'Skicka förfrågan') : stickyCta('#forslag', 'Få förslag på slott')}
 ${near.length ? `<section class="band band-paper2">
   <div class="wrap">
     <h2>Fler slott i närheten</h2>
@@ -457,7 +525,7 @@ function metaDesc(t, max = 158) {
   for (const m of t.match(/[^.!?]+[.!?]+/g) || [t]) { if ((out + m).trim().length > max) break; out += m; }
   return (out.trim() || t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…');
 }
-function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', countyFilter = null, noCounty = false, kicker = '', ingress = '' }) {
+function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', countyFilter = null, noCounty = false, kicker = '', ingress = '', form = '' }) {
   const sorted = [...list].sort(byTour);
   const tours = sorted.filter(c => c.tours.length).length;
   // Första stycket ovanför listan, resten under den, så att slotten syns utan att man behöver skrolla förbi texten.
@@ -467,7 +535,7 @@ function listPage(S, { title, h1, intro, path, list, crumbsList, extra = '', cou
   const hero = sorted.find(c => c.image && c.image.w >= 1280) || sorted.find(c => c.image);
   return layout(S, {
     title, path, description: metaDesc(`${intro} ${nf(list.length)} slott${tours && tours < list.length ? `, varav ${nf(tours)} med virtuell rundtur` : ''}.`),
-    bodyClass: hero ? 'overlay' : '', image: hero ? commonsImage(hero.image, 1280) : undefined, jsonld: crumbLd(S, crumbsList),
+    image: hero ? commonsImage(hero.image, 1280) : undefined, jsonld: crumbLd(S, crumbsList),
     body: `
 ${hero ? `<header class="page-hero">
   <img class="c-hero-img" src="${esc(commonsImage(hero.image, 1280))}" srcset="${esc(commonsImage(hero.image, 960))} 960w, ${esc(commonsImage(hero.image, 1280))} 1280w${hero.image.w > 1920 ? `, ${esc(commonsImage(hero.image, 1920))} 1920w` : ''}" sizes="100vw" alt="" fetchpriority="high">
@@ -489,10 +557,19 @@ ${hero ? `<header class="page-hero">
     ${sorted.length ? `<p class="count">${nf(sorted.length)} slott${tours ? ` · <span class="lit-text">${nf(tours)} med virtuell rundtur</span>` : ''}</p>${cards(S, sorted, { noCounty })}` : '<p>Inga slott här ännu.</p>'}
     ${ingMore ? `<div class="ingress ingress-more">${ingMore}</div>` : ''}
   </div>
-</section>`,
+</section>
+${form}`,
+    scripts: form ? ['/assets/form.js'] : [], bodyClass: (hero ? 'overlay' : '') + (form ? ' has-cta' : ''),
   });
 }
 
+// Kategorier där besökaren planerar något och kan vilja ha förslag (formuläret forslag).
+const CAT_FORM = {
+  'brollop-och-fest': { kind: 'Bröllop', heading: 'Få förslag på slott för bröllopet' },
+  konferens: { kind: 'Konferens', heading: 'Få förslag på slott för konferensen' },
+  'bo-pa-slott': { kind: 'Övernattning', heading: 'Få förslag på slott att bo på' },
+  spa: { kind: 'Övernattning', heading: 'Få förslag på slott med spa' },
+};
 function category(S, cat, co) {
   const list = S.data.castles.filter(c => c.offers.includes(cat.slug) && (!co || c.lanSlug === co.slug));
   const counties = S.data.counties.map(x => [x, S.data.castles.filter(c => c.offers.includes(cat.slug) && c.lanSlug === x.slug).length]).filter(x => x[1]);
@@ -501,6 +578,8 @@ function category(S, cat, co) {
   return listPage(S, {
     title: h1, h1, kicker: co ? co.full : `${nf(list.length)} slott i hela Sverige`, intro: co ? `${cat.intro.replace(/\.$/, '')} i ${co.full}.` : cat.intro, path: catURL(cat, co), list, countyFilter: filter,
     ingress: categoryIngress(S, cat, co, list),
+    form: CAT_FORM[cat.slug] ? suggestForm(S, { ...CAT_FORM[cat.slug], lan: co && co.slug, page: catURL(cat, co),
+      heading: CAT_FORM[cat.slug].heading + (co ? ` i ${co.name}` : '') }) + stickyCta('#forslag', 'Få förslag på slott') : '',
     extra: guideLinks(S, guides(S).filter(g => g.cat === cat.slug || (co && (g.near || []).includes(co.slug)))),
     crumbsList: co ? [['/', 'Start'], [catURL(cat), cat.name], [catURL(cat, co), co.name]] : [['/', 'Start'], [catURL(cat), cat.name]],
   });
@@ -529,6 +608,7 @@ function county(S, co) {
   return listPage(S, {
     title: `Slott i ${co.full}`, h1: `Slott i ${co.name}`, path: countyURL(co), list, noCounty: true, kicker: list.length === 1 ? '1 slott i registret' : `${nf(list.length)} slott, borgar och fästningar`,
     intro: countyIntro(co, list), ingress: countyIngress(S, co, list),
+    form: suggestForm(S, { heading: `Planerar ni något på slott i ${co.name}?`, lan: co.slug, page: countyURL(co) }) + stickyCta('#forslag', 'Få förslag på slott'),
     crumbsList: [['/', 'Start'], ['/lan/', 'Län'], [countyURL(co), co.name]],
     extra: guideLinks(S, guides(S).filter(g => (g.near || []).includes(co.slug))) + coverage(co.withTour, co.total, 'slott i länet går att besöka digitalt') +
       `<nav class="chips" aria-label="Kategorier i länet">${cats.map(([cat, n]) => `<a href="${catURL(cat, co)}">${esc(cat.short)} <small>${n}</small></a>`).join('')}</nav>`,
@@ -626,7 +706,10 @@ ${g.html}
 ${chips}
 <h2>Fler guider</h2>
 <ul>${others.map(o => `<li><a href="${o.path}">${esc(o.h1)}</a></li>`).join('')}</ul>
-</article>` });
+</article>
+${g.slug === 'slott-med-barn' ? '' : suggestForm(S, { kind: (CAT_FORM[g.cat] || {}).kind || null, lan: (g.near || [])[0] || null, page: g.path,
+  heading: (CAT_FORM[g.cat] || {}).heading || 'Få förslag på slott – gratis' }) + stickyCta('#forslag', 'Få förslag på slott')}`,
+    scripts: g.slug === 'slott-med-barn' ? [] : ['/assets/form.js'], bodyClass: g.slug === 'slott-med-barn' ? '' : 'has-cta' });
 }
 function guidesIndex(S) {
   const items = [['/', 'Start'], ['/guider/', 'Guider']];
@@ -676,7 +759,7 @@ function privacy(S) {
 <h2>Virtuella rundturer</h2>
 <p>En rundtur laddas först när du trycker på knappen för att starta den. Då hämtas den från leverantören (till exempel Google, Matterport eller Kuula), som kan sätta egna kakor enligt sina villkor. Att starta rundturen är ditt samtycke till det.</p>
 <h2>Formulär</h2>
-<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest eller konferens kan vi dela med det slott den gäller, men inte med någon annan. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
+<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest, konferens eller boende läser och besvarar vi själva på Slottsregistret. Vi lämnar aldrig ut ditt namn, din e-post eller ditt telefonnummer till slottet eller någon annan utan att fråga dig först. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
 }
 
 function formFields(S, name) {
@@ -771,7 +854,7 @@ ${castleSelect(S, false)}
 
 function thanks(S) {
   return textPage(S, { title: 'Tack för ditt meddelande', crumb: 'Tack', path: '/tack/', noindex: true,
-    description: 'Tack för att du hörde av dig till Slottsregistret.', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade. Gällde det en förfrågan om bröllop, fest eller konferens hör vi av oss inom ett par vardagar.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
+    description: 'Tack för att du hörde av dig till Slottsregistret.', body: `<h1>Tack!</h1><p class="lead">Vi har tagit emot det du skickade. Gällde det en förfrågan får du strax en bekräftelse via e-post (titta i skräpposten om den inte syns), och vi hör av oss inom ett par vardagar.</p><p><a class="btn" href="/">Till startsidan</a></p>` });
 }
 
 function notFound(S) {

@@ -178,3 +178,10 @@ window.SR = (function () {
     document.addEventListener('click', function (e) { if (!form.contains(e.target)) close(); });
   });
 })();
+
+// Händelser till besöksstatistiken (Fathom): klick på knappar och länkar med data-ev, t.ex. förfrågan, slottets webbplats och rundturer.
+window.srEvent = function (name) { try { if (window.fathom && name) window.fathom.trackEvent(name); } catch (e) { /* statistiken får aldrig stoppa sidan */ } };
+document.addEventListener('click', function (e) {
+  var el = e.target.closest && e.target.closest('[data-ev]');
+  if (el) window.srEvent(el.getAttribute('data-ev'));
+}, true);

@@ -13,7 +13,15 @@ const FORMS = {
   forfragan: {
     subject: 'Förfrågan',
     required: ['slott', 'vad', 'namn', 'epost'],
-    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande'],
+    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande', 'liknande', 'sida'],
+    confirm: true,
+  },
+  // "Få förslag på slott": utan bestämt slott (start-, kategori-, läns- och guidesidorna).
+  forslag: {
+    subject: 'Förslag på slott',
+    required: ['vad', 'namn', 'epost'],
+    fields: ['vad', 'omrade', 'slott', 'datum', 'flexibelt', 'gaster', 'overnattning', 'budget', 'namn', 'epost', 'telefon', 'meddelande', 'sida'],
+    confirm: true,
   },
   tips: {
     subject: 'Tips från besökare',
@@ -22,7 +30,9 @@ const FORMS = {
   },
 };
 const LABELS = {
-  slott: 'Slott', vill: 'Gäller', vad: 'Gäller', lank: 'Länk', datum: 'När', gaster: 'Gäster', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
+  slott: 'Slott', vill: 'Gäller', vad: 'Gäller', omrade: 'Område', lank: 'Länk', datum: 'När', flexibelt: 'Flexibelt datum', gaster: 'Gäster',
+  overnattning: 'Övernattning', budget: 'Budget', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
+  liknande: 'Vill ha tips om liknande slott', sida: 'Skickat från sidan',
 };
 // Tacksidorna som formulären får skicka vidare till (svenska och de andra språken).
 const THANKS = /^\/tack\/$/;
@@ -69,6 +79,7 @@ export async function handleForm(request, env, ctx) {
     metadata: { slott: (entry.slott || '').slice(0, 80), vad: (entry.vad || entry.vill || '').slice(0, 80) },
   });
   if (env.MAIL && env.MAIL_TO) ctx.waitUntil(notify(env, form, record).catch(e => console.log('E-posten gick inte iväg:', e.message)));
+  if (form.confirm && env.EMAIL && entry.epost) ctx.waitUntil(confirm(env, record).catch(e => console.log('Bekräftelsen gick inte iväg:', e.code || '', e.message)));
   return done();
 }
 
@@ -79,6 +90,31 @@ async function notify(env, form, r) {
   const from = 'formular@slottsregistret.se';
   const raw = mime({ from: `Slottsregistret.se <${from}>`, to: env.MAIL_TO, replyTo: r.epost, subject, text });
   await env.MAIL.send(new EmailMessage(from, env.MAIL_TO, raw));
+}
+
+// Bekräftelse till den som skickade en förfrågan. Bara fasta texter och korta uppgifter ur formuläret (inte meddelandet),
+// så att formuläret inte kan användas för att skicka egna texter till andra.
+async function confirm(env, r) {
+  const short = v => String(v || '').replace(/\s+/g, ' ').slice(0, 80);
+  const rows = [['Gäller', r.vad], ['Slott', r.formular === 'forfragan' ? r.slott : ''], ['Område', r.omrade], ['När', r.datum], ['Gäster', r.gaster]]
+    .filter(x => x[1]).map(([k, v]) => `${k}: ${short(v)}`).join('\n');
+  const text = `Hej ${short(r.namn).split(' ')[0]}!
+
+Tack för din förfrågan till Slottsregistret.se. Vi har tagit emot den och hör av oss inom ett par vardagar.
+
+${rows}
+
+Det är vi på Slottsregistret som läser och svarar. Vi lämnar inte ut dina uppgifter till slottet eller någon annan utan att fråga dig först.
+
+Vill du lägga till något kan du svara på det här mejlet.
+
+Vänliga hälsningar
+Daniel Andersson
+Slottsregistret.se
+https://slottsregistret.se
+`;
+  await env.EMAIL.send({ from: { email: 'kontakt@slottsregistret.se', name: 'Slottsregistret.se' }, to: r.epost,
+    subject: 'Tack för din förfrågan – Slottsregistret.se', text, replyTo: 'kontakt@slottsregistret.se' });
 }
 
 function b64(s) {

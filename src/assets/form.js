@@ -10,6 +10,14 @@
 (function () {
   [].forEach.call(document.querySelectorAll('form[data-form]'), function (form) {
     var btn = form.querySelector('button[type=submit], button:not([type])');
+    var kind = ({ forfragan: 'förfrågan', forslag: 'förslag på slott', tips: 'tips', slott: 'från slott' })[(form.querySelector('[name=formular]') || {}).value] || 'formulär';
+    // Statistik: när formuläret syns och när någon börjar fylla i det (en gång per sidvisning).
+    var started = false;
+    form.addEventListener('focusin', function () { if (!started) { started = true; window.srEvent && window.srEvent('Börjar fylla i: ' + kind); } });
+    if (window.IntersectionObserver) {
+      var seen = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { seen.disconnect(); window.srEvent && window.srEvent('Ser formulär: ' + kind); } }, { threshold: 0.3 });
+      seen.observe(form);
+    }
     var msg = document.createElement('p');
     msg.className = 'form-msg'; msg.setAttribute('role', 'alert'); msg.hidden = true;
     (btn ? btn.parentNode : form).insertBefore(msg, btn ? btn.nextSibling : null);
@@ -26,7 +34,7 @@
       fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
         .then(function (r) { return r.json().catch(function () { return { success: false }; }); })
         .then(function (j) {
-          if (j.success) { var t = form.querySelector('[name=tack]'); location.href = t && t.value ? t.value : '/tack/'; return; }
+          if (j.success) { window.srEvent && window.srEvent('Skickat: ' + kind); var t = form.querySelector('[name=tack]'); setTimeout(function () { location.href = t && t.value ? t.value : '/tack/'; }, 350); return; }
           throw j;
         })
         .catch(function (j) {
@@ -36,4 +44,14 @@
         });
     });
   });
+})();
+
+// Den fasta knappen på mobilen döljs när formuläret syns, så att den inte ligger över fälten.
+(function () {
+  var cta = document.querySelector('.sticky-cta'); if (!cta || !window.IntersectionObserver) return;
+  var target = document.querySelector(cta.getAttribute('href')); if (!target) return;
+  // Syns först när man har skrollat förbi sidhuvudet (där finns redan knappen) och döljs vid formuläret.
+  var atForm = false, upd = function () { cta.classList.toggle('hide', atForm || window.scrollY < 600); };
+  new IntersectionObserver(function (es) { atForm = es[0].isIntersecting; upd(); }, { rootMargin: '0px 0px -20% 0px' }).observe(target);
+  window.addEventListener('scroll', upd, { passive: true }); upd();
 })();
