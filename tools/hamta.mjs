@@ -179,7 +179,7 @@ await step('jsonUrls', async () => {
       const r = await fetch(j.url, { method: j.body ? 'POST' : 'GET', headers: { 'User-Agent': UA, Accept: 'application/json', 'Content-Type': 'application/json' },
         body: j.body ? JSON.stringify(j.body) : undefined, signal: AbortSignal.timeout(30000) });
       const t = await r.text();
-      let data; try { data = JSON.parse(t.replace(/^﻿/, '')); } catch { data = t.slice(0, 150000); }
+      let data; try { data = JSON.parse(t.replace(/^﻿/, '').replace(/^\)\]\}'\n/, '')); } catch { data = t.slice(0, 150000); }
       out.json[key] = { status: r.status, url: r.url, data };
     } catch (e) { out.json[key] = { status: 0, error: String(e).slice(0, 160) }; }
     await sleep(300);
