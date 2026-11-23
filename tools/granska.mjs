@@ -50,6 +50,20 @@ for (const [label, vp] of Object.entries(sizes)) {
         const kvar = page.locator('form[data-form] [type=submit]').first();
         if (await kvar.count()) await kvar.scrollIntoViewIfNeeded();
       }
+      // "/slott/x/ forfragan namn@exempel.se" skickar en riktig provförfrågan (bara i datorvarvet) för att se mejlen.
+      if (action === 'forfragan' && label === 'dator') {
+        const email = line.split(/\s+/)[2];
+        page.on('response', async r => { if (r.url().includes('/api/')) console.log('svar', r.status(), r.url().replace(BASE, ''), (await r.text().catch(() => '')).slice(0, 400)); });
+        const f = page.locator('form[data-form]').first();
+        await f.locator('[name=vad]').first().check();
+        await f.locator('[name=datum]').fill('Juni 2027 (provförfrågan)');
+        await f.locator('[name=gaster]').fill('80');
+        await f.locator('[name=namn]').fill('Daniel (provförfrågan från Claude)');
+        await f.locator('[name=epost]').fill(email);
+        await f.locator('[name=meddelande]').fill('Det här är en provförfrågan för att visa hur mejlen ser ut. Inget att svara på.');
+        await f.locator('[name=samtycke]').check();
+        await f.locator('[type=submit]').click(); await page.waitForTimeout(5000);
+      }
       // Konton: "/konto/ loggain namn@exempel.se" ber om en inloggningslänk, "/konto/ansok/?slott=x ansok namn@exempel.se" skickar en ansökan
       // (bara i datorvarvet, så att det inte går iväg två gånger). En hel inloggningslänk som rad loggar in, och raderna efter ser då kontot.
       if ((action === 'loggain' || action === 'ansok') && label === 'dator') {
