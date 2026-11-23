@@ -1,0 +1,144 @@
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+ ⛅️ wrangler 4.166.0
+────────────────────
+🌀 Building list of assets...
+✨ Read 965 files from the assets directory /home/runner/work/slottsregistret/slottsregistret/dist
+🌀 Starting asset upload...
+🌀 Found 458 new or modified static assets to upload. Proceeding with upload...
++ /.well-known/security.txt
++ /kontakt/index.html
++ /konto/index.html
++ /karta/index.html
++ /kungliga-slott/kalmar/index.html
++ /fastningar/skane/index.html
++ /borgar-och-ruiner/kronoberg/index.html
++ /park-och-tradgard/kalmar/index.html
++ /borgar-och-ruiner/halland/index.html
++ /restaurang-och-kafe/norrbotten/index.html
++ /park-och-tradgard/vastmanland/index.html
++ /besok/gotland/index.html
++ /restaurang-och-kafe/gotland/index.html
++ /fastningar/blekinge/index.html
++ /park-och-tradgard/halland/index.html
++ /besok/halland/index.html
++ /restaurang-och-kafe/jonkoping/index.html
++ /borgar-och-ruiner/kalmar/index.html
++ /restaurang-och-kafe/varmland/index.html
++ /besok/blekinge/index.html
++ /restaurang-och-kafe/halland/index.html
++ /besok/kalmar/index.html
++ /lan/norrbotten/index.html
++ /lan/dalarna/index.html
++ /spa/jamtland/index.html
++ /besok/uppsala/index.html
++ /park-och-tradgard/vastra-gotaland/index.html
++ /spa/sodermanland/index.html
++ /spa/jonkoping/index.html
++ /bo-pa-slott/gavleborg/index.html
++ /restaurang-och-kafe/sodermanland/index.html
++ /kungliga-slott/index.html
++ /brollop-och-fest/jamtland/index.html
++ /brollop-och-fest/dalarna/index.html
++ /besok/ostergotland/index.html
++ /brollop-och-fest/gavleborg/index.html
++ /brollop-och-fest/vastmanland/index.html
++ /bo-pa-slott/kronoberg/index.html
++ /brollop-och-fest/halland/index.html
++ /guider/brollop-pa-slott-nara-goteborg/index.html
++ /bo-pa-slott/kalmar/index.html
++ /konferens/jonkoping/index.html
++ /slott/stora-hastnas/index.html
++ /konferens/vastmanland/index.html
++ /lan/kronoberg/index.html
++ /spa/stockholm/index.html
++ /slott/bodens-fastning-rodbergsfortet/index.html
++ /slott/alsters-herrgard/index.html
++ /konferens/kronoberg/index.html
++ /slott/halmstads-slott/index.html
++ /lan/jonkoping/index.html
++ /guider/konferens-pa-slott-nara-stockholm/index.html
++ /slott/ismantorps-borg/index.html
++ /slott/tureborg/index.html
++ /restaurang-och-kafe/vastra-gotaland/index.html
++ /slott/almnas-slott/index.html
++ /slott/klagerups-slott/index.html
++ /slott/eketorps-borg/index.html
++ /brollop-och-fest/kalmar/index.html
++ /slott/elghammar/index.html
++ /slott/gyllebo-slott/index.html
++ /slott/palsjo-slott/index.html
++ /slott/skabersjo-slott/index.html
++ /slott/claestorps-slott/index.html
++ /slott/viderups-slott/index.html
++ /slott/bjarsjoholms-slott/index.html
++ /slott/skottorps-slott/index.html
++ /slott/lyckas-slott/index.html
++ /lan/kalmar/index.html
++ /slott/bjorksunds-slott/index.html
++ /slott/ekholmens-slott/index.html
++ /slott/gysinge-herrgard/index.html
++ /slott/stola-herrgard/index.html
++ /slott/gavle-slott/index.html
++ /slott/ostana-slott/index.html
++ /slott/bjornstorps-slott/index.html
++ /slott/toppeladugards-slott/index.html
++ /slott/gasevadholms-slott/index.html
++ /slott/fullero/index.html
++ /slott/kobergs-slott/index.html
++ /slott/steninge-slott/index.html
++ /slott/stenhammars-slott/index.html
++ /slott/snogeholms-slott/index.html
++ /slott/sandemar/index.html
++ /slott/vittskovle-slott/index.html
++ /slott/tistads-slott/index.html
++ /slott/fredensborgs-herrgard/index.html
++ /slott/lindholmens-borgruin/index.html
++ /slott/wiks-slott/index.html
++ /slott/tunbyholms-slott/index.html
++ /slott/hagaslottet/index.html
++ /slott/brahehus/index.html
++ /slott/torpa-stenhus/index.html
++ /slott/charlottenborgs-slott/index.html
++ /bo-pa-slott/uppsala/index.html
++ /slott/braborgs-slottsruin/index.html
++ /brollop-och-fest/sodermanland/index.html
++ /slott/tureholms-slott/index.html
++ /slott/stjarneholms-borgruin/index.html
++ /slott/karsholms-slott/index.html
+   (truncating changed assets log, set `WRANGLER_LOG=debug` environment variable to see full diff)
+Uploaded 153 of 458 assets
+Uploaded 306 of 458 assets
+Uploaded 458 of 458 assets
+✨ Success! Uploaded 458 files (44 already uploaded) (2.73 sec)
+
+Total Upload: 25.01 KiB / gzip: 7.64 KiB
+Worker Startup Time: 4 ms
+Your Worker has access to the following bindings:
+Binding                                                  Resource                  
+env.FORMS (24b726539b4e40cda5dd28eeec38eac2)             KV Namespace              
+env.MAIL (daniel@konstad.se)                             Send Email                
+env.EMAIL (unrestricted)                                 Send Email                
+env.DB (slottsregistret)                                 D1 Database               
+env.FORM_LIMIT (5 requests/60s)                          Rate Limit                
+env.ASSETS                                               Assets                    
+env.MAIL_TO ("daniel@konstad.se")                        Environment Variable      
+env.ADMIN_EMAILS ("daniel@konstad.se")                   Environment Variable      
+
+Uploaded slottsregistret (5.00 sec)
+Worker Version ID: 973887ee-d653-4abb-a7f8-206b602bc7a2
+Version Preview URL: https://973887ee-slottsregistret.konstadab.workers.dev
+Version Preview Alias URL: https://granska-slottsregistret.konstadab.workers.dev
+
+To deploy this version to production traffic use the command wrangler versions deploy
+
+Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy
+
+Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy
+
+ok dator /slott/fredensborgs-herrgard/
+ok dator /guider/brollop-pa-slott-nara-stockholm/
+ok dator /konferens/
+ok mobil /slott/fredensborgs-herrgard/
+ok mobil /guider/brollop-pa-slott-nara-stockholm/
+ok mobil /konferens/
