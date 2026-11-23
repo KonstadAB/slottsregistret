@@ -1,4 +1,1783 @@
 {
+"nonce": 1795449538.091714,
+"downloads": [
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjZYVFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J6XTQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SjZYVFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J6XTQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjZ1bmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J6ungE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjZ1bmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J6ungE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J7i-QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2SjdpLVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6J7i-QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SzY3WUE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6K67YA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2SzY3WUE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6K67YA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDZpd2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L6iwgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDZpd2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L6iwgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDZtUmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L6mRg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDZtUmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L6mRg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDdGS1E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7FKQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDdGS1E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7FKQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDdVRGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7UDg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TDdVRGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7UDg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDdhbFFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7alQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDdhbFFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7alQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDd3dlFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7wvQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TDd3dlFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6L7wvQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjZiWWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N6bYg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjZiWWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N6bYg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TjZ2blFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N6vnQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TjZ2blFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N6vnQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjcwSFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N70HQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjcwSFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N70HQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TjdMdmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N7LvgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ2U2TjdMdmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N7LvgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjdVWGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N7UXg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TjdVWGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6N7UXg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TzdTS0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6O7SKA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ2U2TzdTS0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/bjarsjolagards-slott/CIHM0ogKEICAgICe6O7SKA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFENJSE0wb2dLRUlDQWdJQ3VqYUFW&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaAV-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFENJSE0wb2dLRUlDQWdJQ3VqYUFW&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaAV-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUM5R3c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaC9Gw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUM5R3c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaC9Gw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUM5Smc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaC9Jg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUM5Smc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaC9Jg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUNWTVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaCVMQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3VqYUNWTVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaCVMQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3VqYUR0M1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaDt3QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3VqYUR0M1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/kronovalls-slott/CIHM0ogKEICAgICujaDt3QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySS1wMkFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2I-p2AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySS1wMkFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2I-p2AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySVctVGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2IW-Tg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySVctVGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2IW-Tg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySWVpSmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2IeiJg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySWVpSmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2IeiJg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySjNkcndF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2J3drwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySjNkcndF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2J3drwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySkdMVEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2JGLTA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUySkdMVEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2JGLTA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySy1YM3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2K-X3wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySy1YM3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2K-X3wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyS2VmT2c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2KefOg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyS2VmT2c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2KefOg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyS3ZlN2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Kve7gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyS3ZlN2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Kve7gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyTFBhRWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2LPaEg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyTFBhRWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2LPaEg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyTzI0ekFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2O24zAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyTzI0ekFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2O24zAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT0hscWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2OHlqgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT0hscWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2OHlqgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT2F0amdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2OatjgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT2F0amdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2OatjgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUFhoVFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2PXhTQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUFhoVFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2PXhTQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyUHE0MndF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Pq42wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyUHE0MndF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Pq42wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUHE0WlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Pq4ZQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUHE0WlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2Pq4ZQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUHl1ZlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2PyufQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUyUHl1ZlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDE2PyufQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV1T1NUcEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDEuOSTpAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV1T1NUcEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/malmohus/CIHM0ogKEICAgIDEuOSTpAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuWUh5endF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nYHyzwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuWUh5endF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nYHyzwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjZMYlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb6LbQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjZMYlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb6LbQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjZnandF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb6gjwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjZnandF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb6gjwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjc2OVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb769QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjc2OVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb769QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjc2SFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb76HQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjc2SFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb76HQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjdWNmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb7V6gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuYjdWNmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb7V6gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjdnRkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb7gFA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuYjdnRkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nb7gFA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZDZWWXc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nd6VYw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZDZWWXc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nd6VYw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuZjZuelFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf6nzQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRuZjZuelFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf6nzQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZjc0Snc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf74Jw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZjc0Snc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf74Jw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZjc0VVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf74UQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRuZjc0VVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/mauritzbergs-slott/CIHM0ogKEICAgID4nf74UQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2FNb3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2koaMowE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2FNb3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2koaMowE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2JkOGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kobd8gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2JkOGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kobd8gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2J1OHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kobu8wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJrb2J1OHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kobu8wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzJrcXJ4U1E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kqrxSQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzJrcXJ4U1E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kqrxSQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzJrdnFSWHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kvqRXw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzJrdnFSWHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2kvqRXw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJ5OVNLb2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2y9SKogE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJ5OVNLb2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2y9SKogE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJ5X1RPa1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2y_TOkQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzJ5X1RPa1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/osterbybruk-herrgard/CIHM0ogKEICAgIC2y_TOkQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5WTN2QXc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyY3vAw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5WTN2QXc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyY3vAw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFENJSE0wb2dLRUlDQWdJRFJ5YTBM&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya0L-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFENJSE0wb2dLRUlDQWdJRFJ5YTBM&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya0L-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTI2aFFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya26hQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTI2aFFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya26hQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTJaOXdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2Z9wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTJaOXdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2Z9wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTJ5RlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2yFQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTJ5RlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2yFQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTJ5TFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2yLQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTJ5TFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya2yLQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNCcUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3BqAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNCcUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3BqAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTNGYVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3FaQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTNGYVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3FaQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNGaXdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3FiwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNGaXdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3FiwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNSZ1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3RgQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YTNSZ1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3RgQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTNaQkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3ZBA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YTNaQkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRya3ZBA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJXTEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2WLA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJXTEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2WLA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJoZkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2hfA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJoZkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2hfA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJ0U3c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2tSw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzJ0U3c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc2tSw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzMtWFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3-XQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzMtWFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3-XQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzMtaFFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3-hQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzMtaFFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3-hQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzNUN3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3T7wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzNUN3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3T7wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzNVY2c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3Ucg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzNVY2c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3Ucg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzN0MHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3t0wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzN0MHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3t0wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzN0UEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3tPA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzN0UEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3tPA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzN0UUE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3tQA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFJ5YzN0UUE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3tQA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzN0dGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3ttgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFJ5YzN0dGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/teleborgs-slott/CIHM0ogKEICAgIDRyc3ttgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2IryrgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2IryrgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyTDdvb2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2L7oogE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyTDdvb2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2L7oogE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT1hieWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2OXbygE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyT1hieWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2OXbygE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyUDdRclFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2P7QrQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUyUDdRclFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDE2P7QrQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV1SmlITGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDEuJiHLg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV1SmlITGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDEuJiHLg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV1SmlIcGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDEuJiHpgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV1SmlIcGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/trollenas-slott/CIHM0ogKEICAgIDEuJiHpgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGM5NXJqQWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjAg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGM5NXJqQWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjAg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGM5NXJqRWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjEg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGM5NXJqRWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjEg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjjgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGM5NXJqamdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/linkopings-slott/CIHM0ogKEICAgIDc95rjjgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRHVxcmFIU0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqraHSA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRHVxcmFIU0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqraHSA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqradpAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmFkcEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqradpAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmF4c0FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqraxsAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmF4c0FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqraxsAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmIxc3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqrb1swE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRHVxcmIxc3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lacko-slott/CIHM0ogKEICAgIDuqrb1swE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xLW2Vg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xLW2Vg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TTJESHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xM2DHw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TTJESHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xM2DHw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TjJfQlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xN2_BQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TjJfQlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xN2_BQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDR4TzJyaGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xO2rhgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDR4TzJyaGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hellidens-slott/CIHM0ogKEICAgID4xO2rhgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQxb0QyaWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41oD2igE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQxb0QyaWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41oD2igE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQxcUR5Rmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41qDyFg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQxcUR5Rmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41qDyFg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQxc0RvdkFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41sDovAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQxc0RvdkFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID41sDovAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRscF9iNndF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lp_b6wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRscF9iNndF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lp_b6wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRscl9GZVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lr_FeQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRscl9GZVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lr_FeQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsdC10bHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lt-tlwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsdC10bHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lt-tlwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsdl9HM1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lv_G3QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRsdl9HM1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/carlstens-fastning/CIHM0ogKEICAgID4lv_G3QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDY2NkNDWGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CCXg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDY2NkNDWGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CCXg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkNLeHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CKxwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkNLeHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CKxwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDY2NkNTTlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CSNQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDY2NkNTTlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666CSNQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666DyyQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stegeborgs-slottsruin/CIHM0ogKEICAgID666DyyQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5b1A4TlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yoP8NQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5b1A4TlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yoP8NQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dDdWUFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yt7VPQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dDdWUFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yt7VPQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dGkwVWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yti0Ug-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dGkwVWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yti0Ug-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dVNsSVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yuSlIQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR5dVNsSVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/lillo-borgruin/CIHM0ogKEICAgID4yuSlIQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1uNUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0Zmn5AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1uNUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0Zmn5AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1uNkFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0Zmn6AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1uNkFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0Zmn6AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uREE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnDA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uREE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnDA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uVkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnVA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uVkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnVA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uY0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmncA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwWm1uY0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmncA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ubEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnlAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ubEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnlAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ucUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnqAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ucUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnqAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ud2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnwgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwWm1ud2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0ZmnwgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1URHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTDw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1URHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTDw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UTHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTLw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UTHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTLw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTTw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm1UVHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTTw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm1UendF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTzwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm1UendF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bmTzwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm5UMEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnT0AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm5UMEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnT0AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5URUE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTEA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5URUE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTEA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5UTkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTNA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5UTkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTNA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5UVkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTVA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREUwYm5UVkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTVA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm5Uc0FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTsAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUwYm5Uc0FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tyreso-slott/CIHM0ogKEICAgIDE0bnTsAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3o5THpQandF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzPjwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3o5THpQandF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzPjwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5THpqUEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzjPA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5THpqUEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzjPA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5THpySFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzrHQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5THpySFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9LzrHQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5T3pwUEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9OzpPA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5T3pwUEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9OzpPA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3o5UHllamdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9PyejgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ3o5UHllamdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9PyejgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9PyqGA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ3o5UHlxR0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/sundbyholms-slott/CIHM0ogKEICAgICz9PyqGA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRzN21iYVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mbaQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRzN21iYVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mbaQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mmvgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mmvgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21xNEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mq4AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21xNEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7mq4AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN25pOWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7ni9gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN25pOWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s7ni9gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRzX25ZQmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s_nYBg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRzX25ZQmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s_nYBg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzX25rX2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s_nk_gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzX25rX2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/nynas-slott/CIHM0ogKEICAgID4s_nk_gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42ZT-tAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42ZT-tAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyYmlhSnc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42biaJw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyYmlhSnc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42biaJw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyYmphY0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42bjacA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyYmphY0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42bjacA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyY1NvSEE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42cSoHA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDQyY1NvSEE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42cSoHA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyZkM2Z3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42fC6gwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyZkM2Z3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hovdala-slott/CIHM0ogKEICAgID42fC6gwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGJxNHFMdGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4qLtgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGJxNHFMdGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4qLtgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxNHJHUHc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4rGPw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxNHJHUHc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4rGPw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxNHJjR0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4rcGA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxNHJjR0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq4rcGA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq_KlZQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRGJxX0tsWlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq_KlZQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGJxX0xCNWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq_LB5gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRGJxX0xCNWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tullesbo/CIHM0ogKEICAgIDbq_LB5gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFfRWNGZDdkRFg5Y1hRRl9lN1RpaWY.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhA_EcFd7dDX9cXQF_e7Tiif-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFfRWNGZDdkRFg5Y1hRRl9lN1RpaWY.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhA_EcFd7dDX9cXQF_e7Tiif-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEJlVVV4OGZsSXFDSHItNTFZcU9PQ2Y.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhBeUUx8flIqCHr-51YqOOCf-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEJlVVV4OGZsSXFDSHItNTFZcU9PQ2Y.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhBeUUx8flIqCHr-51YqOOCf-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhDCFibKJuYlBEp8uxcu-g0y-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaERDRmliS0p1WWxCRXA4dXhjdS1nMHk.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/soderfors-herrgard/CIABIhDCFibKJuYlBEp8uxcu-g0y-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDE4vi3YA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0dmkzWUE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDE4vi3YA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0dmpYLXdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDE4vjX-wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0dmpYLXdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDE4vjX-wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREVvc0swZlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEosK0fQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREVvc0swZlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEosK0fQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREVvdXljNmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEouyc6gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREVvdXljNmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEouyc6gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV3dVA2Y0E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEwuP6cA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV3dVA2Y0E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/cedergrenska-tornet/CIHM0ogKEICAgIDEwuP6cA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2WmlNYVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvZiMaQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2WmlNYVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvZiMaQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjh1QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpoMVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjh1QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2YmpoWGc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjhXg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2YmpoWGc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjhXg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpodmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjhvgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2YmpodmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvbjhvgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZGlHMHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiG0wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZGlHMHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiG0wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2ZGlHSlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiGJQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2ZGlHSlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiGJQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2ZGlHTlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiGNQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREV2ZGlHTlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvdiGNQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZmlUNkFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvfiT6AE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZmlUNkFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvfiT6AE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZmlUeUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvfiTyAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV2ZmlUeUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/skytteholm/CIHM0ogKEICAgIDEvfiTyAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzluYXpDZFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazCdQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzluYXpDZFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazCdQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazCugE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpDdWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazCugE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpzc3dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazsswE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluYXpzc3dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nazsswE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluZXlFdHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9neyEtwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluZXlFdHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9neyEtwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluZXprckFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nezkrAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzluZXprckFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/stora-nyckelviken/CIHM0ogKEICAgIC9nezkrAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwNGI1Rmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p4b5Fg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwNGI1Rmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p4b5Fg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwNHFoYmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p4qhbg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwNHFoYmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p4qhbg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p7a1Sg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwN2ExU2c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p7a1Sg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwOWFZRmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p9aYFg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwOWFZRmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p9aYFg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwOXEzSlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p9q3JQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDRwOXEzSlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p9q3JQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRwX3oxZ2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p_z1ggE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRwX3oxZ2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/riddersviks-herrgard/CIHM0ogKEICAgID4p_z1ggE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeRqAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVScUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeRqAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVaOWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeZ9gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVaOWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeZ9gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVabGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeZlgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVabGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeeZlgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVtNHdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeem4wE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRFpnZWVtNHdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgeem4wE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFpnZWYtUWc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgef-Qg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFpnZWYtUWc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgef-Qg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFpnZWZoS3c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgefhKw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRFpnZWZoS3c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/friiberghs-herrgard/CIHM0ogKEICAgIDZgefhKw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPMWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO1gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPMWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO1gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPNWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO5gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPNWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO5gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPOVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO9QE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPOVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDO9QE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOAQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPQVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOAQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPSVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOIQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPSVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOIQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPTlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDONQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPTlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDONQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPUVE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOQQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPUVE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOQQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPVFE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOTQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPVFE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOTQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPVmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOVg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJREU0ZERPVmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOVg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPbGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOlgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPbGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOlgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPbVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOmQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPbVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOmQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPcVFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOqQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPcVFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOqQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPdGdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOtgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPdGdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOtgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPdmdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOvgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPdmdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOvgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPd1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOwQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREU0ZERPd1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/siggesta-gard/CIHM0ogKEICAgIDE4dDOwQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDI3OUMwY2c.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgID279C0cg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDI3OUMwY2c.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgID279C0cg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV3S2ZBZ1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDEwKfAgQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJREV3S2ZBZ1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDEwKfAgQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWIxWkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOseb1ZA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWIxWkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOseb1ZA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOsebJFA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJRE9zZWJKRkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOsebJFA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRE9zZWJwdWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOsebpugE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJRE9zZWJwdWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hooks-herrgard/CIHM0ogKEICAgIDOsebpugE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3VhRUE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7uaEA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3VhRUE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7uaEA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzR2N3VhaUFF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7uaiAE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzR2N3VhaUFF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7uaiAE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7vebQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2N3ZlYlE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v7vebQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzR2OXV0LWdF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v9ut-gE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQzR2OXV0LWdF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v9ut-gE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2X3V0Vmc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v_utVg-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQzR2X3V0Vmc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/tokeryds-herrgard/CIHM0ogKEICAgIC4v_utVg-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEE2N3N6T2lKeU5HN0poNkYycXNOelo.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhA67szOiJyNG7Jh6F2qsNzZ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEE2N3N6T2lKeU5HN0poNkYycXNOelo.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhA67szOiJyNG7Jh6F2qsNzZ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFlU2I1RGI3a3ZSaWozQVVQM2tjbFM.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhAeSb5Db7kvRij3AUP3kclS-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFlU2I1RGI3a3ZSaWozQVVQM2tjbFM.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhAeSb5Db7kvRij3AUP3kclS-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEMzMkZ5ejF0SENpLVJteVBlVVRSZ0I.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhC32Fyz1tHCi-RmyPeUTRgB-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEMzMkZ5ejF0SENpLVJteVBlVVRSZ0I.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhC32Fyz1tHCi-RmyPeUTRgB-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhCCXMlSxWFUbG6zgtvEIPYd-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaENDWE1sU3hXRlViRzZ6Z3R2RUlQWWQ.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/baldersnas-herrgard/CIABIhCCXMlSxWFUbG6zgtvEIPYd-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8oi6zwE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4b2k2endF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8oi6zwE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0U4cENFTkE.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8pCENA-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0U4cENFTkE.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8pCENA-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4c2o5c1FF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8sj9sQE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4c2o5c1FF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8sj9sQE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0U4dERtS1E.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8tDmKQ-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0U4dERtS1E.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8tDmKQ-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4dERtc2dF&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8tDmsgE-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSF0NJSE0wb2dLRUlDQWdJQ0U4dERtc2dF&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICE8tDmsgE-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0VzdF9qYXc.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICEst_jaw-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSFkNJSE0wb2dLRUlDQWdJQ0VzdF9qYXc.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/hofsnas-herrgard/CIHM0ogKEICAgICEst_jaw-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFIZ2V2cVlWTy10d3dmLWJtLUg4aW0.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhAHgevqYVO-twwf-bm-H8im-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEFIZ2V2cVlWTy10d3dmLWJtLUg4aW0.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhAHgevqYVO-twwf-bm-H8im-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEJsY0tWcExnSnppZ2M0NXMtaFAtWXo.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhBlcKVpLgJzigc45s-hP-Yz-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaEJsY0tWcExnSnppZ2M0NXMtaFAtWXo.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhBlcKVpLgJzigc45s-hP-Yz-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaENzRkhoUXN3Y0dVY1Z6M0lDTHg5LWs.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhCsFHhQswcGUcVz3ICLx9-k-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaENzRkhoUXN3Y0dVY1Z6M0lDTHg5LWs.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhCsFHhQswcGUcVz3ICLx9-k-180.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.&heading=0&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhDi1aAbyWrA1jFokewT6mXf-0.jpg"
+},
+{
+"url": "https://maps.googleapis.com/maps/api/streetview?size=400x240&fov=120&pano=CAoSHENJQUJJaERpMWFBYnlXckExakZva2V3VDZtWGY.&heading=180&key={MAPS_KEY}",
+"path": "data/source/tg/ulfshyttans-herrgard/CIABIhDi1aAbyWrA1jFokewT6mXf-180.jpg"
+}
+],
 "jsonUrls": [
 {
 "url": "https://www.google.com/maps/photometa/v1?authuser=0&hl=sv&gl=se&pb=!1m4!1smaps_sv.tactile!11m2!2m1!1b1!2m2!1ssv!2sse!3m3!1m2!1e10!2sCIHM0ogKEICAgIC4v_v06AE!4m57!1e1!1e2!1e3!1e4!1e5!1e6!1e8!1e12!2m1!1e1!4m1!1i48!5m1!1e1!5m1!1e2!6m1!1e1!6m1!1e2!9m36!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e1!2b0!3e3!1m3!1e4!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e3"
