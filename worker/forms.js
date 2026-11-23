@@ -13,7 +13,7 @@ const FORMS = {
   forfragan: {
     subject: 'Förfrågan',
     required: ['slott', 'vad', 'namn', 'epost', 'samtycke'],
-    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande', 'liknande', 'samtycke', 'sida'],
+    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande', 'fler', 'liknande', 'samtycke', 'sida'],
     confirm: true,
   },
   // "Få förslag på slott": utan bestämt slott (start-, kategori-, läns- och guidesidorna).
@@ -32,7 +32,7 @@ const FORMS = {
 const LABELS = {
   slott: 'Slott', vill: 'Gäller', vad: 'Gäller', omrade: 'Område', lank: 'Länk', datum: 'När', flexibelt: 'Flexibelt datum', gaster: 'Gäster',
   overnattning: 'Övernattning', budget: 'Budget', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
-  liknande: 'Vill ha tips om liknande slott', samtycke: 'Godkänner vidarebefordran', sida: 'Skickat från sidan',
+  fler: 'Vill även fråga', liknande: 'Vill ha tips om liknande slott', samtycke: 'Godkänner vidarebefordran', sida: 'Skickat från sidan',
 };
 // Tacksidorna som formulären får skicka vidare till (svenska och de andra språken).
 const THANKS = /^\/tack\/$/;
@@ -96,8 +96,9 @@ async function notify(env, form, r) {
 // så att formuläret inte kan användas för att skicka egna texter till andra.
 async function confirm(env, r) {
   const short = v => String(v || '').replace(/\s+/g, ' ').slice(0, 80);
-  const rows = [['Gäller', r.vad], ['Slott', r.formular === 'forfragan' ? r.slott : ''], ['Område', r.omrade], ['När', r.datum], ['Gäster', r.gaster]]
-    .filter(x => x[1]).map(([k, v]) => `${k}: ${short(v)}`).join('\n');
+  const names = v => String(v || '').split(/,\s*/).filter(Boolean).slice(0, 5).map(x => x.replace(/-/g, ' ').replace(/^./, m => m.toUpperCase())).join(', ').slice(0, 200);
+  const rows = [['Gäller', r.vad], ['Slott', r.formular === 'forfragan' ? names(r.slott) : ''], ['Frågar även', names(r.fler)], ['Område', r.omrade], ['När', r.datum], ['Gäster', r.gaster]]
+    .filter(x => x[1]).map(([k, v]) => `${k}: ${k === 'Slott' || k === 'Frågar även' ? v : short(v)}`).join('\n');
   const text = `Hej ${short(r.namn).split(' ')[0]}!
 
 Tack för din förfrågan till Slottsregistret.se. Vi har tagit emot den och hör av oss inom ett par vardagar.

@@ -18,6 +18,104 @@ function nearCity(S, L, p, km) {
   ].join('\n');
 }
 
+
+// Lista över slott med ett visst erbjudande, med antal gäster, om man kan bo där och avstånd (om en stad anges).
+// Grupperas per län när ingen stad anges. Bara uppgifter från erbjudanden.json och kapacitet.json.
+function offerList(S, L, { offer, also = null, center = null, km = 70, capKey = 'festText' }) {
+  const has = (c, o) => c.offers.includes(o);
+  let rows = S.data.castles.filter(c => has(c, offer) && (!also || has(c, also)));
+  const dist = c => center && c.lat != null ? Math.round(haversine(center, c)) : null;
+  if (center) rows = rows.filter(c => dist(c) != null && dist(c) <= km).sort((a, b) => dist(a) - dist(b));
+  const li = c => {
+    const bits = [c.kommun];
+    if (center) { const d = dist(c); bits.push(d < 3 ? 'i stan' : `ca ${d < 10 ? d : Math.round(d / 5) * 5} km`); }
+    const cap = c.capacity && c.capacity[capKey];
+    const extra = [cap, offer !== 'bo-pa-slott' && !also && has(c, 'bo-pa-slott') ? 'går att bo på' : null, c.tours.length ? 'virtuell rundtur' : null].filter(Boolean);
+    return `<li>${L(c.slug)} (${bits.join(', ')})${extra.length ? `: ${extra.join(' · ')}` : ''}</li>`;
+  };
+  if (center) return rows.length ? `<ul>${rows.map(li).join('')}</ul>` : '<p>Inga slott i registret inom det avståndet ännu.</p>';
+  const by = new Map();
+  for (const c of rows) { const k = c.lan; if (!by.has(k)) by.set(k, []); by.get(k).push(c); }
+  return [...by.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], 'sv'))
+    .map(([lan, l]) => `<h3>${lan}</h3><ul>${l.sort((a, b) => a.name.localeCompare(b.name, 'sv')).map(li).join('')}</ul>`).join('\n');
+}
+const CITY = {
+  stockholm: { namn: 'Stockholm', p: { lat: 59.3293, lon: 18.0686 }, km: 60, near: ['stockholm', 'uppsala', 'sodermanland'] },
+  goteborg: { namn: 'Göteborg', p: { lat: 57.7089, lon: 11.9746 }, km: 70, near: ['vastra-gotaland', 'halland'] },
+  malmo: { namn: 'Malmö', p: { lat: 55.605, lon: 13.0038 }, km: 60, near: ['skane'] },
+};
+const mil = km => `${km / 10} mil`;
+const count = (S, offer, also, center, km) => S.data.castles.filter(c => c.offers.includes(offer) && (!also || c.offers.includes(also)) && (!center || (c.lat != null && haversine(center, c) <= km))).length;
+
+// Nischguider (23 nov): bröllop och konferens nära storstäderna, och med övernattning i hela landet.
+const niche = (S, L) => [
+  ...Object.entries(CITY).map(([slug, C]) => ({
+    slug: `brollop-pa-slott-nara-${slug}`, cat: 'brollop-och-fest', near: C.near, updated: '2026-11-23',
+    title: `Bröllop på slott nära ${C.namn} – ${count(S, 'brollop-och-fest', null, C.p, C.km)} slott inom ${mil(C.km)}`,
+    h1: `Bröllop på slott nära ${C.namn}`,
+    description: `Slott för bröllop och fest inom ${mil(C.km)} från ${C.namn}, med avstånd, hur många gäster de tar och var gästerna kan sova.`,
+    lead: `Här är alla slott och herrgårdar i registret inom ${mil(C.km)} från ${C.namn} som tar emot bröllop och fest, de närmaste först.`,
+    body: () => `
+<h2>Tänk på det här när ni väljer</h2>
+<ul>
+<li><b>Avståndet för gästerna.</b> Ett slott en halvtimme från stan gör det lätt för gäster som inte sover över. Längre bort behövs oftast buss eller övernattning.</li>
+<li><b>Övernattning.</b> Slotten som går att bo på är märkta nedan. Där kan hela sällskapet stanna kvar efter festen.</li>
+<li><b>Antal gäster.</b> Där slottet själv anger hur många som får plats står det i listan. Fråga alltid om just den sal och möblering ni vill ha.</li>
+<li><b>Se salarna först.</b> Slott med virtuell rundtur kan ni gå runt i digitalt innan ni bokar visning.</li>
+</ul>
+<h2>Slott för bröllop inom ${mil(C.km)} från ${C.namn}</h2>
+<p>Avstånden är fågelvägen från centrala ${C.namn}.</p>
+${offerList(S, L, { offer: 'brollop-och-fest', center: C.p, km: C.km })}
+<p>Läs också vår guide <a href="/guider/gifta-sig-pa-slott/">Gifta sig på slott</a> med frågor att ställa till slottet.</p>`,
+  })),
+  ...Object.entries(CITY).map(([slug, C]) => ({
+    slug: `konferens-pa-slott-nara-${slug}`, cat: 'konferens', near: C.near, updated: '2026-11-23',
+    title: `Konferens på slott nära ${C.namn} – ${count(S, 'konferens', null, C.p, C.km)} slott inom ${mil(C.km)}`,
+    h1: `Konferens på slott nära ${C.namn}`,
+    description: `Slott och herrgårdar för konferens, kickoff och möte inom ${mil(C.km)} från ${C.namn}, med avstånd, storlek på största lokalen och övernattning.`,
+    lead: `Alla slott och herrgårdar i registret inom ${mil(C.km)} från ${C.namn} som tar emot konferenser, de närmaste först. Bra för dagmöten, kickoffer och ledningsgrupper.`,
+    body: () => `
+<h2>Dagmöte eller med övernattning?</h2>
+<p>För en dagkonferens är det viktigaste att slottet är lätt att nå, så börja med de närmaste i listan. Ska gruppen sova över, välj ett slott som är märkt "går att bo på", så att möte, middag och rum finns på samma ställe.</p>
+<h2>Slott för konferens inom ${mil(C.km)} från ${C.namn}</h2>
+<p>Avstånden är fågelvägen från centrala ${C.namn}. Siffran är den största lokalen enligt slottets egen webbplats.</p>
+${offerList(S, L, { offer: 'konferens', center: C.p, km: C.km, capKey: 'konferensText' })}
+<p>Fler råd finns i guiden <a href="/guider/konferens-pa-slott/">Så väljer ni slott för konferensen</a>.</p>`,
+  })),
+  {
+    slug: 'brollop-med-overnattning-pa-slott', cat: 'brollop-och-fest', updated: '2026-11-23',
+    title: `Bröllop med övernattning på slott – ${count(S, 'brollop-och-fest', 'bo-pa-slott')} slott där gästerna kan sova`,
+    h1: 'Bröllop med övernattning på slott',
+    description: 'Slott i Sverige där ni kan ha bröllop och fest och där gästerna kan sova kvar, län för län, med hur många gäster slotten tar.',
+    lead: 'Det bästa med ett slottsbröllop är ofta morgonen efter: frukost med alla gäster i samma hus. Här är slotten som både tar emot bröllop och har rum att sova i.',
+    body: () => `
+<h2>Bra att fråga om</h2>
+<ul>
+<li>Hur många kan sova på slottet, och finns det fler rum i närheten för resten av gästerna?</li>
+<li>Måste ni hyra hela slottet, eller bor andra gäster där samma helg?</li>
+<li>Ingår frukosten dagen efter, och hur sent får festen hålla på?</li>
+</ul>
+<h2>Slott med bröllop och övernattning</h2>
+${offerList(S, L, { offer: 'brollop-och-fest', also: 'bo-pa-slott' })}`,
+  },
+  {
+    slug: 'kickoff-och-konferens-med-overnattning-pa-slott', cat: 'konferens', updated: '2026-11-23',
+    title: `Kickoff och konferens med övernattning på slott – ${count(S, 'konferens', 'bo-pa-slott')} slott`,
+    h1: 'Kickoff och konferens med övernattning på slott',
+    description: 'Slott i Sverige där ni kan ha konferens eller kickoff och sova över, län för län, med största lokalen enligt slotten själva.',
+    lead: 'För en kickoff eller en konferens över två dagar är det skönt när möte, middag och rum finns på samma ställe. Här är slotten som har både och.',
+    body: () => `
+<h2>Bra att fråga om</h2>
+<ul>
+<li>Hur många rum finns, och hur många kan dela rum?</li>
+<li>Finns aktiviteter på plats, som spa, bastu, golf eller guidad visning av slottet?</li>
+<li>Har ni slottet för er själva, eller finns andra grupper samtidigt?</li>
+</ul>
+<h2>Slott med konferens och övernattning</h2>
+${offerList(S, L, { offer: 'konferens', also: 'bo-pa-slott', capKey: 'konferensText' })}`,
+  },
+];
+
 module.exports = (S, L, list) => [
   {
     slug: 'gifta-sig-pa-slott',
@@ -257,4 +355,5 @@ ${nearCity(S, L, { lat: 57.7089, lon: 11.9746 }, 70)}`,
 <p>Avstånden är fågelvägen från centrala Malmö.</p>
 ${nearCity(S, L, { lat: 55.605, lon: 13.0038 }, 60)}`,
   },
+  ...niche(S, L),
 ];

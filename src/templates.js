@@ -338,6 +338,18 @@ ${PRIVACY}
 // Fast knapp längst ner på mobilen, så att förfrågan går att nå utan att skrolla igenom hela sidan.
 const stickyCta = (href, label) => `<a class="sticky-cta" href="${href}" data-ev="Klick: ${esc(label)} (mobilknapp)">${esc(label)}</a>`;
 
+// En förfrågan till flera slott: de närmaste slotten som tar emot samma sak (bröllop/fest eller konferens) går att kryssa i.
+function alsoAsk(S, c) {
+  if (c.lat == null) return '';
+  const kinds = LEAD.filter(([slug]) => c.offers.includes(slug)).map(([slug]) => slug);
+  const near = S.data.castles.filter(o => o !== c && o.lat != null && kinds.some(k => o.offers.includes(k)))
+    .map(o => [haversine(c, o), o]).filter(x => x[0] <= 80).sort((a, b) => a[0] - b[0]).slice(0, 4);
+  if (!near.length) return '';
+  return `<fieldset class="also"><legend>Fråga även dessa slott i närheten (frivilligt)</legend>
+${near.map(([d, o]) => `  <label><input type="checkbox" name="fler" value="${esc(o.slug)}"> ${esc(o.name)} <small>ca ${Math.max(1, Math.round(d))} km</small></label>`).join('\n')}
+</fieldset>`;
+}
+
 function leadForm(S, c) {
   const kinds = leadKinds(c);
   if (!kinds.length) return '';
@@ -364,7 +376,8 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 <label for="epost">E-post</label><input id="epost" name="epost" type="email" required autocomplete="email">
 <label for="telefon">Telefon (frivilligt)</label><input id="telefon" name="telefon" type="tel" autocomplete="tel">
 <label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
-<label class="check"><input type="checkbox" name="liknande" value="Ja" checked> Tipsa mig gärna om liknande slott i närheten</label>
+${alsoAsk(S, c)}
+<label class="check"><input type="checkbox" name="liknande" value="Ja" checked> Tipsa mig gärna om fler liknande slott</label>
 <input type="hidden" name="sida" value="${esc(castleURL(c))}">
 ${CONSENT}
 <button class="btn btn-gold" type="submit" data-ev="Skickar förfrågan">Skicka förfrågan</button>
@@ -584,7 +597,8 @@ function category(S, cat, co) {
     ingress: categoryIngress(S, cat, co, list),
     form: CAT_FORM[cat.slug] ? suggestForm(S, { ...CAT_FORM[cat.slug], lan: co && co.slug, page: catURL(cat, co),
       heading: CAT_FORM[cat.slug].heading + (co ? ` i ${co.name}` : '') }) + stickyCta('#forslag', 'Få förslag på slott') : '',
-    extra: guideLinks(S, guides(S).filter(g => g.cat === cat.slug || (co && (g.near || []).includes(co.slug)))),
+    extra: guideLinks(S, guides(S).filter(g => g.cat === cat.slug || (co && (g.near || []).includes(co.slug)))) +
+      (CAT_FORM[cat.slug] && list.some(c => c.tours.length) ? `<p class="tour-note">${TOUR_ICON}<span><b>Titta in innan du frågar.</b> ${nf(list.filter(c => c.tours.length).length)} av slotten här har en virtuell rundtur, så att du kan gå runt i salarna hemifrån. De visas först i listan.</span></p>` : ''),
     crumbsList: co ? [['/', 'Start'], [catURL(cat), cat.name], [catURL(cat, co), co.name]] : [['/', 'Start'], [catURL(cat), cat.name]],
   });
 }

@@ -501,3 +501,6 @@ body .leaflet-tooltip { font: 600 .85rem var(--sans); color: var(--ink); border:
   .sticky-cta.hide { transform: translateY(140%); opacity: 0; pointer-events: none; }
   body.has-cta { padding-bottom: 76px; }
 }
+.form fieldset.also small { color: var(--muted, #6b6f6a); margin-left: 4px; }
+.tour-note { display: flex; gap: 12px; align-items: flex-start; margin: 14px 0; padding: 14px 18px; border-radius: 10px; background: #F4EEDF; border-left: 3px solid var(--gold); }
+.tour-note .ico { width: 22px; height: 22px; flex: none; margin-top: 2px; color: var(--gold-ink); }
