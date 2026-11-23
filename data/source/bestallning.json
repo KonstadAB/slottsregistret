@@ -194,6 +194,30 @@
 },
 {
 "url": "https://s3.eu-north-1.amazonaws.com/onemanwork-virtualtours/haringe_slott/script.js"
+},
+{
+"url": "https://vr.kungligaslotten.se/rikssalen/indexdata/index.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/GustavIIIsAntikmuseum/indexdata/index.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/vasa-to-bernadotte/indexdata/index.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/ehrenstrahlsalongen/indexdata/index.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/hedvigeleonorasparadsangkammare/indexdata/index.xml"
+},
+{
+"url": "https://vr.kungligaslotten.se/ulriksdal/indexdata/index.xml"
+},
+{
+"url": "https://permstade.se/360_slott/mauritzberg_data/mauritzberg.xml"
+},
+{
+"url": "https://www.almnas.com/360/Almnas_data/Almnas.xml"
 }
 ],
 "textPages": [
