@@ -298,7 +298,7 @@
  "trollenas-slott": [
   {
    "id": "gm-trollenas-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Magnus Högfeldt"
@@ -307,7 +307,8 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF!2m2!1d55.86565344234298!2d13.24536731095455!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-10-02",
+   "note": "Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (visar Näs kyrka, inte slottet)."
   }
  ],
  "vadstena-slott": [
@@ -420,7 +421,7 @@
  "hellidens-slott": [
   {
    "id": "gm-hellidens-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Johan Arntzen"
@@ -429,7 +430,8 @@
    "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.!2m2!1d58.17325445881553!2d13.98005024483571!3f0!4f0!5f0.7820865974627469",
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.",
    "source": "streetview",
-   "checked": "2026-10-02"
+   "checked": "2026-10-02",
+   "note": "Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (skolkorridor och gata)."
   }
  ],
  "gavle-slott": [
@@ -556,7 +558,7 @@
  "stegeborgs-slottsruin": [
   {
    "id": "gm-stegeborgs-slottsruin",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Samuel Cedermyr"
@@ -566,7 +568,7 @@
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF",
    "source": "streetview",
    "checked": "2026-11-02",
-   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand) Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (bara ruinmurar och gräsmatta)."
   },
   {
    "id": "gm-stegeborgs-slottsruin",
@@ -677,7 +679,7 @@
  "marbacka": [
   {
    "id": "kuula-marbacka",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Kuula",
    "credit": [
     "Open Virtual Worlds"
@@ -686,7 +688,7 @@
    "url": "https://openvirtualworlds.viewin360.co/share/collection/7Fhb5?info=0&fs=1&vr=1&sd=1&thumbs=1",
    "source": "slottets webbplats",
    "checked": "2026-10-03",
-   "note": "Fem 360-punkter ute och inne som man kan gå mellan (länkad från marbacka.com)."
+   "note": "Fem 360-punkter ute och inne som man kan gå mellan (länkad från marbacka.com). Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (fyra av fem bilder utomhus)."
   }
  ],
  "almnas-slott": [
@@ -796,7 +798,7 @@
  "nynas-slott": [
   {
    "id": "gm-nynas-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "george saguna"
@@ -806,13 +808,13 @@
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF",
    "source": "streetview",
    "checked": "2026-11-02",
-   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand) Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (mest gårdsplan)."
   }
  ],
  "hovdala-slott": [
   {
    "id": "gm-hovdala-slott",
-   "kind": "walk",
+   "kind": "look",
    "provider": "Google Maps",
    "credit": [
     "Mohammed Mroveh"
@@ -822,7 +824,7 @@
    "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF",
    "source": "streetview",
    "checked": "2026-11-02",
-   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
+   "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand) Borttagen 23 nov på Daniels beslut efter kvalitetsgranskningen (mörkt rum och snöfält)."
   }
  ],
  "tullesbo": [

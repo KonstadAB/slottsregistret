@@ -467,22 +467,7 @@
     "https://hovdala.se/h/besok-hovdala-slott/butik-och-information",
     "https://hovdala.se/h/upptacka-och-gora/hovdala-vandringscentrum"
    ],
-   "tours": [
-    {
-     "id": "gm-hovdala-slott",
-     "kind": "walk",
-     "provider": "Google Maps",
-     "credit": [
-      "Mohammed Mroveh"
-     ],
-     "year": 2017,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF!2m2!1d56.10373330932681!2d13.71388923233674!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDQyWlQtdEFF",
-     "source": "streetview",
-     "checked": "2026-11-02",
-     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "backaskog-slott",
@@ -870,21 +855,7 @@
     "https://www.trollenasslott.se/konferens/",
     "https://sv.wikipedia.org/wiki/Trollen%C3%A4s_slott"
    ],
-   "tours": [
-    {
-     "id": "gm-trollenas-slott",
-     "kind": "walk",
-     "provider": "Google Maps",
-     "credit": [
-      "Magnus Högfeldt"
-     ],
-     "year": 2016,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF!2m2!1d55.86565344234298!2d13.24536731095455!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJREUySXJ5cmdF",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "krapperups-slott",
@@ -7186,21 +7157,7 @@
     "https://www.vastsverige.com/tidaholm/kulturhelg/utstallningsplatser/hellidens-slott-och-folkhogskola/",
     "https://sv.wikipedia.org/wiki/Hellidens_slott"
    ],
-   "tours": [
-    {
-     "id": "gm-hellidens-slott",
-     "kind": "walk",
-     "provider": "Google Maps",
-     "credit": [
-      "Johan Arntzen"
-     ],
-     "year": 2016,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.!2m2!1d58.17325445881553!2d13.98005024483571!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSFkNJSE0wb2dLRUlDQWdJRDR4TFcyVmc.",
-     "source": "streetview",
-     "checked": "2026-10-02"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "hojentorps-slott",
@@ -9273,22 +9230,7 @@
     "https://en.wikipedia.org/wiki/Stegeborg",
     "https://www.stegeborg.se/slottsruinen/"
    ],
-   "tours": [
-    {
-     "id": "gm-stegeborgs-slottsruin",
-     "kind": "walk",
-     "provider": "Google Maps",
-     "credit": [
-      "Samuel Cedermyr"
-     ],
-     "year": 2021,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF!2m2!1d58.44128314134035!2d16.59817181322306!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDY2NkR5eVFF",
-     "source": "streetview",
-     "checked": "2026-11-02",
-     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "sturefors-slott",
@@ -10277,22 +10219,7 @@
     "https://nynasslott.se/om-verksamheten/",
     "https://nynasslott.se/besoksinformation/"
    ],
-   "tours": [
-    {
-     "id": "gm-nynas-slott",
-     "kind": "walk",
-     "provider": "Google Maps",
-     "credit": [
-      "george saguna"
-     ],
-     "year": 2018,
-     "embed": "https://www.google.com/maps/embed?pb=!4v1!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF!2m2!1d58.80758174024182!2d17.36444188259743!3f0!4f0!5f0.7820865974627469",
-     "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CAoSF0NJSE0wb2dLRUlDQWdJRDRzN21tdmdF",
-     "source": "streetview",
-     "checked": "2026-11-02",
-     "note": "Hittad i Google-räkningen 2 nov (ihopkopplad tur med bilder inomhus, granskad för hand)"
-    }
-   ]
+   "tours": []
   },
   {
    "id": "julita-gard",
@@ -16875,21 +16802,7 @@
     "https://marbacka.com/marbackastiftelsen/",
     "https://sv.wikipedia.org/wiki/M%C3%A5rbacka"
    ],
-   "tours": [
-    {
-     "id": "kuula-marbacka",
-     "kind": "walk",
-     "provider": "Kuula",
-     "credit": [
-      "Open Virtual Worlds"
-     ],
-     "embed": "https://kuula.co/share/collection/7Fhb5?logo=-1&info=0&fs=1&vr=1&sd=1&thumbs=1",
-     "url": "https://openvirtualworlds.viewin360.co/share/collection/7Fhb5?info=0&fs=1&vr=1&sd=1&thumbs=1",
-     "source": "slottets webbplats",
-     "checked": "2026-10-03",
-     "note": "Fem 360-punkter ute och inne som man kan gå mellan (länkad från marbacka.com)."
-    }
-   ]
+   "tours": []
   },
   {
    "id": "alsters-herrgard",
@@ -18444,7 +18357,7 @@
    "full": "Skåne län",
    "slug": "skane",
    "total": 73,
-   "withTour": 9
+   "withTour": 7
   },
   {
    "name": "Blekinge",
@@ -18493,21 +18406,21 @@
    "full": "Västra Götalands län",
    "slug": "vastra-gotaland",
    "total": 24,
-   "withTour": 5
+   "withTour": 4
   },
   {
    "name": "Östergötland",
    "full": "Östergötlands län",
    "slug": "ostergotland",
    "total": 17,
-   "withTour": 3
+   "withTour": 2
   },
   {
    "name": "Södermanland",
    "full": "Södermanlands län",
    "slug": "sodermanland",
    "total": 27,
-   "withTour": 2
+   "withTour": 1
   },
   {
    "name": "Stockholm",
@@ -18542,7 +18455,7 @@
    "full": "Värmlands län",
    "slug": "varmland",
    "total": 3,
-   "withTour": 1
+   "withTour": 0
   },
   {
    "name": "Dalarna",
@@ -18664,7 +18577,7 @@
  ],
  "stats": {
   "total": 264,
-  "withTour": 41,
+  "withTour": 35,
   "located": 264
  }
 }
