@@ -286,8 +286,10 @@ function capacityBox(c) {
       <p class="small">Enligt ${cap.source ? `<a href="${esc(cap.source)}" rel="nofollow noopener" target="_blank">slottets egen webbplats</a>` : 'slottets egen webbplats'}.</p></div>`;
 }
 
-// Daniels regel: kundens uppgifter lämnas aldrig ut till slottet innan han har en överenskommelse, och då bara om kunden säger ja.
-const PRIVACY = `<p class="small">Det är vi på Slottsregistret som läser och svarar. Vi lämnar inte ut dina uppgifter till slottet eller någon annan utan att fråga dig först, och sparar dem i högst två år. Se <a href="/integritet/">integritet</a>.</p>`;
+// Besökaren godkänner att vi vidarebefordrar uppgifterna (kryssrutan). Daniels interna regel gäller ändå: uppgifterna går till ett slott
+// först när han har en överenskommelse med det.
+const PRIVACY = `<p class="small">Det är vi på Slottsregistret som läser och svarar. Vi sparar uppgifterna i högst två år. Se <a href="/integritet/">integritet</a>.</p>`;
+const CONSENT = `<label class="check consent"><input type="checkbox" name="samtycke" value="Ja" required> Jag godkänner att Slottsregistret vidarebefordrar mina uppgifter till slott och arrangörer, så att ni kan hjälpa mig på bästa sätt.</label>`;
 const WHO = `<p class="inquiry-who">Daniel Andersson på Slottsregistret läser och svarar på varje förfrågan själv.</p>`;
 
 // "Få förslag på slott": en kort förfrågan utan bestämt slott, för start-, kategori-, läns- och guidesidorna och för
@@ -326,6 +328,7 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${kin
 <label for="f-epost">E-post</label><input id="f-epost" name="epost" type="email" required autocomplete="email">
 <label for="f-telefon">Telefon (frivilligt)</label><input id="f-telefon" name="telefon" type="tel" autocomplete="tel">
 <label for="f-meddelande">Berätta gärna mer (frivilligt)</label><textarea id="f-meddelande" name="meddelande" rows="3"></textarea>
+${CONSENT}
 <button class="btn btn-gold" type="submit">Skicka och få förslag</button>
 ${PRIVACY}
 </form>
@@ -363,6 +366,7 @@ ${kinds.map((k, i) => `  <label><input type="radio" name="vad" value="${k}"${i ?
 <label for="meddelande">Berätta gärna mer (frivilligt)</label><textarea id="meddelande" name="meddelande" rows="4"></textarea>
 <label class="check"><input type="checkbox" name="liknande" value="Ja" checked> Tipsa mig gärna om liknande slott i närheten</label>
 <input type="hidden" name="sida" value="${esc(castleURL(c))}">
+${CONSENT}
 <button class="btn btn-gold" type="submit" data-ev="Skickar förfrågan">Skicka förfrågan</button>
 ${PRIVACY}
 </form>
@@ -759,7 +763,7 @@ function privacy(S) {
 <h2>Virtuella rundturer</h2>
 <p>En rundtur laddas först när du trycker på knappen för att starta den. Då hämtas den från leverantören (till exempel Google, Matterport eller Kuula), som kan sätta egna kakor enligt sina villkor. Att starta rundturen är ditt samtycke till det.</p>
 <h2>Formulär</h2>
-<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest, konferens eller boende läser och besvarar vi själva på Slottsregistret. Vi lämnar aldrig ut ditt namn, din e-post eller ditt telefonnummer till slottet eller någon annan utan att fråga dig först. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
+<p>Det du skickar via våra formulär sparas i högst två år och används bara för att svara dig och uppdatera registret. En förfrågan om bröllop, fest, konferens eller boende läser och besvarar vi på Slottsregistret. När du skickar den godkänner du att vi vidarebefordrar uppgifterna till slott och arrangörer, så att vi kan hjälpa dig på bästa sätt. Ansvarig: ${esc(S.config.owner)}, ${esc(S.config.company)}, <a href="mailto:${esc(S.config.contactEmail)}">${esc(S.config.contactEmail)}</a>.</p>` });
 }
 
 function formFields(S, name) {

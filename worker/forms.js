@@ -12,15 +12,15 @@ const FORMS = {
   },
   forfragan: {
     subject: 'Förfrågan',
-    required: ['slott', 'vad', 'namn', 'epost'],
-    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande', 'liknande', 'sida'],
+    required: ['slott', 'vad', 'namn', 'epost', 'samtycke'],
+    fields: ['slott', 'vad', 'datum', 'gaster', 'namn', 'epost', 'telefon', 'meddelande', 'liknande', 'samtycke', 'sida'],
     confirm: true,
   },
   // "Få förslag på slott": utan bestämt slott (start-, kategori-, läns- och guidesidorna).
   forslag: {
     subject: 'Förslag på slott',
-    required: ['vad', 'namn', 'epost'],
-    fields: ['vad', 'omrade', 'slott', 'datum', 'flexibelt', 'gaster', 'overnattning', 'budget', 'namn', 'epost', 'telefon', 'meddelande', 'sida'],
+    required: ['vad', 'namn', 'epost', 'samtycke'],
+    fields: ['vad', 'omrade', 'slott', 'datum', 'flexibelt', 'gaster', 'overnattning', 'budget', 'namn', 'epost', 'telefon', 'meddelande', 'samtycke', 'sida'],
     confirm: true,
   },
   tips: {
@@ -32,7 +32,7 @@ const FORMS = {
 const LABELS = {
   slott: 'Slott', vill: 'Gäller', vad: 'Gäller', omrade: 'Område', lank: 'Länk', datum: 'När', flexibelt: 'Flexibelt datum', gaster: 'Gäster',
   overnattning: 'Övernattning', budget: 'Budget', namn: 'Namn', roll: 'Roll', epost: 'E-post', telefon: 'Telefon', meddelande: 'Meddelande',
-  liknande: 'Vill ha tips om liknande slott', sida: 'Skickat från sidan',
+  liknande: 'Vill ha tips om liknande slott', samtycke: 'Godkänner vidarebefordran', sida: 'Skickat från sidan',
 };
 // Tacksidorna som formulären får skicka vidare till (svenska och de andra språken).
 const THANKS = /^\/tack\/$/;
@@ -104,7 +104,7 @@ Tack för din förfrågan till Slottsregistret.se. Vi har tagit emot den och hö
 
 ${rows}
 
-Det är vi på Slottsregistret som läser och svarar. Vi lämnar inte ut dina uppgifter till slottet eller någon annan utan att fråga dig först.
+Det är vi på Slottsregistret som läser och svarar, och vi hjälper dig vidare till de slott som passar.
 
 Vill du lägga till något kan du svara på det här mejlet.
 

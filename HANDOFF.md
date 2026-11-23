@@ -320,7 +320,8 @@ Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en pla
 
 ## 23 nov: konkurrentanalys och förfrågan överallt (grenen claude/project-thread-wtnj7g, inte publicerad)
 - Konkurrentanalys (Claude Doc "Slottsregistret – konkurrentanalys november 2026"): Venuu största hotet, ingen annan använder 360-turer.
-- Integritetstexten vid förfrågan och på /integritet/ sa att uppgifter kan delas med slottet. Nu: vi lämnar inte ut uppgifter utan att fråga först (Daniels regel).
+- Integritet (Daniel 23 nov): inget löfte om att inte lämna ut uppgifter. I stället en obligatorisk kryssruta `samtycke`: besökaren godkänner att vi
+  vidarebefordrar uppgifterna till slott och arrangörer. Daniels interna regel gäller ändå (till slottet först när avtal finns).
 - Nytt formulär `forslag` ("Få förslag på slott", `suggestForm` i templates.js): startsidan, kategorisidorna bröllop/konferens/bo/spa
   (även per län), alla länssidor, guiderna (utom barnguiden) och slottssidor där slottet inte själv tar bröllop/konferens
   (`nearSuggest`, antal slott inom 5 mil, länet förvalt). Fält: vad, område, datum, flexibelt, gäster, övernattning, budget.
