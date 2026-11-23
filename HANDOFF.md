@@ -338,3 +338,10 @@ Länkarbetet: listan över sajter som kan länka till oss, mejlmallar och en pla
   - Åtta nya guider (src/guider.js `niche`): bröllop/konferens på slott nära Stockholm, Göteborg, Malmö, bröllop med övernattning,
     kickoff och konferens med övernattning. Listorna räknas fram ur erbjudanden och kapacitet.
   - Bröllops-, konferens-, bo- och spasidorna: rutan "Titta in innan du frågar" om hur många som har rundtur.
+
+## 23 nov: kvalitetsgranskning av rundturerna
+- Alla 41 slott med rundtur öppnades och bedömdes (typ av 360, fotograf, rum, inne/ute, betyg). Listan: projektfilen
+  `rundturer-23-nov/rundturer-granskning.xlsx`.
+- Daniel valde att ta bort sex turer (satta till `look` i rundturer.json, bara turerna lappade i site-data.json): Trollenäs (visade Näs kyrka),
+  Helliden, Hovdala, Stegeborg, Nynäs och Mårbacka. Nu 35 slott med rundtur.
+- Kungliga slottens Gustav III:s antikmuseum visade svart bild vid två försök 23 nov – kontrollera.
